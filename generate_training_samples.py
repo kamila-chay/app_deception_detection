@@ -72,7 +72,7 @@ for _, row in df.iterrows():
         {
             "role": "user",
             "content": [
-                {"type": "text", "text": f"You are given a structured, accurate, human-written description of someone's behavior in a video. Based on external, reliable information, the clip is labeled as {traits_dict['Label']}. Imagine you don't see the description or the label, just the video file instead. Write a text where you assess the person's behavior and estimate whether or not they are lying. Reason about both possibilities and make it seem like you deducted the correct label on your own using the video. Make the response sound natural as a reply to the question 'Is this person lying or telling the truth and why?'. Description (True - the behavior occured, False - it didn't occur): {repr(traits_dict)}"},
+                {"type": "text", "text": f"You are given a structured, accurate, human-written description of someone's behavior in a video. Based on external, reliable information, the clip is labeled as {traits_dict['Label']}. Imagine you don't see the description or the label, just the video file instead. Write a text where you assess the person's behavior and estimate whether or not they are lying. Reason about both possibilities and make it seem like you deducted the correct label on your own using the video. You shouldn't sound too confident too, try to make it seem like you're making an educated guess instead of claiming you know if they're lying or not. Include counterarguments as well. Make the response sound natural as a reply to the question 'Is this person lying or telling the truth and why?'. Description (True - the behavior occured, False - it didn't occur): {repr(traits_dict)}"},
             ],
         }
     ]
