@@ -103,5 +103,5 @@ for _, row in df.iterrows():
     with open(out / f'{row["Filename"]}_full.txt', "w") as f:
         f.write(output_text)
 
-    with open(out / "json_labels" / f"{row["Filename"]}.json", "w") as f:
+    with open(out / "json_labels" / f'{row["Filename"]}.json', "w") as f:
         json.dump(traits_dict, f)
