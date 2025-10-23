@@ -93,10 +93,10 @@ for _, row in df.iterrows():
         ]
         output_text = processor.batch_decode(
             generated_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
-        )
+        )[0]
         output_text_trimmed = processor.batch_decode(
             generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-        )
+        )[0]
     with open(out / f'{row["Filename"]}.txt', "w") as f:
         f.write(output_text_trimmed)
 
