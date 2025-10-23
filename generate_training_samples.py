@@ -73,7 +73,7 @@ for _, row in df.iterrows():
             "role": "user",
             "content": [
                 {"type": "text", "text": f"You are given a structured description of someone's behavior in a video. Based on external factors, the clip \
-                is labeled as {traits_dict["Label"]}. Write a text describing how the person's facial expressions, gestures etc. could indicate that the person is lying \
+                is labeled as {traits_dict['Label']}. Write a text describing how the person's facial expressions, gestures etc. could indicate that the person is lying \
                 or telling the truth. Reason about both possibilities even though you know the actual label. Description: {repr(traits_dict)}"},
             ],
         }
