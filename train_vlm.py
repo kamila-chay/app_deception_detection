@@ -18,7 +18,7 @@ import torch.distributed as dist
 from math import ceil
 
 DEFAULT_BATCH_SIZE = 36
-GRAD_ACCU_STEPS = 3
+GRAD_ACCU_STEPS = 6
 
 DS_CONFIG = {
     "train_batch_size": DEFAULT_BATCH_SIZE,
@@ -106,7 +106,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             for X, Y in train_dataloader:
                 X = processor.apply_chat_template(
                     X,
-                    num_frames=32,
+                    num_frames=16,
                     add_generation_prompt=True,
                     tokenize=True,
                     return_dict=True,
@@ -115,7 +115,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 )
                 Y = processor.apply_chat_template(
                     Y,
-                    num_frames=32,
+                    num_frames=16,
                     add_generation_prompt=False,
                     tokenize=True,
                     return_dict=True,
@@ -139,7 +139,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 for X, Y in val_dataloader:
                     X = processor.apply_chat_template(
                         X,
-                        num_frames=32,
+                        num_frames=16,
                         add_generation_prompt=True,
                         tokenize=True,
                         return_dict=True,
@@ -148,7 +148,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                     )
                     Y = processor.apply_chat_template(
                         Y,
-                        num_frames=32,
+                        num_frames=16,
                         add_generation_prompt=False,
                         tokenize=True,
                         return_dict=True,
@@ -179,7 +179,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                     for X, Y in test_dataloader:
                         X = processor.apply_chat_template(
                             X,
-                            num_frames=32,
+                            num_frames=16,
                             add_generation_prompt=True,
                             tokenize=True,
                             return_dict=True,
@@ -188,7 +188,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         )
                         Y = processor.apply_chat_template(
                             Y,
-                            num_frames=32,
+                            num_frames=16,
                             add_generation_prompt=False,
                             tokenize=True,
                             return_dict=True,
@@ -216,7 +216,6 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
     best_test_scores_per_subject.append(best_rouge_test_score)
     print(best_test_scores_per_subject) 
 # check learning rates 
-# you can reduce frames to 16 maybe...
 
 with open(f"out/{timestamp}/test_scores_per_subject.json", "w") as f:
     json.dump(best_test_scores_per_subject, f)
