@@ -2,17 +2,51 @@ from transformers import AutoProcessor, AutoModelForImageTextToText
 import torch
 from dataset_dolos import DolosDataset
 from pathlib import Path
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, DistributedSampler
 from peft import LoraConfig, get_peft_model
-from transformers import get_scheduler
 from rouge_score import rouge_scorer
 import numpy as np
 import json
 from transformers import logging
 logging.set_verbosity_error()
+import deepspeed
+from deepspeed.ops.adam import DeepSpeedCPUAdam
+from deepspeed.runtime.lr_schedules import WarmupCosineLR
+from torch.distributed import get_rank, barrier
+from datetime import datetime
+import torch.distributed as dist
+from math import ceil
+
+DEFAULT_BATCH_SIZE = 36
+GRAD_ACCU_STEPS = 3
+
+DS_CONFIG = {
+    "train_batch_size": DEFAULT_BATCH_SIZE,
+    "gradient_accumulation_steps": GRAD_ACCU_STEPS, # 4(microbatch) x 3(acc steps) x 3 (devices)
+    "zero_optimization": {
+        "stage": 3,
+        "offload_optimizer": {
+            "device": "cpu",
+            "pin_memory": True
+        }
+    },
+    "bf16": {
+        "enabled": True
+    },
+    "activation_checkpointing": {
+        "partition_activations": True,
+        "contiguous_memory_optimization": True
+    },
+}
 
 
-MODEL_PATH = "facebook/Perception-LM-3B" # add deepspeed
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
+dir_path = Path(f"out/{timestamp}")
+dir_path.mkdir(parents=True, exist_ok=True)
+
+deepspeed.init_distributed()
+
+MODEL_PATH = "facebook/Perception-LM-3B" # check deepspeed
 NUM_EPOCHS = 10
 
 best_test_scores_per_subject = []
@@ -42,29 +76,32 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
         if "lora" not in name:
             param.requires_grad_ = False
 
-    model.train()
-    optimizer = torch.optim.AdamW(
-        filter(lambda p: p.requires_grad, model.parameters()),
-        lr=1e-4,
-        weight_decay=0.01
-    )
+    train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size())
+    train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
+                                  sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    val_sampler = DistributedSampler(val_dataset, num_replicas=dist.get_world_size())
+    val_dataloader = DataLoader(val_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
+                                sampler=val_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    test_sampler = DistributedSampler(test_dataset, num_replicas=dist.get_world_size())
+    test_dataloader = DataLoader(test_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
+                                sampler=test_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
 
-    train_dataloader = DataLoader(train_dataset, batch_size=8, shuffle=True, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    val_dataloader = DataLoader(val_dataset, batch_size=4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    test_dataloader = DataLoader(test_dataset, batch_size=4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
+    warmup_steps = int(0.1 * total_steps)
+    optimizer = DeepSpeedCPUAdam(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-4)
+    scheduler = WarmupCosineLR(optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps)
 
-    num_training_steps = NUM_EPOCHS * len(train_dataloader)
-    num_warmup_steps = num_training_steps // 10
-
-    scheduler = get_scheduler(
-        "linear",
+    model_engine, optimizer, _, _ = deepspeed.initialize(
+        model=model,
         optimizer=optimizer,
-        num_warmup_steps=num_warmup_steps,
-        num_training_steps=num_training_steps,
+        lr_scheduler=scheduler,
+        config=DS_CONFIG
     )
 
     with torch.enable_grad():
         for epoch in range(NUM_EPOCHS):
+            model_engine.train()
+            train_sampler.set_epoch(epoch)
             print(f"Epoch: {epoch}")
             for X, Y in train_dataloader:
                 X = processor.apply_chat_template(
@@ -90,16 +127,14 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 labels[:, : X["input_ids"].shape[1]] = -100
                 labels[labels == processor.tokenizer.pad_token_id] = -100
                 inputs["labels"] = labels
-                inputs = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) for k, v in inputs.items()}
-                output = model(**inputs)
+                inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in inputs.items()}
+                output = model_engine(**inputs)
 
                 loss = output.loss
-                torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, model.parameters()), max_norm=1.0)
-                loss.backward()
-                optimizer.step()
-                scheduler.step()
-                optimizer.zero_grad()
+                model_engine.backward(loss)
+                model_engine.step()
             with torch.inference_mode():
+                model_engine.eval()
                 all_scores = []
                 for X, Y in val_dataloader:
                     X = processor.apply_chat_template(
@@ -120,8 +155,8 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         return_tensors="pt",
                         padding=True
                     )
-                    inputs = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) for k, v in inputs.items()}
-                    generated_ids = model.generate(**inputs, max_new_tokens=1000)
+                    inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
+                    generated_ids = model_engine.generate(**inputs, max_new_tokens=1000)
                     generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                     expected_ids = Y
                     expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
@@ -139,12 +174,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 print(f"Rouge validation score {rouge_val_score}")
                 if rouge_val_score > best_rouge_val_score:
                     best_rouge_val_score = rouge_val_score
-                    model.save_pretrained(f"out/model_subject{subject_id}")
-                    torch.save({
-                        "optimizer_state_dict": optimizer.state_dict(),
-                        "scheduler_state_dict": scheduler.state_dict(),
-                        "epoch": epoch,
-                    }, f"out/model_subject{subject_id}/training_state.pt")
+                    model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}")
                     all_test_scores = []
                     for X, Y in test_dataloader:
                         X = processor.apply_chat_template(
@@ -165,8 +195,8 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                             return_tensors="pt",
                             padding=True
                         )
-                        inputs = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) for k, v in inputs.items()}
-                        generated_ids = model.generate(**inputs, max_new_tokens=1000)
+                        inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
+                        generated_ids = model_engine.generate(**inputs, max_new_tokens=1000)
                         generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                         expected_ids = Y
                         expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
@@ -184,7 +214,9 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                     best_rouge_test_score = max(np.mean(all_test_scores), best_rouge_test_score)
 
     best_test_scores_per_subject.append(best_rouge_test_score)
-    print(best_test_scores_per_subject)
+    print(best_test_scores_per_subject) 
+# check learning rates 
+# you can reduce frames to 16 maybe...
 
-with open("out/test_scores_per_subject.json", "w") as f:
+with open(f"out/{timestamp}/test_scores_per_subject.json", "w") as f:
     json.dump(best_test_scores_per_subject, f)
