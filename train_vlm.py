@@ -18,7 +18,7 @@ import torch.distributed as dist
 from math import ceil
 
 DEFAULT_BATCH_SIZE = 36
-GRAD_ACCU_STEPS = 6
+GRAD_ACCU_STEPS = 12
 
 DS_CONFIG = {
     "train_batch_size": DEFAULT_BATCH_SIZE,
