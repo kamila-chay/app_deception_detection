@@ -12,7 +12,7 @@ from transformers import logging
 logging.set_verbosity_error()
 
 
-MODEL_PATH = "facebook/Perception-LM-8B" # add deepspeed
+MODEL_PATH = "facebook/Perception-LM-3B" # add deepspeed
 NUM_EPOCHS = 10
 
 best_test_scores_per_subject = []
@@ -90,7 +90,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 labels[:, : X["input_ids"].shape[1]] = -100
                 labels[labels == processor.tokenizer.pad_token_id] = -100
                 inputs["labels"] = labels
-                inputs = inputs.to(model.device)
+                inputs = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) for k, v in inputs.items()}
                 output = model(**inputs)
 
                 loss = output.loss
@@ -120,7 +120,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         return_tensors="pt",
                         padding=True
                     )
-                    inputs = X.to(model.device)
+                    inputs = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) for k, v in inputs.items()}
                     generated_ids = model.generate(**inputs, max_new_tokens=1000)
                     generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                     expected_ids = Y
@@ -165,7 +165,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                             return_tensors="pt",
                             padding=True
                         )
-                        inputs = X.to(model.device)
+                        inputs = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) for k, v in inputs.items()}
                         generated_ids = model.generate(**inputs, max_new_tokens=1000)
                         generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                         expected_ids = Y
