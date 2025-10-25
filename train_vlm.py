@@ -16,6 +16,7 @@ from torch.distributed import get_rank, barrier
 from datetime import datetime
 import torch.distributed as dist
 from math import ceil
+from peft import PeftModel
 
 DEFAULT_BATCH_SIZE = 36
 GRAD_ACCU_STEPS = 12
@@ -103,7 +104,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             print(f"Epoch: {epoch}")
             for i, (X, Y) in enumerate(train_dataloader): # to be removed!
                 print(f"Training batch: {i}")
-                if i == 48:
+                if i == 6:
                     break
                 X = processor.apply_chat_template(
                     X,
@@ -134,14 +135,15 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 loss = output.loss
                 model_engine.backward(loss)
                 model_engine.step()
-                current_lr = optimizer.param_groups[0]['lr']
-                print("Learning rate:", current_lr)
+            
+            model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}_epoch{epoch}")
+                
             if get_rank() == 0:
-                total_mem = torch.cuda.get_device_properties(0).total_memory / 1024**3 
-                print(f"[Rank 0] Total GPU memory: {total_mem:.2f} GB")
+                base = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16)
+                model_single = PeftModel.from_pretrained(base, f"out/{timestamp}/model_subject{subject_id}_epoch{epoch}")
+                model_single.to("cuda:0").eval()
                 with torch.inference_mode():
                     print("Evaluation")
-                    model_engine.module.eval()
                     all_scores = []
                     for X, Y in val_dataloader:
                         X = processor.apply_chat_template(
@@ -164,7 +166,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         )
                         inputs = {k: v.to("cuda:0", dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to("cuda:0") for k, v in X.items()}
                         print("Before generate")
-                        generated_ids = model_engine.module.generate(**inputs, max_new_tokens=3, synced_gpus=True) # change this later
+                        generated_ids = model_single.generate(**inputs, max_new_tokens=3) # change this later
                         print("After generate")
                         generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                         expected_ids = Y
@@ -205,7 +207,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                                 padding=True
                             )
                             inputs = {k: v.to("cuda:0", dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to("cuda:0") for k, v in X.items()}
-                            generated_ids = model_engine.module.generate(**inputs, max_new_tokens=3, synced_gpus=True)
+                            generated_ids = model_single.generate(**inputs, max_new_tokens=3)
                             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                             expected_ids = Y
                             expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
