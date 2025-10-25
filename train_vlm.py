@@ -104,6 +104,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             train_sampler.set_epoch(epoch)
             print(f"Epoch: {epoch}")
             for i, (X, Y) in enumerate(train_dataloader): # to be removed!
+                print(f"Batch: {i}")
                 if i == 7:
                     break
                 X = processor.apply_chat_template(
@@ -134,8 +135,12 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
 
                 loss = output.loss
                 model_engine.backward(loss)
+                current_lr = optimizer.param_groups[0]['lr']
+                print("Learning rate before step:", current_lr)
                 model_engine.step()
+                print("Learning rate after step:", current_lr)
             with torch.inference_mode():
+                print("Evaluation")
                 model_engine.eval()
                 all_scores = []
                 for X, Y in val_dataloader:
