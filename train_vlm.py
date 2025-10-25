@@ -105,7 +105,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             print(f"Epoch: {epoch}")
             for i, (X, Y) in enumerate(train_dataloader): # to be removed!
                 print(f"Batch: {i}")
-                if i == 7:
+                if i == 15:
                     break
                 X = processor.apply_chat_template(
                     X,
@@ -163,7 +163,9 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         padding=True
                     )
                     inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
+                    print("Before generate")
                     generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
+                    print("After generate")
                     generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                     expected_ids = Y
                     expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
