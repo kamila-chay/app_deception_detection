@@ -164,7 +164,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         )
                         inputs = {k: v.to("cuda:0", dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to("cuda:0") for k, v in X.items()}
                         print("Before generate")
-                        generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000, synced_gpus=True)
+                        generated_ids = model_engine.module.generate(**inputs, max_new_tokens=3, synced_gpus=True) # change this later
                         print("After generate")
                         generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                         expected_ids = Y
@@ -205,7 +205,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                                 padding=True
                             )
                             inputs = {k: v.to("cuda:0", dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to("cuda:0") for k, v in X.items()}
-                            generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000, synced_gpus=True)
+                            generated_ids = model_engine.module.generate(**inputs, max_new_tokens=3, synced_gpus=True)
                             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                             expected_ids = Y
                             expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
