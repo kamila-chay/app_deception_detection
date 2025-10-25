@@ -103,8 +103,8 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             print(f"Epoch: {epoch}")
             for i, (X, Y) in enumerate(train_dataloader): # to be removed!
                 print(f"Training batch: {i}")
-                if i == 48:
-                    break
+                # if i == 48:
+                #     break
                 X = processor.apply_chat_template(
                     X,
                     num_frames=16,
@@ -136,92 +136,92 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 model_engine.step()
                 current_lr = optimizer.param_groups[0]['lr']
                 print("Learning rate:", current_lr)
-            if get_rank() == 0:
-                total_mem = torch.cuda.get_device_properties(0).total_memory / 1024**3  # GB
-                print(f"[Rank 0] Total GPU memory: {total_mem:.2f} GB")
-                with torch.inference_mode():
-                    print("Evaluation")
-                    model_engine.eval()
-                    all_scores = []
-                    for X, Y in val_dataloader:
-                        X = processor.apply_chat_template(
-                            X,
-                            num_frames=16,
-                            add_generation_prompt=True,
-                            tokenize=True,
-                            return_dict=True,
-                            return_tensors="pt",
-                            padding=True
-                        )
-                        Y = processor.apply_chat_template(
-                            Y,
-                            num_frames=16,
-                            add_generation_prompt=False,
-                            tokenize=True,
-                            return_dict=True,
-                            return_tensors="pt",
-                            padding=True
-                        )
-                        inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
-                        print("Before generate")
-                        generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
-                        print("After generate")
-                        generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
-                        expected_ids = Y
-                        expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
-                        generated_text_trimmed = processor.batch_decode(
-                            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-                        )
-                        expected_text_trimmed = processor.batch_decode(
-                            expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-                        )
+            # if get_rank() == 0:
+            #     total_mem = torch.cuda.get_device_properties(0).total_memory / 1024**3  # GB
+            #     print(f"[Rank 0] Total GPU memory: {total_mem:.2f} GB")
+            #     with torch.inference_mode():
+            #         print("Evaluation")
+            #         model_engine.eval()
+            #         all_scores = []
+            #         for X, Y in val_dataloader:
+            #             X = processor.apply_chat_template(
+            #                 X,
+            #                 num_frames=16,
+            #                 add_generation_prompt=True,
+            #                 tokenize=True,
+            #                 return_dict=True,
+            #                 return_tensors="pt",
+            #                 padding=True
+            #             )
+            #             Y = processor.apply_chat_template(
+            #                 Y,
+            #                 num_frames=16,
+            #                 add_generation_prompt=False,
+            #                 tokenize=True,
+            #                 return_dict=True,
+            #                 return_tensors="pt",
+            #                 padding=True
+            #             )
+            #             inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
+            #             print("Before generate")
+            #             generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
+            #             print("After generate")
+            #             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
+            #             expected_ids = Y
+            #             expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
+            #             generated_text_trimmed = processor.batch_decode(
+            #                 generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            #             )
+            #             expected_text_trimmed = processor.batch_decode(
+            #                 expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            #             )
                     
-                        for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                            score = scorer.score(ref, pred)
-                            all_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
-                    rouge_val_score = np.mean(all_scores)
-                    print(f"Rouge validation score {rouge_val_score}")
-                    if rouge_val_score > best_rouge_val_score:
-                        best_rouge_val_score = rouge_val_score
-                        model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}")
-                        all_test_scores = []
-                        for X, Y in test_dataloader:
-                            X = processor.apply_chat_template(
-                                X,
-                                num_frames=16,
-                                add_generation_prompt=True,
-                                tokenize=True,
-                                return_dict=True,
-                                return_tensors="pt",
-                                padding=True
-                            )
-                            Y = processor.apply_chat_template(
-                                Y,
-                                num_frames=16,
-                                add_generation_prompt=False,
-                                tokenize=True,
-                                return_dict=True,
-                                return_tensors="pt",
-                                padding=True
-                            )
-                            inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
-                            generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
-                            generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
-                            expected_ids = Y
-                            expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
-                            generated_text_trimmed = processor.batch_decode(
-                                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-                            )
-                            expected_text_trimmed = processor.batch_decode(
-                                expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-                            )
+            #             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
+            #                 score = scorer.score(ref, pred)
+            #                 all_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
+            #         rouge_val_score = np.mean(all_scores)
+            #         print(f"Rouge validation score {rouge_val_score}")
+            #         if rouge_val_score > best_rouge_val_score:
+            #             best_rouge_val_score = rouge_val_score
+            #             model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}")
+            #             all_test_scores = []
+            #             for X, Y in test_dataloader:
+            #                 X = processor.apply_chat_template(
+            #                     X,
+            #                     num_frames=16,
+            #                     add_generation_prompt=True,
+            #                     tokenize=True,
+            #                     return_dict=True,
+            #                     return_tensors="pt",
+            #                     padding=True
+            #                 )
+            #                 Y = processor.apply_chat_template(
+            #                     Y,
+            #                     num_frames=16,
+            #                     add_generation_prompt=False,
+            #                     tokenize=True,
+            #                     return_dict=True,
+            #                     return_tensors="pt",
+            #                     padding=True
+            #                 )
+            #                 inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
+            #                 generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
+            #                 generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
+            #                 expected_ids = Y
+            #                 expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
+            #                 generated_text_trimmed = processor.batch_decode(
+            #                     generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            #                 )
+            #                 expected_text_trimmed = processor.batch_decode(
+            #                     expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+            #                 )
                         
-                            for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                                score = scorer.score(ref, pred)
-                                all_test_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
-                        print(f"  Top val score for this subject, the test score is {np.mean(all_test_scores)}")
-                        best_rouge_test_score = max(np.mean(all_test_scores), best_rouge_test_score)
-            barrier()
+            #                 for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
+            #                     score = scorer.score(ref, pred)
+            #                     all_test_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
+            #             print(f"  Top val score for this subject, the test score is {np.mean(all_test_scores)}")
+            #             best_rouge_test_score = max(np.mean(all_test_scores), best_rouge_test_score)
+            # barrier()
 
     if get_rank() == 0:
         best_test_scores_per_subject.append(best_rouge_test_score)
