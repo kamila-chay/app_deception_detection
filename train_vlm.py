@@ -79,12 +79,10 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
     train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size())
     train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
                                   sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    val_sampler = DistributedSampler(val_dataset, num_replicas=dist.get_world_size())
-    val_dataloader = DataLoader(val_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
-                                sampler=val_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    test_sampler = DistributedSampler(test_dataset, num_replicas=dist.get_world_size())
-    test_dataloader = DataLoader(test_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
-                                sampler=test_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    # val_sampler = DistributedSampler(val_dataset, num_replicas=dist.get_world_size())
+    val_dataloader = DataLoader(val_dataset, 4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    # test_sampler = DistributedSampler(test_dataset, num_replicas=dist.get_world_size())
+    test_dataloader = DataLoader(test_dataset, 4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
 
     total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     warmup_steps = int(0.1 * total_steps)
@@ -104,8 +102,8 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             train_sampler.set_epoch(epoch)
             print(f"Epoch: {epoch}")
             for i, (X, Y) in enumerate(train_dataloader): # to be removed!
-                print(f"Batch: {i}")
-                if i == 15:
+                print(f"Training batch: {i}")
+                if i == 48:
                     break
                 X = processor.apply_chat_template(
                     X,
@@ -135,57 +133,17 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
 
                 loss = output.loss
                 model_engine.backward(loss)
-                current_lr = optimizer.param_groups[0]['lr']
-                print("Learning rate before step:", current_lr)
                 model_engine.step()
-                print("Learning rate after step:", current_lr)
-            with torch.inference_mode():
-                print("Evaluation")
-                model_engine.eval()
-                all_scores = []
-                for X, Y in val_dataloader:
-                    X = processor.apply_chat_template(
-                        X,
-                        num_frames=16,
-                        add_generation_prompt=True,
-                        tokenize=True,
-                        return_dict=True,
-                        return_tensors="pt",
-                        padding=True
-                    )
-                    Y = processor.apply_chat_template(
-                        Y,
-                        num_frames=16,
-                        add_generation_prompt=False,
-                        tokenize=True,
-                        return_dict=True,
-                        return_tensors="pt",
-                        padding=True
-                    )
-                    inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
-                    print("Before generate")
-                    generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
-                    print("After generate")
-                    generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
-                    expected_ids = Y
-                    expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
-                    generated_text_trimmed = processor.batch_decode(
-                        generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-                    )
-                    expected_text_trimmed = processor.batch_decode(
-                        expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-                    )
-                
-                    for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                        score = scorer.score(ref, pred)
-                        all_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
-                rouge_val_score = np.mean(all_scores)
-                print(f"Rouge validation score {rouge_val_score}")
-                if rouge_val_score > best_rouge_val_score:
-                    best_rouge_val_score = rouge_val_score
-                    model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}")
-                    all_test_scores = []
-                    for X, Y in test_dataloader:
+                current_lr = optimizer.param_groups[0]['lr']
+                print("Learning rate:", current_lr)
+            if get_rank() == 0:
+                total_mem = torch.cuda.get_device_properties(0).total_memory / 1024**3  # GB
+                print(f"[Rank 0] Total GPU memory: {total_mem:.2f} GB")
+                with torch.inference_mode():
+                    print("Evaluation")
+                    model_engine.eval()
+                    all_scores = []
+                    for X, Y in val_dataloader:
                         X = processor.apply_chat_template(
                             X,
                             num_frames=16,
@@ -205,7 +163,9 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                             padding=True
                         )
                         inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
+                        print("Before generate")
                         generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
+                        print("After generate")
                         generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                         expected_ids = Y
                         expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
@@ -218,13 +178,59 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                     
                         for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
                             score = scorer.score(ref, pred)
-                            all_test_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
-                    print(f"  Top val score for this subject, the test score is {np.mean(all_test_scores)}")
-                    best_rouge_test_score = max(np.mean(all_test_scores), best_rouge_test_score)
+                            all_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
+                    rouge_val_score = np.mean(all_scores)
+                    print(f"Rouge validation score {rouge_val_score}")
+                    if rouge_val_score > best_rouge_val_score:
+                        best_rouge_val_score = rouge_val_score
+                        model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}")
+                        all_test_scores = []
+                        for X, Y in test_dataloader:
+                            X = processor.apply_chat_template(
+                                X,
+                                num_frames=16,
+                                add_generation_prompt=True,
+                                tokenize=True,
+                                return_dict=True,
+                                return_tensors="pt",
+                                padding=True
+                            )
+                            Y = processor.apply_chat_template(
+                                Y,
+                                num_frames=16,
+                                add_generation_prompt=False,
+                                tokenize=True,
+                                return_dict=True,
+                                return_tensors="pt",
+                                padding=True
+                            )
+                            inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
+                            generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
+                            generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
+                            expected_ids = Y
+                            expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
+                            generated_text_trimmed = processor.batch_decode(
+                                generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+                            )
+                            expected_text_trimmed = processor.batch_decode(
+                                expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+                            )
+                        
+                            for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
+                                score = scorer.score(ref, pred)
+                                all_test_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
+                        print(f"  Top val score for this subject, the test score is {np.mean(all_test_scores)}")
+                        best_rouge_test_score = max(np.mean(all_test_scores), best_rouge_test_score)
+            barrier()
 
-    best_test_scores_per_subject.append(best_rouge_test_score)
-    print(best_test_scores_per_subject) 
-# check learning rates 
+    if get_rank() == 0:
+        best_test_scores_per_subject.append(best_rouge_test_score)
+        print(best_test_scores_per_subject) 
+    barrier()
 
-with open(f"out/{timestamp}/test_scores_per_subject.json", "w") as f:
-    json.dump(best_test_scores_per_subject, f)
+    
+# check learning rates - what's wrong with it + fix the "generate" issue...
+if get_rank() == 0:
+    with open(f"out/{timestamp}/test_scores_per_subject.json", "w") as f:
+        json.dump(best_test_scores_per_subject, f)
+barrier()
