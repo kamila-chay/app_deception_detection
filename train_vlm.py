@@ -21,8 +21,8 @@ DEFAULT_BATCH_SIZE = 36
 GRAD_ACCU_STEPS = 12
 
 DS_CONFIG = {
-    "train_batch_size": DEFAULT_BATCH_SIZE,
-    "gradient_accumulation_steps": GRAD_ACCU_STEPS, # 4(microbatch) x 3(acc steps) x 3 (devices)
+    "train_batch_size": DEFAULT_BATCH_SIZE, # 1(samples in microbatch) x 12(acc steps) x 3(devices)
+    "gradient_accumulation_steps": GRAD_ACCU_STEPS, 
     "zero_optimization": {
         "stage": 3,
         "offload_optimizer": {
@@ -46,7 +46,7 @@ dir_path.mkdir(parents=True, exist_ok=True)
 
 deepspeed.init_distributed()
 
-MODEL_PATH = "facebook/Perception-LM-3B" # check deepspeed
+MODEL_PATH = "facebook/Perception-LM-1B" # check deepspeed
 NUM_EPOCHS = 10
 
 best_test_scores_per_subject = []
@@ -103,7 +103,9 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             model_engine.train()
             train_sampler.set_epoch(epoch)
             print(f"Epoch: {epoch}")
-            for X, Y in train_dataloader:
+            for i, (X, Y) in enumerate(train_dataloader): # to be removed!
+                if i == 7:
+                    break
                 X = processor.apply_chat_template(
                     X,
                     num_frames=16,
@@ -156,7 +158,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         padding=True
                     )
                     inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
-                    generated_ids = model_engine.generate(**inputs, max_new_tokens=1000)
+                    generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
                     generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                     expected_ids = Y
                     expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
@@ -196,7 +198,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                             padding=True
                         )
                         inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in X.items()}
-                        generated_ids = model_engine.generate(**inputs, max_new_tokens=1000)
+                        generated_ids = model_engine.module.generate(**inputs, max_new_tokens=1000)
                         generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                         expected_ids = Y
                         expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
