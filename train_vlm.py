@@ -17,6 +17,11 @@ from datetime import datetime
 import torch.distributed as dist
 from math import ceil
 from peft import PeftModel
+import os
+import time
+
+
+os.environ["TORCH_DISTRIBUTED_DEFAULT_TIMEOUT"] = str(60*60*2)
 
 DEFAULT_BATCH_SIZE = 36
 GRAD_ACCU_STEPS = 12
@@ -100,6 +105,8 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             train_sampler.set_epoch(epoch)
             print(f"Epoch: {epoch}")
             for i, (X, Y) in enumerate(train_dataloader):
+                if i == 7:
+                    break
                 X = processor.apply_chat_template(
                     X,
                     num_frames=16,
@@ -133,6 +140,8 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}_epoch{epoch}")
                 
             if get_rank() == 0:
+                t0 = time.time()
+                print(f"Eval started at {t0:.2f}")
                 base = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16)
                 model_single = PeftModel.from_pretrained(base, f"out/{timestamp}/model_subject{subject_id}_epoch{epoch}")
                 model_single.to("cuda:0").eval()
@@ -140,6 +149,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                     print("Evaluation")
                     all_scores = []
                     for X, Y in val_dataloader:
+                        print(f"Validation at {time.time():.2f}")
                         X = processor.apply_chat_template(
                             X,
                             num_frames=16,
@@ -179,6 +189,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                         best_rouge_val_score = rouge_val_score
                         all_test_scores = []
                         for X, Y in test_dataloader:
+                            print(f"Test at {time.time():.2f}")
                             X = processor.apply_chat_template(
                                 X,
                                 num_frames=16,
@@ -224,7 +235,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
 
     if get_rank() == 0:
         best_test_scores_per_subject.append(best_rouge_test_score)
-        print(best_test_scores_per_subject) 
+        print(best_test_scores_per_subject)
     barrier()
 
 if get_rank() == 0:
