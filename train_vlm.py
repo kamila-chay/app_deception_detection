@@ -40,14 +40,13 @@ DS_CONFIG = {
     },
 }
 
-
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
 deepspeed.init_distributed()
 
-MODEL_PATH = "facebook/Perception-LM-1B" # check deepspeed
+MODEL_PATH = "facebook/Perception-LM-1B"
 NUM_EPOCHS = 10
 
 best_test_scores_per_subject = []
@@ -80,9 +79,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
     train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size())
     train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
                                   sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    # val_sampler = DistributedSampler(val_dataset, num_replicas=dist.get_world_size())
     val_dataloader = DataLoader(val_dataset, 4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    # test_sampler = DistributedSampler(test_dataset, num_replicas=dist.get_world_size())
     test_dataloader = DataLoader(test_dataset, 4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
 
     total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
@@ -102,10 +99,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             model_engine.module.train()
             train_sampler.set_epoch(epoch)
             print(f"Epoch: {epoch}")
-            for i, (X, Y) in enumerate(train_dataloader): # to be removed!
-                print(f"Training batch: {i}")
-                if i == 6:
-                    break
+            for i, (X, Y) in enumerate(train_dataloader):
                 X = processor.apply_chat_template(
                     X,
                     num_frames=16,
@@ -165,9 +159,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                             padding=True
                         )
                         inputs = {k: v.to("cuda:0", dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to("cuda:0") for k, v in X.items()}
-                        print("Before generate")
-                        generated_ids = model_single.generate(**inputs, max_new_tokens=3) # change this later
-                        print("After generate")
+                        generated_ids = model_single.generate(**inputs, max_new_tokens=1000)
                         generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                         expected_ids = Y
                         expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
@@ -182,10 +174,9 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                             score = scorer.score(ref, pred)
                             all_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
                     rouge_val_score = np.mean(all_scores)
-                    print(f"Rouge validation score {rouge_val_score}")
+                    print(f"Rouge validation score: {rouge_val_score}")
                     if rouge_val_score > best_rouge_val_score:
                         best_rouge_val_score = rouge_val_score
-                        model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}")
                         all_test_scores = []
                         for X, Y in test_dataloader:
                             X = processor.apply_chat_template(
@@ -207,7 +198,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                                 padding=True
                             )
                             inputs = {k: v.to("cuda:0", dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to("cuda:0") for k, v in X.items()}
-                            generated_ids = model_single.generate(**inputs, max_new_tokens=3)
+                            generated_ids = model_single.generate(**inputs, max_new_tokens=1000)
                             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
                             expected_ids = Y
                             expected_ids_trimmed = expected_ids["input_ids"][:, inputs["input_ids"].shape[1]:]
@@ -221,8 +212,14 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
                                 score = scorer.score(ref, pred)
                                 all_test_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
-                        print(f"  Top val score for this subject, the test score is {np.mean(all_test_scores)}")
-                        best_rouge_test_score = max(np.mean(all_test_scores), best_rouge_test_score)
+                        best_rouge_test_score = np.mean(all_test_scores) # from the top validation score, we don't get to choose based on the test split!
+                        print(f"  Top val score for this subject, the corresponding test score is {best_rouge_test_score}")
+                        with open(f"out/{timestamp}/model_subject{subject_id}_info.json", "w") as f:
+                            json.dump({"best_epoch": epoch, 
+                                       "val_rouge_score": best_rouge_val_score, 
+                                       "test_rouge_score": best_rouge_test_score}, 
+                                       f)
+
             barrier()
 
     if get_rank() == 0:
@@ -230,11 +227,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
         print(best_test_scores_per_subject) 
     barrier()
 
-    
-# fix the "generate" issue... maybe read online... also can we load the saved weights into a single GPU????
 if get_rank() == 0:
     with open(f"out/{timestamp}/test_scores_per_subject.json", "w") as f:
         json.dump(best_test_scores_per_subject, f)
 barrier()
-
-# check the second issue on the forum
