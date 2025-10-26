@@ -2,6 +2,7 @@ from torch.utils.data import Dataset, Subset
 import pandas as pd
 from collections import Counter
 import random
+from utils import rem_duplicates
 
 def create_conv_template(video_path, completion=""):
     return [
@@ -45,7 +46,7 @@ class DolosDataset(Dataset):
     def __init__(self, info, folder):
         self.info = pd.read_excel(info)
         self.folder = folder
-        self.subjects = set(self.info["Participants name"].tolist())
+        self.subjects = rem_duplicates(self.info["Participants name"].tolist())
         self.subject_counts = Counter(self.info["Participants name"].tolist())
 
     def iter_subjects(self):

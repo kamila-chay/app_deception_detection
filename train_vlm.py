@@ -23,11 +23,11 @@ import time
 
 os.environ["TORCH_DISTRIBUTED_DEFAULT_TIMEOUT"] = str(60*60*2)
 
-DEFAULT_BATCH_SIZE = 36
+DEFAULT_BATCH_SIZE = 48
 GRAD_ACCU_STEPS = 12
 
 DS_CONFIG = {
-    "train_batch_size": DEFAULT_BATCH_SIZE, # 1(samples in microbatch) x 12(acc steps) x 3(devices)
+    "train_batch_size": DEFAULT_BATCH_SIZE, # 1(samples in microbatch) x 12(acc steps) x 4(devices)
     "gradient_accumulation_steps": GRAD_ACCU_STEPS, 
     "zero_optimization": {
         "stage": 3,
@@ -230,6 +230,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             #                            f)
 
             # barrier()
+    barrier()
 
 #     if get_rank() == 0:
 #         best_test_scores_per_subject.append(best_rouge_test_score)

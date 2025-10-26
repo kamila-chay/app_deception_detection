@@ -7,4 +7,4 @@
 source /home/kamila14/timesformer_experiment/bin/activate
 export CPLUS_INCLUDE_PATH=/home/kamila14/miniconda3/envs/myenv/include/python3.10
 
-CUDA_VISIBLE_DEVICES=1,2,3 deepspeed train_vlm.py  --num_gpus=3
+CUDA_VISIBLE_DEVICES=1,2,3,4 deepspeed train_vlm.py  --num_gpus=4
