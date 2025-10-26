@@ -52,8 +52,8 @@ class DolosDataset(Dataset):
     def iter_subjects(self):
         for subject in self.subjects:
             test_indices = self.info.index[self.info["Participants name"] == subject]
-            temp_subjects = self.subjects - {subject}
-            val_subject = random.choice(list(temp_subjects))
+            temp_subjects = [s for s in self.subjects if s != subject]
+            val_subject = random.choice(temp_subjects)
             while self.subject_counts[val_subject] not in {4, 5, 6, 7}: # optimal for validation
                 val_subject = random.choice(list(temp_subjects))
             val_indices = self.info.index[self.info["Participants name"] == val_subject]
