@@ -58,6 +58,8 @@ class DolosDataset(Dataset):
                 val_subject = random.choice(list(temp_subjects))
             val_indices = self.info.index[self.info["Participants name"] == val_subject]
             train_indices = self.info.index[(self.info["Participants name"] != subject) & (self.info["Participants name"] != val_subject)]
+            print(f"Val subject {val_subject}:")
+            print(f"Test subject: {subject}")
             yield Subset(self, train_indices.tolist()), Subset(self, val_indices.tolist()), Subset(self, test_indices.tolist())
 
     def __len__(self):
