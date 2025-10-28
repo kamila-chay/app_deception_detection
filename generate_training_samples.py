@@ -1,19 +1,17 @@
 import torch
 import pandas as pd
 import copy
-from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
+from transformers import AutoModelForCausalLM, AutoProcessor
 from pathlib import Path
 import json
 
 out = Path("./data/gen_labels")
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
-
-model = Qwen3VLForConditionalGeneration.from_pretrained(
-    "Qwen/Qwen3-VL-8B-Instruct", dtype=torch.bfloat16, device_map=device, attn_implementation="flash_attention_2"
+model = AutoModelForCausalLM.from_pretrained(
+    "Qwen/Qwen3-235B-A22B-Thinking-2507", device_map="auto", dtype="auto", attn_implementation="flash_attention_2"
 )
 model.eval()
-processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-8B-Instruct")
+processor = AutoProcessor.from_pretrained("Qwen/Qwen3-235B-A22B-Thinking-2507")
 
 df = pd.read_excel("./data/traits.xlsx")
 
@@ -72,7 +70,7 @@ for _, row in df.iterrows():
         {
             "role": "user",
             "content": [
-                {"type": "text", "text": f"You are given a structured, accurate, human-written description of someone's behavior in a video. Based on external, reliable information, the clip is labeled as {traits_dict['Label']}. Imagine you don't see the description or the label, just the video file instead. Write a text where you assess the person's behavior and estimate whether or not they are lying. Reason about both possibilities and make it seem like you deducted the correct label on your own using the video. You shouldn't sound too confident too, try to make it seem like you're making an educated guess instead of claiming you know if they're lying or not. Include counterarguments as well. Make the response sound natural as a reply to the question 'Is this person lying or telling the truth and why?'. Description (True - the behavior occured, False - it didn't occur): {repr(traits_dict)}"},
+                {"type": "text", "text": f"You are given a structured, accurate, human-written description of someone's behavior in a video. Based on external, reliable information, the clip is labeled as {traits_dict['Label']}. Imagine you don't see the description or the label, just the video file instead. Write a text where you assess the person's behavior and estimate whether or not they are lying. Reason about both possibilities and make it seem like you deducted the correct label on your own using the video. You shouldn't sound too confident too, try to make it seem like you're making an educated guess instead of claiming you know if they're lying or not. Include counterarguments as well. Make the response sound natural as a reply to the question 'Is this person lying or telling the truth and why?'. Make sure that your reasoning is aligned with how humans would approach a question like that, avoid lists or bullet points. Description (True - the behavior occured, False - it didn't occur): {repr(traits_dict)}"},
             ],
         }
     ]
@@ -97,3 +95,5 @@ for _, row in df.iterrows():
 
     with open(out / "json_labels" / f'{row["Filename"]}.json', "w") as f:
         json.dump(traits_dict, f)
+
+print("Done")
