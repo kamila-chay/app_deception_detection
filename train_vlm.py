@@ -18,13 +18,9 @@ import torch.distributed as dist
 from math import ceil
 from peft import PeftModel
 import os
-import time
-
-
-os.environ["TORCH_DISTRIBUTED_DEFAULT_TIMEOUT"] = str(60*60*2)
 
 DEFAULT_BATCH_SIZE = 48
-GRAD_ACCU_STEPS = 12
+GRAD_ACCU_STEPS = 12 ## change here depending on the devices available
 
 DS_CONFIG = {
     "train_batch_size": DEFAULT_BATCH_SIZE, # 1(samples in microbatch) x 12(acc steps) x 4(devices)
@@ -54,16 +50,12 @@ deepspeed.init_distributed()
 MODEL_PATH = "facebook/Perception-LM-1B"
 NUM_EPOCHS = 10
 
-best_test_scores_per_subject = []
+# best_test_scores_per_subject = []
+# scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
+processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
-scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
-dataset = DolosDataset(Path("data/traits.xlsx"), Path("data/"))
-
-for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.iter_subjects()):
-    print(f"Subject id: {subject_id}")
-    best_rouge_val_score = 0
-    best_rouge_test_score = 0
-    processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
+for split_id in range(1, 4):
+    print(f"Split id: {split_id}")
     model = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, dtype=torch.bfloat16).to("cuda")
 
     lora_config = LoraConfig(
@@ -80,12 +72,13 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
     for name, param in model.named_parameters():
         if "lora" not in name:
             param.requires_grad_ = False
+            param.requires_grad = False
 
-    train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size())
+    
+    train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("data/video"))
+    train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size(), rank=get_rank())
     train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
                                   sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    val_dataloader = DataLoader(val_dataset, 4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
-    test_dataloader = DataLoader(test_dataset, 4, shuffle=False, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
 
     total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     warmup_steps = int(0.1 * total_steps)
@@ -135,7 +128,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
                 model_engine.backward(loss)
                 model_engine.step()
             
-            model_engine.save_pretrained(f"out/{timestamp}/model_subject{subject_id}_epoch{epoch}")
+            model_engine.save_pretrained(f"out/{timestamp}/model_split{split_id}_epoch{epoch}")
                 
             # if get_rank() == 0:
             #     t0 = time.time()
@@ -230,7 +223,7 @@ for subject_id, (train_dataset, val_dataset, test_dataset) in enumerate(dataset.
             #                            f)
 
             # barrier()
-    barrier()
+    # barrier()
 
 #     if get_rank() == 0:
 #         best_test_scores_per_subject.append(best_rouge_test_score)
