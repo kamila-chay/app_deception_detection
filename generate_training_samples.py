@@ -8,7 +8,7 @@ import json
 out = Path("./data/gen_labels")
 
 model = AutoModelForCausalLM.from_pretrained(
-    "Qwen/Qwen3-30B-A3B-Thinking-2507", device_map="auto", dtype="auto", attn_implementation="flash_attention_2"
+    "Qwen/Qwen3-30B-A3B-Thinking-2507", device_map="cuda", dtype="auto", attn_implementation="flash_attention_2"
 )
 model.eval()
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-30B-A3B-Thinking-2507")
@@ -55,7 +55,9 @@ traits_dict_example = {
     'Shrugs': None,
 }
 
-for _, row in df.iterrows():
+for i, row in df.iterrows():
+    if i < 3:
+        continue
     print("Row...")
     traits_dict = copy.deepcopy(traits_dict_example)
     for key in traits_dict:
