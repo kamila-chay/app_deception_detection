@@ -1,7 +1,7 @@
 import torch
 import pandas as pd
 import copy
-from transformers import AutoModelForCausalLM, AutoProcessor
+from transformers import AutoModelForCausalLM, AutoTokenizer
 from pathlib import Path
 import json
 
@@ -11,7 +11,7 @@ model = AutoModelForCausalLM.from_pretrained(
     "Qwen/Qwen3-235B-A22B-Thinking-2507", device_map="auto", dtype="auto", attn_implementation="flash_attention_2"
 )
 model.eval()
-processor = AutoProcessor.from_pretrained("Qwen/Qwen3-235B-A22B-Thinking-2507")
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-235B-A22B-Thinking-2507")
 
 df = pd.read_excel("./data/traits.xlsx")
 
@@ -69,31 +69,30 @@ for _, row in df.iterrows():
     messages = [
         {
             "role": "user",
-            "content": [
-                {"type": "text", "text": f"You are given a structured, accurate, human-written description of someone's behavior in a video. Based on external, reliable information, the clip is labeled as {traits_dict['Label']}. Imagine you don't see the description or the label, just the video file instead. Write a text where you assess the person's behavior and estimate whether or not they are lying. Reason about both possibilities and make it seem like you deducted the correct label on your own using the video. You shouldn't sound too confident too, try to make it seem like you're making an educated guess instead of claiming you know if they're lying or not. Include counterarguments as well. Make the response sound natural as a reply to the question 'Is this person lying or telling the truth and why?'. Make sure that your reasoning is aligned with how humans would approach a question like that, avoid lists or bullet points. Description (True - the behavior occured, False - it didn't occur): {repr(traits_dict)}"},
-            ],
+            "content": f"You are given a structured, accurate, human-written description of someone's behavior in a video. Based on external, reliable information, the clip is labeled as {traits_dict['Label']}. Imagine you don't see the description or the label, just the video file instead. Write a text where you assess the person's behavior and estimate whether or not they are lying. Reason about both possibilities and make it seem like you deducted the correct label on your own using the video. You shouldn't sound too confident too, try to make it seem like you're making an educated guess instead of claiming you know if they're lying or not. Include counterarguments as well. Make the response sound natural as a reply to the question 'Is this person lying or telling the truth and why?'. Make sure that your reasoning is aligned with how humans would approach a question like that, avoid lists or bullet points. Description (True - the behavior occured, False - it didn't occur): {repr(traits_dict)}"
         }
     ]
-    inputs = processor.apply_chat_template(
+    text = tokenizer.apply_chat_template(
         messages,
-        tokenize=True,
+        tokenize=False,
         add_generation_prompt=True,
-        return_dict=True,
-        return_tensors="pt"
     )
-    inputs = inputs.to(model.device)
+    model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
     with torch.inference_mode():
-        generated_ids = model.generate(inputs.input_ids, max_new_tokens=1000)
-        generated_ids_trimmed = [
-            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-        ]
-        output_text_trimmed = processor.batch_decode(
-            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-        )[0]
-    with open(out / f'{row["Filename"]}.txt', "w") as f:
-        f.write(output_text_trimmed)
+        generated_ids = model.generate(**model_inputs, max_new_tokens=32768)
+        output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist() 
 
-    with open(out / "json_labels" / f'{row["Filename"]}.json', "w") as f:
-        json.dump(traits_dict, f)
+        try:
+            index = len(output_ids) - output_ids[::-1].index(151668)
+        except ValueError:
+            index = 0
+
+        thinking_content = tokenizer.decode(output_ids[:index], skip_special_tokens=True).strip("\n")
+        content = tokenizer.decode(output_ids[index:], skip_special_tokens=True).strip("\n")
+
+    with open(out / f'{row["Filename"]}.txt', "w") as f:
+        f.write(content)
+    with open(out / f'{row["Filename"]}_thinking.txt', "w") as f:
+        f.write(thinking_content)
 
 print("Done")
