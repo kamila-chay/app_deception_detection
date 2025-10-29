@@ -8,10 +8,10 @@ import json
 out = Path("./data/gen_labels")
 
 model = AutoModelForCausalLM.from_pretrained(
-    "Qwen/Qwen3-30B-A3B-Thinking-2507", device_map="auto", dtype="auto", attn_implementation="flash_attention_2"
+    "Qwen/Qwen3-30B-A3B-Thinking-2507-FP8", device_map="auto", dtype="auto", attn_implementation="flash_attention_2"
 ) # write how another one was used, i think VL 8B and it was a lot worse!
 model.eval()
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-30B-A3B-Thinking-2507")
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-30B-A3B-Thinking-2507-FP8")
 
 df = pd.read_excel("./data/traits.xlsx")
 
@@ -56,7 +56,7 @@ traits_dict_example = {
 }
 
 for i, row in df.iterrows():
-    if i < 1000:
+    if i < 1055:
         continue
     print(f"Row {i}")
     traits_dict = copy.deepcopy(traits_dict_example)

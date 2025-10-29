@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -p ampere
-#SBATCH -t 24:00:00
+#SBATCH -t 2-00:00:00
 #SBATCH -o out_generate_training_samples.txt
 #SBATCH -e error_generate_training_samples.txt
 
