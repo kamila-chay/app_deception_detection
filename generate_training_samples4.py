@@ -8,7 +8,7 @@ import json
 out = Path("./data/gen_labels")
 
 model = AutoModelForCausalLM.from_pretrained(
-    "Qwen/Qwen3-30B-A3B-Thinking-2507", device_map="cuda", dtype="auto", attn_implementation="flash_attention_2"
+    "Qwen/Qwen3-30B-A3B-Thinking-2507", device_map="cuda", dtype="auto"
 ) # write how another one was used, i think VL 8B and it was a lot worse!
 model.eval()
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen3-30B-A3B-Thinking-2507")
@@ -55,12 +55,12 @@ traits_dict_example = {
     'Shrugs': None,
 }
 
-valid_indices = list(range(200, 500)) + list(range(700, 1000)) + list(range(1200, 1529))
+valid_indices = list(range(185, 200)) + list(range(675, 700)) + list(range(1180, 1200)) + list(range(1464, 1529))
 
 list_for_tokenizer = []
 list_for_filenames = []
 
-for i, row in df.iterrows(): # 32 per batch
+for i, row in df.iterrows(): # 25 per batch
     if i in valid_indices:
         print(f"Row{i}")
         traits_dict = copy.deepcopy(traits_dict_example)
@@ -71,7 +71,7 @@ for i, row in df.iterrows(): # 32 per batch
                 else:
                     traits_dict[key] = bool(int(row[key]))
             except:
-                print("Exception while filling one field")
+                print("Exception while filling a field")
         
         messages = [
             {
@@ -87,11 +87,11 @@ for i, row in df.iterrows(): # 32 per batch
         list_for_tokenizer.append(text)
         list_for_filenames.append(row["Filename"])
 
-        if len(list_for_tokenizer) == 32:
+        if len(list_for_tokenizer) == 25:
             model_inputs = tokenizer(list_for_tokenizer, return_tensors="pt", padding=True, padding_side="left").to(model.device)
             with torch.inference_mode():
                 generated_ids = model.generate(**model_inputs, max_new_tokens=32768)
-                for j in range(32):
+                for j in range(25):
                     output_ids = generated_ids[j][len(model_inputs.input_ids[0]):].tolist() 
 
                     try:
