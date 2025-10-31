@@ -20,7 +20,7 @@ instruction_3 = "**. If yes, score it as 1, else 0 points."
 
 for i, row in df.iterrows():
     if random.randint(1, 10) == 6:
-        curr = out / f"{row["Filename"]}.txt"
+        curr = out / f"{row['Filename']}.txt"
         label = row["Label"]
 
         with open(curr, "r") as gen:

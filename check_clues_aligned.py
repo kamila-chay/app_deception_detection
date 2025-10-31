@@ -58,7 +58,7 @@ query = "Look at this text describing someone's behavior and the list of behavio
 
 for i, row in df.iterrows():
     if random.randint(1, 10) == 6:
-        curr = out / f"{row["Filename"]}.txt"
+        curr = out / f"{row['Filename']}.txt"
         traits_dict = copy.deepcopy(traits_dict_example)
 
         for key in traits_dict:
