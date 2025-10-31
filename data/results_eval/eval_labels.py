@@ -11,7 +11,11 @@ for file in source.iterdir():
         text = f.read()
         try:
             total += float(text.split("Score:")[1])
+            
         except:
-            print(file.stem)
+            try: 
+                total += float(text.split("\n")[-1])
+            except:
+                print(file.stem)
 
 print(total / n)
