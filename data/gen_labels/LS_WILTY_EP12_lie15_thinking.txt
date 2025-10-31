@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I need to reason like a human would, being uncertain and including counterarguments.
+
+First, I'll look at the description provided to understand the behaviors. The label says deception, and the key behaviors are: Lip corners up (smiling), Chin moving upwards, Gaze towards interlocutor, Gaze down, Head tilting, Head up. Other things like smiling, laughter, frowning are all false. So the person is smiling slightly, moving chin up, looking at the person but also glancing down sometimes, tilting head, and keeping head up.
+
+Now, as someone watching the video, I wouldn't know the label. I'd have to interpret these cues. Smiling could be genuine or fake. Lip corners up might mean they're trying to seem pleasant, but it's not a full smile. Chin moving up might indicate nervousness or an attempt to seem confident. Gaze down could mean they're avoiding eye contact, which is often linked to lying, but it could also be shyness or thinking. Head tilting is usually a sign of interest or confusion, not necessarily deception. Gaze towards interlocutor suggests they're trying to engage, which might counter the gaze down.
+
+I need to balance the possibilities. If they're lying, why would they smile and look at the person? Maybe they're being overly polite. But if they're telling the truth, why the gaze down and chin movement? Maybe they're uncomfortable but honest. The key is that gaze down is often a red flag for deception, but it's not definitive. Head tilting is more neutral.
+
+Counterarguments: The smile might be genuine if they're happy to talk, and head tilting could just mean they're listening. But the chin movement up might be a subtle sign of tension. Also, no other classic deception cues like blinking a lot or fidgeting, which makes it less obvious.
+
+I should avoid being too confident. Say things like "it's tricky" or "hard to tell." Emphasize that these cues aren't foolproof. Mention that context matters—like if the topic is sensitive, but since I don't have that, I have to go by behavior alone.
+
+Structure the response naturally: Start with observations, then weigh the evidence for and against lying, and end with a tentative conclusion. Make sure it's conversational, like I'm talking to a friend.
+
+Check for common pitfalls: Don't list points; keep it flowing. Avoid saying "I know they're lying" since I'm supposed to be guessing. Use phrases like "it seems possible" or "could be interpreted as."
+
+Also, the user provided a detailed description, so I should reference specific behaviors without quoting the whole thing. For example, "they kept glancing down while talking" instead of listing all the false ones.
+
+Finally, align with human reasoning: People often misinterpret cues, so it's reasonable to be uncertain. The response should reflect that ambiguity.
+</think>

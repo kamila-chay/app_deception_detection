@@ -1,0 +1,16 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "truth." They want me to imagine I'm watching the video without seeing the description or label, then write a natural-sounding assessment of whether the person is lying. I need to reason carefully, include counterarguments, and avoid sounding too confident.
+
+First, I should look at the behavior data provided. The key points are: "Gaze towards interlocutor: True" and all other behaviors like smiles, laughter, frowning, etc., are False. So the person is maintaining eye contact without any obvious nervous gestures. 
+
+Hmm, in real life, people often think eye contact means truthfulness, but I know that's a myth. Some liars actually stare to seem honest, while nervous truth-tellers might avoid eye contact. The fact that they're looking directly at the camera (since it's a video) without blinking or fidgeting could seem suspicious to some, but it might also just mean they're focused and calm. 
+
+I should consider counterarguments too. Maybe they're not lying because they're genuinely comfortable with the topic, or maybe they've rehearsed their response. On the flip side, the lack of any emotional cues (no smiles, no frowns) could feel unnatural—like they're trying too hard to be neutral. But it's also possible they're just a very stoic person. 
+
+The user emphasized making it sound like a human deduction, so I'll avoid technical terms. I'll start by describing what I see in the video: steady eye contact, no micro-expressions, calm posture. Then I'll weigh the pros and cons—like how eye contact isn't reliable, but the absence of nervous tells is noteworthy. 
+
+I should also remember the label is "truth," so my reasoning should lean that way without being dogmatic. Phrases like "it feels like" or "could be" will keep it tentative. And absolutely no bullet points—just flowing paragraphs. 
+
+Wait, the user said "don't sound too confident," so I'll add phrases like "I'm not 100% sure" or "it's hard to say." For counterarguments, I'll mention how some people lie with perfect eye contact, but others tell truth while fidgeting. 
+
+Finally, I'll wrap it up by saying the behavior aligns with truth-telling in this case, but it's not definitive. That keeps it realistic—humans rarely have absolute certainty with these things.
+</think>

@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label, and I have to assess if the person is lying based on their behavior. The description says it's labeled as deception, but I shouldn't look at that. Instead, I need to analyze the behavior described in the structured data.
+
+First, I'll go through each behavior in the description. The key points are: "Lips retracted" (which means pulling lips back, often a sign of stress), "Chin moving upwards" (like a chin lift, maybe nervous), "Gaze towards interlocutor" (looking at the person they're talking to), "Head shaking" (which could be a negative response), "Hands touching head/body/etc" (nervous gesture), and "Palms up" (which is usually open, but sometimes interpreted as honesty).
+
+Hmm, the absence of smiles or laughter is interesting. If someone's lying, they might try to appear friendly, but not smiling could mean they're stressed. But it could also just be their normal behavior. The head shaking is tricky—it's a common gesture for disagreement, but in a lie, it might be a way to dismiss something they're not saying. 
+
+I should consider counterarguments. Maybe the chin moving up is just a natural gesture, not nervousness. Or the palms up could be part of a genuine explanation, like "I'm telling you the truth." The gaze towards the interlocutor is positive for truthfulness since liars sometimes avoid eye contact, but not always. 
+
+The hands touching head/body—like fiddling with hair or neck—often signals anxiety, which could be from lying. But it might just be a habit. Lips retracted is a strong one; that's a classic micro-expression for stress. But I've read that some people do that when concentrating, not necessarily lying. 
+
+I need to balance this. The user wants me to sound uncertain, like a human making an educated guess. So I shouldn't say "definitely lying" but say "could be" or "might be." Also, avoid lists—keep it flowing in a natural reply. 
+
+Wait, the label says deception, but I'm ignoring that. My job is to pretend I don't know. So I'll focus on the behaviors: the lips retracted and chin movement stand out as stress signs, but the palms up and eye contact could counter that. Head shaking is a red flag though—people often shake heads when denying something they're lying about. 
+
+I should mention that without more context, it's hard. Like, if they're in a high-stress situation, the gestures might be normal. But based on what's here, the stress cues seem to outweigh the truth indicators. Still, I'll say "leaning toward deception" but not certain. 
+
+Make sure to include the counter: maybe they're just anxious for another reason. And wrap it up naturally, like someone thinking out loud. The user said "reply to the question," so start with "Based on what I'm seeing..." and keep it conversational.
+</think>

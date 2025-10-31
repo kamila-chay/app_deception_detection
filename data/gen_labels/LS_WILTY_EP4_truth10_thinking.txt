@@ -1,0 +1,18 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "truth" based on external information. But I need to pretend I'm watching the video without seeing the description or label. My task is to assess if the person is lying or telling the truth based on their behavior, and write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+First, I need to understand the behavior data provided. The key points are: raised eyebrows (True), frequent blinking (True), chin moving upwards (True), gaze towards interlocutor (True), gaze down (True), gaze sideways (True), nodding (True), head moving forward (True), head tilting (True), head side-turn (True), and no smile, laughter, scowl, etc. The label says it's truth, but I have to ignore that.
+
+Now, I should think like a human watching this clip. What would I notice? Raised eyebrows often indicate surprise or skepticism, but in this context, it might be part of natural conversation. Frequent blinking can be nervousness, but it's also common for people to blink more when concentrating. Chin moving upwards—like a slight chin lift—might show confidence or defensiveness. Gaze patterns: looking towards the person (good), but also down and sideways—could be hesitation or discomfort. Nodding and head movements like tilting might be positive engagement.
+
+I recall that in deception detection, people often have more micro-expressions or inconsistent body language. But here, the person is nodding and maintaining eye contact (gaze towards interlocutor), which usually suggests truthfulness. However, the frequent blinking and gaze shifts might raise doubts. I need to consider counterarguments: maybe they're just nervous about being recorded, not lying. Or perhaps the blinking is due to lighting, not deception.
+
+The user wants me to avoid sounding too confident. So I should say things like "it's hard to tell" or "it might be..." and present both sides. For example, the nodding and direct gaze could mean truth, but the blinking and gaze shifts could indicate stress from lying. But since the label is "truth," I should lean towards that without stating it outright.
+
+Also, the description says "no smile," which might be odd if they're telling a happy story, but it could be a serious topic. No scowl or frowning, so they're not angry. Chin moving up—maybe they're thinking or emphasizing something.
+
+I need to structure my response as a natural reply. Start with observations, then weigh the pros and cons. Mention the positive signs (nodding, eye contact) and the potential red flags (blinking, gaze shifts). Conclude that it seems truthful but with some ambiguity.
+
+Check for common pitfalls: don't list points, keep it flowing. Avoid terms like "according to the data" since I'm not supposed to see it. Just describe what I see in the video.
+
+Finally, make sure it's human-like: use phrases like "I'm not sure," "it's a bit ambiguous," "could be." End with a tentative conclusion that aligns with "truth" without saying it directly.
+</think>

@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as deception, but I need to pretend I don't know that and make my own educated guess.
+
+Looking at the behavioral cues: the person has raised eyebrows (True), exaggerated eye closing (True), chin moving up and down (True), gaze up and down (True), head side-turn (True), and head up (True). Other cues like smiling, laughing, frowning are all False. 
+
+Hmm, I need to think like a human observer. Raised eyebrows often indicate surprise or skepticism, but in deception contexts, it could be a sign of nervousness. Exaggerated eye closing might suggest they're trying to avoid eye contact or "thinking up" a story. The chin movements - both up and down - feel like they're trying to control their expression, which could be a sign of lying. Gaze up and down together is interesting - people often look up when recalling memories (truthful) but down when lying or being deceptive. But here it's both, which is confusing. Head side-turning is a common sign of discomfort or avoidance.
+
+But I should consider counterarguments too. Maybe they're just naturally expressive - some people have exaggerated facial movements even when truthful. The head up position could just be them trying to look confident. The gaze patterns might be due to the interview setting rather than deception. I've seen people look away when they're concentrating on answering a question, not necessarily lying.
+
+The absence of smiling or laughing is notable - truthful people often smile more in social interactions. But some people just have neutral expressions when stressed. The chin movements are the strongest indicator for me - that's not typical for natural conversation.
+
+I should be careful not to sound too certain. Humans would say things like "it's hard to say" or "could be" rather than claiming knowledge. I'll emphasize that these are just behavioral cues, not proof. The user wants me to sound like I'm making a reasonable guess, not a definitive judgment.
+
+I'll structure my response to first describe the behaviors neutrally, then present the deception indicators with their reasoning, then the counterarguments, and end with a balanced conclusion. Need to avoid technical terms and keep it conversational like a real person talking about a video they just watched.
+</think>

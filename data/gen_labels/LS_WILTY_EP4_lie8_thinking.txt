@@ -1,0 +1,58 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I have to pretend I don't know that and reason like a human would.
+
+First, I need to look at the behavior description provided. The key points are: frowning eyebrows, gaze towards interlocutor (so they're looking at the person they're talking to), gaze sideways (which might indicate distraction), head side-turn (like turning head slightly), nodding, arms open, and no smiling or laughing. 
+
+Hmm, the user mentioned I shouldn't sound too confident. So I should present both sides—why they might be lying and why they might be telling the truth. For deception, frowning eyebrows and gaze sideways could be signs of discomfort or evasion. But I know that in reality, gaze avoidance isn't always deception; it could just be shyness or thinking. The arms open might suggest openness, which contradicts lying, but sometimes liars use open arms to seem sincere.
+
+Wait, the label says "deception," so the actual behavior matches deception cues. But as someone watching the video, I shouldn't know that. I need to reason step by step. Let me think: frowning eyebrows often show stress or negative emotion, which could be from lying. Gaze sideways might mean they're not fully engaged, which could be deceptive. But if they're just nervous, it might not be lying. Nodding could be agreement, but if they're nodding too much, it might be nervous habit.
+
+Also, no smiling or laughing—liars sometimes suppress smiles to seem serious, but truth-tellers might not smile either if they're in a serious conversation. Arms open is a good sign for truthfulness, so that's a counterargument. The user said "arms open" is true, so that's a point for truth.
+
+I should balance it. Maybe say: "They're frowning and looking sideways, which makes me think they might be lying, but the open arms and nodding make me wonder if they're just nervous or being sincere." Need to avoid listing points, so weave it into a natural thought.
+
+Check if there are other cues. No exaggerated expressions, no blinking, so no clear stress signs. But frowning is there. Gaze towards interlocutor means they're looking at the person, which might mean they're trying to be honest, but gaze sideways is a bit contradictory. Head side-turn might be a sign of discomfort.
+
+Counterarguments: Maybe they're just tired or distracted. Or the conversation is about something upsetting, so frowning is natural. The arms open could be a sign of being relaxed, which might mean they're not lying.
+
+The user wants it to sound like a human's educated guess, not a confident claim. So phrases like "I'm leaning toward" or "it's hard to say" would be good. Also, avoid technical terms; keep it conversational.
+
+Make sure not to mention the label or the description. Just describe what I see in the video. So in my response, I'll talk about the frown, the sideways glance, the open arms, etc., without referencing the data.
+
+Structure it: Start with what I observe, then reasons for deception, then counterreasons, and end with a tentative conclusion. But since I shouldn't be too sure, maybe say "I'm not 100% sure, but here's what I'm thinking."
+
+Check for natural flow. Avoid "first, second, third." Just a smooth paragraph.
+
+Also, the user emphasized avoiding lists, so no bullet points. Keep it as a narrative.
+
+Now, craft the response: "Watching this clip, I notice they're frowning a bit and looking sideways when they talk, which sometimes happens when people are trying to think of what to say or feeling uneasy. But they're also nodding and keeping their arms open, which usually shows they're being genuine. The fact they're making eye contact (well, mostly) makes me think they might be telling the truth, but the sideways glances are throwing me off. Honestly, it's hard to tell—could be they're just nervous about the topic, not lying. I'd lean toward truth, but I'm not certain."
+
+Wait, the description says "gaze towards interlocutor" is true, so they are looking at the person, but "gaze sideways" is also true. So they're not fully looking away; it's a mix. So in the response, I should say they're looking at the person but sometimes glance sideways.
+
+Also, "head side-turn" is true, which might mean turning head to the side, which could be a sign of distraction.
+
+Make sure to include the arms open as a counter to deception.
+
+Double-check the description: "Arms open" is True, so that's important.
+
+Finally, since the label is deception, but I'm not supposed to know that, my reasoning should be plausible for a human. If I were a human, I might be confused because some signs point to lying, others to truth.
+
+So, end with something like: "I'm not sure, but I'd say it's probably truth, though the sideways glance makes me question it a bit."
+
+But the user said "estimate whether or not they are lying," so I need to pick one, but with uncertainty.
+
+The instruction says "make it seem like you deducted the correct label," but since I'm pretending not to know, I should be close to deception, but not sure. Wait, no—the correct label is deception, so my reasoning should lead me to think it's deception, but with doubts.
+
+In the description, frowning and gaze sideways are deception cues, while arms open is truth cue. But in reality, for deception, frowning is common, gaze avoidance is common, so the deception cues might outweigh.
+
+But as a human, I might not know that, so I should present it as a balance.
+
+I think I have it: the frowning and sideways glance are strong indicators, but the open arms and nodding are reassuring. However, the frowning seems more consistent with deception, so I'd lean toward lying, but with hesitation.
+
+So in the response: "The frowning and those quick sideways glances make me think they might be hiding something, but the open arms and nodding feel like they're being sincere. It's a tough call—I'd probably say they're lying, but I could be wrong because people get nervous about things."
+
+But the user said "don't sound too confident," so "probably" or "leaning toward" is good.
+
+Also, include counterarguments: "It's possible they're just uncomfortable with the question, not lying."
+
+Now, write it naturally.
+</think>

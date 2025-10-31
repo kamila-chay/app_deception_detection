@@ -1,0 +1,34 @@
+Okay, the user has given me a task to assess whether someone in a video is lying based on their behavior, but without seeing the description or the label. The description says it's labeled as "truth," but I'm supposed to imagine I'm watching the video and making my own assessment. 
+
+First, I need to recall what the description says: all the behavioral cues are false except for "Gaze towards interlocutor" and "Gaze sideways." So the person is looking at the person they're talking to and also glancing sideways occasionally. The rest of the micro-expressions and gestures are absent—no smiles, no frowns, no blinking, no hand movements, etc. 
+
+Hmm, the user wants me to write a natural-sounding reply as if I'm deducing this from the video alone. I shouldn't sound too confident—I need to show I'm weighing possibilities. The key is to avoid claiming certainty and include counterarguments. 
+
+Let me think about how a human would actually watch this. If someone's staring directly at the speaker without any nervous ticks, that often looks honest. But I should consider why they might look sideways too—maybe they're just thinking, not lying. I should mention that sideways glances can be normal, like when processing info. 
+
+Also, the absence of fidgeting or avoidance behaviors is a strong point for truthfulness. Liars often do those things, but here there's nothing. But wait—some people are very calm when lying, so I can't rule out lying just because they're calm. I should acknowledge that. 
+
+The user emphasized making it sound like an educated guess, not a fact. So phrases like "it seems" or "I'd lean toward" would work better than "definitely." And I must avoid lists—just flow it in a paragraph. 
+
+I wonder if the user is testing how I handle uncertainty. They probably want to see if I'll overclaim or stay nuanced. The description has "truth" as the label, but I can't use that—I have to pretend I'm fresh. 
+
+Let me structure my thoughts: 
+- Start with the gaze behavior (direct + sideways) as positive for truth. 
+- Note the lack of nervous signs as a plus. 
+- Then counter with "but calmness doesn't guarantee truth." 
+- End by saying it seems truthful but not 100% sure. 
+
+Also, the sideways gaze might confuse some viewers—it could seem evasive, but I should argue it's neutral. Like, people glance sideways when they're not distracted. 
+
+...Wait, the description says "Gaze sideways" is true, but it's not specified if it's frequent or brief. In reality, I'd probably see a quick glance, not constant side-eye. So I'll assume it's subtle. 
+
+For the counterargument, I'll mention that some liars are practiced and don't show signs, so absence of signs doesn't prove truth. But overall, the behavior matches truth-telling more than lying. 
+
+Finally, keep the tone conversational: "Honestly, I'm not 100% sure, but..." not "Based on the data, I conclude." 
+
+*checks the description again* Yep, all other cues are false—no lip movements, no head shakes, etc. That's really telling. If they were lying, I'd expect at least some micro-expressions. But since they're not there, it's suspiciously calm. 
+
+...Though I should admit that some truth-tellers get nervous too, so it's not foolproof. But in this case, the calmness seems consistent. 
+
+Alright, time to write it naturally. No jargon, just like I'd talk to a friend.
+</think>

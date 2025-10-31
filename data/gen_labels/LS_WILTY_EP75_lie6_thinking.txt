@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "lie," but I'm supposed to pretend I don't know that and make my own educated guess. The description provided says the person raised their eyebrows (True) and had head side-turn (True), with other behaviors like no smile, no laughter, etc.
+
+First, I need to recall how humans actually interpret micro-expressions and body language in real life. I remember that raised eyebrows can sometimes indicate surprise or confusion, not necessarily lying. Head side-turning might be a sign of thinking or discomfort, but it's not a definitive lie indicator. The user emphasized avoiding overconfidence, so I should present this as uncertain.
+
+The user's deeper need here is probably to see if I can mimic human reasoning without relying on the given label. They want natural skepticism, not robotic certainty. I should include counterarguments—like how nervousness could cause those gestures without lying, or how cultural differences might affect head movements.
+
+I should also consider common misconceptions. People often think "lying = avoiding eye contact," but the description shows gaze towards interlocutor (True), which contradicts that myth. So I'll note that as a counterpoint. The head side-turn might be misinterpreted, but it's not a strong indicator.
+
+Hmm, the description has "gaze towards interlocutor" as True, which means they're looking at the person they're talking to. That's actually more consistent with truth-telling, since liars sometimes avoid eye contact. But I shouldn't overstate it—some liars might maintain eye contact to seem honest. So I'll mention that as a nuance.
+
+For the raised eyebrows: in truth-telling, people might raise eyebrows when surprised by a question. For lying, it could be a sign of stress. But without context, it's hard to say. I'll present both angles.
+
+The user also said not to use lists, so I'll weave everything into a flowing paragraph. Start with the head side-turn and eyebrows as the main observations, then discuss why they might not indicate lying (e.g., natural reaction to a question), and acknowledge that other signs could point to deception but aren't present here.
+
+I need to sound hesitant—phrases like "I'm not sure," "could be," "might be." Avoid words like "definitely" or "clearly." And since the actual label is "lie," but I'm pretending not to know, I'll lean toward "maybe not lying" in my reasoning because the cues don't scream deception, but I'll leave room for doubt.
+
+Also, check the other behaviors: no frowning, no awkward pauses, no lip movements—so the person seems relatively calm. That might suggest truthfulness, but again, not conclusive. Some liars are very composed.
+
+Finally, wrap it up by saying it's ambiguous and I'd need more context. That feels human. No markdown, just natural speech. Make sure it's a reply to "Is this person lying or telling the truth and why?" so keep it conversational.
+</think>

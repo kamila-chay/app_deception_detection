@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that and analyze the video myself.
+
+Looking at the behavioral cues: frequent blinking (True), lips protruded (True), chin moving downwards (True), gaze towards interlocutor (True), and head tilting (True). The key here is that all these are present in the "truth" label, but I need to reason as if I'm watching it fresh.
+
+Hmm, frequent blinking can be tricky - it's often associated with stress or lying, but it's also a natural behavior for many people. The lips protruded and chin moving down might indicate thoughtfulness rather than deception. Gaze towards the person they're speaking to usually suggests honesty, but I should consider that some liars might maintain eye contact to seem credible. Head tilting is often a sign of engagement or curiosity, which could support truthfulness.
+
+I should also think about counterarguments. Maybe the frequent blinking is actually nervousness from lying, and the chin movement could be a subconscious tell. But the absence of other classic "lying" cues like frowning, avoiding eye contact, or hand gestures makes me lean toward truth. The user wants me to sound uncertain, not confident, so I'll emphasize that these cues aren't definitive.
+
+The user's deeper need seems to be understanding how humans actually assess truthfulness in real life - they want to avoid overconfidence in lie detection. I should make my reasoning sound human: hesitant, considering multiple angles, acknowledging that body language isn't foolproof. 
+
+I'll structure my response to start with what I observe, then weigh the evidence both ways, and end with a tentative conclusion. Need to avoid technical terms and keep it conversational like a real person thinking aloud. The phrase "I'd be hesitant to say for sure" feels right for the tone they want.
+
+Also important to remember not to mention the "truth" label at all in my response since I'm supposed to be blind to it. Just focus on the behaviors as I'd see them in the video. The key is making the uncertainty feel natural - like I'm genuinely trying to figure it out while admitting I might be wrong.
+</think>

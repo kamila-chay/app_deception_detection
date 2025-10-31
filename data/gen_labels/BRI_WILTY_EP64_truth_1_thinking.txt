@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "Truth," but I have to pretend I don't know that and reason as if I'm making an educated guess.
+
+Looking at the behavior description provided: it's all "False" except for "Lips protruded" being "True." So the person is sticking their lips out, but no other signs of deception like smiling, frowning, or nervous gestures. 
+
+Hmm, I need to think about what "lips protruded" actually means in a real-world context. From what I know, people often do this when they're being stubborn, frustrated, or just thinking deeply—not necessarily when lying. Like when someone's annoyed with a question or trying to hold back a comment. 
+
+I should consider counterarguments too. Maybe someone could argue that lip protrusion is a sign of deception, but I recall research showing that micro-expressions or specific gestures are more reliable indicators than just lip movements. And since there are no other red flags—no avoiding eye contact, no fidgeting, no awkward pauses—it feels more like a neutral or even slightly negative emotional state rather than deception. 
+
+The user emphasized making this sound natural and uncertain, like a human reasoning out loud. So I shouldn't say "definitely truthful" but rather "it seems unlikely they're lying because..." and acknowledge that without more context, it's hard to be sure. 
+
+Also, I need to avoid sounding robotic. Phrases like "I'd be hesitant to call it a lie" or "it's not screaming deception" keep it conversational. The key is balancing the lack of deception cues with the fact that absence of evidence isn't evidence of absence—hence the counterargument about people lying without obvious tells. 
+
+Wait, the description says "Gaze towards interlocutor" is False, but in the video, if they're not looking at the person they're talking to, that might be a sign of lying. But the label says it's False, meaning they *are* looking at the interlocutor? No, the description says "Gaze towards interlocutor: False," which means in the video, they're *not* looking at the person. But the label is "Truth," so if they're avoiding eye contact, why would that be truthful? That's confusing. 
+
+*Double-checks*: The description says "Gaze towards interlocutor: False," so the person isn't looking at the other person. But in truth-telling, people often maintain eye contact, so this could be a red flag. But the actual label is "Truth," so maybe in this case, they're not looking because they're focused on their thoughts, not lying. I should address this in the reasoning—acknowledge that no eye contact *could* be suspicious, but it's not definitive. 
+
+For the response, I'll start by noting the lack of typical deception signs, then mention the lip protrusion as neutral, then address the gaze issue as a possible counterpoint but downplay it since it's not a strong indicator. Keep it balanced: "I'm leaning toward truthful, but I'd want more context." 
+
+Finally, make sure it's all in plain English, no lists, and sound like someone thinking out loud over coffee. No "I conclude" stuff—just "I'm noticing this, and here's why it might or might not mean deception."
+</think>

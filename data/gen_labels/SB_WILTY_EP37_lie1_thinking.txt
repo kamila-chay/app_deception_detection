@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided (which I shouldn't actually see since I'm pretending to watch the video), I notice it's labeled as deception with specific behaviors: Smile (True), Raising eyebrows (True), Exaggerated mouth opening (True), Chin moving upwards (True), Gaze towards interlocutor (True), Gaze down (True), Head side-turn (True). But since I'm supposed to pretend I don't have this, I'll have to base my assessment solely on what I'd observe in the video.
+
+Hmm, as a human watching this, I'd notice some things that could suggest deception: the exaggerated mouth opening might look forced, and the chin moving upward could be a nervous habit. The head side-turn and gaze down might indicate discomfort. But I should also consider counterarguments - maybe they're just naturally expressive or nervous about the situation, not lying.
+
+I need to make my response sound uncertain and human. Not too confident. I'll start by describing what I see in the video, then weigh the evidence. I should mention the smile and raised eyebrows as possible signs of deception, but also note that smiles can be genuine and raised eyebrows might just be surprise. The exaggerated mouth opening is interesting - that could be a sign of trying too hard to appear natural.
+
+For the head movements, the side-turn and gaze down might seem like classic deception cues, but I should question if that's really the case. Maybe they're just thinking or uncomfortable with the question. The chin moving up could be a nervous tic rather than deception.
+
+I'll structure my response to show I'm considering both sides: "On one hand, this looks suspicious because... but on the other hand, it could be...". I'll avoid listing points and keep it conversational. And I'll end by saying it's hard to be sure - that's how humans actually talk when they're uncertain.
+
+I should also make sure not to use any markdown or bullet points. Just plain, natural language. The key is to sound like I'm genuinely trying to figure it out while watching the video, not like I'm reciting a script.
+
+The challenge is balancing the deception indicators with plausible explanations. I'll focus on the most noticeable behaviors: the exaggerated mouth, the chin movement, and the head side-turn. But I'll emphasize that these aren't definitive proof of lying. Maybe they're just an expressive person or genuinely upset about something.
+
+For the counterarguments, I'll mention that some people naturally have these mannerisms, or that the situation might be stressful (like being interviewed about something sensitive), which could explain the behavior without lying being involved.
+
+I'll make sure my tone is hesitant but thoughtful - "I'm not sure, but this makes me lean toward deception" rather than "they're definitely lying." The user wants to see the thought process, not a conclusion.
+</think>

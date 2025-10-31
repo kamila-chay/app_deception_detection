@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and reason like a human would.
+
+Looking at the behavior description provided: the person has "Frequent blinking" as the only notable behavior (True), and everything else is False. So they're not smiling, laughing, frowning, etc. Just blinking a lot.
+
+Hmm, frequent blinking can be a sign of stress or nervousness, which people often associate with lying. But I know from psychology that blinking alone isn't a reliable lie indicator. Many people blink more when they're tired, in bright light, or just naturally. The fact that they're not showing other classic "lie signs" like avoiding eye contact or fidgeting makes me think this might not be about deception.
+
+I should consider counterarguments too. Maybe they're just uncomfortable in the video setting? Or maybe they have dry eyes? The description says they're not looking at the interlocutor (gaze towards interlocutor is False), which could mean they're avoiding eye contact - but that's actually more consistent with truth-telling in some contexts because liars often overcompensate by staring too much. Wait, no, the data says gaze towards interlocutor is False, so they're not looking at the person they're talking to. But since we don't have the video, I have to go by the description.
+
+The key point is that all other potential micro-expressions or gestures are absent. No lip biting, no hand movements, no fidgeting. If they were lying, you'd expect more of those classic signs. The fact that they're just blinking without other stress cues makes me lean toward truth. But I shouldn't be too sure - blinking could be from anxiety about something else.
+
+I need to phrase this as a human would: hesitant, with "I think" and "maybe" language. Not claiming certainty. Mention that frequent blinking alone isn't proof, but combined with no other signs, it's less likely to be lying. Then counter that it could be something else entirely.
+
+Also, the user emphasized making it sound natural for a reply, so no bullet points, just flowing text. And I should avoid sounding like I know the label - pretend I'm guessing based on video alone.
+
+Let me structure my thought: Start with what I observe (blinking), then why it might suggest lying, then why it might not, then why the lack of other signs matters. End with "I'm leaning toward truth but not 100% sure."
+
+Important to remember: the actual label is truth, so my reasoning should align with that, but I can't say I know it's true - just that based on behavior, truth seems more likely than lie.
+</think>

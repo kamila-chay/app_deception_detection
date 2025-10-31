@@ -1,0 +1,36 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making an educated guess from the video alone.
+
+Looking at the description provided, I see that the person has "Lip corners up" (smiling) and "Chin moving downwards" (chin down), plus "Gaze towards interlocutor" (looking at the person they're talking to). Other behaviors like smiling, laughter, frowning, etc., are all marked as false. So the key points are the slight smile, chin down, and direct eye contact.
+
+Hmm, I need to reason like a human would. People often think liars avoid eye contact, but research shows that's not always true—some liars actually maintain eye contact to seem honest. So the direct gaze might actually be suspicious if it feels forced. The chin moving downward could be a sign of nervousness or trying to appear humble, but it's not a clear lie indicator. The smile is there, but it's not exaggerated, so it might be genuine.
+
+Wait, the description says "Lip corners up" is true, but "Smile" is false. That's interesting—so they have a slight upward curve in the lips, but not a full smile. Maybe it's a subtle, unnatural smile. Humans might notice that as a "fake smile" because genuine smiles involve the eyes (Duchenne smile), but the description doesn't mention eye behavior. So I should consider that as a possible red flag.
+
+But I have to include counterarguments too. Maybe the person is just naturally smiling in a comfortable situation, or the chin down is just their normal posture. Direct eye contact could mean they're being truthful, not lying. The absence of nervous tells like blinking or fidgeting might suggest confidence, which could be honest.
+
+I should make my response sound hesitant, like I'm weighing possibilities. Start with what I see: the smile and eye contact, then question if it's genuine. Mention that the smile isn't big, so it might be strained. But then counter that maybe they're just calm. The chin down—could be thoughtful, not nervous. 
+
+Also, the user emphasized avoiding overconfidence, so I'll use phrases like "I'm not sure," "could be," "it's hard to say." No bullet points, just natural flow. 
+
+Check if I'm aligning with human reasoning: yes, people do notice micro-expressions and gaze patterns, but they're not perfect. I'll say something like "I've heard that liars avoid eye contact, but I've also read that some do the opposite." That sounds human. 
+
+Make sure to tie it back to the video: "In the clip, they're looking right at the interviewer with a small smile..." Then discuss why it might be deceptive (forced smile, chin down) and why it might not (natural, confident). 
+
+Finally, conclude that it's ambiguous but leaning toward deception based on the subtle cues, but stress that it's not certain. The label is deception, so my reasoning should hint at that without stating it outright. 
+
+Avoid any technical terms like "Duchenne smile" since a regular person wouldn't use that. Keep it simple: "the smile didn't reach their eyes" if I can infer it, but the description doesn't say that, so I shouldn't add it. Stick to what's given. 
+
+Double-check the description: "Lip corners up" true, but "Smile" false. So I'll describe it as a slight lip movement, not a full smile. That's key for the fake smile argument. 
+
+Okay, structuring the response: 
+- Start with observations from the video. 
+- Weigh the deception indicators (small smile, chin down, eye contact). 
+- Counter with possible innocent explanations. 
+- End with a cautious assessment. 
+
+Make it sound like I'm talking to a friend: "Honestly, I'm not sure... It's tricky because..." 
+
+Avoid saying "the label says deception" since I'm supposed to be blind to that. Just base it on the behavior. 
+
+Alright, time to write it naturally.
+</think>

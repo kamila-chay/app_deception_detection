@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that and analyze it myself.
+
+Looking at the behavioral cues: The person has "Raising eyebrows" (True), "Frequent blinking" (True), "Lip corners up" (True), "Gaze towards interlocutor" (True), "Gaze sideways" (True), "Head tilting" (True), and "Palms up" (True). There are no signs of typical "lying" behaviors like scowling, frowning, or lip biting.
+
+Hmm... I should consider what humans actually look for when judging truthfulness. From what I know, micro-expressions and body language are tricky - people often misinterpret things. The raised eyebrows and sideways gaze might look suspicious at first glance, but I recall that raised eyebrows can indicate surprise or curiosity, not necessarily deception. The frequent blinking could just be nervousness from being on camera, not lying. 
+
+The palms-up gesture is interesting - that's often seen as open and honest in many cultures. And the lip corners up suggests a genuine smile, which is hard to fake. But wait, some people might fake smiles when lying... though the description says "lip corners up" specifically, not a full smile. 
+
+I should also consider counterarguments. Maybe the sideways gaze means they're avoiding eye contact, which some people associate with lying. But I've read that avoiding eye contact can also mean cultural differences or just shyness. The head tilting could be a sign of engagement rather than deception. 
+
+The user wants me to sound uncertain, like a human making an educated guess. I shouldn't say "they're definitely telling the truth" - that would be overconfident. Better to say "it seems consistent with truthfulness" while acknowledging possible misinterpretations. 
+
+I'll structure my response to show I'm weighing both sides: the behaviors that suggest truthfulness (palms up, genuine smile cues) versus the ones that might raise doubt (sideways gaze, blinking). But overall, the absence of classic "lying" cues seems to outweigh the ambiguous ones. 
+
+Important to avoid listing points - just weave it into natural language. And remember to sound like I'm thinking aloud: "At first glance... but then I remembered..." 
+
+Also need to make sure I'm not contradicting the actual label (which is truth) since that's what the user wants me to deduce. The behavioral data actually supports truthfulness, so my reasoning should align with that without me knowing it's labeled true. 
+
+The tricky part is the "frequent blinking" - that's often flagged as a lie sign, but research shows it's not reliable. I should mention that to show I'm considering context. 
+
+And for the gaze sideways... in some cultures it's normal to look away while speaking, so that might be irrelevant. 
+
+Okay, putting it all together: Start with the positive cues, then address the ambiguous ones with "but it could also mean X," then conclude that the overall impression leans toward truthfulness without claiming certainty.
+</think>

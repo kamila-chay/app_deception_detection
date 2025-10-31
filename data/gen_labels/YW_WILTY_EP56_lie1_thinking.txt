@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception," but I need to ignore that and pretend I'm just watching the video.
+
+Looking at the behavior details: the person has "Frowning eyebrows" and "Raising eyebrows" together, which is interesting because those often contradict each other. They also have "Gaze towards interlocutor" (looking at the person they're talking to), "Head tilting" (which can indicate thought or deception), and "Palms up" (which is often seen as open and honest, but sometimes used in deception too). The key points are the conflicting eyebrow movements and the head tilt.
+
+Hmm, I should consider why someone might raise eyebrows while frowning. Maybe they're trying to seem surprised or confused, but the frown suggests discomfort. Head tilting could mean they're processing something, but it's also a common deception cue. Palms up is tricky—it's usually positive, but in deception contexts, people might use it to appear trustworthy. 
+
+I need to think about counterarguments too. Maybe the head tilt is just natural when thinking, and the eyebrows are just a nervous habit. The palms up might genuinely mean they're being open. The gaze direction is good—looking at the person usually suggests truthfulness, which contradicts the deception label.
+
+The user wants me to sound uncertain, like a human making an educated guess. So I shouldn't say "they're lying" outright. I'll mention the conflicting cues and why it's ambiguous. I'll point out the eyebrow thing as a red flag but also note that the gaze and palms up are reassuring. 
+
+I should avoid technical terms and keep it conversational. Like, "I noticed their eyebrows were doing this weird thing where they were both raised and furrowed..." That sounds natural. And I'll wrap it up by saying it's hard to tell, but the conflicting signals make me lean toward deception without being sure.
+
+Also, the user emphasized avoiding lists, so I'll write it in flowing paragraphs. No bullet points. And I need to make sure my reasoning matches how a real person would think—hesitant, considering multiple angles. 
+
+Let me structure it: start with what I see (eyebrows, head tilt), then the counterpoints (gaze, palms up), then why it's confusing, and end with a "I'm not 100% sure" conclusion. That should feel authentic.
+</think>

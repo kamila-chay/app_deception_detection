@@ -1,0 +1,50 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They provided a structured description labeled as "truth," but I need to pretend I don't see that and analyze it myself.
+
+First, I need to understand the behavior cues from the description. The key points are: raising eyebrows (True), gaze towards interlocutor (True), head moving forward (True), head moving backward (True), hands touching head/body (True), palms up (True), arms open (True). And no smile, laughter, scowl, frowning, etc. 
+
+Hmm, the user emphasized making it sound like an educated guess, not too confident. So I shouldn't say "definitely truth" but rather weigh the evidence. Let me think about what these cues typically mean in deception detection. 
+
+Raising eyebrows often indicates surprise or skepticism, but in truth-telling, it can show engagement. Gaze towards the person is usually a sign of honesty—liars might avoid eye contact, but not always. Head moving forward and backward could be nervous gestures, but the description says "head moving forward" and "head moving backward" both True, which might mean they're nodding or tilting, but the label says "head shaking" is False, so it's probably not a clear shake. 
+
+Hands touching head/body—could be nervousness, but also could be just natural gestures. Palms up and arms open are classic signs of openness and honesty, like "I'm not hiding anything." That's a strong point for truthfulness. 
+
+But I should consider counterarguments. Maybe the head movements are nervous, and hands touching head could be stress from lying. But the absence of other stress cues like frowning, frequent blinking, or lip movements makes me doubt the lie hypothesis. Most deception indicators are present in liars, so their absence might suggest truth. 
+
+Also, the user mentioned "external reliable information" says it's truth, but I have to ignore that. So I'm basing only on behavior. 
+
+I need to make the response sound natural, like a human thinking out loud. Avoid bullet points, keep it conversational. Maybe start with "Hmm, this is tricky" to show uncertainty. 
+
+Key points to cover: 
+- Positive signs: open arms, palms up, direct gaze. 
+- Neutral/negative signs: head movements and hand touching could be nerves, but no clear deception cues. 
+- Counter: maybe they're lying but good at controlling stress. 
+- But overall, the openness cues outweigh the possible nervousness. 
+
+Also, the user said "don't sound too confident," so phrases like "I'm leaning toward truth" but "could be misinterpreted." 
+
+Check if all cues align: no smile, which might be because they're serious, not lying. Laughter missing—liars might fake laugh, but not here. 
+
+Make sure to mention specific behaviors: "palms up and arms open" as key for honesty. Head moving forward/backward might be just talking naturally, not lying. 
+
+Avoid technical terms, keep it simple. "They're gesturing openly" not "palms up is a deception indicator." 
+
+Finally, wrap it up with "I think truth" but with caveats. The user's example response did that well, so I'll follow that style. 
+
+Wait, the description has "head moving forward" and "head moving backward" both True. That might mean they're nodding or shifting head, which can be neutral. Not a clear sign of lying. 
+
+Also, "hands touching head/body" could be scratching or adjusting, not necessarily lying. 
+
+So overall, the behavior seems more consistent with truth—open posture, direct gaze, no stress signs. But I'll admit it's not 100% clear. 
+
+Now, structure the response: 
+- Start with observation. 
+- List key behaviors with interpretations. 
+- Weigh pros/cons. 
+- Conclude with "leaning toward truth" but "not certain." 
+
+Make sure it's not a list, so use flowing sentences. Like "I noticed they kept their palms up and arms open, which usually suggests openness..." 
+
+And counter: "But maybe the head movements are nervous, so they could be lying..." 
+
+Yes, that should work.
+</think>

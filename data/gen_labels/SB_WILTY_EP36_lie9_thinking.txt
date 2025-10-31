@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I'm supposed to pretend I don't know that. I need to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the description provided: it shows "Frowning eyebrows" and "Raising eyebrows" as true, along with "Gaze sideways," "Head moving forward," "Head side-turn" as true. Other behaviors like smiling, laughing, or frequent blinking are false. The key points are the mixed eyebrow expressions (frowning while raising eyebrows) and the sideways gaze with head movements.
+
+Hmm, I should think about how humans actually interpret micro-expressions. Frowning usually indicates negative emotion, but raising eyebrows can show surprise or confusion. The combination might suggest internal conflict—maybe they're trying to appear calm while actually stressed. The sideways gaze is interesting because it's often associated with avoiding eye contact when lying, but it could also just mean they're distracted or thinking.
+
+I recall that in deception research, inconsistent body language is a red flag. Here, the head moving forward while turning sideways might indicate they're trying to engage but can't maintain eye contact. But I should also consider counterarguments: maybe they're just naturally expressive, or the sideways glance is because they're looking at something off-screen. The head movement could be accidental too.
+
+The user emphasized not sounding too confident, so I'll use phrases like "might be" or "could suggest." I need to balance the deception indicators with plausible innocent explanations. For example, the frowning could be from discomfort with the question, not lying. And the eyebrow mix might just be a nervous tic.
+
+I'll structure my response to start with the most noticeable behaviors, then weigh the evidence, mention alternatives, and end with a tentative conclusion. No bullet points—just flowing text. The tone should be hesitant, like someone genuinely debating it while watching the clip.
+
+Also, the user mentioned avoiding overconfidence, so I'll add phrases like "it's hard to say for sure" and "could be innocent." The key is to mirror how a real person would hesitate when analyzing video evidence without context. 
+
+Let me check if I'm missing any behaviors: no smiling, no lip movements, no hand gestures—so the focus is purely on head/eyebrow/gaze. That simplifies things; I won't overcomplicate it with irrelevant details. 
+
+Finally, I'll make sure the response sounds human—slightly informal, with natural pauses implied by words like "honestly" or "I'm not 100% sure." No jargon like "micro-expression" unless it fits casually. Got it.
+</think>

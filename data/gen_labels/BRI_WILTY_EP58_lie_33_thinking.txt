@@ -1,0 +1,28 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description: the person has "Gaze towards interlocutor" and "Gaze sideways" as true, with "Nod" true. All other behaviors like smiling, frowning, blinking, etc., are false. So they're making eye contact but also looking sideways sometimes, and nodding. 
+
+Hmm, the key things here are the gaze patterns and nodding. In deception research, people often avoid direct eye contact when lying, but this person is looking at the interlocutor (that's the person they're talking to) most of the time. The sideways glance might be a red herring though - could be just natural movement. Nodding while speaking is common in truthful conversations too. 
+
+I should consider counterarguments: maybe the sideways gaze is a sign of deception? But I recall studies show that people who lie sometimes look away to avoid detection, but others look directly to seem more convincing. The fact they're nodding while speaking might actually suggest engagement, which could be truthful. 
+
+Wait, the description says "Gaze towards interlocutor" is true, which probably means they're looking at the person they're talking to, not away. The "Gaze sideways" being true might mean they glance sideways occasionally, which isn't necessarily suspicious. 
+
+I need to sound uncertain. Like, "Hmm, they're making eye contact but also glancing sideways... could be nervousness or just how they talk." And emphasize that nodding is common in truthful speech. 
+
+Also should mention that absence of micro-expressions (like no smiling or frowning) doesn't prove truthfulness - liars can suppress those. But the lack of obvious deception cues might lean toward truth. 
+
+The user wants me to avoid sounding confident, so phrases like "it's hard to say," "could be," "I'm not sure" are good. Need to balance both sides: "On one hand... on the other hand..." 
+
+For naturalness, I'll start with "This is tricky..." and keep it conversational. No bullet points, just flowing thoughts. 
+
+Important to not mention the actual label "deception" since I'm pretending I don't know it. Just describe what I see. 
+
+Let me structure it: 
+- Start with the main observation (eye contact + sideways glances) 
+- Explain why it could be truth (nodding, sustained gaze) 
+- Counter with why it might be deception (sideways glance as evasion) 
+- Conclude with "leaning toward truth but not sure" 
+
+And absolutely avoid saying "I know they're lying" - that's the opposite of what they want. They want the hesitation of a real human observer.
+</think>

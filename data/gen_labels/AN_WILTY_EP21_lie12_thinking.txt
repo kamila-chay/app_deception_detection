@@ -1,0 +1,43 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then write a natural-sounding assessment about whether the person is lying. They've provided a detailed behavior description that's labeled as "deception," but I need to pretend I don't see that. 
+
+Hmm, the challenge here is to make my analysis sound like a human would, with reasonable uncertainty. The description shows the person has gaze towards interlocutor (true), gaze up (true), head shaking (true), and no other typical deception markers like frowning or blinking. That's interesting because most people think liars avoid eye contact, but here they're making eye contact while shaking head "no" and looking up.
+
+I should focus on the head shaking since that's the only clear gesture. People often shake heads when denying something, but it could also be just a habitual gesture. The gaze up makes me think they might be recalling information - like looking up when trying to remember something - which isn't necessarily deceptive. 
+
+I need to include counterarguments too. Maybe the head shake is nervous, but it could also be firm denial. The lack of other tells (no fidgeting, no avoiding eye contact) actually makes me lean toward truthfulness, but I shouldn't be too sure. 
+
+The user wants me to sound like I'm hesitating - not claiming certainty. So phrases like "I'm not 100% sure" and "could be" will be important. I'll mention how humans often misjudge deception because we expect certain cues that aren't universal. 
+
+Also noting that the description says "gaze up" which might indicate memory retrieval, not deception. That's a key point to include. The head shake with direct eye contact feels more like a clear "no" than a lie. 
+
+I'll structure it as a natural thought process: first noticing the head shake, then questioning why they're looking up, then considering alternative explanations. Ending with "hard to say for sure" keeps it realistic. 
+
+Gotta avoid listing points - keep it flowing like a human conversation. No "firstly, secondly." Just smooth reasoning with phrases like "I wonder if..." and "it's possible that..." 
+
+The hardest part will be balancing the deception label with the actual cues. The description says "deception" but the cues don't match stereotypes, so I should lean toward truthfulness in my assessment while acknowledging it's uncertain. 
+
+...Wait, the user said "the clip is labeled deception" but I'm supposed to ignore that. So in my response, I shouldn't reference the label at all. Just base it on the behavior I'd see. Which is head shaking + direct gaze + looking up. 
+
+*checks the behavior list again* Yep, no other suspicious signs. That's actually more consistent with truth-telling than lying. Most deception research says liars often avoid eye contact, but this person is looking directly at the camera while shaking head. 
+
+I'll emphasize that contrast. Like "most people expect liars to look away, but here they're making eye contact while denying something..." 
+
+And for counterarguments, I'll say maybe the head shake is nervous, but it's a very controlled head shake - not rapid or jerky. That suggests confidence, not deception. 
+
+*mental note* Must not say "I know they're lying" - that'd be wrong. Should say "it seems possible they're lying" but with caveats. 
+
+Okay, drafting in my head: Start with what I observe, then the head shake as key point, then the gaze up as confusing but possibly neutral, then wrap with "I'd be hesitant to call it deception" but not certain. 
+
+The "gaze up" detail is crucial - that's a classic memory cue, so if they're recalling something factual while denying, that fits truth-telling. 
+
+*double-checking* The description says "gaze up" not "looking up" - same thing in context. Yeah, that's a memory indicator. 
+
+Final structure: 
+- Describe what I see (head shake + eye contact) 
+- Note the gaze up as unusual for deception 
+- Suggest it might be truth-telling 
+- But admit it's not definitive 
+- Mention why I'm not sure (could be practiced lie) 
+
+And keep it under 200 words like a casual reply. No jargon.
+</think>

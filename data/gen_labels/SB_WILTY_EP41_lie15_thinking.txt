@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided, it's labeled as deception, but I shouldn't reference that. The key behaviors listed are: chin moving downwards (True), gaze down (True), head side-turn (True). All other behaviors like smiling, laughing, frowning, etc., are False.
+
+Hmm, I should focus on what I'd actually observe in a video. The chin moving down and gaze down are significant - these often indicate discomfort or avoidance. Head side-turning could be nervousness or distraction. But I need to consider counterarguments too: maybe they're just tired, or this is how they naturally think.
+
+I should avoid sounding too confident. Phrases like "might be" or "could suggest" would work better than "definitely." The user wants me to sound like a human making a reasonable guess, not an AI with perfect knowledge.
+
+For the counterarguments: maybe the gaze down is because they're concentrating, not lying. Head turning could be just a natural movement. The chin movement might be accidental. I should mention these to show balanced thinking.
+
+I'll structure it like a natural conversation: start with what I'm seeing, then the possible reasons, then the counterpoints. Keep it flowing without bullet points. End with "I'd lean toward deception but it's not 100% clear" to match the requested uncertainty.
+
+Need to make sure I don't use any technical terms from the description - just describe what I'd see in the video. Like "they keep looking down" instead of "gaze down is True."
+
+Also important: the user specified this is for a response to "Is this person lying or telling the truth and why?" so I'll address that directly at the start.
+
+Let me craft it to sound like someone hesitating, saying "I'm not sure but..." rather than stating facts. That'll make it feel authentic.
+</think>

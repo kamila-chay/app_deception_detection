@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that and make my own judgment.
+
+Looking at the behavioral cues: The person has a smile (smile: False but lip corners up: True - so they're smiling), laughter (True), gaze towards interlocutor (True), gaze up (True), gaze down (True), nod (True), head up (True), and hands touching head/body (True). The key is that they're smiling, laughing, making eye contact, nodding, and touching their head/body - all typically associated with truth-telling. But I need to be careful because some cues can be misleading.
+
+Hmm, the laughter is interesting - genuine laughter often involves the eyes crinkling, but the description doesn't mention that. Still, laughter itself isn't a reliable lie indicator. The head touching could be nervous, but it's also common when people are thinking or emphasizing points. The gaze patterns (up and down) might suggest they're recalling memories, which is consistent with truth-telling. Nodding while speaking usually indicates agreement or confidence.
+
+But I should consider counterarguments. Some people laugh when nervous, so the laughter might not mean they're truthful. The head touching could be a nervous tic. Also, the description says "gaze towards interlocutor" which is good for truth-telling, but if they're looking away while speaking, that might indicate lying - but here they're looking at the person, so that's positive for truth.
+
+I need to avoid sounding too confident. Humans would say "it seems like they're telling the truth because of these cues, but I can't be 100% sure." I should mention that some of these cues like smiling and nodding are common in truthful speech, but context matters. The hands touching head might be neutral - could be thinking, not necessarily lying.
+
+Also, the user emphasized making it sound like a natural human response, so I'll use phrases like "I'm leaning toward" or "it seems like" instead of absolute statements. I'll include the counterpoints about nervous laughter and head touching to show I'm considering alternatives.
+
+The response should flow like a casual observation: "From what I can see, they seem engaged with their story, smiling and nodding... but I know some people do those things when they're lying too." That keeps it grounded and human.
+
+I'll structure it to first state the observations, then explain why they suggest truth-telling, then acknowledge possible alternative interpretations, and end with a tentative conclusion. No lists, just smooth paragraphs. And absolutely no mentioning the "truth" label they provided - that's cheating since I'm supposed to be blind to it.
+
+Most importantly, I must not say "I know they're telling the truth" - it's about probability based on behavioral cues, not certainty. Humans never claim absolute certainty about lies.
+</think>

@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "lie," but I need to pretend I don't know that and make an educated guess as if I'm reasoning through it.
+
+Looking at the description, it says the behavior occurred as described (True), but the label is "lie." The key behaviors mentioned are: Raising eyebrows (True), Hands touching head/body/etc (True), and everything else is False. So in the video, I'd see someone raising their eyebrows and touching their head or body, but no smiling, laughing, frowning, or other typical signs of deception.
+
+Hmm, I need to think like a human who's watching this. People often think liars avoid eye contact or fidget, but here the gaze is described as not towards interlocutor (so maybe avoiding eye contact?), but the description says "Gaze towards interlocutor: False," which would mean they're not looking at the person they're talking to. But I should be careful—this might not be clear from just the video without context.
+
+The user wants me to sound uncertain, not confident. So I shouldn't say "definitely lying" but rather "it's possible, but I'm not sure." I need to include counterarguments too. For example, raising eyebrows could be surprise or confusion, not necessarily lying. And touching head/body might just be nervous habit, not deception.
+
+I recall from psychology that micro-expressions or specific gestures can indicate deception, but it's not foolproof. The absence of common "lie signs" like avoiding eye contact or fidgeting might actually make it harder to tell. In this case, the person is avoiding eye contact (since gaze towards interlocutor is False), which is often associated with lying, but it could also be cultural or just shyness.
+
+Also, the description says "Hands touching head/body/etc" is True. That could be a sign of stress, which might accompany lying, but it's not definitive. For instance, someone might touch their head when they're tired or thinking hard, not necessarily lying.
+
+I should consider the counterpoints: Maybe they're telling the truth but are genuinely nervous. Or perhaps they're lying, but they're good at hiding it, so they don't show typical signs. The fact that they're raising eyebrows might indicate they're trying to seem innocent or surprised, which could be a deception tactic.
+
+But I need to make it sound natural in a reply. So I'll start by describing what I see: "I'm watching this person, and they seem a bit... off. They're not making eye contact, which is interesting because usually people who lie avoid looking at you. But they're also raising their eyebrows a lot, which might mean they're confused or trying to seem genuine. And they keep touching their head or neck, like they're fidgeting."
+
+Then, I'll add doubt: "On the other hand, maybe they're just naturally nervous. I've seen people do that when they're answering questions even when they're telling the truth. Or maybe they're not lying at all—they're just uncomfortable in the situation."
+
+Finally, wrap it up with uncertainty: "Honestly, it's hard to say for sure. The signs point to maybe lying, but it could easily be something else. I'd lean toward it being a lie, but I'm not 100% sure."
+
+I need to avoid listing points and keep it conversational. Make sure to include that "gaze towards interlocutor: False" as avoiding eye contact, and tie it to the behavior. Also, emphasize that I'm not claiming to know, just sharing my thought process.
+
+Double-checking the description: All other behaviors are False, so no smiling, no frowning, no hand gestures like crossing fingers. That means the only notable things are the eyebrow raise and head touching. That's key—I shouldn't overcomplicate it with things that aren't there.
+
+Okay, structuring the response: Start with what I observe, then reasons for suspicion, then counterarguments, and end with a hesitant conclusion. Keep it flowing like a real person talking.
+</think>

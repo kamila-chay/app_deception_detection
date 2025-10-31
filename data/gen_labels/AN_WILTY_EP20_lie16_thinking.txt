@@ -1,0 +1,30 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty. 
+
+Hmm, the description says it's labeled as deception, but I shouldn't use that info. The key behaviors listed are: smile (True), raising eyebrows (True), chin moving upwards (True), gaze towards interlocutor (True), gaze sideways (True), and head side-turn (True). Other things like laughter, frowning, or frequent blinking are false.
+
+Let me think about what these cues might mean. Smiling while talking could be a sign of deception - people sometimes force smiles when lying. Raising eyebrows might indicate surprise or nervousness. The chin moving up is interesting - that's like a subtle chin lift, which I've read can be a sign of confidence or maybe even a fake one. Gaze towards the interlocutor suggests they're trying to appear honest, but gaze sideways could mean they're avoiding eye contact, which is a classic deception cue. Head side-turning often happens when people are thinking or fabricating stories.
+
+Wait, but I should consider counterarguments too. Maybe they're just naturally expressive - some people raise eyebrows a lot when they're talking. The chin lift could be a habit, not deception. And gaze towards the person might mean they're genuinely engaged, not lying. The sideways glance might just be how they naturally look when thinking, not necessarily hiding something.
+
+I need to sound uncertain but reasoned. Not "they're lying because X" but "I notice some cues that make me wonder, but it could also be...". The user wants it to feel human, like someone hesitating while watching the clip.
+
+Also important: avoid listing points. Must flow as natural speech. Say things like "I kept noticing..." or "It's hard to tell because..." 
+
+Let me structure this in my head: 
+- Start with what I see (smile, head movements) 
+- Mention the conflicting cues (gaze towards vs sideways) 
+- Weigh the deception indicators against natural behavior 
+- End with "I'm leaning toward deception but not sure" 
+
+Gotta be careful not to overclaim. The description says "smile" is true, but not "forced smile" - so I shouldn't assume it's fake. Just note the smile exists. Same with chin movement - it's "moving upwards" not "jerkily" or anything, so it could be subtle.
+
+The gaze sideways is the strongest potential clue. Most deception research says avoiding direct eye contact is suspicious, but some cultures or personalities do that naturally. And they're still looking at the person sometimes (gaze towards interlocutor), so it's not full avoidance.
+
+Head side-turning... that's often associated with memory retrieval when people are making up stories. But could also be just shifting position. 
+
+I think I'll go with "I'm leaning toward deception because of the sideways gaze combined with the smile, but I'm not 100% sure because..." and then mention the counterpoints about natural behavior.
+
+Make sure the tone is casual like a person talking: "Honestly, I'm a bit torn here..." not "According to research..." 
+
+Also no markdown, just plain text. And keep it to one or two paragraphs max since it's a short response.
+</think>

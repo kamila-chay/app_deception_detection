@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They provided a detailed behavioral description labeled as "truth" but I'm supposed to pretend I don't know that.
+
+Looking at the behavioral cues: The person has "Frequent blinking" (True), "Lip corners down" (True), "Gaze down" (True), "Nod" (True), "Head moving forward" (True), "Head tilting" (True), and "Gaze towards interlocutor" (True). The key things that stand out are the frequent blinking and downturned lips - these are often associated with stress or discomfort, which might suggest lying. But I should be careful because these could also indicate sadness or deep thought.
+
+Hmm, the gaze being downward is interesting. People sometimes look down when they're being truthful and reflecting, but it can also be a sign of deception. The nodding and head tilting seem like natural conversation gestures, which might indicate engagement rather than deception. The "gaze towards interlocutor" being true suggests they're making eye contact when they're supposed to, which is a bit counter to what we'd expect if they were lying.
+
+I need to consider counterarguments too. Frequent blinking could just be dry eyes or nervousness unrelated to lying. The downturned lips might just mean they're serious or concerned about the topic, not necessarily deceptive. The head movements and nodding seem like normal conversational behavior - if they were lying, they might be more rigid or avoid eye contact.
+
+The user wants me to sound uncertain, like I'm making an educated guess. I shouldn't say "definitely lying" or "definitely truthful." I should say things like "it's hard to tell" or "this could go either way." I'll mention how humans would naturally interpret these cues - we often look for clusters of behaviors, not single ones.
+
+I should also note that the absence of other classic "lying" cues like avoiding eye contact, fidgeting, or forced smiles makes it less likely they're lying. The fact that they're maintaining gaze and nodding normally seems more consistent with truthfulness.
+
+The challenge is balancing the potential red flags (blinking, downturned lips) with the reassuring normalcy of their other behaviors. I'll emphasize that without more context, it's ambiguous. I'll make sure to sound like I'm thinking through it step by step, not like I have a definitive answer.
+
+I'll structure my response to start with what I observe, then discuss the possible interpretations, weigh the evidence, and conclude that it's probably truthful but I can't be 100% sure. I'll use phrases like "might suggest" and "could indicate" to keep it uncertain. And I'll avoid any markdown or lists as requested.
+</think>

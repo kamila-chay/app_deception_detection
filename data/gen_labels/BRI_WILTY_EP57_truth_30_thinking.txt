@@ -1,0 +1,30 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "truth" based on external information. But I need to imagine I'm watching the video without seeing the description or label. My task is to assess whether the person is lying or telling the truth based on their behavior, reasoning like a human would, without being too confident.
+
+First, I need to recall the key behaviors from the description: the person raised their eyebrows (which is true), nodded (true), and shook their head (true). Other actions like smiling, laughing, or frowning weren't present. The label says "truth," but I have to pretend I don't know that and deduce it myself.
+
+As a human watching a video, I'd look for common signs of deception. But I remember that microexpressions and body language can be tricky—what seems like a sign of lying might actually be nervousness or something else. For example, raised eyebrows could mean surprise or skepticism, not necessarily lying. Nodding while speaking often indicates agreement, but it could also be a habit. Head shaking might mean disagreement, but in this case, it's listed as "head shaking" without context, so I need to be careful.
+
+I should consider counterarguments. If the person was lying, why would they raise eyebrows? Maybe they're trying to seem sincere or caught off guard. Head shaking could be a reflex, like dismissing a thought, not denying something. Nodding while saying "no" might be confusing, but the description doesn't say what they're saying—just the behavior. So I can't assume the words match the actions.
+
+Now, thinking about what the video might show: if they're shaking their head while saying "I didn't do it," that could be a sign of lying because liars sometimes contradict themselves. But if they're shaking their head in agreement with a question, it might be truthful. Since I don't have the audio, I have to go purely on body language, which is limited.
+
+The description says "head shaking" is true, but it doesn't specify direction. In many cultures, head shaking means "no," so if they're shaking their head while denying something, it might align with truth. For instance, if asked "Did you steal the money?" and they shake their head while saying "No," that could be consistent. But if they're shaking their head while saying "Yes," that would be odd, so probably not.
+
+Also, no smiling or laughing is interesting. Liars often force smiles, so the absence might suggest authenticity. But truth-tellers can be serious too, so it's not definitive. Raised eyebrows could be neutral—like when someone is thinking hard.
+
+I need to balance this. On one hand, the head shaking and nodding might indicate they're engaged and not hiding anything. On the other hand, without context, it's hard. I should acknowledge that body language alone isn't foolproof. Humans often get this wrong, so I shouldn't sound overconfident.
+
+For the response, I'll start by describing what I see: "I noticed they kept raising their eyebrows and nodding while shaking their head." Then, I'll explain why it might be truthful—like the head shaking matching their words, and no fake smiles. But I'll add counterpoints: maybe they're nervous, or the head shaking is just a habit. Finally, I'll conclude that it seems truthful based on the cues, but I'm not 100% sure.
+
+I have to make it sound natural, like a real person thinking out loud. Avoid technical terms. Say things like "I'm not an expert" or "it's hard to tell." End with a humble assessment.
+
+Also, the user emphasized not to sound too confident, so I'll use phrases like "it seems like" or "might suggest" instead of "definitely." And include the counterarguments to show I've considered both sides.
+
+Let me structure my thoughts: 
+- Observation: raised eyebrows, nodding, head shaking.
+- Why it might be truth: head shaking could mean "no" to a question, nodding for agreement, no stress signs.
+- Counter: could be nervousness, or head shaking is just a tic.
+- Final guess: leaning towards truth, but with caveats.
+
+That should cover it. Now, I'll write it in a conversational way.
+</think>

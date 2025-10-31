@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the behavior description: the person has "Raising eyebrows" (True), "Exaggerated eye opening" (True), "Gaze towards interlocutor" (True), "Gaze down" (True), "Head side-turn" (True). Other things like smile, laughter, scowl are all False. So they're not smiling, not laughing, not frowning, but they're raising eyebrows, opening eyes wide, looking down sometimes, and turning head sideways.
+
+I need to think about what these cues might mean in real life. Raising eyebrows can be a sign of surprise or skepticism, but it's also common in normal conversation. Exaggerated eye opening might indicate surprise or emphasis, but could also just be natural expression. Gaze towards the interlocutor is good - that's usually a sign of engagement, not lying. Gaze down could mean thinking or being uncomfortable, but it's not a clear lie sign. Head side-turning might be nervous or just a natural movement.
+
+For counterarguments: if they were lying, I'd expect more signs like avoiding eye contact, fidgeting, or fake smiles. But here they're making eye contact (gaze towards interlocutor), and no fidgeting (hands not rubbing or scratching). The gaze down might be misinterpreted as lying, but it could just be them thinking or being humble. The exaggerated eye opening might be genuine surprise at something they're saying.
+
+I should avoid sounding too confident. Humans don't usually say "definitely lying" or "definitely truthful" based on one video. I'll say things like "it's hard to tell" or "could go either way." Need to include both possibilities: maybe they're truthful but nervous, or maybe they're lying but controlling their expressions well.
+
+The user wants this to sound like a natural reply to "Is this person lying or telling the truth?" So I'll write it conversationally, like I'm talking to a friend. No bullet points, just flowing text. I'll mention specific behaviors I see and why they might or might not indicate lying.
+
+Also, the description says "Gaze down" is True, which is interesting because people often look down when lying, but it's not a definitive sign. I should note that. And "Head side-turn" - that's a bit unusual; maybe they're just gesturing or thinking.
+
+I'll structure it: start with what I observe, then explain why it could mean truth (good eye contact, no nervous tells), then why it could mean lie (gaze down, exaggerated eyes), but lean toward truth because the absence of classic lie signs is more telling. But keep it uncertain - "I'm leaning toward truthful but not 100% sure."
+
+Make sure not to mention the label "truth" since I'm pretending I don't know it. Just describe what I see and my reasoning based on that.
+
+Finally, keep it concise and natural. Avoid jargon. Say "they're looking at the person they're talking to" instead of "gaze towards interlocutor." Use everyday language.
+</think>

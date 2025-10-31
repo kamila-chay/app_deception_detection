@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. I have to write a natural-sounding analysis that shows I'm making an educated guess, not a certainty, and include counterarguments.
+
+First, I need to understand the behavioral cues from the description. The key points are: raising eyebrows (True), gaze toward interlocutor (True), head moving forward (True), head tilting (True), hands touching head/body (True), and arms open (True). Other cues like smiling, laughing, frowning are all False. 
+
+Hmm, the user emphasized avoiding confidence, so I should use phrases like "might be" or "could suggest" instead of "definitely." I should also consider why someone might do these things without lying—like nervousness from a tough question, not deception. 
+
+Let me think about each behavior. Raising eyebrows often shows surprise or skepticism, not just lying. Gaze toward the interlocutor is normal for conversation. Head moving forward could be engagement, not deception. Head tilting might indicate thoughtfulness. Hands touching head could be stress from the situation, not lying. Arms open is usually open and honest. 
+
+But the label says deception, so I need to acknowledge that some cues might point that way. For example, head tilting and hands touching could be subtle signs of discomfort. But I have to counter that with alternative explanations—maybe they're just thinking hard or are naturally expressive. 
+
+I should structure my response to start with the obvious behaviors, then weigh the evidence. Like, "They're making eye contact and open with their arms, which usually suggests honesty, but the head movements and hand gestures make me wonder..." Then present both sides: the "lying" angle versus "nervous but truthful" angle. 
+
+Also, avoid listing things—keep it flowing like natural speech. Say "I noticed they kept glancing at me" instead of "gaze toward interlocutor: True." And end with uncertainty, like "hard to say for sure" to match the user's request. 
+
+Check if I'm missing anything: the description says no awkward pauses or mouth movements, so I won't mention those. Focus on the True cues. 
+
+Finally, make it sound human—maybe add a phrase like "I've seen people do this when they're just stressed about the interview" to keep it relatable. And absolutely no "I know they're lying" language. 
+
+*Double-checking*: Yep, the response should feel like a real person hesitating, not an AI spitting out facts. Got it.
+</think>

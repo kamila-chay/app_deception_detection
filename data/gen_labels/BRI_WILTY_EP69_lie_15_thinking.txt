@@ -1,0 +1,30 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "Deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess, not being too confident, and including counterarguments.
+
+Looking at the behavior description provided, I need to focus on the key cues: raising eyebrows (True), gaze sideways (True), nod (True), and palms up (True). The other behaviors like smile, laughter, frowning, etc., are all False. So the person isn't showing typical deception signs like avoiding eye contact or nervous gestures, but they are doing some things that could be ambiguous.
+
+Hmm, raising eyebrows can be a sign of surprise or skepticism, not necessarily lying. Gaze sideways might indicate they're not looking at the person they're talking to, which could be a red flag for deception, but it could also just be them thinking or distracted. Nodding while speaking might seem like agreement, but it could be a nervous tic. Palms up is often associated with openness or honesty, which is confusing because the label says deception.
+
+I should consider both sides. For deception: gaze sideways might mean they're avoiding direct contact, which is common when lying. Raising eyebrows could be a stress response. But against deception: palms up suggests openness, and nodding could be natural. Also, no other classic deception signs like fidgeting or avoiding eye contact completely. The description says "gaze sideways" not "averted gaze," so it's not full avoidance.
+
+I need to sound like a human who's hesitating. Maybe start by saying the behavior is mixed. Point out the conflicting cues: palms up is positive, but sideways gaze is negative. Mention that the lack of other signs makes it less clear. Counter with: maybe they're just nervous in general, not lying. Or perhaps the sideways gaze is because they're thinking, not hiding something.
+
+Also, avoid sounding too technical. Use phrases like "I'm not 100% sure," "it's a bit confusing," "could be either." Make it conversational. The user wants it to seem like I'm deducing it myself, so no markdown, just plain text.
+
+Check if I'm missing anything. The description says "gaze sideways" is True, but "gaze towards interlocutor" is False. So they're not looking at the person they're talking to, which is a point against truthfulness. But palms up is True, which is pro-truth. That's the core conflict.
+
+Structure the response: Start with the overall impression, then the signs that suggest deception (sideways gaze, raised eyebrows), then the signs that suggest truth (palms up, no nervous habits), then why it's hard to tell. End with a balanced conclusion that leans slightly towards deception but with caveats.
+
+Make sure not to say "I know it's deception" since I'm supposed to be guessing. Use "might be," "could indicate," "it's possible." And include counterarguments naturally, like "though some people do that when they're being honest too."
+
+Also, the user specified to avoid lists, so no bullet points. Just flowing sentences. Keep it under a paragraph or two as a natural reply.
+
+Double-check the behavior codes: "Raising eyebrows: True" – that's a key one. "Gaze sideways: True" – important. "Palms up: True" – that's the counter. Nod: True, which is neutral.
+
+Okay, drafting in my head: "Hmm, this one's tricky. The person keeps glancing sideways instead of looking at the person they're talking to, which sometimes happens when someone's not being straightforward. They also raised their eyebrows a couple times, which can be a sign of stress or trying to seem convincing. But then they have their palms up like they're being open, and they're nodding like they're agreeing with themselves. Normally, when people lie, they might fidget or avoid eye contact more, but here they're not doing those things. It's confusing because the palms up is usually a sign of honesty. Maybe they're just nervous in general, or maybe the sideways glance is just them thinking. I'm not sure, but I'd lean a little towards them not being fully truthful because of the gaze, but it's not clear-cut."
+
+That sounds natural. Now refine it to be more balanced and include the counterarguments smoothly. Avoid absolute terms. Say "it's hard to say" instead of "I think."
+
+Also, the user said "make it seem like you deducted the correct label," but since I'm supposed to be guessing, I shouldn't claim it's correct, just that I'm estimating. So in the response, I'll say "I'm leaning towards deception" but with doubts.
+
+Finally, ensure it's aligned with human reasoning: humans often overinterpret cues, so I should show that hesitation.
+</think>

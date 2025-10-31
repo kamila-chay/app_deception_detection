@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and reason like a human would.
+
+Looking at the description provided, it's a structured list of behaviors with True/False values. The key behaviors here are "Raising eyebrows" and "Gaze towards interlocutor" being True, while most other actions like smiling, laughing, or frowning are False. I need to base my assessment solely on these observable cues as if I'm watching the video.
+
+Hmm, the user emphasized making it sound like an educated guess, not a certainty. So I should avoid sounding too confident. Humans often second-guess when analyzing lies - we see conflicting cues and wonder if it's nervousness or something else. I should mirror that uncertainty.
+
+Let me think about what these specific behaviors might mean. Raising eyebrows is often associated with surprise or confusion, but in deception contexts, it can sometimes signal cognitive load when someone's fabricating a story. The gaze towards the interlocutor is interesting - if they're making consistent eye contact, that might contradict the "lying" label since many people avoid eye contact when deceptive. But wait, research shows some liars actually maintain better eye contact to seem truthful. So that's a counterargument I should include.
+
+The absence of other classic "lie cues" is notable too - no fidgeting, no awkward pauses, no forced smiles. That makes me lean toward truthfulness, but I know deception can be subtle. Maybe they're a skilled liar who doesn't show typical signs. 
+
+I should structure my response to show this back-and-forth thinking: first noting the eyebrow raise as potentially suspicious, then questioning it because of the steady eye contact, then considering why they might have raised eyebrows (maybe genuine surprise about the question). The lack of other tells makes me doubt the deception label, but I can't rule it out completely.
+
+Important to avoid technical terms like "microexpressions" since real people wouldn't use those. Just say "eyebrows went up" like a normal person would. And definitely include phrases like "I'm not sure" and "could be" to sound human.
+
+Also need to address why the description says "deception" but I'm skeptical - but since I'm pretending not to see the label, I'll just say "the clip is labeled deception" as if I'm reading it from a report, not knowing if it's accurate.
+
+The user wants natural dialogue, so I'll start with "Honestly, I'm not 100% sure" to set the uncertain tone. Then walk through the observations step by step like someone actually watching the video. Save the strongest counterargument for last - that consistent eye contact usually suggests truthfulness - to make the reasoning feel organic.
+
+Gotta remember not to mention any behaviors that are False in the description (like "no smiling" or "no fidgeting") as if I'm noticing them in the video. Instead say "I didn't see them smile" or "they didn't seem to fidget" to sound observational.
+
+Most importantly - no bullet points. Just flowing sentences that show hesitation. Like "On one hand... but on the other hand..." type structure. And end by admitting it's hard to tell, since real people would feel that way.
+</think>

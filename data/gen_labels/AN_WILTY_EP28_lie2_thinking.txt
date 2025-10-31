@@ -1,0 +1,39 @@
+We are given a structured description of behavior that is labeled as deception. However, we are to imagine we are only watching the video and have no prior knowledge of the label. We must reason as a human would, without being too confident.
+
+The description (which we are not to use as a given, but we are to imagine we are watching the video and seeing these behaviors) includes:
+- Smile: True (so the person is smiling)
+- Raising eyebrows: True
+- Gaze towards interlocutor: True (so they are looking at the person they are talking to)
+- Gaze down: True (so they are looking down at some point, but note: gaze towards interlocutor is also true, so they might be looking at the person but sometimes down)
+- Hands touching head/body/etc: True (so they are touching their head or body)
+- And others that are false.
+
+But note: we are to write as if we are watching the video and making an assessment without the label. We are to reason about both possibilities (lying or truth) and include counterarguments.
+
+We must avoid sounding too confident. We are to make it seem like we are making an educated guess.
+
+Let's think about what we might see in the video (based on the description, but we are not to use the description as fact, but as what we observe):
+
+- The person is smiling (which can be a sign of deception, but also of happiness or nervousness; it's not definitive).
+- They are raising their eyebrows (which can indicate surprise, confusion, or sometimes deception as a way to appear sincere).
+- They are looking at the interlocutor (which is good for truth-telling, but liars can also maintain eye contact).
+- They are looking down (which might be a sign of discomfort or deception, but also of thoughtfulness or being shy).
+- They are touching their head or body (which can be a sign of nervousness, which might be associated with lying, but could also be just a habitual gesture).
+
+However, note that the description says "Gaze towards interlocutor" is True and "Gaze down" is True. So they are looking at the person (so not avoiding eye contact) but also sometimes looking down (which might be a natural part of speaking, or a sign of discomfort).
+
+Also, note that they are not laughing, not frowning, not blinking frequently, not having exaggerated eye or mouth movements, etc.
+
+We have to be cautious: many of the signs we might think of as "lying" are not always present, and some that are present might have multiple interpretations.
+
+Let's structure our response as a natural human thought process:
+
+- Start by describing what we see (without using the structured terms, but as we observe).
+- Then, note the behaviors that might be suspicious (like the smile and the head touching) but also note the behaviors that seem to contradict deception (like looking at the person).
+- Then, consider the possibility that they are telling the truth (and the behaviors are just nervousness or habitual) and the possibility that they are lying (and the behaviors are signs of deception).
+- We must not be too sure, so we'll use words like "might", "could", "possibly", "it's hard to say".
+
+Important: We are to write as if we are replying to the question "Is this person lying or telling the truth and why?".
+
+Let's write the response accordingly.
+</think>

@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "truth," but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+First, I should look at the behavior details provided in the description to understand what I'd see in the video. The key points are: frowning eyebrows (True), raising eyebrows (True), frequent blinking (True), lip corners down (True), lips protruded (True), gaze towards interlocutor (True), and other things like no smile, no laughter, no nodding, etc. 
+
+Hmm, the user mentioned this is labeled as "truth" externally, but I have to ignore that. So I need to reason as if I'm a regular person watching the video. Let me think about what these behaviors might mean. Frowning and raised eyebrows together could indicate confusion or stress, not necessarily lying. Frequent blinking is often associated with nervousness, which people might think means lying, but it could just be anxiety about the situation. Lips down and protruded might look like they're struggling to speak or being frustrated, but not necessarily deceptive.
+
+I should consider counterarguments too. If someone's lying, they might avoid eye contact, but here the gaze is towards the interlocutor, which is a sign of truthfulness. Also, no exaggerated movements like lip biting or hand gestures that people often associate with lying. The absence of those could point to truth. But I can't be too sure—maybe they're just trying to seem calm.
+
+The user wants me to sound uncertain, like a human making a guess. So I shouldn't say "definitely lying" or "definitely truthful." Instead, I'll say things like "it's hard to tell" or "this might suggest," and mention why it could go either way. For example, frequent blinking could mean nervousness from lying, but it could also be from the lighting or just being tired.
+
+I need to avoid technical terms and keep it conversational. The response should flow like a real person talking, not a report. Phrases like "I'm not 100% sure" or "it's a bit ambiguous" would help. Also, include how common behaviors are misinterpreted—like people thinking frowning means lying, but it might just mean they're concentrating.
+
+Let me structure my thoughts: Start with the observed behaviors, then discuss what they might indicate for truth vs. lying, give counterpoints, and end with a cautious conclusion. Make sure to tie it back to the specific actions in the description, like the gaze being direct, which is good for truth-telling.
+
+Check if I'm missing anything: The description has "gaze towards interlocutor" as True, which is important. In lie detection, direct eye contact is often seen as honest, though it's not foolproof. But combined with other signs like no smiling (which might be expected if they're being serious), it could lean toward truth. However, some liars maintain eye contact to seem credible.
+
+Also, the lips being down and protruded—sometimes that's a sign of discomfort, but not specifically lying. Could be they're upset about the topic, not lying. I should mention that as a counterargument.
+
+Finally, wrap it up by saying it's probably truthful based on the overall calmness (no fidgeting, no avoidance), but acknowledge the blinking could be a red flag. Emphasize that without more context, it's hard to be sure.
+
+This should make the response sound natural and human-like, as requested. I'll avoid any markdown and keep it in plain text with a conversational tone.
+</think>

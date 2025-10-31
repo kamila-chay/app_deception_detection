@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the behavior description provided: the person has "Raising eyebrows" (True), "Gaze towards interlocutor" (True), "Gaze sideways" (True), "Head tilting" (True), and "Head side-turn" (True). Other behaviors like smiling, laughing, frowning, etc., are all False. 
+
+Hmm, so the key behaviors are raised eyebrows, direct gaze with some sideways glances, and head tilting/side-turning. I need to reason about what these might mean. Raised eyebrows can indicate surprise or skepticism, but in deception contexts, they might be a sign of nervousness or trying to appear innocent. The direct gaze is interesting because people often think liars avoid eye contact, but research shows it's more complex—some liars might overcompensate with too much eye contact. The sideways glances and head tilting could be signs of discomfort or thinking, but they're also common in normal conversation.
+
+I should consider counterarguments too. Maybe the person is just naturally expressive with their eyebrows, or the sideways gaze is just them looking at their notes or something. Head tilting is often a sign of engagement, not deception. The absence of classic "liar tells" like fidgeting or avoiding eye contact makes me question if it's deception. But the label says it is deception, so I need to reconcile that.
+
+The user emphasized not sounding too confident. I should use phrases like "it's tricky," "could be," "might be," and acknowledge that without context, it's hard to tell. I'll mention that the direct gaze contradicts the common myth about liars avoiding eye contact, which might make me lean toward truth-telling, but the eyebrow raising and head movements could be nervousness.
+
+Also, the description says "Gaze towards interlocutor" is True, which means they're looking at the person they're talking to, but "Gaze sideways" is also True—so they're shifting their gaze sideways while still mostly looking at the person. That's a bit confusing. Maybe they're glancing away briefly while answering.
+
+I need to make sure my response sounds human: hesitant, using "I think," "it seems," "it's possible." No bullet points, just flowing text. And I have to avoid saying I know the label is correct—I'm just guessing based on the video.
+
+Let me structure my thoughts: Start by describing the behaviors I see, then weigh the evidence for and against deception, mention the common misconceptions, and end with a balanced uncertainty. For example: "The raised eyebrows and head tilting make me wonder if they're nervous, but the direct gaze makes me doubt it..." 
+
+Also, the user said "make it seem like you deducted the correct label," but since I shouldn't know it's deception, I'll have to pretend I'm leaning toward deception based on my reasoning, even though it's ambiguous. Wait, no—the actual label is deception, so my guess should align with that, but I have to sound like I'm not sure. So I'll say it seems like deception because of the subtle signs, but I'm not 100% sure.
+
+Counterarguments: The lack of other tells (like blinking or fidgeting) suggests they're calm, which might mean truth-telling. But maybe they're good at hiding it. I should include that.
+
+Finally, wrap it up naturally: "Honestly, it's hard to say for sure, but based on what I'm seeing, I'm leaning toward deception because..." but with caveats.
+
+I'll avoid jargon like "microexpressions" and keep it simple. Make sure it's conversational, like I'm chatting with a friend about the video.
+</think>

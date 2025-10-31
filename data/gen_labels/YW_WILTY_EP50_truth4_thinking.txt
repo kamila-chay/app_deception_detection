@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I'm making this judgment from scratch.
+
+First, I should look at the behavior descriptors provided in the description. The key ones are: Gaze towards interlocutor (True), Gaze sideways (True), Head side-turn (True), and everything else is False. So the person is making eye contact but also looking sideways, and turning their head side-to-side. 
+
+Hmm, in real life, when people are telling the truth, they often maintain more consistent eye contact. But if they're lying, they might avoid eye contact or have fidgety movements. Here, the gaze is split between looking at the person and sideways, which feels a bit off. But wait—some people naturally glance sideways while speaking, especially if they're thinking or recalling something. That doesn't necessarily mean lying. 
+
+The head turning side-to-side is interesting. It could be a sign of discomfort, but it's also common in natural conversation. Like, when someone's gesturing or just being animated. Since all other signs (no frowning, no blinking, no hand movements) are absent, it's not screaming "liar." 
+
+I should consider counterarguments. Maybe the person is nervous but truthful—like if they're sharing bad news. Or maybe the sideways glance is just how they talk, not a lie signal. The absence of classic "lying" cues (like lip biting, avoiding eyes) actually leans toward truth. 
+
+Also, the description says "Gaze towards interlocutor" is True, so they're mostly looking at the person, not avoiding them. That's a strong point for truthfulness. The sideways glance might just be a natural habit. 
+
+I need to sound uncertain, like a human reasoning out loud. Not too confident—say "it's hard to tell" but lean toward truth because of the eye contact. Mention that if it were lying, I'd expect more signs like fidgeting or avoiding eyes. But since there's none, and they're engaging with the gaze, it feels genuine. 
+
+Wait, the user said "avoid lists," so I'll keep it conversational. Like: "I'm not 100% sure, but... " 
+
+Also, make sure not to reference the label. Just describe what I see. And emphasize that absence of signs is meaningful here. 
+
+*Double-checking*: The behavior shows no stress indicators, which is unusual for liars (they often show micro-signs). Truth-tellers can be nervous too, but here it's calm. So the lack of nervousness might support truth. 
+
+Counter: Maybe the person is a skilled liar who doesn't show signs. But that's less common, so I'll downplay it. 
+
+Final thought: Lean toward truth because of consistent eye contact and no red flags, but acknowledge it's not definitive. Sound like a real person hesitating.
+</think>

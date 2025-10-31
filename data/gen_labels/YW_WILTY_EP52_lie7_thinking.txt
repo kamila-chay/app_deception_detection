@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not being too confident, and including counterarguments.
+
+Looking at the description provided: the person has "Raising eyebrows" and "Gaze towards interlocutor" as true, while most other behaviors are false. No smiling, laughing, frowning, or other typical deception cues. The key points are raised eyebrows and direct eye contact.
+
+Hmm, in deception detection, raised eyebrows can sometimes indicate surprise or stress, but it's not a reliable sign. Direct eye contact is often thought to be a sign of truthfulness, but research shows liars might actually maintain more eye contact to seem credible. So this could go either way.
+
+I should consider both angles. On one hand, raised eyebrows might suggest nervousness (which could mean lying), but they could also just be reacting to something unexpected in the conversation. Direct eye contact might be an attempt to appear honest. But I shouldn't overinterpret - many people naturally raise their eyebrows when speaking, and direct gaze isn't always deceptive.
+
+The user wants me to sound like a human making a cautious assessment, not a robot. I'll avoid technical terms and keep it conversational. I'll mention the eyebrow thing but immediately question it, then note the eye contact as a counterpoint. I should emphasize that these are just observations without certainty.
+
+Important to include that absence of other cues (like fidgeting or avoiding eye contact) makes deception less likely, but I can't rule it out completely. The phrase "it's hard to say for sure" will help keep it uncertain.
+
+Also need to remember this is for a reply to "Is this person lying?" so I'll structure it as a natural conversation response. No bullet points, just flowing thoughts. I'll start with what I see, then the debate, then wrap up with the uncertainty.
+
+The counterarguments are crucial - I'll make sure to say "but it could just be..." for both the eyebrow and eye contact points. That's what makes it sound human rather than like I'm forcing a conclusion.
+
+And I must not mention the actual label "deception" anywhere in my response, since I'm supposed to be watching the video blind. The whole point is to simulate the guessing process.
+</think>

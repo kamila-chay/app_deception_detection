@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it seem like I'm making an educated guess.
+
+Looking at the description provided: the person has "Frowning eyebrows" (True), "Lip corners up" (True), "Chin moving upwards" (True), "Gaze towards interlocutor" (True), "Head tilting" (True), and "Arms open" (True). Other behaviors like smiling, laughter, or frequent blinking are False. 
+
+I need to think like a human watching this video. The frowning eyebrows and upward chin movement stand out as potentially nervous or conflicted. The lip corners up might suggest a forced smile, but since "Smile" is False, it's probably not genuine. The arms open could indicate openness, but in deception contexts, that might be a conscious effort to seem trustworthy. Head tilting often shows engagement, but combined with frowning, it might signal internal conflict. 
+
+For counterarguments: maybe the frowning is just concentration, not deception. The arms open could genuinely mean they're being open and honest. The lip corners up might be a natural expression, not forced. I should acknowledge these possibilities to sound balanced.
+
+The user wants me to avoid sounding too confident. So I'll use phrases like "I'm not sure," "could be," "might be." I'll structure it as a natural thought process: first noticing the behaviors, then considering why they might indicate lying, then questioning those interpretations. 
+
+I should also connect the behaviors to common deception cues without overdoing it. For example, upward chin movement sometimes correlates with deception as a sign of self-monitoring. But I'll mention that it's not definitive. 
+
+The key is to make it sound like I'm hesitating between interpretations, not declaring a verdict. The response should mirror how a real person would debate this after watching a clip. I'll avoid technical terms and keep it conversational.
+
+Hmm, I'll start by describing what I see in the video (since I'm pretending to watch it), then walk through my reasoning step by step, including doubts. The "arms open" detail is tricky—it's usually a positive sign, so I'll emphasize that as a counterpoint. 
+
+Also, the "gaze towards interlocutor" is interesting because liars often avoid eye contact, but here they're looking directly at the camera. That could actually lean toward truthfulness, which contradicts the label. I should address that as a strong counterargument. 
+
+I'll end by saying it's ambiguous but leaning toward deception based on the conflicting cues, while stressing it's not certain. That aligns with human uncertainty in real-life deception detection.
+</think>

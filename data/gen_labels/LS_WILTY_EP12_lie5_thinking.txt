@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+First, I need to recall the behavioral cues from the description. The key points are: raised eyebrows (True), frequent blinking (True), exaggerated eye closing (True), chin moving upwards (True), gaze towards interlocutor (True), nodding (True), head tilting (True), head side-turn (True), and arms open (True). Other cues like smiling, laughter, scowling are all False.
+
+Hmm, as a human observer, I'd notice the nervous habits first. Frequent blinking and raised eyebrows often signal stress or discomfort, which people might show when lying. But I shouldn't jump to conclusions—those could just mean they're anxious about something unrelated, like a tough question. The exaggerated eye closing is interesting; it might be an attempt to hide something, but it could also be a natural reaction to thinking hard.
+
+The chin movement upwards stands out. That's not a common gesture I see often—it might be a sign of defensiveness or trying to appear confident while lying. But again, it could just be a habitual movement. The gaze towards the interlocutor seems like they're trying to engage, which might indicate honesty, but liars often do that too to seem trustworthy. 
+
+Nodding and head tilting are usually positive, like showing understanding, but in deception contexts, people might overdo nodding to seem cooperative. Arms open is typically welcoming, which could suggest openness, but liars sometimes use that to seem less threatening. 
+
+I should consider counterarguments. For example, if they're nervous but telling the truth, like if they're in a high-pressure situation, the signs might not mean deception. Or maybe they're just a fidgety person—some people blink a lot regardless of lying. The head side-turning could be a sign of distraction, but it's not definitive. 
+
+The user wants me to sound uncertain, not confident. So I'll use phrases like "it's hard to say," "could be," "might be." I'll balance the evidence: the nervous cues suggest deception, but the positive body language like open arms and nodding could point to truthfulness. 
+
+I need to make it sound natural, like a real person thinking out loud. Avoid listing points—just weave it into a paragraph. Start with observations, then weigh the pros and cons, and end with a hesitant conclusion. 
+
+Also, the user mentioned "external, reliable information" but I'm not supposed to use that, so I'll stick to the video cues alone. No mentioning the label. 
+
+Let me structure my thought process: 
+- Start with what I see: nervous gestures (blinking, raised brows), but also engaged body language (gaze, nodding). 
+- Explain why I'm unsure: these could be anxiety, not lying. 
+- Mention the chin movement as a red flag but question if it's habitual. 
+- Conclude that it's ambiguous, leaning slightly toward deception but not certain. 
+
+Finally, ensure the tone is conversational: "Honestly, I'm not 100% sure..." instead of "Based on analysis, the label is deception."
+</think>

@@ -1,0 +1,38 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making an educated guess just from the video.
+
+First, I need to look at the behavioral cues provided in the description. The key points are: raising eyebrows (True), palms up (True), and gaze towards interlocutor (True). Other cues like smiling, laughing, frowning, etc., are all False. 
+
+Hmm, raising eyebrows can sometimes indicate surprise or confusion, but in deception contexts, it might be a sign of stress or trying to appear innocent. Palms up is often seen as a gesture of openness or honesty, which is confusing because deception usually involves more defensive gestures. But wait, sometimes people use open palms to seem truthful when they're lying—like a "look at me, I'm honest" move. 
+
+Gaze towards the interlocutor is interesting. If they're making direct eye contact, that's often associated with truth-telling, but deception can also involve maintaining eye contact to appear credible. So that's a bit ambiguous. 
+
+Now, counterarguments: if they're lying, why would they have open palms? That might be a red herring. Maybe they're trying too hard to seem sincere. But the lack of other deceptive cues like fidgeting, avoiding eye contact, or forced smiles makes it less obvious. The absence of frequent blinking or awkward pauses is actually more typical of truth-tellers, right? 
+
+Wait, the description says "frequent blinking" is False, so they're not blinking a lot. That's usually a sign of stress in liars, so no blinking might suggest they're calm, which could mean they're telling the truth. But some liars suppress blinking to seem composed, so it's not definitive. 
+
+Also, no other gestures like hands rubbing or scratching—those are common stress indicators. So the person seems relatively calm and composed. That could go either way: either they're confident in their lie, or they're genuinely not stressed because they're truthful. 
+
+I should weigh both sides. If they're lying, the raised eyebrows might be a nervous tic they're unaware of, and the palms up could be an unconscious attempt to appear trustworthy. But if they're telling the truth, the raised eyebrows might just be genuine surprise at the question, and palms up is a natural gesture. 
+
+The user wants me to sound uncertain, not confident. So I shouldn't say "they're lying" outright. Instead, I'll say it's ambiguous, mention the cues, and give reasons for both possibilities. 
+
+Also, the response needs to sound natural, like a human reasoning aloud. No bullet points, just flowing thoughts. 
+
+Let me structure it: Start with what I observe, then discuss the eyebrow thing, the palms up, the eye contact, and why it's not clear. End with "it's hard to say" but lean slightly towards truth because of the calm demeanor. 
+
+Wait, but the actual label is deception, so my reasoning should align with that, but I can't say that. I have to pretend I'm guessing. So even though I know it's deception, I'll present the case as if I'm unsure. 
+
+Key points to include: 
+- Raised eyebrows: could be surprise (truth) or nervousness (lie) 
+- Palms up: often honest, but sometimes used deceptively 
+- Direct gaze: usually truth, but liars use it too 
+- No stress signs: no fidgeting, no blinking—suggests calm, which might mean truth, but liars can be calm 
+
+Counterargument: maybe the calmness is a sign of practiced lying. 
+
+I'll conclude that it's not obvious, but the lack of typical deception cues makes me lean toward truth, though it's not certain. But since the label is deception, I need to make sure my reasoning doesn't contradict that—wait, no, I'm supposed to be guessing as if I don't know the label. So I'll be neutral. 
+
+Make sure to avoid sounding like I'm using the description; I'm just describing what I see in the video. So phrases like "I notice they're raising their eyebrows" not "the description says raising eyebrows is true." 
+
+Okay, drafting the response now. Keep it conversational, hesitant, with phrases like "I'm not entirely sure," "it could go either way," "maybe they're just naturally expressive."
+</think>

@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as deception, but I'm supposed to pretend I don't see that.
+
+Hmm, looking at the behavior data: the person has raised eyebrows (True), exaggerated eye opening (True), and gaze down (True) - but no smile, laughter, or frowning. Interesting that they're looking down while speaking, which often happens when people are uncomfortable or trying to recall something. The raised eyebrows and exaggerated eye opening make me think they might be trying to appear engaged or surprised, which can sometimes be a sign of deception when it's not matching the context.
+
+I should be careful not to sound too confident though. Humans don't usually make absolute claims about lying - we say "might be" or "could be." The counterarguments are important too: maybe they're just naturally expressive, or the situation is genuinely stressful. The gaze down could also mean they're thinking deeply rather than lying.
+
+The user wants this to sound like a natural human assessment, not a robotic analysis. So I'll avoid listing points and keep it conversational. I should mention the eyebrow and eye behaviors as key indicators, but also acknowledge that these can be normal for some people. The lack of other classic deception signs like fidgeting or avoiding eye contact (they actually have gaze towards interlocutor) makes me think it's not a clear-cut case.
+
+I wonder if the user is testing how well I can simulate human uncertainty in deception detection. They emphasized "don't sound too confident," so I'll use phrases like "I'm not sure," "could be," and "it's hard to say." The challenge is balancing the behavioral evidence with the fact that humans are bad at detecting lies anyway.
+
+For the counterarguments, I'll note that some people naturally have expressive eyes, and the downward gaze might just be shyness. The fact that they're maintaining some eye contact (gaze towards interlocutor) weakens the deception case a bit. But the exaggerated eye opening is odd for normal conversation - that's the strongest point for deception.
+
+I'll structure it as: 1) describe what I see (eyebrows, eyes, gaze), 2) explain why that might suggest lying, 3) list reasons it might not be lying, 4) conclude with "leaning toward deception but not certain." Keeping it all in plain English without technical terms like "microexpressions" since a normal person wouldn't use that.
+</think>

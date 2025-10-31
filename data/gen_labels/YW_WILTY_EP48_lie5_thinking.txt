@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the behavior description they provided (which I shouldn't rely on), I notice key points: the person has "lip corners up" (smiling) and "gaze towards interlocutor" (making eye contact), plus "head tilting" - all non-verbal cues that might seem like they're being truthful. But I know from deception research that people often smile more when lying, and head tilting can be a sign of engagement rather than deception. 
+
+Hmm, the tricky part is that the description says "smile" is False but "lip corners up" is True - that's a technical distinction (smiling vs. just lip movement). The person isn't laughing or frowning, which would be more suspicious. No nervous gestures like hand rubbing or frequent blinking either. 
+
+I should consider counterarguments: maybe the smile is forced (but the description says no laughter), or the head tilt is a sign of deception (though it's often associated with listening). The eye contact is strong - that usually suggests truthfulness, but some liars overdo eye contact to seem sincere. 
+
+Wait, the user wants me to sound uncertain like a human would. So I shouldn't say "definitely lying" - I'll say things like "it's hard to tell" and mention how context matters. The description shows no classic deception markers (like avoiding eye contact), so I'm leaning toward truthfulness, but I'll acknowledge that deception can be subtle. 
+
+I'll structure my response to first describe what I see (smiling, eye contact, head tilt), then weigh the pros/cons of truth vs. lie, and end with "I'd lean toward truth but can't be sure." Need to avoid technical terms like "microexpressions" since a normal person wouldn't use those. 
+
+Also important: the user said "make it seem like you're making an educated guess," so phrases like "I wonder if..." or "it's possible that..." will help. And absolutely no bullet points - just natural flowing text.
+</think>

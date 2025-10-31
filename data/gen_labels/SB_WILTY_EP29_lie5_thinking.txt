@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this assessment from scratch.
+
+Looking at the behavior description provided, I see that the person has "Gaze towards interlocutor: True" and "Arms open: True" - these are the only positive indicators in the list. All other behaviors like smiling, laughing, frowning, blinking, etc., are marked as false. So the person seems to be maintaining eye contact and has open arms, which are typically associated with honesty.
+
+I need to craft a natural-sounding assessment that shows I'm carefully considering this, not just jumping to conclusions. The key is to sound like a human making an educated guess, not an AI stating facts. I should acknowledge that open body language and eye contact usually suggest truthfulness, but also consider why someone might have those cues while lying.
+
+Hmm, I recall that some people who are lying might actually maintain good eye contact to appear trustworthy, especially if they're practiced liars. And open arms could be part of a deliberate attempt to seem non-threatening. But the absence of other common deception cues is notable - no fidgeting, no avoiding eye contact, no nervous gestures.
+
+I should also mention that the lack of "mouth closed (awkward pauses)" suggests they're speaking smoothly, which could go either way - either they're prepared with their story, or they're lying well. The description says "Gaze towards interlocutor: True" so they're looking at the person they're talking to, which is good for truthfulness but not definitive.
+
+I need to include counterarguments to show I'm being thorough. Like, maybe they're lying but are very calm, or maybe they're telling the truth but the situation is stressful. The arms being open could be a natural gesture too, not necessarily intentional.
+
+The user wants me to avoid sounding too confident, so I'll use phrases like "it's hard to say" and "I'd lean toward" rather than "definitely." I'll make sure to say that without more context, it's tricky, and that the video alone might not tell the whole story.
+
+Also, I should remember that the actual label is deception, but since I'm pretending not to know that, I can't reference it. My assessment has to stand on the behavior alone. So I'll focus on what's visible: eye contact and open arms versus the absence of other cues.
+
+Let me structure my response to start with what I observe, then explain why it might suggest truthfulness, then present the counterarguments about why it could still be deception, and end with a balanced conclusion that it's ambiguous but leans honest. I'll keep it conversational like I'm chatting with someone about the video.
+</think>

@@ -1,0 +1,36 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I have to pretend I don't know that. I need to write a natural-sounding response as if I'm making an educated guess, not being too confident, and including counterarguments.
+
+First, I should look at the behavior description provided. The key points from the data are: "Raising eyebrows" is True, "Chin moving downwards" is True, "Gaze towards interlocutor" is True, and "Gaze sideways" is True. Other behaviors like smiling, laughing, frowning, etc., are all False. So the person isn't showing typical deceptive cues like avoiding eye contact or smiling nervously. Instead, they're looking at the person they're talking to, but also glancing sideways occasionally, and their chin is moving down, eyebrows raised.
+
+I need to think about what humans would actually notice in a video. From psychology, people often think liars avoid eye contact, but research shows that's not always true—some liars might maintain eye contact to seem honest. The sideways gaze could be a sign of thinking, not lying. The chin movement down might indicate hesitation or discomfort, which could be from stress, not necessarily deception. The raised eyebrows might be surprise or emphasis, not deception.
+
+Counterarguments: If they were lying, why would they look directly at the person? That might be a sign of trying to seem truthful. The sideways glance might be normal for someone thinking, not lying. But the chin movement down could be a subtle sign of unease. However, without more context, it's hard to say. I should mention that these cues alone aren't definitive.
+
+I have to avoid sounding certain. Phrases like "it's hard to tell," "could be," "might be" are good. Also, emphasize that behavior varies by person—some people naturally look away when thinking, others do it when lying.
+
+Structure the response: Start with an observation, describe the behaviors, then weigh the possibilities. Mention the direct gaze as a point for truthfulness, the sideways glance as neutral or for thinking, the chin movement as possibly nervous. Then counter with why it might be deception. End with uncertainty.
+
+Check for natural language: No lists, just flowing text. Like how a person would talk in a casual discussion. Avoid jargon.
+
+Make sure not to include the label "deception" in the response since I'm pretending not to know it. Just describe what I see.
+
+Also, the user said "write a text where you assess," so it should be a paragraph or two, not a formal report.
+
+Double-check the behavior data: "Gaze towards interlocutor" True means they're looking at the person, "Gaze sideways" True means they're glancing to the side sometimes. So they're not avoiding eye contact entirely, which contradicts the common lie stereotype.
+
+Key points to cover: 
+- Direct gaze: could mean truthfulness (trying to be honest) 
+- Sideways glance: could be thinking, not lying 
+- Chin down: might be nervousness, but could be just posture 
+- No other deceptive cues like fidgeting, so maybe not lying
+
+But also, the absence of cues doesn't prove truthfulness—liars can be good at hiding.
+
+So, in the response, balance both sides. Say it's ambiguous, and I'm leaning towards truthfulness because of the direct gaze, but the chin movement makes me wonder.
+
+Finally, wrap it up by saying it's hard to be sure without more context.
+
+Now, craft the response to sound human: "Hmm, this is tricky... I notice they're looking right at the person they're talking to, which often means they're being straightforward, but sometimes people do that to seem honest when they're lying. They also glance sideways a bit—could be thinking, but I've heard that might be a sign of deception. And their chin is moving down a little, which feels like they're nervous, but maybe they're just tired or uncomfortable. Honestly, I'm not sure though because people act differently. If they were lying, I'd expect more signs like avoiding eye contact or fidgeting, but they don't seem to be doing that. So maybe they're telling the truth, but I can't rule out lying completely."
+
+Make it a bit more detailed but still natural.
+</think>

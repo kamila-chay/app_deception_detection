@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. I need to base this on the behavior described in the structured data, but pretend I'm just watching the video. The label is "deception," but I shouldn't use that in my reasoning—I have to deduce it myself.
+
+Looking at the description: the person is smiling, has a gaze toward the interlocutor, nods, has arms open, and head side-turn. Other things like laughter, frowning, or frequent blinking are false—they didn't happen. The key behaviors are the smile, nod, open arms, and head side-turn. 
+
+Hmm, as a human watching this, I'd notice the smile and nod first. Smiles can be tricky—sometimes genuine, sometimes forced. But since there's no laughter or other signs of happiness, it might be a bit off. The nod is consistent with agreement, but I wonder if it's too eager. Open arms usually signal openness, which could mean honesty, but in deception, people might use that to seem trustworthy. The head side-turn is interesting—people sometimes look away when lying, but here it's "head side-turn," which might mean shifting the head sideways, not necessarily avoiding eye contact. The gaze is toward the interlocutor, so they're making eye contact, which often suggests truthfulness, but liars can also maintain eye contact to seem convincing.
+
+I should consider counterarguments. If they're lying, why the smile? Maybe they're trying to be friendly to cover up. But the lack of other nervous cues like blinking or hand movements makes it less likely. On the other hand, if they're telling the truth, the open arms and nod make sense for a genuine interaction. But why the head side-turn? It could be a natural gesture, not related to deception.
+
+The user emphasized not to sound too confident, so I'll use phrases like "I'm not sure," "it's hard to say," and "could be." I need to avoid listing points—keep it conversational. Also, make it sound like I'm reasoning step by step, as a human would.
+
+Now, structuring the response: start with the observations, then weigh the pros and cons, and end with a hesitant conclusion. For example: "They're smiling and nodding a lot, which feels a bit rehearsed to me..." Then add counterpoints like "But the open arms and eye contact make me think they might be genuine."
+
+Check the data again to ensure accuracy. No laughter, no frowning—so the smile isn't mixed with negative emotions. Gaze toward interlocutor is true, so they're looking at the person they're talking to, which is good for truth-telling. Head side-turn is true, but I'll interpret it as a slight turn, not a big avoidance.
+
+Finally, since the label is deception, but I'm supposed to deduce it, I should lean toward deception in my reasoning but with doubt. So, I'll say it's possible they're lying because of the smile and head movement, but I'm not certain. The arms open is a red herring for truth, but it might be part of the deception tactic.
+
+Make sure the response flows like a natural reply: "I'm not entirely sure, but here's what I'm noticing..." Keep it under a few paragraphs, no markdown. And avoid any hint of knowing the label—pretend I'm just a viewer.
+</think>

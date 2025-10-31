@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment about whether the person is lying. I need to base this on the provided behavior description that's labeled as "deception," but I should pretend I don't know that.
+
+Looking at the description, the key behaviors are: "Lip corners up" (smiling) and "Gaze towards interlocutor" (looking at the person they're talking to), plus "Head moving forward" (leaning in). All other behaviors like smiling, laughing, frowning, blinking, etc., are marked as False. So the person is smiling, making eye contact, and leaning forward.
+
+I should reason like a human would. Smiling while lying is tricky because people often think liars don't smile, but actually, some liars smile to seem friendly. The fact that they're making eye contact and leaning in could be signs of engagement, which might suggest truthfulness. But I need to consider counterarguments: maybe they're smiling too much to seem sincere, or the head movement could be nervous.
+
+The user wants me to sound uncertain, not confident. So I should use phrases like "I'm not sure," "it could be," or "maybe." I need to avoid sounding like I know the label. Also, no bullet points—just flowing text.
+
+Hmm, what would a real person say? They'd probably notice the smile and eye contact first. But since it's a deception label, I should think why someone might misinterpret this. Maybe the smile is forced? But the description says "lip corners up" which is a subtle smile, not a big grin. The gaze is direct, which often indicates honesty, but some liars do this to appear trustworthy.
+
+Counterarguments: Could the head moving forward be a sign of deception? Sometimes people lean in when nervous or trying to persuade. But in this case, it's probably just showing interest. The lack of other tells like blinking or fidgeting supports truthfulness, but deception labels often rely on absence of tells, which isn't reliable.
+
+I should balance it. Start with what I see: "They're smiling and looking at you while leaning in." Then say it seems genuine, but... maybe the smile is a bit off? But the description doesn't say it's fake, so I shouldn't assume. Stick to what's given.
+
+Also, the user emphasized avoiding overconfidence. So phrases like "I'm leaning toward truthfulness" but with "but I'm not 100% sure." Mention that absence of classic tells doesn't prove truth, but it's unusual for liars to have no nervousness.
+
+Make it sound natural for a reply. Like, "I watched the clip... it seems like they're being honest because... but wait, maybe they're just good at lying..." 
+
+Check the description again: all negative tells are False, so no fidgeting, no avoiding eyes. That's classic for truth-tellers. But deception labels can be wrong, so I should acknowledge that too.
+
+Finally, wrap it up by saying I'd probably say truthfulness, but I'm not certain. The user wants the reasoning to align with human behavior, so no jargon, just plain English.
+</think>

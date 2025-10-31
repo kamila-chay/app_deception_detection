@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. I need to reason like a human would, not sound too confident, include counterarguments, and make it seem like I'm making an educated guess.
+
+Looking at the description they provided (which I shouldn't rely on since I'm supposed to be watching the video), I see it's labeled as deception with specific behaviors: raised eyebrows, chin moving downward, and gaze toward the interlocutor. But I have to pretend I don't see this and base my assessment solely on what I'd observe in the video.
+
+Hmm, the key behaviors I'd notice from the description (but which I'm imagining seeing in the video) are: raised eyebrows, chin moving down (like a slight chin drop), and direct eye contact. I should focus on how these might look in a real video.
+
+For my response, I need to sound hesitant and human. People don't usually say "I know they're lying" - they say "I'm leaning toward" or "it seems like." I should mention the raised eyebrows as a possible sign of deception (since micro-expressions can indicate stress), but also note that raised eyebrows can be neutral or even positive. The chin movement - a slight downward tilt - could look like uncertainty or defensiveness, but might just be a natural gesture. And the direct eye contact is tricky because people often think liars avoid eye contact, but research shows it's not that simple - some liars overcompensate with too much eye contact.
+
+I should also consider counterarguments: maybe the person is nervous about the topic (not lying), or the video is from a context where they're being serious (like a job interview), so the behaviors are normal. Or perhaps they're genuinely upset about something, which would explain the chin drop.
+
+The user probably wants to see if I can avoid confirmation bias - not just say "they're lying because the label says so" but actually reason from the video perspective. They're testing if I can simulate human uncertainty.
+
+I'll structure my response to start with what I observe, then discuss the signs, then the counterpoints, and end with a balanced conclusion. I'll use phrases like "I'm not 100% sure" and "it could be" to keep it natural. And I'll avoid any markdown or lists as instructed.
+
+For the chin movement specifically - "chin moving downward" might look like a subtle chin tuck, which in some contexts is a sign of thinking or discomfort. But it's so minor that it could easily be misinterpreted. And gaze toward the interlocutor is actually the opposite of what many people expect from liars, so that might be a strong counterpoint.
+
+I should also remember to make it sound like I'm answering a casual question, not writing a report. So conversational phrases like "you know?" and "it's a bit hard to tell" will help.
+
+Let me craft this carefully to hit all the notes: uncertainty, balanced reasoning, human-like hesitation, and alignment with how real people would assess deception without expert tools.
+</think>

@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description: the person has "Raising eyebrows" (True) and "Gaze towards interlocutor" (True), but "Gaze down" (True) too. So they're looking at the person they're talking to but also glancing down sometimes. "Raising eyebrows" often happens when someone's surprised or trying to seem sincere, but it can also be a sign of deception. The key is the gaze down—that's a classic sign of deception in many studies, like when people avoid eye contact to not be caught lying. But wait, they are looking at the interlocutor sometimes, so it's not full avoidance. That's confusing.
+
+I should consider counterarguments. Maybe they're just nervous, not lying. People get nervous in interviews or when being recorded, so gaze down could be anxiety, not deception. Raising eyebrows might be genuine surprise at a question, not a lie. The description says no smiling, laughing, scowling—so neutral face, which could mean they're trying hard to stay calm. But no awkward pauses or lip movements, so maybe they're not fumbling.
+
+I need to balance both possibilities. If I say they're lying, I should admit why it's not certain. If I say they're truthful, I need to address the gaze down as a possible red flag. The user wants me to sound like a human making a guess, not an expert. So phrases like "I'm not 100% sure" or "it's a bit ambiguous" would work.
+
+Also, the user specified no lists or bullet points, so I'll write in a flowing paragraph. I'll start with what I observe, then weigh the evidence, mention the counterpoints, and end with a cautious conclusion. 
+
+Hmm, the gaze down is the strongest clue. But since they're sometimes looking at the person, it's not consistent avoidance. That might mean they're trying to appear honest but slipping up. Or maybe they're just thinking. I should emphasize that deception isn't just about one sign—it's the pattern. Here, the raising eyebrows and gaze down together could be a mix, but it's weak evidence. 
+
+I'll structure it: first describe the behavior neutrally, then say "this makes me lean toward deception" but add "though it could be nervousness." Then counter with "if they were truthful, why gaze down?" and "maybe they're just shy." End by saying it's close but I'd lean deception based on the gaze. 
+
+Make sure it's not too confident. Words like "suggests," "might," "could" are good. Avoid "definitely" or "clearly." And no mention of the label—pretend I don't know it's deception. 
+
+Finally, keep it conversational: "Honestly, I'm not sure, but here's why..." That sounds human.
+</think>

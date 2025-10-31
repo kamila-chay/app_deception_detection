@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the behavior description provided (which I shouldn't use directly), I notice key details: the person has "Gaze towards interlocutor: True" and "Gaze down: True" - meaning they're looking at the person they're talking to but also occasionally looking down. The rest of the behaviors are all "False" - no smiling, laughing, frowning, blinking, etc. That's interesting because most deception cues people expect (like avoiding eye contact) aren't present here.
+
+Hmm, I should think about how a real person would analyze this. Most people would expect liars to avoid eye contact, but this person is actually maintaining eye contact while sometimes looking down. That's counter to common myths about lying. I recall research showing that people often misjudge deception based on stereotypes - like thinking liars look away, but actually some liars look more directly at you to seem honest.
+
+The gaze down detail is tricky. People sometimes look down when thinking or being truthful (like when recalling memories), but it could also be nervousness. Since there are no other stress cues like fidgeting or blinking, it might just be normal thinking behavior. The absence of all other "deception markers" makes me question the label.
+
+I should consider counterarguments too. Maybe the person is lying but very skilled at controlling their body language, or perhaps the gaze down is actually a sign of deception in this specific context. But without more info, it's hard to say. The fact that they're not showing any classic stress signs makes me lean toward truthfulness, even though the label says deception.
+
+I'll craft a response that shows this uncertainty - saying "I'm not sure" but explaining why the common cues aren't there. Need to avoid sounding too confident since the user wants it to seem like a human's educated guess. Should mention how people often misread deception cues, and that absence of tells might mean they're telling the truth. But also acknowledge that deception can be subtle.
+
+The key is to sound natural - like someone hesitating while watching a video, not a robotic analysis. I'll start with "Honestly, I'm not 100% sure" to set that tone. Mention the eye contact being strong, then the downward gaze as confusing, then explain why the lack of other signs makes me doubt it's deception. End by saying it's ambiguous but leaning toward truthfulness.
+</think>

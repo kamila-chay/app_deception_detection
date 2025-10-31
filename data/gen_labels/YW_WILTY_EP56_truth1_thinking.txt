@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and reason as if I'm making an educated guess from the video alone.
+
+Looking at the behavior description provided (which I shouldn't rely on since I'm supposed to be watching the video), I notice several key cues: raised eyebrows, frequent blinking, hands touching head/body, and a smile (lip corners up). The description says "Smile: False" but "Lip corners up: True" - that's a bit confusing, but I'll go with the detailed list. The person has gaze toward the interlocutor, which is good for truth-telling, but also frequent blinking and raised eyebrows which can be nervous.
+
+I need to approach this like a human would - not too confident, considering both sides. For truth-telling, the direct gaze and lip corners up (smile) are positive signs. But frequent blinking and raised eyebrows could indicate stress, which might be from anxiety rather than lying. People often blink more when they're nervous about being judged, not necessarily lying.
+
+For lying, the frequent blinking and raised eyebrows are classic micro-expressions associated with deception. But I should counter that: maybe they're just naturally expressive or stressed about the situation. The hands touching head/body could be a sign of discomfort, but it's also common when people are thinking hard or feeling embarrassed.
+
+I should mention that the absence of other lie indicators is important - no frowning, no lip biting, no avoiding eye contact. That leans toward truth. Also, the smile (lip corners up) while speaking is a strong truth signal - liars often don't smile genuinely during deception.
+
+I'll structure my response to sound natural, like I'm hesitating between possibilities. Start with what I observe, then weigh pros and cons, and end with a tentative conclusion. Need to avoid sounding like I know the answer - phrases like "it's hard to say" and "could be" will help. Also, I should acknowledge that some cues are ambiguous (like raised eyebrows - could be surprise or anxiety).
+
+The key is to make it feel human: noticing details, second-guessing, considering context. I won't mention the actual label at all since I'm pretending not to know. And I'll keep it conversational - no lists, just flowing thoughts.
+
+Hmm, I should also address why the frequent blinking might not mean lying - like if they're in a bright room or just tired. And the head-touching could be a nervous habit unrelated to deception. But the direct eye contact is really hard to fake, so that's a strong point for truthfulness.
+
+For the counterargument, I'll note that some people lie while maintaining good eye contact, but combined with the smile, it's less likely. And the raised eyebrows - if they're genuinely surprised by a question, that could explain it without lying.
+
+Finally, I'll conclude that the evidence leans toward truth, but with caveats, since humans rarely have 100% certainty. The phrase "I'd lean toward truth" feels right - not definitive, but reasoned.
+</think>

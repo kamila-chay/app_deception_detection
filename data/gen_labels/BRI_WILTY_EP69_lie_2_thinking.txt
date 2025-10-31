@@ -1,0 +1,32 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "Deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+First, I need to look at the behavioral description provided. The key points are: Gaze towards interlocutor (True), Gaze sideways (True), and all other behaviors like smiling, laughing, blinking, etc., are False. So the person is making eye contact but also glancing sideways occasionally. 
+
+Hmm, I recall that in deception studies, people often avoid direct eye contact when lying, but sometimes they overcompensate by staring too much. Here, the gaze is towards the interlocutor (so they're looking at the person they're talking to), but also sideways. That sideways glance might be a sign of discomfort or evasion. But I shouldn't jump to conclusions. 
+
+I should consider counterarguments. Maybe the sideways glance is just natural, like they're thinking or recalling something. People often look away when they're trying to remember details, which isn't necessarily lying. The fact that they're maintaining gaze towards the person could indicate honesty—some research says truth-tellers look more directly. 
+
+Also, the description says no other nervous behaviors: no fidgeting, no lip movements, no awkward pauses. That's interesting. If they were lying, I'd expect more signs like blinking or touching their face. But since there are none, maybe they're calm, which could mean they're confident in their story, or it could mean they're practiced at lying. 
+
+The user wants me to sound uncertain, like a human making a guess. So I shouldn't say "definitely lying" or "definitely truthful." I need to weigh both sides. For example: "On one hand, the sideways glances make me think they might be avoiding eye contact, which is common when lying. But on the other hand, they're still looking at the person, and there's no nervous body language, so maybe they're just distracted." 
+
+I should avoid technical terms and keep it conversational. Phrases like "I'm not 100% sure" or "it's a bit ambiguous" will make it sound natural. Also, since the label is deception, but I'm supposed to deduce it myself, I'll lean slightly towards deception in my reasoning but with reservations. 
+
+Wait, the gaze is "towards interlocutor" and "sideways" both true. That might mean they're looking at the person but shifting sideways, like glancing away briefly. That could be a classic sign—people who lie might look at the person but then avert their eyes quickly. So that's a point for deception. 
+
+But counter: maybe they're just in a room with a lot of visual distractions, or they're naturally expressive with their eyes. I should mention that. 
+
+Also, no other signs: no fidgeting, no forced smiles. That's unusual for a liar, but some people are good at hiding it. So it's a mixed bag. 
+
+I'll structure my response to start with what I see, then present the evidence for and against, and end with a tentative conclusion. Make sure it flows like a real person thinking aloud. 
+
+Key things to include: 
+- The eye contact is maintained but with sideways glances. 
+- No other nervous cues. 
+- Suggest that sideways glances could be deceptive but might have innocent reasons. 
+- Conclude that it's leaning towards deception but not certain. 
+
+Avoid listing; keep it narrative. Like: "I noticed they kept looking at me, but every now and then they'd glance off to the side..." 
+
+Finally, make sure it's aligned with how humans actually think—hesitant, not overconfident. The user emphasized "not too confident," so I'll use words like "might," "could," "it's hard to say."
+</think>

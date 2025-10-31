@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this assessment from scratch.
+
+First, I need to look at the behavioral cues provided in the description. The key ones that are marked as True are: Frequent blinking, Chin moving upwards, Gaze towards interlocutor, Gaze down, Gaze sideways, Nod, Head tilting, Head up, Arms open. The False ones include things like smiling, laughing, scowling, which are typical signs of deception but aren't present here.
+
+Hmm, the user emphasized that I shouldn't sound too confident. So I should present this as an educated guess with counterarguments. Humans often look for micro-expressions or nervous habits, but here the person isn't showing classic deception signs like avoiding eye contact or fidgeting. Instead, they have frequent blinking and chin movements. I remember that frequent blinking can be a sign of stress or lying, but it's not definitive—people blink more when they're tired or in bright light too.
+
+The gaze patterns are interesting: they're looking at the interlocutor (which might suggest honesty), but also looking down and sideways. Gazing down can sometimes indicate discomfort, but it's not a strong indicator. Head tilting and nodding could be signs of engagement, which might mean they're being truthful. Arms open is generally a sign of openness, which could point to honesty.
+
+Wait, but the chin moving upwards—what does that mean? I think that's when the chin lifts, maybe indicating defensiveness or hesitation. But I'm not sure if that's a reliable cue. Some studies say chin movements can be linked to deception, but it's not as clear as other signs.
+
+I should consider counterarguments. Maybe the person is just naturally expressive. For example, frequent blinking might be due to dry eyes, not lying. Head tilting could be a habit, not deception. The arms being open might just mean they're relaxed. Also, the absence of nervous behaviors like fidgeting or avoiding eye contact might actually suggest they're not lying. People who are lying often try to appear calm, so the lack of obvious stress signs could be a red flag for deception, but that's a common misconception.
+
+The user wants this to sound like a natural human response. So I'll avoid technical terms and keep it conversational. I'll start by describing what I see, then weigh the possibilities. I'll mention the blinking and chin movement as potential signs of deception, but also note that the other cues don't fit the typical deception profile. I should emphasize uncertainty—phrases like "I'm not sure" or "it's hard to say."
+
+Also, need to make sure not to list things. The user said no bullet points, so I'll weave it into a paragraph. Check the description again: no smiling, no frowning, which might mean they're trying to be neutral, but that's not necessarily deceptive.
+
+Putting it all together: I'll describe the behavior observed, then discuss why it might indicate lying (blinking, chin movement), then why it might not (open arms, eye contact), and conclude that it's ambiguous. Make sure to sound like I'm thinking it through in real-time, not like I'm reciting a script.
+
+Need to avoid saying "the label is deception" since I'm pretending not to know. Just focus on the video. Also, the user mentioned "external reliable information" but since I'm not supposed to use that, I'll stick to the behavioral cues alone.
+
+Double-check the cues: Gaze towards interlocutor is True, which is good for honesty, but gaze down is also True—gaze down can be a sign of deception in some contexts, but it's not consistent. Head tilting is common in normal conversation too.
+
+Alright, structuring the response: Start with what I see, then the possible signs, then counterpoints, and end with uncertainty. Keep it to a few sentences so it's natural as a reply. Make sure it doesn't sound robotic. Phrases like "I'm a bit torn" or "it's tricky" would help.
+</think>

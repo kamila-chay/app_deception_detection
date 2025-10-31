@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I have to assess whether the person is lying based on their behavior. The description says it's labeled as truth, but I shouldn't know that. I need to write a natural-sounding response as if I'm deducing this from the video alone.
+
+Looking at the behavior descriptors: the person has raised eyebrows (True), frequent blinking (True), and gaze towards interlocutor (True). Other actions like smiling, laughter, scowling are all False. So they're not showing typical "lying" signs like avoiding eye contact or nervous gestures. 
+
+Hmm, the raised eyebrows and frequent blinking stand out. In reality, people often raise eyebrows when surprised or confused, not necessarily when lying. Frequent blinking could be nervousness, but it's also common when someone's concentrating hard. The gaze towards the interlocutor is important - if they're looking directly at the person they're talking to, that usually suggests honesty. 
+
+I should consider counterarguments though. Maybe the blinking is a sign of stress from lying, and the raised eyebrows could be a fake reaction. But the description shows no other signs like frowning or lip movements that often accompany deception. The fact that they're maintaining eye contact seems strong evidence against lying. 
+
+I need to sound uncertain - not claiming I know for sure, just making an educated guess. Humans would say things like "it seems like they might be telling the truth because..." and then acknowledge why it's not certain. 
+
+The user probably wants to see if I can avoid overconfidence and show balanced reasoning. They're testing whether I'll just parrot the label or actually think through it. I should emphasize the eye contact as the key point, since that's a strong indicator of truthfulness in most studies. 
+
+Also need to avoid technical terms - keep it conversational like "I'd say" instead of "based on studies." And remember not to mention any of the False behaviors since I'm supposed to be watching the video, not reading the label. 
+
+The hardest part is making the uncertainty feel natural. I'll use phrases like "I'm not 100% sure" and "could be" to show I'm thinking it through. The counterargument about blinking being nervousness should come before the main reasoning so it doesn't sound like I'm ignoring it.
+</think>

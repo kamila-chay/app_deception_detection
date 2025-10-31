@@ -1,0 +1,30 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not a certainty.
+
+Looking at the description provided, it's a structured list of behaviors with True/False values. Since I'm supposed to pretend I'm watching the video, I'll have to interpret what those behaviors mean in context. The key points from the description are: Gaze towards interlocutor (True), Gaze down (True), Head tilting (True), Arms open (True), and all other behaviors like smiling, laughing, blinking, etc., are False. 
+
+Hmm, the person is maintaining eye contact (gaze towards interlocutor), but also looking down occasionally (gaze down), and tilting their head. They have open arms, which is usually a sign of openness, not deception. But the gaze down part is interesting—people sometimes look down when they're being deceptive, but it can also mean they're thinking or being humble. Head tilting is often a sign of engagement or curiosity, not necessarily lying. 
+
+I should consider counterarguments too. If they were lying, why would they have open arms? That's usually a sign of honesty. But maybe they're trying to appear open while lying, so the arms open could be a conscious effort. The gaze down might be a nervous habit, but it's not a strong indicator of deception. The description says they're not doing any classic deception cues like excessive blinking or fidgeting. 
+
+The user wants me to sound unsure, like a human making a guess. So I shouldn't say "definitely lying" or "definitely truthful." Instead, I'll say things like "it's a bit ambiguous" or "I'm leaning toward truthful but not certain." I need to include both sides: why it could be truth (open arms, no nervous tells) and why it could be deception (gaze down, head tilt might be overcompensating). 
+
+Also, the description says "Gaze towards interlocutor" is True, meaning they're looking at the person they're talking to, which is good for truthfulness. But "Gaze down" is also True, so they're looking down sometimes. That's a bit conflicting. Maybe they're looking down when thinking, not necessarily lying. 
+
+I should avoid technical terms like "microexpressions" since the description doesn't have any. Stick to observable things: what the person is doing in the video. Since they're not smiling or frowning, it's neutral, which could mean they're calm or hiding something. But neutral is also common for truth-tellers. 
+
+The arms being open is a strong point for truthfulness—deceivers often cross arms or have closed posture. Here, arms are open, so that's a red flag against deception. But I'll mention that some people might open arms to seem trustworthy while lying, so it's not foolproof. 
+
+For the response, I'll start with what I see: "They're looking at the person, tilting their head, arms open..." Then weigh the pros and cons. End with "I'd lean toward truthful but it's not 100% clear." Make sure it sounds conversational, like I'm thinking out loud. 
+
+Also, the user said "avoid lists," so no bullet points. Just smooth paragraphs. And no overconfidence—I'll use "might," "could," "it's possible." 
+
+Let me structure my thoughts: 
+- Describe key behaviors (gaze, head tilt, arms open) 
+- Explain why they might suggest truth (open arms, eye contact) 
+- Counter with why they might suggest deception (gaze down, head tilt as nervousness) 
+- Conclude with uncertainty. 
+
+Double-check the description: all other behaviors are false, so no signs of stress. That actually supports truthfulness because liars often show stress cues. But people can lie without stress, so it's not definitive. 
+
+I think I've got it. Now to write it naturally.
+</think>

@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that's an educated guess, not too confident, with counterarguments.
+
+Looking at the behavior description provided (which I shouldn't rely on since I'm supposed to be watching the video), I notice key cues: raised eyebrows, exaggerated eye opening, lip corners down, gaze down, head side-turn, and arms open. The "truth" label is given, but I have to pretend I don't know that.
+
+Hmm, as a human watching this, I'd notice the person seems a bit tense - raised eyebrows and exaggerated eye opening often signal stress or trying to appear sincere. But the lip corners down and gaze down could be sadness or discomfort rather than lying. The arms open is interesting - that's usually a sign of openness, which might suggest truthfulness, but could also be a deliberate gesture. 
+
+I should consider counterarguments too. Maybe they're just naturally expressive with their eyebrows, or the gaze down is just shyness. The head side-turn might be nervous habit, not deception. And arms open could be accidental, not intentional.
+
+I'll structure my response to sound like I'm hesitating between interpretations. Start with what stands out (eyebrows/eye opening), then note the openness cues, then question if it's just their normal behavior. Need to avoid sounding like I'm listing points - keep it conversational. 
+
+Important to say "I'm not sure" a few times, and emphasize that without context it's hard to tell. The user wants to see human-like uncertainty, not AI certainty. Should mention that some cues conflict (like arms open vs. lip corners down), which makes it tricky.
+
+Also need to avoid technical terms - say "they're looking down a lot" instead of "gaze down." And remember the label is truth, but I can't use that knowledge, so my reasoning must stand alone. 
+
+*checks description again* Wait, "lip corners down" is the only negative mouth expression listed, which might indicate sadness rather than deception. But I shouldn't assume that - could be anger. Gotta present both possibilities.
+
+*mental note* Must not say "the label says truth" or anything like that. Purely based on visual observation. Okay, drafting now with natural hesitations like "I'm not sure if..." and "it could be..." 
+
+*double-checking* Yep, avoiding "I think" too much - better to say "it seems" or "I notice." And ending with "hard to say for sure" keeps it appropriately uncertain. Got it.
+</think>

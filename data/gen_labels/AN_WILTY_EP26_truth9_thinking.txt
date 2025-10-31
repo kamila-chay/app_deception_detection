@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and reason like a human would.
+
+First, I need to look at the behavioral cues provided in the description. The key points are: no smile, no laughter, no scowling, but there's "raising eyebrows" and "gaze towards interlocutor" (meaning they're looking at the person they're talking to), plus "head shaking" (which is a negative gesture like "no" or disagreement). Also, no awkward pauses or lip movements.
+
+Hmm, if someone's lying, common signs might include avoiding eye contact, fidgeting, or forced smiles. But here, they're making eye contact (gaze towards interlocutor), which is often associated with truth-telling. The head shaking could be confusing—it might mean "no" to something, but if they're denying something, it might not necessarily indicate lying. For example, if asked "Did you do it?" and they shake head, it's a clear denial, but that doesn't mean they're lying; it could be true.
+
+The "raising eyebrows" is interesting. People sometimes raise eyebrows when surprised or skeptical, but in this context, it might just be natural expression. Since there's no scowling or frowning, it's probably not negative emotion. And no other signs like blinking a lot or covering mouth—those are classic lie indicators, but they're absent here.
+
+Counterarguments: Head shaking could be interpreted as defensive, like they're dismissing something, which might hint at deception. But head shaking alone isn't strong evidence; it's common in conversations. Also, the absence of nervous signs (like frequent blinking) makes lying less likely. Truth-tellers often have fewer micro-expressions.
+
+I should consider why the label is "truth" in the actual data. The description says "truth" and lists behaviors that align with calm, direct communication—eye contact, no fidgeting. So my reasoning should lean toward truth, but I need to sound uncertain, like a human might. 
+
+Now, to write it naturally: Start with what I observe, mention the head shake as a possible red flag but downplay it, emphasize the eye contact and lack of nervousness. Acknowledge that without context, it's hard, but based on common cues, truth seems more probable. Avoid being too definitive—say "it feels like" or "I'd lean toward."
+
+Also, the user wants it to sound like a reply to "Is this person lying?" so I'll keep it conversational. No lists, just flowing text. Make sure to include counterarguments: e.g., "some might think head shaking means lying, but..." to show balanced thinking.
+
+Finally, ensure it doesn't sound robotic. Humans hesitate, use phrases like "I'm not 100% sure" or "it's hard to say without more context." And since the actual label is truth, my deduction should align with that, but subtly—like I'm realizing it's probably true after weighing the evidence.
+</think>

@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I'm making this judgment purely from the video.
+
+Looking at the behavior descriptors: the person has "Frequent blinking" (true), "Gaze towards interlocutor" (true), "Head moving backward" (true), "Arms open" (true). Other things like smiling, laughing, scowling are all false. 
+
+Hmm, frequent blinking can be a sign of stress or lying, but it's also common when people are just nervous or thinking. I should consider that. Gaze towards the interlocutor is good - liars often avoid eye contact, but not always. Head moving backward might look like they're pulling away, which could be discomfort, but it could also be just a natural movement. Arms open is generally a sign of openness and honesty.
+
+I need to balance both sides. On one hand, frequent blinking and head movement could suggest deception. But on the other, the direct eye contact and open arms seem to contradict that. Maybe the blinking is just because they're tired or the lighting is bad. The arms being open is a strong indicator of truthfulness.
+
+The user wants me to sound uncertain, like a human making an educated guess. So I shouldn't say "definitely truth" or "definitely lying." I should say things like "it's hard to say" or "could go either way." Also, I need to include counterarguments - like why the blinking might not mean lying, or why open arms might not mean truth.
+
+I recall that in real life, people often misinterpret cues. For example, some cultures have different norms for eye contact. Or someone might blink a lot due to allergies. So I should mention that. Also, the head moving backward - could be just adjusting posture, not necessarily lying.
+
+The arms open is a solid point for truthfulness. But I should note that liars can sometimes use open gestures to seem sincere, so it's not foolproof. But combined with the direct gaze, it leans toward truth.
+
+I need to make sure my response sounds natural, like someone talking casually. No bullet points, just flowing thoughts. Start with what I'm seeing, then weigh the pros and cons, and end with a cautious conclusion.
+
+Also, the user emphasized avoiding overconfidence. So phrases like "I'd lean toward" or "it's possible" would work better than "I'm sure." And I should mention that without more context, it's tricky.
+
+Let me structure my thoughts: first describe the key behaviors I notice, then discuss the blinking as a potential red flag but with counterpoints, then the eye contact and open arms as green flags, then tie it together with the uncertainty.
+
+Make sure not to mention the actual label "truth" since I'm supposed to be deducing it. Just base it on the behaviors. And keep it concise as per the user's request.
+</think>

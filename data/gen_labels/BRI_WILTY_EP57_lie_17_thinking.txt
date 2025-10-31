@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. I need to base this on the behavioral cues described in the "description" section, but pretend I'm deducing it from the video alone.
+
+Looking at the description, the label is "deception" (meaning they're lying), and the key behaviors are: Frowning eyebrows (True), Gaze towards interlocutor (True), and all other behaviors are False. So the person has frowning eyebrows and is looking at the person they're talking to, but no other typical deception cues like smiling, laughing, frequent blinking, or avoiding eye contact.
+
+I should write this as if I'm watching the video and making an educated guess. The user emphasized not to sound too confident, so I'll use phrases like "I'm not 100% sure" and include counterarguments. Humans would probably notice the frown and direct gaze, but might wonder if it's just concentration or stress.
+
+For the counterarguments: Maybe the frown is because they're thinking hard or upset about the topic, not lying. And direct gaze is often seen as honest, so that might contradict the deception label. I should mention that.
+
+I'll structure it like a natural reply: start with what I observe, then explain why I'm leaning toward deception but with doubts, then present the counterpoints. Avoid lists—keep it flowing like real human speech.
+
+Also, the user said "make it seem like you deducted the correct label on your own," so I'll imply I'm coming to the deception conclusion but with hesitation. The key is to mirror how an average person would think: "Hmm, they're frowning and looking at me... but maybe they're just stressed."
+
+I'll make sure to say things like "I'd lean toward deception" but immediately follow with "though it could be something else." That keeps it realistic and not overconfident.
+
+Finally, I'll tie it back to the video cues without referencing the description—just describe what I'm seeing. Like "I noticed they kept frowning while answering" instead of "the description says frowning eyebrows."
+</think>

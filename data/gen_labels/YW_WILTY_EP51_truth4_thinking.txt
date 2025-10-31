@@ -1,0 +1,20 @@
+Okay, the user wants me to assess whether someone in a video is lying based on their behavior, but I shouldn't see the description or the label. I need to pretend I'm watching the video and make an educated guess. The actual label is "truth," so I have to reason as if I'm deducing that without knowing it.
+
+First, I'll look at the behavioral cues provided. The key points are: "Raising eyebrows" is True, "Gaze towards interlocutor" is True, "Gaze up" is True, "Arms folded" is True, and "Shrugs" is True. The label says it's truth, so I need to see if these behaviors align with truth-telling.
+
+Hmm, raised eyebrows can sometimes indicate surprise or skepticism, but in truth-telling, people might raise eyebrows when recalling something. Gaze towards the person and looking up could be normal when thinking or remembering, which is common for truthful responses. Arms folded might suggest defensiveness, but it's not always a lie sign—it could just be the person's natural posture. Shrugs often mean "I don't know" or indifference, which isn't necessarily lying.
+
+Now, counterarguments: If they were lying, why would they have gaze towards the interlocutor? Liars sometimes avoid eye contact, but not always. Gaze up could be a sign of fabrication, as people might look up when constructing a story. Arms folded and shrugs might indicate nervousness, which could be linked to lying. But I should weigh these against the truth cues.
+
+I recall that in deception research, consistent eye contact and natural gestures are more truthful. Here, gaze towards the person is positive for truth, but gaze up is a bit ambiguous. Raised eyebrows might be neutral. The absence of other tells like blinking or frowning helps—liars often have more micro-expressions.
+
+The user wants me to sound uncertain, not confident. So I'll say things like "it's tricky" or "I'm not sure." I need to avoid listing points and keep it conversational. Also, make sure to include why it might be truth and why it might not.
+
+Let me structure my thoughts: Start with what I'm observing, mention the behaviors, then discuss pros and cons. Emphasize that absence of obvious lies is a point for truth, but some cues could be misinterpreted.
+
+Check the description again: No smile, laughter, scowling, etc. So the person isn't showing emotional extremes, which might indicate calmness—truthful people are often calm. Arms folded and shrugs are common in casual speech, not necessarily deceptive.
+
+I should also consider cultural context, but since it's not specified, stick to general behavior. And remember, the video is labeled truth, so my reasoning should align with that without me knowing.
+
+Finally, wrap it up by saying it's hard to tell but leaning towards truth based on the lack of deception cues. Make sure it sounds natural, like a human hesitating.
+</think>

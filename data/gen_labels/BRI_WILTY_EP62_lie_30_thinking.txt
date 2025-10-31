@@ -1,0 +1,18 @@
+Okay, the user has given me a scenario where I need to assess whether someone in a video is lying based on their behavior. The description says it's labeled as "Deception," but I'm supposed to pretend I'm watching the video without seeing that label or the detailed behavior list. I need to write a natural-sounding response that shows I'm making an educated guess, not being too confident.
+
+Looking at the behavior data provided, all the indicators are false—no smiling, no frowning, no blinking, no head movements, no hand gestures. That's interesting because most people think liars show obvious signs like avoiding eye contact or fidgeting. But here, the person seems completely still and neutral. 
+
+Hmm, I should consider why that might be. Maybe they're very practiced at lying and don't show typical signs, or perhaps they're actually telling the truth and just happen to be calm. The absence of deception markers could mean either truth or a skilled liar. I recall research showing that truth-tellers can sometimes appear more relaxed, while some liars are so controlled they look unnaturally calm. 
+
+I should also think about counterarguments. If they were lying, why no signs? Maybe they're nervous but suppressing it well. If truthful, why no emotional cues? Maybe they're just not expressive. The video might show them answering a simple question with no emotional context, so their stillness could be normal. 
+
+I need to avoid sounding like I know for sure. Phrases like "it's tricky" or "hard to say" will make it sound human. I'll mention that absence of signs doesn't prove truth, but it's not proof of lying either. The user wants me to sound like I'm reasoning through it, not just regurgitating the label. 
+
+Also, the description says "True" for all behaviors not happening, so in the video, they're completely motionless. That's unusual—most people move a bit when speaking. Maybe that's a red flag? But I've read that some liars freeze up, while truth-tellers might be more animated. Wait, no, actually, truth-tellers often have more natural movement. So stillness could lean toward deception, but it's not definitive. 
+
+I'll structure my response to cover both angles: "On one hand, they seem too calm for a lie... but on the other, maybe they're just not expressive." Then wrap it up with "hard to tell without more context." That feels balanced. 
+
+Gotta make sure I don't mention the label or the behavior list directly since I'm supposed to be watching the video. Just describe what I see neutrally. And no lists—keep it flowing like a real person talking. 
+
+*checks notes* Right, the key is to sound uncertain but thoughtful. Like, "I'd lean toward truth because they're not fidgeting, but I'm not 100% sure..." Yeah, that's the tone.
+</think>

@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it seem like I'm making an educated guess.
+
+Looking at the description provided, it's a detailed behavioral checklist. The key points that stand out are: gaze up (true), head up (true), arms open (true), and all other behaviors like smiling, laughing, frowning, etc., are false. So the person isn't showing typical deception cues like avoiding eye contact or nervous gestures. Instead, they have an open posture with arms spread and gaze directed upward.
+
+I need to reason as a human would. Most people think liars avoid eye contact, but research shows that's not always true—some liars might overcompensate with too much eye contact. Here, the gaze is upward, which could indicate thinking or recalling information, not necessarily lying. The arms open is a sign of openness, which might suggest truthfulness, but it's not definitive. 
+
+I should consider counterarguments. Maybe the upward gaze is a sign of deception because liars sometimes look up to fabricate stories. Or the open arms could be a nervous gesture to seem harmless. But the description says no other deception cues are present, like fidgeting or forced smiles, which makes deception less likely. 
+
+The user wants me to sound uncertain, not confident. So I'll use phrases like "it's hard to say" or "could be interpreted two ways." I'll mention that absence of classic signs might lean toward truthfulness, but I can't be sure. 
+
+Also, I need to avoid listing points. The response should flow naturally, like a casual conversation. I'll start by describing what I see in the video, then weigh the possibilities, and end with a balanced conclusion. 
+
+I should check if the behavior aligns with how humans actually assess deception. Humans often rely on intuition, not just cues, so I'll include that. For example, "I've seen people look up when they're thinking, but sometimes it's a sign they're making stuff up." 
+
+Make sure not to mention the label "deception" since I'm supposed to be unaware of it. Focus only on the observed behaviors. 
+
+Finally, wrap it up by saying it's ambiguous but leaning toward truthfulness based on the lack of red flags. Keep it human: "I'd say probably not lying, but I'm not 100% sure."
+</think>

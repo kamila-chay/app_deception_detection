@@ -1,0 +1,28 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed description of the behavior that's labeled as deception, but I need to pretend I don't see that label and figure it out myself.
+
+Looking at the behavior description: the person has frowning eyebrows, gaze down (not towards the interlocutor), head shaking (which is a "no" signal), and shrugs. They don't smile, laugh, or show other typical deception markers like frequent blinking or awkward pauses. The key points are the frowning eyebrows, downward gaze, head shaking, and shrugging.
+
+I need to reason like a human would. Humans often associate downward gaze with discomfort or lying, but it could also be sadness or thoughtfulness. Head shaking is a clear "no" but might be in response to a question, not necessarily lying. Shrugging often means "I don't know" or "it's not my fault," which could be truthful. Frowning eyebrows might indicate confusion or disagreement, not necessarily deception.
+
+I should consider counterarguments too. Maybe they're genuinely upset about the topic, or the head shaking is just a habit. The downward gaze could be from looking at notes or being distracted. Shrugs can be used even when telling the truth to show indifference.
+
+The user wants me to sound uncertain, not confident. So I'll avoid saying "definitely lying" and instead say "it's possible" or "could be." I'll mention both sides: the deception indicators like the head shake and frown, but also the reasons why it might be truthful.
+
+I need to make it sound natural, like a real person thinking out loud. No bullet points—just flowing text. The response should answer "Is this person lying or telling the truth and why?" with balanced reasoning.
+
+Also, the description says "Gaze towards interlocutor" is true, but "Gaze down" is also true. Wait, the description has "Gaze towards interlocutor: True" and "Gaze down: True." That seems contradictory. In reality, you can't look down and at the person simultaneously. But since I'm supposed to base this on the description, I'll note that as a possible inconsistency, though in the video it might be that they're looking down while still somewhat facing the person.
+
+Wait, the description says "Gaze towards interlocutor: True" and "Gaze down: True." That might be a mistake in the data, but I have to work with what's given. In my reasoning, I'll say that downward gaze often breaks eye contact, so even if they're trying to look at the person, the down gaze might indicate avoidance.
+
+For the response, I'll start by describing what I see: frowning, head shaking, shrugging, downward gaze. Then discuss the possibilities. Emphasize that without context, it's hard to tell. Maybe they're being honest but upset, or they're lying but the behavior isn't classic deception.
+
+I should avoid technical terms like "microexpressions" since the user said to sound human. Keep it simple: "I noticed they were frowning a lot" not "I observed a Duchenne smile."
+
+Also, the label is deception, but I'm not supposed to know that. So in my response, I won't reference it. Just describe the behavior and my thoughts.
+
+Let me structure it: First, what I observe. Then why it might indicate lying (head shake, frown, down gaze). Then why it might not (shrug could be truthful, frown might be sadness). End with uncertainty.
+
+Make sure to include the shrug as a counterpoint—it's often used when someone feels they're not at fault, so it could mean they're telling the truth.
+
+Finally, wrap it up by saying it's ambiguous and hard to say for sure without more context.
+</think>

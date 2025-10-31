@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided: the person has "Gaze towards interlocutor" (True), "Nod" (True), "Head shaking" (True), and "Arms open" (True), "Shrugs" (True). Other behaviors like smiling, laughing, frowning, or blinking are all False. So the key points are: they're making eye contact, nodding, shaking head (probably "no"), arms open, and shrugging.
+
+I need to reason like a human would. First, I should consider what typical deception cues might look like. But the description says most common "lie" signs are absent—no fidgeting, no avoiding eye contact, no forced smiles. That's interesting because people often think liars avoid eye contact, but research shows it's not reliable. So the absence of those might actually make it harder to judge.
+
+The person is making eye contact (gaze towards interlocutor) and nodding, which usually indicate engagement and truthfulness. But they're also shaking their head and shrugging—head shaking could mean disagreement or "no," and shrugging often shows uncertainty or "I don't know." If they're denying something, head shaking might fit, but it could also just be part of their natural expression.
+
+I should think about counterarguments. Maybe the head shaking is a nervous habit, not related to lying. Or the shrug could mean they're being honest but don't have the answer. The arms open might signal openness, which is good for truthfulness, but some people use open arms to seem more convincing when lying. 
+
+The user emphasized avoiding overconfidence, so I'll use phrases like "it's tricky," "I'm not sure," "could be." I need to sound like I'm weighing pros and cons, not stating facts. 
+
+Also, the description says "Head shaking" is True—so they're shaking head side-to-side, which in most cultures means "no." But in the context, if they're denying something, that makes sense. However, if they're telling the truth and just disagreeing with a question, it might not be deception. 
+
+I'll structure my response to start with what I see, then the positive signs (eye contact, nodding), then the confusing parts (head shake, shrug), and end with uncertainty. I should mention that since there are no classic deception cues, it might be hard to tell, and maybe they're just being expressive.
+
+Finally, I'll wrap it up by saying I'd lean toward truthfulness but it's not certain, since the evidence isn't strong for either. That aligns with how humans actually think—no one can be 100% sure from a video alone.
+</think>

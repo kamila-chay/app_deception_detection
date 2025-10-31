@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The description says it's labeled as "truth," but I'm supposed to pretend I don't know that. I have to reason like a human would, not too confident, include counterarguments, and make it sound natural.
+
+First, I need to look at the behavior descriptors provided. The key points are: Gaze towards interlocutor (True), Gaze sideways (True), and all other behaviors like smiles, laughter, frowning, etc., are False. So the person is maintaining eye contact with the person they're talking to, but also glancing sideways occasionally. No nervous ticks like blinking a lot or covering their mouth.
+
+Hmm, the user mentioned this is supposed to be a "truth" label, but I'm to assess it myself. I should focus on what the video shows. If they're looking directly at the person they're speaking to, that's usually a sign of honesty. But the sideways glances might be a bit odd—sometimes people glance away when thinking, not necessarily lying. I need to consider both sides.
+
+I recall from psychology that direct eye contact is often associated with truth-telling, but it's not foolproof. Some people avoid eye contact when lying, but others might overdo it. Here, the gaze is primarily towards the interlocutor, which is good for truth, but the sideways glances could be a red flag. Wait, the description says "Gaze sideways" is True, but it's listed as a separate behavior. Maybe they're looking at the person but also glancing to the side occasionally, which might just be natural movement.
+
+Counterarguments: If they were lying, they might avoid eye contact more, but here they're mostly looking at the person. The sideways glance could be because they're thinking or the camera angle, not deception. Also, no other signs like fidgeting or fake smiles—those are common in lies. The absence of nervous behaviors supports truthfulness.
+
+But I shouldn't be too sure. Maybe the sideways glance is a sign of distraction or deception. However, since they're maintaining eye contact most of the time, it's less likely. I should mention that in humans, we often look away briefly when processing thoughts, so it's not necessarily lying.
+
+The user wants me to sound like I'm making an educated guess. So I'll say something like, "Based on what I see, they seem to be looking at the person they're talking to, which is usually a good sign, but that sideways glance makes me wonder..." Then explain why it might not be a lie.
+
+Also, the description says all other behaviors are false—no exaggerated movements, no lip movements that might indicate stress. That's a point for truth. If they were lying, they might have more micro-expressions or fidgeting, but here it's calm.
+
+I need to avoid sounding confident. Phrases like "it's hard to say," "could be," "might be" will help. And include that the sideways glance could be innocent, like they're glancing at a note or something.
+
+Finally, wrap it up as a natural reply. Start with the observation, then reason through, acknowledge doubts, and conclude with a cautious assessment. Make sure it's not a list—just flowing text.
+</think>

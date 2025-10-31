@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "Deception," but I shouldn't know that. The description shows no specific deceptive behaviors like fidgeting or avoiding eye contact. 
+
+Hmm, this is tricky because the description says all behaviors are false—meaning the person isn't showing any classic signs of lying. Normally, people expect liars to avoid eye contact or fidget, but here they're doing none of that. I should consider both sides: maybe they're lying without showing signs, or maybe they're telling the truth and the lack of nervousness is genuine. 
+
+The user emphasized making it sound like a human's natural hesitation, not a confident verdict. So I need to avoid sounding sure. I'll mention that the calm demeanor could mean they're confident (truthful) or practiced (lying), and counter with why it's hard to judge without context. 
+
+Also, the description has "Gaze towards interlocutor" as False, but in the actual video, they might be looking straight ahead without engaging—wait, no, the label says it's false, so they're not looking at the camera. But since I don't have the label, I'll describe what I see: "they're looking at the camera but not making eye contact." Wait, no, the description says "Gaze towards interlocutor" is False, meaning they're not looking at the person they're talking to. But in a video, the "interlocutor" would be the camera, so they might be avoiding looking at the camera. 
+
+I should focus on observable things: if they're steady, calm, no fidgets, that's unusual for a liar. But some people don't show tells, so it's not definitive. I'll say things like "it's hard to say" and "could go either way." 
+
+The user also wants counterarguments: for truth, it's natural calm; for lie, it's controlled deception. I'll weave that in casually. 
+
+Make it sound like a real person thinking out loud: "I'm not sure, but..." not "I know." Avoid technical terms. And no lists—just flowing sentences. 
+
+Check the description again: all behaviors are false, so no signs at all. That's the key. Most people would think "no signs = truthful," but that's a fallacy. I should highlight that. 
+
+Also, the user said "estimate whether or not," so I'll say "leaning toward truthful" but with caveats. But since the actual label is deception, I shouldn't align with that—just be neutral. 
+
+Finally, keep it natural: "Honestly, I'm not 100% sure..." not robotic. And end with "hard to call" to sound human.
+</think>

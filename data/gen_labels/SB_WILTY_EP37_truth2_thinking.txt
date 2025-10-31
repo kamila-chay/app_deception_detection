@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "truth," but I need to pretend I don't see that and make my own assessment.
+
+Hmm, looking at the behavioral cues: the person is smiling (smile=True, lip corners up=True), has raised eyebrows (raising eyebrows=True), and is making exaggerated mouth opening (exaggerated mouth opening=True). They're also frowning eyebrows (frowning eyebrows=True) and chin moving upwards (chin moving upwards=True). Gaze is towards interlocutor (gaze towards interlocutor=True) and down (gaze down=True), with head tilting sideways (head side-turn=True) and nodding (nod=True). Arms are open (arms open=True) and head is moving backward (head moving backward=True).
+
+I should think about how humans actually interpret these cues in real life. The smile and raised eyebrows might seem like they're being friendly or engaged, but the frowning eyebrows and chin movement could indicate tension or uncertainty. The exaggerated mouth opening is interesting - that's often associated with surprise or emphasis in truthful statements, but sometimes liars overdo it to seem convincing. 
+
+The gaze down while speaking is tricky - some people look down when thinking or being truthful, but others do it when lying to avoid eye contact. The head tilting sideways and nodding could be signs of active listening, which might suggest honesty, but I've heard people say liars nod too to seem cooperative.
+
+Arms being open is generally a good sign for openness, but I should be careful not to overinterpret that. The chin moving upward (like a slight chin lift) might indicate confidence, but could also be a nervous tic. 
+
+I recall research saying that micro-expressions and inconsistent cues matter more than single behaviors. Here, the smile and frown together create some contradiction - that's worth noting. The raised eyebrows with frowning eyebrows might mean they're processing something complex rather than lying.
+
+For counterarguments: if they were lying, they might force a smile while frowning (showing internal conflict), or the exaggerated mouth opening could be a lie attempt to seem more animated. But the gaze toward the person feels genuine - liars often avoid direct gaze.
+
+The head moving backward (like pulling away slightly) might indicate discomfort, but since they're looking down and nodding, it could just be natural movement. I should mention that humans often misread these cues - like thinking frowning means lying when it might mean concentration.
+
+I'll structure my response to sound like I'm hesitating between possibilities, using phrases like "it's hard to say" and "could be" instead of claiming certainty. Need to avoid listing points and keep it conversational. The key is making it sound like a real human's uncertain assessment, not a textbook analysis.
+
+Also important to acknowledge that some cues are ambiguous - like gaze direction - and that context matters. Since I don't have context, I'll have to say "based on the video alone" to cover that. And I should emphasize that no single cue is definitive - that's how real people think about this.
+</think>

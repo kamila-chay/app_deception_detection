@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description that's supposed to be true (but I shouldn't see it), I notice key points: frequent blinking, gaze sideways, and no other notable microexpressions or gestures. The label says "truth" so the person is actually telling the truth, but I have to pretend I don't know that.
+
+Hmm, the user wants me to reason like a human would. So I should consider both sides: why it might look like lying (frequent blinking, avoiding eye contact) and why it might be innocent (nervousness vs deception). I need to sound hesitant, not confident.
+
+Let me think about how people actually interpret behavior. Frequent blinking is often associated with stress or lying, but it could just be dry eyes or discomfort. Gaze sideways might look evasive, but some people naturally look away when thinking. The absence of other "lie cues" like frowning or lip biting is important - if they were lying, they might show more signs.
+
+I should mention counterarguments: maybe they're just shy or tired. And emphasize that these cues aren't foolproof - many truth-tellers blink a lot too. The key is the lack of multiple conflicting signals.
+
+For naturalness, I'll avoid technical terms. Say "I noticed they were blinking a lot" not "frequent blinking observed." And end with uncertainty like "hard to say for sure" rather than claiming truth.
+
+Wait, the description says "gaze sideways" but not "avoiding eye contact" - important distinction. Sideways gaze could be normal for some cultures or just how they think. Should clarify that.
+
+Also need to avoid listing points. The user said no bullet points, so I'll weave everything into flowing sentences. Like "They kept looking sideways and blinking a lot, which sometimes happens when people are nervous, but..."
+
+Most importantly: sound like I'm thinking out loud, not like an AI spitting out facts. Add phrases like "I'm not sure" and "could be" to show hesitation.
+
+Double-checking: no mention of the actual label in my response, just my interpretation. And I'm supposed to align with human reasoning - so I'll focus on the most common misinterpretations of blinking/gaze as lies, while noting the caveats.
+</think>

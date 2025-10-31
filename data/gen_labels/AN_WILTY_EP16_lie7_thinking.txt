@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception" but I shouldn't use that information. The description shows specific behaviors: lip corners down (true), gaze towards interlocutor (true), and most other behaviors are false.
+
+Hmm, I need to reason like a human would. Let me think about what these behaviors might mean. Lip corners down could indicate sadness or discomfort, which sometimes happens when lying, but it's not definitive. Gaze towards the interlocutor is actually a sign of honesty in many studies—liars often avoid eye contact, but this person is looking directly at the person they're talking to. That's interesting because it goes against the common stereotype.
+
+Wait, the description says "lip corners down" is true. I should consider what that means. It's not a smile, so maybe they're frowning or looking serious. But frowning can be from many things—maybe they're just stressed about the topic, not necessarily lying. The video doesn't show any other signs like blinking a lot or nervous gestures. No eye aversion, no hand movements. That seems calm, which might make me think they're not lying, but I know deception can look calm too, especially if it's rehearsed.
+
+I should consider counterarguments. If they're lying, they might be trying hard to seem composed, so no nervous tells. But the eye contact is strong—most people who lie avoid looking directly, so this could be a red flag for truthfulness. But wait, some liars do maintain eye contact to seem credible. So it's a toss-up.
+
+The user wants me to sound uncertain, not confident. I can't say "they're lying" outright. I need to say things like "it's hard to tell" or "this could go either way." Also, avoid lists—keep it flowing like natural speech.
+
+Let me structure my thoughts: Start with what I observe (gaze, lip corners), then why it might suggest truth (eye contact), then why it might not (lip corners down as stress), and mention the lack of other signs. End by saying it's ambiguous.
+
+Check if I'm missing anything. The description says "gaze towards interlocutor" is true, so they're making eye contact. That's key. And no other nervous behaviors. So my reasoning should hinge on that. But I have to be careful not to overinterpret.
+
+Also, the user said "make it seem like I deduced it myself." So no phrases like "according to the label." Just describe what I see. And sound like a human—maybe use "I'm not sure" or "it's tricky."
+
+Finally, wrap it up as a reply to "Is this person lying or telling the truth?" so it should be conversational. Avoid jargon. Say "they're looking right at the person" instead of "gaze towards interlocutor."
+
+Let me draft it mentally: "Hmm, they're making direct eye contact, which usually suggests honesty, but their mouth looks downturned like they're upset. I'm not sure if that's because they're lying or just stressed about the topic. No fidgeting or avoiding eyes, which makes me lean toward truth, but it's not clear. Could be they're good at hiding it."
+
+That covers both sides. Now, make it sound natural, not robotic. Add phrases like "I've seen this before" to make it human.
+
+Double-check: No mention of the label, no bullet points, counterarguments included. Yeah, this should work.
+</think>

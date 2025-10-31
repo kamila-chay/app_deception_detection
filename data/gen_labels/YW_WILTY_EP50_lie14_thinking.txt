@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and reason like a human would.
+
+First, I should look at the behavior description provided. The key points are: raising eyebrows (True), gaze towards interlocutor (True), gaze sideways (True), head tilting (True), head side-turn (True), and shrugs (True). Other things like smiling, laughter, scowling are all False. 
+
+Hmm, so the person isn't smiling or laughing, which might be a sign of deception since liars sometimes suppress natural expressions. But they are raising their eyebrows and tilting their head, which could be signs of uncertainty or stress. The sideways gaze is interesting—people often look away when lying, but it's not a definitive sign. Gaze towards the interlocutor might suggest they're trying to appear truthful. 
+
+Shrugging is a big one. People shrug when they're unsure or trying to downplay something, which could indicate deception. But shrugs can also be neutral, like when someone is just being casual. 
+
+I need to consider counterarguments too. Maybe the sideways gaze is just how they naturally look when thinking, not lying. Head tilting could be a sign of engagement or curiosity, not deception. Shrugging might just be their way of expressing uncertainty without lying. 
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So I should use phrases like "it's possible" or "could indicate" instead of "definitely." Also, avoid sounding too confident—humans would hesitate here. 
+
+Wait, the description says "gaze towards interlocutor" is True, but "gaze sideways" is also True. That seems contradictory. If they're looking sideways, they're not directly at the person. Maybe the sideways gaze is a brief glance away. That could align with deception cues. 
+
+I should structure my response to cover both sides: the signs that suggest lying (sideways gaze, head tilting, shrugging) and the counterpoints (gaze towards interlocutor, no obvious stress signs). Emphasize that behavior alone isn't enough—context matters. 
+
+Also, the user mentioned not to use lists, so I'll write in a natural paragraph. Make it sound like a real person thinking aloud: "I noticed X, but Y could mean something else." 
+
+Check if I'm missing anything. The description says "no smiling," which might be a red flag for deception, but not all liars avoid smiling. Some might force a smile. Since it's False, they're not smiling, which could mean they're tense. But again, not conclusive. 
+
+Finally, wrap it up by saying it's ambiguous, and the behavior leans slightly toward deception but isn't proof. That matches the actual label but without claiming to know it. 
+
+Make sure the tone is hesitant: "I'm not 100% sure, but..." and "it's hard to say without more context." That feels human.
+</think>

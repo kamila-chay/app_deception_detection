@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "Deception," but I need to pretend I don't see that label or the description.
+
+Looking at the behavioral data, the key points are: gaze down (true), palms up (true), and everything else false. The person isn't smiling, laughing, frowning, or showing other common deception cues. Instead, they're looking down and have palms up.
+
+Hmm, I should think like a human watching this. If someone's looking down while speaking, that could mean many things - they might be shy, distracted, or actually thinking. Palms up is often seen as open and honest in some contexts, but it's not a strong indicator. 
+
+I recall that in deception research, people often avoid eye contact, but this person is looking down, which might be similar to avoiding eye contact. But I've also read that people might look down when they're being truthful too, especially if they're reflecting on something. The palms up is interesting - it's sometimes associated with sincerity in some cultures, but I'm not sure if that's universal.
+
+The user wants me to sound uncertain, not confident. So I shouldn't say "definitely lying" or "definitely truthful." I need to present both sides: maybe they're lying because of the gaze down, but maybe they're just nervous or thoughtful. 
+
+I should mention that absence of common deception cues (no smiling, no fidgeting) might suggest truthfulness, but that's not conclusive. The palms up could be interpreted as an attempt to appear open, which might actually be a deception tactic. 
+
+Also, the description says "gaze down" not "avoiding eye contact," so I shouldn't assume they're avoiding the camera. They could just be looking at their notes or thinking. 
+
+I need to make sure my response sounds natural, like I'm genuinely trying to figure it out while watching the video. No bullet points, just flowing thoughts. And I should acknowledge that without context, it's hard to say for sure.
+
+The counterarguments are important: the gaze down could be due to many reasons unrelated to deception, and palms up isn't a reliable indicator. But I should also note that if this were a real situation, I'd want more context - like what they're saying, their usual behavior, etc.
+
+I'll structure my response to start with what I observe, then present the possible interpretations, and end with "it's hard to say for sure." That keeps it realistic and matches how humans would actually assess this.
+</think>

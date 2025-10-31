@@ -1,0 +1,23 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided (which I shouldn't use directly since I'm supposed to be watching the video), I see key points: frequent blinking, lips protruded, head moving forward, head tilting, and gaze toward interlocutor. But since I'm roleplaying as someone watching the video, I'll have to describe what I see in my own words without referencing the data.
+
+Hmm, I should focus on how a real person would interpret these cues. Frequent blinking is often associated with stress or lying, but it could also be due to eye strain or nervousness. Lips protruded might look like a pout or concentration, not necessarily deception. Head movements - tilting and moving forward could indicate engagement, not lying. Gaze toward the person might suggest honesty, but some liars maintain eye contact.
+
+I need to present both sides: why it might be lying (blinking, lip movement) versus why it might be truthful (direct gaze, head movements showing attentiveness). The counterarguments are crucial - I shouldn't sound overconfident. Maybe mention that some cues like blinking are ambiguous, and cultural differences could affect interpretation.
+
+The user wants this to sound like a human's natural thought process, so I'll avoid technical terms. Phrases like "I'm not sure" or "it's tricky" will help. I should also acknowledge that without context, it's hard to tell - the person might be stressed about the question, not lying.
+
+For the response structure: start with what I observe, then weigh the evidence, mention alternatives, and end with a tentative conclusion. Make sure it's conversational - no bullet points, just flowing sentences. And absolutely no "I know they're lying" energy; the user emphasized avoiding overconfidence.
+
+Wait, the description says "lips protruded" which I'll describe as "puckering lips" or "protruding lips" in my response. "Head moving forward" could be "leaning in slightly." I'll connect these to possible emotions: stress vs. interest.
+
+Key things to include: 
+- Frequent blinking (suspicious but not definitive) 
+- Lip protrusion (could be thoughtfulness) 
+- Head tilting (often shows engagement) 
+- Direct gaze (usually honest, but liars sometimes overdo it) 
+- Contrast with why it might not be lying (e.g., "maybe they're just tired")
+
+I'll end with "hard to say for sure" to match the user's request for uncertainty. And since the actual label is deception, my guess should lean slightly toward lying but with heavy caveats - that's how humans would actually reason.
+</think>

@@ -1,0 +1,23 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+First, I need to recall the description provided. It lists specific behaviors: "Frowning eyebrows" is true, "Frequent blinking" is true, "Lip corners down" is true, "Chin moving upwards" is true, "Gaze sideways" is true, "Head shaking" is true, and "Nod" is true. Other things like smiling or laughter are false. The key is to focus on these without referencing the label.
+
+I should think like a human watching a video. People often associate certain cues with lying, but I know from research that these aren't foolproof. For example, frequent blinking might indicate stress, but it could also be from eye strain or nervousness unrelated to deception. I need to present both sides: why it might be lying and why it might not.
+
+The user emphasized avoiding overconfidence, so I'll use phrases like "it's hard to say" or "could be." I'll include counterarguments to show balanced thinking. For instance, head shaking and frowning might seem like denial, but they could just be part of the person's natural expression.
+
+I'll structure my response to start with observations, then discuss possible reasons for the behavior, and end with uncertainty. I need to make it sound conversational, like I'm talking to a friend, not writing a report. No lists—just flowing text.
+
+Key points to cover: 
+- Frowning eyebrows and lip corners down suggest discomfort.
+- Frequent blinking could be stress.
+- Gaze sideways might indicate avoidance, but it could also be thoughtfulness.
+- Head shaking and nodding together are confusing—they might be contradicting themselves, but it could be a habit.
+- Chin moving up might be a nervous tic, not necessarily lying.
+
+I should avoid technical terms. Instead of "microexpressions," say "small facial changes." And remind myself that humans often misinterpret cues, so I shouldn't be too sure.
+
+Finally, I'll wrap up by saying it's ambiguous and I'd need more context. That aligns with how real people would react—no one claims to know for sure from a single video clip.
+
+Let me draft this in my head: Start with "Hmm, this is tricky..." then describe what I see, weigh the evidence, and conclude it's uncertain. Make sure it's natural and not robotic.
+</think>

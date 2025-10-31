@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. The key is to sound like I'm making an educated guess, not being too confident, and including counterarguments.
+
+Looking at the description provided, it's a "Deception" label with all behavioral indicators marked as False. That means the person didn't show any typical micro-expressions or nervous gestures we might associate with lying. But since I'm supposed to ignore that label and description, I need to pretend I'm just watching the video.
+
+Hmm, the challenge here is to describe what I'd actually see in the video. Since all behaviors are marked as False, the person must have been very calm and composed - no fidgeting, no smiles, no eye avoidance, just steady, neutral behavior. That's actually unusual because most people show some nervousness when lying, but not everyone does. Some people are very good at controlling their expressions.
+
+I should emphasize how unusual it is to see someone so completely still. People often think liars will look away or fidget, but if they're not doing any of that, it might mean they're either very confident (so telling the truth) or very practiced at lying (so deception). That's the core tension I need to capture.
+
+For counterarguments, I should mention that absence of nervousness doesn't prove truthfulness - some liars are trained to stay calm. But also, if they were lying, we'd expect to see some signs, so the lack of signs might lean toward truthfulness. I need to present both sides fairly.
+
+The user wants this to sound natural like a human response to "is this person lying?" so I'll avoid academic language. Phrases like "I'm not 100% sure" and "it's tricky" will help. Should mention specific things I might notice - like if their eyes stayed steady, or if they paused without looking away.
+
+Also important: don't say "I know they're lying" or "I know they're truthful." Must keep it as a guess. Maybe say "I'm leaning toward truthfulness" but with caveats.
+
+Let me structure it: start with what I observe (calm, steady), then why that might suggest truth, then why it might not (they could be good liars), and end with "hard to say but leaning toward truth." Need to make sure it flows like casual conversation.
+
+Oh, and absolutely no bullet points - just plain text. The user was very clear about that. So I'll write it as one or two flowing paragraphs.
+
+I'll make sure to include that "awkward pauses" was marked False too, so they weren't hesitating in a way that might indicate lying. That's another point for truthfulness - if they were fabricating, they might pause more.
+
+But then counter: some liars plan their stories so they don't pause. So that absence of pauses could be deceptive too. Gotta cover that.
+
+Finally, wrap it up by saying it's ambiguous but the calmness makes me more inclined to believe them. That feels human - we often go with the simplest explanation unless proven otherwise.
+</think>

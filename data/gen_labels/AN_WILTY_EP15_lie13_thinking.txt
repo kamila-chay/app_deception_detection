@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and reason as if I'm making an educated guess.
+
+Looking at the description, I see that the person has "Gaze towards interlocutor" (True) and "Head shaking" (True), with "Arms folded" (True). But all other behaviors like smiling, laughing, frowning, blinking, etc., are False. The key points are: they're maintaining eye contact, shaking their head (which could be "no" or disagreement), and have arms folded.
+
+Hmm, I need to think about what humans would actually notice in a video. People often associate lying with avoiding eye contact, but here they're looking directly at the person. That's interesting because it contradicts a common myth. Head shaking could be a sign of disagreement, but it's not necessarily deceptive—maybe they're just disagreeing with something. Arms folded might suggest defensiveness, which could be linked to lying, but it's also a common posture when people feel uncomfortable or just relaxed.
+
+I should consider counterarguments too. Maybe the head shaking is just a natural gesture to say "no" to a question, not related to deception. Folding arms might mean they're cold or just comfortable, not lying. The lack of micro-expressions like frowning or lip movements makes it seem like they're not showing stress, which sometimes happens when people are lying (but not always—some liars are very calm).
+
+The user wants me to sound uncertain, like a human making a guess. I shouldn't say "definitely lying" or "definitely truthful." I'll use phrases like "it's hard to say," "could be," or "I'm leaning toward." I need to avoid sounding like I'm using a checklist—I should describe what I see in the video naturally.
+
+Also, the description says "Gaze towards interlocutor" is True, so they're looking at the person they're talking to. That's important because many people think liars avoid eye contact, but research shows it's not that simple. I'll mention that to show I'm considering common misconceptions.
+
+For the head shaking: it's listed as "Head shaking" True. In videos, head shaking can be a "no" gesture, so if they're shaking their head while answering, it might mean they're denying something. But without context, it's ambiguous. Maybe they're just emphasizing a point.
+
+Arms folded: this often signals defensiveness. If they're folding arms while answering a question, it could mean they're uncomfortable, which might hint at lying. But again, it's not foolproof—some people always fold their arms.
+
+I should also note what's missing: no signs of nervousness like fidgeting or excessive blinking. That might suggest they're not stressed, which could mean they're telling the truth, but liars can be calm too. So it's a wash.
+
+My reasoning should flow like a human thought process: "I see they're looking at me, which is odd for a liar, but they're shaking their head and folding arms... maybe they're being defensive, but I'm not sure."
+
+Finally, I need to wrap it up with a tentative conclusion. Since the actual label is deception, I'll lean toward "maybe lying" but keep it uncertain. Phrases like "I'd be inclined to say" or "it's possible" will make it sound natural.
+
+Let me structure my response: start with what I observe, discuss the eye contact, head shake, arms folded, then counter with why it might not be lying, and end with a balanced guess. Keep it conversational, no lists, just flowing text.
+</think>

@@ -1,0 +1,32 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label, and I need to assess if the person is lying based on their behavior. The description says it's labeled as deception, but I shouldn't use that. I have to pretend I'm making an educated guess based only on the behavioral cues provided.
+
+Looking at the description, the key behaviors are: raising eyebrows (True), chin moving downward (True), gaze towards interlocutor (True), head moving forward (True), and head tilting (True). Other cues like smiling, laughing, frowning, etc., are all False. 
+
+Hmm, I need to think like a human watching this. Raising eyebrows can sometimes indicate surprise or skepticism, but in deception contexts, it might be nervousness. Chin moving down could be a sign of defensiveness or avoiding eye contact, but here the gaze is towards the interlocutor, so that's interesting. Head moving forward and tilting might suggest engagement, but sometimes people lean in when lying to seem more convincing. 
+
+Wait, the gaze is directly at the person they're talking to, which is usually a sign of truthfulness, but deception can sometimes involve intense eye contact. The head tilting might be a natural gesture, not necessarily deceptive. I should consider counterarguments: maybe the head movements are just habitual, not related to lying. 
+
+I recall that in deception research, micro-expressions or subtle cues matter, but here the cues are minimal. The absence of typical "lying signs" like fidgeting or avoiding eye contact might suggest truthfulness. But the description has "chin moving downward" which could be a sign of discomfort. 
+
+I need to balance both possibilities. If I were watching this, I'd think: "They're making direct eye contact, which usually means truth, but the chin movement and head lean feel a bit off." But I shouldn't be too sure. The user wants me to sound uncertain, like a human making a guess. 
+
+Also, the user emphasized avoiding confidence, so phrases like "I'm not entirely sure" or "it could go either way" are good. I should mention that without more context, it's hard to tell. Maybe the person is just naturally expressive. 
+
+Let me structure my response: Start with what I observe, then weigh the evidence for and against lying, and end with a tentative conclusion. Make sure it's conversational, not like a report. 
+
+Check if I'm missing anything: The description says "gaze towards interlocutor" is True, so they're looking at the other person, which is good for truthfulness. But "head moving forward" might be leaning in, which could be either engaged or trying to persuade. "Head tilting" is common in conversation, not necessarily deceptive. 
+
+Counterargument: The chin movement down might indicate suppressed emotion, which could mean lying. But it could also be just a natural chin drop when thinking. 
+
+I think I'll go with "I'm leaning towards truthfulness because of the direct eye contact, but the chin and head movements give me pause." But I have to say it's not definitive. 
+
+Make sure not to use any bullet points. Keep it flowing like a natural reply. And avoid claiming to know—use "might," "could," "possibly." 
+
+Also, the user said "estimate whether or not they are lying," so I should say something like "I'd say it's more likely truthful, but I'm not certain." 
+
+Double-check the description: All negative cues for deception are False (no smiling, no frowning, etc.), which supports truth. But the positive deception cues are minimal. 
+
+Final thought: In real life, humans often overestimate deception from minor cues, so I should acknowledge that. Maybe say "I've seen people with similar behaviors who were honest, so I'm hesitant to call it deception." 
+
+Okay, time to write it naturally.
+</think>

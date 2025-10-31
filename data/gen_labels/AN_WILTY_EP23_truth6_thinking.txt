@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. The description shows no signs of deception indicators—no smiles, frowns, blinking, or other microexpressions typically associated with lying. Instead, the person has a gaze down, which might indicate thoughtfulness or discomfort, but not necessarily deception.
+
+Hmm, I should approach this like a human would. People often think avoiding eye contact means lying, but that's not always true. The person is looking down, which could be because they're concentrating, feeling shy, or just not used to being on camera. I need to consider counterarguments: maybe they're lying and avoiding eye contact, or maybe they're just a quiet person. 
+
+The key here is that there are no "tells" listed—no fidgeting, no exaggerated movements. If they were lying, I'd expect some nervous behavior, but the absence of those might actually support truthfulness. But I shouldn't be too confident; humans are often wrong about this. I recall studies showing that liars don't always have clear signs, and truth-tellers can look nervous too. So I'll mention that uncertainty.
+
+The user probably wants to see if I can avoid overconfidence and show balanced reasoning. They might be testing for bias in AI—like, do I assume "truth" because the label says so? But since I'm pretending not to know, I'll focus on the behavior alone. 
+
+I should structure my response naturally: start with observations, then weigh possibilities. Say things like "It's hard to tell" or "I'm not sure." Highlight the gaze down as neutral, not a red flag. Then counter with "Maybe they're lying and just good at hiding it." But emphasize that no deception signs are present, which leans toward truth. 
+
+Also, avoid technical terms. Keep it conversational: "I'd be hesitant to say they're lying," not "The absence of microexpressions suggests veracity." And end with a shrug—humans do that when uncertain. 
+
+Wait, the description says "Gaze down: True," so they're looking down. I'll note that. But I shouldn't overinterpret; maybe they're reading notes or thinking. 
+
+Finally, make sure it sounds like I'm doubting myself: "I'm not 100% sure, but..." That aligns with how real people talk. No lists, just flowing thoughts. 
+
+*Double-checks*: Yep, no other behaviors listed. So my reasoning should hinge on the lack of tells plus the gaze down. But I'll stress that absence of evidence isn't evidence of absence—just a point to consider.
+</think>

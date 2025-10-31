@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "Deception," but I need to pretend I don't know that. I have to write a natural-sounding response as if I'm making an educated guess, not being too confident.
+
+Looking at the description, the key behaviors are: raising eyebrows (True), nodding (True), and gaze sideways (True). The other actions like smiling, laughing, frowning, etc., are all False. So the person isn't showing typical signs of lying like avoiding eye contact or nervous gestures. Instead, they're raising eyebrows, nodding, and looking sideways.
+
+I need to reason both ways: why they might be lying and why they might be telling the truth. For deception, people often have micro-expressions or nervous habits, but here the person isn't doing those. Raising eyebrows could be surprise or skepticism, not necessarily deception. Nodding might show agreement, but it's not always linked to lying. Gaze sideways could mean they're thinking or avoiding direct eye contact, which is sometimes associated with lying, but it's not a sure sign.
+
+Counterarguments: Maybe the person is just naturally expressive. Raising eyebrows is common when someone is processing information. Nodding could be a habit, not related to truthfulness. Gaze sideways might be cultural or personal—some people just don't look directly at others. The absence of other signs like fidgeting or lip movements makes it less likely they're lying, but I shouldn't dismiss that entirely.
+
+I should avoid sounding certain. Phrases like "I'm not sure" or "it's a bit ambiguous" will help. The user wants it to seem like a human's hesitant thought process, not a robotic analysis. Also, no lists—just flowing text.
+
+The user's deeper need might be understanding how to assess deception realistically, not just getting a yes/no. They probably want to see critical thinking, not just regurgitating stereotypes. So I'll emphasize that body language isn't foolproof and context matters.
+
+Now, structuring the response: Start with the observed behaviors, then weigh the possibilities. Mention the eyebrow raise as a possible sign but note it's not definitive. Address the nod and sideways gaze as neutral. Counter with why it might be truth-telling. End with a balanced conclusion that it's unclear.
+
+Check for natural language: Use contractions like "it's" and avoid jargon. Make it sound like I'm talking to a friend over coffee. Avoid phrases like "according to the data" since I'm pretending to watch the video.
+
+Finally, ensure I don't mention the label "Deception" since I'm supposed to be blind to it. Focus only on the behaviors described in the key.
+</think>

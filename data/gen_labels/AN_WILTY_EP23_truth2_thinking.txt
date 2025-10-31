@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not being too confident, and including counterarguments.
+
+First, I need to recall what the description says about the behavior: smile (True), raising eyebrows (True), gaze towards interlocutor (True), nod (True), palms up (True). Other things like laughter, scowling, or frequent blinking are False. So the person is smiling, raising eyebrows, looking at the person they're talking to, nodding, and having palms up.
+
+Now, I should think about what these behaviors typically mean in real life. Smiling and nodding are often signs of honesty, but they can also be faked. Raising eyebrows might indicate surprise or skepticism, but here it's paired with a smile, so maybe it's genuine surprise. Palms up is usually a sign of openness, which people associate with truthfulness. Gaze towards the interlocutor is good—avoiding eye contact is often linked to lying, so looking at the person might suggest honesty.
+
+But I have to consider counterarguments. For example, some people smile when they're lying to seem friendly. Raising eyebrows could be nervousness, not just surprise. Palms up might be a conscious gesture to appear honest, even if they're lying. Nodding could be just agreement, not necessarily truthfulness. I should mention these to show I'm not jumping to conclusions.
+
+I need to make sure my response sounds human and hesitant. Instead of saying "they're definitely telling the truth," I should say things like "it seems likely" or "it's hard to say for sure." The user emphasized avoiding overconfidence, so I'll use phrases like "I'm not 100% sure" or "it's a bit ambiguous."
+
+Also, the response should be a natural reply to "Is this person lying or telling the truth and why?" So it should start with something like "Hmm, based on what I'm seeing..." and flow conversationally. No bullet points—just a smooth paragraph.
+
+Let me check the key behaviors again: smile (genuine?), eyebrows raised (could be genuine surprise), gaze direct (good sign), nod (agreement, not necessarily truth), palms up (openness). Since there's no fidgeting or avoidance, that leans towards truth, but I have to acknowledge that liars can mimic these.
+
+I'll structure my thought process: start with the positive signs, then the possible counterpoints, and end with a balanced conclusion. For instance, "The direct gaze and open palms make it seem honest, but... on the other hand, the smile might be forced..."
+
+Also, since the actual label is truth, my reasoning should align with that, but I can't say it outright. I need to infer it from the behavior without knowing the label. So I'll emphasize that the absence of classic lie cues (like avoiding eye contact) supports truthfulness.
+
+Finally, keep it concise and natural. Avoid jargon. Make it sound like I'm thinking out loud while watching the video.
+</think>

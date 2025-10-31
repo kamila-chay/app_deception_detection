@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. The description shows specific behaviors: raised eyebrows, lip corners up and down, gaze towards interlocutor, and gaze up. 
+
+First, I should recall common microexpressions and body language cues associated with deception. Raised eyebrows can indicate surprise or skepticism, but not necessarily lying. Lip corners moving up and down might suggest hesitation or emotional conflict. Gaze towards the interlocutor is usually a sign of engagement, which could mean truthfulness, but people sometimes maintain eye contact when lying to appear honest. Gaze up might indicate thinking, which could be neutral or related to fabrication.
+
+I need to consider counterarguments. For instance, raised eyebrows might be a reaction to something unexpected in the conversation, not lying. Lip movements could be nervous habits rather than deception indicators. The absence of classic lie signs like avoiding eye contact, frequent blinking, or fidgeting supports truthfulness. But I shouldn't be too confident—maybe the person is a skilled liar who doesn't show typical signs.
+
+The user emphasized making it sound like a natural, hesitant human assessment. So I'll avoid absolute statements. Phrases like "it's hard to say" or "could go either way" would fit. I should also mention why the behavior doesn't scream deception: no fidgeting, consistent eye contact, no forced smiles. But note that lip corners moving might be a red flag for some, so I'll include that counter.
+
+I'll structure my response to start with observations, then weigh the evidence, acknowledge uncertainties, and conclude with a tentative stance. Need to keep it conversational, like I'm thinking out loud. No markdown, just plain text. Also, avoid listing points—use flowing sentences.
+
+Check if the behaviors align with truth-telling: gaze towards speaker (good), raised eyebrows (neutral), lip movements (slightly ambiguous). The lack of other signs like crossed arms or avoiding gaze leans toward truth, but I shouldn't overstate it. Maybe say something like "the absence of nervous tells makes me lean toward truth, but I'm not 100% sure."
+
+Make sure to address why it's not obvious: people lie in various ways, and this person might be calm. Also, mention that some cues (like gaze up) are debated—some say it's lying, others say it's thinking. That adds nuance.
+
+Finally, wrap it up by saying it's a tough call but the evidence points slightly toward truth. Keep it balanced, not dogmatic.
+</think>

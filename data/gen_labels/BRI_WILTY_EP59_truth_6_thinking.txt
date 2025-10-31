@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and make it sound like I'm deducing it from the video.
+
+Looking at the behavior description provided: the person has "Frowning eyebrows" and "Raising eyebrows" (both true), "Gaze towards interlocutor" (true), and "Gaze sideways" (true). Other behaviors like smiling, laughing, or frequent blinking are false. So in the video, they're frowning, raising eyebrows, looking at the person speaking to them, and occasionally glancing sideways.
+
+I need to reason like a human would. First, I should consider what typical lying cues might look like. Common signs people think of are avoiding eye contact, fidgeting, or forced smiles. But the description shows they're actually looking directly at the interlocutor (gaze towards) and only occasionally glancing sideways—so they're not avoiding eye contact. That's interesting because liars often avoid eye contact, but this person is maintaining some eye contact. However, they have frowning eyebrows and raised eyebrows, which might indicate confusion or stress, not necessarily deception.
+
+I should also think about why someone might frown while telling the truth. Maybe they're concentrating hard on what they're saying, or they're processing a complex memory. Raising eyebrows could be a sign of surprise or emphasis, which might happen when recalling details. The gaze sideways might just be natural movement, not a sign of deception. 
+
+Now, counterarguments: if they were lying, why would they maintain eye contact? That's unusual for liars. But maybe they're practiced liars who know not to avoid eye contact. However, the description doesn't show any other classic lying cues like nervous gestures or forced expressions. The absence of things like lip biting or fidgeting makes it less likely they're lying. 
+
+I should also consider cultural or personal habits. Some people naturally raise their eyebrows or frown while speaking, so it's not inherently suspicious. The key is that they're not showing the typical "red flags" people associate with lying. 
+
+The user wants me to sound uncertain, like I'm making an educated guess. So I shouldn't say "they're definitely telling the truth," but rather "the behavior doesn't match common lying signs, so it's probably truthful." I'll include the counterpoint that skilled liars might avoid eye contact, but here they're not, which weakens that idea. 
+
+Also, the gaze sideways—could that be a sign of deception? Some theories say looking away means lying, but others say it depends on context. In this case, since they're mostly looking at the person, the sideways glances might just be natural. 
+
+I'll structure my response to start with observations, then discuss why it might not be lying, address the counterarguments, and conclude with a cautious assessment. Keep it conversational, like I'm talking to a friend. 
+
+Finally, make sure to avoid any markdown or lists—just plain, flowing text. And remember, I'm not supposed to sound overconfident; phrases like "it's hard to say" or "I'd lean toward" will help.
+</think>

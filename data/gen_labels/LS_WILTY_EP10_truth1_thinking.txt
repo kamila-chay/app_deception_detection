@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the structured description provided (which I shouldn't reference directly), it shows "Label": "truth" with specific behaviors: raised eyebrows, chin moving up, gaze toward interlocutor, gaze down, head side-turn, and no signs of deception like smiling, frowning, or frequent blinking. But since I'm supposed to pretend I don't see this, I'll focus only on what I'd observe in the video.
+
+Hmm, the key behaviors I'd notice are: the person has raised eyebrows (which often indicates surprise or skepticism, not necessarily lying), their chin moves upward (which might suggest confidence or thinking), they're making eye contact (gaze toward interlocutor), looking down occasionally (could mean thoughtfulness), and turning their head sideways (a neutral gesture). There are no classic "lie signs" like avoiding eye contact, fidgeting, or forced smiles.
+
+I should consider counterarguments though. Raised eyebrows could sometimes be part of deceptive behavior when someone's trying to appear innocent. And looking down might be interpreted as guilt in some contexts, though it's often just thoughtful. But the absence of nervous tells like blinking or hand movements makes deception less likely.
+
+The user wants me to sound like a human making a reasoned guess, not an expert. So I'll avoid overconfidence—phrases like "I'm leaning toward" or "it's hard to say" would work better than "definitely." I'll also mention why the behavior doesn't scream "liar" (no microexpressions, consistent eye contact) while acknowledging why it's not 100% clear.
+
+For naturalness, I'll start with a casual opener like "Honestly, this one's tricky" and keep it conversational. No bullet points—just flowing thoughts. The response should mirror how real people debate this: "On one hand... but on the other..."
+
+Also, the user emphasized avoiding lists, so I'll weave everything into prose. And since the label is "truth," my reasoning should subtly align with that without saying "I know it's true." Just "based on what I see, it feels genuine."
+
+*Double-checking*: Must not reference the description's "Label" field. Only describe what I'd see. And no over-the-top analysis—keep it grounded like a friend watching a clip. Got it.
+</think>

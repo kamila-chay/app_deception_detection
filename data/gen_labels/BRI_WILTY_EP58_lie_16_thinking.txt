@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. The description says things like "Gaze towards interlocutor: True" and "Head shaking: True," but no other tells like smiling or blinking.
+
+Hmm, I need to write a natural-sounding response that's uncertain, like a human making an educated guess. The key is to avoid sounding too confident. I should consider both sides: maybe they're lying, maybe they're not. The user emphasized counterarguments, so I'll need to balance that.
+
+Looking at the behavior: the person has steady eye contact (gaze towards interlocutor true), which is often seen as honest, but head shaking is present. Head shaking can be a sign of disagreement or denial, which might point to deception. But head shaking can also be natural when emphasizing a point, like saying "no" without words. So that's a counterpoint.
+
+Also, no other classic deception cues are there—no fidgeting, no avoiding eye contact, no fake smiles. That makes it tricky. Normally, liars might show more nervousness, but here it's calm. Maybe they're good at lying, or maybe they're telling the truth and the head shaking is just habitual.
+
+I should mention the eye contact as a positive sign for truthfulness, but then question why they're shaking their head. If they're denying something, head shaking could be part of that, but it's not clear from the video alone. The user's description says "head shaking: True," so I'll assume it's visible in the clip.
+
+Wait, the description also says "head tilting: True." Head tilting can be a sign of engagement or thought, not necessarily deception. So that might not add to the lying theory. I need to weave that in without overcomplicating.
+
+For the response, I'll start by describing what I see: steady gaze, head shaking, maybe tilting. Then say it's ambiguous because eye contact usually suggests honesty, but the head shake is odd. Then counter with: maybe they're just being emphatic, or the head shake is a nervous habit unrelated to lying.
+
+I have to avoid listing points, so I'll write it in flowing paragraphs. Make it sound like I'm hesitating, using phrases like "I'm not sure," "it's hard to say," "could be." The user wants it to seem like I'm deducing it myself, not just repeating the label.
+
+Also, the user specified no confidence, so I'll add phrases like "I'd lean toward truth-telling" but then immediately doubt it. That way, it feels human—like I'm second-guessing.
+
+Check if I'm missing anything from the description: all other behaviors are false, so no red flags. That's important. The absence of tells might mean truthfulness, but deception can be subtle. I should mention that.
+
+Finally, wrap it up by saying it's inconclusive, which aligns with how humans would react to ambiguous video evidence. The user's deeper need is probably to see a realistic, not robotic, analysis that mirrors real-life uncertainty.
+</think>

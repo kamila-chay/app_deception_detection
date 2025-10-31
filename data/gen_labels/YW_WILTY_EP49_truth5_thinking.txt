@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a structured description that says it's labeled as "truth," but I'm supposed to pretend I don't see that and figure it out myself.
+
+Looking at the behavior details: the person has "Raising eyebrows" (True), "Lip corners up" (True), "Gaze up" (True), "Hands touching head/body/etc" (True), and "Hands covering face/mouth/etc" (True). The key points are that they're raising eyebrows, smiling slightly (lip corners up), looking up, and touching their head while covering their mouth.
+
+Hmm, in real life, when people lie, they often show nervous behaviors like avoiding eye contact, fidgeting, or covering their mouth. But here, they're looking up instead of avoiding gaze, which is interesting because looking up is sometimes associated with recalling memories (which might be truthful), not lying. The mouth covering could be a sign of nervousness, but it's also common when people are thinking or trying to suppress a reaction.
+
+I should consider both sides. On one hand, the raised eyebrows and slight smile might indicate they're being honest—people often show genuine micro-expressions when telling the truth. The gaze up could mean they're mentally retrieving a memory, which is a sign of truthfulness. On the other hand, covering the mouth and touching the head might suggest anxiety, which could be from lying. But anxiety isn't always from lying—it could just be nervousness about being filmed.
+
+Wait, the description says "Lip corners up" is true, but it's not a full smile, so it's subtle. That's more likely a genuine expression than a forced one. And "Hands covering face/mouth/etc" is listed, which might mean they're covering their mouth while speaking, which could be a sign of deception, but it's also common when people are hesitant or trying to control their speech.
+
+I need to balance this. If they were lying, I'd expect more obvious signs like frowning, frequent blinking, or avoiding eye contact—but they're not showing those. Instead, they have positive micro-expressions and a gaze direction that's not avoiding. The head-touching might be a red herring; people do that when they're thinking, regardless of truthfulness.
+
+The user wants me to sound uncertain, like a human making an educated guess. So I shouldn't say "definitely truth" or "definitely lying." I should say things like "it's hard to tell" or "could go either way." Also, include counterarguments: for example, "some might say mouth covering means lying, but others argue it's just nervousness."
+
+I'll structure my response to start with what I observe, then weigh the possibilities. Mention the gaze up as a positive sign for truth, but acknowledge the mouth covering as a potential lie indicator. Then conclude that it leans toward truth but isn't certain. Make it sound natural, like I'm talking to a friend over coffee.
+
+Finally, ensure it's not too confident—use phrases like "I'm leaning toward," "it's possible," "could be misinterpreted." Avoid technical terms; keep it conversational. And remember, the label is "truth," so my reasoning should align with that without me knowing it, but since I'm pretending not to see it, I'll just go by the behaviors.
+</think>

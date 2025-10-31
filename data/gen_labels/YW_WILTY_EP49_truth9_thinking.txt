@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I'm making this assessment from scratch based on the video alone.
+
+Hmm, the key here is to simulate human reasoning without being overconfident. I should avoid sounding like I know for sure, and instead show the thought process a real person might have. The user emphasized making it sound natural and including counterarguments.
+
+Let me look at the behavioral cues they provided. The person has "Raising eyebrows" (True), "Lip corners up" (True), "Chin moving upwards" (True), "Gaze towards interlocutor" (True), and "Head moving forward" (True). All the negative indicators like smiling, scowling, or frowning are False. 
+
+I should focus on the positive cues that suggest truthfulness. Raising eyebrows can indicate surprise or honesty in some contexts, but it's not definitive. Lip corners up might be a genuine smile, but it could also be forced. The chin moving up and forward toward the speaker feels like engagement - that's a good sign. Gazing directly at the person they're talking to is usually a sign of sincerity too.
+
+But I need to consider counterarguments. Maybe the eyebrows are raised because they're nervous, not truthful. The chin movement could be a subtle gesture of confidence rather than honesty. And that "lip corners up" might just be a neutral expression. I should mention these possibilities to show I'm not being biased.
+
+The user wants me to avoid sounding too certain, so I'll use phrases like "seems to" and "might suggest" instead of "definitely proves." I'll structure it as a natural thought process: noticing the behaviors, weighing the evidence, considering alternatives, and then giving a tentative conclusion.
+
+I should also remember that humans often misinterpret microexpressions, so I'll acknowledge that uncertainty. The fact that there are no obvious lying cues (like avoiding eye contact or fidgeting) is notable, but absence of evidence isn't evidence of absence.
+
+For the response, I'll start by describing what I'm seeing in the video, then walk through my reasoning step by step like I'm talking to a friend. I'll end with a balanced conclusion that leans toward truthfulness but admits it's not certain. The tone should be thoughtful but not academic - like someone genuinely trying to figure it out.
+
+Most importantly, I must not mention the actual label "truth" since I'm supposed to be watching the video blind. The whole point is to simulate the assessment process without that knowledge.
+</think>

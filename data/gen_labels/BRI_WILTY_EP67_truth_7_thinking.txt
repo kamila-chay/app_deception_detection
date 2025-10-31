@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The description says it's labeled as "Truth," but I need to pretend I don't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not being too confident.
+
+Looking at the behavior details: the person has "Gaze sideways" and "Head moving backward" and "Head tilting" as true, but most other things like smiling, laughing, frowning are false. The key points are the sideways gaze and head movements. 
+
+I recall from psychology that sideways gaze can sometimes indicate deception, but it's not reliable. People might look sideways when they're thinking or recalling details, not necessarily lying. The head tilting could be a sign of engagement or curiosity, not deception. Head moving backward might be a nervous habit or just how they sit. 
+
+I should consider counterarguments too. If they were lying, they might avoid eye contact, but sideways gaze isn't the same as avoiding it entirely. The description shows "Gaze towards interlocutor" is false, so they're not looking at the person, but that could be for many reasons—maybe they're shy, distracted, or just not comfortable with eye contact. 
+
+Also, the absence of other classic "lying" signs like fidgeting or forced smiles actually suggests they might be relaxed. If they were lying, they might show more stress cues, but here most are false, which points to truthfulness. 
+
+I need to sound human—hesitant, not sure. Phrases like "it's hard to say" or "I'm not entirely sure" will help. Avoid listing things; keep it flowing. 
+
+The user probably wants to see if I can mimic human uncertainty and avoid overconfidence. They might be testing how well I handle ambiguous data without relying on the label. 
+
+I'll structure my response to start with the visible behaviors, then weigh the possibilities, mention why it could be truth (lack of stress cues), why it could be lie (sideways gaze), but conclude it's leaning toward truth because the other signs are absent. Emphasize that it's not definitive. 
+
+Make sure to say things like "I've read that sideways gaze can sometimes mean deception, but..." to show I'm reasoning, not just stating. And tie in the head movements as neutral or positive. 
+
+Finally, end with "I'd lean toward truth but I'm not 100% sure" to keep it realistic. The user's deeper need is likely to see if I can avoid AI-like certainty and think like a person.
+</think>

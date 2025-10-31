@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that reasons through both possibilities without being too confident.
+
+Looking at the behavior description provided (though I shouldn't use it directly), I see key indicators: raised eyebrows, gaze towards interlocutor, gaze down, head tilting, and palms up. The label says "truth" but I have to pretend I don't know that.
+
+Hmm, as a human watching this, I'd focus on the nonverbal cues. Raised eyebrows often signal surprise or skepticism, but in this context could indicate they're processing information truthfully. Gaze towards the person they're speaking to is good for credibility - liars often avoid eye contact. But they're also looking down sometimes, which might suggest discomfort or thinking, not necessarily lying. Head tilting is usually a sign of engagement or curiosity, which feels honest. Palms up is often associated with openness and sincerity.
+
+Wait, but I should consider counterarguments too. Some might say looking down could mean they're avoiding eye contact while lying. And raised eyebrows could be nervousness. I should mention that. Also, the absence of typical "liar" signs like frowning or excessive blinking helps, but doesn't prove truthfulness.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So phrases like "I'm leaning toward" or "it's hard to say for sure" would work better than "I know." Need to avoid sounding robotic - no bullet points, just flowing text.
+
+I'll structure it like a real person thinking aloud: first noting the positive signs, then questioning them, then weighing both sides. The palms up and head tilt seem strongest for truthfulness, but I'll acknowledge the gaze down could be ambiguous. Should emphasize that behavior alone isn't foolproof - context matters, and some people naturally look down when thinking.
+
+Also important to remember: the description says "gaze towards interlocutor" is true, so they're making eye contact when they're not looking down. That's actually a good sign for truthfulness. The gaze down might just be when they're recalling something.
+
+For the counterargument, I'll mention that some liars are trained to maintain eye contact, so absence of avoidance doesn't guarantee truth. But combined with the other signs, it's more suggestive of honesty.
+
+The key is to sound human - hesitant but reasoned. Phrases like "I'd be tempted to say" or "it's not definitive" will help. And end by acknowledging it's not a perfect science, since humans know body language isn't foolproof.
+</think>

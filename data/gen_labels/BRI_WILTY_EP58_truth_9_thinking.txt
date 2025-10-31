@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a structured description labeled as "truth" with specific behavioral markers, but I need to pretend I'm just watching the video.
+
+Looking at the behavioral data: The person has "Chin moving upwards" (True), "Gaze towards interlocutor" (True), "Gaze up" (True), and "Head tilting" (True). All other markers like smiling, laughing, frowning, or nervous gestures are False. The key points are the chin movement, steady eye contact, upward gaze, and head tilt - all of which are typically associated with truth-telling in behavioral analysis.
+
+I recall that in deception detection, people often avoid eye contact when lying, but here the gaze is directly toward the interlocutor. The upward gaze might indicate thinking (as opposed to downward gaze which can signal discomfort), and chin movement upward could be a sign of engagement. Head tilting is often a sign of interest or curiosity in truth-telling scenarios.
+
+But I should consider counterarguments too. Some people might maintain eye contact while lying if they're practiced at deception. The chin movement could be misinterpreted - it might actually indicate tension rather than truthfulness. And while upward gaze is often linked to memory retrieval (truthful recall), it's not foolproof since some liars might use it intentionally.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. I'll need to acknowledge that behavioral cues alone aren't definitive - context matters, and some people have natural mannerisms that look "deceptive" but aren't. I should emphasize that absence of classic "lie signs" (like fidgeting or avoiding eye contact) leans toward truthfulness, but I can't be 100% sure.
+
+I'll structure my response to first note the observed behaviors, then explain why they suggest truthfulness, but also mention why it's not conclusive. The tone should be cautious - "it seems unlikely" rather than "definitely not lying." I'll avoid technical terms and keep it conversational like a real person thinking aloud.
+
+The challenge is balancing the behavioral evidence with reasonable doubt. Since the actual label is "truth," I'll align with that but frame it as my interpretation based on what I'm seeing, not as a fact. I'll make sure to include that "no red flags" (like nervous gestures) is significant, but not proof.
+</think>

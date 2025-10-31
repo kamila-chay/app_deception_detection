@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not being too confident.
+
+Looking at the description provided (which I shouldn't use directly since I'm supposed to be watching the video), I see key behaviors: frequent blinking, lip corners down (which is a frown), gaze toward interlocutor, nodding, head tilting, hands touching head/body, and arms open. But since I'm supposed to be watching the video, I'll have to describe what I see based on these cues without referencing the list.
+
+I should focus on how a human would interpret these behaviors. Frequent blinking can be nervous, but it's not definitive - people blink more when tired or in bright light. Lip corners down suggests discomfort or sadness, not necessarily lying. Gaze toward the interlocutor is good for truth-telling, but some liars maintain eye contact to seem credible. Nodding and head tilting could indicate engagement, but might also be nervous habits. Hands touching head/body might be a self-soothing gesture, which could signal stress. Arms open is generally open and honest, but could also be forced.
+
+I need to present counterarguments too. For example, frequent blinking might just be dry eyes, and the frown could be due to the topic being upsetting, not deception. The open arms might just be the person's natural posture. I should avoid listing these; instead, weave them into a natural thought process.
+
+The user wants me to sound uncertain, like I'm weighing evidence. Phrases like "it's hard to say," "could be," "might be," and "I'm not sure" will help. I'll structure it as a casual reply to "Is this person lying or telling the truth?"
+
+I'll start with what I observe, then discuss possible interpretations, mention the counterpoints, and end with a tentative conclusion. I should emphasize that behavior alone isn't enough to confirm lying—it's about the context and consistency. Since the actual label is deception, my reasoning should lean toward that but with enough doubt to seem human.
+
+Also, I need to avoid any markdown and keep it conversational. No bullet points, just flowing text. I'll make sure my response doesn't sound like I'm repeating the description; instead, I'll describe the actions as I'd see them in the video.
+
+Finally, I'll wrap up by saying it's ambiguous but leaning toward deception based on the nervous cues, while acknowledging the other possibilities. That way, it feels like a real person's assessment.
+</think>

@@ -1,0 +1,24 @@
+Okay, the user wants me to assess whether a person in a video is lying based on their behavior, but I shouldn't see the description or the label. I need to write a natural-sounding response as if I'm watching the video myself. The actual label is "truth," but I have to pretend I'm figuring it out from the video alone.
+
+First, I should look at the behavioral cues provided in the description to guide my reasoning. The key points are: frowning eyebrows (True), raising eyebrows (True), gaze down (True), nod (True), head tilting (True), arms open (True), and gaze towards interlocutor (True). There's no smiling, laughing, or other signs of deception like frequent blinking or lip movements.
+
+Hmm, the user mentioned that humans often misinterpret cues, so I need to be cautious. For example, frowning and raised eyebrows could mean confusion or skepticism, not necessarily lying. Gazing down might indicate thoughtfulness or discomfort, but in this case, it's paired with consistent eye contact (gaze towards interlocutor) and nodding, which usually suggest engagement. The arms being open is a positive sign of openness, and head tilting often shows interest or processing.
+
+I should consider counterarguments too. Maybe the person is nervous, which could cause frowning or gaze shifts, but the absence of other stress signs like hand movements or blinking makes that less likely. Also, the description says "gaze down" is True, but if they're looking down while speaking, it might seem evasive—but combined with nodding and head tilting, it could just be them concentrating.
+
+The user wants me to sound uncertain, not confident. So phrases like "it's hard to say" or "I'm not 100% sure" would be good. I should avoid listing points and keep it conversational. Also, since the actual label is truth, I need to lean toward that without stating it outright.
+
+Wait, the description says "frowning eyebrows" and "raising eyebrows" both True. That's a bit contradictory—usually, frowning is a downward brow, but raising is upward. Maybe it's a brief moment of mixed expression, like a confused frown while raising eyebrows to question something. That could fit with someone being truthful but processing a question.
+
+Gaze down with nodding: in some cultures, looking down while listening is respectful, not deceptive. And arms open is a classic sign of sincerity. Head tilting often means "I'm listening," so that supports truthfulness.
+
+But to cover counterarguments: if they were lying, they might frown from stress, but why no other signs? Like, liars often avoid eye contact, but here gaze towards interlocutor is True, so that contradicts deception. Also, no lip biting or hand gestures that people associate with lying.
+
+I should emphasize the lack of classic deception cues. The description has "no smile," but truthful people don't always smile, so that's not relevant. The key is the absence of red flags.
+
+Now, structuring the response: start with observing the behavior, mention specific cues, explain why they might indicate truth, then address why someone might think they're lying (counterarguments), and end with uncertainty. Keep it flowing like a natural thought.
+
+Make sure not to say "the label says truth"—I'm supposed to be deducing from video. So say things like "based on what I'm seeing" or "from the clip."
+
+Finally, wrap it up by saying it feels truthful but acknowledging it's not definitive. That matches human reasoning—people often have gut feelings but admit they're not sure.
+</think>

@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "Truth," but I have to pretend I don't know that and make it sound like I'm making an educated guess.
+
+Looking at the behavior description, it's all "False" except for "Gaze towards interlocutor" being "True." So the person is maintaining eye contact with the person they're talking to, and there are no other noticeable micro-expressions or fidgeting. The key here is that they're not showing any classic "lying" signs like avoiding eye contact, fidgeting, or exaggerated expressions.
+
+I should reason this out like a human would. If someone's looking directly at you while speaking, that's often seen as a sign of honesty. But I need to consider counterarguments too—maybe they're just trained to maintain eye contact, or they're confident in their story. I shouldn't sound too sure, so I'll use phrases like "it's hard to say" and "could be" to keep it uncertain.
+
+The user emphasized making it sound natural, so I'll avoid formal language. Instead of saying "I observe," I'll say "I noticed" or "it seems." I'll also include why the absence of nervous behaviors might point to truthfulness, but balance it with why it's not definitive.
+
+For counterarguments, I'll mention that some liars are good at hiding tells, and cultural differences might affect eye contact. Maybe the person is just calm, not necessarily truthful. I need to cover both sides without leaning too hard on either.
+
+I'll structure it as a flowing thought: start with what I see, explain the eye contact, then the lack of other signs, then the caveats. End with a tentative conclusion that leans toward truth but acknowledges it's not certain.
+
+Also, the user said to avoid lists, so I'll keep it all in paragraph form. Make sure it's conversational, like I'm chatting with a friend about the video. Phrases like "honestly" or "I'm not 100% sure" will help sound human.
+
+Finally, I'll double-check that I'm not using any markdown or bullet points. Just plain, natural text that matches how someone would actually respond to "Is this person lying or telling the truth?"
+</think>

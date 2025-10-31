@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment about whether the person is lying. I need to base this on the behavioral cues provided in the structured description, but pretend I'm analyzing the video myself. The label says "Deception," but I shouldn't mention that—I have to pretend I'm making an independent judgment.
+
+First, I'll look at the behavioral cues from the description. The key points are: "Raising eyebrows" is True, "Gaze sideways" is True, "Head moving backward" is True, and "Palms up" is True. Other cues like smiling, laughing, frowning, etc., are all False. 
+
+I need to think about what these cues might indicate in real life. Raising eyebrows can be a sign of surprise or uncertainty, not necessarily deception. Gaze sideways might mean they're avoiding eye contact, which people often associate with lying, but it could also just be nervousness or discomfort. Head moving backward—like leaning away—could signal discomfort or a subconscious attempt to create distance. Palms up is often seen as open and honest, which contradicts deception, but it's not foolproof. 
+
+Now, I should consider counterarguments. For example, if someone's lying, they might avoid eye contact (gaze sideways), but it's also common for people to look away when they're just thinking or feeling awkward. The palms up might be a red herring since it's usually a sign of honesty, so that could actually suggest truthfulness. The head moving backward could be part of a natural gesture rather than deception. 
+
+I have to avoid sounding too confident. Humans would hesitate when judging lies—they'd say things like "it's hard to tell" or "it could be either." I should emphasize that these cues aren't definitive. For instance, I could say, "I'm not sure if this is lying or just nervousness." 
+
+Also, the user specified to make it sound like a natural reply, so I'll keep it conversational. No bullet points—just flowing text. I'll start by describing what I see in the video, then reason through the possibilities, and end with a balanced conclusion. 
+
+I need to ensure my reasoning aligns with how humans actually think about deception. Research shows that people often misjudge lies based on stereotypes (like avoiding eye contact), but it's unreliable. So I'll mention that in my response to show I'm not falling for common myths. 
+
+Finally, I'll wrap it up by saying it's ambiguous and I'd need more context. That way, it feels like an honest, educated guess, not a definitive answer. And I'll make sure not to reference the label "Deception" at all, since the instruction says to pretend I don't see it.
+</think>

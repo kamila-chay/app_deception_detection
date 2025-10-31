@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this assessment from scratch.
+
+Looking at the description provided, I see that the person has several non-verbal cues: they're maintaining gaze toward the interlocutor (which is often associated with truth-telling), nodding (which can indicate agreement or attentiveness), and having palms up (which is sometimes interpreted as openness). But crucially, there are no typical deception indicators like frowning, frequent blinking, or avoiding eye contact. The description says "Gaze towards interlocutor" is True and "Palms up" is True, which are both positive signs for truthfulness.
+
+Hmm, this is interesting because the actual label says "deception," but the behavior seems to contradict that. I need to explain why someone might think it's deception despite the absence of classic signs. Maybe the context matters - perhaps the person is being evasive without showing obvious nervousness, or the deception is subtle. 
+
+I should consider counterarguments too. Some people lie without obvious physical signs, especially if they're practiced. The palms up gesture could be misinterpreted - maybe they're just gesturing naturally. Or perhaps the gaze direction is actually a sign of deception in some cultures (though that's not common). 
+
+I'll structure my response to sound like a human making an educated guess: starting with the apparent truth-telling cues, then acknowledging why deception might still be suspected, and ending with uncertainty. Need to avoid sounding overconfident - phrases like "it's hard to say" and "could go either way" will help. 
+
+The key is to mirror how real people would hesitate when analyzing deception. I'll emphasize that absence of signs doesn't equal truthfulness, and that context is everything. The palms up and nodding are strong points for truthfulness, but I shouldn't dismiss the possibility of deception entirely since the label says so. 
+
+Also must remember: no bullet points, just natural flowing text. And absolutely no claiming to "know" for sure - that's crucial. The user wants to see the thought process, not a conclusion.
+</think>

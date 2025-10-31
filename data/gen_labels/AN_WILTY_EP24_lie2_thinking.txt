@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. I have to write a natural-sounding response as if I'm making an educated guess, not being too confident, and including counterarguments.
+
+Looking at the behavior description: frequent blinking (true), gaze towards interlocutor (true), gaze up (true), gaze down (true), head tilting (true), palms up (true). Other behaviors like smiling, laughing, frowning, etc., are all false. So the person isn't showing typical deception signs like avoiding eye contact or smiling unnaturally. Instead, they're blinking a lot, looking at the person they're talking to, shifting gaze up and down, tilting their head, and having palms up.
+
+Hmm, frequent blinking is often associated with deception, but it's not definitive—it could just be nervousness from stress or the situation. The gaze behaviors are interesting: they're looking at the person (which might seem honest), but also looking up and down, which could indicate thinking or recalling information. Head tilting is usually a sign of engagement or curiosity, not deception. Palms up is often seen as open and honest.
+
+But wait, counterarguments: maybe the frequent blinking is a stress response from lying, even if they're looking at the person. Some people might look away when lying, but here they're maintaining eye contact, which could be a red flag for deception if they're forcing it. The gaze shifting up and down might be part of constructing a false story. Head tilting could be a way to appear non-threatening while lying. Palms up is generally honest, but liars sometimes use it to seem trustworthy.
+
+I need to balance this. The user wants me to sound like a human making a cautious assessment, not a robot. So I'll start by describing what I see, then weigh the signs. I shouldn't say "I know they're lying" but "it's possible." Emphasize that deception is hard to spot from one clip, and context matters.
+
+Also, the response should be conversational, like in a chat. Avoid lists—just weave it into a paragraph. Make sure to include why it might be truth (e.g., natural blinking, open palms) and why it might be lie (e.g., excessive blinking, gaze shifts).
+
+Check the description again to avoid mistakes: no smiling, no frowning, so no fake smiles or negative expressions. That's good—no obvious deception cues there. The key points are frequent blinking, gaze behaviors, head tilt, palms up.
+
+For the counterarguments: if they're truthful, why blink so much? Maybe they're tired or in a bright room. If lying, why are they looking at the person? Some liars try to seem honest by maintaining eye contact. Head tilting could be genuine interest, but it might also be a calculated move.
+
+I'll structure my response to start with observations, then present both sides, and end with a tentative conclusion. Keep it neutral: "It's hard to say, but I lean toward..." but not too strong. The user said to avoid sounding too confident, so phrases like "might be," "could indicate," "it's possible."
+
+Finally, ensure it's a natural reply to "Is this person lying or telling the truth and why?" So start with "From what I'm seeing..." and wrap up with uncertainty.
+</think>

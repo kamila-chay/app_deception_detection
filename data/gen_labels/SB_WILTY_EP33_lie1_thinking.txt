@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception," but I need to pretend I don't know that.
+
+First, I need to analyze the behavioral cues given. The key points from the description are: raised eyebrows, exaggerated mouth opening, mouth closed with awkward pauses, lips retracted, chin moving downward, gaze down, head side-turn, and nodding. The absence of smiles, laughter, or frowning is notable too.
+
+I should consider how humans typically interpret these cues. Raised eyebrows can indicate surprise or skepticism, but in deception contexts, they might signal nervousness. Exaggerated mouth opening and lip retraction often suggest forced expressions or tension. The mouth being closed during awkward pauses is a classic sign of someone struggling to formulate a response. Gaze down and head side-turning could mean avoidance or discomfort, which people often associate with lying. Nodding might seem like agreement, but it could be a nervous tic.
+
+But I have to be careful not to be overconfident. Counterarguments matter here. Some people naturally have raised eyebrows or a habit of retracting lips. Gaze down could just mean they're thinking deeply, not lying. Head side-turning might be a personal mannerism. The absence of other classic deception cues like frequent blinking or fidgeting makes me question if this is really deception or just someone who's naturally reserved.
+
+I recall that in real life, people often misjudge deception based on stereotypes. For example, the "looking away means lying" myth is debunked by research. So I should emphasize that these cues alone aren't definitive. The person might be anxious about the situation, not necessarily lying.
+
+The user wants me to sound like I'm making an educated guess, not stating facts. So I'll use phrases like "it makes me wonder" or "could be interpreted as." I'll balance the evidence for deception with the counterpoints to show I'm not jumping to conclusions.
+
+Also, the response should be conversational, like I'm replying to someone asking "Is this person lying?" So no bullet points, just flowing text. I'll start by describing what I see, then weigh the possibilities, and end with a cautious conclusion.
+
+I need to avoid saying "this proves they're lying" because the label is deception, but I'm supposed to pretend I don't know that. The key is to show my thought process as a human would—hesitant, considering multiple angles.
+
+Let me structure it: First, describe the behaviors neutrally. Then, list the deception-related cues but immediately question them with alternatives. Highlight the lack of strong deception markers. Conclude that it's ambiguous, leaning slightly toward deception but not certain.
+
+Make sure to include the specific cues: raised eyebrows (could be surprise), exaggerated mouth (nervousness), mouth closed with pauses (hesitation), lip retraction (tension), gaze down (avoidance), head turn (discomfort), nod (confusing—could be agreement or nervous tic).
+
+Counter: Maybe they're just shy, or the question is hard, or they're used to these mannerisms. Research shows most people don't lie consistently with these cues.
+
+Finally, wrap it up by saying it's hard to say for sure, but the combination of cues makes deception a possibility worth considering, not a certainty.
+</think>

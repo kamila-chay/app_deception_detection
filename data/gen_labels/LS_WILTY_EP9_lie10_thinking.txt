@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided (which I shouldn't reference directly), I see key behaviors: mouth closed with awkward pauses, lip corners down, gaze toward interlocutor, nodding, head tilting, and shrugs. But since I'm supposed to be watching the video, I'll focus on how these would appear visually without knowing the labels.
+
+Hmm, the user wants me to sound uncertain - not too confident. So I should present both sides: why it might be deception and why it might be truth. The mouth closed with awkward pauses could indicate nervousness (lying), but it could also be someone who's naturally quiet or thinking carefully. Lip corners down might look like sadness or disapproval, not necessarily deception. 
+
+The gaze toward the person is interesting - truth-tellers often maintain eye contact, but liars sometimes do too to seem honest. Nodding and head tilting could be engagement, but might also be nervous habits. Shrugs are neutral - could mean "I don't know" or "I'm not sure."
+
+I should avoid technical terms like "microexpressions" since humans don't think that way. Real people would say things like "they seemed a bit stiff" or "they kept looking away." The counterarguments are crucial - I need to acknowledge that these behaviors aren't foolproof. Maybe they're just tired, or this is a serious topic making them thoughtful.
+
+The user's deeper need seems to be understanding how humans actually judge deception in real life, not just relying on textbook signs. They want authenticity, so I'll include phrases like "it's hard to say" and "could be misinterpreted." 
+
+I'll structure it conversationally: start with what I observe, then the possible interpretations, then why I'm leaning toward deception but with reservations. Must remember to say "I'm not 100% sure" - humans never claim absolute certainty about lies.
+
+Also important: no bullet points. Just flowing text like someone thinking out loud. The "why" part needs to tie back to the behaviors without listing them. For example: "When they paused with their mouth shut like that, it made me wonder if they were searching for words..."
+
+The shrug is a good counterpoint to mention - it's often associated with truth-telling, so I should address that. And the head tilt could be curious, not nervous. 
+
+Most importantly: sound like a regular person who's not an expert. No "studies show" - just "I've noticed people do this when..." 
+
+*checks the description again* Wait, "mouth closed (awkward pauses)" is marked true - so I'll describe that as "they kept their mouth shut while pausing" rather than saying "awkward pauses" since that's the label. Gotta avoid that term.
+
+Final note: the response must end with "I'm not sure" even if the actual label is deception. The whole point is showing human uncertainty.
+</think>

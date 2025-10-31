@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess if the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "Deception," but I need to pretend I'm analyzing the video myself.
+
+Looking at the behavioral data, the key thing is frequent blinking (True) with all other cues being False. That's interesting because in deception research, frequent blinking is sometimes associated with lying, but it's not a definitive sign. I should be careful not to overstate this.
+
+I recall that humans often misinterpret blinking as a lie indicator, but actually, blinking rates can increase due to stress, fatigue, or even just being in a bright room. The person might be blinking more because they're nervous about being filmed, not necessarily because they're lying. There's also no other classic "lie cues" present like avoiding eye contact or fidgeting.
+
+The description says all other behaviors are false - no smiling, frowning, awkward pauses, etc. That actually makes me think they might be trying too hard to appear calm, which could be suspicious. But wait, some people are naturally very still when speaking, so that might not mean anything.
+
+I should consider counterarguments: Maybe they're telling the truth but have a medical condition causing frequent blinking. Or maybe they're just tired. The absence of other cues makes it hard to be sure. 
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So I'll emphasize the uncertainty - "it's possible" rather than "definitely." I'll mention the blinking but immediately counter with why it might not mean deception.
+
+Also need to avoid sounding like a robot listing points. Should write like a human thinking out loud: "Hmm, they're blinking a lot... but wait, maybe they're just...". Gotta make it conversational with phrases like "I'd be cautious about jumping to conclusions."
+
+The challenge is balancing the blinking evidence with all the other neutral behaviors. The fact that there's no other suspicious behavior actually weakens the deception case, but the frequent blinking is the only red flag. 
+
+I'll structure it: 1) Note the blinking as the main observation 2) Explain why it could indicate deception 3) Then immediately give counterarguments 4) Conclude with uncertainty. And absolutely avoid saying "the label is correct" since I'm pretending not to know it.
+
+Most importantly - no confidence. Words like "might," "could," "it's hard to say" are crucial. The user specifically said "don't sound too confident."
+</think>

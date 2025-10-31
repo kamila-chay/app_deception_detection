@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception" in the data, but I need to pretend I don't see that label or the description.
+
+Looking at the behavioral markers provided: the person has raised eyebrows (True), lip corners up (True), gaze toward interlocutor (True), and head tilting (True). Other markers like smiling, laughing, frowning, or frequent blinking are all False. The key points here are the raised eyebrows and head tilt - these often appear in deceptive behavior as signs of stress or cognitive load. But I should be careful not to jump to conclusions.
+
+I need to approach this like a human would - cautiously, with counterarguments. Raised eyebrows could just be surprise or curiosity, not necessarily deception. Head tilting might indicate engagement or thoughtfulness rather than lying. The lip corners up suggests a smile, but it's not a full smile since "Smile" is marked False. This might be a forced or micro-expression.
+
+I should consider why someone might show these signs without lying. Maybe they're nervous about being recorded, or the question is unexpected. The gaze toward the interlocutor is actually a good sign for truthfulness - liars often avoid eye contact, but here they're maintaining it. That contradicts the deception label.
+
+For the counterargument, I'll note that some people maintain eye contact when lying to seem credible. But the head tilt and raised eyebrows still make me lean toward deception. However, the lack of other classic signs like fidgeting or avoiding gaze makes me hesitant. 
+
+I'll structure my response to sound like a natural human assessment: starting with what I observe, then weighing the evidence, acknowledging uncertainties, and ending with a qualified conclusion. I'll avoid sounding too certain - phrases like "might suggest" and "could be" will help. I'll mention the gaze as a counterpoint to the deception label.
+
+The challenge is balancing the behavioral markers with real-world context. In actual human judgment, we'd consider the situation too - but since I don't have that, I'll stick to the observed behaviors. I'll make sure not to list anything but write in flowing text, and keep it conversational like I'm explaining to a friend.
+</think>

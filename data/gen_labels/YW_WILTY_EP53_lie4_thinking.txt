@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed description of the behavior that's labeled as deception, but I need to pretend I don't see that label and figure it out myself.
+
+Looking at the behavior description: the person has raised eyebrows (True), gaze toward interlocutor (True), and nods (True). All other behaviors like smiling, laughing, frowning, etc., are False. I need to reason through this as if I'm watching the video.
+
+Hmm, raised eyebrows can be tricky - they often signal surprise or skepticism in truth-telling contexts, but they could also just be a natural reaction. The gaze toward the interlocutor seems like they're making eye contact, which people often do when being truthful. Nodding while speaking could indicate agreement or emphasis, but it's not necessarily deceptive. 
+
+I should consider counterarguments too. Maybe the raised eyebrows are just a habitual gesture, or the eye contact is actually nervous because they're lying. But the absence of other classic deception cues like fidgeting, avoiding eye contact, or fake smiles makes me lean toward truthfulness. The description says no awkward pauses either, which is interesting because liars often have more pauses.
+
+Wait, but the label says deception, so I need to be careful not to assume that. I should present both sides fairly. The user wants me to sound uncertain, like a human making an educated guess. I shouldn't say "they're lying" outright but say things like "it's possible" or "it's hard to tell."
+
+I'll structure my response to first describe what I'm seeing in the video (based on the behavior data), then discuss why it might indicate truthfulness, then why it might indicate deception, and finally say I'm leaning toward truthfulness but not certain. I'll avoid technical terms and keep it conversational.
+
+For the counterarguments: I'll mention that raised eyebrows could be deceptive (like when someone's trying to seem surprised), but the lack of other cues makes that less likely. And while eye contact usually suggests truthfulness, some liars practice making eye contact to seem honest.
+
+The key is to sound natural - like I'm thinking out loud while watching the clip. I'll use phrases like "I'm noticing..." and "it's making me wonder..." to keep it human. And I'll definitely include that "I'm not 100% sure" disclaimer since the user emphasized not sounding overconfident.
+
+Also important: the user provided a lot of "False" behaviors, so I should highlight that absence of deception markers is significant. Like how no lip biting or hand movements suggests they're not nervous, which is unusual for liars.
+
+Let me make sure I cover all the key points: raised eyebrows (neutral), eye contact (truthful sign), nodding (neutral), and the lack of classic deception cues. Then balance with possible explanations for why it might still be deception despite that.
+</think>

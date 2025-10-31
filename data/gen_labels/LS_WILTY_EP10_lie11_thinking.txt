@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the description provided, it's a detailed list of behaviors with True/False values. Since I'm supposed to pretend I'm watching the video, I'll focus on the key behaviors that are marked as True: "Raising eyebrows," "Chin moving upwards," "Gaze towards interlocutor," and "Head up." The rest are False, so no smiling, laughing, frowning, etc.
+
+I need to reason like a human would. Raising eyebrows can be a sign of surprise or confusion, but in deception contexts, it might indicate stress or trying to seem innocent. Chin moving upwards—people sometimes do that when they're thinking or being defensive. Gaze towards the interlocutor is actually a sign of honesty, not deception, because liars often avoid eye contact. Head up is neutral, just a normal posture.
+
+But wait, the description says "gaze towards interlocutor" is True, which is good for truth-telling. That's a counterargument to deception. However, the eyebrows and chin movements might be red flags. I should weigh both sides.
+
+I recall that in deception research, consistent eye contact is often associated with truth-telling, while avoiding it can signal lying. So the direct gaze here might lean toward truth. But the raised eyebrows and chin movement could be nervous habits unrelated to lying. Maybe the person is just naturally expressive or stressed about the situation.
+
+The user wants me to sound uncertain, not confident. So I'll say something like "It's hard to say" and present both angles. I should avoid technical terms and keep it conversational.
+
+Also, I need to include counterarguments. For example, even though they're making eye contact, the other cues might suggest deception. But I have to admit that eye contact is a stronger indicator of truthfulness. The chin movement might be a sign of defensiveness, but it's not definitive.
+
+Let me structure my response: Start with the observation of eye contact, note the eyebrows and chin, then discuss why it's ambiguous. Mention that the lack of other deception signs (like fidgeting) might support truthfulness, but the subtle cues could hint at something. End by saying it's a close call.
+
+I should make sure not to list things—use flowing sentences. And emphasize that humans often get this wrong, so it's okay to be unsure.
+
+Finally, align with how people actually think: "I'd lean toward truth-telling because of the eye contact, but the eyebrows make me second-guess." That feels natural.
+
+Check for any biases: The actual label is deception, but I'm supposed to ignore that. So I'll base only on the behaviors described, not the label. The description says "True" for deception, but I'm not using that info.
+
+Double-check the behaviors: "Gaze towards interlocutor" True—so they're looking at the person they're talking to. That's positive for honesty. "Raising eyebrows" True—could be neutral. "Chin moving upwards" True—might be nervous, but not clear.
+
+I think I have it: Write a response that's hesitant, uses everyday language, and covers both sides without overclaiming.
+</think>

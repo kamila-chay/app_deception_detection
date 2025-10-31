@@ -1,0 +1,22 @@
+Okay, the user wants me to assess whether someone is lying based on a video description, but I have to pretend I'm watching the video without seeing the label or description. The actual label is "Truth," but I need to simulate making an educated guess as if I'm analyzing the video myself.
+
+First, I need to recall the behavioral cues from the description. The key points are: raised eyebrows (True), gaze sideways (True), and all other cues like smiling, laughing, frowning are False. The description says "Raising eyebrows: True" and "Gaze sideways: True." 
+
+Hmm, in lie detection, raised eyebrows can sometimes indicate surprise or confusion, not necessarily deception. Gaze sideways might suggest avoidance, which is often associated with lying, but it's not definitive. I should consider both sides. If they're telling the truth, maybe they're just uncomfortable or thinking, so sideways gaze could be natural. If they're lying, the raised eyebrows might show they're trying to seem sincere, but that's a bit of a stretch.
+
+I need to avoid sounding too confident. The user emphasized making it seem like an educated guess with counterarguments. So I'll mention that sideways gaze is often linked to lying, but it's not a sure sign—people look sideways for many reasons, like not wanting to make eye contact due to shyness. Raised eyebrows might just mean they're processing something, not lying.
+
+Also, the absence of other cues like frowning or lip biting is important. If they were lying, we might expect more micro-expressions or nervous gestures, but here there are none. That leans toward truthfulness. But I should acknowledge that liars can be calm too, so the lack of nervousness doesn't prove truth.
+
+I should structure my response to sound natural, like a human reasoning out loud. Start with what I observe, then weigh the possibilities, mention why it could be truth, why it might be lie, and why I'm leaning toward truth without being sure. Keep it conversational, no lists.
+
+Check the description again: all other behaviors are False, so no signs of stress or deception. The "gaze sideways" is the main thing that might raise suspicion. But in many contexts, people look away when thinking, not lying. For example, if they're recalling a memory, they might look sideways.
+
+Counterargument: If they're lying, they might avoid eye contact to hide something, so gaze sideways could be a sign. But since there's no other evidence, it's weak. The raised eyebrows—sometimes liars raise them to seem innocent, but again, not strong evidence.
+
+I'll conclude that the behavior seems consistent with truth-telling because the lack of nervous cues outweighs the sideways gaze. But I'll say "it's plausible" not "definitely." Need to phrase it as "I'm leaning toward truth" but with caveats.
+
+Make sure not to mention the label "Truth" since I'm pretending I don't know it. Just base it on the behaviors described in the input. The user provided the description as a fact, so I'll use that as my observation.
+
+Finally, keep the tone humble: "I'm not 100% sure, but based on...". Avoid technical terms, keep it everyday language.
+</think>

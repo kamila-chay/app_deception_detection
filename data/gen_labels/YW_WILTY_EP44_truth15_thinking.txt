@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. I have to write a natural-sounding assessment that shows I'm reasoning through it like a human would, not being too confident.
+
+Looking at the behavior data provided: The person is laughing (Laughter: True), raising eyebrows (Raising eyebrows: True), has lip corners up (Lip corners up: True), chin moving downwards (Chin moving downwards: True), gaze down (Gaze down: True), head shaking (Head shaking: True), palms up (Palms up: True), and arms open (Arms open: True). They're not smiling (Smile: False), not frowning, not blinking frequently, etc.
+
+Hmm, I need to interpret these cues as a human would. Laughter and raised eyebrows often indicate genuine emotion, especially when laughing at something. Lip corners up suggests a smile, even if it's not called a "smile" in the data. Arms open and palms up are classic open body language associated with honesty. Head shaking could be "no" but in context, it might be dismissing something or just a natural gesture.
+
+But I should consider counterarguments too. Head shaking might be a sign of disagreement, which could imply lying if they're denying something. Gaze down can sometimes indicate deception (people avoid eye contact when lying), but it's not always the case—could be shyness or deep thought. Chin moving down might look like a slight chin lift, which could be confident or dismissive.
+
+I should balance this. The open gestures (arms, palms) feel positive, and laughter is strong evidence for truthfulness. But I can't be 100% sure—maybe they're laughing nervously. I'll emphasize that these signs point to truth, but acknowledge the head shake and gaze down as possible red flags that could go either way.
+
+The user probably wants to see if I understand that behavior cues are messy in real life. They're testing if I'll overstate the evidence like an AI might, or if I'll show nuanced human reasoning. I should avoid sounding robotic—no lists, just flowing thoughts. Phrases like "it's hard to say for sure" and "I'd lean toward truth" keep it humble.
+
+Also, the description says "Lip corners up" not "smile," so I'll clarify that distinction to show attention to detail. And "head shaking" is listed as True, so I'll note it without assuming it's "no" unless context suggests it.
+
+Finally, wrap it up as a natural reply: start with the strongest evidence (laughter, open arms), then address the weaker points (head shake, gaze down), and conclude with a cautious leaning toward truth. Make sure it sounds like I'm thinking aloud, not lecturing.
+</think>

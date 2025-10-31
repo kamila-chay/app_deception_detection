@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the behavior description provided (which I shouldn't rely on since I'm supposed to be watching the video), I notice key cues: raised eyebrows, frequent blinking, and gaze patterns (gazing at interlocutor, up, and down). The description says no smiling, laughing, frowning, or other obvious tells. 
+
+Hmm, as a human watching this, I'd probably notice the raised eyebrows and blinking first. Those can be signs of stress or discomfort, which people often show when lying. But I should be careful—raised eyebrows can also mean surprise or confusion, not necessarily deception. And blinking a lot? That happens when people are nervous about many things, like giving a presentation, not just lying.
+
+The gaze behavior is interesting. They're looking at the person they're talking to (gaze towards interlocutor), which might seem like they're being honest, but they're also looking up and down. People sometimes look up when they're thinking or recalling, which could be neutral. I've heard that "looking up" might be linked to lying in some theories, but I know that's not scientifically solid. It could just be them thinking about what to say.
+
+I should consider counterarguments too. Maybe they're just naturally expressive—some people raise eyebrows a lot without lying. Or maybe they're tired or in a bright room, causing frequent blinking. The lack of other tells like avoiding eye contact or fidgeting makes me wonder if the blinking is just nervousness unrelated to deception.
+
+The user wants me to sound uncertain, like I'm making an educated guess. So I shouldn't say "definitely lying" or "definitely not." Instead, I'll describe what I see and weigh the possibilities. For example: "I noticed they kept raising their eyebrows and blinking a lot, which makes me think they might be uncomfortable, but it could also be just how they talk."
+
+I need to avoid sounding like I'm listing points. Just write it conversationally, as if I'm chatting with someone. And since the actual label is deception, I should lean toward that in my reasoning but with caveats—like how humans often misinterpret these cues.
+
+Also, the user mentioned "external reliable information" but since I'm pretending not to see the label, I'll ignore that. My assessment has to be based solely on the video behavior. So I'll focus on the described cues: raised eyebrows, frequent blinking, gaze patterns.
+
+Let me structure my response: Start with what I observe, then explain why it might indicate lying (nervousness, stress), then counter with why it might not (natural behavior, unrelated stress), and end with a cautious conclusion. Keep it natural—no jargon, just like a real person thinking out loud.
+
+Finally, make sure it's aligned with how humans actually think: we're not perfect at spotting lies, so I'll emphasize the uncertainty. That way, it feels authentic to the scenario.
+</think>

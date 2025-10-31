@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description, it says the label is "truth" but I'm supposed to pretend I don't see that. The key behaviors listed are: raising eyebrows (True), gaze towards interlocutor (True), gaze up (True), head side-turn (True), and hands touching head/body (True). All other behaviors like smiling, laughing, scowling are False.
+
+Hmm, as a human watching this video, I'd notice someone who seems engaged but with some nervous gestures. The raised eyebrows and head tilting often indicate curiosity or processing, not necessarily deception. Gazing directly at the speaker while looking up could mean they're thinking or recalling something honestly. The head side-turn might just be a natural gesture during conversation.
+
+But I should consider counterarguments too. Some people fidget when lying, so touching their head might seem suspicious. However, the description says "hands touching head/body" which could be a casual gesture like adjusting hair or wiping sweat, not necessarily deceptive. The lack of other classic "liar" signs like avoiding eye contact or excessive blinking is actually reassuring.
+
+I should emphasize that absence of deception cues doesn't prove truthfulness, but combined with engaged eye contact and natural head movements, it leans toward truthfulness. I'll avoid sounding overconfident - phrases like "might be" and "could be" will keep it realistic. The user wants to see human-like uncertainty, so I'll mention how hard it is to judge from just video alone.
+
+Also noting the "gaze up" detail is interesting - people often look up when recalling memories, which supports truthfulness. But I shouldn't overstate that since some liars do the same. The key is the combination of cues: no defensive postures, no avoidance, just neutral-to-engaged behavior.
+
+For the response structure, I'll start with what I observe, then weigh the possibilities, acknowledge limitations, and end with a balanced conclusion. Keeping it conversational with phrases like "I'd be tempted to say" and "it's tricky" will make it sound like a real person thinking out loud.
+</think>

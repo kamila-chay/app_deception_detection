@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavior description labeled as "truth," but I need to pretend I don't see that and analyze it as if I'm just watching the video.
+
+Looking at the behavior list, I notice several key points: the person has "Raising eyebrows" (True), "Gaze towards interlocutor" (True), "Gaze up" (True), "Head up" (True), and "Arms open" (True). They don't show any typical "lie indicators" like smiling, frowning, frequent blinking, or defensive gestures. 
+
+Hmm, the eyebrows raised and gaze directed at the person they're talking to actually seem like signs of engagement - when people are being truthful, they often maintain eye contact and show open body language. The arms being open is particularly interesting because crossed arms or closed posture usually signals defensiveness, which might happen when lying. 
+
+But I should consider counterarguments too. Maybe they're just being polite or rehearsed? Sometimes people raise eyebrows when they're nervous, not just when telling the truth. And "gaze up" could mean they're thinking, which might happen when constructing a lie. But the description says "gaze towards interlocutor" which suggests they're actually looking at the person, not just staring into space.
+
+The absence of other tells is important - no lip biting, no fidgeting, no awkward pauses. If they were lying, I'd expect some nervous gestures. The fact that they're not showing those makes me lean toward truth. But I shouldn't be too certain - maybe they're a very calm liar. 
+
+I'll structure my response to sound like I'm genuinely thinking through it: starting with the open body language as a positive sign, then acknowledging that eyebrow raising could be ambiguous, but overall the lack of micro-expressions and defensive moves tips the scale. I'll keep it conversational with phrases like "I'm leaning toward" and "it's hard to say for sure" to sound human and uncertain.
+
+The user seems to want to see how a human would reason through this without the label, so I'll avoid technical terms and make it sound like a real person watching a video. I'll emphasize that truth-tellers often have more natural, open gestures while liars might tense up - and this person seems relaxed in their posture.
+</think>

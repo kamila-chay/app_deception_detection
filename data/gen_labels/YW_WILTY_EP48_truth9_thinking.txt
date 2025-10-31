@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth" with specific actions like raised eyebrows and direct gaze.
+
+Hmm, I need to be careful here. The key is to sound like a human making an educated guess, not claiming certainty. The description shows "Raising eyebrows" and "Gaze towards interlocutor" as true, while most other cues like smiling or frowning are false. 
+
+I recall from psychology that raised eyebrows can indicate surprise or skepticism, not necessarily deception. And direct eye contact is often associated with truthfulness, though it's not foolproof - some liars practice maintaining eye contact. The absence of nervous tells like frequent blinking or lip movements actually leans toward truthfulness, but I shouldn't overstate that.
+
+Wait, the user emphasized avoiding confidence, so I should include counterarguments. Like, maybe the person is just naturally expressive with their eyebrows, or they're rehearsed enough to avoid fidgeting. Also, cultural differences in eye contact could matter - some people avoid direct gaze when being truthful.
+
+I'll structure my response to start with the observable behaviors (eyebrows up, steady eye contact), then explain why those might suggest truthfulness, but immediately follow with "though it could be..." to show doubt. The "awkward pause" detail from the description isn't actually present (it's marked false), so I shouldn't mention that. 
+
+Most importantly, I must not say "the label is correct" - the user wants me to pretend I'm deducing it from video alone. So phrases like "if I had to guess" and "it seems plausible" will keep it tentative. The tone should be conversational, like someone thinking out loud in a group discussion.
+
+*checks the behavior list again* Right, no lip movements or fidgeting, which are common deception cues. But I'll emphasize that absence of deception cues doesn't equal proof of truth - that's a common fallacy. Maybe mention how some people who lie naturally don't show those signs.
+
+For naturalness, I'll use phrases like "I'm noticing" and "it's hard to say" instead of academic terms. And absolutely no bullet points - just flowing paragraphs. The challenge is balancing the evidence with reasonable doubt without sounding wishy-washy.
+</think>

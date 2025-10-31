@@ -1,0 +1,36 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth" but I'm supposed to pretend I don't see that. 
+
+Hmm, this is interesting. The key here is to mimic human reasoning - not being too certain, considering counterarguments, and making it sound like a natural deduction. The user emphasized avoiding confidence, so I should use phrases like "might" or "could" a lot.
+
+Let me look at the behavior markers they provided: Smile (True), Lip corners up (True), Gaze towards interlocutor (True), Arms open (True), Head shaking (True). And importantly, no signs of stress like frequent blinking or lip protruding. 
+
+I recall from psychology studies that genuine smiles involve the whole face (Duchenne smile), but here we only have "smile" and "lip corners up" - no mention of eye crinkles. That's a potential red flag. But wait, maybe it's just a subtle smile. 
+
+The head shaking is tricky - it's listed as "head shaking" which usually means "no" but in this context it might be a natural gesture while speaking. The arms open and direct gaze usually suggest openness, which aligns with truth-telling. 
+
+But I should consider counterarguments: Some people fake smiles when lying, and head shaking could be nervous habit. Also, the absence of stress cues is strong evidence for truth, but not absolute. 
+
+I need to balance both sides. The user wants it to sound like a real human hesitating - not a robot. So phrases like "I'm not 100% sure" and "could be" will help. 
+
+The challenge is making the reasoning feel organic. Instead of listing points, I'll weave it into a narrative: "They were smiling while speaking to the camera, which usually means they're comfortable..." then immediately follow with "but I wonder if that smile was forced..."
+
+Also must remember: no bullet points, no markdown, just plain natural language. And end with the conclusion that leans toward truth but with caveats. 
+
+*checks the behavioral data again* 
+- No awkward pauses (good)
+- No gaze aversion (good)
+- Arms open (good)
+- Head shake (neutral or negative? Wait, in context it's probably just a gesture)
+
+Ah! The head shaking might be the most confusing element. In many cultures, head shaking means "no" but here it's likely just a natural speech gesture. I should address that specifically in counterarguments.
+
+*mental note* Must avoid saying "the label says truth" since I'm supposed to be pretending I don't see it. Just focus on behaviors.
+
+Okay, structuring my response:
+1. Start with general impression (smiling, open posture)
+2. Point out the head shake as confusing
+3. Weigh pros (no stress cues) vs cons (smile might be fake)
+4. Conclude it's probably truth but with uncertainty
+
+And absolutely no "I know for sure" language. Maybe say "my gut says truth" but softened with "but I'm not certain."
+</think>

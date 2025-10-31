@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and reason as if I'm deducing it from the video alone.
+
+Looking at the behavior description provided (which I shouldn't use directly since I'm supposed to be watching the video), I see key points: the person has "Lips protruded" (which might indicate discomfort or thoughtfulness), "Gaze towards interlocutor" (making eye contact), "Head shaking" (which could be disagreement or emphasis), and no signs of typical "lie indicators" like frowning, excessive blinking, or avoiding eye contact.
+
+Hmm, I need to approach this like a human would. If I were watching this clip, I'd notice they're making consistent eye contact and not showing nervous tics. The head shake might confuse me at first—people often shake heads when lying, but it could also be a natural gesture of emphasis. The protruded lips are interesting; that's not a common "lie" sign, more like someone thinking hard or being slightly frustrated. 
+
+I should consider counterarguments: maybe the head shake is deceptive (like a "no" when they mean "yes"), but the gaze toward the speaker contradicts that—they're engaged, not hiding. The lack of fidgeting or avoidance feels honest. 
+
+I'll structure my response to sound uncertain but reasoned: start with what I observe, then weigh the "lie" vs "truth" possibilities, acknowledge the head shake as a potential red flag but explain why it doesn't fit, and end with a "leaning toward truth" conclusion without overclaiming. 
+
+Important to avoid sounding robotic—no bullet points, just natural language like "I'd wonder if..." or "it's possible they're... but then I notice..." 
+
+Also, the user emphasized making it seem like a human deduction, so I'll add phrases like "I'm not 100% sure" and "it's tricky because..." to keep it realistic. The counterargument about head shaking must feel genuine, not like I'm forcing it. 
+
+*Double-checking*: The description says "Head shaking" is True, but in truth contexts, head shaking can be "no" (which might imply lying about something), but since the label is "truth," I'll interpret it as a natural "yes" gesture or just a nervous habit. Wait—no, in the data it's listed as "Head shaking" without direction, so it's neutral. I'll treat it as a gesture, not a meaning. 
+
+Final angle: The absence of micro-expressions (no scowls, no fake smiles) plus steady eye contact outweighs the head shake as a minor anomaly. I'll say something like "the head shake is odd, but paired with their calm gaze, it feels more like they're emphasizing a point than hiding something."
+</think>

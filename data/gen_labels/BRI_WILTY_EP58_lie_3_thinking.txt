@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying based on their behavior. The key is to sound like I'm making an educated guess, not claiming certainty, and to include counterarguments.
+
+Looking at the structured description provided, I see the label is "deception" but I'm supposed to ignore that. The actual behaviors listed are: gaze towards interlocutor (true), gaze sideways (true), head tilting (true), head side-turn (true). All other behaviors like smiling, laughing, frowning, blinking, etc., are false. So the person is maintaining eye contact with the speaker while also looking sideways, tilting their head, and turning their head side-to-side.
+
+Hmm, this is interesting. Normally when people lie, they might avoid eye contact or show micro-expressions, but here they're maintaining direct gaze (gaze towards interlocutor) while also looking sideways. That seems contradictory to typical deception cues. The head tilting and side-turning might indicate engagement or confusion rather than deception. 
+
+I should consider why someone might look sideways while maintaining eye contact. Maybe they're thinking of something, or the environment has something distracting in the periphery. Head tilting is often a sign of interest or processing, not deception. 
+
+But I need to acknowledge counterarguments too. Some people might look sideways when lying to avoid direct eye contact, but the description says they're still looking towards the interlocutor. So it's not avoiding eye contact. The head movements could be nervous habits though - some people fidget when stressed, even when telling the truth.
+
+The user wants me to sound human and uncertain. So I shouldn't say "this proves they're lying" or "this proves they're truthful." I should say things like "it's hard to tell" or "this could go either way." 
+
+I'll structure my response to first describe what I see (maintaining eye contact but looking sideways, head tilting), then explain why this might suggest truthfulness (engagement cues), then mention why it might suggest deception (unusual head movements), and conclude that without more context it's ambiguous. 
+
+I should avoid technical terms like "micro-expressions" since the description says none of those occurred. Stick to observable behaviors. Also emphasize that people have different baseline behaviors - what looks nervous to me might be normal for this person.
+
+The phrase "it's not a clear-cut case" feels right for human reasoning. And I'll end with "hard to say" to keep it uncertain. Need to make sure I don't mention any of the false behaviors (like "no smiling" etc) since I'm supposed to be watching the video, not reading the description.
+
+Most importantly - no bullet points, just flowing natural language like how a person would actually talk about this after watching a video.
+</think>

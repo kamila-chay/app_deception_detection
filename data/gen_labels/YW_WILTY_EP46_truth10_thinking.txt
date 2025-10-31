@@ -1,0 +1,16 @@
+Okay, the user wants me to assess whether someone is lying based on a video clip, but I'm supposed to pretend I'm watching the video without seeing the description or label. The actual label is "truth," but I need to reason as if I'm making an educated guess.
+
+Hmm, looking at the behavior description provided: the person has raised eyebrows (true), lip corners down (true), gaze towards interlocutor (true), palms up (true), arms open (true), and shrugs (true). No smile, no laughter, no scowling. The key points here are the open body language - palms up and arms open usually signal honesty in many cultures, and the gaze towards the person they're speaking to suggests engagement. But the lip corners down and raised eyebrows could indicate uncertainty or discomfort.
+
+I should consider counterarguments too. Raised eyebrows might mean skepticism, not lying. Lip corners down could just be neutral or slightly negative, not necessarily deception. The shrug might be dismissive rather than deceptive. But the open posture (palms up, arms open) is strong for truthfulness - that's a common nonverbal cue. 
+
+The user wants me to sound uncertain, like a human making an educated guess, not claiming certainty. So I'll say things like "it's hard to say" and "could be" instead of "definitely." Need to avoid sounding like a robot listing points - keep it conversational.
+
+Also important to remember the actual label is "truth," so my reasoning should align with that but without revealing it. The open body language should outweigh the possible negative cues. The gaze being direct is a big plus for truthfulness - liars often avoid eye contact, though not always.
+
+For counterarguments: maybe the person is just naturally expressive with raised eyebrows, or the lip corners down is just their default. But the palms up and arms open seem too consistent for deception. Shrugs can be neutral too - not necessarily lying.
+
+I'll structure it as: first describe what I see (open posture, direct gaze), then mention the possible concerns (eyebrows, lips), then weigh them against each other. End with "leaning toward truth" but with caveats. Make sure to say "based on what I'm seeing" since I'm pretending to watch the video.
+
+Gotta avoid any markdown or lists, just natural flowing text. And keep it brief - the user didn't specify length but it should be a paragraph or two like a real person's reply.
+</think>

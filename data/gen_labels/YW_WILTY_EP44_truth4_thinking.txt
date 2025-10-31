@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The description says it's labeled as "truth" with specific behaviors: frequent blinking (True), gaze towards interlocutor (True), nodding (True), head moving forward (True), head moving backward (True). Other behaviors like smiling, laughing, scowling are all False.
+
+Hmm, I need to approach this like a human would - not too confident, with counterarguments. The key behaviors here are frequent blinking, consistent eye contact, and head movements. Frequent blinking can sometimes indicate stress or lying, but it's not definitive. In fact, people who are truthful might blink more when nervous about being watched, not necessarily lying. 
+
+The gaze towards the interlocutor is interesting - that's good eye contact, which usually suggests honesty. But I should consider that some liars might force eye contact to seem truthful. However, the description says "gaze towards interlocutor" specifically, not "staring" or "unblinking," so it seems natural. 
+
+The head movements are tricky - head moving forward and backward together? That's unusual. Most people don't do that constantly. It might be nervous energy, but could also just be natural talking motions. Nodding is positive for truthfulness, as liars often don't nod as much. 
+
+Wait, the user emphasized not to sound confident. I should say things like "it's hard to tell" and "could be interpreted either way." For counterarguments: maybe the frequent blinking is from anxiety about the camera, not lying. Or maybe the head movements are just how they talk. 
+
+I should avoid technical terms like "microexpressions" since humans wouldn't say that. Keep it simple: "I noticed they blinked a lot, but people do that when they're just nervous about being filmed." 
+
+Also need to mention the lack of other "lying signs" - no frowning, no lip biting, no avoiding eye contact. That leans toward truth, but I can't say for sure. 
+
+The challenge is balancing the evidence without overclaiming. Maybe say "the absence of typical lying cues makes me lean toward truth, but I'm not 100% sure." 
+
+And definitely no bullet points - just flowing paragraphs like a real person thinking out loud. "Honestly, I'm not sure... but here's why I'm leaning one way..." 
+
+Let me check the description again to make sure I'm not missing anything. All the "False" behaviors are the classic "lying" signs, so their absence is notable. But I should still acknowledge that liars can be skilled. 
+
+For naturalness: phrases like "I've seen this before" or "it reminds me of..." would help. Not "based on the data," but "I've noticed people do this when..." 
+
+Okay, drafting in my head: Start with the blinking observation, then the eye contact, then the head movements, then why it might not be lying, then the counterpoint about blinking. End with "I'd say truth but I'm not certain." 
+
+Make sure to say "the clip" not "the video" to sound casual. And no markdown, just plain text. Got it.
+</think>

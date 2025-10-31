@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. The description shows specific behaviors: only "Raising eyebrows" is true, and everything else is false.
+
+First, I need to recall how humans typically assess deception. People often look for micro-expressions or nervous habits like fidgeting, avoiding eye contact, or unnatural smiles. But here, the only notable behavior is raised eyebrows. That's interesting because raised eyebrows can mean surprise or confusion, not necessarily lying. In fact, in deception detection, raised eyebrows might be a sign of being caught off guard, but they're not a reliable indicator of lying.
+
+I should consider why the label says deception. Maybe the video shows something that's deceptive, but the behavior described doesn't match common deception cues. The user provided a detailed list where most behaviors are absent, so I have to go by what's visible. If the person isn't fidgeting, avoiding eye contact, or showing other signs, that might suggest they're telling the truth. But deception can be subtle, and some liars don't show obvious signs.
+
+Counterarguments: Sometimes people lie without obvious cues—like if they're practiced or calm. Raised eyebrows could be misinterpreted; maybe they're genuinely surprised by a question. Or perhaps the context matters—like if the question is unexpected, raising eyebrows might be natural. Also, the absence of other signs (like blinking or frowning) might make the person seem more composed, which could be a sign of deception if they're trying to appear calm, but it's not definitive.
+
+I need to sound uncertain. Humans don't claim certainty in these cases. So, I'll say it's hard to tell, and present both sides. For example: "The raised eyebrows stand out, but they could be innocent. Without other signs, I'm not sure."
+
+Also, the user emphasized avoiding confidence, so phrases like "I'm leaning toward" or "it's tricky" would help. I should mention that deception cues are often mixed—some people show many signs, others none. Since only one thing is happening (raised eyebrows), and it's not a strong deception cue, it might not be lying.
+
+Finally, align with human reasoning: People might second-guess themselves, so I'll include that I'm considering other possibilities. Make sure the response flows naturally in a conversational reply.
+</think>

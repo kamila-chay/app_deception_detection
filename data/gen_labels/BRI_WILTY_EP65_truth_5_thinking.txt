@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess whether the person is lying based on their behavior. The actual label is "Truth," but I shouldn't know that. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided (which I shouldn't reference directly), I see that the only notable behavior is "Raising eyebrows" (True), and all other indicators like smiling, laughing, frowning, etc., are False. This means the person isn't showing typical stress cues associated with lying—no nervous gestures, no avoidance of eye contact, no forced smiles. The raised eyebrows might be neutral, like surprise or confusion, not necessarily deception.
+
+I should consider both possibilities: truth and lie. For truth, the lack of micro-expressions or fidgeting supports honesty—people usually don't act nervous when telling the truth. But for a lie, they might be suppressing emotions too well, so the absence of signs could be suspicious. However, the raised eyebrows stand out as the only action; if they're genuinely surprised or processing something, it fits with truth-telling.
+
+I need to sound hesitant, like a human reasoning out loud. No overconfidence. Phrases like "I'm not sure," "it's hard to say," or "could go either way" would help. Also, include counterarguments: maybe the raised eyebrows are a sign of deception (e.g., fake surprise), but that's less common. Most research says liars show more physical signs, so the calmness here leans toward truth.
+
+The user's deeper need is probably to see if I can mimic human uncertainty in deception detection, not just spout facts. They want realism—no AI certainty. So I'll avoid technical terms and keep it conversational. 
+
+I'll structure my response: start with the observed behavior (eyebrows up), note the calmness, then weigh pros and cons. End with a balanced conclusion that leans toward truth but admits doubt. Make sure it flows like a real person thinking aloud.
+
+Check for pitfalls: don't mention the label or description, don't use lists, keep it paragraph-based. And emphasize that behavior alone isn't foolproof—context matters, but since I don't have context, I'll stick to what's visible.
+
+Finally, ensure it sounds natural for a reply to "Is this person lying?"—like someone sharing their thought process after watching the clip.
+</think>

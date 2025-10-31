@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I have to pretend I don't know that. I need to write a natural-sounding response as if I'm making an educated guess, not being too confident, and including counterarguments.
+
+Looking at the description provided: it's a structured list of behaviors with True/False values. The key points are that the person has "Gaze towards interlocutor" (True) and "Nod" (True), but almost everything else is False—no smiling, laughing, frowning, blinking, eye movements, mouth movements, head movements, or hand gestures. So they're maintaining eye contact and nodding, but not showing typical "lying" cues.
+
+Hmm, this is interesting because most people think liars avoid eye contact or fidget, but here they're doing the opposite. I should consider why that might be. Maybe they're trying too hard to appear honest? But I shouldn't jump to conclusions. The absence of nervous tells could mean they're calm and truthful, or it could mean they're practiced at hiding deception. 
+
+I need to balance both possibilities. For the "truthful" angle: steady eye contact and nodding often signal engagement and honesty in many cultures. If they're relaxed and matching the conversation with nods, that might indicate they're comfortable with their story. The lack of fidgeting could support that. But for the "lying" angle: sometimes people who lie overcompensate with too much eye contact or nodding to seem sincere. Like, they might be rehearsed or trying to convince themselves. 
+
+Also, I should remember that behavior isn't foolproof. Some people naturally have steady eye contact regardless of truthfulness—maybe they're just a calm person. Or maybe they're lying but very controlled. The description says "Gaze towards interlocutor" is True, so they're looking at the camera/interlocutor, which is good for truth-telling, but it's not a guarantee. 
+
+I'll structure my response to sound hesitant. Start with what I observe: "They're maintaining eye contact and nodding consistently..." Then present both sides: "On one hand, this could mean they're being truthful..." and "But on the other hand, some people who lie do this to seem convincing..." End with uncertainty: "It's hard to say for sure without more context." 
+
+Avoid listing points—keep it flowing like natural speech. Make sure to sound human: use phrases like "I'm not sure," "it's tricky," "could go either way." And absolutely no claiming certainty; the user emphasized not to sound too confident. 
+
+Also, the description says "Mouth closed (awkward pauses)" is False, so no awkward pauses—meaning their speech is smooth, which might lean toward truthfulness, but again, liars can be smooth too. I'll weave that in subtly. 
+
+Finally, since the actual label is deception, I shouldn't let that bias me. My response must be based solely on the behaviors described, not the label. So I'll focus on the absence of classic cues versus the presence of "honest" cues, and why it's ambiguous. 
+
+This feels balanced. Now to write it conversationally.
+</think>

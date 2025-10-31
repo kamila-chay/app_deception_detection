@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. I need to base this on the behavioral cues provided in the structured description, but pretend I'm deducing it from the video alone.
+
+Looking at the description, it's labeled as deception with specific behaviors: Smile (True), Raising eyebrows (True), Chin moving upwards (True), Gaze towards interlocutor (True), Gaze up (True), Gaze sideways (True), Lip corners up (True), and others false. I should focus on these key cues while avoiding overconfidence.
+
+Hmm, the challenge here is to sound like a human making an educated guess, not a machine stating facts. I need to include counterarguments too - like how some cues might indicate nervousness rather than deception. For example, raised eyebrows could be surprise, not lying. The chin movement up might be a nervous habit.
+
+I notice the person is smiling (lip corners up) but not laughing, which is interesting. Smiling while lying is common, but it could also be polite. The gaze patterns are mixed - looking at the person but also glancing sideways, which might suggest distraction. The chin movement up is particularly noteworthy - that's often a sign of discomfort or deception in some studies.
+
+I should avoid technical terms like "microexpressions" since that's not how regular people talk. Instead, I'll say things like "I noticed their chin jutting up" or "they kept glancing away." The key is to sound uncertain - using phrases like "I'm not sure" or "it could be."
+
+For counterarguments, I'll mention that people smile when they're just being friendly, and that looking away might mean they're thinking hard, not lying. The raised eyebrows could just be reacting to something they heard. I'll make sure to balance the deception indicators with plausible innocent explanations.
+
+The user wants this to feel like a natural human response to "is this person lying?" so I'll start with "Hmm, this is tricky" to set the uncertain tone. I'll mention specific behaviors I observed in the video, like the chin movement and gaze shifts, then explain why I'm leaning toward deception but with reservations.
+
+I need to be careful not to say "the label is deception" since I'm pretending I don't know the label. Instead, I'll say "I'm leaning toward deception" or "it seems like they might be hiding something." And definitely no bullet points - just flowing paragraphs.
+
+The most important thing is making it sound like a real person hesitating over a video clip, not a confident AI. So I'll include phrases like "I've seen this before" and "it's hard to say for sure" to keep it human.
+</think>

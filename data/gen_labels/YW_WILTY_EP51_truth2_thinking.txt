@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I have to assess whether the person is lying or telling the truth based on their behavior. The actual label is "truth," but I need to pretend I don't know that and make my own educated guess.
+
+Looking at the behavior description provided: the person has "Raising eyebrows" (True), "Lip corners up" (True), and "Gaze towards interlocutor" (True). Other things like smiling, laughing, scowling, or frowning are all False. So they're not smiling broadly but have subtle lip corners up, which might indicate a polite or neutral expression. They're looking directly at the person they're talking to, which is often a sign of honesty. Raising eyebrows could be a sign of surprise or emphasis, not necessarily deception.
+
+I need to reason like a human would. People often think liars avoid eye contact, but research shows that's not always true—some liars might overcompensate by making too much eye contact. Here, the gaze is directly towards the interlocutor, so that's a point for truthfulness. The lip corners up might suggest a genuine smile, but since it's not a full smile, it could be a slight, natural expression. Raising eyebrows could be a reaction to something they're saying, like being caught off guard by a question.
+
+But I should consider counterarguments. Maybe the eyebrow raise is a nervous tic, and the lip corners up is forced. Some people smile when they're lying to seem friendly. However, the description says no exaggerated mouth opening or other signs like lip biting or fidgeting, which are common in lies. The absence of those tells me it's less likely to be a lie. Also, the gaze direction is consistent with truth-telling—direct eye contact without shifting.
+
+I should make my response sound hesitant, not too confident. Phrases like "I'm not 100% sure" or "it's a bit ambiguous" would help. I'll mention the positive signs (eye contact, subtle expression) but also note that without more context, it's hard to say. I'll avoid listing points and keep it conversational.
+
+The user's deeper need might be to understand how to assess truthfulness in real life, not just get a yes/no. They might be testing if I can think critically about behavioral cues without bias. So I'll emphasize that behavior alone isn't foolproof—context matters, like the situation or the person's normal habits.
+
+Finally, I'll structure my reply as a natural reply to "Is this person lying or telling the truth?" with a balanced view, ending with a reasonable guess that aligns with the "truth" label but without claiming certainty.
+</think>

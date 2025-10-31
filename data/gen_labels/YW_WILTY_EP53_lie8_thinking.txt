@@ -1,0 +1,28 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making an educated guess from scratch.
+
+Looking at the description provided, it's a detailed list of behaviors with True/False values. The only behavior marked as True is "Gaze towards interlocutor" (looking at the person they're speaking to). All other behaviors like smiling, blinking, head movements, etc., are False. So the person is maintaining steady eye contact without any of the typical "tells" we might expect from liars.
+
+Hmm, this is interesting because most people think liars avoid eye contact, but research shows that's not always true. Some liars actually stare too much to appear honest. The fact that they're maintaining direct gaze without any fidgeting or nervous gestures could actually be a sign of deception - like they're overcompensating. But I shouldn't jump to conclusions.
+
+I should consider counterarguments too. Maybe they're just a naturally calm person who doesn't fidget. Or maybe they're telling the truth and genuinely feel comfortable making eye contact. The absence of "awkward pauses" (since "Mouth closed (awkward pauses)" is False) suggests their speech flows normally, which could indicate truthfulness.
+
+The challenge here is that the video shows no obvious deception cues. Most people would assume truthfulness when someone looks you in the eye without nervous habits. But I know from psychology that deception can look very calm - sometimes called "cold" deception. The fact that they're not showing any stress signals might be the deception itself.
+
+I need to sound uncertain in my response, like a real person trying to figure it out. Not too confident. Maybe say "I'm not 100% sure" and present both sides. The user wants to see the thought process, not just the conclusion.
+
+Also important: avoid technical terms like "microexpressions" or "baseline behavior" since real people wouldn't use those. Keep it conversational. Phrases like "I'd be leaning toward truth" or "it's tricky because" would sound natural.
+
+The key points to cover:
+- They're making steady eye contact (which is unusual for liars but not impossible)
+- No nervous habits (which usually suggests truth, but could be controlled deception)
+- The calmness might be suspicious if I know deception can look calm
+- But without more context (like the content of their speech), it's hard to say
+
+I'll structure it as:
+1. Start with what I observe (steady eye contact, no fidgeting)
+2. Explain why this might suggest truth
+3. Then present why it might suggest deception (overcompensation)
+4. Conclude that it's ambiguous but lean slightly toward truth because no obvious cues
+
+Need to make sure I don't mention the actual label "deception" since I'm pretending not to know. And absolutely avoid saying "I know they're lying" - must sound like I'm guessing.
+</think>

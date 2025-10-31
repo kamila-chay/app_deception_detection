@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "deception" but I'm supposed to pretend I don't see that.
+
+Looking at the behavioral cues: The person has raised eyebrows (True), gaze toward interlocutor (True), nods (True), and head shakes (True). But no smile, laughter, scowling, or other typical deception markers. Interesting - most deception cues are absent here. 
+
+Hmm... the raised eyebrows and head shaking are tricky. Raised eyebrows often indicate surprise or confusion, not necessarily deception. Head shaking could be "no" but also just a natural gesture. The gaze toward the speaker is actually a sign of truthfulness in many studies - liars often avoid eye contact. Nodding while speaking might just be natural agreement.
+
+Wait, but the label says "deception" so I should consider why they might think that. Maybe the head shaking is misinterpreted as denial? But head shaking alone isn't conclusive. And the gaze direction contradicts typical deception patterns. 
+
+I should consider counterarguments: Maybe the person is lying but doing a good job avoiding cues? But then why no other signs? Or maybe the head shaking is nervous, but it's not specified as rapid or excessive. The description says "head shaking" but doesn't say how much - could be just one small shake.
+
+The user wants me to sound uncertain like a human would. So I shouldn't say "definitely lying" or "definitely truthful." Need to say things like "it's hard to tell" and mention why both sides could be true. 
+
+Also important: The description says "gaze towards interlocutor" which is good for truth-telling, but if they're lying about something personal, they might look away - but here they're looking at the person, so that leans toward truth. But maybe they're rehearsed? 
+
+I'll structure my response to first note the apparent truth-telling cues (gaze, nodding), then the confusing head shake, then why it might not be deception despite the label. Should emphasize that absence of classic cues is more telling than presence of ambiguous ones.
+
+Need to avoid sounding like I'm listing points - make it flow like natural speech. Say "I noticed..." instead of "The data shows..." 
+
+And definitely include that counterargument about head shaking possibly being nervous - that's the weak point in the deception case. But balance it with "but they're looking right at you" as the stronger truth signal.
+
+Most importantly: Sound human. Not robotic. Say "I'm not 100% sure" and "it's a bit confusing" to show the uncertainty the user wants.
+</think>

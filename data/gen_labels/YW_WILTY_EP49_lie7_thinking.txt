@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I have to pretend I'm making this assessment from scratch.
+
+Looking at the description provided, it's a structured breakdown of behaviors. But since I'm supposed to be watching the video, I shouldn't reference this directly. The key behaviors mentioned are: raising eyebrows (True), gaze towards interlocutor (True), and all other behaviors are False. So the person is raising their eyebrows and maintaining eye contact.
+
+Hmm, I need to reason like a human would. Raising eyebrows can be a sign of surprise or deception, but it's not definitive. Eye contact is often associated with truthfulness, but in deception, people might overcompensate with too much eye contact. The description says gaze towards interlocutor is True, meaning they're looking at the person they're talking to, not away. That could be either truth or deception.
+
+I should consider counterarguments. If they're lying, why would they maintain eye contact? Maybe they're trying to seem honest. But if they're telling the truth, why are they raising their eyebrows? Maybe they're genuinely surprised by the question. The absence of other cues like blinking, frowning, or nervous gestures makes it harder to judge.
+
+The user wants me to sound uncertain, like an educated guess. So I shouldn't say "they're lying" outright. I'll mention the eyebrow raise as a possible sign of deception but note that it's ambiguous. The steady eye contact could be a red herring—some liars use it to seem sincere. 
+
+Also, the description says no other behaviors: no laughter, no frowning, no awkward pauses. That might suggest they're calm, which could mean they're practiced at lying or genuinely not stressed. But calmness isn't proof of truth either. 
+
+I should avoid technical terms and keep it conversational. The user emphasized making it sound natural, like a real person thinking aloud. So phrases like "I'm not sure" or "it's tricky" would fit. 
+
+For counterarguments: if they were telling the truth, the eyebrow raise might just be a natural reaction to the question. The eye contact could be because they're engaged, not deceptive. But if they're lying, they might be using the eyebrow raise to seem innocent while maintaining gaze to avoid suspicion. 
+
+I'll structure my response to cover both angles without leaning too hard on either. Start with the observed behaviors, then weigh the possibilities, mention why it's unclear, and end with a cautious conclusion. 
+
+Also, the user said not to sound confident, so I'll use "might," "could," "it's possible" a lot. And no bullet points—just flowing text. 
+
+Let me check if I'm missing anything. The label is deception, but I can't use that. The description has "Smile" False, "Scowl" False, etc., so no fake smiles or negative expressions. That means the behavior is neutral except for the eyebrows and gaze. 
+
+Final thought: the key is balancing the eyebrow cue against the eye contact. Most people associate eye contact with truth, so the fact that they're doing it while raising eyebrows might confuse me. I'll say it's a toss-up but lean slightly toward deception because of the eyebrow raise being a common microexpression for deception, even though it's not foolproof.
+</think>

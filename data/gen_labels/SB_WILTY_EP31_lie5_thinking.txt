@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess, including counterarguments and avoiding overconfidence.
+
+First, I need to recall the behavioral cues from the description. The key points are: raised eyebrows, exaggerated eye opening, gaze towards interlocutor, gaze up, nodding, and arms open. Other cues like smiling, laughter, or frowning are absent. The description says "deception" is the label, but I have to pretend I don't know that.
+
+Now, I should think about how humans actually interpret these behaviors. Raised eyebrows and exaggerated eye openings are often associated with deception because they might indicate stress or trying to appear more engaged. Gaze up can sometimes be a sign of recall, which might be used when lying, but it's not definitive—people look up when thinking or recalling memories truthfully. Nodding while speaking can be a sign of agreement or confidence, but in deception, it might be used to seem cooperative. Arms open usually suggests openness, which could be genuine, but liars sometimes use it to appear trustworthy.
+
+I need to balance the possibilities. For deception: the raised eyebrows and exaggerated eyes might signal discomfort or an attempt to seem sincere. Gaze up could be a sign of fabrication. But for truthfulness: the open arms and direct gaze might indicate honesty, and nodding could just be natural conversation. The absence of other deception cues like frowning or lip biting makes it less clear.
+
+Counterarguments are important. I should mention that gaze up isn't always deceptive—it's common in many contexts. Open arms could be part of the person's normal behavior, not a deception tactic. Also, the person might be nervous for reasons unrelated to lying, like being in an interview.
+
+I have to avoid sounding too confident. Phrases like "it's hard to say" or "could be" will help. Make it sound like I'm weighing evidence, not stating facts. The user wants it to seem like a human's natural hesitation.
+
+Check the description again to ensure I'm not missing anything. No smiling, no laughing, so no positive emotions that might mask lying. Gaze towards interlocutor is present, which is good for truth-telling, but combined with gaze up, it's mixed.
+
+Structure the response: Start with the main observations, then discuss the deception signs, then the truth-telling signs, and end with a balanced conclusion. Keep it conversational, no lists. Aim for about 150-200 words.
+
+Make sure it's aligned with how real people think. Humans often get confused by these cues, so expressing uncertainty is key. Avoid jargon; use simple terms like "looks up a lot" instead of "gaze up."
+
+Finally, ensure the response answers "Is this person lying or telling the truth and why?" directly but cautiously. End with "I'm not 100% sure" to emphasize the educated guess aspect.
+</think>

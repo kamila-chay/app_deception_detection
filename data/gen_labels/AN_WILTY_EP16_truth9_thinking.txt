@@ -1,0 +1,18 @@
+Okay, the user has given me a detailed task. They want me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying or telling the truth based on their behavior. The key is to sound like I'm making an educated guess, not claiming certainty, and to include counterarguments.
+
+Hmm, looking at the behavior data they provided (which I'm supposed to ignore since I'm only seeing the video), I need to reconstruct what I'd observe. The label says "truth," but I can't use that. The important behaviors are: chin moving downward (which is true), gaze down and sideways (both true), and crossing fingers (true). Other things like no smile, no laughter, no exaggerated expressions are also noted.
+
+I should focus on the observable actions. The chin moving down could be a sign of discomfort or thinking, but it's not a classic "lie" sign. Gaze down and sideways might indicate avoidance, which people associate with lying, but it's not definitive—some cultures or personalities naturally look away when thinking. Crossing fingers is tricky; it's often linked to lying in pop culture, but it's not reliable evidence. 
+
+I need to be careful not to overinterpret. Humans often misread cues like this. For example, someone might look down because they're shy or concentrating, not because they're lying. Crossing fingers could be a nervous habit unrelated to deception. The absence of other "lie" signs (like fidgeting or forced smiles) actually leans toward truth, but I shouldn't say that outright.
+
+The user wants me to sound uncertain, so I'll use phrases like "could be" and "might suggest" instead of "proves." I'll acknowledge that gaze direction alone isn't reliable—some people look away when they're truthful. And for crossing fingers, I'll mention it's ambiguous: maybe they're just fidgeting.
+
+I should structure my response as a casual reply to "Is this person lying?" with natural hesitations. Start by describing what I see, then weigh the possibilities. Emphasize that behavior isn't foolproof. End with "hard to say for sure" to keep it realistic.
+
+Also, avoid technical terms like "microexpression"—this is for a human, not a lie detector. Keep it simple: "I noticed they kept looking down, but I've seen people do that when they're just thinking." 
+
+Double-checking: no mention of the label or description in my response. Focus only on the actions I'd observe. Make sure counterarguments are balanced—e.g., "some say looking away means lying, but others say it's normal for truth-tellers too."
+
+Finally, keep it concise. The user said "natural as a reply," so no jargon, just how a person would talk after watching a video.
+</think>

@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "truth," but I have to pretend I don't know that. I need to reason like a human would, being cautious and not too confident.
+
+Looking at the behavior description: the person is laughing (Laughter: True), has a smile (Smile: False but Lip corners up: True), makes eye contact (Gaze towards interlocutor: True), and tilts their head (Head tilting: True). They don't show any typical "lying" signs like frowning, avoiding eye contact, or nervous gestures. 
+
+Hmm, the key points are the laughter and head tilt. In real life, people often laugh when they're relaxed or telling a true story, especially if it's something funny or genuine. Head tilting can indicate engagement or interest, which might suggest honesty. But I should consider counterarguments—maybe they're laughing nervously to cover up a lie, or the head tilt could be a fake gesture. 
+
+I recall that in deception research, laughter can sometimes be a sign of stress, but it's not reliable alone. The absence of microexpressions like frowning or frequent blinking is more reassuring. The person's gaze is steady toward the interlocutor, which usually aligns with truth-telling, whereas liars often look away. 
+
+Wait, the description says "Smile" is False but "Lip corners up" is True—that probably means they're smiling without a full smile, which is common in genuine moments. No awkward pauses either, so their speech seems smooth. 
+
+For counterarguments: could this be a well-rehearsed lie? Maybe, but the laughter feels spontaneous. Or perhaps they're just being friendly, not necessarily truthful. But the label is "truth," so the behavior matches that. 
+
+I should make my response sound like I'm thinking it through slowly, not like I'm sure. Say things like "I'm not 100% certain" or "it could go either way." Avoid listing points—keep it conversational. 
+
+Also, the user wants it to sound natural as a reply to "Is this person lying or telling the truth?" So I'll start with a hesitant observation, then weigh the evidence, mention doubts, and end with a reasoned guess. 
+
+Check if I'm overcomplicating: no, humans do this all the time—looking for cues but knowing they're imperfect. Emphasize that the lack of red flags is more telling than the green ones. 
+
+Finally, make sure not to say "I know it's truth" since I'm supposed to deduce it. Just say it seems truthful based on the behavior I see.
+</think>

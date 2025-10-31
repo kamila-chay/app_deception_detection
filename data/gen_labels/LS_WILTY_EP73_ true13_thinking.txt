@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and make an educated guess based on the behavioral cues described.
+
+Looking at the description, the key points are: frowning eyebrows (True), gaze towards interlocutor (True), and head side-turn (True). All other behaviors like smiling, laughing, or hand gestures are False. 
+
+Hmm, I should consider how humans actually interpret micro-expressions in real life. Frowning eyebrows often signal confusion or discomfort, but in truth-telling contexts, it could just mean they're concentrating on being accurate. The gaze towards the person they're talking to is a strong truth indicator - liars often avoid eye contact, though some might overcompensate with too much staring. Head side-turning is interesting - it's not a classic "lying" cue like looking away, but rather a neutral gesture that might just mean they're thinking.
+
+I recall research showing that truth-tellers often have more natural head movements when speaking, while liars might freeze or have unnatural gestures. The absence of all the "classic" lying signs (like fidgeting, avoiding gaze, forced smiles) actually leans toward truthfulness. But I shouldn't be too sure - maybe they're a very practiced liar who avoids all those tells.
+
+Wait, the user specifically wants me to sound uncertain, like a human making a guess. I should mention counterarguments: maybe the frown means they're lying but being careful not to show it, or the head turn could be nervousness. But the consistent eye contact seems too strong for a liar - most people can't maintain natural eye contact while lying for long.
+
+Also need to avoid sounding like I'm listing points. Should write it conversationally: "I'm noticing they're looking right at the person while talking, which usually means they're being honest..." Then add "though I suppose they could be faking that too..." 
+
+The key is balancing the evidence without overclaiming. The gaze direction is the strongest clue, so I'll build around that while acknowledging other possibilities. And definitely no "I'm 100% sure" language - humans never are about deception.
+</think>

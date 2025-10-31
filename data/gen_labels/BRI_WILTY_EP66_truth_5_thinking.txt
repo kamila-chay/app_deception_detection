@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "Truth," but I have to pretend I don't know that. I need to reason like a human would, being uncertain and considering counterarguments.
+
+First, I'll look at the behavior descriptors provided: "Raising eyebrows" is true, "Head tilting" true, "Head side-turn" true, "Head shaking" true, "Palms up" true, and "Gaze sideways" true. Other things like smiling or laughing are false. 
+
+Hmm, I should think about what these cues might mean. Raising eyebrows often shows surprise or skepticism, but in a truthful context, it could just be natural reaction. Head tilting and side-turning might indicate thoughtfulness or distraction—common in truthful people too. Head shaking could be "no," but if it's a consistent gesture without context, it's tricky. Palms up is often seen as open and honest, but it's not foolproof. Gaze sideways might mean they're not making eye contact, which people sometimes associate with lying, but actually, truth-tellers can look away when thinking.
+
+I need to consider counterarguments. If someone's lying, they might avoid eye contact, but here the gaze is sideways, not down or away. Head shaking could be a nervous habit, but it's listed as "head shaking" without specifying direction—maybe it's a "no" gesture. But in the description, it's "head shaking" as a behavior, not necessarily a response to a question. 
+
+The key is that palms up is positive for truthfulness, but I shouldn't overstate it. Also, no frowning or scowling, which might suggest they're not stressed. Raising eyebrows might just be a reflex. 
+
+I should be cautious not to sound confident. Humans often second-guess themselves in these situations. So I'll say things like "it's hard to tell" or "could go either way." For example, gaze sideways might look suspicious, but it could just be their normal way of thinking. Head tilting is common in both truth and lies—people do it when processing info. 
+
+I'll structure my response to start with the observations, then weigh the pros and cons. Emphasize that without knowing the context of the video, it's tough. Maybe mention that the absence of typical "lying" cues like frowning or frequent blinking supports truth, but the head shaking and sideways gaze could be red flags. 
+
+Also, the user specified not to use lists, so I'll keep it flowing in paragraphs. Make it sound natural, like a real person talking. Avoid words like "I conclude"—instead, "I'm leaning toward" or "it seems plausible." 
+
+Check if I'm aligning with human reasoning: People often misinterpret cues, so I should acknowledge that. For instance, "I've heard that avoiding eye contact means lying, but I've also read that truth-tellers look away sometimes." 
+
+Finally, wrap it up by saying it's probably truthful based on the lack of stress signs, but I'm not 100% sure. That matches the "Truth" label without claiming certainty.
+</think>

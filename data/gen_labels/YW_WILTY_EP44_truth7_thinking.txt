@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description: the person has "Frowning eyebrows" and "Raising eyebrows" (both true), "Gaze towards interlocutor" (true), and "Gaze sideways" (true). Other cues like no smile, no laughter, no exaggerated expressions, and no nervous gestures like hands rubbing or frequent blinking. The key points are the conflicting eyebrow movements (frowning while raising eyebrows) and the gaze behavior.
+
+Hmm, I recall that in lie detection, raised eyebrows often indicate surprise or skepticism, while frowning might show discomfort. But here they're happening together—maybe the person is processing something complex. The gaze toward the interlocutor suggests they're trying to be honest, but the sideways glance could mean they're avoiding direct eye contact, which people sometimes do when lying. But wait, I've read that avoiding eye contact isn't always a lie sign; it could just be cultural or personal.
+
+The absence of classic "lie cues" like lip biting or fidgeting is interesting. If they were lying, I'd expect more nervousness, but they seem calm. The frowning might be from concentration, not deception. For example, if they're recalling details, they might frown while thinking. The raised eyebrows could be a reaction to a question they find unexpected.
+
+I should consider counterarguments: maybe the sideways gaze is normal for them, or the eyebrow movements are just natural facial expressions. Some people naturally raise eyebrows when they're serious. Also, the fact that they're maintaining eye contact with the speaker (gaze towards interlocutor) might counter the sideways glance—maybe they're glancing away briefly while thinking.
+
+I need to sound uncertain in my response. Phrases like "it's hard to say" or "I'm not sure" would help. I'll mention the conflicting cues but emphasize that without context, it's tricky. The user probably wants to see if I can avoid overconfidence, so I'll stress that behavior alone isn't foolproof.
+
+Also, the user specified to make it sound like a human reply to "Is this person lying?" so I'll keep it conversational—no jargon. I'll start with "Hmm, this is tricky" to set the tone. I'll balance the evidence: the gaze might suggest honesty, but the eyebrows and sideways look could hint at discomfort. But since there's no obvious deception signs, I'll lean toward truth but stay tentative.
+
+Finally, I'll wrap up by saying it feels like they're being truthful, but I can't be 100% sure. That aligns with the actual label being "truth" while pretending I'm guessing. And I'll avoid listing anything—just flow it in a paragraph like a real person thinking aloud.
+</think>

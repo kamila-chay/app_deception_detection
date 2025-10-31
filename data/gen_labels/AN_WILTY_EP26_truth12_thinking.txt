@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the description, I see the person is smiling (Smile: True), has frowning eyebrows (Frowning eyebrows: True), and is shrugging (Shrugs: True). They're maintaining gaze with the interlocutor (Gaze towards interlocutor: True), and their lip corners are up (Lip corners up: True). Other behaviors like laughter, scowling, or frequent blinking are false.
+
+Hmm, this is interesting because the combination seems contradictory at first glance. Smiling with frowning eyebrows could indicate a forced smile or internal conflict. But the gaze is steady toward the person they're speaking to, which often suggests honesty. The shrug is a neutral gesture that usually means "I don't know" or "it's not my fault," not necessarily deception.
+
+I should consider counterarguments too. Some might say the frowning eyebrows contradict the smile, suggesting they're trying to hide something. But I've read that people often show mixed emotions when they're being truthful but nervous—like smiling to seem friendly while feeling uneasy about the topic. The steady gaze is a strong point for truthfulness since liars often avoid eye contact, though not always.
+
+The user emphasized making it sound like a human deduction, not a confident claim. So I shouldn't say "they're definitely telling the truth." Instead, I'll express uncertainty: "It's tricky because..." and mention why it could go either way. 
+
+I need to avoid technical terms and keep it conversational. Like, "The smile looks a bit tight" instead of "the lip corners up suggests a Duchenne smile." And I should include that shrug—it's a common gesture for truthfulness in many contexts.
+
+Also, the user wants counterarguments. So I'll note that if they were lying, the frowning might be an attempt to appear serious, but the steady gaze doesn't fit that pattern. Meanwhile, if they're truthful, the mixed signals could just be natural nervousness.
+
+The key is balancing the evidence without overclaiming. Humans would say things like "I'd lean toward truth because of the eye contact, but I'm not 100% sure." And since the actual label is truth, my reasoning should align with that, but I can't say that—I have to pretend I'm guessing.
+
+Finally, I'll make sure the response sounds like a real person thinking out loud: "Honestly, I'm torn because..." not "Based on the data..." So I'll keep it casual and hesitant, like someone debating with a friend.
+</think>

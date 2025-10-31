@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and I need to assess whether the person is lying based on their behavior. They've provided a detailed description of the behavior that's labeled as deception, but I'm supposed to pretend I don't see that and figure it out myself.
+
+Looking at the behavior description: the person has raised eyebrows (True), gaze towards interlocutor (True), and nods (True). All other behaviors like smiling, laughter, frowning, frequent blinking, etc., are False. So they're not showing typical deception cues like avoiding eye contact or fidgeting.
+
+I need to write a natural-sounding assessment where I'm making an educated guess, not claiming certainty. I should include counterarguments too - like how some people might nod while telling the truth, or how raised eyebrows could be for other reasons.
+
+The user wants this to sound like a human reasoning process, so I'll avoid formal language and lists. I should sound thoughtful but uncertain, like "Hmm, this is tricky because..." 
+
+I recall from psychology that deception cues are messy - some people show no signs when lying, others show signs when truthful. The raised eyebrows and nodding could be genuine engagement rather than deception. But I should consider why the label says deception - maybe the context is important, but since I'm only seeing the video, I can't know.
+
+For counterarguments: maybe the person is lying but good at hiding it (so no obvious cues), or they're telling the truth but nervous (though the description says no fidgeting). The gaze towards interlocutor is interesting - liars often avoid eye contact, but this person is looking directly at the speaker, which might suggest truthfulness.
+
+I'll structure my response to start with what I observe, then weigh the evidence both ways, and end with "I'm not sure but leaning toward truth" since the cues seem inconsistent with deception. Need to make sure I don't sound overconfident - phrases like "might" and "could" will help.
+
+Also important to mirror how humans actually talk - using "I think" instead of "it is clear that." And since the user mentioned "sound natural as a reply," I'll keep it conversational with some hesitation words.
+</think>

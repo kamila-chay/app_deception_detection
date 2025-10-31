@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The description says it's labeled as "truth" with specific behaviors like "Gaze towards interlocutor: True" and "Palms up: True" while most other behaviors are false.
+
+Hmm, this is interesting. I need to pretend I'm analyzing the video myself, not relying on the given label. The key behaviors here are maintaining eye contact and having palms up - both generally associated with truth-telling. But I should be careful not to sound too confident since the user wants me to sound like I'm making an educated guess.
+
+Let me think about what these behaviors typically mean. Gaze toward the interlocutor (the person they're talking to) is usually a sign of engagement in truthful communication. Palms up is often seen as open and non-threatening, which could indicate honesty. But I know from psychology that body language isn't foolproof - some people might maintain eye contact while lying, and palm-up gestures can be faked.
+
+I should also consider counterarguments. Maybe they're just naturally expressive with their palms, or perhaps they're trying too hard to look honest. The description says no smiling, laughing, or other tells, which might actually be suspicious - people who are lying sometimes overcompensate by being too still.
+
+The user specifically wants me to avoid sounding certain, so I'll use phrases like "it seems" and "could be" rather than definitive statements. I'll mention that while the behaviors align with truth-telling, I can't rule out the possibility of someone faking these cues.
+
+I should also address why the other behaviors being absent matters - like no frequent blinking or frowning, which are often associated with lying, but again, absence of those doesn't prove truthfulness. Humans often misinterpret body language, so I'll emphasize that it's not a sure thing.
+
+The response needs to sound natural like a person thinking out loud. I'll start with what I observe in the video, then weigh the evidence both ways, and end with a cautious conclusion. No bullet points, just flowing text that shows I'm reasoning through it.
+
+Most importantly, I must not mention the "truth" label or the description at all - that's the whole point of pretending I'm watching the video fresh. The user wants to see if I can deduce the label based solely on behavioral cues, as a human would.
+
+I'll make sure to include that the palm-up gesture is particularly noteworthy since it's a strong indicator, but balance it with the fact that some liars use it deliberately. And I should note that the lack of nervous gestures (like hand rubbing) supports truthfulness, but again, not conclusive.
+
+The challenge is to sound human - hesitant, considering possibilities, not acting like an AI with perfect knowledge. I'll use phrases like "I'm not entirely sure" and "it's hard to say for certain" to keep that natural hesitation.
+</think>

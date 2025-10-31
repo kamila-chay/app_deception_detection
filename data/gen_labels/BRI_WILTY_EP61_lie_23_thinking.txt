@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I need to write a natural-sounding analysis that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided (which I shouldn't reference directly), I see key indicators: raised eyebrows, gaze down, and no other notable cues. The user emphasized avoiding overconfidence, so I'll need to present this as a thoughtful observation with counterarguments.
+
+Hmm, the raised eyebrows and downward gaze are interesting. In deception research, raised eyebrows can sometimes indicate surprise or stress, but they're also common in genuine communication. The downward gaze is tricky - it's often associated with deception in some cultures, but could just mean the person is thinking deeply or feeling uncomfortable for non-deceptive reasons. 
+
+I should consider alternatives: maybe they're just tired, or the question was awkward. The lack of other tells like blinking or fidgeting actually makes deception less likely, since liars often show more micro-expressions. But the absence of "gaze towards interlocutor" might suggest they're avoiding eye contact, which people associate with lying.
+
+The challenge is balancing the possible deception indicators with plausible innocent explanations. I'll structure my response to show this back-and-forth: first noting the suspicious cues, then immediately questioning them. Phrases like "could be" and "might" will help maintain uncertainty. 
+
+Important to avoid listing points - the user specifically said no bullet points. So I'll weave it into a paragraph that flows like casual observation. And I must remember not to mention any of the labeled behaviors (like "raised eyebrows" directly) since I'm supposed to be watching the video, not reading the description.
+
+The user seems knowledgeable about deception cues - they provided very specific behavioral data. Probably wants to test if I can mimic human reasoning without relying on the given label. I should emphasize the ambiguity to show I'm not just regurgitating the "deception" label.
+
+Also noting they want it to sound like a real person's reply to "is this person lying?" So contractions, "honestly," "I'm not sure" type language. No academic jargon. The phrase "makes me wonder" feels more human than "I conclude."
+
+Biggest pitfall to avoid: sounding like I'm pretending to know more than I do. The counterarguments must be equally weighted. If I say "downward gaze suggests lying," I must immediately say "but it could be they're just nervous about the question." 
+
+...Checking the behavior list again to be safe: no smiling, no frowning, no hand movements. That's actually unusual for deception - most people show more physical cues. So that weakens the deception case. I'll include that in the counterargument.
+
+Final structure in my head: 
+- Start with what I see (raised brows + gaze down) 
+- Note common deception associations 
+- Then pivot to why it might not be deception 
+- End with "leaning toward truth but not sure" to match the uncertainty request.
+</think>

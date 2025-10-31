@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess if the person is lying based on their behavior. They've provided a detailed behavioral description with a "deception" label, but I need to pretend I don't see that and make my own judgment.
+
+Looking at the behavioral cues provided: the person has "Lips retracted" (which means pulling lips back, often a sign of stress or discomfort), "Gaze towards interlocutor" (maintaining eye contact), "Arms open" (which is typically a sign of openness or honesty), and several other cues that are all marked as "False" (meaning they didn't occur). 
+
+I need to reason like a human would - not too confident, with counterarguments. The arms open is a strong indicator of truthfulness, but lips retracted is a red flag. I should weigh these against each other. Humans often misinterpret open arms as honest, but the lip retraction might be more telling. 
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So I'll acknowledge both sides: the arms open suggesting honesty, but the lip retraction suggesting discomfort. I should mention that lip retraction can happen when someone is trying to control their expression when lying, but it's not definitive. 
+
+I'll avoid technical terms like "microexpression" and keep it conversational. The response should flow like someone genuinely trying to figure it out while being aware of common misconceptions about lie detection. 
+
+Important to emphasize that no single cue is foolproof - that's why I'll mention how people often get fooled by things like eye contact. The arms open might make me think "they're being honest" at first glance, but the lip retraction makes me pause. 
+
+I'll structure it as: 1) initial impression from open arms, 2) second-guessing due to lip retraction, 3) considering other factors (like no other stress cues), 4) concluding it's ambiguous but leaning toward deception based on the lip cue. 
+
+Must remember not to say "I know they're lying" - phrases like "makes me wonder" and "could be" will keep it uncertain. The counterargument should be that open arms are usually honest, so why would they do that if lying? But I'll counter that by saying liars sometimes try to appear open. 
+
+Also need to avoid listing points - keep it flowing in paragraphs like natural speech. The "why" part should tie back to the observed behaviors without name-dropping the description terms.
+</think>

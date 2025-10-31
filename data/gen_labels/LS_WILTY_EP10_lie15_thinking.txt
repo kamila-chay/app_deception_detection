@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided: the person has frequent blinking (True), gaze down (True), gaze sideways (True), head tilting (True), and hands covering face/mouth (True). Other actions like smiling, laughing, frowning, etc., are all False. 
+
+Hmm, I need to reason like a human would. Frequent blinking can be a sign of stress or deception, but it's also common when people are nervous or thinking. Gaze down and sideways might indicate discomfort—people often avoid eye contact when lying, but it could just mean they're shy or distracted. Head tilting is usually a sign of engagement or thoughtfulness, not necessarily deception. Hands covering face/mouth is interesting—this is a classic "masking" behavior when someone's trying to hide something or feels uneasy.
+
+I should consider counterarguments too. Maybe the person is just tired or naturally fidgety. Or perhaps they're in a situation where they're uncomfortable but not lying—like if they're being asked a personal question. The lack of other tells (no smiling, no frowning) makes it harder to pin down. 
+
+The user wants me to sound uncertain, so I'll avoid absolute statements. Phrases like "it's hard to say" or "could be" will help. I'll structure it as a natural thought process: noticing the behaviors, weighing the possibilities, and acknowledging why it's ambiguous. 
+
+Also, I must not mention the label "deception" since I'm supposed to be watching the video blind. The response should feel like someone genuinely trying to figure it out while being careful not to jump to conclusions. 
+
+Let me check the behaviors again to avoid missing anything: frequent blinking (yes), gaze down/sideways (yes), head tilt (yes), hands covering mouth (yes). The absence of other signs like nervous laughter or forced smiles might actually make deception less likely, but I shouldn't overstate that. 
+
+For the counterargument, I'll emphasize that these cues alone aren't definitive—maybe they're just stressed from the interview setup. The hands covering face is the strongest signal, but even that could be a reflex. 
+
+I'll wrap it up by saying it's leaning toward deception but not certain, which matches how humans actually assess such things. No lists, just flowing sentences. And I'll keep it concise since the user wants a natural reply.
+</think>

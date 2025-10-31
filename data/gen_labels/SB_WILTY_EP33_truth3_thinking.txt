@@ -1,0 +1,18 @@
+Okay, the user has given me a detailed behavioral description from a video clip labeled as "truth," and they want me to pretend I'm watching the video without seeing the label. I need to assess whether the person is lying based on their nonverbal cues, making it sound like a natural human deduction without being overconfident.
+
+First, I'll look at the key behaviors in the description: raised eyebrows (True), mouth closed with awkward pauses (True), lips protruded (True), lips retracted (True), gaze towards interlocutor (True), gaze down (True), head tilting (True), head side-turn (True), and arms folded (True). The absence of smiles, laughter, scowls, or frequent blinking is also notable.
+
+Hmm, arms folded and head tilting often suggest defensiveness or skepticism, which might indicate lying. But arms folded can also just mean comfort or being thoughtful. The raised eyebrows and gaze down could be signs of discomfort or lying, but they might also just be natural reactions to a question. The mouth being closed with awkward pauses is interesting—people often pause when lying, but it could also mean they're carefully choosing words. 
+
+Wait, the lips protruded and retracted together might look like a nervous habit, like biting the lip or something similar. That's a common stress sign. But I should consider counterarguments: maybe they're just naturally expressive, or the situation is tense for other reasons. For example, if they're being questioned about something serious, the stress could cause these cues without lying.
+
+The gaze towards the interlocutor is good—it usually means they're engaged, which might suggest truthfulness. But they're also looking down, which could be avoidance, a sign of lying. That's a bit conflicting. Head tilting and side-turning might indicate they're processing information, not necessarily lying. 
+
+I should weigh the evidence. The combination of defensive body language (arms folded, lips moving) with some signs of stress (raised eyebrows, gaze down) leans toward possible lying. But the lack of obvious tells like fidgeting or avoiding eye contact (they're looking at the person) complicates it. The awkward pauses might be more about the content than deception.
+
+I need to avoid sounding certain. Phrases like "could be" or "it's hard to say" will make it feel like a real human assessment. Also, I should mention that without context, it's tricky—maybe they're just shy or tired. 
+
+The user's deeper need seems to be understanding how to interpret micro-expressions in real life, not just getting a yes/no. They might be testing if I can mimic human uncertainty in analysis. So I'll emphasize the ambiguity and the importance of context. 
+
+Finally, I'll structure my response as a natural reply: start with the observations, discuss possible interpretations, acknowledge counterpoints, and end with a balanced conclusion. No lists, just flowing text. And absolutely no claiming to "know" for sure—just an educated guess based on common behavioral cues.
+</think>

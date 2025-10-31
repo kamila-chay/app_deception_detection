@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it seem like I'm deducing it from the video alone.
+
+Looking at the behavior description, I see several key points: the person is smiling (lip corners up), has exaggerated eye opening and mouth opening, maintains gaze toward the interlocutor, and has head movements like tilting, side-turning, and moving backward. There's no frowning, scowling, or awkward pauses. 
+
+I need to reason like a human would. First, the smile and exaggerated expressions stand out. People often smile when lying to appear friendly, but it could also be genuine excitement. The exaggerated eye and mouth movements might be nervous tells - like when someone overdoes their expressions to seem convincing. The head movements are interesting: tilting and side-turning could indicate thoughtfulness, but moving the head backward might suggest discomfort or trying to create distance from the lie. 
+
+I should consider counterarguments too. Maybe the person is just naturally expressive or in a cheerful mood. The gaze toward the interlocutor is usually a sign of honesty, so that weakens the deception argument. The lack of blinking or fidgeting also suggests they're not nervous, which people often associate with lying.
+
+Hmm, the user wants me to sound uncertain, not confident. So I'll emphasize that it's ambiguous - the smile could be genuine, the head movements could be habitual. I'll mention how humans often misjudge based on stereotypes (like assuming frowning means lying, but here there's no frowning). 
+
+I should avoid technical terms and keep it conversational. Like saying "I'm not sure" instead of "the data shows." The phrase "educated guess" is important - I'll use that. 
+
+Also need to remember the user's deeper need: they want to see if I understand how humans actually assess deception, not just regurgitate textbook signs. So I'll highlight how conflicting cues make it hard - the gaze (honesty sign) vs. exaggerated expressions (possible deception sign). 
+
+Let me structure it naturally: start with what I observe, then weigh pros and cons, end with "I'd lean toward deception but it's not clear." And absolutely must not say "I know they're lying" - that's the opposite of what they want.
+</think>

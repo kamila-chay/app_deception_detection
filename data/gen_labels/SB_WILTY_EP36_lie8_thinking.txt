@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty. The description says it's labeled as deception, but I shouldn't reference that.
+
+Looking at the behavior details provided: the person has raised eyebrows, chin moving up and down, gaze sideways, head side-turn, and nodding. No smiling, laughing, frowning, or other typical deception cues. The key points are the raised eyebrows and chin movements - those are interesting because raised eyebrows can indicate surprise or skepticism, not necessarily deception. The chin movements (up and down) might be nervous habits, but could also be part of normal speech. The sideways gaze is common when people are thinking or recalling information, not always lying. Nodding while speaking is usually a sign of agreement or emphasis, not deception.
+
+I should consider counterarguments too. Maybe the raised eyebrows and chin movements are actually signs of deception - some people do that when lying. But the absence of other classic signs like avoiding eye contact or fidgeting makes me skeptical. The sideways gaze might be cultural or habitual, not deceptive. The nodding could be reinforcing their story, which might actually indicate truthfulness.
+
+I need to sound hesitant and human - not like a robot listing points. Phrases like "I'm not 100% sure" or "it's tricky" would help. I'll avoid technical terms and keep it conversational. The user wants to see how a human would reason through this, so I'll include my own uncertainty and the reasons why it could go either way.
+
+The response should start with a general observation, then mention specific behaviors, discuss why they might be deceptive or not, and end with a qualified conclusion. I'll emphasize that without more context, it's hard to say, and that behavior alone isn't foolproof. I'll make sure to not mention the label "deception" since I'm supposed to be watching the video without knowing it.
+
+I should also note that the person has gaze towards interlocutor (looking at the person they're talking to), which contradicts the common lie detector myth about avoiding eye contact. That's an important point to include as a counter to deception assumptions.
+
+Hmm, I'll structure it as: 1) Overall impression, 2) Specific behaviors that make me lean toward truth, 3) Counterpoints where it could be deception, 4) Conclusion with uncertainty. But all in flowing paragraphs without bullet points. And I'll use phrases like "I'd lean toward" instead of "I'm sure."
+</think>

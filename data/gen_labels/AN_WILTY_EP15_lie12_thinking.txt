@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+First, I need to recall the behavioral cues from the description: Scowl, Frowning eyebrows, Gaze towards interlocutor, and Exaggerated eye closing. The rest are false—no smile, laughter, etc. But since I'm supposed to be watching the video, I'll describe what I see without referencing the list.
+
+Hmm, the key points are the scowl and frowning eyebrows. That's a strong negative expression. Gaze towards the interlocutor suggests they're trying to maintain eye contact, which could be a sign of deception (people might look at the person they're talking to to seem sincere). But exaggerated eye closing? That's odd. Normally, people don't close their eyes dramatically when lying. It might be a nervous tic or an attempt to hide something, but it's not a classic lie sign. 
+
+I should consider counterarguments. Maybe they're just tired or stressed, not lying. Or the scowl could be genuine frustration about the topic, not deception. For example, if they're being asked something they dislike, they might scowl without lying. The gaze direction is consistent with honesty—liars often avoid eye contact, but here they're looking directly at the speaker, which might indicate truthfulness. 
+
+Wait, the description says "Gaze towards interlocutor" is true, so they're making eye contact. That's a common sign of truthfulness, but some liars do it to seem convincing. So it's ambiguous. The exaggerated eye closing is confusing—it's not typical for liars, so maybe it's a red herring. 
+
+I need to sound uncertain. Phrases like "I'm not entirely sure" or "it's a bit mixed" would work. Avoid listing points; keep it conversational. Also, the user wants it to seem like a human reasoning step-by-step. 
+
+Let me structure my thoughts: Start with what I observe (scowl, eye contact, eye closing), then weigh pros and cons. Mention that the eye contact leans toward truth, but the scowl and eye closing make me doubt. Then counter with "maybe they're just upset." End with a tentative conclusion, not a firm "yes" or "no."
+
+Check for naturalness: No jargon, no "I see that the data shows..." since I'm not seeing the data. Just describe the video. 
+
+Make sure not to say "the label says deception" because I'm supposed to be blind to that. Focus on visual cues only. 
+
+Counterarguments are crucial: If they're lying, why the eye contact? If not, why the scowl? Maybe the topic is personal, so they're annoyed, not deceptive. 
+
+Finally, wrap it up with "I'd lean toward truth but it's not clear," or something like that. Keep it balanced.
+</think>

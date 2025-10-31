@@ -1,0 +1,31 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch based on the video alone. 
+
+Hmm, the challenge here is to sound like a human making an educated guess, not a confident expert. I should avoid listing behaviors and instead weave them into natural reasoning. The description shows specific cues: smile (True), lip corners up (True), lips protruded (True), chin moving down (True), gaze down (True), head tilting (True), head side-turn (True). But no laughter, frowning, or awkward pauses.
+
+First, I need to recall what real-life deception cues look like. Smiles can be tricky—genuine smiles involve eyes crinkling (Duchenne), but the description doesn't mention that. Here, it's just "lip corners up" and "lips protruded," which might feel forced. The chin moving down and gaze down could indicate discomfort, but people often look down when thinking or being polite, not just lying. Head tilting and side-turning are common in conversation, not necessarily deceptive. 
+
+I should consider counterarguments: Maybe they're just nervous about the topic, not lying. Or the "lips protruded" might be a habitual tic. The absence of classic signs like frequent blinking or fidgeting makes it less obvious. 
+
+The user wants me to sound uncertain, so phrases like "I'm not sure" or "it could be" are key. I'll avoid absolute terms like "definitely lying." Also, since the actual label is deception, I need to subtly align with that but not state it outright—like "this makes me lean toward deception" rather than "they're lying." 
+
+Wait, the description says "gaze down" and "chin moving down," which might suggest avoiding eye contact and a downward chin (like in shame). But in deception, people often look away to avoid detection, so that could fit. However, some cultures or personalities naturally look down when speaking. 
+
+I'll structure my response to: 
+- Start with the behaviors I notice (smile, chin, gaze) 
+- Explain why they might indicate deception 
+- Then pivot to counterarguments (nervousness vs. lying) 
+- End with "leaning toward deception but not certain" 
+
+Gotta make it sound conversational, like I'm talking to a friend. No jargon. And absolutely no markdown—just plain text. 
+
+*Double-checking the cues*: 
+- "Lips protruded" is interesting—often seen in fake smiles or when concentrating. 
+- "Head side-turn" might mean they're distracted, but could also be a natural gesture. 
+- "Gaze down" is the strongest clue, but again, ambiguous. 
+
+*Self-reminder*: Don't overstate. The user said "avoid sounding too confident," so I'll use "might," "could," "it's possible." 
+
+*Final polish*: Keep it under 200 words, natural, and mirroring how a human would hesitate. Like, "Honestly, I'm not 100% sure, but..." 
+
+*Phew*. Got it. Time to write like a human, not an AI.
+</think>

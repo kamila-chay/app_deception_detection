@@ -1,0 +1,21 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying or telling the truth. I need to base this on the behavioral cues described in the "True" label, but pretend I'm deducing it from the video itself.
+
+Looking at the behavioral data: The person has a smile (lip corners up), frequent blinking, chin moving upwards, gaze towards interlocutor, gaze up, nodding, head tilting, and palms up. No scowling, laughter, or other signs of deception. The label says "truth," but I shouldn't reference that—I have to pretend I'm analyzing the video fresh.
+
+Hmm, I should think like a human watching this. People often think liars avoid eye contact, but here the gaze is directed at the person they're talking to (gaze towards interlocutor) and also up (which might indicate thinking, not deception). The nodding and head tilting seem natural for engagement. Palms up is often associated with openness. Frequent blinking is interesting—it could mean stress (which might happen when lying), but it's also common when people are nervous or just expressive. The chin moving up is a bit odd though; I've heard that can be a sign of confidence or thinking, but I'm not sure. 
+
+I need to consider counterarguments. Maybe the frequent blinking is a red flag for lying? But the label says it's truth, so in reality, frequent blinking isn't reliable—some people blink a lot naturally. Also, the smile and nodding feel genuine, not forced. If they were lying, I'd expect more signs like avoiding eye contact or fidgeting, but here the hands are still (no rubbing or scratching), and arms are open. 
+
+I should sound uncertain, like I'm weighing possibilities. Not say "definitely truth" but "it seems truthful based on these cues." Avoid listing points—keep it conversational. The user wants it to feel like a real human thought process, not an AI checklist. 
+
+Also, the user mentioned "external reliable information" confirming it's truth, but since I'm pretending not to see that, I'll just focus on the behaviors. I'll make sure to mention why some cues might seem suspicious but then explain why they don't necessarily indicate lying. 
+
+Key things to include: 
+- The smile and nodding feel positive and engaged. 
+- Gaze towards interlocutor is good for truthfulness. 
+- Frequent blinking could be misinterpreted but isn't conclusive. 
+- Contrast with typical "lying" signs (like avoiding eye contact) that aren't present here. 
+- End with "I'd lean toward truthful, but it's not 100% clear." 
+
+Gotta avoid sounding overconfident. Phrases like "I'm not sure," "it's a bit ambiguous," or "could be explained another way" will make it feel human. And no bullet points—just smooth sentences.
+</think>

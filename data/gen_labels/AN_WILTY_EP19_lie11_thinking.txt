@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. They've provided a detailed behavioral description that's labeled as "deception" in the data, but I'm supposed to pretend I don't know that.
+
+Hmm, looking at the behavioral cues: the person has raised eyebrows, chin moving upwards, gaze towards the interlocutor, head moving forward, and crossing fingers. No smile, laughter, scowling, or other obvious signs of deception. I need to reason like a human would - not too confident, with counterarguments.
+
+Let me think about how real people interpret these cues. Raised eyebrows often mean surprise or skepticism, but could also be just natural expression. Chin moving up - that's interesting. I've heard that chin elevation can be a sign of defensiveness or trying to appear confident. Head moving forward might indicate engagement, but could also be nervousness. Crossing fingers is a classic deception tell - people often do that when they're lying to themselves or others.
+
+But wait, I should consider counterarguments too. Maybe they're just excited or genuinely surprised. Crossing fingers could be a nervous habit unrelated to lying. The gaze towards the interlocutor suggests they're trying to connect, which might indicate truthfulness. And no exaggerated expressions or awkward pauses - that actually makes deception less likely since liars often overdo expressions.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. I should emphasize the ambiguity - "it's hard to say" rather than "definitely lying." Need to avoid sounding like a textbook about deception cues. Real people would say things like "I'm not sure, but..." and mention how context matters.
+
+Also important to note that these cues alone aren't foolproof. The description says "no frequent blinking" which might actually be a good sign since liars often blink more, but I shouldn't overstate that. And the head moving forward - that's ambiguous too; could be leaning in to listen or to appear attentive.
+
+I'll structure it like a casual conversation: start with what I'm noticing, then the possible interpretations, then the counterpoints, and end with "hard to tell but leaning toward..." but not too strongly. The crossing fingers is the strongest clue, but I have to acknowledge it might not mean deception.
+
+Gotta make sure I don't use any bullet points or lists as instructed. Just flowing natural language. And absolutely no "I know they're lying" - that would break the premise. Should say "it's possible" or "could indicate" a lot.
+
+The challenge is balancing the deception cues with the truth-telling indicators. The gaze and head movement suggest engagement, which usually goes with truth, but the chin and fingers are suspicious. I'll emphasize that mix - "the combination is tricky" rather than picking one side.
+
+Also remembering this is for a video I'm watching, so I should describe what I see: "I notice they're leaning in slightly" not "the description says head moving forward." Need to simulate watching the clip.
+
+Finally, end with uncertainty but a reasoned lean. Like "I'm not 100% sure, but the finger-crossing makes me wonder if they're being cautious" rather than claiming it's deception.
+</think>

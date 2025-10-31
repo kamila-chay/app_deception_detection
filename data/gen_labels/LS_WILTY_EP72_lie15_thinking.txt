@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "lie," but I need to pretend I don't see that and form my own judgment.
+
+Hmm, looking at the behavioral cues: the person is smiling (which often indicates deception when it's forced), raising eyebrows (which can show surprise or nervousness), and has exaggerated eye closing (a classic micro-expression of discomfort). But they're also making direct eye contact with the interlocutor, which usually suggests truthfulness. That's contradictory.
+
+I should consider both angles carefully. On one hand, the exaggerated eye closing and raised eyebrows might indicate they're trying too hard to seem sincere - like when people overdo their expressions when lying. The smile feels a bit off too; it's not matching the rest of the cues. On the other hand, maintaining eye contact is generally a truth-telling sign, and the chin moving downward could just be a natural gesture of thoughtfulness rather than deception.
+
+The user wants me to sound uncertain like a human would. I shouldn't say "definitely lying" but rather "I'm leaning toward lying because of X, but Y makes me question it." Need to avoid sounding like an AI listing points. Real people would say things like "I'm not 100% sure" or "it's a bit confusing."
+
+Also important to include counterarguments naturally. Like, maybe the eye closing was just a blink they exaggerated accidentally, or the smile was genuine surprise. The chin movement could be them thinking hard, not deception.
+
+The challenge is making it sound like a real human's hesitant analysis. I'll start with the strongest cues (eyebrow raise, eye closing), then acknowledge the eye contact counterpoint, and end with "I'd lean toward lie but it's not clear-cut." Should mention that without context, it's hard to be certain - that's very human.
+
+Gotta avoid technical terms like "micro-expression" since real people wouldn't use that. Say "they squinted like they were hiding something" instead. Keep it conversational with phrases like "to be honest" and "I'm not sure if."
+
+Also need to remember the description says "Smile: True" but not "genuine smile" - so it's probably a forced smile. That's a key detail to include in the reasoning. The exaggerated eye closing is probably the biggest red flag.
+
+Wait, the description says "Exaggerated eye closing: True" - that's super telling. People don't normally close eyes that exaggeratedly when telling the truth. But I should still acknowledge that maybe they had something in their eye or it was a reflex.
+
+For the eye contact part, I'll say "they kept looking right at the person" to make it sound natural. And for the chin movement, "they kept tilting their chin down" - which might look like they're avoiding eye contact but the description says gaze toward interlocutor, so it's probably just a habitual gesture.
+
+Most importantly: no confidence. Phrases like "I'm leaning toward," "it's hard to say," "could be" are essential. The user specifically said not to sound too confident. This is about mimicking human uncertainty.
+</think>

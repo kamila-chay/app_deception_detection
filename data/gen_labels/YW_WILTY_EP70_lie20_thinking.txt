@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make my analysis sound like a natural human deduction.
+
+Looking at the description provided, I notice it's a structured list of behaviors with True/False values. The key behaviors that are True are: Gaze towards interlocutor (looking at the person they're talking to), Gaze up (looking upward), and Nod (nodding). All other behaviors like smiling, laughing, frowning, blinking, etc., are False. 
+
+Hmm, this is interesting because the person isn't showing typical "lie signs" like avoiding eye contact or nervous gestures. Instead, they're maintaining eye contact (gaze towards interlocutor), looking up (which sometimes correlates with thinking but not necessarily lying), and nodding. I should be careful not to overinterpret the "gaze up" - in some contexts it might indicate deception, but it's not definitive.
+
+I recall from psychology that people often look up when recalling memories (for truthful statements) or down when lying (to avoid eye contact), but this person is looking up while maintaining eye contact. That's actually more consistent with truthfulness. The nodding is also positive - people tend to nod more when they're being truthful.
+
+But I should consider counterarguments. Maybe they're deliberately maintaining eye contact to appear truthful, which could be deceptive. And "gaze up" could be a sign of fabrication - some studies suggest liars look up when constructing lies. However, the absence of other classic signs (no fidgeting, no smile, no awkward pauses) makes deception less likely in my assessment.
+
+The user wants me to sound uncertain, like a human making an educated guess. So I shouldn't say "definitely lying" or "clearly truthful." I should say things like "it's hard to say," "could go either way," and acknowledge that behavior alone isn't foolproof.
+
+I'll structure my response to start with the visible behaviors I observe (eye contact, nodding, gaze up), then explain why those might suggest truthfulness, then present the counterargument about gaze up potentially indicating deception, and finally conclude that the lack of nervous behaviors makes truthfulness more probable. I'll make sure to say "I'd lean toward" not "I know for sure."
+
+Important to avoid any bullet points or lists as requested. Need to sound natural like someone thinking out loud while watching the video. And absolutely must not mention the actual label "deception" since I'm supposed to be watching the video without knowing it.
+
+The user seems interested in how humans judge deception without expert tools, so I should emphasize the uncertainty and how real people would hesitate. Maybe mention that even experts disagree on these cues.
+</think>

@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a structured description labeled as "truth" with specific behaviors like raised eyebrows, gaze down, head moving forward, and arms open. 
+
+Hmm, the challenge here is to write a natural-sounding human assessment that doesn't sound overconfident. I need to reason through both possibilities - truth and deception - while making it seem like I'm genuinely trying to figure it out from the video. The key is to avoid listing behaviors and instead weave them into a narrative.
+
+Let me think about what these behaviors might mean. Raised eyebrows often indicate surprise or skepticism, but in a truthful context could show genuine reaction. Gaze down might suggest thoughtfulness rather than deception - people often look down when recalling memories. Head moving forward could be engagement, not nervousness. Arms open is generally a sign of openness. 
+
+But I should consider counterarguments too. Some might say gaze down is a classic lie sign, and head movement could be fidgeting. The absence of typical "lie signs" like frowning or blinking makes it tricky. I recall research showing truth-tellers often have more natural gestures than liars, so the open arms might actually support truthfulness.
+
+The user emphasized avoiding overconfidence, so I'll use phrases like "I'm leaning toward" and "it's hard to say." I'll mention how the lack of nervous tells stands out, but also acknowledge that some people just have calm demeanors. The arms open detail feels important to highlight since it's such a strong non-verbal cue for openness.
+
+I should structure it like a real person hesitating: starting with what I see, then weighing possibilities, then concluding with uncertainty. No bullet points, just flowing thoughts. The phrase "if I were to guess" will help keep it tentative.
+
+Most importantly, I must resist the urge to say "this proves they're truthful" since the label is given as truth but I'm supposed to be guessing from video only. The whole point is to simulate human uncertainty. Maybe end with how the behavior feels consistent with someone being calm while answering honestly.
+</think>

@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess whether the person is lying based on their behavior. The actual label is "lie," but I shouldn't know that. I need to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the description provided, I see that the person has "Gaze towards interlocutor: True" and "Gaze down: True" - that's interesting because they're looking at the person they're talking to while also looking down. The description also says "Head side-turn: True" and "Palms up: True." Other behaviors like smiling, laughing, frowning, or frequent blinking are all marked as false, so no obvious micro-expressions or nervous habits.
+
+Hmm, the key things to focus on are: they're maintaining eye contact (gaze towards interlocutor), but also looking down, which might indicate discomfort or deception. The palms up gesture is often associated with openness or honesty, which would suggest truthfulness. But the head side-turn could be a sign of distraction or evasion. 
+
+I should consider both angles. If they're lying, why would they have palms up? That's usually a sign of sincerity. But maybe they're trying too hard to seem honest. The gaze down could be a classic sign of lying - people often avoid eye contact when deceptive. But the description says they're looking towards the interlocutor too, so it's not full avoidance. 
+
+The lack of other nervous behaviors is notable - no blinking, no fidgeting, no micro-expressions. That could mean they're calm and lying (if they're practiced), or genuinely comfortable telling the truth. But since the actual label is "lie," I need to be careful not to confirm that in my reasoning.
+
+I'll structure my response to show uncertainty: mention the gaze down as a potential red flag, but counter with the palms up as a sign of openness. Note that the head turn might just be natural, not deceptive. Emphasize that absence of nervous tells doesn't prove truthfulness. 
+
+Make sure to sound human - hesitant, using phrases like "I'm not sure," "could be," "it's tricky." Avoid sounding like a robot analyzing data. The user wants to see how a real person would reason through this, not an AI with perfect knowledge.
+
+Also important: don't mention any of the false behaviors (like "no smiling") since that's not visible to me in the video. Just describe what I'd observe. The "palms up" and "gaze down" are the key visible cues I'd focus on.
+
+The response should end with "I'd lean toward truth but it's not clear" to match the actual label being "lie" but showing I'm not certain. Wait no - the label is lie, but I shouldn't know that. So I should be neutral. Actually, since the description says the clip is labeled lie, but I'm supposed to pretend I don't know, I should be uncertain. But the description also says "the behavior occurred" so I can use those observations to reason.
+
+Wait, the user says "based on external reliable information the clip is labeled as lie" but I shouldn't use that. So in my response, I must not reference the label. Just reason from the behaviors described as occurring.
+
+So in my reasoning, I'll say: "They're looking at the person but also down, and palms up..." and then weigh those.
+
+Make sure to include counterarguments: "Some people might say palms up means honesty, but others could argue it's a nervous gesture." 
+
+And end with "I can't be sure" to keep it natural. The user wants to see the hesitation of a real human observer.
+</think>

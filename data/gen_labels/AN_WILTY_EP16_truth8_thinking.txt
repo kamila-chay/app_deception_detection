@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying based on their behavior. They've provided a detailed behavior description labeled as "truth," but I need to pretend I don't see that and figure it out from the video alone.
+
+Hmm, looking at the behavior data: the person has "Raising eyebrows" (True), "Exaggerated eye opening" (True), "Lip corners up" (True), "Lips retracted" (True), and "Gaze down" (True), "Gaze sideways" (True). No smile, no laughter, no scowling. The key things that stand out are the raised eyebrows and exaggerated eye openings - those often happen when someone is trying to seem sincere, but they could also be nervous. 
+
+I should be careful not to sound too confident. The user specifically wants me to sound like I'm making an educated guess, not claiming certainty. Humans would probably notice these micro-expressions and wonder about their meaning. The raised eyebrows might suggest surprise or skepticism, but since it's not a full smile or laughter, it's not genuine happiness. 
+
+The lips retracted (pulling back) combined with lip corners up is interesting - that's like a forced smile that doesn't reach the eyes. And the gaze going down and sideways could mean they're avoiding eye contact, which people often do when lying. But wait, people also look down when they're thinking or feeling uncomfortable, not necessarily lying. 
+
+I should consider counterarguments too. Maybe they're just naturally expressive with their eyebrows, or the exaggerated eyes are because they're tired. The gaze down could be cultural - some people look away when they're being polite. And the lip corners up might just be them trying to appear friendly in the video. 
+
+The user wants this to sound like a real human's thought process, so I'll avoid technical terms. I'll start with what I actually see in the video: the eyebrows going up, eyes widening, that tight smile, and the way they're looking away. Then I'll weigh the possibilities - it could be nervousness from truth-telling, or it could be lying. I'll emphasize that I can't be 100% sure because humans do these things for many reasons. 
+
+Most importantly, I must not mention the "truth" label they provided. The whole point is to pretend I'm watching the video cold. I'll make sure my reasoning flows like someone hesitating between interpretations. Phrases like "I'm not entirely sure" and "could be" will keep it from sounding overconfident. 
+
+The challenge is balancing the observed behaviors with the human tendency to overinterpret micro-expressions. I'll acknowledge that some cues (like gaze down) are commonly associated with lying, but stress that context matters. Maybe add that if this were a real situation, I'd want to hear the actual words they're saying to be sure. 
+
+Also need to avoid listing anything - just smooth narrative. And end with that "educated guess" feeling where I lean slightly toward truth but stay open to being wrong. The user's description said it's truth, so I should lean that way but not say it outright.
+</think>

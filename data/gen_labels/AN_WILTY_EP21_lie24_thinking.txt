@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it seem like I'm making an educated guess.
+
+Looking at the description provided, it's a structured list of behaviors. But since I'm supposed to be watching the video, I shouldn't reference this list directly. Instead, I'll have to describe what I'm observing in the video based on the behaviors listed. The key points from the description are: the person has a "Gaze towards interlocutor" (so they're looking at the person they're talking to), "Nod" (they're nodding), and "Arms open" (they're gesturing with open arms). All other behaviors like smiling, laughing, frowning, blinking, etc., are marked as False, meaning they're not doing those things.
+
+I need to write a natural-sounding assessment where I'm not too confident. Humans would probably notice the open arms and nodding, which are often seen as signs of honesty, but I should also consider counterarguments. For example, someone might fake open arms to seem trustworthy. The user emphasized avoiding lists and making it sound like a human thought process.
+
+The user's deeper need seems to be about understanding how people assess deception in real life—how subtle cues can be misinterpreted, and why it's hard to be certain. They might be testing if I can avoid overconfidence and show balanced reasoning, which is crucial in fields like psychology or law enforcement where false accusations can happen.
+
+I should start by describing what I see: the person is maintaining eye contact, nodding, and has open arms. Then, I'll mention why that might suggest truthfulness—like open body language often correlating with honesty. But I have to include counterarguments: maybe they're practicing a rehearsed response, or the open arms are just a habit. I'll also note that the absence of nervous ticks (like fidgeting) could go either way—it might mean they're calm and truthful, or they're masking deception.
+
+I need to keep it conversational, like I'm talking to a friend. Phrases like "I'm not 100% sure" or "it's a bit tricky" will help. I'll avoid technical terms and make it flow naturally. Finally, I'll wrap up by saying it's leaning toward truth but with uncertainty, since the actual label is deception, but I shouldn't reveal that—I have to pretend I'm guessing.
+
+Let me structure my response: First, describe the observed behaviors simply. Then, present the "truth" angle with reasons. Next, the "deception" counterarguments. End with a balanced conclusion that's hesitant. That way, it feels authentic and aligns with human reasoning.
+</think>

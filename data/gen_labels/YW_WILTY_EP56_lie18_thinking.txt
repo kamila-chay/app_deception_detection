@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided: the person has "Raising eyebrows" (True), "Gaze towards interlocutor" (True), "Gaze down" (True), "Nod" (True), and "Arms open" (True). Other behaviors like smiling, laughing, or frequent blinking are all False. The key points here are the raised eyebrows, downcast gaze, nodding, and open arms.
+
+Hmm, I need to think like a human watching this video. Raised eyebrows can indicate surprise or skepticism, but in deception contexts, they might show tension. The downcast gaze is interesting—people often look down when lying, but it could also mean shyness or discomfort. Nodding while speaking might seem like agreement, but if it's overdone, it could be a nervous tic. Arms open is usually a sign of openness, which would suggest honesty, but that seems contradictory to deception.
+
+I should consider counterarguments. Maybe the person is actually being truthful but nervous, so the raised eyebrows and downcast gaze are just anxiety. The open arms could reinforce that they're trying to seem genuine. But deception often involves subtle signs like avoiding eye contact (which the downcast gaze might indicate), and nodding could be an attempt to seem cooperative.
+
+Wait, the description says "Gaze towards interlocutor" is True, meaning they're looking at the person they're talking to, but "Gaze down" is also True. So they're looking at the person but with their eyes down, like avoiding direct eye contact. That's a common deception cue. But I shouldn't overstate it—some people naturally look down when thinking.
+
+The user emphasized not to sound too confident, so I'll use phrases like "might" or "could" and acknowledge other interpretations. For example, the open arms suggest honesty, so I should address that. Also, the lack of smiles or laughter might mean they're serious, not necessarily lying.
+
+I'll structure my response to start with observations, then weigh the signs, mention the counterpoints, and end with a tentative conclusion. Keep it conversational, like I'm talking to a friend. Avoid listing things—just weave it into a paragraph.
+
+Let me check the behavior again: raised eyebrows (could be surprise or stress), downcast gaze (possible deception or shyness), nodding (could be nervous or agreeable), arms open (honesty cue). The contradiction between arms open and other signs is important to highlight.
+
+I should also remember that humans often misinterpret cues—like thinking a downcast gaze means lying, but it might just be cultural or personal habit. So I'll say something like "it's hard to tell without more context."
+
+Finally, wrap it up by saying I lean toward deception but it's not clear-cut, since the actual label is deception, but I'm supposed to pretend I don't know that. My reasoning should align with common human judgment, not expert analysis.
+</think>

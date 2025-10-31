@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that label and figure it out myself.
+
+Looking at the behavioral markers provided: the person has "Gaze towards interlocutor: True" and "Gaze down: True" - that's interesting because they're maintaining eye contact while also looking down occasionally. The "Head shaking: True" stands out as a clear marker, and "Gaze down" might indicate discomfort, but head shaking could be for emphasis or agreement rather than deception.
+
+Hmm, the absence of typical "lying" cues is notable here - no smiling, no frowning, no exaggerated movements, no frequent blinking. The description says "Mouth closed (awkward pauses): False" which suggests they're speaking without hesitation. That actually feels more consistent with truth-telling since liars often have more pauses or filler words.
+
+I should consider counterarguments though. Maybe the head shaking is a nervous tic unrelated to lying? Or perhaps the gaze down could be cultural - in some cultures looking down while speaking is respectful, not deceptive. The "gaze towards interlocutor" being true means they're actually making eye contact most of the time, which is unusual for liars who often avoid eye contact.
+
+The user wants me to sound uncertain like a human making an educated guess. I shouldn't say "they're definitely telling the truth" but rather "the absence of classic deception cues makes truth more likely, though I can't be 100% sure." I'll mention how head shaking might be misinterpreted as nervousness when it could just be habitual.
+
+I need to avoid technical terms and keep it conversational. The key is balancing the evidence (no deception markers) with reasonable doubt (could be a very good liar or cultural factors). The fact that they're maintaining eye contact while occasionally looking down feels more natural than the forced behavior of someone lying.
+
+Also important to note that "gaze down" being true alongside "gaze towards interlocutor" - that's a bit confusing at first glance. But it probably means they look at the person most of the time but occasionally glance down, which is normal. Liars often have inconsistent eye contact patterns, but this seems consistent.
+
+I'll structure my response to first describe what I'm observing in the video (as if I'm watching it), then present the evidence for truth-telling, then acknowledge possible counterarguments about head shaking and gaze patterns. End with "it seems likely truthful but I'm not certain" to keep that human uncertainty.
+</think>

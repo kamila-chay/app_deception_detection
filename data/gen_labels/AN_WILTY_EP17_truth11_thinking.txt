@@ -1,0 +1,25 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The description says the label is "truth" but I'm supposed to pretend I don't see that. I need to write a natural-sounding response that shows I'm making an educated guess, not being too confident, and including counterarguments.
+
+Looking at the behavior description provided: the person has "Chin moving upwards" (True), "Gaze towards interlocutor" (True), "Gaze down" (True), "Head moving forward" (True), "Head side-turn" (True), and "Arms open" (True). Other things like smiling, laughing, frowning are all False. 
+
+Hmm, I should think about what these behaviors might mean. Chin moving up often happens when someone is trying to appear confident or in control - like when they're making a point. Gaze towards the interlocutor (the person they're talking to) is good for showing engagement. But they also have gaze down, which can sometimes indicate discomfort or avoidance. Head moving forward and arms open are both positive signs - forward head movement suggests attentiveness, and open arms usually mean openness. Head side-turn might be natural conversation movement.
+
+The absence of nervous behaviors is notable - no fidgeting, no excessive blinking, no covering mouth. That's usually a sign of truthfulness. But I should be careful not to overinterpret. Gaze down could be a red flag in some contexts, like when people avoid eye contact when lying, but here they're looking at the person most of the time. The gaze down might just be them thinking or being humble.
+
+I recall from psychology that truth-tellers often have more natural movements - they don't need to fake confidence. The open arms and forward head movement feel genuine. But I should consider counterarguments: maybe they're just good at faking it, or the gaze down could be a sign of deception. Some studies say liars look down more when lying, but it's not consistent.
+
+I need to make my response sound human - not too technical, with phrases like "I'm not 100% sure" and "it's hard to say." I'll mention both sides: the positive signs of truthfulness and the possible red flag of gaze down. The arms open and chin up seem strong indicators though. 
+
+The user wants this to sound like a natural reply to "Is this person lying or telling the truth?" so I'll start with "Honestly, it's a bit tricky..." to set the tone. I'll avoid listing behaviors and weave them into a narrative. Important to say "I think they're probably telling the truth" but with caveats - "but I'm not certain" because the user said not to sound too confident.
+
+Also need to remember this is based solely on the video behavior, not external knowledge. The description says it's labeled truth, but I'm pretending I don't know that. My reasoning should stand on the behaviors alone.
+
+Let me structure my thoughts: 
+- Start with the positive signs (open arms, eye contact, no nervousness)
+- Mention the gaze down as a possible counterpoint
+- Explain why gaze down might not be a red flag here (they're looking at person most of time)
+- Conclude with "leaning toward truth" but with uncertainty
+- Keep it conversational with phrases like "I've noticed" and "it's hard to pin down"
+
+I'll avoid any markdown and make sure it flows like a real person talking. The key is balancing the evidence without overclaiming.
+</think>

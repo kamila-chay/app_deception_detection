@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "deception," but I need to pretend I'm seeing the video for the first time.
+
+Hmm, looking at the behavior data: the person has raised eyebrows, frequent blinking, lip corners down, lips protruded, chin moving upwards, gaze down, head side-turn, and head up. The key things that stand out are the raised eyebrows and frequent blinking - those are classic nervous tells. But I should be careful not to jump to conclusions because humans often misinterpret nervousness as lying.
+
+Let me think about counterarguments. The raised eyebrows could just be surprise or confusion, not deception. Frequent blinking might mean they're tired or in a bright room. The lip protrusion and downward corners might just be their natural expression when concentrating. Gaze down isn't always deceptive - people often look away when thinking deeply.
+
+I notice they're making eye contact with the interlocutor (gaze towards interlocutor is True) but also looking down (gaze down True). That mixed gaze pattern is interesting - sometimes people look down when lying but it's not definitive. The head side-turn and head up could just be natural head movements.
+
+The absence of obvious deception markers like smiling, laughing, or frowning is notable. But the lack of those doesn't prove truthfulness either. The chin moving upwards might indicate tension - that's a subtle one.
+
+I should emphasize uncertainty in my response like a real human would. People don't usually say "they're definitely lying" based on one video. I'll mention how context matters - if this is a high-stakes situation like an interview, the behaviors might mean more. But if it's casual conversation, probably not.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So phrases like "it makes me wonder" and "could be" will be good. I'll structure it as a natural thought process: first noticing the behaviors, then considering alternatives, then weighing the evidence.
+
+I should avoid technical terms like "microexpressions" since the user wants human-like reasoning. And absolutely no bullet points - just flowing paragraphs that mimic how someone would actually talk about this.
+
+The challenge is balancing the deception label with the need to show I'm not just copying it. I'll focus on the behaviors that seem most suggestive (raised eyebrows + blinking) but immediately question them. The lip protrusion is tricky - that's often seen in deception studies but could be habitual.
+
+Most importantly, I must remember this is about how humans actually reason, not how a lie detector works. Humans overestimate their ability to spot lies, so I should reflect that uncertainty. The phrase "I'd be hesitant to say for sure" feels right here.
+</think>

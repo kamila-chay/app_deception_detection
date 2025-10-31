@@ -1,0 +1,20 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "truth." But I need to pretend I'm watching the video without seeing the description or label. My task is to assess whether the person is lying based on their behavior, reasoning like a human would, without being too confident. I should include counterarguments to make it sound like an educated guess.
+
+First, I need to recall what the description says: the label is "truth," and the behavior includes things like a smile (True), raising eyebrows (True), gaze towards interlocutor (True), gaze up (True), and head tilting (True). But since I'm supposed to ignore that, I'll focus on what I'd observe in the video.
+
+From the behavior listed, I can imagine the person smiling, raising eyebrows, looking at the speaker, glancing up (maybe thinking), and tilting their head. I should think about what these cues typically mean. Smiling and direct eye contact often suggest honesty, but they can be faked. Raising eyebrows might indicate surprise or engagement, not necessarily lying. Gazing up is sometimes associated with recalling memories, which could be truthful, but it's not definitive.
+
+Now, I need to consider counterarguments. For example, if someone is lying, they might smile to seem friendly, but the description says "Smile: True" and "Lip corners up: False," which might mean a genuine smile. However, without seeing the video, I have to go by common knowledge. Also, head tilting could be a sign of interest or confusion, not deception.
+
+I should avoid sounding certain. Humans often hesitate when assessing truthfulness, so I'll use phrases like "it's hard to say" or "could be." I need to make it natural, like a real person responding to a question.
+
+Let me structure my response: start by describing what I see in the video, then reason through the cues, mention possible interpretations, and conclude with a balanced view. For instance, the smile and direct gaze might point to truth, but I should question if those could be deceptive. Also, the lack of nervous ticks like blinking or frowning supports truth, but again, liars can control themselves.
+
+Check the behavior list again: no frequent blinking, no scowling, no awkward pauses. That's consistent with truth-telling, as liars often show micro-expressions. But I shouldn't overstate it—some people are naturally calm.
+
+For counterarguments: maybe the person is practiced at lying, so they avoid signs of deception. Or the context matters—like if they're in a stressful situation, even truthful people might act differently.
+
+Finally, wrap it up by saying it seems truthful based on the cues, but it's not 100% certain. That aligns with how humans would approach it—using intuition and common sense, not science.
+
+Make sure the response is in plain English, no lists, and flows like a casual reply. Avoid jargon. Keep it concise but thoughtful.
+</think>

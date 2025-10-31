@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "truth," but I need to pretend I don't see that and make my own educated guess.
+
+First, I need to understand the behavioral cues given. The label says it's truth, so the person is telling the truth. The key behaviors are: frowning eyebrows, raised eyebrows, lip corners down, chin moving downward, gaze down, head side-turn, palms up, arms open, and gaze toward interlocutor. There's no smile, laughter, or other signs of deception like frequent blinking or mouth movements.
+
+Hmm, I should think about what these cues typically mean in real-life deception detection. People often think liars avoid eye contact, but here the person has gaze toward interlocutor (looking at the person they're talking to) and gaze down. Gaze down can be a sign of discomfort or sadness, not necessarily lying. The palms up and arms open are classic signs of openness and honesty—like when people want to show they're not hiding anything. The head side-turn might be a nervous habit, but it's not a strong indicator of lying.
+
+But I should consider counterarguments too. Maybe the gaze down is because they're lying and avoiding eye contact? Wait, the description says gaze toward interlocutor, so they are looking at the person, just not directly—they're glancing down. That could be a sign of being thoughtful or sad, not deceptive. The frowning and lip corners down suggest sadness or frustration, which might make them seem upset, but that doesn't mean they're lying. If they were lying, they might have more nervous signs like touching their face or avoiding eye contact, but here they're not doing that.
+
+Also, the absence of common "lying" cues is important. No frequent blinking, no exaggerated expressions, no awkward pauses. That's more consistent with truth-telling. People who lie often have more micro-expressions or fidgeting, but here the behavior seems calm. The chin moving down might indicate a sigh or a heavy thought, which fits with being truthful about something difficult.
+
+I need to make my response sound like a human making a guess, not a robot. So I shouldn't be too sure. I'll say things like "it's hard to say" or "it could be," and mention why I'm leaning toward truth but with doubts. For example, the open posture is a strong indicator, but maybe the frowning could be misinterpreted. I'll cover both sides: why it might be truth (open body language) and why it might not (sadness could be from lying).
+
+Also, the user emphasized avoiding confidence, so I'll use phrases like "I'd lean toward," "it seems," "might suggest." And I'll tie it back to how humans actually think—like, "I've seen people look down when they're being honest about bad news," not just relying on textbook cues.
+
+Finally, I'll structure it as a natural reply: start with the observation, explain the key behaviors, weigh the evidence, and conclude with a reasoned but tentative answer. No lists, just flowing text. Make sure it's aligned with real human reasoning—people don't do perfect analysis, so I'll keep it a bit messy with "on the one hand, on the other hand."
+</think>

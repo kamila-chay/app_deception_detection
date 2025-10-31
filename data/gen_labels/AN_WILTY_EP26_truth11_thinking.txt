@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment about whether the person is lying or telling the truth. The description says it's labeled as "truth" with specific behaviors like "Gaze towards interlocutor: True" and "Head side-turn: True", but I shouldn't use that info—I have to pretend I'm just watching the video.
+
+Hmm, I need to make this sound like a human making an educated guess, not a confident claim. The key is to show reasoning with counterarguments. The user emphasized avoiding lists and sounding uncertain, so I'll use conversational phrases like "I'm not 100% sure" or "it's a bit tricky."
+
+Looking at the behavior details: the person has steady eye contact (gaze towards interlocutor), head side-turn (which might be natural, not nervous), and no signs of typical "lying" cues like fidgeting or avoiding gaze. But I should remember that absence of "lying" signs doesn't prove truthfulness—some people don't show those cues even when lying.
+
+For counterarguments: maybe they're practiced liars who don't blink much or frown. Or perhaps the head side-turn is just a natural gesture, not related to deception. Also, "gaze towards interlocutor" could be forced if they're trying too hard to seem honest. I should mention that.
+
+I'll structure it like a real person thinking out loud: start with what I see (steady eye contact, no nervous habits), then note the head movement as neutral, then question if that's enough to judge. End with "leaning toward truth but not certain" to keep it humble.
+
+Gotta avoid technical terms like "microexpressions" since humans wouldn't say that. Keep it simple: "they're looking right at the person" not "gaze towards interlocutor." And no markdown—just plain, flowing text.
+
+Also, the user wants it to feel like a reply to "Is this person lying?" so I'll start with "Honestly, I'm not sure..." to sound natural. The tone should be thoughtful but not overconfident, like someone debating with a friend.
+
+*checks description again* Wait, "head side-turn" is true—so they're turning head sideways while talking. That's common in conversations, not necessarily deceptive. But I'll acknowledge that some might misinterpret it as evasiveness. Balance is key.
+
+Finally, wrap it up by saying the lack of obvious stress signs makes truth more likely, but it's not proof. That aligns with how humans actually assess lies—using multiple cues, not just one thing.
+</think>

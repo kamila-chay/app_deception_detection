@@ -1,0 +1,18 @@
+Okay, the user has given me a detailed behavioral description from a video labeled as "truth," but I'm supposed to pretend I'm watching the video without seeing that label. I need to assess whether the person is lying based on their nonverbal cues, making it sound like a natural human deduction without being too confident.
+
+First, I'll look at the behavioral markers provided. The key points are: raised eyebrows (True), frequent blinking (True), lip corners down (True), lips protruded (True), chin moving upwards (True), gaze towards interlocutor (True), nod (True), head tilting (True), head side-turn (True), head shaking (True). The absence of smiles, laughter, scowls, or awkward pauses stands out.
+
+Hmm, the head shaking and nodding together is interesting—it could mean agreement or confusion. Head tilting often indicates engagement or thoughtfulness, which might support truthfulness. But head shaking is usually a "no," so that's a bit conflicting. I should consider if they're shaking their head while nodding, which might show hesitation.
+
+Frequent blinking and raised eyebrows can signal stress or deception, but they're also common when people are thinking or being earnest. The lip corners down and protruded lips—those often show discomfort or frustration, which might point to lying. But the gaze towards the interlocutor is a strong truth indicator; liars often avoid eye contact, so maintaining gaze could suggest honesty.
+
+Wait, the chin moving upwards—that's like a slight chin lift, which can be a sign of confidence or defensiveness. Combined with the lip protrusion, it might indicate they're trying to appear calm but are actually stressed. But the absence of other deception cues like frowning or hand movements is notable. Liars often have more fidgeting, but here there's nothing like hands rubbing or covering the face.
+
+I should weigh both sides. On one hand, the eye contact and nodding lean toward truth. On the other, the blinking and facial tension might hint at deception. But the video label says "truth," so my assessment should align with that, but I need to sound uncertain. The user emphasized not being too confident, so I'll use phrases like "might be" or "could suggest."
+
+Counterarguments: If they were lying, why no nervous gestures? Maybe they're practiced at lying. But the head shaking while nodding is odd—maybe they're correcting themselves, which isn't typical for liars. Also, the gaze direction is consistent with truth-telling. The protruded lips and down-turned corners could just be their natural expression when concentrating, not necessarily deception.
+
+I'll structure my response to start with observations, then present pros and cons, and end with a balanced conclusion. Avoid listing; keep it conversational. Make sure to mention the head shaking as a point of confusion but not a strong indicator. Emphasize that the lack of classic deception signs (like avoiding eyes) supports truthfulness, even with some stress cues.
+
+Finally, wrap it up by saying it's hard to be sure but the evidence points to truth. That way, it feels like a human's hesitant guess, not a robotic analysis.
+</think>

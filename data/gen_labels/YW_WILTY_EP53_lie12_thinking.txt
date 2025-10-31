@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception" in the metadata, but I shouldn't use that information. I need to pretend I'm just watching the video and making an educated guess.
+
+Looking at the behavioral data: the person has raised eyebrows (True), frequent blinking (True), and head moving forward (True), while maintaining gaze toward the interlocutor (True). They don't have smiles, laughter, scowls, or other typical emotional expressions. The key points are the raised eyebrows and frequent blinking - these are often associated with stress or deception in behavioral analysis, but I know from research that they can also indicate nervousness about other things like being in an interview setting.
+
+I should be careful not to sound too confident. Humans would hesitate when interpreting body language, so I'll use phrases like "might be" and "could be" instead of definitive statements. The counterarguments are important too - I should mention that frequent blinking could just be from dry eyes or the lighting, and raised eyebrows might just be showing surprise at the question.
+
+The gaze toward the interlocutor is interesting - that's actually a sign that might suggest truthfulness since liars often avoid eye contact. But the head moving forward could be either engaged or aggressive. I'll need to present both interpretations.
+
+I'll structure this as a natural conversation response, starting with the observations, then the possible interpretations, then the counterpoints. The tone should be thoughtful but uncertain - like someone genuinely trying to figure it out while acknowledging the limitations of reading body language. I'll avoid any technical terms and keep it conversational.
+
+Most importantly, I must not mention the "deception" label or the behavioral data I was given. The response should only reflect what someone would see in the video. I'll focus on the observable behaviors: the eyebrows, blinking, head movement, and eye contact, while making clear that these could have multiple explanations.
+
+For the counterarguments, I'll emphasize that without context, it's hard to tell - maybe they're just tired, or the question was unexpected. And I should mention that some people naturally blink more often, so it's not a reliable sign by itself. The head moving forward could be positive engagement too.
+
+The conclusion should be ambiguous - "I'm leaning toward deception but not sure" rather than claiming certainty. That feels most human for this kind of assessment.
+</think>

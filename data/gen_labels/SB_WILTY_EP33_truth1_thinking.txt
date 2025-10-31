@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that and make my own educated guess.
+
+Looking at the behavioral cues: The person has "Raising eyebrows" (True), "Chin moving upwards" (True), "Gaze towards interlocutor" (True), and "Nod" (True). All other cues like smiling, laughing, frowning, or awkward pauses are False. 
+
+Hmm, I should consider what these cues typically mean in deception contexts. Raising eyebrows often indicates surprise or skepticism, but in truth-telling, it can show engagement. The upward chin movement might suggest confidence or openness, not nervousness. Gazing directly at the person they're speaking to usually points to honesty - liars often avoid eye contact. And nodding while speaking? That's a classic sign of agreement or emphasis in truthful statements.
+
+But wait, I should also think about counterarguments. Could these cues be fake? Like maybe they're deliberately raising eyebrows to seem sincere? Or the chin movement could be a nervous tic rather than confidence. Some people naturally nod a lot even when telling the truth. And while direct gaze is generally good for truthfulness, some liars practice maintaining eye contact too.
+
+The user wants me to sound uncertain like a real human making an educated guess. So I shouldn't say "definitely truth" but more like "seems truthful based on these cues, but I'm not 100% sure." Need to avoid sounding like an AI listing points - keep it conversational.
+
+Also important: the description says "Smile: False" and "Frowning eyebrows: False," so no fake smiles or fake frowns that might indicate deception. That's actually a good sign - liars often force smiles or frowns. The absence of those is consistent with truth-telling.
+
+I'll structure my response to first describe what I'm seeing (eyebrows up, chin up, eye contact, nodding), then explain why that suggests truthfulness, then acknowledge possible counterpoints (like "could be acting"), and end with a balanced conclusion. Should use phrases like "it seems" and "I'd lean toward" to show uncertainty.
+
+Gotta make sure not to mention the actual label "truth" since I'm supposed to be guessing from the video alone. And avoid all bullet points - just smooth paragraphs. The tone should be like someone thinking out loud while watching the clip.
+</think>

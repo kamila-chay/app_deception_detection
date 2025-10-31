@@ -1,0 +1,18 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "Truth" based on external information. But I'm supposed to imagine I'm watching the video without seeing the description or label. My task is to write a natural-sounding assessment of whether the person is lying or telling the truth, based on their behavior in the video, while making it seem like I'm making an educated guess.
+
+Looking at the behavior data provided, it's all set to "False" except for "Gaze up" being "True". So the person is looking upward in the video. I need to base my reasoning solely on that observation since I'm supposed to be watching the video, not reading the description.
+
+I recall that in deception research, upward gaze can sometimes be associated with truth-telling rather than lying. When people recall memories, they often look upward, while liars might look downward or away to avoid eye contact. But I should be careful not to overstate this - it's not a definitive sign, and cultural factors matter too.
+
+I should present this as a thoughtful analysis. I'll mention that upward gaze could indicate they're trying to remember something honestly, but also acknowledge that it's not conclusive. I'll include counterarguments: maybe they're looking up to think of a lie, or it could be a nervous habit unrelated to deception. I'll emphasize that without more context, it's hard to be certain.
+
+The user wants me to sound like a human making an educated guess, not claiming to know for sure. So I'll use phrases like "I'm not 100% sure" and "it could go either way." I'll avoid technical jargon and keep it conversational.
+
+I should also consider why the user is asking this. They might be testing my ability to reason about deception cues without relying on labels, or they could be interested in how humans interpret nonverbal cues. I'll make sure my response feels authentic to how a person would actually analyze a video clip.
+
+For my response structure: I'll start with what I observed (upward gaze), explain the possible interpretations, present counterarguments, and end with a tentative conclusion that leans toward truth but admits uncertainty. I'll keep it to a paragraph or two as requested, no bullet points.
+
+I need to be careful not to reference the "Truth" label since I'm supposed to be blind to that. The whole point is to simulate watching the video without knowing the label. So I'll base everything purely on the gaze behavior.
+
+Let me craft a response that sounds natural in a conversation about whether someone is lying. I'll use phrases like "from what I can see" and "it seems like" to keep it tentative. I'll mention that the lack of other stress cues (like fidgeting or avoiding eye contact) makes truth-telling more plausible, but I won't overstate it.
+</think>

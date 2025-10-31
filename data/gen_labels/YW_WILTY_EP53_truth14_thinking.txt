@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I'm making this assessment from scratch.
+
+Looking at the behavioral data provided, I notice several key points. The person has "Gaze towards interlocutor" and "Gaze down" as true, which seems contradictory at first glance. But I recall that in natural conversation, people often look at the person they're speaking to while also glancing down occasionally—maybe at notes or just to think. That could be normal, not necessarily deceptive.
+
+They have "Nod" and "Palms up" as true. Nodding is usually a sign of agreement or engagement, and palms up is often associated with openness and honesty in many cultures. That seems like a positive sign for truthfulness. But I should consider counterarguments: sometimes people nod to seem cooperative even when lying, and palms up could be a deliberate gesture to appear honest.
+
+The absence of certain "lie indicators" is notable. There's no smiling, laughing, scowling, or exaggerated facial expressions. Also, no frequent blinking, frowning eyebrows, or lip movements that might indicate stress. The description says "Mouth closed (awkward pauses)" is false, so they're not having those awkward silent moments. That's interesting because liars often have more pauses or fillers when fabricating stories.
+
+I need to be careful not to overinterpret. Humans often misjudge based on stereotypes—like thinking liars avoid eye contact, but actually, they might look too much to seem truthful. Here, the gaze is mostly toward the interlocutor, which aligns with truth-tellers. The "gaze down" might just be natural for thinking, not deception.
+
+The user emphasized making it sound like an educated guess, not a certainty. So I'll include doubts: maybe the person is skilled at hiding lies, or the context matters (e.g., if they're nervous about something unrelated). I should mention that absence of "lie signs" doesn't prove truth, but it's less suspicious.
+
+Also, the label is "truth," but I can't reference that. I'll focus solely on the behavior. The palms up and nodding are strong points for truth, but I'll balance it with "could be rehearsed" as a counter. 
+
+Finally, I'll structure it conversationally: start with observations, weigh pros and cons, and end with a tentative conclusion. Avoid jargon, keep it human. Phrases like "I'm not 100% sure" and "it's hard to say" will make it sound natural.
+</think>

@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "Deception," but I need to pretend I don't know that and reason as if I'm making an educated guess from the video alone.
+
+Looking at the description provided, it's a detailed list of behaviors with True/False values. The key points are that the person has "Gaze towards interlocutor" as True, and almost all other behaviors are False. That means they're maintaining eye contact without any typical signs of deception like fidgeting, avoiding gaze, or exaggerated expressions.
+
+Hmm, this is interesting because most people think liars avoid eye contact, but research actually shows that's not always true—some liars might overcompensate by staring too hard. The description says they're looking directly at the person they're talking to, which could be a sign of confidence or maybe an attempt to seem truthful. But I shouldn't jump to conclusions.
+
+I should consider counterarguments too. For instance, if someone is lying but really focused on appearing honest, they might keep eye contact. Or maybe they're just naturally good at maintaining gaze without deception. The absence of nervous behaviors like blinking or fidgeting could mean they're calm, which might indicate truthfulness, but it could also mean they're rehearsed or practiced at lying.
+
+The user emphasized making it sound natural and not too confident. So I'll avoid absolute statements like "they're definitely lying." Instead, I'll say things like "it's possible" or "it's hard to tell." I need to include both sides: why it might be deception (overly steady gaze) and why it might not be (no signs of stress).
+
+Also, the description says all other behaviors are false—no smiles, no frowns, no head movements. That's unusual for a natural conversation. Most people show some micro-expressions or small gestures. The lack of that might feel off, like they're being too controlled, which could be suspicious. But again, it might just be their normal way of speaking.
+
+I should structure my response to start with the observed behavior (eye contact), then weigh the possibilities. Mention that eye contact alone isn't conclusive, and since there are no other red flags, it's ambiguous. End by acknowledging it's hard to say for sure without more context.
+
+The user also wants it to sound like a human reply, so I'll keep it conversational—no jargon, just plain English. Phrases like "I'm not 100% sure" or "it's a bit tricky" will make it feel authentic.
+
+Let me double-check the description: "Gaze towards interlocutor" is True, everything else False. Yep, so the only thing I'd notice in the video is steady eye contact with no other tells. That's the core of my reasoning.
+
+For counterarguments: If they were lying, why no nervous signs? Maybe they're skilled at deception. If truthful, why no natural expressions? Maybe they're just very composed. Both are plausible.
+
+I'll make sure not to mention the label "Deception" anywhere in my response since I'm pretending I don't know it. Just base it on the behavior described.
+
+Finally, wrap it up by saying it's a tough call but leaning slightly toward truthfulness because the absence of stress cues might outweigh the steady gaze. But emphasize it's not definitive.
+</think>

@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception," but I need to pretend I don't see that label and figure it out myself.
+
+Looking at the behavioral data, I notice several key points. The person has "Gaze towards interlocutor" as True and "Gaze down" as True - that's interesting because they're looking at the person they're talking to but also looking down. That could be a sign of discomfort or avoiding eye contact. The "Gaze down" being True while "Gaze towards interlocutor" is also True suggests they're maintaining some eye contact but frequently looking down, which might indicate nervousness.
+
+I should consider what humans typically look for in deception cues. Most people think liars avoid eye contact, but research shows it's more nuanced. Sometimes liars actually look at you more to seem honest. Here, they're looking at the person but also glancing down - that downward gaze might be a sign of internal conflict or stress.
+
+Other behaviors are mostly absent: no smiling, no frowning, no exaggerated expressions, no nervous gestures like hand rubbing. That's notable because many people expect liars to have physical tells, but the absence of those might actually be suspicious. If they were completely relaxed, that might suggest truthfulness, but the gaze behavior stands out.
+
+I should think about counterarguments too. Maybe the downward gaze is just their natural way of thinking, or they're shy. Some people naturally look down when concentrating. The fact that they're maintaining eye contact (gaze towards interlocutor) could mean they're trying to appear truthful. Without more context about what they're saying, it's hard to tell.
+
+The user wants me to sound uncertain, like I'm making an educated guess. So I shouldn't say "definitely lying" but rather "I'm leaning toward deception based on the gaze patterns, but I'm not 100% sure because..." I need to mention that the lack of other tells makes it tricky - if they were lying, why no nervous gestures? But maybe they're good at controlling their body language.
+
+Also important: the label says "deception" but I'm supposed to ignore that. So in my response, I'll focus only on the observed behaviors, not the label. I'll describe what I see in the video (the gaze patterns) and reason through why that might indicate deception while acknowledging other possibilities.
+
+For naturalness, I'll use phrases like "I'm noticing" and "it's hard to say for sure" to sound like a human making an observation. I'll avoid technical terms and keep it conversational. The key is balancing the gaze evidence with the counterpoints about natural behavior.
+
+Hmm, I should also consider cultural context - in some cultures, looking down when speaking is respectful, not deceptive. But since I don't have that context, I'll stick to general observations. The absence of other tells might actually support deception if they're suppressing physical reactions, but that's a stretch.
+
+Most importantly, I need to sound like I'm deducing this from the video alone, not from the provided label. So I'll frame everything as "what I'm seeing" without referencing the description. The "gaze down" and "gaze towards interlocutor" being both true is the core clue I'll focus on.
+</think>

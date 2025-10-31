@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception" but I'm supposed to pretend I don't see that.
+
+Looking at the behavioral data, it's interesting that the person shows very few typical "lying" cues. No smiling, laughing, scowling, or frowning - which actually contradicts some common stereotypes about liars. The gaze is directed toward the interlocutor (the person they're talking to), which is often seen as a sign of truthfulness rather than deception. And they have palms up, which is generally interpreted as openness.
+
+But I should be careful here. The absence of classic deception cues doesn't automatically mean truthfulness. Some people are very good at controlling their expressions when lying. The palms up gesture is particularly interesting - it's usually associated with honesty, but could it be a deliberate attempt to appear truthful? 
+
+I notice they have "gaze towards interlocutor" as true, which is good for truthfulness, but the description also says "no frequent blinking" and "no exaggerated eye movements" - which might actually be more consistent with truth-telling since liars often display more micro-expressions. Though I've read that some studies show liars might actually blink less when they're trying to maintain eye contact.
+
+Hmm... the user wants me to sound uncertain, like a human making an educated guess. I shouldn't overstate anything. I should mention that the lack of nervous gestures is suspiciously calm, but also note that some people don't show physical signs of lying. 
+
+The counterargument is important too - maybe they're very practiced at lying, or maybe they're actually being truthful but just naturally calm. The palms up could be genuine openness or a calculated move. I should emphasize that behavior alone isn't definitive.
+
+I'll structure my response to start with the observations, then present both sides of the argument, and end with reasonable uncertainty. Need to avoid sounding like I'm claiming to know for sure. Phrases like "it's hard to say" and "could go either way" will help with that. 
+
+Also important to remember that humans often misjudge deception based on stereotypes - like assuming liars avoid eye contact when actually they might overcompensate with too much eye contact. The gaze being toward the interlocutor might actually be a red herring if they're trying too hard to seem honest.
+
+The key is to sound like I'm thinking through it step by step, not like I'm reading a textbook. I'll mention specific behaviors like the palms up and steady gaze, then question whether those are truly reliable indicators.
+</think>

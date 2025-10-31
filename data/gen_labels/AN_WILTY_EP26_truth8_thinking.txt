@@ -1,0 +1,18 @@
+Okay, the user wants me to assess whether a person in a video is lying based on their behavior, without seeing the description or label. I need to pretend I'm watching the video and make an educated guess. The description says the label is "truth," but I shouldn't use that info—I have to base my response solely on the behavioral cues provided.
+
+First, I'll look at the key behaviors listed: "Chin moving upwards" is true, "Gaze towards interlocutor" is true, "Head shaking" is true, and "Palms up" is true. The other cues like smiling, laughing, or frowning are all false, meaning those actions didn't happen. 
+
+I need to reason like a human would. For someone telling the truth, natural behaviors might include maintaining eye contact (gaze towards interlocutor), having open palms (which often signals honesty), and maybe a slight chin lift that shows confidence. Head shaking could be a gesture of disagreement, but it's listed as true, so the person might be shaking their head while speaking—wait, no, the description says "Head shaking" is true, but it doesn't specify direction. In truth-telling contexts, head shaking is usually for "no," but if they're saying something affirmative, it might be confusing. I should consider that.
+
+Counterarguments: If they're lying, they might avoid eye contact, but here gaze is towards the interlocutor, which is good for truth. Palms up is often associated with honesty, so that supports truth. But head shaking—why would a liar shake their head? Maybe they're emphasizing a point, like "no, I didn't do it," but it's not clear. Also, chin moving upwards could be a sign of confidence, which might align with truth, but liars sometimes try to seem confident too. 
+
+I should weigh the positives for truth: consistent eye contact, open palms. The absence of nervous signs like blinking, frowning, or lip movements is also supportive. For lying, the head shaking is a red flag, but it's not definitive—it could be part of their natural speech. 
+
+I need to sound uncertain, like I'm thinking it through. Avoid being too sure. Say things like "it's hard to say" or "I'm leaning toward truth but..." Mention the head shaking as a possible counter. 
+
+Also, the user wants it to sound natural in a reply, so no bullet points. Just flowing text. Make it conversational: "Hmm, based on what I'm seeing..." 
+
+Check if all behaviors align: no signs of stress (like frequent blinking), which is good for truth. Head shaking might be a habit, not necessarily deception. Palms up is a strong indicator for truth in many contexts. 
+
+Finally, conclude with a balanced view, leaning toward truth but acknowledging the head shake as a minor doubt. Keep it human—like I'm hesitating.
+</think>

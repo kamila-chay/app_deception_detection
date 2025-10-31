@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as deception, but I need to pretend I don't see that.
+
+Looking at the behavioral data: The person has "Gaze towards interlocutor" as True, and all other behaviors like smiling, laughing, frowning, blinking, head movements, hand gestures, etc. are all False. So they're maintaining steady eye contact without any obvious nervous tells.
+
+Hmm, this is interesting because most people think liars avoid eye contact, but actually that's a myth. Research shows truth-tellers often maintain better eye contact than liars. The fact that they're looking directly at the camera (or interviewer) without any shifts could actually be a sign of truthfulness. But I should be careful not to jump to conclusions.
+
+I recall studies where people who are lying might actually stare too intensely to appear honest, but the description doesn't mention any "exaggerated" eye behavior - just normal gaze. The absence of all other micro-expressions and fidgeting is notable too. Liars often have more nervous movements, so the lack of those could point to truthfulness.
+
+But wait - there's a counterargument. Some sophisticated liars deliberately maintain eye contact to seem credible. So the steady gaze might be a calculated tactic rather than a sign of honesty. I should mention that possibility.
+
+Also, the description says "Mouth closed (awkward pauses)" is False, meaning they're not pausing awkwardly. That could indicate they're comfortable with their story, which might suggest truthfulness, but again - skilled liars can rehearse and avoid pauses.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So I'll need to say things like "it's possible" and "could be" rather than "definitely." I should acknowledge that absence of tells doesn't prove truthfulness - it just doesn't show deception.
+
+I'll structure my response to first note the steady eye contact as the key observation, then explain why that might indicate truthfulness (based on common myths vs reality), then present the counterargument about deliberate eye contact from liars, and end by saying it leans toward truth but isn't conclusive. 
+
+Need to avoid any bullet points and keep it conversational like a real person thinking out loud. And absolutely must not say "I know they're lying" since the label says deception but I'm supposed to be reasoning from scratch.
+
+The tricky part is balancing the research facts with the uncertainty of real-world observation. I'll emphasize that without more context (like the content of what they're saying), behavior alone is tricky to interpret. Maybe mention that if they were telling a story with details matching known facts, that would help, but we don't have that here.
+
+Also should note that all the "False" behaviors are actually positive signs for truthfulness - no fidgeting, no odd facial expressions. So the baseline behavior seems very calm and controlled, which often correlates with truth-telling in natural settings.
+
+But to be thorough, I'll include that some people are naturally calm under pressure, so it could just be their personality. That's an important counterpoint I shouldn't forget.
+</think>

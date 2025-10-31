@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth" but I'm supposed to pretend I don't see that and figure it out myself.
+
+Looking at the behavioral data: The person has "frowning eyebrows" and "raising eyebrows" which are interesting - they're doing both at the same time? That's a bit unusual. Then there's "chin moving downwards" which suggests they're looking down, but also "gaze towards interlocutor" (meaning they're looking at the person they're talking to), "gaze up" and "gaze down" - that's confusing because gaze up and down would be contradictory unless they're shifting their gaze. "Nod" is present which is typically a sign of agreement, but in truth-telling it can be normal.
+
+I need to think like a human watching this. When people lie, they often have micro-expressions or inconsistent body language. But here, the frowning eyebrows combined with raised eyebrows could indicate confusion or internal conflict - which might happen when someone's trying to remember something accurately, not necessarily lying. The chin moving down while looking at the person might be a natural gesture when thinking.
+
+The absence of classic lie indicators is important: no smiling (which is odd because liars sometimes force smiles), no laughing, no frowning (wait, frowning eyebrows are listed as true but "scowl" is false - so it's not a full scowl, just the eyebrows), no frequent blinking, no awkward pauses with mouth closed. That's actually more consistent with truth-telling.
+
+But I should consider counterarguments. Maybe the person is trying too hard to look sincere, so they're doing the opposite of typical lie signs. Or maybe the frowning is from discomfort about the question, not lying. The gaze shifting (up and down) could be normal when recalling details, not necessarily deceptive.
+
+The nod is interesting - truthful people nod more when agreeing, but here it's probably just a natural head movement during conversation. The chin moving down might be a sign of uncertainty, which could go either way.
+
+I should emphasize the uncertainty in my response since the user wants me to sound like I'm making an educated guess, not claiming certainty. I'll mention that the lack of classic deception cues leans toward truth, but the eyebrow combination is puzzling. I'll avoid technical terms and keep it conversational like a real person would say.
+
+I'll structure it to first describe what I'm seeing, then explain why it might indicate truth (lack of deceptive behaviors), then acknowledge the possible confusion from the eyebrows, and conclude that overall it seems truthful but I'm not 100% sure. That matches how humans actually think about these things - we never have absolute certainty with body language.
+</think>

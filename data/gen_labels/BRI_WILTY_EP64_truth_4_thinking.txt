@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "Truth," but I need to pretend I'm making this assessment from scratch.
+
+Looking at the description, it's a detailed list of micro-expressions and gestures. The key points are that there's "Frowning eyebrows" (True) and everything else is False. So the person is frowning but not smiling, laughing, scowling, or showing other common "lying" cues like blinking a lot or touching their face.
+
+Hmm, I need to approach this like a human would. People often think liars avoid eye contact or fidget, but the description says "Gaze towards interlocutor" is False—meaning they're not looking at the person they're talking to. Wait, but frowning while avoiding eye contact... that could be confusing. Normally, people might frown when they're upset or concentrating, not necessarily lying.
+
+I should consider counterarguments too. Maybe the frowning is because they're stressed about the question, not lying. Or perhaps they're genuinely upset about the topic. The absence of other signs like lip biting or hand movements makes it less likely they're nervous from lying. Liars often have more physical tells, but here they're just frowning without other cues.
+
+Wait, the user said "Gaze towards interlocutor" is False. So they're not looking at the person they're talking to. That might be a red flag for lying, but frowning alone isn't a strong indicator. In fact, some studies say that when people are truthful, they might avoid eye contact if they're recalling something, but it's not definitive. 
+
+I should also think about cultural context. In some cultures, avoiding eye contact is polite, not suspicious. But since we don't have that info, I'll stick to general behavior. The fact that they're not smiling or showing other "truthful" cues like relaxed posture might make me lean toward truth, but I'm not sure.
+
+The user wants me to sound uncertain, like I'm making an educated guess. So I shouldn't say "definitely truth" but rather "it seems like they might be telling the truth because..." and then mention why I'm not 100% sure.
+
+Let me structure my thoughts: 
+- The frown could be from concentration or discomfort, not deception.
+- No other micro-expressions that usually signal lying (like frequent blinking or mouth movements).
+- Avoiding eye contact might be a red herring—could be normal for them.
+- But I should acknowledge that avoiding eye contact is often associated with lying, so I need to counter that.
+
+Also, the description says "Frowning eyebrows" is True, which is different from "Scowl" (False). A frown is a subtle downturn, while scowling is more intense. So it's not a full scowl, just a mild frown—more likely genuine emotion.
+
+I'll make sure my response is natural, like I'm talking to a friend. No jargon. Say things like "I'm not sure, but..." and "It's tricky because..."
+
+Finally, tie it back to the label being "Truth" but pretend I'm figuring it out. So my conclusion should align with that, but with hesitation.
+</think>

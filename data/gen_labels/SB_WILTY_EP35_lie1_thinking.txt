@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it seem like I'm deducing it from the video alone.
+
+Looking at the behavior description provided: The person has "Raising eyebrows" (True), "Mouth closed (awkward pauses)" (True), "Lips protruded" (True), "Chin moving upwards" (True), "Gaze towards interlocutor" (True), "Gaze down" (True), "Head side-turn" (True). Other actions like smiling, laughing, frowning are all False.
+
+Hmm, I need to think like a human observer. Let me recall what typical deception cues might look like. Raising eyebrows can sometimes indicate surprise or stress, but it's not a strong indicator. Mouth closed with awkward pauses makes me think they're hesitating, which could be nervousness or lying. Lips protruded and chin moving up - that might be a sign of discomfort or trying to appear thoughtful. Gaze down while talking is interesting because people often avoid eye contact when lying, but sometimes they look down to think. Head side-turning might suggest they're not fully engaged or processing something.
+
+I should consider counterarguments too. Maybe they're just shy or naturally nervous, not lying. The gaze towards interlocutor is positive - they're making eye contact, which usually suggests truthfulness. But the gaze down seems contradictory. The awkward pauses could be because they're recalling details, not necessarily lying.
+
+The user wants me to sound uncertain, not confident. So I shouldn't say "definitely lying" but rather "this raises some suspicion." I need to balance the cues: the gaze down and awkward pauses lean toward deception, but the direct eye contact and lack of other classic signs (like fidgeting) make it ambiguous.
+
+Also, the description says "lips protruded" which is unusual - that's when lips are pushed out, often a sign of frustration or trying to control expression. Combined with chin moving up, it might show internal tension. But I shouldn't overinterpret that.
+
+For the response, I'll start by describing what I see: "They're looking down a lot but still meeting my eyes sometimes..." Then mention the pauses and mouth tension. Then counter with "though maybe they're just shy." End with "I'd lean toward deception but it's not certain."
+
+I need to avoid listing points. Keep it flowing like natural speech. The user emphasized "sound natural as a reply," so no academic tone. Phrases like "I'm noticing" or "it makes me wonder" will help.
+
+Also, must not say "the label says deception" since I'm pretending I don't know. Just describe observations. And absolutely no bullet points - the user was clear about that.
+
+Let me check if I'm missing anything: The head side-turn is odd. People turn head when lying to avoid eye contact, but here gaze is still toward interlocutor. Maybe they're glancing sideways while maintaining some eye contact? That could be a sign of distraction.
+
+But I shouldn't overcomplicate it. Stick to the strongest cues: the awkward pauses and gaze shifts. The lack of smiling or laughing is neutral - truth-tellers don't always smile, especially if serious.
+
+Final thought: The most compelling signs are the mouth closed with pauses (suggesting mental effort) and gaze down (common in deception), but the eye contact weakens it. So my conclusion should be "probably lying but not sure." That matches how humans actually assess this - rarely 100% certain.
+</think>

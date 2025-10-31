@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception," but I'm supposed to pretend I don't know that and make an educated guess based on the video alone.
+
+Looking at the behavioral cues given: There's "frowning eyebrows," "lip corners up," "lip corners down," "lips protruded," "lips retracted," "gaze towards interlocutor," "gaze sideways," "nod," "head moving backward," "head side-turn," and "head shaking" is false. The key things I notice are the conflicting facial expressions - lips both up and down (which is odd), frowning eyebrows, and that sideways gaze while nodding. The head moving backward and side-turning feels like avoidance, which people often do when lying.
+
+But I should consider counterarguments too. Maybe they're just nervous about the topic, not lying. The sideways gaze could be normal for thinking, and the head movements might just be habitual. The lip movements are confusing - protruding and retracting lips simultaneously? That might be a nervous tic rather than deception. And they're maintaining eye contact when they look at the interlocutor, which some people do when lying to seem honest.
+
+Hmm, the user wants me to sound uncertain, like a human making an educated guess. I shouldn't be too confident. I'll mention the conflicting cues but also the possible explanations for them being nervous. The nodding while looking sideways feels inconsistent with truth-telling - truthful people usually look more directly when agreeing. But I'll have to say it's not definitive.
+
+I need to avoid sounding like I'm listing points. Just natural, conversational reasoning. And I should make sure my conclusion leans toward deception since that's the label, but with strong caveats. The user's probably testing if I can mimic human uncertainty in deception detection.
+
+Also important: the description says "lips protruded" and "lips retracted" both true - that's unusual. Most people don't do both at once. That might be a key clue, but I should acknowledge it could be misinterpreted. Maybe they're just fidgeting with their mouth.
+
+For the response structure: Start with what I'm observing, then the conflicting signs, then the counterarguments, and end with a tentative conclusion that leans toward deception but isn't certain. Keep it to a few paragraphs like a real person would write.
+</think>

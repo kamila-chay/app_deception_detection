@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. The description shows specific behaviors: raised eyebrows, frequent blinking, exaggerated eye opening, lip corners up, head tilting, nodding, and gaze toward the interlocutor.
+
+Hmm, I should approach this like a human would. First, I need to recall common micro-expressions and body language cues associated with deception. But I remember that many "lie cues" aren't reliable—like blinking more or avoiding eye contact. The description says gaze toward interlocutor is true, so they're making eye contact, which contradicts the myth that liars avoid it. That's a point against deception.
+
+Looking at the behaviors: raised eyebrows and frequent blinking could be signs of stress or anxiety, which might happen if someone's lying, but they could also just be nervous about being filmed. Exaggerated eye opening might be an attempt to seem sincere, like they're trying too hard. Lip corners up and head tilting—those are often signs of engagement or thoughtfulness, not necessarily deception. Nodding while speaking could indicate agreement or confidence, not lying.
+
+But I should consider counterarguments. If they're lying, they might be consciously trying to appear truthful, hence the exaggerated expressions. The lip protrusion could be a sign of discomfort, but it's not a strong indicator. The absence of things like avoiding eye contact or fidgeting (no hands rubbing or scratching) makes deception less likely. People who lie often do more fidgeting, but here there's none of that.
+
+Wait, the user mentioned the actual label is deception, so I have to be careful not to confirm that. My reasoning should be balanced. I'll note the behaviors that could suggest deception but also explain why they might be innocent. For example, frequent blinking might just be from the camera lights or being in a bright room. Raised eyebrows could be surprise at the question, not deception.
+
+I need to sound uncertain, like a human making an educated guess. Avoid absolute terms like "definitely lying." Instead, say "it's possible" or "could be." Mention that without more context, it's hard to tell. Also, highlight that some cues like nodding and eye contact are actually signs of truthfulness, which might counter the deception label.
+
+Check if the description has any contradictions. Gaze toward interlocutor is true, so they're looking at the person they're talking to, which isn't typical for liars. Liars often look away, but here they're maintaining eye contact. That's a strong point against deception. Head tilting might indicate listening or curiosity, not lying.
+
+Also, the absence of nervous habits like hand movements is notable. If they were lying, they might be fidgeting more. But since they're not, it could mean they're comfortable, hence truthful. But wait, some liars suppress fidgeting to seem calm, so that's a counterpoint. However, the lack of other cues makes it less likely.
+
+I should structure my response to start with what I observe, then weigh the possibilities. Say something like: "Based on what I'm seeing, they're making eye contact and nodding, which usually suggests honesty, but the raised eyebrows and blinking make me wonder if they're stressed." Then add the counter: "But stress could come from other things, like the interview setting."
+
+Make sure it's conversational. Avoid technical terms. Use phrases like "I'm not sure," "it's hard to say," "could be." End with a balanced conclusion that leans toward truthfulness but acknowledges uncertainty.
+
+Double-check the description: no scowling, no frowning, lips protruded (which might be a subtle sign of tension), but lip corners up (smiling). Smiling while lying is common in some cases, but the description says "Smile" is False, so it's not a full smile, just corners up. That's a minor point.
+
+Finally, ensure I'm not using the label. Just describe the behaviors as seen in the video. The user wants me to deduce without knowing it's deception, so I'll base everything on the listed actions.
+</think>

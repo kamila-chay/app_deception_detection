@@ -1,0 +1,52 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. The key is to make it seem like I'm making an educated guess based on behavior, not claiming certainty. 
+
+Hmm, looking at the description they provided (which I shouldn't actually use), it says the label is "deception" but all the emotional cues like smiles or frowns are false. The actual behaviors noted are chin moving up, gaze towards interlocutor, nodding, and head shaking. Interesting - those are neutral or even positive behaviors for a truthful person.
+
+I need to craft a response that sounds human and uncertain. People don't usually say "they're definitely lying" when watching videos - they'd hesitate, mention contradictions. The head shaking is tricky because it's often associated with lying, but the description says it's "head shaking" which could mean "no" or just a gesture. And the chin moving up... that's not a classic lie sign, more like a thoughtful gesture.
+
+*checks the behavior list again* Wait, "chin moving upwards" is listed as True. In micro-expression terms, that might indicate defensiveness or hesitation, but I've read that chin movements are super ambiguous. Some people lift their chin when they're trying to appear confident, even when truthful. 
+
+The gaze towards interlocutor is good - liars often avoid eye contact, but not always. And nodding while speaking? That's actually a sign of engagement, not deception. The description says "gaze towards interlocutor" and "nod" are both true - that's textbook "truthful" behavior in many studies. 
+
+But the head shaking... that's the red flag. If they're shaking head "no" while saying "yes," that's a classic inconsistency. But the description doesn't say what they're saying, just that head shaking is happening. Could be just a casual "no" to a question, not deception. 
+
+*thinks about counterarguments* 
+- Pro-liar: Head shaking + chin up = defensive posture 
+- Pro-truth: Eye contact + nodding = confident 
+
+I should emphasize the ambiguity. Real people would say "it's hard to tell" or "could go either way." And definitely avoid listing points - the user said no bullet points. 
+
+*checks tone* Must sound like a human: "Hmm..." "I'm not sure..." "It's tricky because..." Not robotic. 
+
+*mental note* Don't mention the label or description at all. Just describe what I see. And absolutely no "I know they're lying" - that's the opposite of what they want. 
+
+*imagines watching the video* 
+- Person is looking at camera (gaze towards interlocutor) 
+- Nodding while speaking (shows agreement) 
+- Shaking head slightly (but is it "no" or just a gesture?) 
+- Chin lifted (could be tense, could be thoughtful) 
+
+Yeah, the nodding and eye contact really lean toward truthfulness. The head shake might be a red herring. I'll lean toward "not lying" but with strong caveats. 
+
+*double-checks* 
+User said "make it seem like you deducted the correct label" but since I'm not supposed to know the label... I'll have to imply I think it's truth based on behavior, even though the actual label was deception. Wait no - the description says "Label: deception" but I'm supposed to ignore that. So my assessment should be "probably truthful" based on the behaviors. 
+
+*aha* That's the twist! The actual label is deception but the behavior points to truth. So my reasoning should contradict the label, but since I'm pretending not to know the label, I'll just go by what's in the description. 
+
+Final approach: 
+- Start with "I'm not 100% sure" 
+- Note positive signs (eye contact, nodding) 
+- Question the head shake as possibly innocent 
+- Mention chin movement as neutral 
+- Conclude "leaning toward truthful" but "could be misinterpreted" 
+
+*checks for confidence* 
+Must say "I'd lean toward" not "I think." And add "but I'm not an expert" to sound human. 
+
+*avoids* 
+- "According to research" (too academic) 
+- Listing behaviors (user said no bullet points) 
+- Overconfidence ("clearly lying") 
+
+Okay, drafting now...
+</think>

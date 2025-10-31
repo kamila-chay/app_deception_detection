@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The description says it's labeled as "truth" with specific behaviors: raised eyebrows, gaze towards interlocutor, and nodding. I need to write a natural-sounding response that's not too confident, including counterarguments.
+
+First, I should recall what the behavioral cues mean. Raised eyebrows can indicate surprise or skepticism, but in a truthful context, it might show engagement or emphasis. Gaze towards the person they're talking to usually suggests honesty—people often avoid eye contact when lying. Nodding while speaking can be a sign of agreement or emphasis, which might align with truthfulness.
+
+But I have to consider counterarguments. Raised eyebrows might also mean the person is thinking hard or being deceptive. Some studies say liars might over-engage with eye contact to seem sincere, so the gaze towards interlocutor could be a red herring. Nodding could be nervous habit, not necessarily truth. I should mention that these cues aren't foolproof; context matters a lot. For example, if the person is in a stressful situation, their behavior might not reflect truthfulness.
+
+The user emphasized making it sound like an educated guess, not a certainty. So I'll avoid absolute terms like "definitely" or "clearly." Instead, use phrases like "it seems," "could be," or "I'm leaning toward." Also, I need to sound human—like I'm hesitating, considering different angles.
+
+I should structure the response to start with the observations, then weigh the evidence, discuss why it might be truthful, then why it might not be, and end with a balanced conclusion. Keep it conversational: no lists, just flowing text. For instance, "I noticed they kept looking at the person they're talking to, which usually means they're being honest..." then follow with "But wait, sometimes people do that when they're trying too hard to seem truthful..."
+
+Check the description again: no smile, laughter, frowning, etc. That's important. The absence of negative or nervous cues (like fidgeting) might support truthfulness, but I shouldn't overstate it. The key points are raised eyebrows, direct gaze, and nodding.
+
+Make sure not to reference the label or description since I'm supposed to be blind to it. Just describe what I see in the video. The user said "imagine you don't see the description," so my response must be based solely on the behavioral cues I'd observe.
+
+Also, avoid jargon. Say "raised eyebrows" instead of "raised eyebrows as a microexpression." Keep it simple like a real person talking.
+
+Finally, wrap it up by saying it's hard to be sure but the cues lean toward truth. That way, it's not overconfident and aligns with the "educated guess" requirement.
+</think>

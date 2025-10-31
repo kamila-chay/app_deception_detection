@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I'm just watching the video and making an educated guess.
+
+Looking at the behavior descriptors: The person has "Raising eyebrows" (True), "Gaze towards interlocutor" (True), "Gaze down" (True), "Head moving forward" (True), and "Head side-turn" (True). Other cues like smiling, laughing, frowning, or excessive blinking are all False. 
+
+Hmm, the key things here are the raised eyebrows and the head movements. Raised eyebrows can sometimes indicate surprise or skepticism, but in this case, since the gaze is directed at the person they're talking to (not away), it might just be natural engagement. The head moving forward often shows attentiveness - like they're leaning in to listen or respond. Head side-turning could mean they're processing information or being thoughtful, not necessarily deceptive. 
+
+But I should consider counterarguments too. Some people might interpret raised eyebrows as nervousness, and the downward gaze could be seen as avoiding eye contact (though the description says gaze is still towards interlocutor, so it's not full avoidance). The head moving forward could also be interpreted as trying to appear sincere, which some liars do. 
+
+I need to be careful not to sound too confident. Humans would probably say something like "It's hard to tell" or "I'm leaning toward truth but..." since there's no obvious deception markers like fidgeting or forced smiles. The lack of negative cues (no scowling, no awkward pauses) actually makes the truth label more plausible. 
+
+The user wants this to sound natural like a human's thought process, so I'll avoid technical terms. Maybe mention how the person seems to be listening intently (head forward, gaze toward) rather than hiding something. But I should acknowledge that without context, it's tricky - maybe they're just naturally expressive with their eyebrows. 
+
+Also important: the description says "Gaze down" is True, but since gaze is still toward interlocutor, it's probably just looking at their chest or something natural, not avoiding eye contact. That's a common misinterpretation I should clarify. 
+
+For the counterargument, I'll note that some liars do maintain good eye contact, so absence of avoidance doesn't prove truthfulness. But combined with the other calm cues, it's less suspicious. 
+
+The challenge is balancing the "truth" label with the need to sound uncertain. I'll emphasize the absence of deception signs rather than claiming positive proof. Phrases like "I'm not seeing red flags" instead of "they're definitely truthful." 
+
+...And I should definitely not mention the actual label since the prompt says to pretend I don't see it. The whole point is to simulate real-time video analysis.
+</think>

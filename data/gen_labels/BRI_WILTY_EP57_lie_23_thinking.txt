@@ -1,0 +1,27 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided (which I shouldn't use directly), I see the label is "deception" with specific behaviors: frowning eyebrows, raised eyebrows, gaze towards interlocutor, gaze down, gaze sideways, and head tilting. But since I'm supposed to pretend I don't see this, I'll have to imagine what I'd observe from the video.
+
+Hmm, the key behaviors I'd notice from the description (if I were watching) would be: the person has furrowed brows (frowning eyebrows), raised eyebrows (which is interesting because those often contradict), looks at the camera (gaze towards interlocutor), and their eyes darting down and sideways. They also tilt their head. 
+
+I should think about what these might mean. Furrowed brows usually indicate concentration or stress, which could happen when lying. But raised eyebrows are more often associated with surprise or skepticism, not lying. That's a contradiction I should mention. The gaze patterns are tricky - looking away can be a sign of lying, but sometimes people look down when thinking or feeling uncomfortable, not necessarily lying. Head tilting is often a sign of engagement or curiosity, not deception.
+
+I need to balance this carefully. The user wants me to sound uncertain, like a human making a guess. So I shouldn't say "definitely lying" or "definitely truthful." I'll mention the conflicting cues: the stress indicators (frowning) vs. the engagement indicators (raised brows, head tilt). 
+
+For counterarguments: Maybe they're just nervous about the question, not lying. Or maybe they're processing information honestly but appearing stressed. The gaze down could be cultural or habitual, not deceptive. 
+
+I should structure it as: 
+- Start with what I observe (without using the technical terms from the description)
+- Point out the possible deception signs
+- Then note the contradictory signs
+- Weigh the possibilities
+- End with uncertainty
+
+Important to avoid sounding like I know the label. Phrases like "it's hard to say" or "could go either way" will help. And I must not mention any of the specific behavior codes from the description - just describe what I'd see.
+
+Also need to make it sound like a natural reply to "Is this person lying?" so I'll use conversational language: "Honestly, I'm not sure..." not "Based on the analysis..."
+
+Let me craft something that feels human: noticing the frown and darting eyes, but also the head tilt that seems engaged, and wondering if it's just anxiety. I'll mention how people sometimes look away when they're thinking, not lying. And that raised eyebrows might mean they're surprised by the question, not deceptive.
+
+The key is to sound thoughtful but not certain. The user wants to see if I can mimic human uncertainty about deception detection, which is famously unreliable. That's the whole point - deception cues are ambiguous.
+</think>

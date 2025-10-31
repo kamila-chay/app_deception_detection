@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "truth," but I shouldn't know that. I have to write a natural-sounding response that's cautious, like a human making an educated guess.
+
+First, I need to look at the behavior description provided: the person has "Frowning eyebrows," "Raising eyebrows," "Gaze towards interlocutor," "Nod," "Head tilting," and "Head side-turn" as true. Other behaviors like smiling, laughing, or exaggerated movements are false. Since I'm supposed to be watching the video, I'll base my analysis on these observable cues.
+
+Hmm, the key behaviors here are the raised eyebrows and frowning. Raised eyebrows can sometimes indicate surprise or skepticism, but in this context, combined with frowning, it might suggest they're processing something or feeling uneasy. The gaze towards the interlocutor and nodding seem positive—they're making eye contact and agreeing, which usually goes with truth-telling. Head tilting and side-turning could be signs of thoughtfulness, not necessarily deception.
+
+But I should consider counterarguments. If they're lying, why would they have a frown? Maybe they're stressed about the lie, so the frown makes sense. However, the absence of classic lie signs like avoiding eye contact (they're gazing directly), frequent blinking, or hand movements (like rubbing hands) is suspicious for a liar. Truth-tellers often show more natural expressions, and here they're not hiding anything physically.
+
+I need to sound uncertain in my response. Humans don't usually say "definitely lying" or "definitely truthful" without more context. I'll mention that the lack of nervous tells is a good sign, but the frown might be a red herring—maybe they're just concentrating on a complex question.
+
+Also, the user emphasized avoiding confidence, so I'll use phrases like "it's hard to say," "could be," or "might indicate." I'll structure it as a natural thought process: start with what I see, then weigh the pros and cons, and end with a tentative conclusion.
+
+Let me check the behaviors again to ensure I'm not missing anything. No lip movements, no awkward pauses, so it's not like they're struggling to speak. The nodding and head tilting feel engaged, which aligns with truth-telling. But frowning eyebrows—sometimes people frown when thinking hard, even when truthful.
+
+For counterarguments: If they're lying, the frown could be guilt, and the head tilting might be a way to avoid direct eye contact (though the description says gaze is towards interlocutor, so that's not it). But the gaze is specified as true, so they're looking at the person, which contradicts the lie theory.
+
+I'll conclude that the behavior leans toward truth because the absence of deception cues outweighs the frown. But I'll hedge it by saying it's not definitive. The response should flow like a person talking to a friend, not a report.
+
+Finally, I'll make sure it's all in plain English, no lists, and ends with a balanced view. The user wants it to feel human, so I'll add phrases like "I'm not sure" or "it's tricky."
+</think>

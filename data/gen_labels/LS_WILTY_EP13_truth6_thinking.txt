@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "truth," but I need to pretend I'm just watching the video.
+
+First, I need to recall what the actual behavior was from the description: the person smiled (Smile: True), had lip corners up (Lip corners up: True), lips protruded (Lips protruded: True), gaze down (Gaze down: True), head tilting (Head tilting: True), head side-turn (Head side-turn: True), and arms open (Arms open: True). Other behaviors like laughter, scowling, or frequent blinking were false.
+
+Now, as someone watching the video, I should think about how humans typically interpret these cues. Smiling and open arms often signal honesty or comfort, but I know that's not always reliable—some people smile when lying. The gaze down is interesting because it's often associated with dishonesty in some cultures, but research shows it's inconsistent. Head tilting can indicate curiosity or thoughtfulness, not necessarily deception. Lips protruded might be a relaxed expression, but could also be nervous.
+
+I need to be careful not to sound too confident. The user emphasized making it seem like an educated guess with counterarguments. So, I should present both sides: why it might be truth (smiles, open arms) and why it might be lie (gaze down, head tilting as signs of deception).
+
+I remember that in real life, people often misjudge lies based on stereotypes. For example, avoiding eye contact is commonly thought to mean lying, but studies show it's not a reliable indicator. Gaze down could just be the person being shy or thoughtful, not deceptive. The arms open is a strong sign of openness, which usually aligns with truth-telling.
+
+But counterarguments: maybe the person is faking the smile or using head tilting to seem sincere. Lips protruded could be a nervous habit. I should mention that these behaviors alone aren't definitive.
+
+The user wants the response to sound natural, like a human reply. So I'll avoid technical terms and keep it conversational. Start with "Hmm, this is tricky," to show hesitation. Then describe what I see: the smile, open arms, head tilt, gaze down. Weigh the pros and cons without listing them.
+
+Also, the label says "truth," so I should align with that but not state it outright. My reasoning should lead to the same conclusion but through doubt. For instance, "While gaze down sometimes suggests lying, the open posture and genuine smile make me lean toward truth."
+
+Need to include the counter: "Though I've heard gaze down means lying, it could just be them thinking." And emphasize that context matters—without knowing the conversation, it's hard.
+
+Finally, wrap it up as a cautious guess: "Based on what I'm seeing, I'd say they're probably telling the truth, but I'm not 100% sure." That matches the user's request for not sounding overconfident.
+
+Check if I'm missing anything from the description. All the "False" behaviors are absent, so I shouldn't mention them. Focus on the "True" ones that are relevant to deception cues.
+
+Make sure the response flows like a real person talking—no bullet points, just smooth sentences. And avoid any markdown as specified.
+</think>

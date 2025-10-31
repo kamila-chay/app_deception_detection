@@ -1,0 +1,25 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. The key is to make it seem like I'm making an educated guess based on observed behavior, not relying on the given "deception" label.
+
+Hmm, looking at the behavior description they provided (which I shouldn't use directly), I need to reconstruct what I'd see in the video. The label says "deception" but I have to pretend I don't know that. The description shows: smile (True), lip corners up (True), lips protruded (True), gaze down (True), and several other "False" indicators. 
+
+I should focus on the visible behaviors: the person is smiling with lips pulled up, lips slightly protruded, and looking downward. The absence of other tells like blinking or gaze avoidance is notable. 
+
+For my response, I need to sound uncertain - not claiming certainty but weighing possibilities. The smile and downward gaze seem contradictory to typical deception cues. Most people think liars avoid eye contact, but here the gaze is down (not away from the speaker), and the smile looks genuine. Wait, but lips protruded could be a sign of discomfort... though the description says "lip corners up" which usually means a real smile. 
+
+I should consider counterarguments: maybe the smile is forced (but lip corners up suggests it's not), or the downward gaze could be shame rather than lying. The absence of fidgeting actually makes deception less likely since liars often fidget. But some people are good at hiding tells. 
+
+The user wants this to sound like a human's natural hesitation - so phrases like "I'm not 100% sure" and "could be" will be important. Need to avoid technical terms like "microexpression" and keep it conversational. 
+
+Also must remember: the video shows no laughter, no scowling, no awkward pauses - so the behavior seems relatively calm. That leans toward truthfulness, but deception can be calm too. 
+
+Biggest challenge: balancing the "smile + down gaze" observation with the fact that deception labels often rely on "avoiding eye contact" (which isn't what's happening here). The gaze is down, not away from the speaker - that's different. 
+
+I'll structure it: 
+- Start with what I see (smile, down gaze) 
+- Note the lack of nervous tells 
+- Weigh why it might be truth (calm, no fidgets) 
+- Counter with why it might be deception (protruded lips? but that's not strong) 
+- Conclude with "leaning toward truth but not certain" 
+
+And absolutely no bullet points - just flowing sentences. Phrases like "I'm leaning toward..." and "it's a bit confusing" will make it feel human.
+</think>

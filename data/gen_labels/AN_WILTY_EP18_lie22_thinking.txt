@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed description of the behavior with a "deception" label, but I need to pretend I don't see that.
+
+Looking at the behavior description: the person is smiling (Smile: True, Lip corners up: True), has palms up (Palms up: True), and maintains gaze towards the interlocutor (Gaze towards interlocutor: True). There are no signs of nervousness like blinking, frowning, or hand movements. 
+
+Hmm, this is interesting because the classic "lying cues" like avoiding eye contact or fidgeting are absent. The palms up gesture is actually associated with openness in some cultures, and the smile seems genuine based on the description. But I should be careful - not all smiles are genuine, and some people might use a smile to mask deception.
+
+I recall research showing that people often misjudge lies based on stereotypes. The absence of "nervous" behaviors might actually make this harder to assess. The person isn't avoiding eye contact (which is often wrongly assumed to indicate lying), and the palms up gesture could be interpreted as honest. But I should consider counterarguments: maybe they're smiling to appear friendly while lying, or the palms up could be a calculated gesture.
+
+The user wants me to sound uncertain like a human making an educated guess. I shouldn't claim certainty. I'll mention that while the behavior doesn't show classic signs of deception, it's not definitive proof of truthfulness. The key is that there are no indicators that would make me lean toward deception, but absence of evidence isn't evidence of absence.
+
+I need to avoid listing points and make it sound natural. I'll structure it as: "Based on what I'm seeing..." then present both angles, and conclude with reasonable uncertainty. The phrase "I'd be cautious about jumping to conclusions" feels right for human reasoning.
+
+Also important to note that the description says "Lip corners up" not "smile" - but they're probably related. And "palms up" is a specific gesture that's often seen as non-deceptive. The gaze direction being toward the interlocutor is another point against deception stereotypes.
+
+For counterarguments, I'll mention that some liars suppress nervousness (so absence of fidgeting doesn't mean truth), and that cultural differences might affect how we interpret gestures like palms up. The user emphasized avoiding overconfidence, so I'll use phrases like "it's possible" and "could be" instead of "definitely."
+
+The response should end with "hard to say for sure" to match the requested uncertainty. I'll make sure not to reference the label or description since I'm supposed to be watching the video blind.
+</think>

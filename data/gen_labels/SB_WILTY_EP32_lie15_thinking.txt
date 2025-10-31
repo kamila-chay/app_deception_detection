@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I have to pretend I'm making this judgment from scratch. 
+
+First, I need to recall the behavioral cues from the description: raised eyebrows, frequent blinking, chin moving up and down, gaze down, head moving backward, head tilting sideways, and head up. The key is to interpret these naturally as a human would, not like a robot checking a checklist.
+
+Hmm, the user emphasized avoiding overconfidence, so I should sound uncertain—like "I'm not sure, but here's why I lean this way." They also want counterarguments, so I can't just list signs; I need to weave in why some cues might be innocent.
+
+Let me mentally walk through the video: Raised eyebrows often mean surprise or skepticism, not necessarily lying. Frequent blinking could be nervousness from stress, not deception. The chin movements—up and down—might be fidgeting, but people do that when thinking. Gaze down is common when someone's concentrating, not always hiding something. Head tilting sideways? That's usually curious, not deceptive. Head moving backward and up... that's odd. People lean back when uncomfortable, but it could just be a posture shift.
+
+I should consider counterpoints: Maybe the person is just tired or in a bad mood. Frequent blinking could be from dry eyes. Gaze down might be cultural—some people avoid eye contact when speaking respectfully. The chin movements? Could be a habit, like someone who taps their chin when thinking.
+
+The user's deeper need here is probably to see if I can mimic human uncertainty, not just regurgitate deception cues. They want the response to feel like a real person hesitating, not an AI spouting facts. So I'll start with "I'm not 100% sure" and build from there.
+
+Also, the description says "gaze down" and "head tilting" but no eye contact issues—wait, "gaze towards interlocutor" is true, so they're looking at the person, just sometimes down. That's important! I almost missed that. So they're not avoiding eye contact entirely, which weakens the "lying" argument. That's a key counterpoint to include.
+
+For the reasoning flow: I'll mention the suspicious signs first (blinking, chin), then immediately undercut them with alternatives. The head movements are weird but not classic deception signs. I'll end by saying "I'd lean toward truth but stay cautious" since the actual label is deception, but I can't say that—I have to pretend I'm guessing.
+
+Gotta avoid terms like "microexpression" or "behavioral cues" since real people don't say that. Keep it simple: "I noticed they blinked a lot" not "frequent blinking observed." And no lists—just smooth sentences.
+
+*checks the description again* Wait, "chin moving upwards" and "downwards" are both true. That's like a nod but not a full nod? People do that when they're unsure, so it's ambiguous. I'll say "kind of like a hesitant head movement" to sound natural.
+
+Final structure: Start with overall impression (not obvious liar), list 2-3 cues, give innocent explanations, then say "but the blinking and head shifts make me wonder." End with "hard to say for sure." And absolutely no "I know they're lying" language.
+</think>

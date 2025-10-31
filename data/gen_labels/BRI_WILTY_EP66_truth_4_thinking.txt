@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "Truth," but I have to pretend I don't know that. I need to write a natural-sounding response as if I'm making an educated guess.
+
+First, I should look at the behavioral cues provided in the description. The key points are: raising eyebrows (True), gaze sideways (True), arms open (True), and no other noticeable signs like smiling, frowning, or frequent blinking. The label says "Truth," so the behavior did occur as described.
+
+Now, I need to reason like a human would. Humans often look for "tells" of lying, like avoiding eye contact, fidgeting, or fake smiles. But here, the person has raised eyebrows and looks sideways, which might seem suspicious at first glance. However, raised eyebrows can indicate surprise or confusion, not necessarily deception. Gazing sideways might be natural for thinking or recalling something, not lying. Arms open is generally a sign of openness, which could suggest honesty.
+
+But I should consider counterarguments. Some might think sideways gaze means avoiding truth, and raised eyebrows could be nervousness. However, the absence of other signs like blinking a lot or fidgeting weakens that. Also, arms open is positive, so maybe they're being genuine.
+
+I need to avoid sounding too confident. Phrases like "it's hard to say" or "could be" would make it seem like a real human assessment. I should mention both sides: why it might look like lying (sideways gaze, raised eyebrows) and why it might not (arms open, no other stress cues).
+
+The user emphasized making it natural, so no bullet points. Just a flowing paragraph. Also, align with how humans actually think—sometimes confused, not sure, weighing evidence.
+
+Check if the description matches real behavior. For example, raised eyebrows alone isn't a strong lie indicator; it's common in conversation. Sideways gaze could be due to distraction, not deception. Arms open is a big point for honesty.
+
+Counterarguments: If someone is lying, they might avoid eye contact, so sideways gaze could be a sign. But in this case, the person isn't looking directly at the camera, which might be normal for a video interview. Also, no other micro-expressions like lip movements or frowning.
+
+I should structure the response to start with observations, then present both possibilities, and end with a tentative conclusion. Since the actual label is truth, I'll lean towards truth but with uncertainty.
+
+Make sure not to use technical terms like "micro-expressions" too much; keep it casual. Say "they weren't avoiding eye contact directly" instead of "gaze avoidance."
+
+Finally, ensure the tone is hesitant: "I'm not 100% sure, but..." to match the user's request for an educated guess, not a claim.
+</think>

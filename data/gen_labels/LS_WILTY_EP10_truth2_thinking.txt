@@ -1,0 +1,28 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that and make an educated guess.
+
+First, I need to recall how humans actually assess truthfulness in videos. From what I know, people often look for micro-expressions and nervous behaviors, but it's tricky because many cues can be misinterpreted. For example, frequent blinking might indicate stress, but it could also be due to dry eyes or lighting. The description says "Frequent blinking: True" and "Lip corners down: True" which might suggest discomfort, but I shouldn't jump to conclusions.
+
+The user emphasized making it sound natural, like a human making an educated guess, not a confident expert. So I should include counterarguments. Let me think about the key behaviors mentioned: frequent blinking, lip corners down, chin moving up and down, gaze towards interlocutor, nodding, head moving forward/backward. 
+
+Frequent blinking is often associated with lying, but it's not reliable—people blink more when stressed, which could be from many things like anxiety about being recorded, not necessarily lying. Lip corners down might look like sadness or frustration, but in a conversation, it could just be the person's natural expression or they're processing what they're saying. 
+
+The chin movements (up and down) and head movements (forward/backward) could indicate engagement—like nodding along or thinking. Gaze towards the interlocutor is usually a sign of honesty, as liars might avoid eye contact, but not always. The description says "Gaze towards interlocutor: True," which would typically suggest truthfulness, but I should note that some people maintain eye contact even when lying.
+
+I should also consider the absence of other cues: no smiling, no laughter, no frowning, no hand gestures like rubbing or scratching. That might mean the person is trying to stay calm, which could go either way—some liars suppress gestures to seem natural, while truth-tellers might not have excess movements.
+
+Now, for counterarguments: Maybe the frequent blinking is because of the video lights, not deception. Or the lip corners down could be from a bad mood unrelated to the conversation. The chin and head movements might just be natural talking mannerisms. And the steady eye contact could be rehearsed, not genuine.
+
+The user wants me to avoid sounding too sure, so I'll use phrases like "I'm not entirely sure," "could be," "it's hard to say." I'll structure it as a natural response: start with the behaviors I notice, weigh the pros and cons, and end with a tentative conclusion.
+
+I need to make sure I don't mention the "truth" label or the description—I'm only using what's in the video. Since I'm pretending to watch it, I'll describe what I see based on the behaviors listed, but frame it as observations.
+
+Let me outline the response: 
+- Open with the key behaviors: frequent blinking, lip corners down, chin/head movements, steady eye contact. 
+- Explain why blinking might suggest lying (but note it's not definitive). 
+- Discuss the lip expression as potentially negative but not necessarily lying. 
+- Highlight the eye contact and nodding as positive for truthfulness. 
+- Weigh the counterarguments: blinking could be environmental, lip expression could be unrelated. 
+- Conclude that it leans toward truth but with uncertainty.
+
+Finally, ensure it's conversational: "Honestly, I'm not 100% sure, but..." and avoid technical terms. Make it sound like a real person thinking out loud.
+</think>

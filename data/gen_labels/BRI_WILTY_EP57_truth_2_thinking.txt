@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty. The description says the label is "truth," but I shouldn't reference that—just the video behavior.
+
+First, I'll look at the behavior details provided: Frowning eyebrows (True), Raising eyebrows (True), Lip corners up (True), Gaze towards interlocutor (True), Gaze down (True), Gaze sideways (True), Nod (True), Head side-turn (True). Other things like Smile, Laughter, Scowl are False. So the person isn't smiling or laughing, but has raised eyebrows and a slight lip up, which might indicate engagement or thoughtfulness.
+
+I need to reason like a human would. People often think frowning or raised eyebrows could signal lying, but actually, those can show concentration or stress. The lip corners up might be a subtle smile, which could be genuine or forced. Gazing towards the person suggests they're paying attention, which is good for truth-tellers, but gaze down and sideways could be signs of discomfort or thinking—common in both truth-tellers and liars. Nodding and head side-turn might be natural gestures.
+
+Counterarguments: If they were lying, I'd expect more signs like avoiding eye contact, but here they're looking at the interlocutor. However, gaze down and sideways might indicate they're not fully engaged, which could be lying. But truth-tellers sometimes look away when recalling details. The raised eyebrows could mean surprise or confusion, not deception.
+
+I should avoid being too confident. Phrases like "it's hard to say" or "could go either way" would make it sound human. Also, mention that without context, it's tricky—like if they're talking about something sad, frowning makes sense, not lying.
+
+The user probably wants to see if I can handle ambiguity, not just state facts. They might be testing critical thinking or how I handle unreliable info. Deeper need: understanding that deception cues aren't foolproof, so I shouldn't overstate.
+
+Structure my response: Start with overall impression, list key behaviors, weigh pros/cons for truth vs. lie, end with uncertainty. Keep it conversational, no lists. Example: "The way they're looking at the person makes me think they're being honest, but the frown... wait, maybe they're just stressed."
+
+Check for alignment: Humans often misinterpret cues, so I'll admit that. Like, "I've heard people say frowning means lying, but actually it might just be them thinking hard."
+
+Finally, ensure it's a reply to "Is this person lying or telling the truth?" so start with that question in mind.
+</think>

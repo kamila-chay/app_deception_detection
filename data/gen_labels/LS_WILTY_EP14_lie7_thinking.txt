@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it seem like I'm figuring it out from the video alone.
+
+Looking at the behavior description provided: the person has "Lip corners up" (smiling), "Chin moving upwards," "Chin moving downwards," and "Gaze down" - but no smile, laughter, frowning, or other typical deception cues. Interesting that they're smiling but the label says deception. I recall that genuine smiles involve the eyes (Duchenne smile), but here "Smile" is marked False, so it's probably a forced smile.
+
+Hmm, the user wants me to sound uncertain, like a human making an educated guess. I shouldn't be overconfident. I need to consider both sides: why they might be lying, and why they might be truthful. 
+
+First, the possible deception signs: that "lip corners up" without actual smiling could be a fake smile. The chin movements (up and down) might indicate nervousness or rehearsing. Gaze down is common in deception - people avoid eye contact when lying. But wait, the description says "Gaze towards interlocutor" is False, so they're not looking at the person they're talking to, which aligns with deception theory.
+
+But counterarguments: maybe they're just shy or uncomfortable, not lying. Gaze down could be from anxiety about the situation, not deception. The chin movements might just be natural speech gestures. And no other classic cues like blinking or fidgeting - that's suspiciously calm for a liar. Some people lie without obvious signs, but the absence of stress cues makes me wonder if they're actually truthful.
+
+I should also note that "lip corners up" is listed as True but "Smile" is False - that's a key detail. So it's a slight lip movement without a full smile, which is often deceptive. But I can't be sure. 
+
+The user's deeper need seems to be testing if I understand human behavior nuances - not just regurgitating deception cues. They want to see if I can weigh evidence without bias. I should emphasize the uncertainty: "It's tricky because..." and "I'd need more context."
+
+I'll structure my response to sound like a real person hesitating: start with observations, then list why it could be lying (fake smile, gaze down), then why it might not be (no stress signs, maybe just nervous), and end with "I'm leaning toward deception but not certain." 
+
+Must avoid academic terms - keep it conversational like "I've seen this before" not "Research shows." And absolutely no bullet points. The phrase "awkward pauses" isn't listed (it's False), so I won't mention it.
+
+Also, the chin movements: "upwards" and "downwards" both True? That's odd. Maybe they're nodding subtly? But "Nod" is False. Could be micro-movements while speaking. I'll describe it as "chin moving up and down" without overinterpreting.
+
+Finally, wrap it with "I'd want to hear the audio" to show I'm not jumping to conclusions. That feels human.
+</think>

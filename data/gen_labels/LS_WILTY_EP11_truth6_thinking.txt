@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that and make my own educated guess.
+
+Looking at the behavioral data, I notice several key points. The person is smiling (lip corners up), has lips protruded and retracted (which might indicate nervousness or forced expression), and shows frequent blinking. They're maintaining gaze toward the interlocutor, looking up and sideways, and nodding. There's head tilting and side-turning, but no scowling or frowning. The mouth is closed during awkward pauses, which could suggest hesitation.
+
+Hmm, the frequent blinking stands out as a potential red flag for deception since it's often associated with stress. But I know from psychology that blinking can also happen when people are concentrating or thinking hard, not necessarily lying. The smile seems genuine because it's paired with lip corners up rather than just a forced grin. The head movements (tilting, side-turning) might indicate engagement rather than deception.
+
+I should consider counterarguments too. If they were lying, I'd expect more classic signs like frowning, avoiding eye contact, or excessive fidgeting—but they're actually maintaining gaze and nodding. The closed mouth during pauses could be natural hesitation, not nervousness. 
+
+The user wants me to sound uncertain, like a human making a guess, not a confident AI. So I'll emphasize that behavior alone isn't definitive. I'll mention that the smile and gaze consistency lean toward truthfulness, but the blinking makes me pause. I should avoid technical terms and keep it conversational—like how a friend might say, "Hmm, they seem nervous but maybe just stressed about the topic."
+
+Also, the user specified no lists, so I'll weave everything into a flowing paragraph. I'll make sure to say things like "it's hard to tell" and "could be" to show hesitation. The key is balancing the evidence without overclaiming. 
+
+Wait—should I address why the label says "truth"? No, the instruction says to ignore the label, so I'll pretend I don't know it. My reasoning must stand on the behavior alone. 
+
+*Double-checking the data*: Yes, no laughing, no exaggerated expressions, no hands fidgeting. The absence of classic lie signs (like gaze aversion) actually supports truthfulness. But frequent blinking is the wildcard. I'll present both angles neutrally. 
+
+Finally, I'll end with "leaning toward truth" but stress it's not certain, since the user wants that human-like uncertainty. No "I'm 90% sure" nonsense—just a thoughtful, slightly hesitant assessment.
+</think>

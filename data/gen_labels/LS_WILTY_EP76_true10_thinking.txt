@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and reason like a human would.
+
+First, I need to look at the behavioral data provided. The key points are: gaze towards interlocutor (True), gaze sideways (True), and all other behaviors like smiles, frowns, blinking, etc., are False. So the person is making direct eye contact with the person they're talking to, but also looking sideways occasionally. 
+
+Hmm, in real life, when people are telling the truth, they often maintain steady eye contact, but some might glance away naturally. The fact that they're looking sideways might make me pause—sometimes liars avoid eye contact, but not always. Actually, research shows that truth-tellers can look away for normal reasons like thinking, so this might not be suspicious. 
+
+The absence of nervous tells is interesting. No fidgeting, no excessive blinking, no crossed arms—all the classic "lying" cues are missing. That leans toward truthfulness. But I should consider counterarguments: maybe the person is a skilled liar who doesn't show those signs, or they're just calm. 
+
+Also, the gaze towards interlocutor being true suggests they're engaged, which feels authentic. If they were lying, they might avoid eye contact more, but sideways glances could be normal. I recall studies saying that truth-tellers often have more natural gaze shifts, while liars might fixate or avoid. Here, the sideways glances seem relaxed, not forced. 
+
+Wait, the user emphasized not sounding too confident. So I should say things like "it's hard to say" or "this could go either way." I'll mention that the lack of nervousness is a point for truth, but the sideways gaze might raise a tiny doubt. 
+
+I need to make it sound like a human's hesitant thought process. Like, "I'm not 100% sure, but..." and include why I'm leaning toward truth. Also, avoid technical terms—just say "no signs of stress" instead of "absence of microexpressions." 
+
+The response should flow like a casual reply. Start with the gaze observation, then the lack of tells, then the counter: "But maybe they're just good at lying." End with a soft conclusion that it feels truthful but not certain. 
+
+Double-checking: the label is truth, so my reasoning should align with that. I'll make sure my counterarguments don't overstate the doubt—keep it balanced. Like, "the sideways glance is normal, so it doesn't mean lying." 
+
+Finally, wrap it up naturally: "Honestly, I'd lean toward truth because..." but add "though I can't rule out the other possibility." That's human.
+</think>

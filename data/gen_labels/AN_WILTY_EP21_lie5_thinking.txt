@@ -1,0 +1,86 @@
+We are given a structured description of the person's behavior in the video, but we are to imagine we don't see the description or the label. We are to watch the video and then write a text as if we are assessing the behavior to determine if the person is lying.
+
+However, note: the problem says we are to write as if we are watching the video (without the description) and then we are to reason about whether they are lying. But the description is provided for us to know what happened? Actually, no: the problem states that we are to imagine we don't see the description or the label. So we are to pretend we are watching the video and making our own assessment.
+
+But the problem also says: "Based on external, reliable information, the clip is labeled as deception." However, we are to ignore that label and the description. So we are to base our assessment solely on what we would see in the video.
+
+But wait: the problem gives us a structured description of the behavior. However, we are to imagine we don't have that. So we must not use it. But the problem is that we are given the description as part of the input. How to handle?
+
+Clarification: The problem says "Imagine you don't see the description or the label, just the video file instead." So we are to write as if we are watching the video and we don't have the description. Therefore, we must not refer to the specific behaviors in the description (like "raising eyebrows", "gaze down", etc.) because we wouldn't know them. We have to describe what we see in a natural way.
+
+However, the problem also says: "Write a text where you assess the person's behavior and estimate whether or not they are lying." and we are to reason as a human would.
+
+But note: the description is provided to us as a fact (True - the behavior occurred) so we know what the person did. However, we are to pretend we don't have that. So we must write as if we are watching and we are making observations without knowing the labels.
+
+But the problem is: we are given the description as part of the problem. How can we ignore it? We must ignore it for the purpose of writing the response.
+
+So, we are to write a response that does not reference the specific behaviors in the description. We are to write as if we are watching the video and making our own observations.
+
+But note: the problem says "the clip is labeled as deception" based on external information, but we are to pretend we don't know that. So we are to make an educated guess without knowing the label.
+
+We are to write a natural-sounding reply to the question "Is this person lying or telling the truth and why?".
+
+We are to include counterarguments and not sound too confident.
+
+Let's think about what we would see in the video if we were watching it (based on the description, but we are not allowed to say the description, so we have to describe the behavior in a natural way):
+
+From the description, we know:
+- Raising eyebrows: True
+- Lips retracted: True
+- Gaze towards interlocutor: True
+- Gaze down: True
+- Nod: True
+- And others are false.
+
+So in the video, we would see:
+- The person is raising their eyebrows (which might indicate surprise or skepticism, but in the context of lying, it can be a sign of stress or trying to appear sincere)
+- Lips retracted (which might mean they are pulling their lips back, which can be a sign of tension or trying to suppress a smile, but note: the description says "lips retracted" and it's true, but we don't know what that looks like without the label)
+- They are looking at the person they are talking to (gaze towards interlocutor) but also looking down (gaze down) at times? Or maybe the gaze down is when they are not looking at the interlocutor? Actually, the description says "Gaze towards interlocutor" and "Gaze down" both true. So they are looking down but still in the direction of the interlocutor? Or they are looking down at the ground? We don't know.
+
+But note: we are to write as if we are watching, so we have to describe what we see without using the labels.
+
+So let's imagine we are watching the video:
+
+We see a person speaking to someone. They are nodding (which is often a sign of agreement or listening, but can also be used to cover up when lying). They are raising their eyebrows a few times. Their lips seem to be pulled back a bit (like they are biting their lip or pulling it back, which might be a sign of stress). They look at the person they are talking to, but sometimes their eyes go down (maybe they are looking at the ground or at their hands).
+
+Now, we have to decide: are they lying?
+
+Common signs of lying (as per common knowledge) might include:
+- Avoiding eye contact (but here they are looking at the interlocutor, so that's a counter)
+- Fidgeting (but the description says no fidgeting like hands rubbing, etc.)
+- Inconsistent body language (like nodding while saying "no", but we don't have the content of the speech)
+
+But note: the description says "Gaze towards interlocutor" and "Gaze down" both true. So they are looking at the person but also looking down. This might be a sign of discomfort or lying? Or it might be normal.
+
+We also have "Lips retracted" which might be a sign of tension.
+
+But we have to be cautious: not all signs are reliable. For example, raising eyebrows can be normal for someone who is surprised or trying to be polite.
+
+So we have to write a response that is balanced.
+
+Let's draft:
+
+"I'm watching the video and trying to figure out if they're being truthful. They're nodding a lot, which is usually a sign of agreement, but sometimes people nod when they're trying to seem convincing. I also notice they're raising their eyebrows a few times, which can be a sign of stress or maybe they're just being expressive. Their lips seem pulled back a bit, like they're holding something in, which sometimes happens when people are nervous. And they keep looking down a little bit while they're talking, but they do keep their eyes on the person they're talking to. 
+
+On the other hand, they don't seem to be avoiding eye contact entirely — they're actually looking at the person, which is often a sign of truthfulness. They also don't seem to be fidgeting or doing anything with their hands that would be typical for someone lying. 
+
+So it's a bit mixed. The eyebrow raising and the lip thing make me think they might be a little nervous, which could be because they're lying, but it could also just be because they're in an interview or they're not used to being recorded. The fact that they're looking at the person and nodding might be a sign they're being honest. I'm not sure. It's hard to tell without knowing what they're saying, but based on the body language alone, I wouldn't say they're definitely lying. It's possible they're just a bit tense."
+
+But note: the problem says the clip is labeled as deception (so the external information says they are lying) but we are to pretend we don't know that. So we are not to say they are lying because we know the label. We are to make an educated guess.
+
+However, the problem says: "estimate whether or not they are lying" and we are to "deduct the correct label on your own". But we don't have the label, so we are to guess.
+
+But note: the problem says "the clip is labeled as deception" based on external information, meaning that the actual truth is that they are lying. However, we are to write as if we are watching without knowing that. So we are to write a response that is an honest assessment without knowing the label.
+
+So we have to be neutral.
+
+Let's write a response that is balanced and shows we are considering both sides.
+
+Important: We must not say we are sure. We must say "I'm not 100% sure" or similar.
+
+Also, note: the description says "Lips retracted" is true. We don't know what that looks like, but we can describe it as "their lips seem to be pulled back" or "they have a tight-lipped expression".
+
+But note: the description also says "Lip corners down" is false, so they are not frowning. So the lips being retracted might not be a frown.
+
+Let's write the response.
+</think>

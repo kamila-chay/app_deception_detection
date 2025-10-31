@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "truth," but I shouldn't know that. I have to write a natural-sounding analysis that seems like I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior data: the person has frequent blinking (True), lips retracted (True), gaze toward interlocutor (True), head tilting (True), and head side-turn (True). Other indicators like smiling, laughing, scowling are all False. 
+
+Hmm, frequent blinking can be a sign of stress or lying, but it's also common when people are thinking or nervous about being watched. Lips retracted—that's when lips pull back, like a slight grimace. It could indicate discomfort, but might just be a habitual expression. Head tilting and side-turning often show engagement or thoughtfulness, not necessarily deception. Gaze toward the interlocutor is good—liars often avoid eye contact, but not always. 
+
+I should consider counterarguments: maybe the blinking is just because of the camera light, or the lip retraction is from a dry mouth. The head movements could be natural when talking. But if they were lying, I'd expect more signs like fidgeting or avoiding eye contact, which aren't here. 
+
+The user probably wants to see if I can avoid overinterpreting micro-expressions. People often misread these as "tells," but context matters. I'll emphasize that absence of classic liar signs (like gaze aversion) supports truthfulness, but I won't say it's definitive. 
+
+Also, the response should sound human—hesitant, using phrases like "I'm not sure" or "it's hard to say." No lists, just flowing thoughts. And I must not mention the actual label "truth" since I'm supposed to be guessing. 
+
+*checks the behavior again* Wait, "lips retracted" is true—some might think that's a lie sign, but actually, it's often neutral. I'll clarify that in the response. 
+
+Finally, wrap it up by saying the behavior seems consistent with someone being truthful, but I can't be 100% sure. That keeps it realistic and avoids sounding like an AI claiming expertise.
+</think>

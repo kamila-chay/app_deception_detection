@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They provided a detailed behavioral description labeled as "truth" but I'm supposed to pretend I don't see that.
+
+Looking at the behavior details: The person has raised eyebrows, frequent blinking, lip corners up (smiling), gaze toward interlocutor, head tilting, and hands touching head/body. But no actual smile, laughter, scowling, or other classic "lying" cues. 
+
+Hmm... the key here is that the label says "truth" but I need to reason as if I'm watching the video. The raised eyebrows and head tilting could indicate confusion or thoughtfulness rather than deception. Frequent blinking sometimes happens when people are nervous, but it's not a reliable lie indicator - people blink more when concentrating or tired. The lip corners up suggests a slight smile, which might be genuine if they're trying to seem friendly while answering.
+
+I should consider counterarguments too. If they were lying, why would they have gaze toward the interlocutor? Liars often avoid eye contact, but not always. The head tilting could be a sign of engagement rather than deception. Hands touching head might be a nervous habit, but could also be just a natural gesture while thinking.
+
+Wait - the description says "Smile" is False, so it's not a full smile, just lip corners up. That's important. Many people think a forced smile is a lie sign, but here it's minimal. The lack of other stress cues (no frowning, no lip biting) makes it seem less like deception.
+
+I recall research showing that microexpressions and subtle cues are hard to read. The most reliable lie indicators are things like inconsistent stories, not facial expressions alone. Since I don't have the actual video context, I can't tell if their story makes sense. 
+
+The user wants me to sound uncertain, not confident. So I'll say "it's hard to tell" and mention both possibilities. I should avoid technical terms like "microexpressions" and keep it conversational. 
+
+Also need to remember: the hands touching head/body is the only physical gesture listed, which is pretty neutral. Not like hands covering mouth (which some think indicates lying). 
+
+For the counterargument, I'll note that if they were lying, they might be more tense, but the absence of obvious stress signs suggests truthfulness. But I can't be sure - maybe they're a good liar who doesn't show stress.
+
+Most importantly, I must not mention the "truth" label anywhere in my response. The whole point is to pretend I'm watching the video fresh. I'll describe what I see in the video without referencing the label.
+
+Let me structure my thoughts: Start with what I observe (eyebrows, blinking, etc.), then weigh the evidence for truth vs lie, then acknowledge the uncertainty. Keep it flowing like natural speech - "I'm not 100% sure but..." 
+
+The user seems interested in how humans actually judge deception, not just AI analysis. So I'll emphasize the subjectivity of this. Maybe add that "I've seen people fidget when telling the truth too" to show I'm not overconfident.
+
+And absolutely no bullet points - just smooth paragraphs. The challenge is making it sound like a real person's hesitation, not a textbook answer.
+</think>

@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not being too confident.
+
+Looking at the behavior description: the person has "Frequent blinking" (True), "Lips protruded" (True), "Chin moving upwards" (True), and "Head side-turn" (True). Other things like smiling, laughing, or frowning are all False. The key is to interpret these without knowing it's the truth label.
+
+First, I should think about what these behaviors might mean. Frequent blinking can sometimes indicate nervousness, which people associate with lying. But it could also be due to dry eyes or just being tired. Lips protruding might look like they're pouting or being stubborn, but it's not a clear sign of deception. Chin moving upwards could be a subtle sign of thinking or hesitation. Head side-turning might suggest they're avoiding eye contact, which is often linked to lying, but it could just be a natural gesture.
+
+I need to consider counterarguments. For example, if they're telling the truth, why would they blink a lot? Maybe they're just nervous about being filmed, not about lying. The head turning sideways might be a habit, not a sign of deception. Also, the absence of other "lie indicators" like frowning or lip biting is noteworthy—they're not showing obvious stress signs, which might suggest they're calm, which could mean truth-telling.
+
+The user mentioned this is based on external reliable info, but since I'm pretending not to see that, I have to rely only on the behavior. I should avoid listing points; instead, make it flow like a human thought process. 
+
+I'll structure my response to start with the observations, then weigh the evidence for and against lying, and end with a cautious conclusion. I need to sound uncertain, using phrases like "might suggest" or "could be," not "definitely." 
+
+Also, the response should be a reply to "Is this person lying or telling the truth and why?" so it needs to be conversational. I'll avoid technical terms and keep it natural. 
+
+Key points to include: 
+- Frequent blinking: could be nervousness (lie sign) or just a habit (truth sign). 
+- Lips protruded: not a strong indicator, might be neutral. 
+- Chin up and head side-turn: might indicate distraction or discomfort, but not definitive. 
+- No other stress cues: absence of frowning or sweating could lean toward truth. 
+
+Counterarguments: even if they're lying, they might not show classic signs if they're practiced. Or they could be truthful but anxious about the video. 
+
+I'll aim for a balanced take, leaning slightly toward truth because the behavior doesn't scream deception, but I'll admit it's ambiguous. That matches how humans would reason—no one's perfect at detecting lies. 
+
+Finally, I'll make sure the language is casual, like I'm chatting with a friend, not writing a report. Phrases like "honestly, it's hard to say" or "I'm not 100% sure" will help sell the uncertainty.
+</think>

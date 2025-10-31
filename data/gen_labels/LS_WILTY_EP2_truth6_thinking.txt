@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty. 
+
+Hmm, the key here is to avoid sounding too confident. The description says it's labeled as "truth" with specific behaviors: smile (True), frequent blinking (True), gaze towards interlocutor (True), gaze sideways (True), head tilting (True). But since I'm pretending not to see that, I'll focus only on the behaviors I'd observe.
+
+Let me think about what these behaviors might mean. Frequent blinking often gets associated with lying, but I remember reading that it's not reliable - people blink more when nervous, but nervousness can come from many things like stress or being in an interview. The smile is there, but it's a bit ambiguous - is it a genuine smile or forced? The description says "Smile: True" but doesn't specify type. 
+
+Gaze towards the interlocutor is good for truthfulness, but gaze sideways might indicate distraction. Head tilting often suggests engagement or curiosity, which could support truthfulness. But I should consider counterarguments: maybe they're blinking because of the lights, or the sideways gaze is just how they think. 
+
+I need to balance both sides. For truth: consistent eye contact (mostly), head tilting showing attentiveness, smile. For lie: frequent blinking as potential nervousness, sideways gaze as possible avoidance. But I shouldn't overstate - blinking alone isn't proof of lying. 
+
+The user probably wants to see if I understand that micro-expressions aren't foolproof. They might be testing if I'll fall for common myths about lying cues. I should emphasize that context matters - was it a high-stakes situation? But since I don't have context, I'll have to say it's ambiguous. 
+
+Also, the description has "Gaze towards interlocutor" and "Gaze sideways" both true - that seems contradictory. Wait no, maybe they look directly sometimes then glance sideways. I'll interpret it as occasional sideways glances during the clip. 
+
+For my response, I'll start with what I observe, then weigh the pros and cons, and end with "hard to say" to keep it realistic. Must avoid phrases like "definitely" or "clearly". Should sound like a person hesitating while thinking. 
+
+*checks the behaviors again* No frowning, no lip biting, no hand movements - that's actually consistent with truth-telling (since liars often have more fidgeting). But the blinking is the main red flag. 
+
+I'll structure it: 1) Describe what I see 2) Explain why it might be truth 3) Explain why it might be lie 4) Conclude it's uncertain. And make sure to say "if I had to guess" not "I conclude". 
+
+*mental note* Don't mention the label at all since I'm pretending not to see it. And absolutely no bullet points - keep it flowing like natural speech.
+</think>

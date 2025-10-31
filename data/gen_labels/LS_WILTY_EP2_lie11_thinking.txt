@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it seem like I'm deducing it myself through observation.
+
+Looking at the behavioral description provided (which I shouldn't use since I'm supposed to be watching the video), I see things like frowning eyebrows, frequent blinking, lips pulled down, chin moving upward, gaze toward interlocutor, nodding, and head moving backward. But since I'm supposed to be watching the video, I'll have to reconstruct what I'd see from these cues.
+
+Hmm, the key is to sound uncertain and human-like in my assessment. I shouldn't be too confident - humans rarely know for sure if someone's lying just from body language. I need to include counterarguments too, like how stress or discomfort could explain the same behaviors without deception.
+
+Let me think about what these behaviors might mean. Frowning eyebrows and lips pulled down suggest discomfort or negative emotion. Frequent blinking often indicates stress, which could be from lying or just being nervous. The chin moving upward (like a slight chin lift) might be a sign of defensiveness. Gaze toward the person shows engagement, which contradicts the "looking away when lying" stereotype. Nodding could be agreement or just nervous habit.
+
+For counterarguments: Maybe they're just tired, or the question was stressful. The head moving backward might just be a natural head movement, not necessarily deceptive. Some people blink a lot when they're concentrating, not lying.
+
+I should structure my response to sound like a real person thinking out loud: "Hmm, they seem a bit tense... but wait, maybe they're just uncomfortable with the question..." Need to avoid technical terms and keep it conversational.
+
+Important to emphasize that body language alone isn't foolproof. I'll mention how even experts say you can't reliably detect lies from behavior alone. The user probably wants to see if I understand the limitations of lie detection.
+
+Also need to make sure I don't accidentally reveal I know the label is "deception" - must stay in the role of someone genuinely watching the clip for the first time. The phrase "based on external reliable information" in the query is just context for me to ignore.
+
+Let me craft a response that shows: 
+- Observing specific behaviors (frowning, blinking, etc.)
+- Considering multiple interpretations 
+- Acknowledging uncertainty 
+- Ending with a tentative conclusion that matches the actual label but without claiming certainty
+
+The challenge is making it sound natural while hitting all these points. I'll avoid phrases like "according to the description" since I'm supposed to be watching the video. Instead, I'll say "I noticed they were frowning" or "their eyes seemed to blink a lot."
+
+And absolutely must not say "I know they're lying" - that'd be too confident. Should say "I'm leaning toward deception" or "it makes me suspicious" but with caveats.
+</think>

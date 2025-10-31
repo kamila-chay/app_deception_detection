@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not being too confident.
+
+Looking at the description provided: the person has "Gaze towards interlocutor" (True), "Nod" (True), and "Crossing fingers" (True). All other behaviors like smiling, laughing, frowning, blinking, etc., are False. So they're making eye contact, nodding, and crossing their fingers. 
+
+Hmm, in real life, people often cross their fingers when they're trying to hide something or hoping for luck, which could be a sign of deception. But I shouldn't jump to conclusions. I need to consider both sides. 
+
+First, the counterarguments: Nodding and maintaining eye contact are usually signs of truthfulness. If someone's lying, they might avoid eye contact or nod less, so this could actually suggest honesty. Crossing fingers might just be a nervous habit—maybe they're just fidgeting without any deception. I've seen people cross fingers when they're stressed about something unrelated, like waiting for a test result.
+
+But then, the deception label makes me think: crossing fingers is a classic "telling a lie" gesture in many cultures. It's not always about lying, but combined with the other behaviors, it stands out. The description says no other signs like fidgeting or avoiding eye contact, so the crossing fingers is the main thing. 
+
+I should make my response sound hesitant. Like, "I'm not sure, but..." and mention how it's hard to tell. Humans would say things like "I've seen people cross fingers when they're nervous, but it could just be a habit." I need to avoid sounding like I'm certain. 
+
+Also, the user emphasized making it sound natural for a reply to "Is this person lying or telling the truth and why?" So I'll structure it as a casual thought process. Start with the positives for truthfulness (eye contact, nodding), then the red flag (crossing fingers), then the counterarguments. End with "I'm leaning toward deception but not sure."
+
+Gotta check if I'm missing anything. The description says "Gaze towards interlocutor" is True, so they're looking at the person they're talking to, which is good for truth. Nodding is a sign of agreement, which might mean they're being sincere. But crossing fingers is the odd one out. 
+
+I'll make sure not to use any bullet points or lists—just flowing sentences. And keep the tone uncertain: "It's tricky because..." or "I'd need more context." 
+
+Finally, align with how humans think: we don't have a lie detector, so we go by common cues but know they're not foolproof. That's why I'll say "I'm not 100% sure" in the response.
+</think>

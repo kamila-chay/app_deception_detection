@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided (which I shouldn't actually see since I'm supposed to be watching the video), it shows the person has "truth" label with specific behaviors: they're making eye contact ("Gaze towards interlocutor": True), nodding ("Nod": True), looking up ("Gaze up": True), and having arms open with arms folded ("Arms open": True, "Arms folded": True). There are no signs of typical "lying" behaviors like frowning, frequent blinking, or avoiding eye contact.
+
+But since I'm supposed to pretend I don't see this, I'll have to base my assessment purely on what I'd observe in the video. The key points I'd notice are: consistent eye contact (which often indicates truthfulness), nodding (which can show engagement), and open body language with arms both open and folded (which might suggest comfort or thoughtfulness). The absence of nervous gestures like fidgeting or avoiding gaze would be notable.
+
+I should consider counterarguments too - maybe the person is just very calm, or perhaps they're lying but good at controlling their body language. Some people can maintain eye contact while lying, especially if they're practiced. The arms being both open and folded is a bit confusing - it might mean they're shifting positions, which could be neutral.
+
+The user wants me to sound uncertain, so I'll use phrases like "I'd lean toward" or "it's hard to say" instead of definitive statements. I'll avoid listing behaviors and keep it conversational. I'll also make sure to mention why the absence of "lying" cues matters, but balance it with why those cues aren't foolproof.
+
+For the response structure: I'll start by describing what I see in the video (eye contact, nodding, arm positions), then explain why that suggests truthfulness, then pivot to counterarguments about why it might not mean anything, and end with a tentative conclusion. I'll keep it to a few short paragraphs to sound natural.
+
+I need to be careful not to reference the actual label or description - just describe the behaviors I'd observe. The "arms open" and "arms folded" together is interesting - it might look like they're resting their arms in a way that's neither fully open nor closed, which could be neutral. I'll describe it as "arms folded but not crossed" to sound observational.
+
+The key is to sound like a regular person trying to figure this out, not an expert. So I'll use "I notice" instead of "the data shows," and admit when things are ambiguous.
+</think>

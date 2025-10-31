@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception," but I need to pretend I don't see that label and reason through it like a human would.
+
+First, I need to focus on the behavioral cues from the description. The key points are: lips protruded (wait no, the description says "Lip corners down" is True, and "Lips protruded" is False). Let me double-check that. The description shows "Lip corners down: True" and "Lips protruded: False." So the person has downturned lips, which often indicates sadness or displeasure, not necessarily deception. Also, "Gaze towards interlocutor: True" means they're making eye contact, which can be a sign of truthfulness, but not always. "Gaze sideways: True" suggests they're looking away sometimes, which might indicate discomfort or lying. "Head side-turn: True" is another sign of avoidance.
+
+Hmm, the user mentioned that the actual label is deception, but I have to pretend I don't know that. So I need to weigh the cues without bias. Downturned lips could mean they're upset about the topic, not lying. Eye contact is good, but gaze sideways might counter that. Head turning sideways is a classic sign of deception, as people might avoid direct gaze when lying. But it's not definitive—some people naturally look away when thinking, even when truthful.
+
+I should consider counterarguments. Maybe they're just nervous because they're being recorded, not lying. Or they're genuinely upset about the subject, so the downturned lips make sense. The absence of other cues like frequent blinking, frowning, or hand movements might suggest they're not overly stressed, which could lean toward truthfulness. But the head turning and gaze shifting are red flags.
+
+The user wants me to sound uncertain, like a human making an educated guess. So I shouldn't say "definitely lying" but rather "it's possible they're lying because of X, but Y could explain it." I need to avoid listing points and keep it conversational. Also, the response should be natural, like a reply to "Is this person lying?"
+
+Let me structure my thoughts: Start with the main observations (downturned lips, eye contact, gaze shifting, head turning), then discuss why it might indicate deception (avoidance cues), then counter with why it might not (nervousness, emotional state), and end with a balanced conclusion. Emphasize that it's not clear-cut.
+
+Check if I'm missing anything. The description says "Lip corners down" is true, which is key—it's not a smile, so they're not trying to seem pleasant. But that's common when people are serious or sad. The head side-turn is interesting; it's a subtle avoidance. In deception research, gaze aversion is a common indicator, but it's not foolproof. I should mention that.
+
+Also, the user specified no lists, so I'll write in paragraphs. Keep it flowing: "I noticed they kept their lips downturned... but they were making eye contact sometimes... however, when they looked away, it was to the side..." Then discuss possibilities.
+
+Make sure not to sound too confident. Use phrases like "it's hard to say," "could be," "might be." Avoid "I'm sure." The goal is to mimic human hesitation in real-life deception detection.
+
+Finally, align with how humans actually think: we see a mix of cues, some pointing one way, others the opposite, and we're often uncertain. So the response should reflect that ambiguity.
+</think>

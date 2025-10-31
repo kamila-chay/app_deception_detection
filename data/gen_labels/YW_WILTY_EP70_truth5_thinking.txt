@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavior description that's labeled as "truth" but I need to ignore that and pretend I'm just watching the video.
+
+Looking at the behavior data: the person is smiling (Smile: True), has frequent blinking (Frequent blinking: True), and maintains gaze towards the interlocutor (Gaze towards interlocutor: True) while also looking sideways (Gaze sideways: True). Other behaviors like laughter, scowling, or head movements are all False.
+
+Hmm... I need to reason like a human would. Frequent blinking can be a sign of stress or lying, but it's not definitive - people blink more when they're nervous about many things, not just lying. The smile and direct gaze might suggest honesty, but I should be careful because some liars smile to seem trustworthy. The sideways glance is interesting - it could mean they're recalling information (since people often look sideways when thinking) or it could be avoidance.
+
+I should consider counterarguments too. Maybe the frequent blinking is just because of dry eyes or bright lighting, not deception. And that sideways gaze might just be their natural way of looking while speaking. The smile could be genuine if they're happy about the topic, not forced.
+
+I'll structure my response to sound like I'm genuinely trying to figure this out, not claiming certainty. I'll mention the blinking as a potential red flag but balance it with the direct gaze and smile. I'll note that the sideways look might be neutral. I should avoid saying "this proves they're lying" or "this proves truth" - just say "this makes me lean toward" or "I'm not sure because..."
+
+The user wants it to sound natural like a human reply, so I'll keep it conversational with phrases like "I'm not entirely sure" and "it's a bit ambiguous." I'll make sure not to use any bullet points or lists as requested. And I'll emphasize that without more context, it's hard to be certain - which is how real humans would approach this.
+
+I should also remember that the actual label is "truth" so my reasoning should align with that conclusion, but I can't say I know that - I have to pretend I'm discovering it from the video. So my assessment should lean toward truth but with caveats, matching the behavior data where the smile and direct gaze outweigh the blinking.
+
+Let me craft a response that shows this careful weighing of evidence, acknowledging the uncertainty, and ending with a reasonable conclusion that matches the given label.
+</think>

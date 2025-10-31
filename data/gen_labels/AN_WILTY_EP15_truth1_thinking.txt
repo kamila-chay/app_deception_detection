@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "truth," but I shouldn't know that. I have to write a natural-sounding analysis that's uncertain, like a human making an educated guess.
+
+First, I need to recall the behavioral cues from the description. The key points are: smile (True), lip corners up (True), gaze towards interlocutor (True), gaze sideways (True), head tilting (True), palms up (True). Other cues like laughter, scowling, or frequent blinking are false. So the person is smiling, looking at the person they're talking to, occasionally glancing sideways, tilting their head, and having palms up—no signs of stress like fidgeting or avoiding eye contact.
+
+Now, I should think about how humans actually interpret these cues. Smiling and eye contact are often seen as signs of honesty, but I know from psychology that people can fake smiles or maintain eye contact when lying. Palms up is sometimes associated with openness, but it's not a definitive sign. Head tilting can indicate engagement, not necessarily truthfulness. Gaze sideways might mean they're thinking, not lying.
+
+I need to consider counterarguments. Maybe the smile is forced—like a polite smile when they're actually nervous. Or the sideways glance could be a sign of deception, though it's not strong evidence. The palms up might just be a natural gesture. I should mention that absence of "lying" cues (like fidgeting) supports truthfulness, but it's not proof.
+
+The user emphasized not sounding too confident. So I'll use phrases like "it's hard to say," "could be," "might suggest," and "doesn't strongly indicate." I'll avoid absolute terms like "definitely" or "proves." 
+
+Also, the response should sound like a real person replying to a question. So no jargon, just conversational. Start with "Hmm, this is tricky," to show hesitation. Then walk through the observations step by step: the smile, the eye contact, the head tilt, the palms up. Then counter with possible reasons it might not mean truth, like the smile could be fake.
+
+Check if I'm aligning with human reasoning. People often over-rely on eye contact or smiles as truth indicators, but good analysis acknowledges limitations. I'll make sure to say that while the behavior looks open, it's not foolproof. 
+
+Finally, wrap it up by saying it leans towards truth but with caveats. Since the actual label is truth, my reasoning should naturally lead to that without stating it outright. Keep it balanced—give weight to both sides but lean slightly towards truth based on the cues.
+
+Make sure not to mention any specific labels or the description. Just describe what I see in the video. And avoid lists—use flowing sentences. Like "They're smiling, which usually suggests comfort, but..." instead of bullet points.
+
+Double-check the cues: no laughter, no scowling, no awkward pauses, so the smile seems genuine. Gaze is mostly towards the interlocutor, which is good, but sideways glances might be natural. Head tilting often means listening, not lying. Palms up is a classic "I'm open" gesture.
+
+Counter: Could the sideways glance be them looking away to fabricate a story? But the description says gaze sideways is true, and it's not constant, so probably not. Also, no other stress cues, so lying would be harder to fake without those.
+
+End with uncertainty: "I'm not 100% sure, but it seems like they're being truthful based on what I'm seeing." That matches the "educated guess" request.
+</think>

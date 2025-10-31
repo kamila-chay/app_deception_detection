@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. I need to base this on the behavioral cues provided in the structured description, but pretend I'm deducing it from the video alone.
+
+Looking at the description, it's labeled as "truth" with specific behaviors: smile (True), mouth closed (awkward pauses) (True), lip corners up (True), lips retracted (True), gaze towards interlocutor (True), gaze sideways (True), head side-turn (True), arms open (True), and others are False. The key is to interpret these as natural behaviors that might indicate truthfulness.
+
+I recall that in lie detection, people often have different cues when lying versus telling the truth. For truth-tellers, common signs include natural smiles, maintaining eye contact, open body language, and fewer nervous gestures. Here, the person has a smile (lip corners up), no scowling or frowning, arms open (which is a sign of openness), and gaze towards the interlocutor (though also sideways, which might be natural). The mouth being closed with awkward pauses could be normal hesitation in truthful speech, not necessarily nervousness.
+
+But I should consider counterarguments. Some might think that awkward pauses could indicate lying, but in reality, truth-tellers also pause when thinking. The arms open is a strong positive sign for truthfulness. The head side-turn might be a natural gesture, not a sign of deception. The lips retracted (pulling back) with a smile could be a genuine expression, as opposed to a forced smile which might involve different cues.
+
+I need to avoid sounding too confident. Humans often second-guess, so I'll use phrases like "it's hard to say" or "I'm not sure." I should mention that some cues like gaze sideways could be misinterpreted as avoiding eye contact, but since they're also looking towards the interlocutor, it might just be a natural head movement.
+
+Also, the absence of nervous behaviors like frequent blinking, hand rubbing, or frowning supports truthfulness. Liars often show more of those, but not always—some people lie calmly. So I'll note that while the cues align with truth, it's not absolute.
+
+The user wants this to sound like a human's natural response, so I'll keep it conversational, with some hesitation. I'll structure it as a reply to "Is this person lying or telling the truth?" without listing points.
+
+Key points to cover: positive cues (smile, open arms, eye contact), why they suggest truth, counterarguments (awkward pauses, gaze sideways), and why it's not definitive. End with a balanced conclusion that leans towards truth but acknowledges uncertainty.
+
+Make sure not to use any markdown, just plain text. Keep it flowing like a real person talking.
+</think>

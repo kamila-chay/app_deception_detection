@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I have to pretend I'm making an educated guess from the video alone. 
+
+First, I need to recall the behavioral cues from the description: raised eyebrows, lip corners down, gaze toward interlocutor, gaze up, and shrugs. The key is to avoid sounding too confident and to include counterarguments. 
+
+Hmm, the user emphasized making it sound natural like a human would reason. So I shouldn't list points but weave them into a flowing thought. I should start by describing what I see in the video—like the raised eyebrows and the downward lip corners—since those are the most noticeable. 
+
+I remember that raised eyebrows can mean surprise or confusion, not always deception. And lip corners down might just show sadness or frustration. The gaze toward the person could be normal engagement, not a sign of lying. Gaze up might indicate thinking, which is common when recalling details. The shrug is tricky—it's often a "I don't know" gesture, which could be truthful or evasive. 
+
+Wait, the user said to include counterarguments. So I should consider why it might not be deception: maybe the person is genuinely stressed about the topic, or the behavior is cultural. For example, some people naturally have raised eyebrows or use shrugs often. 
+
+I need to balance the evidence. The description says "deception" is the label, but I have to pretend I don't know that. So in my response, I'll say the behavior leans toward deception but isn't conclusive. I'll mention that without context, it's hard to tell—like if the question was about something personal, the stress could be real. 
+
+Also, avoid technical terms. Keep it casual: "I'd be hesitant to call it a lie" instead of "the behavior aligns with deception indicators." And end with uncertainty, like "hard to say for sure." 
+
+Let me check the cues again: no smile, no laughter, no frowning—so the lip corners down is the main facial thing. Gaze up is a red flag in some studies, but not always. Shrugs are neutral. 
+
+I'll structure it as: 
+- Describe what I see (eyebrows, lips, gaze, shrug). 
+- Say it feels a bit off, but... 
+- Counter with why it might be innocent. 
+- Conclude with "leaning toward deception but not certain." 
+
+Make sure it's not robotic. Add phrases like "I'm not a lie detector" to sound human. And no markdown—just plain text. 
+
+Finally, double-check: the user wants it to seem like I deduced it myself, so I'll avoid "based on the description" since I'm pretending not to have it. Focus only on the video behavior I'd observe.
+</think>

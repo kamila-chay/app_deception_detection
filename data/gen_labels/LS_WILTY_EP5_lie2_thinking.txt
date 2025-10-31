@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided (which I shouldn't actually see since I'm supposed to be watching the video), I notice it says the clip is labeled as deception. But I have to pretend I don't know that. The description lists behaviors like "Smile: True," "Raising eyebrows: True," "Frequent blinking: True," "Exaggerated eye closing: True," "Gaze sideways: True," "Head tilting: True," "Head side-turn: True," "Head shaking: True," and "Arms open: True."
+
+Hmm, as a human observer, I'd notice these behaviors and try to interpret them. Let me think about what each might mean. A smile could be genuine or forced, but since it's listed as "Smile" without "awkward pauses," it might be a bit unnatural. Raising eyebrows often indicates surprise or skepticism, which could be part of deception. Frequent blinking is a classic nervous tic - people blink more when stressed. Exaggerated eye closing might suggest they're trying to avoid eye contact or thinking hard. Gaze sideways is interesting; people often look away when lying, but it could also just be them being distracted or uncomfortable. Head shaking is usually a "no," but combined with other signs, it might indicate denial. Head tilting and side-turning could be signs of discomfort or processing information. Arms open might seem like openness, but in deception contexts, it could be a "defensive" posture to appear non-threatening.
+
+I should consider counterarguments too. Maybe they're just naturally expressive - some people raise eyebrows a lot or blink frequently without lying. The smile could be genuine if they're happy about something, and arms open might just mean they're relaxed. Gaze sideways might not mean deception; they could be looking at something else in the room. Head shaking could be a habit, not related to lying.
+
+The user wants me to sound uncertain, like I'm weighing possibilities. So I shouldn't say "definitely lying" but rather "I'm leaning toward deception because of X, but it could also be Y." I need to avoid sounding like a robot listing points - it should flow like natural human reasoning.
+
+Also, the response should be in reply to "Is this person lying or telling the truth and why?" so I'll structure it as a conversational assessment. I'll mention specific behaviors I saw and why they make me doubt, then acknowledge why they might not be lying. 
+
+Key things to include: the blinking and eye movements as potential nervousness, the head gestures as possible avoidance, but also the arms open as conflicting with deception cues. I should emphasize that these are just indicators, not proof. 
+
+Let me craft this carefully - make it sound like I'm hesitating, saying "I'm not 100% sure but..." to match the "educated guess" requirement. And absolutely no bullet points; just smooth paragraphs.
+</think>

@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. They've provided a detailed "description" that says the behavior didn't occur (all False values), but the actual label is "deception" - meaning the person is lying.
+
+Hmm, this is interesting because the description says there are no deceptive behaviors present (all the micro-expressions and gestures are marked as false), but the label says it's deception. So I need to write as if I'm watching the video and noticing something subtle that the description missed.
+
+I should make my response sound like a human making an educated guess, not claiming certainty. The user emphasized avoiding confidence - so phrases like "I'm not 100% sure" and "it's tricky" would be good. I'll need to include counterarguments too - like why it might not be lying.
+
+Let me think about what a real person would notice in a video. If there are no obvious tells (like fidgeting or avoiding eye contact), the deception might be more subtle. Maybe the person is being too calm? Or the story seems rehearsed? The description says "mouth closed (awkward pauses)" is false, but maybe there are slight pauses that aren't noticeable to the naked eye.
+
+I should mention the lack of obvious signs first - that's the first thing a viewer would notice. Then pivot to why it still feels off. Like, maybe the person seems overly smooth or doesn't react to questions in a natural way. But I have to be careful not to contradict the description too much - the description says "no awkward pauses" but I can say "I didn't see pauses but it still felt...".
+
+For counterarguments, I'll note that some liars are good at controlling their body language, so absence of tells doesn't prove truthfulness. And maybe the person is just nervous for a different reason.
+
+The tone should be conversational - "I'm watching this and...". No lists, just flowing sentences. And I must remember: the actual label is deception, so my reasoning should lean that way but with uncertainty.
+
+I'll structure it: 
+- Start with what I observe (calm, no obvious signs)
+- Then why I'm suspicious (too calm? inconsistent story?)
+- Then counter: maybe they're just good at lying
+- End with "I'm leaning toward deception but not sure"
+
+Key phrases to include: "it's hard to say", "could be", "doesn't feel quite right", "I'd need to hear more to be sure".
+
+Also important: avoid any mention of the provided description or label since I'm supposed to be watching the video only. The user said "imagine you don't see the description", so I must not reference it at all.
+</think>

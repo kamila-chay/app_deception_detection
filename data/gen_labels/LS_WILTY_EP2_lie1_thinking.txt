@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch.
+
+First, I need to recall the behavioral cues from the description: Smile (True), Raising eyebrows (True), Exaggerated eye opening (True), Lip corners up (True), Lip corners down (True), Gaze towards interlocutor (True), Gaze down (True), Arms open (True). The key things to focus on are the contradictions and unusual expressions.
+
+Hmm, the person is smiling but also has lip corners down—that's confusing. Normally, a genuine smile would have corners up, but here they have both up and down, which might indicate forced or fake smiling. The exaggerated eye opening is a classic sign of deception, like when someone tries to look more engaged. Raising eyebrows could be nervousness or trying to seem innocent. The gaze down while looking at the interlocutor might be avoiding eye contact, which people often do when lying.
+
+But wait, counterarguments: Maybe they're just excited or emotional. The arms open could mean openness, not deception. Gaze down might be cultural or a sign of thoughtfulness, not lying. The description says gaze towards interlocutor, so they're not avoiding eye contact entirely, which complicates things. Also, the smile being present might suggest they're trying to be friendly, not necessarily deceptive.
+
+I should consider how humans actually interpret these cues. People often misread microexpressions, so I shouldn't be too sure. The exaggerated eye opening and the mixed lip cues are red flags, but the arms open and gaze towards the person might counter that. The user wants me to sound uncertain, so I'll emphasize that it's ambiguous and point out both sides.
+
+Also, the user mentioned avoiding lists, so I'll write in a natural, flowing paragraph. Need to make it sound like I'm hesitating, like "I'm not 100% sure, but..." 
+
+Let me structure my thoughts: Start with what stands out (exaggerated eyes, mixed smile), then the counterpoints (arms open, gaze direction), and end with a balanced conclusion. Make sure to mention that deception isn't always obvious and that context matters, which humans would say.
+
+Check if I'm aligning with human reasoning: Yes, we'd notice contradictions in expressions and wonder if it's nervousness or lying. The key is to not overstate, so phrases like "could be" and "might be" are important.
+
+Finally, ensure the response is a natural reply to "Is this person lying?" without sounding robotic. Avoid technical terms; keep it conversational.
+</think>

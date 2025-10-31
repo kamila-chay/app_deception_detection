@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "Truth," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the behavior description provided (which I shouldn't use directly), I need to reconstruct what I'd observe from the video. The key behaviors listed are: raised eyebrows (True), gaze sideways (True), and palms up (True). Other cues like no smile, no laughter, no frowning are also noted. But since I'm supposed to be watching the video, I'll focus on how these would appear visually.
+
+I should avoid sounding too confident. Humans would hesitate when assessing truthfulness, especially since microexpressions can be tricky. I'll emphasize that I'm not certain, just noting what I see. The raised eyebrows and sideways glance might suggest discomfort or evasion, which people often associate with lying. But I should counter that—maybe they're just nervous about the topic, not lying. The palms-up gesture is often seen as open and honest, which contradicts the lying hypothesis.
+
+The user's deeper need here is probably about understanding how to judge truthfulness in real life, not just getting a label. They might be testing if I can avoid overconfidence and show balanced reasoning. I should make sure my response feels human—hesitant, with "maybe" and "could be" language.
+
+I'll structure my thought process: first describe what I see (eyebrows up, gaze sideways, palms open), then weigh the pros and cons of lying vs. truth. For lying: raised eyebrows can indicate stress. For truth: palms up is a common honest gesture, and sideways gaze might just mean they're thinking. I'll mention that nervousness doesn't equal lying—it's a common pitfall.
+
+I need to avoid technical terms like "microexpressions" and keep it conversational. Phrases like "I'd be tempted to think" or "it's hard to say" will help. Also, I'll include that the lack of other cues (like fidgeting) makes it less clear-cut. 
+
+Finally, I'll wrap up by saying I'm leaning toward truth but not sure, matching the actual label. This shows I'm not just parroting the answer but reasoning through it like a human would.
+</think>

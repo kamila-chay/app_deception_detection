@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception," but I need to pretend I don't have that label and reason through it like a human would.
+
+Looking at the behavioral data: The person has frequent blinking (True), lip corners up (True), and gaze towards interlocutor (True). But no smiling, laughter, scowling, or other typical deception cues like frowning eyebrows or hand movements. That's interesting because most people think liars avoid eye contact or smile nervously, but here they're making eye contact and have lip corners up (which could be a forced smile).
+
+Hmm, the frequent blinking stands out as a potential deception cue - I've read that people blink more when stressed. But I should consider counterarguments too. Maybe they're just tired, or the lighting is bothering their eyes. The lip corners up could be genuine if they're trying to be polite, not necessarily deceptive. And maintaining eye contact is actually more consistent with truth-telling than lying, according to some research.
+
+I should be careful not to sound too confident. The user wants me to sound like I'm making an educated guess, not stating facts. So I'll say things like "it's possible" or "could indicate" rather than "this proves."
+
+The user also wants natural-sounding language - no bullet points, just flowing text. And I need to include counterarguments to show I'm considering both sides. Like, maybe the frequent blinking is just from dry eyes, or the lip movement is just them being friendly.
+
+I'll structure my response to start with the observations, then discuss the blinking as a possible deception sign, then immediately counter it with alternative explanations. Then mention the eye contact as a counterpoint to deception. End with "it's hard to say" to keep it uncertain like the user requested.
+
+Important to avoid any phrases that sound like I know the label. No "since the label says deception" - that would break the premise. Just pure observation-based reasoning.
+
+Also noting that the description says "lip corners up" not "smile" - so it's not a full smile, just the corners, which might be more subtle. That's worth mentioning as it's less obvious than a full smile.
+
+And I should emphasize that deception cues are rarely definitive - one sign doesn't make a liar. That's why I'll say "no single behavior is conclusive" in my response.
+
+The gaze towards interlocutor is particularly important to address because many people think liars look away, but actually truth-tellers often maintain eye contact. So that's a strong counterargument to the deception label.
+
+For the conclusion, I'll say it's ambiguous but leaning toward truth-telling because of the eye contact, while acknowledging the blinking could be a red herring. But I'll keep it tentative - "might be telling the truth" not "is telling the truth."
+
+This should feel like a real human hesitating over the evidence, not a confident AI statement. The user specifically wants that uncertainty to be realistic.
+</think>

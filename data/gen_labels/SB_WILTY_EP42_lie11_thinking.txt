@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided (even though I shouldn't use it directly in my response), I see key indicators: smile (True), raising eyebrows (True), chin moving up and down (True), gaze down (True), nod (True), head tilting (True), head side-turn (True). The label says deception, so I need to reason as if I'm observing these behaviors in a video.
+
+Hmm, as a human watching this, I'd notice several things. The smile and raised eyebrows might seem like positive engagement, but the chin movements and gaze down could be signs of discomfort. People often look down when lying, but it's not always the case—sometimes it's just shyness or thinking. The head tilting and side-turning might indicate they're processing something, but could also be nervous habits. Nodding while speaking is common, but if it's excessive, it might be a tell.
+
+I should consider counterarguments too. Maybe they're just naturally expressive—some people smile and raise eyebrows a lot without lying. The chin movement could be a nervous tic, not deception. Gaze down might mean they're concentrating, not hiding something. I need to balance these possibilities without sounding too sure.
+
+The user wants me to sound like I'm deducing it myself, so I'll avoid phrases like "according to the data." Instead, I'll describe what I see: "I noticed they kept smiling but their eyes were looking down..." Then weigh the evidence. I should admit uncertainty—say things like "it's hard to tell" or "could be either."
+
+Also, the response must be conversational, like a real person replying to "Is this person lying?" So no lists, just flowing text. I'll start with what stands out, then discuss why it might or might not indicate lying, and end with a cautious conclusion.
+
+Key points to cover: 
+- Positive cues (smile, nod) vs. negative cues (gaze down, chin movement)
+- Why gaze down might mean lying (avoiding eye contact) but also why it might not (shyness)
+- Head tilting as a sign of thoughtfulness, not necessarily deceit
+- Emphasize that no single cue is definitive
+
+I'll make sure not to overstate—say "I'm leaning toward deception" but add "though it's not clear-cut." And definitely include that counterargument about natural behavior. The user's deeper need is probably to see how humans handle ambiguous evidence, so I'll model that uncertainty.
+
+Finally, I'll double-check that my response doesn't reference the label or description—it's all based on imagined video observation. Keep it human: "I've seen people do this when they're nervous, but I'm not 100% sure."
+</think>

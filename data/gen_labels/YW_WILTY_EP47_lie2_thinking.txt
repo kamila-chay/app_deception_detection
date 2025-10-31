@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I have to pretend I'm making this judgment from scratch. 
+
+Hmm, the description says things like "Gaze towards interlocutor: True" and "Head shaking: True," but also "Palms up: True" and "Arms open: True." Those are interesting because open palms and arms are often seen as signs of honesty in some cultures, but head shaking could mean disagreement or denial. 
+
+I should be careful not to sound too confident. The user emphasized making it seem like an educated guess, not a certainty. So I'll need to present both sides: why it might be deception and why it might not be. 
+
+Let me think about the behaviors mentioned. The person is making eye contact (gaze towards interlocutor), which is usually associated with truth-telling. But they're shaking their head—wait, head shaking can mean "no" or disagreement, which might indicate they're denying something. However, head shaking alone isn't a strong deception indicator. 
+
+The open palms and arms are tricky. In some contexts, open hands suggest openness and truthfulness, but in others, it could be a nervous gesture. I recall that in deception research, open palms are sometimes linked to honesty, but it's not foolproof. The user said "external, reliable information" points to deception, so I should consider why the label is deception despite these signs. 
+
+Wait, the description also says "Head shaking: True" and "Palms up: True." Maybe the head shaking is part of denying something, and the open palms are an attempt to seem credible. That could align with deception—people might use open gestures to appear trustworthy while lying. 
+
+But I should also consider counterarguments. Maybe the head shaking is just a natural gesture for emphasis, not related to deception. Or maybe the person is genuinely upset and shaking their head in frustration, not denial. The open arms could just be them being friendly. 
+
+The user wants it to sound natural, like a human reply. So I'll avoid jargon and keep it conversational. I'll mention the eye contact and open gestures as points for truthfulness, then the head shaking as a possible deception clue, but stress that it's ambiguous. 
+
+I need to make sure I don't overstate anything. Phrases like "might" and "could" will help show uncertainty. And since the actual label is deception, I should lean toward that in my reasoning but not claim it's certain. 
+
+Also, the description says no smiling, laughing, or frowning—so no clear emotional cues. That makes it harder to judge. The absence of those might mean they're trying to suppress emotions, which can be deception-related, but it's not definitive. 
+
+For the counterargument, I'll note that some people naturally have open gestures and head movements without lying. Maybe they're just expressive. 
+
+Finally, I'll wrap it up by saying it's a close call, but the head shaking combined with the context (even though I don't have context) might tip it toward deception. But I'll keep it humble: "I'd be hesitant to say for sure." 
+
+This feels balanced. Let me check the instructions again: no lists, natural language, aligned with human reasoning. Yep, this should work.
+</think>

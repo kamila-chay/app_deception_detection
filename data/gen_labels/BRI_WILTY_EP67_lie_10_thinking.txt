@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "Deception," but I have to pretend I don't know that. I need to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the behavior description, the key points are: gaze sideways (true), palms up (true), and all other behaviors are false. The person isn't smiling, laughing, frowning, or showing any other typical signs of deception like blinking a lot or touching their face. Instead, they're looking sideways and have palms up.
+
+I should consider how humans would interpret this. Gazing sideways might indicate discomfort or avoiding eye contact, which people often associate with lying. But it could also just be their natural way of looking, especially if they're not used to being recorded. Palms up is usually seen as open and honest, but in some contexts, it might be a nervous gesture. Since the description says palms up is true and other deception markers are false, it's a bit confusing.
+
+I need to present both sides. On one hand, sideways gaze could be a red flag. On the other, the absence of other signs like fidgeting or avoiding eye contact might suggest truthfulness. But the label says deception, so I have to reconcile that. Maybe the sideways gaze is the main clue here.
+
+I should avoid sounding too confident. Phrases like "I'm not sure" or "it's tricky" will make it seem like a human guess. Also, mention that without context, it's hard to tell—maybe they're just shy or distracted.
+
+Counterarguments: Sideways gaze could be cultural or habitual. Palms up is generally positive, so that might counter the deception idea. But the label is deception, so I need to lean toward that while acknowledging doubts.
+
+Make sure the response is conversational, no lists. Start with "Hmm, this is a bit tricky..." to sound natural. Keep it concise but cover both angles. End with a tentative conclusion that aligns with the label but with reservations.
+
+Check if I'm missing anything: the description says "gaze sideways" is true, which is the only notable behavior. No other micro-expressions or fidgets. So the main clue is the gaze. In deception detection, avoiding eye contact is a common sign, but sideways might be a form of that. However, some studies say it's not reliable. I should mention that to show I'm considering the science.
+
+Also, the user wants it to sound like I deduced it myself, so I'll say "I noticed they kept looking sideways" instead of referencing the description.
+
+Finally, wrap it up by saying it's leaning toward deception but not certain, which matches the label but keeps it plausible.
+</think>

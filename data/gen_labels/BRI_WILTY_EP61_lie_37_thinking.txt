@@ -1,0 +1,30 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then write a natural-sounding assessment about whether the person is lying. The actual label is "Deception," but I shouldn't know that. The description shows all behavior indicators are false—meaning no smiles, frowns, blinking, etc. 
+
+Hmm, this is tricky because the description says no deceptive behaviors occurred, but the label says it's deception. That means the video probably shows someone acting very neutral, which might actually be suspicious since liars sometimes try too hard to seem calm. 
+
+I need to write as if I'm genuinely uncertain, like a human watching the clip. The key is to avoid sounding confident. Let me think about how people actually react to such videos. Most people would notice if someone seems overly composed—like when a person avoids eye contact but in this case, the description says gaze towards interlocutor was false, so they might be staring directly. Wait, the description says "Gaze towards interlocutor: False," meaning they weren't looking at the person they're talking to? Or was it "False" meaning it didn't happen? The label says "False" for that behavior, so they weren't gazing at the interlocutor. That's confusing. 
+
+Let me clarify: the description lists all behaviors as False, meaning none of those actions happened. So for "Gaze towards interlocutor: False," it means they didn't look at the person they're speaking to. So they might be avoiding eye contact. But the user said "Gaze towards interlocutor: False," which in the context means the behavior didn't occur, so they weren't looking at the other person. That could be a sign of lying, but I shouldn't assume. 
+
+I should consider both angles. If they're avoiding eye contact (which the data suggests), that's often seen as deceptive. But some people just don't like direct eye contact for cultural or personal reasons. Also, the absence of other tells like fidgeting might mean they're trying too hard to seem innocent. 
+
+The user wants counterarguments. So I'll say: maybe they're just nervous or shy, not lying. Or maybe they're telling the truth but have a calm personality. I should mention that liars can sometimes be very controlled, so no nervous habits doesn't prove truth. 
+
+Also, the response must sound natural, like a real person thinking out loud. No lists, just flowing text. And I shouldn't say "I know" but "I'm leaning toward" or "it's hard to tell." 
+
+Let me draft mentally: Start with what I see—neutral expressions, no blinking, avoiding eye contact. Then say "Hmm, this feels off because people usually show some tension when lying, but here they're too still." Then counter: "But maybe they're just really good at hiding it, or it's a cultural thing." 
+
+Wait, the description says no frowning, no raised eyebrows, so they're not showing emotion. That's unusual for a truthful person who might react to the question. So the lack of reaction could be suspicious. 
+
+I'll emphasize the eye contact part since "Gaze towards interlocutor: False" means they're not looking at the speaker. That's a big clue. But I'll hedge with "could be" and "might be." 
+
+Also, avoid technical terms. Say "staring at the floor" instead of "gaze down." Keep it simple. 
+
+Finally, wrap up by saying it's ambiguous but leaning deception because of the unnatural calm. But stress that I'm not sure. 
+
+Check the user's note: "don't sound too confident." So phrases like "I'm not 100% sure" or "it's a toss-up." 
+
+Make sure not to mention the actual label. Just describe what I see. 
+
+Okay, time to write it conversationally.
+</think>

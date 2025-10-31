@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "truth," but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided (which I shouldn't refer to directly), I see key indicators: gaze towards interlocutor (true), gaze down (true), and no other notable micro-expressions or gestures. The person is maintaining eye contact while occasionally looking down, which is common in truthful speech when people are thinking or recalling details.
+
+I should consider both possibilities. For truth-telling, steady eye contact with occasional downward glances could indicate genuine recollection - people often look down when mentally retrieving information. The absence of nervous tells like blinking or fidgeting supports this. 
+
+For lying, I need counterarguments. Some might think the downward gaze suggests avoidance (a lie sign), but research shows this varies culturally. The consistent gaze towards the speaker actually contradicts the "avoiding eye contact" lie trope. Also, the lack of any stress behaviors (like lip biting or hand movements) makes deception less likely.
+
+I'll avoid sounding overconfident. Phrases like "I'm leaning toward" and "could be interpreted either way" will keep it realistic. The response should feel human - hesitant, noting that context matters (like if the question was emotionally charged). 
+
+The user's deeper need seems to be understanding how humans actually assess truthfulness without AI certainty. They want to see the messy, uncertain process of real human judgment. I'll emphasize that absence of lies doesn't equal truth, but the behavior patterns here align more with honesty.
+
+Hmm... I should also mention that the "gaze down" might confuse people who associate it with deception, but in this case it's paired with maintained eye contact - that's the key nuance. And I'll definitely note that without knowing the question being answered, it's hard to be 100% sure.
+
+The tone should be conversational: "Honestly, I'm not 100% sure..." not "Based on the data..." since this is supposed to be a human reacting to a video.
+</think>

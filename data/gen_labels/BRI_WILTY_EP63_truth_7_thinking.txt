@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "Truth," but I need to pretend I don't know that and reason as if I'm making an educated guess.
+
+Looking at the behavioral description provided: The person has "Raising eyebrows" (True) and all other behaviors like smiling, laughing, frowning, etc., are False. So they're raising their eyebrows but not showing any other typical micro-expressions associated with deception. 
+
+Hmm, interesting. In deception detection, people often expect liars to show nervous tells like avoiding eye contact, fidgeting, or forced smiles. But here, the only noticeable thing is raised eyebrows. I recall that raised eyebrows can actually be a sign of surprise or curiosity, not necessarily deception. In fact, some research suggests truth-tellers might raise eyebrows when they're being genuine and processing information.
+
+Let me think about counterarguments though. Could raised eyebrows be a sign of lying? Maybe if it's exaggerated or mismatched with the context. But the description says "Raising eyebrows" without "exaggerated," so it's probably natural. And since there are no other suspicious cues like blinking or gaze avoidance, it leans toward truthfulness.
+
+I should also consider cultural differences—some people naturally raise eyebrows more. But since I don't have context about the person, I'll stick to general behavior. The absence of classic deception markers (like lip biting or fidgeting) is a strong point for truthfulness. 
+
+Wait, but I shouldn't be too confident. Maybe the person is lying but very skilled at hiding it. That's possible, but the video doesn't show any red flags. Most people don't lie with zero tells, so this lack of tells feels more consistent with truth-telling. 
+
+The user wants a natural-sounding reply, so I'll avoid listing points. I'll phrase it as a hesitant observation: "Hmm, they're raising their eyebrows but... wait, no other weird stuff..." And I'll acknowledge that it's hard to tell for sure. 
+
+Also, the user emphasized not sounding overconfident. So I'll use phrases like "I'm leaning toward" or "it's a bit unclear" instead of "definitely." And I'll include that counterargument about skilled liars to show I'm considering alternatives. 
+
+The key is to mirror how a real person would think while watching a video—slow, noticing details, doubting themselves a bit. Not like a textbook. 
+
+*checks the behavior list again* Yep, no "gaze down" or "frequent blinking," which are common deception cues. That's a good sign. But I won't say "it's proof," just "it's consistent with truth." 
+
+Alright, time to write it conversationally. Start with the eyebrow observation, then the lack of other cues, then the counterpoint about skilled liars, and end with "leaning toward truth but not 100% sure."
+</think>

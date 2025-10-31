@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth" but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description: the person has frequent blinking (True), gaze towards interlocutor (True), gaze down (True), head moving forward (True), head tilting (True). Key things to note are no smiling, no laughter, no frowning, and no awkward pauses. The frequent blinking stands out as a potential sign of stress, but it's not definitive.
+
+I should consider both sides. On one hand, frequent blinking could indicate nervousness or lying. But on the other hand, people blink more when they're concentrating or thinking, especially if they're telling the truth and trying to recall details. The gaze towards the interlocutor and head moving forward suggest engagement, which might indicate honesty. The gaze down could be normal when thinking, not necessarily lying.
+
+I need to make sure my reasoning sounds human-like - not too technical, with some uncertainty. Phrases like "I'm not 100% sure" or "it's hard to say" would help. I should mention counterarguments: maybe the blinking is just a nervous habit, or the gaze down is just how they think.
+
+The user probably wants to see if I can avoid confirmation bias, since I know the label is "truth" but I have to pretend I don't. I should emphasize that behavior alone isn't foolproof - context matters, and some people naturally blink a lot.
+
+I'll structure my response to start with the most noticeable behaviors (blinking, gaze), then weigh the evidence, acknowledge limitations, and end with a cautious conclusion. No bullet points, just flowing text. I'll avoid saying "I'm sure" and instead say "it seems plausible" or "could be consistent with."
+
+Also important to note that head tilting and forward head movement are positive signs for truthfulness in some contexts, which counters the blinking concern. The lack of other "lying" signs (like avoiding eye contact, fidgeting) supports truthfulness too.
+
+I'll make sure to sound like a regular person analyzing a video, not an expert. Maybe add phrases like "I've noticed in my own experience" to keep it natural. The key is balancing the blinking evidence with the other reassuring behaviors.
+</think>

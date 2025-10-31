@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "Deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not a sure thing.
+
+First, I need to look at the behavior details provided in the description. The key points are: raising eyebrows (True), frequent blinking (True), gaze sideways (True), and head moving backward (True). Other behaviors like smiling, laughter, frowning, etc., are all False. I should focus on these indicators.
+
+I recall from psychology that frequent blinking and raised eyebrows can be signs of stress or deception, but they're not definitive. For example, people might blink more when nervous, which could happen in a high-pressure situation even if they're telling the truth. Raising eyebrows might indicate surprise or skepticism, not necessarily lying. Gaze sideways could mean distraction or discomfort, but it's also common in some cultures or just how someone thinks. Head moving backward might be a sign of defensiveness, but it could also be a natural movement.
+
+I need to consider counterarguments too. Maybe the person is just tired or has a habit of blinking a lot. Gazing sideways might not be deceptive—it could be because they're trying to remember something. Head movements could be accidental. I should avoid sounding too confident, so phrases like "might" or "could" are good. The user wants it to seem like a human's natural hesitation, not a robotic analysis.
+
+Also, the user specified no bullet points, so I'll write in paragraphs. I'll start by describing what I see in the video, then weigh the evidence for and against deception, and end with a cautious conclusion. I should make it sound like I'm talking to a friend, not a report.
+
+Let me check if I'm missing anything. The description says "Gaze sideways" is True, which is important. In many deception studies, avoiding eye contact is a common sign, but sideways gaze might be different—it's not direct but not necessarily avoiding. I should mention that. Also, "Head moving backward" might be a subtle shift, like pulling away, which could signal discomfort.
+
+I need to balance the possibilities. For deception: frequent blinking (stress), raised eyebrows (maybe feigned surprise), sideways gaze (avoiding attention), head back (defensive). For truth: these could be unrelated habits or situational. For example, if the person is in a stressful interview, even truth-tellers might show these signs.
+
+I'll structure my response to start with observations, then the evidence for lying, then counterpoints, and finally a tentative guess. Keep it conversational: "Hmm, I'm not 100% sure, but..." 
+
+Make sure not to say "the label is deception" since I'm pretending not to know. Just base it on the behavior. Avoid technical terms to keep it natural. And emphasize that it's not conclusive—humans often second-guess these things.
+
+Finally, wrap it up by saying it's hard to tell, but the signs lean toward deception. But since I'm supposed to be unsure, I'll say "it's leaning that way" rather than "definitely lying."
+</think>

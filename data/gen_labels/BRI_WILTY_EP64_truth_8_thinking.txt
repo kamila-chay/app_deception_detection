@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "Truth," but I need to pretend I don't know that and make an educated guess based on the behavioral cues.
+
+Looking at the description provided, I notice key behaviors: "Raising eyebrows" and "Exaggerated eye opening" are marked as True, while most other cues like smiling, laughing, or frowning are False. The person isn't showing typical signs of deception like avoiding eye contact or touching their face. 
+
+Hmm, the raised eyebrows and exaggerated eye opening are interesting. In deception detection, raised eyebrows can sometimes indicate surprise or stress, but they're also common in genuine expressions of interest. The exaggerated eye opening might suggest they're trying to appear more engaged or truthful, which could be a sign of deception, but it could also just be natural for how they speak. 
+
+I should consider counterarguments. Maybe they're just excited or emphasizing a point genuinely. People often open their eyes wider when they're passionate about something, not necessarily when lying. The absence of other deception cues—no fidgeting, no awkward pauses, no avoidance of eye contact—makes me lean toward truthfulness. 
+
+The user wants me to sound uncertain, like a human making a guess. I shouldn't say "definitely lying" or "clearly truthful." Instead, I'll acknowledge the ambiguity. For example, the eye movements could be either nervousness or enthusiasm. 
+
+Also, the description says "Gaze towards interlocutor" is False, meaning they're not looking at the person they're talking to. That might seem like deception, but it could just be their natural habit—some people look away when thinking, not necessarily lying. 
+
+I need to avoid technical jargon and keep it conversational. The response should flow like a real person thinking aloud: "I'm not sure, but..." 
+
+Let me structure my thoughts: Start with the observed behaviors, mention the eyebrow/eye cues as the main points, weigh the possibilities (truth vs. lie), then conclude with uncertainty. Highlight that the lack of other signs makes lying less likely, but it's not definitive. 
+
+Check for natural phrasing: "I'd have to say..." instead of "Based on analysis..." Keep it humble—"I'm not 100% sure, but..." 
+
+Finally, align with human reasoning: People often misread cues like eye contact, so it's easy to jump to conclusions. I'll emphasize that this is a judgment call, not a fact.
+</think>

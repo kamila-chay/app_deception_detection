@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty. The description says it's labeled as deception, but I shouldn't reference that.
+
+Looking at the behavior details: the person has raised eyebrows, exaggerated eye opening, and gaze down/sideways. No smile, laughter, or frowning. They're not blinking frequently or moving their head much. The key points are the raised eyebrows (which can indicate surprise or deception), exaggerated eye opening (which might be nervousness), and avoiding direct gaze (looking down/sideways instead of at the person).
+
+I should consider both sides. For deception: raised eyebrows and exaggerated eyes could be nervous tells. Looking away is often associated with lying. But counterarguments: maybe they're just shy or uncomfortable, not lying. Exaggerated eye opening might be genuine surprise, not deception. Gazing down could be thinking or being polite, not hiding something.
+
+I need to sound like a human who's hesitating, not an expert. Use phrases like "I'm not 100% sure" or "it could go either way." Avoid listing points; keep it conversational. Make it clear I'm reasoning step by step, not just guessing.
+
+Also, the user emphasized avoiding overconfidence, so I'll use qualifiers like "might," "could," "possibly." The response should feel like someone genuinely trying to figure it out while watching the clip.
+
+Check if all behaviors align: raised eyebrows (True), exaggerated eye opening (True), gaze down (True), gaze sideways (True). No other strong cues. So the main evidence is the eye and gaze behaviors, but they're ambiguous.
+
+Structure the response: start with what I'm observing, then weigh the deception signs, then the counterpoints, end with a tentative conclusion. Keep it flowing naturally, like a real person talking.
+
+Make sure not to mention the label or description at all—just describe what I see. And no markdown, just plain text as a reply.
+</think>

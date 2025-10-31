@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "truth," but I need to pretend I don't see that label and figure it out myself from the video.
+
+Looking at the behavioral data: the person has "Raising eyebrows" (True), "Gaze towards interlocutor" (True), and "Arms open" (True). Other behaviors like smiling, laughter, scowling, or awkward pauses are all False. The key points are the raised eyebrows, direct eye contact, and open arms - which are generally associated with honesty in human behavior. 
+
+I should consider why these cues matter. Raised eyebrows can indicate surprise or openness, direct gaze often suggests confidence in truth-telling, and open arms are non-threatening body language. But I need to be careful not to overinterpret - these could also be part of a well-rehearsed lie. For example, some liars might consciously use open gestures to appear trustworthy.
+
+Hmm, the absence of nervous tells is interesting. No frequent blinking, no lip movements, no fidgeting - which would be unusual if they were lying. But I should acknowledge counterarguments: maybe they're very practiced at lying, or they're just naturally calm. The "arms open" detail stands out because it's such a strong positive signal - people don't usually adopt that posture when lying unless they're trying to seem innocent.
+
+I'll structure my response to sound like a human making an educated guess. Start with what I observe, then explain why it leans toward truth, but immediately follow with why it might not be conclusive. Need to avoid sounding certain - phrases like "it seems" or "could be" will help. Should mention that cultural context matters too, since some cultures interpret direct eye contact differently.
+
+The challenge is balancing the evidence without claiming certainty. The raised eyebrows and open arms are strong positives, but I'll emphasize that no single cue is foolproof. Maybe add that the lack of any nervous behaviors is more telling than any single positive sign. 
+
+Also important to note that the description says "gaze towards interlocutor" not "staring" - that's different and more natural. And "arms open" suggests they're gesturing freely, not stiffly. That feels genuine.
+
+For counterarguments: could be a skilled liar who's been practicing these signals. Or maybe they're just excited to share something, not necessarily truthful. But the absence of all the classic lie indicators (like fidgeting or avoiding eye contact) makes the truth scenario more plausible.
+
+I'll wrap up by saying it "leans toward truth" rather than declaring it, since that's how humans actually think about this. The user wants to see the reasoning process, not a definitive answer.
+</think>

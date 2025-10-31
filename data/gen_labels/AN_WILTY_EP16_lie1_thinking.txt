@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the description, it's a detailed behavioral analysis. Key points: the person has "Gaze towards interlocutor: True" and "Gaze down: True" - that's interesting because they're looking down while still maintaining eye contact with the person they're talking to. Also, "Head side-turn: True" - that's a subtle head tilt to the side, which can be a sign of discomfort or deception in some contexts.
+
+Hmm, I should think about what humans actually notice in videos. Most people wouldn't count every single micro-expression like "lip corners down" - they'd focus on bigger things. The main things I'd notice are: they're looking down while talking (which might mean they're avoiding eye contact, but wait - the description says they're looking toward the interlocutor too, so it's a bit confusing), and that head tilt to the side. 
+
+I recall research saying that when people lie, they often have more gaze aversion, but not always. Sometimes liars look directly at you to seem honest. The gaze down could be nervousness, but it could also just be them thinking hard. The head tilt - that's tricky. In some cultures, head tilts are just friendly, but in deception contexts, it might indicate internal conflict.
+
+Wait, the description says no smile, no laughter, no frowning - so they're pretty neutral facially. That's interesting because people who lie often try too hard to look neutral or smile. But here they're not doing that, which might actually be suspicious because it's "too" neutral? Or maybe it's just them being calm.
+
+The key thing I'd focus on is the gaze pattern. They're looking toward the person (good for truth-telling) but also looking down (bad for truth-telling). That contradiction is confusing. In real life, I'd probably think "they seem a bit distracted" but not sure if it's lying.
+
+I should also consider counterarguments: maybe they're just shy or thoughtful. The head tilt could be just a natural gesture. And no other nervous tells like fidgeting - that actually makes me lean toward truthfulness because liars often fidget.
+
+But the label says deception, so I need to make my reasoning sound like I'm doubting myself. Like "I'm not sure because... but wait, the gaze down might mean something..." 
+
+I'll structure my response to sound hesitant: start with what I see (gaze down while talking, head tilt), then say "this could mean deception" but immediately counter with "or it could be nervousness" or "just their normal way." Then mention the lack of other tells as a counterpoint. End by saying I'm not 100% sure but leaning toward deception because of the gaze pattern.
+
+Gotta avoid sounding like I know the label. Say "based on what I'm seeing" not "according to the label." And make sure to include that they're not doing obvious liar tells like smiling too much or covering mouth - that actually weakens the deception case.
+
+The most human thing would be to say "I'm not sure, but I notice X which makes me think Y, but Z could also explain it." No confident statements. Like "It's hard to say for sure, but the way they keep looking down while talking... it feels a bit off, but maybe they're just tired."
+
+Also need to make sure I'm not listing things - just flow it in natural speech. "I noticed they kept glancing down while they were talking, which usually makes me think they're not being fully honest, but then I remembered that some people do that when they're concentrating..." Yeah, that sounds right.
+</think>

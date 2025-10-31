@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. I have to reason like a human would, not sound too confident, include counterarguments, and make it sound natural.
+
+First, I need to recall what the description says about the behavior: frequent blinking (True), gaze towards interlocutor (True), and nod (True). Other cues like smiling, laughter, scowling are all False. So the person isn't showing typical "lying" signs like avoiding eye contact or fidgeting much.
+
+Hmm, as a human, if I saw someone with steady eye contact and nodding while talking, I'd probably think they're being honest. But I should consider why they might be blinking a lot—maybe they're nervous, not necessarily lying. People blink more when stressed, which could happen even when telling the truth, like if they're in a high-pressure situation.
+
+I should also think about the counterarguments. For instance, some people lie without blinking much, so frequent blinking doesn't prove truthfulness. Or maybe the blinking is due to something else, like dry eyes from the video lighting. And the nodding could just be them agreeing with themselves, not necessarily confirming truth.
+
+The user emphasized avoiding lists and sounding natural. So I'll write in a conversational way, like I'm thinking out loud. Start with what I observe, then weigh the pros and cons.
+
+Let me structure my thoughts: 
+- Describe the visible behavior: steady eye contact, nodding, but lots of blinking.
+- Why it might indicate truth: no avoidance cues, which often accompany lies.
+- Why it might not: blinking could be nervousness from stress, not deception.
+- Other factors: no fidgeting, no micro-expressions like scowling, which would be suspicious if lying.
+
+I need to sound uncertain. Phrases like "I'm not 100% sure," "could be," "it's hard to say." Avoid absolute terms. Also, make sure to tie back to human reasoning—like how we'd interpret this in real life, not with a checklist.
+
+Check if I'm missing anything. The description says "gaze towards interlocutor" is True, so they're looking at the camera or person they're speaking to, which is good for truthfulness. Nodding is a positive sign too. But frequent blinking is the odd one out—should I downplay it? Yes, because humans might not even notice it as a big deal.
+
+Finally, wrap it up as a balanced guess: leaning towards truth but acknowledging it's not definitive. That matches the actual label being "truth," so my reasoning should align without being smug.
+
+Make sure the response is in a reply format, like answering "Is this person lying?" with a natural, hesitant tone.
+</think>

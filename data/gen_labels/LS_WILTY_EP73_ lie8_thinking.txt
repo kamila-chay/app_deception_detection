@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and I need to assess whether the person is lying based on their behavior. The actual label is "lie," but I shouldn't know that—I have to pretend I'm just analyzing the video.
+
+First, I need to recall the description provided: the person is raising eyebrows (True), maintaining gaze toward the interlocutor (True), looking down (True), and tilting their head (True). Other behaviors like smiling, laughing, or frowning are all False. So in the video, I'd see someone with raised eyebrows, looking down while talking, and tilting their head, but no other obvious signs like smiles or fidgeting.
+
+Now, I should think like a human who's not an expert. People often think liars avoid eye contact, but research shows it's more complex—some liars might overcompensate with too much eye contact. Here, the person is maintaining gaze toward the speaker (so not avoiding eye contact) but also looking down. That's interesting because looking down could mean shyness or discomfort, which might be linked to lying, but it's not definitive. Head tilting is often a sign of engagement or curiosity, not necessarily deception. Raised eyebrows could indicate surprise or skepticism, but without context, it's hard to say.
+
+I need to consider counterarguments. If they're telling the truth, why would they look down? Maybe they're nervous about something unrelated, like a personal issue. Or maybe they're just a naturally shy person. The head tilt might just be their normal way of listening. The absence of fidgeting or other "tells" like lip biting could suggest they're calm, which might mean they're confident in their story—so maybe truthful. But liars can sometimes be very controlled, so that doesn't rule it out.
+
+I should also think about common misconceptions. People often jump to conclusions about eye contact, but studies show it's not a reliable indicator. For example, a truthful person might look down while thinking, and a liar might stare to seem honest. So I can't rely solely on that.
+
+The user wants me to sound uncertain, like I'm making an educated guess. I'll avoid saying "I know" and instead use phrases like "it's hard to say" or "could be." I need to include both sides: the evidence that might point to lying (looking down, raised eyebrows) and the evidence against it (no fidgeting, maintaining gaze).
+
+Also, the description says "gaze towards interlocutor" is True, which means they're looking at the person they're talking to, not away. But "gaze down" is also True, so they're looking down while still facing the speaker—maybe at their hands or the floor. That's a common sign of discomfort, which could be from lying or just being embarrassed.
+
+I'll structure my response to start with what I observe, then weigh the possibilities, mention counterpoints, and end with a tentative conclusion. Keep it conversational, like I'm chatting with someone. Avoid technical terms—just say "I noticed" instead of "the data shows."
+
+Finally, make sure it's natural: "Hmm, this is tricky because..." rather than formal analysis. And since the actual label is "lie," but I'm supposed to pretend I don't know, I'll lean slightly toward lying based on the behaviors, but with doubt. But I have to be balanced—don't overstate it.
+
+Let me check if I'm missing anything. The description has "frequent blinking" as False, so no rapid blinking, which some people associate with lying. That might support truthfulness, but it's not strong evidence. Also, no smiles or laughter, which could mean they're serious, but liars might suppress smiles too. So I'll mention that as a neutral point.
+
+Alright, time to draft the response. Start with an observation, then discuss the key behaviors, present both angles, and wrap up with a cautious guess.
+</think>

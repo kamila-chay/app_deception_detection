@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "truth" in the data, but I need to pretend I don't see that label.
+
+Looking at the behavioral data, I notice the person has several key indicators: they maintain gaze toward the interlocutor (the person they're speaking to), they look up (which is often associated with recalling memories), and they have no signs of typical "lying" behaviors like frowning, excessive blinking, or avoiding eye contact. The absence of nervous gestures like hands rubbing or lip biting stands out.
+
+Hmm, this seems like a classic case where the person appears calm and engaged. When people lie, they often show micro-expressions or avoidance behaviors, but here everything looks natural - steady eye contact, no fidgeting, and that upward gaze which actually correlates with truthful recall in many studies. The "gaze towards interlocutor" being true suggests they're actively connecting with the speaker, which liars usually avoid.
+
+But I should consider counterarguments too. Maybe they're a very skilled liar who doesn't show typical signs? Or perhaps they're rehearsed and acting naturally? The data shows no "lip corners down" or "scowl" which would be unusual if they were lying under stress. And the "gaze up" detail is interesting - some people look up when lying, but others do it when remembering truthfully. I recall research showing upward gaze is more common in truthful recall.
+
+Wait, the description says "gaze up" is true but "gaze down" is false. That's important - they're not avoiding eye contact by looking down (which liars sometimes do), but actively looking up. That feels more like someone mentally retrieving information rather than fabricating it.
+
+I should also note what's missing: no "frequent blinking" or "exaggerated mouth opening" - those are classic stress indicators. The "mouth closed (awkward pauses)" is false, meaning they're speaking smoothly without unnatural hesitations. That makes me lean toward truthfulness.
+
+But I can't be 100% sure - maybe they're a professional actor? The user said "external reliable information" confirms it's truth, but since I'm pretending not to know that, I'll have to hedge my bets. I'll say "it seems unlikely they're lying" rather than "they're definitely telling the truth."
+
+The user wants this to sound like a natural human assessment, so I'll avoid technical terms and keep it conversational. I'll mention the gaze behavior prominently since that's the strongest clue, then acknowledge that absence of nervousness is telling, but gently note that some liars are very composed. 
+
+Most importantly, I need to sound uncertain - "I'd lean toward truth" not "they're definitely truthful." The phrase "based on what I'm seeing" will make it feel like I'm making an observation rather than stating facts. And I'll end with "hard to say for sure" to keep it realistic.
+</think>

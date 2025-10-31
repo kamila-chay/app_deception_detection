@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. I have to write a natural-sounding response as if I'm making an educated guess, not being too confident.
+
+Looking at the behavior description provided (which I shouldn't use directly since I'm supposed to be watching the video), I see that the person has "Lip corners down" and "Lips protruded" - that's a frown-like expression. Also, "Gaze down" is true, meaning they're looking downward. The other cues like no smiling, no laughter, no exaggerated movements, and no nervous habits like blinking or hand rubbing are all present.
+
+Hmm, so in the video, I'd see someone with a downturned mouth and lips pushed out, staring at the ground. Normally, when people lie, they might show more nervous signs - like avoiding eye contact, fidgeting, or forced smiles. But here, the person is avoiding eye contact (gazing down) but not showing other classic signs of deception. That's interesting because the "gaze down" could be interpreted as guilt or discomfort, which might suggest lying. But wait - people often look down when they're thinking deeply or feeling sad, not necessarily lying. 
+
+I should consider counterarguments. Maybe they're just shy or uncomfortable in the situation, not lying. The lack of other tells like fidgeting or forced expressions makes me think it's not a strong lie. If they were lying, I'd expect more signs - like nervous laughter or excessive blinking. But there's none of that. The "lip corners down" and "lips protruded" could just be their natural expression when concentrating or feeling frustrated about the question, not deception.
+
+Also, the "gaze down" might be because they're trying to recall something accurately, which happens when people tell the truth and are thinking hard. Truth-tellers often look away when processing information, whereas liars might look away to avoid eye contact while fabricating stories. But this isn't a clear-cut sign - it's ambiguous.
+
+I need to sound uncertain in my response. Not say "definitely lying" or "definitely truthful," but weigh the possibilities. Like, "It's tricky because... but I'm leaning toward..." And mention why I'm not sure. For example: "The downward gaze and frown make me wonder if they're uncomfortable, but since they're not fidgeting or avoiding eye contact in a way that screams deception, maybe they're just being thoughtful."
+
+The user probably wants to see if I can mimic human hesitation in judgment. They might be testing for overconfidence in AI responses. So I'll avoid absolute statements and use phrases like "could be," "might suggest," "it's hard to say."
+
+Also, the description says "Lip corners down" and "Lips protruded" - that's a pout or frown, which isn't typical for liars. Liars often try to force a smile, but here it's the opposite. That weakens the lying hypothesis. And no "awkward pauses" with mouth closed, so they're speaking smoothly, which aligns more with truth-telling.
+
+I'll structure my thought process: start with what I observe (frown, gaze down), then consider lying signs (or lack thereof), then counter with truth-telling explanations. End with a balanced guess, leaning toward truth because the cues don't match deception patterns.
+
+Make sure it's conversational: "Honestly, I'm a bit torn here..." not "Based on the data..." Keep it human.
+</think>

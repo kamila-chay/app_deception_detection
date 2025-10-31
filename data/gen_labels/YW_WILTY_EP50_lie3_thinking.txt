@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this assessment from scratch.
+
+Looking at the behavior description, I notice several key points: the person is smiling (True), has gaze towards interlocutor (True), and gaze sideways (True). But they don't have any typical deception indicators like frequent blinking, frowning, or gaze aversion. The absence of nervous gestures is interesting - no hands rubbing, no awkward pauses, no head shaking. 
+
+Hmm, this is tricky because most people expect liars to look away or fidget, but research shows that's not always the case. The smile and direct gaze might actually suggest confidence, which could mean truthfulness. But wait - some people fake smiles when lying, so that smile might be insincere. The sideways gaze could be normal for thinking, not necessarily deceptive.
+
+I should consider counterarguments carefully. If they were lying, why would they maintain eye contact? Maybe they're practiced at deception. But why would they smile if lying? Unless it's a nervous smile. The lack of other tells makes me lean toward truthfulness, but I can't be sure. 
+
+The user wants me to sound uncertain, like a human making an educated guess. I'll avoid absolute terms like "definitely" or "certainly." I should mention that absence of tells doesn't prove truthfulness - sometimes liars are very controlled. But the smile and direct gaze seem more consistent with honesty than deception.
+
+I'll structure my response to show I'm weighing both sides: the "why it might be truth" points first (direct gaze, smile without nervousness), then the "why it might be lie" counterpoints (faked smile, possible controlled liar), and end with the conclusion that it seems truthful but with caveats. Need to keep it conversational like I'm talking to a friend, not writing a report.
+
+Most importantly, I must not sound like I know the actual label. The whole point is to pretend I'm seeing it fresh. I'll emphasize that human judgment is messy - we're not computers with perfect deception detectors.
+</think>

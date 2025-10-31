@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not being too confident.
+
+Looking at the behavior description provided (which I shouldn't actually see since I'm supposed to be watching the video), I know it's labeled as "truth" with specific cues: smiling, raised eyebrows, frequent blinking, lip corners up, chin moving down, gaze towards interlocutor, gaze sideways, head side-turn, head shaking, arms open, and head shaking. But since I'm supposed to pretend I don't have this, I'll have to imagine what I'd observe.
+
+Hmm, the key is to make my reasoning sound human - hesitant, with counterarguments. I shouldn't list things but weave it into natural language. The user wants me to avoid sounding certain, so phrases like "might be" or "could be" are better than "definitely."
+
+Let me think about what these behaviors might mean in real life. Raised eyebrows and frequent blinking can sometimes indicate stress or deception, but they're also common when people are surprised or thinking hard. The smile and open arms suggest openness, which usually points to truthfulness. The head shaking might be confusing - it could be disagreement or just a nervous habit. And the sideways gaze... I've heard that's often misinterpreted as lying, but research shows it's not reliable.
+
+I should include counterarguments too. Like, if someone's lying, they might force a smile or avoid eye contact, but here they have eye contact and a smile. The open arms are a good sign for truthfulness. But then there's that frequent blinking - could that be a sign of deception? Though it could just be nervousness from being on camera.
+
+The chin moving down is interesting - that's a subtle cue. I think that might be a sign of confidence or thinking, but I'm not 100% sure. And the head side-turning... that's often associated with lying in some myths, but actually studies show it's not consistent.
+
+I'll structure my response to start with the positive signs (smile, open arms, eye contact), then mention the confusing bits (blinking, head movements), and conclude that overall it seems truthful but with some uncertainty. Need to emphasize that behavior alone isn't foolproof - context matters a lot.
+
+For naturalness, I'll use phrases like "I'm not an expert" and "it's hard to say for sure." And definitely avoid any "I know they're lying" language. The tone should be like someone genuinely trying to figure it out while admitting their limitations.
+
+Also important: the user specified no bullet points, so I'll make it all one flowing paragraph. And since it's a reply to "is this person lying," I'll address that directly at the start.
+
+Let me check if I'm covering all required elements: human-like hesitation, counterarguments, alignment with how real people would think, and not sounding overconfident. Yeah, I think I've got the balance right - pointing out both truth-telling signs and possible deception indicators without taking sides.
+</think>

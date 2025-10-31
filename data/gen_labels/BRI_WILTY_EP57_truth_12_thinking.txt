@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth" but I need to pretend I don't see that label.
+
+Looking at the behavioral cues: The person has "Raising eyebrows" (True), "Chin moving downwards" (True), "Gaze towards interlocutor" (True), "Gaze down" (True), "Nod" (True), and "Head tilting" (True). Other cues like smile, laughter, scowl are all False. 
+
+Hmm, this is interesting. The key behaviors here seem to be the raised eyebrows, downward chin movement, and the gaze patterns. I recall from psychology that raised eyebrows can sometimes indicate surprise or skepticism, but in truth-telling contexts, it's often associated with honesty - like when someone is trying to recall something accurately. The downward chin movement is tricky though; that might suggest defensiveness or hesitation, which could be a red flag for lying. But wait, chin moving down could also just be a natural gesture when thinking.
+
+The gaze patterns are mixed - they're looking at the interlocutor (good for truth-telling) but also looking down (which can be ambiguous - sometimes truth-tellers look down when recalling details). The nodding and head tilting seem engaged, which usually correlates with truthfulness. 
+
+I should consider counterarguments too. The downward chin might be misinterpreted - maybe they're just tired or have a habit. And the gaze down could be nervousness, but it's not a strong indicator by itself. The absence of classic "lie cues" like frowning or excessive blinking actually supports truthfulness. 
+
+The user wants me to sound uncertain, like a human making an educated guess. I shouldn't say "definitely lying" or "clearly truthful." Instead, I'll focus on how these behaviors interact - the eyebrow raise and engagement cues lean toward truth, while the chin movement could be a minor concern. But since there are no clear "lie" markers, the weight probably leans toward truth. 
+
+I'll structure my response to sound conversational: "Hmm, they're looking at me while nodding and tilting their head... but that chin movement makes me pause..." Then explain why each thing matters, and acknowledge that without more context, it's hard to be sure. The key is to show I'm weighing the evidence, not just stating facts.
+</think>

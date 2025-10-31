@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "truth," but I shouldn't know that. I have to make it sound like I'm making an educated guess, not being too confident, and include counterarguments.
+
+First, I need to recall the behavioral cues from the description. The label says "truth," so the person was telling the truth. The key behaviors mentioned are: Smile (True), Raising eyebrows (True), Nod (True), Gaze sideways (True). Other cues like laughter, scowling, frowning, frequent blinking, etc., are all False. So the person is smiling, raising eyebrows, nodding, and looking sideways, but not doing other common "lie" indicators.
+
+Now, as someone watching the video, I'd focus on the visible actions. Smiling and nodding are positive signs, often associated with truth-telling. Raising eyebrows can indicate surprise or emphasis, which might be genuine. Gazing sideways is interesting—it's not looking at the person they're talking to, which could be a sign of deception, but it's not always the case. Some people look away when thinking or being honest.
+
+I should consider counterarguments. If they're lying, why would they smile and nod? Maybe they're trying to seem credible. But the description says no laughter or frowning, so they're not nervous in obvious ways. Gaze sideways might be a red herring—maybe they're just not comfortable making eye contact, which isn't necessarily lying. Also, raising eyebrows could be a natural reaction, not a sign of deception.
+
+The user wants me to sound like a human making a guess, not an expert. So I'll avoid jargon. I'll say things like "I'm not sure" or "it's tricky." I need to balance the evidence: positive cues (smile, nod) vs. potential red flag (gaze sideways). But since the label is truth, the sideways gaze might not be deceptive here.
+
+I should also think about why the user is asking this. They're probably testing if I can reason like a human, not just spit out facts. They want natural language, no bullet points. So I'll write in a conversational way, like I'm chatting with a friend.
+
+Key points to cover: 
+- Positive signs: smiling, nodding, raising eyebrows (could show engagement).
+- Potential concern: looking away (sideways gaze), but explain why it might not mean lying.
+- Counterarguments: if lying, why no nervous signs? Maybe they're good at lying, but the absence of classic cues supports truth.
+- End with uncertainty: "I'm leaning towards truth, but it's not 100% clear."
+
+Make sure not to say "the label says truth" since I'm supposed to be blind to it. Just base it on behavior. Also, avoid sounding overconfident—use phrases like "it seems," "could be," "might indicate."
+
+Check the description again: "Gaze sideways" is True, but "Gaze towards interlocutor" is False. So they're not looking at the person they're speaking to, which is common in truth-tellers too—some people avoid eye contact when recalling facts.
+
+Finally, wrap it up as a natural reply: "Is this person lying or telling the truth? Hmm, based on what I see..." Then build the reasoning step by step.
+</think>

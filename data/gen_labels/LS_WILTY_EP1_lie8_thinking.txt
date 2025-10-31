@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess if the person is lying based on their behavior. They've provided a detailed description of the behavior that's labeled as deception, but I need to pretend I don't see that label. 
+
+Hmm, the challenge here is to write a natural-sounding human assessment that shows uncertainty while reasoning through the clues. I should avoid sounding like an AI that's certain about deception - real people would hesitate and consider alternatives. The description shows things like raised eyebrows, head tilting, hands touching head, and a smile, but no laughter or frowning. 
+
+Let me think about what these cues might actually mean in real life. Raised eyebrows often signal surprise or skepticism, not necessarily lying - could be genuine confusion. Head tilting is usually a sign of engagement, like "I'm thinking about this." Hands touching the head... that's tricky. People do that when nervous, but also when they're deep in thought or just adjusting their hair. The smile is interesting - it's present but not laughter, so maybe a forced smile? But smiles can happen when people are just trying to be polite.
+
+I should also consider counterarguments. Maybe the person is just naturally expressive. Some people have that "raised eyebrow" habit without lying. And the gaze pattern - looking at the interlocutor sometimes but also sideways? That could mean they're processing information, not avoiding eye contact. The head moving forward feels like they're leaning in to listen, which is actually a sign of engagement.
+
+The user emphasized not sounding too confident, so I'll use phrases like "might be" and "could be" a lot. I'll mention how hard it is to tell from just video alone - humans often get fooled by these cues. And I should acknowledge that some cues like hands touching head are ambiguous. 
+
+For the structure, I'll start with the most noticeable things (the smile and head movements), then the ambiguous ones (hands touching head), then address why it might not be deception. Need to make sure I don't list things - just flow like natural speech. 
+
+Most importantly, I must resist the urge to say "this is deception" since that's the label I'm supposed to be ignoring. The whole point is to show the uncertainty of human judgment. I'll end by saying it's really hard to tell without more context - which is honest because in real life, we'd probably ask for more info.
+</think>

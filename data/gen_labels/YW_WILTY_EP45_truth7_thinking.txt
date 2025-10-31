@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. I need to write a natural-sounding response that's not too confident, includes counterarguments, and aligns with how humans would reason.
+
+Looking at the description provided (which I shouldn't rely on since I'm supposed to be watching the video), I see it's labeled as "truth" with specific behaviors: raised eyebrows, lip corners up, gaze toward interlocutor, head tilting, palms up, and no signs of deception like frowning or frequent blinking. But since I'm supposed to be making this assessment from scratch, I'll have to ignore that label and pretend I'm just watching the clip.
+
+I need to think about how real humans would interpret these cues. Raised eyebrows often indicate surprise or interest, not necessarily deception. Lip corners up suggests a genuine smile, which is positive. Gaze toward the person they're talking to is good - liars often avoid eye contact, but not always. Head tilting can be a sign of engagement or curiosity. Palms up is generally seen as open and honest.
+
+But I should also consider counterarguments: maybe the person is faking interest, or the head tilt is nervous. Some people naturally tilt their heads, and palms up could be part of normal gesturing. The lack of frowning or blinking is positive, but absence of "tells" doesn't prove truthfulness - some liars are very controlled.
+
+I'll structure my response to sound like a hesitant human: starting with what I observe, then weighing the evidence both ways, acknowledging uncertainty. I'll avoid technical terms and keep it conversational. Phrases like "I'm not 100% sure" and "it could be" will help show it's an educated guess, not a conclusion.
+
+Important to emphasize that no single cue is definitive - humans know deception is complex. I'll mention that the absence of obvious lies (like avoiding eye contact) makes truth more plausible, but I won't overstate it. The response should feel like someone genuinely trying to figure it out, not someone who's certain.
+
+Also need to make sure I don't reference the description's "truth" label at all, since the user said to imagine not seeing it. The whole point is to pretend I'm analyzing the video raw. I'll focus only on the behaviors I'd see: the raised eyebrows, the smile, the head tilt, etc., as if they're visible in the clip.
+
+Finally, I'll wrap up by saying it seems truthful based on what I'm seeing, but with caveats - that's how humans would actually talk about this. Not "they're lying" or "they're telling truth," but "this looks truthful to me, though I can't be sure."
+</think>

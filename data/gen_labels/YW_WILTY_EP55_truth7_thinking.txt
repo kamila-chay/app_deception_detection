@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying based on their behavior. The key is to sound like a human making an educated guess, not claiming certainty.
+
+Hmm, looking at the provided behavior data that's supposed to be true (since the label is 'truth'), I notice several interesting points. The person has "Gaze towards interlocutor" and "Palms up" - both typically associated with honesty. But they also have "Head shaking" which is often a sign of disagreement, not lying. Wait, head shaking can be ambiguous - it might mean "no" to a question, not necessarily lying.
+
+I should consider counterarguments too. Some people might shake their head when nervous, but the description says "Head shaking" without context. The palms-up gesture is good, but I've heard people use that when trying to appear sincere. And the lack of micro-expressions like frowning or frequent blinking - those are often absent in liars, but not always.
+
+The user wants me to avoid sounding too confident. So I'll use phrases like "I'm not 100% sure" and "it could go either way." I should mention that absence of tells doesn't prove truthfulness - some people are naturally calm when lying.
+
+For natural flow, I'll start with what I observed: "They're looking right at me the whole time" then note the palm gesture. Then pivot to the head shake as a possible counterpoint. The "palms up" is strong for truthfulness, but I'll acknowledge it's not foolproof. 
+
+Important to remember: the actual label is 'truth', so my reasoning should align with that, but I can't say that outright. I'll imply the evidence points toward truth while admitting uncertainty. The head shake is tricky - I'll suggest it might be a natural "no" rather than a lie indicator.
+
+Also need to avoid technical terms like "micro-expressions" - keep it conversational. Say "they didn't seem nervous" instead of "no signs of stress indicators."
+
+Let me structure it: observation → positive signs → potential counter → conclusion with caveats. And absolutely no bullet points - just flowing text like someone thinking out loud.
+</think>

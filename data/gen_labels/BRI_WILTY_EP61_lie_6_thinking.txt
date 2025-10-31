@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the behavior description provided: the person has raised eyebrows (True), exaggerated eye opening (True), and palms up (True). Other behaviors like smiling, laughing, frowning, or frequent blinking are all False. The key points are the raised eyebrows, exaggerated eye opening, and palms up.
+
+I need to reason about both possibilities—lying and truth-telling—without sounding too confident. Humans often misinterpret these cues, so I should acknowledge that. Raised eyebrows can indicate surprise or confusion, not necessarily lying. Exaggerated eye opening might be nervousness or emphasis, and palms up is often seen as open and honest, but it can be part of deceptive behavior too.
+
+Counterarguments: If they're telling the truth, the raised eyebrows could be genuine surprise at a question, exaggerated eyes might show they're trying to appear sincere, and palms up is typically associated with honesty. But if they're lying, these could be deliberate attempts to seem trustworthy—like using "honest" gestures to mask deception.
+
+I should avoid technical terms and keep it conversational. The user wants it to sound like a real person's hesitation, not a robotic analysis. Phrases like "I'm not 100% sure" or "it's tricky" would help. Also, since the actual label is deception, my reasoning should lean toward that but with doubt.
+
+I'll structure the response to start with the observed behaviors, then weigh the possibilities. Mention the palms up as a common truth-telling cue but note it's not foolproof. Highlight that the exaggerated eye opening and raised eyebrows might be nervousness, which could support lying, but could also be natural reactions.
+
+Need to make sure not to list things—just weave it into a paragraph. And emphasize that without context, it's hard to say. End with a balanced conclusion that leans slightly toward deception but with caveats.
+
+Check the description again: no other cues like fidgeting or avoiding eye contact. The gaze is all False, so they're not looking away, which might contradict deception (since liars often avoid eye contact). But the label says deception, so maybe they're using other tactics.
+
+Wait, the description says "Gaze towards interlocutor" is False, meaning they're not looking at the person they're talking to. That's a red flag for deception. I should include that in the reasoning. But the user said "don't see the description," so in my response, I have to describe what I see: "they're not making eye contact" as an observation.
+
+In my thought process, I'll note that the lack of eye contact (gaze towards interlocutor False) is a point against truth-telling, but I need to phrase it as something I'm noticing in the video.
+
+Finally, wrap it up with "I'm leaning toward deception but it's not clear-cut." Keep it human and uncertain.
+</think>

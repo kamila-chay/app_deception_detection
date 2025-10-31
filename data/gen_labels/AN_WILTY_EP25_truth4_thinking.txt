@@ -1,0 +1,12 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't see that and make my own educated guess.
+
+Looking at the behavior data: the person has "Raising eyebrows" (True), "Gaze towards interlocutor" (True), "Gaze down" (True), and "Nod" (True). They don't have any signs like smiling, laughing, scowling, or frequent blinking that might indicate deception. The eyebrows raised and gaze down could be normal when someone's thinking or being honest. Nodding while speaking often shows agreement or engagement, which might suggest truthfulness.
+
+But I should consider counterarguments too. Maybe the raised eyebrows are nervousness, and the gaze down could be avoidance—some people look down when lying. The nod might be just habitual. I need to be careful not to overinterpret. Humans often misread micro-expressions, so I shouldn't be too sure.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So I'll phrase it as "it seems like they're being truthful" but with caveats. I'll mention the lack of deception cues but note that absence of signs doesn't prove truth. I'll avoid lists and keep it conversational, like I'm chatting with someone.
+
+Also, the user emphasized making it natural for a reply to "Is this person lying or telling the truth?" So I'll start with a casual opener, then reason through it step by step. I'll include why the behavior points to truth (eyebrows up, gaze, nod) and why it might not (gaze down could be deceptive), then wrap up with a balanced conclusion.
+
+I need to ensure my reasoning aligns with how real people would think—no jargon, just plain observations. And since the actual label is "truth," my guess should lean that way but with reasonable doubt, as humans often do in real life.
+</think>

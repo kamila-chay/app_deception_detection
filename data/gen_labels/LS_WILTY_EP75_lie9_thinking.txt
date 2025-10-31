@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess if the person is lying based on their behavior. The actual label is "lie," but I need to pretend I don't know that. The description provided has specific behaviors: raised eyebrows, frequent blinking, gaze down, head tilting, and nodding, but no smiling, laughing, scowling, etc.
+
+First, I need to recall how humans typically interpret micro-expressions and body language when assessing truthfulness. From what I know, signs like raised eyebrows and frequent blinking can sometimes indicate stress or discomfort, which might be associated with lying. But I also remember that these cues aren't foolproof—people blink more when nervous, but that could be for many reasons, like dry eyes or just being in a stressful situation. The gaze down and head tilting might suggest they're thinking or avoiding eye contact, which is often linked to deception, but again, it could just be shyness or distraction.
+
+The user emphasized making it sound like an educated guess, not a certainty. So I should avoid sounding too sure. I need to include counterarguments: maybe they're just anxious about the situation, not lying. For example, frequent blinking could be from the video lighting, not deception. Gaze down might mean they're concentrating, not hiding something. Head tilting is often a sign of engagement or thought, not necessarily lying.
+
+Also, the description says "gaze towards interlocutor" is true, but "gaze down" is also true. That seems contradictory. If they're looking at the person but also down, maybe they're glancing away while speaking. That could be a sign of discomfort, but it's not clear-cut. Nodding while speaking might indicate agreement, but if they're lying, they might nod to seem cooperative.
+
+I should structure my response to show hesitation. Start with what I observe: raised eyebrows, blinking, gaze down. Then think about why that might happen. But then counter with other possibilities. Mention that without more context, it's hard to tell. Avoid technical terms; keep it natural like a person talking.
+
+Check the description again: no smile, no frowning, so they're not showing obvious emotional cues. That's interesting—liars sometimes try to suppress emotions, but not always. The absence of those might not mean much. Hands aren't doing anything, so no fidgeting, which is sometimes associated with lying, but again, not always.
+
+The key points to cover: raised eyebrows (could be surprise or stress), frequent blinking (nervousness), gaze down (avoidance or thought), head tilting (engagement or distraction). Then counter: maybe they're just tired, or the lighting is bad, or they're a naturally nervous person. Also, nodding might be habitual.
+
+Make sure not to list things; write in a flowing paragraph. End with uncertainty, like "it's hard to say for sure." The user wants it to sound like a human's thought process, so phrases like "I'm not sure," "could be," "maybe" are good.
+
+Double-check that I'm not using the label. The actual label is "lie," but I have to pretend I don't know it. So in my reasoning, I shouldn't say "since the label says lie," but rather base it solely on the behavior described.
+
+Finally, ensure the response is a natural reply to "Is this person lying or telling the truth and why?" So start with "Hmm, I'm not 100% sure..." to set the tone.
+</think>

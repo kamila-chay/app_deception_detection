@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I'm just watching the video and making my own judgment.
+
+Looking at the behavioral cues: The person has a smile (Smile: True), lips protruded (Lips protruded: True), raised eyebrows (Raising eyebrows: True), gaze towards interlocutor (Gaze towards interlocutor: True), gaze sideways (Gaze sideways: True), head tilting (Head tilting: True), head side-turn (Head side-turn: True), and arms open (Arms open: True). They don't have any signs of deception like frowning, scowling, frequent blinking, or lip corners down.
+
+I need to reason like a human would. First, the positive cues: smiling and open arms usually indicate honesty and openness. Raised eyebrows can show surprise or engagement, not necessarily deception. The gaze towards the interlocutor is good - liars often avoid direct eye contact, but here they're looking at the person they're talking to. The sideways gaze might be normal thinking, not deception. Head tilting and side-turning are common in conversations, not red flags.
+
+But I should consider counterarguments. Some people might smile when lying to seem friendly. Lip protrusion could be nervousness, though it's not a strong indicator. Sideways gaze might be interpreted as avoiding eye contact, but the description says they're looking at the interlocutor too, so it's probably just natural head movement.
+
+The user wants me to sound uncertain, not confident. I shouldn't say "they're definitely telling the truth" but rather "it seems consistent with truthfulness." I need to mention that without more context, it's hard to be sure. Also, I should avoid listing points and keep it conversational.
+
+I recall that in deception detection, the absence of classic signs (like avoiding eye contact) is more telling than presence of positive signs. The lack of nervous behaviors (no blinking, no hands touching face) supports truthfulness. But I must acknowledge that some liars can appear calm.
+
+The arms open is a strong positive sign - it's a universal sign of openness. The head tilting and side-turn might be just natural gestures during conversation. The raised eyebrows could be genuine surprise if they're sharing something unexpected.
+
+For counterarguments: Maybe they're lying but very practiced, so they don't show signs. Or maybe they're nervous but masking it well. But the behavior described doesn't have the typical stress indicators.
+
+I should structure my response to start with what I observe, then weigh the signs, mention possible doubts, and conclude with "it seems likely truthful" without absolute certainty. Keep it natural like a person thinking out loud.
+
+Also, the user emphasized avoiding "I know they're lying" language. So phrases like "it's hard to say for sure" and "could be" will help. Make sure to tie each observation to a reason without being technical.
+
+Finally, ensure the response flows as a natural reply to "Is this person lying or telling the truth and why?" so it should be in first person, conversational, with some hesitation words like "I'm not 100% sure" or "it seems like."
+</think>

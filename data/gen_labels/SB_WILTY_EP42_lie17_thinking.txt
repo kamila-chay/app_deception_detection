@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception" but I'm supposed to pretend I don't see that.
+
+Looking at the behavioral cues: The person has "exaggerated mouth opening" and "mouth closed (awkward pauses)" - that's interesting because those seem contradictory at first glance. They also have "chin moving upwards" and "downwards" which might indicate nervousness or overthinking. The gaze is "down" and they're "gazing towards interlocutor" which could mean they're trying to appear honest, but the downward gaze might suggest discomfort. There's "head side-turn" which is often associated with deception in some studies, and "nod" which could be a sign of agreement but might be overdone.
+
+I need to be careful not to sound too confident. The user emphasized making it sound like an educated guess with counterarguments. So I should consider both sides: maybe they're lying because of the awkward pauses and chin movements, but maybe they're just nervous or being overly expressive for some other reason.
+
+The chin movements are particularly tricky - "chin moving upwards" and "downwards" together might indicate they're trying too hard to appear calm or controlled, which could be deceptive behavior. But it could also just be them gesturing naturally while speaking. The exaggerated mouth opening might be part of their normal speaking style rather than deception.
+
+I should also note the absence of typical deception cues like smiling, laughing, or frequent blinking - which actually makes me question the deception label since those are common indicators. The downward gaze is often interpreted as deceptive, but some research suggests it's more about discomfort than lying specifically.
+
+For my response, I'll structure it like a real person thinking through this: starting with observations, then considering possible interpretations, acknowledging counterpoints, and ending with a tentative conclusion without being overconfident. I'll avoid technical terms and keep it conversational like someone genuinely trying to figure it out.
+
+The key is to sound human - hesitant, questioning, not like an AI spitting out facts. I'll use phrases like "I'm not sure" and "it's hard to say" to match the required tone. And I'll make sure to address why the absence of expected deception cues (like blinking) makes me second-guess the deception label.
+</think>

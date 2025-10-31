@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "truth," but I have to pretend I don't know that. I need to write a natural-sounding response as if I'm making an educated guess.
+
+First, I should recall the behavioral cues from the description. The key points are: frowning eyebrows (true), exaggerated eye opening (true), lip corners down (true), chin moving up and down (true), gaze down (true), head tilting (true), head shaking (true), head up (true), and no smile, laughter, or other signs of deception. 
+
+Hmm, the user emphasized avoiding confidence, so I shouldn't say "definitely lying" or "clearly truthful." I need to balance both possibilities. For the truth angle, I can note that the person seems distressed or thoughtful—frowning, gaze down, chin movements often show internal conflict, not deception. Head shaking might indicate disagreement, but in context, it could be a reflex. 
+
+For the lie angle, I should consider counterarguments. Some might think gaze down or frowning signals guilt, but research shows that's not reliable. People can look down when concentrating or upset, not just lying. The absence of classic "lie cues" like forced smiles or excessive blinking supports truthfulness. 
+
+I need to make it sound human: hesitant, using phrases like "I'm not sure," "it's tricky," or "could be." Avoid technical terms. Mention specific behaviors from the video—like the chin moving up/down, which might look like nervousness but could just be natural expression. 
+
+Also, the user wants counterarguments, so I'll address why someone might think it's a lie (e.g., head shaking = denial) but then explain why that's weak. For example, head shaking can be habitual or for emphasis. 
+
+Check the description again: no lip corners up (no fake smile), no awkward pauses, gaze toward interlocutor (they're looking at the person they're talking to, which is good for truthfulness). That's a point for truth. 
+
+Make sure the response flows like a casual reply. Start with "Hmm, this is tricky..." to sound uncertain. End with "hard to say for sure" to keep it humble. 
+
+Avoid listing; weave everything into a paragraph. Keep it concise but thorough. 
+
+Finally, align with human reasoning: we often misjudge lies based on stereotypes, so I'll acknowledge that bias. The key is that the behavior doesn't match common lie indicators, so truth is more likely, but I can't be certain.
+</think>

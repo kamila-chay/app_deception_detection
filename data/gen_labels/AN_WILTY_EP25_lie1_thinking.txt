@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided, it's a structured list of behaviors. The key points are: "Raising eyebrows" is True, "Gaze towards interlocutor" is True, "Head tilting" is True, and "Arms open" is True. Other behaviors like smiling, laughing, or frowning are False. So the person isn't smiling or showing negative emotions, but they have raised eyebrows and are tilting their head while looking at the person they're talking to, with arms open.
+
+I need to reason like a human would. Humans often associate lying with signs like avoiding eye contact, fidgeting, or nervous gestures. But here, the person is making eye contact (gaze towards interlocutor), which might suggest honesty. However, raised eyebrows can sometimes indicate surprise or deception, especially if it's unusual. Head tilting is often seen as a sign of engagement or curiosity, not necessarily lying. Arms open is generally a sign of openness, which could mean they're being truthful.
+
+But I should consider counterarguments. Maybe the raised eyebrows are exaggerated or out of context, which could be a sign of deception. Some people might raise eyebrows when they're trying to appear innocent. Head tilting could also be a nervous habit, not just engagement. The arms being open might be a deliberate attempt to seem trustworthy, which is a common deception tactic.
+
+I have to avoid sounding too confident. So I'll say things like "it's hard to tell," "could be," or "might indicate." I should mention that the lack of other classic signs (like fidgeting or avoiding eye contact) makes deception less obvious, but the eyebrow raising is a bit suspicious.
+
+The user wants this to sound like a natural reply to "Is this person lying or telling the truth and why?" So I'll structure it as a conversational thought process. Start with what I'm seeing, then weigh the signs, consider alternatives, and end with a tentative conclusion.
+
+Also, I need to make sure not to use lists or bullet points. Keep it flowing in paragraphs. And align with how humans actually think—messy, with doubts, not like a textbook.
+
+Let me check the key behaviors again: raised eyebrows (True), gaze towards (True), head tilting (True), arms open (True). No other signs. So the person seems engaged, open, and not showing typical stress cues. But raised eyebrows could be a red flag for some.
+
+I'll build the response around that. Start with the positive signs (eye contact, arms open), then note the eyebrow thing as a possible anomaly, and explain why it might not mean deception. Then wrap up by saying it's ambiguous but leaning towards truthfulness because the overall demeanor is calm and engaged.
+
+Make sure to include counterarguments: "But maybe the eyebrow raise is a nervous tic," or "Sometimes people do that when lying to seem more believable."
+
+Finally, end with something like "I'm not 100% sure, but based on this, I'd lean toward them being truthful." That keeps it uncertain and human.
+</think>

@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess if the person is lying based on their behavior. The description says it's labeled as deception but I shouldn't look at that. I need to write a natural-sounding response as if I'm making an educated guess.
+
+Looking at the behavior description, I see the person has "Gaze towards interlocutor: True" and "Palms up: True" - that's interesting. In deception cues, palms up can sometimes indicate openness or honesty, but it's not definitive. The description also says all other behaviors like smiling, frowning, blinking, etc., are false - so no obvious microexpressions or nervous tells.
+
+Hmm, the user wants me to sound uncertain, not confident. I should present both sides: maybe they're lying but hiding it well, or maybe they're just nervous about something else. The palms up gesture is often associated with truthfulness in some cultures, but I shouldn't overstate that. And the steady eye contact could mean confidence (if truthful) or deliberate control (if lying).
+
+I recall research shows that liars often avoid eye contact, but not always - some trained liars maintain it. The absence of fidgeting or blinking is notable though. The description says "no awkward pauses" too, which might suggest they're comfortable with their story.
+
+Wait, but the user mentioned this is actually deception according to the label. But I'm supposed to pretend I don't know that. So in my response, I should lean toward truthfulness because of the palm-up and eye contact, but acknowledge it's not certain. Then mention counterarguments like how some liars use palm-up to seem sincere.
+
+I need to avoid sounding like a robot - no bullet points, just natural language. Phrases like "I'm not 100% sure" and "it's tricky" would help. Should also mention that without context, it's hard to tell - maybe they're just naturally calm.
+
+The user's deeper need seems to be understanding how humans actually assess deception in real life, not just relying on textbook cues. They want to see if I can model human uncertainty. So I'll emphasize that behavior alone isn't foolproof.
+
+Let me structure it: start with what I observe (eye contact, palms up), then why that might suggest truthfulness, then why it could be deception, and end with "hard to say without more context." Keep it conversational like I'm talking to a friend.
+</think>

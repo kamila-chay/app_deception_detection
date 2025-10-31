@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavior description labeled as "truth," but I need to pretend I don't see that and analyze the video myself.
+
+Looking at the behavior data: The person has "Gaze towards interlocutor" (true), "Head tilting" (true), "Hands touching head/body/etc" (true), and "Palms up" (true). All other behaviors like smiling, laughing, frowning, or excessive blinking are false. The key points here are the direct eye contact, head tilting (which often indicates thoughtfulness), hands touching the body (possibly nervous or reflective), and open palms (which is generally associated with honesty in many cultures).
+
+I need to approach this like a human would - not too confident, with counterarguments. Humans would notice the open palms and eye contact as positive signs for truthfulness, but might question why they're touching their head. Maybe they're just thinking or adjusting their hair. The head tilt could be neutral or even a bit defensive, but since it's not extreme, it's probably not a strong indicator of deception.
+
+For counterarguments, I should consider that some people might touch their head when lying (like covering up), but the description says "touching head/body/etc" generally, not specifically covering the mouth or face. The open palms are a strong positive sign - many deception studies show palms up is associated with truthfulness. The direct gaze is also a classic truth indicator, though I know some liars might overdo eye contact, but here it's just "towards interlocutor" without being described as intense.
+
+I'll structure my response to sound like I'm thinking through it step by step: first noting the positive signs, then the potential red flag (head touching), then weighing them against each other. I should avoid listing points and keep it conversational. Phrases like "I'm not 100% sure" and "it could go either way" will make it sound like a human deduction rather than a machine.
+
+The user wants me to make it seem like I'm making an educated guess, so I'll emphasize that these are common indicators but not foolproof. I'll mention that without more context (like the actual content of the statement), it's hard to be certain. The head tilt might actually be a neutral gesture - people tilt their heads when listening or thinking, not necessarily lying.
+
+For the palm up detail, I should clarify that it's "palms up" not "palms up with hands open" - the description says "Palms up: True" which is a bit ambiguous but in context probably means palms facing upward, which is generally seen as open and honest. I'll refer to it as "palms facing upward" to be clear.
+
+I'll wrap up by saying the evidence leans toward truthfulness but with some uncertainty, matching how a real person would feel after watching the clip. The key is to sound thoughtful but not overconfident - that's what the user meant by "avoid sounding too confident."
+</think>

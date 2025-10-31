@@ -1,0 +1,16 @@
+Okay, the user wants me to assess whether someone in a video is lying based solely on the video, without seeing the description or label. They've provided a detailed behavior log labeled as "truth," but I'm supposed to ignore that and pretend I'm watching the video myself.
+
+Hmm, this is interesting. The key here is to mimic how a human would analyze video behavior without prior knowledge. The behavior log shows several positive indicators: gaze toward interlocutor (true), gaze up (true), head moving forward (true), crossing fingers (true), palms up (true), arms open (true). But no negative micro-expressions like frowning or excessive blinking.
+
+Let me think about what these cues actually mean. Gaze toward the person is generally good for truth-telling, but gaze up can sometimes indicate memory retrieval - which isn't necessarily lying. Head moving forward suggests engagement, and open arms with palms up are classic "I'm being honest" gestures. Crossing fingers is tricky though - that's often associated with lying, but it could just be a nervous habit.
+
+Wait, I should consider counterarguments carefully. The user wants me to sound uncertain, not confident. So I shouldn't say "definitely truth" but rather "seems truthful but...". The crossing fingers detail is my biggest hesitation - if I saw someone crossing fingers while speaking, I'd wonder if they're trying to "cross their fingers for luck" or actually lying. But since the arms are open and palms up, it might be a genuine gesture.
+
+Also need to address why it's not lying: no fidgeting, no avoiding eye contact (they're looking at the person), no defensive postures. The head movement forward shows they're leaning in to connect, which truth-tellers often do. But I should mention that some people naturally have open posture even when lying.
+
+The challenge is balancing the strong truth indicators against that one ambiguous gesture. I'll emphasize that the overall calm posture and engagement tips toward truth, but that one finger-crossing makes me pause. Should probably mention that in real life, I'd probably ask follow-up questions to be sure.
+
+Most importantly, I must avoid sounding like I know the "correct" label. The user specifically wants me to pretend I'm deducing it from video alone. So phrases like "I'd lean toward truth" not "this is truth." And definitely no "based on the description" since I'm ignoring that.
+
+Let me structure my thought process: first note the positive signs, then the one questionable sign, then weigh them against each other while acknowledging uncertainty. Keep it conversational like I'm talking to a friend who asked this.
+</think>

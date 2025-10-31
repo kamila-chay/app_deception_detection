@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. The actual label is "deception," but I shouldn't use that info. I need to base my analysis solely on the behavioral cues provided in the description, but pretend I'm deducing it from the video.
+
+Looking at the description, it's a list of behaviors with True/False values. For deception, it says "Lips retracted" is True and "Gaze down" is True, while "Gaze towards interlocutor" is also True. Other things like smiling, laughing, or frequent blinking are all False. The key points seem to be lips retracted (which might mean pursing lips or tightening them) and gaze direction (downward gaze while maintaining some eye contact).
+
+I should think like a human who's watching this clip. People often think downward gaze indicates dishonesty, but I know from psychology that it's not that simple. The person is looking at the interlocutor (so not avoiding eye contact entirely), but also glancing down sometimes. Lips retracted could be nervousness, but it might also just be their natural expression. 
+
+I need to balance this - not sound too certain. Maybe start by noting the gaze behavior since that's commonly associated with lying, but then counterargue that downward gaze can mean many things like thinking or discomfort. The lips retracted is tricky - it could be a sign of stress, but it's not definitive. 
+
+The user wants me to include counterarguments, so I'll mention that some people naturally look down when speaking, or that lips retracted might just be a habitual gesture. I should avoid listing points - keep it flowing like natural speech. 
+
+Also important: the description says "Gaze towards interlocutor" is True, meaning they're making some eye contact, which weakens the lying hypothesis. That's a key counterpoint I should include. 
+
+I'll structure it as: 
+- Start with what I observe (gaze patterns, lip movement) 
+- Note the common "lying signs" but question them 
+- Give alternative explanations 
+- End with uncertainty ("hard to say for sure") 
+
+Need to make sure it sounds like a real person hesitating, not an AI spouting facts. Phrases like "I'm not sure" or "could be" will help. And absolutely no claiming to "know" they're lying - just an educated guess based on what I see.
+
+The hardest part is resisting the urge to say "I think they're lying because of X" since the actual label says deception, but I have to pretend I don't know that. Must stay neutral. 
+
+Also noting that all the other "classic" deception cues (smiling, blinking, etc.) are absent - that actually makes the case weaker, since liars often show more micro-expressions. So I should mention that too as a counter to the deception label.
+</think>

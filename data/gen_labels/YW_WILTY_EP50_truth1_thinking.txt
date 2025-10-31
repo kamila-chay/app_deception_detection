@@ -1,0 +1,32 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "truth," but I have to pretend I'm deducing it from the video alone. 
+
+First, I should recall what the description says about the behavior: they have "Gaze towards interlocutor" true, "Gaze down" true, "Head tilting" true, "Head shaking" true, and all other cues like smiles, laughter, frowning, etc., are false. So in the video, they're looking at the person they're talking to, occasionally looking down, tilting their head, and shaking their head (which could be a "no" or agreement, but since it's labeled truth, probably agreement). 
+
+Now, I need to think like a human watching this. I'm not an expert, just someone trying to figure out if they're lying. I remember that when people lie, they often avoid eye contact, fidget, or show nervous signs—but here, they're maintaining eye contact (gaze towards interlocutor), which is usually a sign of truthfulness. But they're also looking down sometimes, which might be a sign of discomfort or lying. Wait, but the description says "gaze down" is true, so they're looking down occasionally. I should consider if that's normal or not. 
+
+Head tilting is often a sign of engagement or listening, not lying. Head shaking—since it's listed as "head shaking" true, and it's not specified as "no," it could be a nod-like gesture, but in many contexts, head shaking means "no." But in the label, it's "truth," so maybe they're shaking their head in agreement or to emphasize something truthful. I should be careful not to assume the meaning. 
+
+The key point is no signs of deception: no frowning, no smiling when they shouldn't, no awkward pauses, no blinking too much. That's a big clue. Most people think liars show nervousness, but actually, truth-tellers can be nervous too, and liars might seem calm. So the absence of classic "lying" cues might point to truth. 
+
+But I need to consider counterarguments. Maybe they're a skilled liar who doesn't show nervousness. Or perhaps they're lying but are very controlled. The head shaking—could it be a sign of disagreement, but they're lying about something they disagree with? But the label is truth, so I'll go with that. 
+
+Also, gaze down: sometimes people look down when thinking or being honest, not just lying. Like, when recalling something, they might look away. So that could be neutral. 
+
+I should make my response sound hesitant, like I'm thinking it through. Not too confident. Say things like "I'm not sure, but..." and mention why I'm leaning toward truth, but also why it's not clear. 
+
+Structure my thoughts: start with the positive signs (eye contact, no fidgeting), then the possible red flags (looking down, head shaking), and then why the red flags might not mean lying. End with a balanced conclusion. 
+
+Make it natural: "Hmm, this is tricky... I notice they're making eye contact a lot, which usually means they're being truthful, but they do look down sometimes. Wait, but they're not showing any nervous signs like fidgeting or avoiding eyes, so maybe that's just them thinking. And head shaking—could be agreeing, not denying. Yeah, I think they're probably telling the truth." 
+
+Check the description again: "Gaze towards interlocutor" is true, so they're looking at the person they're talking to most of the time. "Gaze down" is also true, so they're looking down occasionally. That's not avoiding eye contact; it's mixed, which is normal. Head tilting is positive for engagement. 
+
+Counter: If they were lying, why would they look down? Maybe to avoid being caught, but since they're not avoiding eye contact entirely, it might not be significant. 
+
+Also, no "awkward pauses" or lip movements that signal stress. That's strong for truth. 
+
+So, my reasoning should emphasize the lack of deception cues as the main point, with minor doubts about the gaze down. 
+
+Finally, phrase it conversationally: "I'm not 100% sure, but based on what I see..." 
+
+Avoid any markdown, keep it flowing like a real person talking.
+</think>

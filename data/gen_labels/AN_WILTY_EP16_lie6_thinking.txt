@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make my own educated guess.
+
+Looking at the behavioral description provided, I notice several key points: the person has "Gaze towards interlocutor" (true), "Head shaking" (true), and "Arms open" (true). The absence of other behaviors like smiling, laughing, frowning, or frequent blinking is also notable. 
+
+Hmm, the arms being open is interesting - that's usually a sign of openness in nonverbal communication, which might suggest honesty. But head shaking while maintaining eye contact... that's a bit confusing because head shaking is often associated with disagreement or denial, which could indicate deception. However, people sometimes shake their head to emphasize a point even when being truthful, like saying "no" to something specific.
+
+I should consider counterarguments too. Maybe the head shaking is just a nervous habit unrelated to lying, or perhaps they're shaking their head in agreement while saying "no" to something else. The steady eye contact is suspiciously strong for a liar - most people avoid eye contact when lying, so this could actually point to truthfulness. 
+
+The arms being open is another strong point for truthfulness - liars often cross their arms defensively. Since they're keeping arms open, that might mean they're comfortable with what they're saying. 
+
+But wait - the description says "Gaze towards interlocutor" is true, which means they're looking at the person they're talking to, not avoiding eye contact. That's actually a classic truth-telling sign. If they were lying, they might look away more often. 
+
+I should be careful not to sound too confident. The user wants me to sound like I'm making an educated guess, not stating facts. So I'll say things like "it's hard to say" or "this could go either way." 
+
+The key tension here is between the head shaking (which might suggest deception) versus the open arms and steady eye contact (which suggest truthfulness). I'll need to present both sides fairly. 
+
+Also important: the description shows no signs of classic deception markers like blinking a lot, frowning, or lip biting. That absence might actually support truthfulness. 
+
+For my response, I'll start by describing what I see in the video (arms open, head shaking while looking at the person), then weigh the evidence both ways, and end with a tentative conclusion that leans toward truth but with reservations. I'll make sure to say "I'm not 100% sure" to keep it natural. 
+
+The user seems to want to see how a human would reason through this without the label, so I'll avoid any technical jargon and keep it conversational. They're probably testing if I can simulate human uncertainty in deception detection. 
+
+I should also remember that real deception detection is notoriously unreliable - even experts get it wrong. So my response should reflect that uncertainty. Maybe mention that nonverbal cues are tricky because context matters so much. 
+
+Okay, drafting now: start with what I observe, then the head shaking as a red flag, then the eye contact and open arms as counterpoints, then wrap up with "I'm leaning toward truth but it's not clear."
+</think>

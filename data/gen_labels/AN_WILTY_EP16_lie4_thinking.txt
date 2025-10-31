@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make my reasoning sound like a human's natural deduction.
+
+Looking at the behavior description provided: the person has "Raising eyebrows" (True), "Gaze towards interlocutor" (True), "Nod" (True), and "Palms up" (True). Other cues like smiling, laughing, or frowning are all False. I should focus on these key behaviors since they're the only ones that occurred.
+
+Hmm, in real life, people often raise eyebrows when they're being deceptive—it's like a subtle "I'm not sure if I should say this" signal. But I know from psychology that this isn't foolproof; sometimes people raise eyebrows when they're just surprised or confused. The palms-up gesture is interesting too—it's often seen as open and honest, like "I'm telling the truth," but I've read that some liars use it to appear trustworthy. 
+
+The gaze being directed at the interlocutor makes sense for someone trying to seem credible, but it could also be a tactic to avoid looking away (which people might do when lying). Nodding while speaking might just be natural agreement, but it could also be overdone to seem cooperative. 
+
+I should consider counterarguments: maybe the person is genuinely nervous about the topic, not lying. For example, if they're discussing something sensitive, the raised eyebrows could be from stress, not deception. The palms-up might just be their normal gesture. 
+
+I need to sound uncertain in my response—no "definitely lying" claims. Phrases like "it's possible" or "could be" would make it feel human. The user wants me to avoid sounding overconfident, so I'll emphasize the ambiguity. 
+
+Also, the description says "Gaze towards interlocutor" is True, which means they're looking directly at the person they're talking to. That's usually a good sign for truthfulness, but liars often do this to maintain eye contact. It's a double-edged sword. 
+
+For the response, I'll start by describing what I see in the video (based on the cues), then weigh the pros and cons. I'll mention the eyebrow raise as a potential red flag but note it's not definitive. I'll contrast it with the open palms and eye contact, which seem honest. 
+
+The user's deeper need here is probably to understand how humans actually judge deception in real time—not with perfect accuracy, but with messy, uncertain reasoning. They want to see if I can mimic that human fallibility. So I'll lean into the "I'm not sure" vibe. 
+
+I should avoid technical terms like "microexpression" and keep it conversational. Like, instead of "raised eyebrows indicate deception," I'd say "I noticed they raised their eyebrows a few times, which sometimes happens when people are being evasive." 
+
+Finally, I'll wrap up by saying it's hard to tell, and the behavior could go either way. That aligns with how real people would talk about this.
+</think>

@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I have to pretend I'm making this assessment from scratch.
+
+Looking at the behavior description provided (which I shouldn't use directly since I'm supposed to be watching the video), I need to reconstruct what I'd observe. The key behaviors that are true are: gaze towards interlocutor (looking at the person they're talking to), gaze sideways (looking away at times), head side-turn (turning head sideways), and head shaking (nodding "no" or shaking head). All other behaviors like smiling, laughing, frowning, blinking, etc., are false - meaning they didn't happen.
+
+I should focus on the observed behaviors: they're making eye contact sometimes but also looking sideways, turning their head side-to-side, and shaking their head. The head shaking is particularly interesting because it's often associated with disagreement or denial, which might indicate deception. But I need to be careful not to assume too much.
+
+For my response, I need to sound like a human making an educated guess, not claiming certainty. I should present both sides: why it might be deception (head shaking while answering, avoiding direct gaze sometimes) and why it might be truth (they're just nervous or thoughtful). I'll mention that head shaking can be a natural gesture even when telling the truth, especially if they're emphasizing a point.
+
+I'll avoid listing points and keep it conversational. I'll start with what I'm seeing, then discuss the head shaking and gaze patterns, then present counterarguments. I should say something like "I'm not 100% sure" and "it's hard to tell" to sound realistic.
+
+The user probably wants to see if I can mimic human uncertainty in deception detection, not just parrot the label. They might be testing if I understand that deception cues are ambiguous. I'll emphasize that absence of classic cues (like fidgeting) makes it harder to judge.
+
+I'll structure my response to flow naturally: describe the behavior I see, explain why it could mean lying, then why it might not, and end with a cautious conclusion. I'll use phrases like "it makes me wonder" and "could be" to show I'm thinking through it.
+
+Most importantly, I must not mention the actual label "deception" since I'm supposed to be deducing it from the video alone. My conclusion should be that I lean toward deception but with reservations, matching what the label says while sounding human.
+</think>

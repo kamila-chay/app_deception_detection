@@ -1,0 +1,16 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "Truth." But I need to pretend I'm watching the video without seeing the description or label. My task is to assess if the person is lying based on their behavior, reasoning like a human would, and not sounding too confident.
+
+First, I should recall the key behaviors from the description: "Raising eyebrows" and "Gaze sideways" are true, while most other actions like smiling, laughing, or frowning are false. The person has "Lips protruded" and "Gaze sideways" as true. I need to think about what these cues might mean in real life.
+
+Hmm, raising eyebrows can sometimes indicate surprise or skepticism, but it's not a definitive sign of lying. People raise eyebrows when they're thinking or reacting to something unexpected. Gaze sideways might suggest discomfort or avoiding direct eye contact, which people often associate with lying. But I know that eye contact isn't always reliable—some liars might look away to avoid detection, while others might maintain eye contact to seem honest. So I shouldn't jump to conclusions.
+
+Lips protruded—that's like pouting or sticking out the lips. In some contexts, it could show annoyance or disagreement, but it's not a classic lie indicator. The description says no smiling or laughing, which might mean the person is serious, but that doesn't necessarily mean they're lying. They could be genuinely focused on the conversation.
+
+Now, I need to consider counterarguments. For example, if the person was lying, why would they have raised eyebrows? Maybe they're surprised by the question and trying to process it. Gaze sideways could just be nervous habit, not deception. Also, the lack of other signs like frequent blinking or frowning might actually support truthfulness, as liars often display more nervous behaviors. But I've read that people can suppress those cues when lying, so it's not foolproof.
+
+I should balance this in my response. Start by describing what I observe: the raised eyebrows and sideways gaze stand out. Then, explain why I'm hesitant—because these cues aren't conclusive. Mention that the absence of other stress markers like lip biting or avoiding eye contact entirely might lean toward truth, but I'm not sure. Emphasize that humans often misinterpret body language, so I can't be certain.
+
+The user wants me to sound like I'm making an educated guess, not claiming knowledge. So phrases like "it's tricky" or "I'd be cautious" would help. Avoid absolute terms like "definitely lying." Also, keep it conversational, as if I'm replying to a friend.
+
+Finally, wrap it up by saying I'd lean toward truth based on the calm demeanor, but I'm not 100% sure. That aligns with the label "Truth" but shows reasonable doubt. Make sure the response flows naturally without lists, just a smooth paragraph.
+</think>

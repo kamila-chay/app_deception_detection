@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided (which I shouldn't actually see since I'm supposed to be watching the video), I notice several key behaviors: frowning eyebrows, raised eyebrows, chin moving upwards, gaze towards interlocutor, head moving backward, and head side-turning. The label says "truth," but I have to pretend I don't know that.
+
+Hmm, as a human observer, I'd focus on the conflicting cues. The raised eyebrows and frowning eyebrows together are interesting - raised eyebrows often signal surprise or openness (truthful cues), but frowning can indicate confusion or discomfort. The chin moving upward (like a slight chin lift) might suggest confidence, but the head moving backward could be a defensive gesture. The head side-turning while maintaining eye contact seems like they're processing something, not necessarily lying.
+
+I should consider counterarguments too. Maybe the frowning is just concentration, not deception. The head backward movement could be a natural thought process. People often have these micro-expressions when they're recalling details honestly. But I should also acknowledge that head movements can sometimes indicate evasion - though the gaze toward the interlocutor seems to contradict that.
+
+The user wants me to avoid sounding too confident, so I'll use phrases like "I'm not 100% sure" and "could be" instead of definitive statements. I'll make sure to balance the evidence - noting both the truth indicators (eye contact, raised eyebrows) and potential deception signs (chin lift, head backward).
+
+I'll structure it as a natural thought process: starting with what I see, then weighing the conflicting cues, considering alternative explanations, and ending with a tentative conclusion that leans toward truth but with caveats. The key is to sound like a human making an honest assessment, not an AI with perfect knowledge.
+
+For the response, I'll avoid technical terms like "microexpression" and keep it conversational - "I noticed their eyebrows..." instead of "The subject displayed raised eyebrows." And I'll definitely include that counterargument about the frown possibly being from concentration rather than deception.
+</think>

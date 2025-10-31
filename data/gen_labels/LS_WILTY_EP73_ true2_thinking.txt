@@ -1,0 +1,18 @@
+Okay, the user wants me to assess a person's behavior in a video based on a structured description that's labeled as "truth." But I'm supposed to imagine I'm watching the video without seeing the description or label. I need to write a natural-sounding response where I reason about whether the person is lying or telling the truth, including counterarguments, and not sound too confident.
+
+Looking at the description, it says the label is "truth," and there are specific behaviors: "Raising eyebrows" is True, "Gaze towards interlocutor" is True, "Gaze up" is True, and "Head up" is True. Other things like smiling, laughing, or frowning are False. So the person isn't showing typical lie indicators like nervousness or avoidance.
+
+I should think like a human watching this. If someone's gaze is steady toward the person they're talking to, and they're raising their eyebrows—maybe in surprise or emphasis—that often suggests honesty. People who lie might look away or avoid eye contact, but here they're maintaining eye contact and even looking up, which could be a sign of thinking truthfully, not lying. The head being up and no fidgeting like hand rubbing or lip biting also points to confidence.
+
+But I have to consider counterarguments. Maybe the person is lying but very practiced. Some liars can maintain eye contact and seem calm, so the absence of nervous cues doesn't prove truthfulness. Also, raising eyebrows could be part of a scripted lie—like if they're acting out a story. Or perhaps they're just naturally expressive, and the eyebrow raise isn't related to the content.
+
+I need to make my response sound like I'm thinking through it, not stating facts. Start with what I observe: "I see they're looking right at the person while talking, and their eyebrows are up a bit." Then explain why that might mean truth—like it's a natural reaction to something surprising. But add doubt: "Though I know some people can fake that, especially if they've rehearsed."
+
+Keep it conversational. Avoid words like "I conclude" or "definitely." Use phrases like "it makes me lean toward," "I wonder if," or "it's possible." End by saying it's hard to be sure, but based on common cues, it seems truthful.
+
+Check the description again to ensure I'm not missing anything. No signs of stress: no blinking fast, no mouth movements, no head shakes. That's consistent with truth-telling. But I should acknowledge that some lies don't show obvious signs.
+
+Finally, wrap it up as a natural reply to "Is this person lying?" so it's not formal. Something like: "Honestly, it's tricky... but I'd say they seem genuine based on how they're holding their gaze and that eyebrow thing."
+
+Make sure it's all in one paragraph, no lists, and sounds human—like I'm hesitating a bit.
+</think>

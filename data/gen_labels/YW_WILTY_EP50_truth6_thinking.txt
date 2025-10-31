@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty. The key is to avoid sounding too confident and include counterarguments.
+
+Looking at the provided behavior data (which I shouldn't rely on since I'm supposed to be watching the video), I see the person has raised eyebrows (True), gaze toward interlocutor (True), and head side-turn (True). The label says "truth," but I have to pretend I don't know that. 
+
+Hmm, the user is testing if I can simulate human reasoning about deception cues. Real humans don't just look for "lying signs" - they consider context and multiple cues. I should emphasize that raised eyebrows often indicate surprise or skepticism, not necessarily deception. The gaze toward the speaker is a strong truth-telling signal, and head side-turning might just be natural movement during conversation.
+
+I should also address why someone might think they're lying: maybe the raised eyebrows could be misread as nervousness. But I'll counter that by noting that truth-tellers sometimes raise eyebrows when recalling details. The head turn isn't a classic deception cue either - it's common in conversation.
+
+Important to stress that absence of "lying signs" (like avoiding eye contact or fidgeting) makes truth more plausible, but I shouldn't say "proves" truth. Need phrases like "seems consistent with" not "confirms." 
+
+The user probably wants to see if I avoid overconfidence in deception detection - which is crucial because humans often misjudge this. I'll include that "it's hard to be certain" angle. Also must remember not to use bullet points - keep it flowing like casual speech.
+
+For the counterargument, I'll mention that some people might interpret the head turn as evasiveness, but that's not the most common interpretation. And the gaze direction is more telling than the head movement.
+
+...Wait, should I mention the lack of other cues? Like no fidgeting or awkward pauses - that's actually supportive of truth-telling. But since I'm pretending not to see the data, I'll describe what I'd observe: "I don't see them avoiding eye contact or fidgeting much."
+
+Final structure: Start with what I observe (gaze, eyebrows, head movement), explain why it could suggest truth, then acknowledge why someone might doubt it, then conclude cautiously. End with "hard to say for sure" to keep it human.
+</think>

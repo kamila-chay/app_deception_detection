@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and reason like a human would.
+
+Looking at the behavior description provided: the person has "Gaze towards interlocutor" as True, and all other behaviors like smiling, laughing, frowning, blinking, etc., are False. So they're maintaining steady eye contact with the person they're talking to, and not showing any of the typical micro-expressions or nervous gestures that people often associate with lying.
+
+Hmm, this is interesting because most people think liars avoid eye contact, but research shows that's not always true—some liars actually overcompensate with too much eye contact. The description says they're looking directly at the person, which might be a sign of deception if it's unnatural. But the description also says no other suspicious behaviors, so it's not like they're fidgeting or avoiding gaze.
+
+I should consider both angles. On one hand, steady eye contact could be deceptive—like they're trying too hard to seem honest. On the other hand, it could just mean they're genuinely engaged and confident. The fact that they're not doing anything else unusual (no blinking, no hands touching face) might suggest they're not nervous, which could mean they're telling the truth. But wait, some people are good at lying without showing stress, so that doesn't prove anything.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So I shouldn't say "they're lying" outright—I need to say "it's possible" or "I'm leaning toward" with reasons. Also, I have to include counterarguments: if they're lying, why no nervous signs? If truthful, why such intense eye contact?
+
+I recall studies where high-conflict liars (like in court) maintain strong eye contact to appear credible. But for everyday lies, people might look away. Since this is a video clip, maybe it's a high-stakes situation. But I don't know the context, so I can't assume.
+
+Also, the description says "Gaze towards interlocutor" is True, which means they're looking at the person they're talking to, not away. That's consistent with truth-telling in some cultures, but in others, it might be seen as aggressive. I should avoid cultural assumptions though.
+
+For the response, I'll start by describing what I see: "They're keeping steady eye contact..." Then present the two sides: "Some might think this is deceptive because..." vs. "But others would say..." and end with a cautious conclusion like "I'm leaning toward deception but not sure."
+
+Need to make it sound natural—like a real person thinking out loud. No jargon. And absolutely no bullet points; it has to be flowing text.
+
+Also, the user emphasized avoiding overconfidence, so I'll use words like "might," "could," "it's tricky," "I'm not certain." And since the actual label is deception, my reasoning should align with that, but I have to pretend I'm figuring it out from scratch.
+
+Let me draft mentally: "Watching this, they're staring right at the person they're talking to the whole time, which is interesting because I've heard liars sometimes do that to seem honest. But they're not fidgeting or blinking a lot, which usually happens when people are nervous. So maybe they're confident in their story? But wait, if they're lying, they might be suppressing nervousness... Hmm. I'm not sure, but the steady eye contact feels a bit off for a truthful person in my experience."
+
+That covers both sides. And I'll mention that without context, it's hard to tell—like, what's the topic? But since I don't have that info, I'll stick to the behavior.
+
+Finally, make sure it's a reply to "Is this person lying or telling the truth?" so start with "Based on what I'm seeing..." and end with a tentative answer.
+</think>

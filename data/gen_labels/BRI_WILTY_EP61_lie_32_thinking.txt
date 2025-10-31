@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. I have to write a natural-sounding response as if I'm making an educated guess, not being too confident.
+
+Looking at the description, it shows "Raising eyebrows" as True, and everything else as False. So in the video, the person is raising their eyebrows but not doing any other typical deception cues like smiling, frowning, blinking a lot, or avoiding eye contact. That's interesting because most people think liars avoid eye contact, but here the gaze is down or sideways, not toward the interlocutor.
+
+I need to reason both ways. On one hand, raised eyebrows could be a sign of deception—maybe they're trying to seem innocent or surprised. But I should consider counterarguments: maybe they're just naturally expressive, or reacting to something in the conversation, not lying. Like, if someone says something unexpected, eyebrows might go up without any deception.
+
+The user emphasized making it sound human, so I shouldn't use technical terms. I'll keep it conversational, like I'm talking to a friend. I should say things like "I'm not 100% sure" and "it could be..." to show uncertainty.
+
+Also, the description says "Gaze towards interlocutor" is False, so they're not looking at the person they're talking to. But in deception, people often avoid eye contact, so that might point to lying. However, some studies show that liars might overcompensate and make too much eye contact. But here, it's clearly not looking, so that could be a red flag. But I should mention that not looking could also mean shyness or distraction.
+
+I'll structure my response to start with the observation: "I noticed they raised their eyebrows a few times..." Then discuss why it might be deception, but also why it might not be. End with a balanced view, like "it's hard to say for sure."
+
+I need to avoid lists—just paragraph-style. And make sure it's aligned with how humans think: we notice small things but don't jump to conclusions. So phrases like "I wonder if..." or "it's possible that..." will help.
+
+Finally, since the actual label is deception, my reasoning should lean toward that but with doubts, so it feels authentic. If I were wrong, it should make sense in hindsight. Like, if they raised eyebrows while saying something, it could be nervousness, but not proof of lying.
+
+Let me check the other behaviors: no laughter, no frowning, no awkward pauses. That's unusual for deception, as liars often have more micro-expressions. But the eyebrow thing stands out, so I'll focus on that. Counterargument: maybe they're just surprised by a question, not lying.
+
+Okay, drafting in my head: Start with the eyebrow observation, then the gaze issue, then why it might not be lying. Keep it under 200 words for natural flow.
+</think>

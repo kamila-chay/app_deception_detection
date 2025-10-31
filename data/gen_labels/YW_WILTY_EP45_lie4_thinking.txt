@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. I have to write a natural-sounding analysis that sounds like an educated guess, not a certainty, with counterarguments.
+
+Looking at the description provided: The person has "Raising eyebrows" (True), "Frequent blinking" (True), "Lip corners up" (True), "Gaze towards interlocutor" (True), "Gaze sideways" (True), "Nod" (True), "Head side-turn" (True), "Head shaking" (True), "Palms up" (True). Other behaviors like smiling, laughter, scowling are False.
+
+Hmm, I need to think about what these cues might mean in a real-life context. Raising eyebrows and frequent blinking are often associated with stress or deception, but they can also happen when someone is nervous or trying to be polite. Palms up is usually seen as open and honest, which might suggest truthfulness. But the head shaking and side-gaze could indicate discomfort or evasion.
+
+I should consider both sides. For deception: The raised eyebrows and blinking might show anxiety, which people often have when lying. The head shaking (which is "no" motion) combined with "gaze sideways" might mean they're avoiding direct eye contact while denying something. But head shaking could also just be a habitual gesture.
+
+For truthfulness: Palms up is a classic "I'm being honest" signal. The nod and gaze towards the interlocutor seem engaged and attentive, which might mean they're telling the truth. The lip corners up could be a genuine smile of confidence, not deception.
+
+I need to make it sound like I'm weighing these possibilities without being sure. The user wants me to avoid sounding overconfident, so phrases like "it's tricky" or "could go either way" would work. Also, I should mention that some cues like blinking are ambiguous—they could be from fatigue too.
+
+The counterarguments are important. For example, if they're lying, why are they using palms up? If truthful, why the sideways gaze? I should acknowledge that deception cues aren't foolproof; context matters. Maybe they're just shy or used to fidgeting.
+
+I'll structure my response to start with observations, then present the deception angle, then the truth angle, and end with uncertainty. Keep it conversational, like I'm talking to a friend. No lists—just flowing text. And absolutely no "I know for sure" language.
+
+Also, the user specified "natural as a reply," so I'll avoid formal terms. Something like: "Honestly, I'm not 100% sure, but here's what I'm noticing..." 
+
+Let me check if I'm missing any cues. "Head side-turn" and "gaze sideways" together might mean they're looking away to think, which isn't necessarily deceptive. And "frequent blinking" could just be dry eyes. I should include those as counterpoints.
+
+Finally, since the actual label is deception, my analysis should lean toward that but with hesitation, so it feels like I'm deducing it from the video. But I can't say "I know it's deception," just "this makes me lean toward deception." And emphasize that it's not definitive.
+</think>

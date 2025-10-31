@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth" (meaning the behavior actually occurred), but I'm supposed to pretend I don't see that label.
+
+Looking at the behavior markers: the person has "Raising eyebrows" (True), "Chin moving downwards" (True), "Gaze towards interlocutor" (True), and "Gaze up" (True). Other markers like smiling, laughing, or frowning are all False. 
+
+Hmm, I need to think like a human watching this. When someone raises their eyebrows while speaking, it often indicates surprise or skepticism - but in this case, since the gaze is toward the person they're talking to (not away), it might be more about engagement. The downward chin movement is interesting - that's usually a sign of confidence or assertiveness when speaking, not nervousness. And "gaze up" is often associated with recalling memories, which could be neutral or even truthful if they're thinking.
+
+But I should consider counterarguments too. Some people might raise eyebrows when lying to seem innocent, and downward chin could be misinterpreted. The lack of fidgeting (no hands rubbing, no blinking) is actually a good sign for truthfulness - liars often show more physical signs of stress. 
+
+Wait, but the user wants me to sound uncertain, like I'm making an educated guess. I shouldn't say "definitely truthful" because that's not how humans assess these things. I'll mention how the gaze direction and lack of nervous habits lean toward truth, but acknowledge that eyebrow raises can be tricky. 
+
+The key is to avoid listing points - just weave it into natural language. Like: "Their eyes stay on the person they're talking to, which usually means they're engaged rather than avoiding eye contact... but sometimes people raise eyebrows when they're trying to seem sincere." 
+
+I'll make sure to say things like "it's hard to tell" and "could go either way" to sound human. The chin movement is actually a strong point for truthfulness - when people are lying, they often have more tense jaw movements, not this relaxed downward chin. But I shouldn't overstate it. 
+
+Also need to remember the user said "don't sound too confident" - so I'll use phrases like "I'd lean toward" instead of "I know." And definitely include that counterargument about eyebrow raises being used in deception sometimes. 
+
+The most important thing is to mirror how a real person would hesitate while watching a video - noticing details but not overinterpreting. Like how they might think "Hmm, no fidgeting is good, but why are they looking up?" and then reconsider that gaze up could just be thinking.
+</think>

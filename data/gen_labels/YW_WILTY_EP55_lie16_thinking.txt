@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. They've provided a detailed behavioral description that's labeled as "deception," but I need to pretend I don't see that and reason through it like a human would.
+
+Hmm, looking at the behavioral cues: the person has a scowl (which is unusual for deception since people often try to look neutral), raises eyebrows (which can indicate surprise or skepticism), has a head tilt (often a sign of engagement), and head shakes (which could mean disagreement). They also shrug, which is common in truth-telling when someone is being honest about not knowing something. The gaze is toward the interlocutor, which is good for truth-telling, and they don't have any classic deception signs like excessive blinking or fidgeting.
+
+I should make this sound like a real person's thought process - not too confident, with counterarguments. Like, "Hmm, they're scowling which is odd for lying, but maybe they're just annoyed..." I need to avoid sounding like I'm just repeating the description. The user wants me to pretend I'm deducing this from the video alone.
+
+The tricky part is the scowl - deception usually involves more neutral or forced smiles, not scowling. That's actually a red flag against deception. The head shake could be "no" to a question, which might mean they're denying something, but the shrug suggests they're being honest about not knowing. 
+
+I should mention how humans would weigh these: the scowl is confusing because it's not typical for liars. Maybe they're actually upset about the question, not lying. The head tilt and direct gaze feel more like someone trying to be convincing, not deceptive. But I can't be sure - maybe they're good at faking it.
+
+For counterarguments, I'll note that some liars do show negative emotions, and the head shake could be a lie indicator if they're denying something. But the shrug and gaze seem to contradict that. 
+
+I'll structure it like a casual reply: "Honestly, I'm a bit torn because..." with phrases like "it's hard to say" and "could be either way." Need to avoid markdown and keep it flowing naturally. The key is making it sound human - hesitant, noticing contradictions in the cues, not acting like an expert.
+
+Also should emphasize that absence of classic signs (no fidgeting, no forced smiles) leans toward truthfulness, but the scowl throws me off. The head shake is ambiguous - could be "no" to the question they're answering, which might mean deception, but combined with shrug it feels more like "I don't know" than "I'm lying."
+
+Gotta make sure not to say "the label is deception" since I'm supposed to be deducing from video only. Just describe what I see and why it's confusing. And end with "hard to say" to keep it uncertain like a real person would.
+</think>

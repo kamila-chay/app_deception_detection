@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. I need to reason through both possibilities carefully, avoiding overconfidence.
+
+Looking at the behavior details provided (though I'm supposed to pretend I don't see them), the key points are: the person maintains gaze toward the interlocutor (true), has gaze down (true), head up (true), and no other notable gestures like smiling or frowning. The "truth" label means this behavior actually happened, but I have to pretend I'm deducing it from the video alone.
+
+Hmm... I should focus on the gaze patterns since those are the only ones marked as true. Gaze toward the person suggests engagement, which people often do when telling the truth. But gaze down could be nervousness - though it's also common when someone is thinking carefully. The head being up is neutral, not particularly indicative.
+
+I need to consider counterarguments. Maybe the gaze down is actually a sign of lying? Some people look down when avoiding eye contact while lying. But the description says gaze toward interlocutor is true, so they're actually looking at the person while their eyes are down? That's a bit confusing. Wait no - gaze toward interlocutor means they're looking at the person's face, and gaze down means their eyes are directed downward (like looking at the ground while still facing the person). That could be either nervousness or deep concentration.
+
+The absence of other signs is important too. No fidgeting, no forced smiles - those are classic "truth" indicators. If they were lying, I'd expect more nervous habits like touching face or excessive blinking, but there's none of that. 
+
+I should emphasize that this is just my observation though. Maybe they're just shy, not lying. Or maybe they're a practiced liar who doesn't show signs. But the lack of micro-expressions... that leans toward truth. 
+
+For the natural reply, I'll start with "I'm not 100% sure" to sound human. Mention the eye contact as positive for truth, then note the downward gaze as ambiguous. Contrast with what lying would look like (fidgeting, avoiding eyes). But also say "could be nervousness" as counterpoint. End with "leaning toward truth" but not claiming certainty.
+
+Gotta avoid sounding like a robot listing points. Make it flow like a real person thinking aloud. "I noticed they kept looking at me while... but sometimes when people are lying they look down too..." Yeah, that's how humans reason.
+
+Also important: don't mention the label or description at all. Just describe what I see. And keep it concise - the user wants a short natural reply.
+</think>

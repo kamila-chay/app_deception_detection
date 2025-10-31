@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The description says it's labeled as "truth" with specific behaviors like "Lip corners down," "Lips protruded," "Lips retracted," "Gaze down," "Gaze sideways," and "Arms open." But I shouldn't use that info—I have to pretend I'm just watching the video.
+
+First, I need to recall how humans actually judge deception in videos. From what I know, there's no single "lying tell" that's reliable. People often think certain cues like avoiding eye contact or fidgeting mean lying, but research shows those can be normal for many reasons. For example, someone might look down because they're shy, thinking, or just uncomfortable—not necessarily lying. I should avoid making it sound like I'm relying on myths.
+
+Looking at the behaviors listed: "Lip corners down" and "lips protruded" suggest a tense or unhappy expression, which might seem like stress. But stress could come from anxiety about being recorded, not lying. "Lips retracted" might look like they're biting their lip, which is common when nervous. "Gaze down and sideways" could mean they're not meeting eyes, which people often associate with lying, but it might just be their natural way of looking when speaking. "Arms open" is usually a sign of openness or honesty, which contradicts the lying assumption. That's a key point—open arms might indicate truthfulness, so I should highlight that as a counterargument.
+
+I need to balance both sides. If I say they're lying, I have to explain why the cues might point that way but then counter with why it's not conclusive. Same if I lean toward truth. The user emphasized not sounding too confident, so phrases like "it's hard to say" or "could be" are important. Also, avoid listing—just weave it into a natural paragraph.
+
+Now, thinking about the user's deeper needs. They're probably testing if I understand deception cues realistically, not just regurgitating stereotypes. They want to see if I can avoid overconfidence and acknowledge ambiguity, which is crucial in real-life situations like interviews or investigations. Maybe they've seen AI claims about "lying tells" and want a human-like response that's nuanced.
+
+I should structure my thought process: start with what I observe, then consider the "lying" angle (tense lips, avoiding gaze), but pivot to counterpoints (open arms, possible nervousness), and end with uncertainty. Make sure to tie it back to how a human would hesitate—like "I'd be skeptical if they were avoiding eye contact, but the open arms make me wonder."
+
+Also, check the behaviors again to ensure accuracy. "Gaze down" and "sideways" might not be classic "lying" signs; studies say eye contact varies by culture. "Arms open" is a strong indicator for truthfulness in many contexts. The lip actions could be habitual, not deceptive. So the evidence isn't clear-cut.
+
+Finally, wrap it in a conversational reply: "Honestly, it's tough to say..." to sound like a real person. No markdown, just plain English. And absolutely no claiming certainty—keep it "educated guess" territory.
+</think>

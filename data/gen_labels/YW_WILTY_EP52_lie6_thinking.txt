@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make my assessment sound like a natural, cautious human deduction.
+
+Looking at the behavior description provided: the person has "Frowning eyebrows" (True), "Raising eyebrows" (True), "Chin moving upwards" (True), and "Gaze towards interlocutor" (True). Other cues like smiling, laughing, or frequent blinking are all False. 
+
+Hmm, I should consider how humans actually interpret micro-expressions in real life. The frowning eyebrows combined with raised eyebrows is interesting—it's like a confused or strained expression, not a typical "lie face" like smiling. The chin moving upward (like a slight chin lift) often happens when someone's trying to appear confident while being nervous. And maintaining eye contact (gaze towards interlocutor) is tricky because people often avoid eye contact when lying, but not always—some liars overcompensate with too much eye contact. 
+
+Wait, I should also think about counterarguments. Maybe the person is just genuinely stressed about the topic, not lying. The raised eyebrows could mean surprise at a question, not deception. And chin lift might just be their natural posture. The description says no awkward pauses or lip movements, which sometimes happen when lying, so that weakens the deception case. 
+
+I need to sound uncertain in my response—no "definitely lying" claims. Phrases like "could be" or "it's hard to tell" will make it feel human. The user wants me to mimic how a real person would hesitate, so I'll include doubts about the eye contact and chin movement. 
+
+Also, the user emphasized avoiding lists, so I'll weave everything into a flowing paragraph. Gotta make sure not to sound like I'm reciting the description—I should describe what I'm seeing in the video, not just list the labels. 
+
+*checks the behavior data again* Right, no lip movements or hand gestures that scream "lying," so I'll note that as a counterpoint. The main clues are the eyebrow combo and chin lift, but I'll stress that these aren't foolproof. 
+
+Finally, I'll end with a balanced guess—not "I think they're lying" but "based on this, I'd lean toward deception but it's not clear." That matches how humans actually reason: we're never 100% sure with body language alone. 
+
+*double-checks* Yep, avoiding "deception" as a word since I'm pretending not to know the label. Using "lying" instead. And keeping it conversational—no robotic "analysis" terms.
+</think>

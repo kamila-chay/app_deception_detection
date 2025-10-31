@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not being too confident, and including counterarguments.
+
+Looking at the behavior description provided (which I shouldn't reference directly since I'm supposed to be watching the video), I see key points: raised eyebrows, gaze toward interlocutor, and nothing else notable. The label says deception, but I have to reason as if I'm seeing this live.
+
+Hmm, raised eyebrows often signal surprise or confusion in truth-telling, but in deception contexts, they can sometimes indicate stress or overthinking. The gaze toward the person they're speaking to seems like normal engagement—truth-tellers often maintain eye contact, but liars might avoid it. Wait, but here it's "gaze towards interlocutor" which is positive, so that could lean toward truth. But I should question that: maybe they're forcing eye contact to seem honest.
+
+I need to balance this. If they're lying, why would they keep eye contact? Maybe they're nervous but trying hard to appear credible. The raised eyebrows could be genuine surprise at the question, not deception. Like, if someone asks an unexpected question, people naturally raise eyebrows. So that might not be a lie sign at all.
+
+Also, no other signs: no blinking, no fidgeting, no awkward pauses. That's interesting. Truth-tellers can have natural pauses too, so absence of fidgeting doesn't prove truth. But in deception, liars often have more physical tells, so lack of tells might suggest honesty. But I've heard that skilled liars suppress tells, so it's not foolproof.
+
+Counterargument: Maybe they're a practiced liar who controls their body language. The raised eyebrows could be a tell they're trying to hide something—like a micro-expression of stress. But the description says "raising eyebrows" not "sudden" or "exaggerated," so it might be subtle.
+
+I should emphasize uncertainty in my response. Say things like "I'm not sure" or "it's ambiguous." Avoid absolute statements. Make it sound like I'm thinking aloud, as a human would.
+
+Structure the response: Start with what I see (eyebrows up, steady eye contact), then weigh pros and cons. Mention why it could be truth (normal engagement, no nervous signs), then why it could be lie (eyebrows as stress indicator, forced eye contact). End by saying I'd lean slightly toward truth but with reservations.
+
+Check the behavior list again to confirm: "Raising eyebrows" is True, "Gaze towards interlocutor" is True, and all others are False. So no other cues. That's key—no red flags, but also no clear green flags.
+
+Make sure the tone is casual: "Honestly, I'm not 100% sure," not "Based on analysis." And tie it to human reasoning—like how we'd second-guess ourselves in real life.
+
+Avoid technical terms. Say "they kept looking at me" not "gaze towards interlocutor." Keep it conversational.
+
+Finally, align with the actual label being deception, but since I'm pretending not to know, my reasoning should make me doubt it slightly, which matches the description's lack of strong tells. The deception label might be correct, but the behavior is subtle, so my uncertainty is realistic.
+</think>

@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the behavior description provided, I notice several key points: frequent blinking (True), chin moving downwards (True), head moving forward (True), head moving backward (True), head tilting (True), and gaze towards interlocutor (True). The absence of smiles, laughter, or other typical deception markers like lip movements or hand gestures is notable.
+
+Hmm, the frequent blinking stands out as a potential red flag - humans often blink more when stressed or lying. But I should be careful not to overinterpret that since people blink frequently for many reasons. The chin movement downward and head movements (forward/backward/tilting) could indicate nervousness or trying to avoid eye contact, but the description says gaze is directed at the interlocutor, which complicates that. 
+
+I'm noticing the head movements are quite active - forward, backward, tilting all at once. That feels unnatural for someone just telling the truth. When people are truthful, their head movements tend to be more purposeful and less erratic. But I should consider counterarguments: maybe this person is just very expressive or anxious for unrelated reasons.
+
+The lack of any smile or laughter is interesting. Truthful people often show some positive affect, but not always - some are naturally stoic. And the gaze being directed at the person they're speaking to actually works against deception detection since liars often avoid eye contact. That makes me question the deception label.
+
+Wait, the chin moving downward might be a subtle sign of defensiveness or discomfort. And the head tilting could be a sign of uncertainty. But again, these could be normal for someone who's just thoughtful. I should emphasize that these are just possibilities, not certainties.
+
+I need to make my response sound like a human making an educated guess, not a confident expert. I'll mention the blinking as a possible indicator but immediately counter with "though it could be anything" to show I'm not sure. I'll acknowledge the eye contact as a counterpoint to deception. The head movements I'll describe as "a bit too much" but admit it could be natural.
+
+Most importantly, I must avoid sounding certain. Phrases like "I'm not sure," "could be," and "it's hard to say" will keep it realistic. The user wants to see how a human would hesitate and weigh evidence, not how an AI would state facts.
+
+I'll structure it as a natural conversation: start with what I observe, mention the blinking, then the head movements, then the eye contact as a counter, and end with "hard to say for sure." That mirrors how real people discuss such things - they list observations without claiming certainty.
+</think>

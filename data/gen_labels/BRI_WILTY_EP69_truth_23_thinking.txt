@@ -1,0 +1,29 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "Truth," but I'm supposed to pretend I don't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not being too confident.
+
+Looking at the behavior description provided, it's all false except for "Gaze up" and "Gaze sideways" being true. So the person is looking up and sideways, but no other micro-expressions or nervous gestures. I need to reason through this as if I'm watching the video.
+
+First, I should consider what humans typically associate with lying. Common signs people think of are avoiding eye contact, fidgeting, or nervous smiles. But here, the person has "gaze up" and "gaze sideways" - that's actually looking away from the person they're talking to, which might seem suspicious at first glance. But I know from psychology that looking up can be normal for thinking or recalling memories, not necessarily lying. The description says "gaze up" is true, so they're looking upward, not directly at the speaker.
+
+I should also note that there are no other signs of stress: no blinking, no frowning, no hand movements. That's interesting because if someone were lying, they might show more nervousness. But the absence of those signs could mean they're being truthful, or it could mean they're very good at hiding it.
+
+The user wants me to include counterarguments. So I'll need to say: "Well, looking away could mean lying, but it might just mean they're thinking." And for the lack of nervous signs, I should say: "No fidgeting might mean they're calm, but it could also mean they're practiced at lying."
+
+I have to make it sound natural, like a real person thinking out loud. Not too formal, with phrases like "Hmm" or "I'm not sure." And I shouldn't sound overconfident—I should say "it's hard to tell" or "it's a bit ambiguous."
+
+Also, the response should be in the form of a reply to "Is this person lying or telling the truth and why?" So I'll structure it as a short paragraph, not a list.
+
+Let me outline my thoughts:
+- Start by describing what I see: they're looking up and sideways, not making eye contact.
+- Mention the lack of nervous behaviors.
+- Weigh both sides: looking away could be suspicious, but it might be normal.
+- Conclude that it's leaning toward truthful because no red flags, but I'm not certain.
+
+I need to avoid any markdown and keep it conversational. And since the actual label is "Truth," my reasoning should align with that, but I can't say it outright—I have to deduce it.
+
+Finally, make sure I don't mention the label or the description; I'm only using the video behavior as described in the data. So in my response, I'll refer to the observed actions, not the "True" label.
+
+Let me draft it mentally:
+"Honestly, it's a bit tricky. They're looking up and sideways a lot, which usually makes people think someone's hiding something, but I've heard that looking up can actually be how people recall memories, not lie. And the weird thing is, they're not fidgeting at all—no blinking, no hands moving, no frowns. If they were lying, I'd expect more nervous stuff, but maybe they're just really calm. Or maybe they're good at faking it. I'm leaning toward truth because the lack of stress signs is unusual for a liar, but I'm not 100% sure. It's hard to say without more context."
+
+That sounds natural and balanced. Now, I'll polish it to make it flow better and sound human.
+</think>

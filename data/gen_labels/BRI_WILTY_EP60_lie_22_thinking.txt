@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the description provided, I see it's a structured list of behaviors. Key points are: "Raising eyebrows" is True, "Gaze towards interlocutor" is True, and everything else is False. So the person is raising their eyebrows and maintaining eye contact, but no other obvious signs like smiling, frowning, or nervous gestures.
+
+Hmm, in real life, people often think raised eyebrows mean deception, but actually, that's a myth. From what I know, raised eyebrows can just be a natural reaction to surprise or emphasis, not necessarily lying. And maintaining eye contact is usually seen as a sign of truthfulness, not deception. But I should be careful—some liars might overcompensate with too much eye contact.
+
+The user wants me to sound uncertain, like a human making an educated guess. I shouldn't be too confident. So I'll mention that the raised eyebrows might be misinterpreted, and the steady eye contact could be normal. But I should also consider counterarguments: maybe the eyebrows are raised in a way that's unnatural for the context, or the eye contact feels forced. 
+
+I need to avoid listing points. Instead, I'll write in a natural, conversational way. Start with what I observe: "They're looking right at the person talking to them, which usually means they're being honest..." Then add doubt: "But wait, sometimes people do that when they're lying to seem sincere." 
+
+The description says "Raising eyebrows" is True, so I'll describe that as "eyebrows lifted" to sound observational. And since no other tells are present, I'll note that the absence of nervous signs might lean toward truthfulness, but it's not definitive. 
+
+I should also address why the label says "deception" even if the behavior seems neutral. Maybe the context of the conversation matters—like if they're denying something they clearly did. But since I'm only seeing the video, I can't know that, so I'll stick to observable behavior. 
+
+Make sure to say things like "it's hard to say" or "could go either way" to show uncertainty. End with a balanced thought: "Without more context, I'd lean toward truthful, but I'm not sure." 
+
+Check that I'm not using any markdown or lists. Keep it flowing like a real person thinking out loud. Avoid phrases like "according to the data" since I'm pretending to watch the video. 
+
+Finally, align with human reasoning: most people would look for classic lies signs (fidgeting, avoiding eye contact), but here the opposite is true, so they might assume truthfulness. But I'll acknowledge that deception can be subtle, so it's not foolproof.
+</think>

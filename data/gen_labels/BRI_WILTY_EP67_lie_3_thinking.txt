@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. The key is to make it sound like I'm making an educated guess based on human observation, not claiming certainty.
+
+Looking at the description provided (which I shouldn't use directly), I see the label is "Deception" but I have to pretend I don't know that. The behavior metrics show things like raised eyebrows, gaze down and sideways, head moving backward, palms up, arms open. But since I'm supposed to be watching the video, I'll focus on interpreting what I'd actually see.
+
+Hmm, the user wants me to include counterarguments and sound uncertain - not too confident. Real human analysis would have doubts. I should avoid listing things and keep it conversational like a person explaining their thoughts.
+
+Let me think about what I'd actually notice in the video: Raised eyebrows often signal surprise or skepticism, not necessarily lying. Gaze down and sideways could mean discomfort or just thinking, not deception. Head moving backward might be a nervous gesture or just shifting posture. Palms up and arms open usually suggest openness, which contradicts lying. But wait - sometimes people do "open" gestures when lying to seem trustworthy.
+
+The tricky part is the gaze direction. People often look away when lying, but research shows it's inconsistent. Could also be cultural or just how they think. And the head moving backward - that's unusual. Maybe they're trying to create physical distance from the topic.
+
+I should present both sides: "It looks suspicious because... but wait, it could also be..." Need to mention that the open posture (arms, palms) actually feels more truthful. Most people wouldn't do that while lying. But maybe they're trying too hard to seem honest?
+
+Also important to say that without context, it's hard to tell. Are they answering a personal question? A routine one? The video might not show the full interaction. And I should admit I'm not a lie detector - humans are bad at this.
+
+For the natural tone: Start with "Honestly, I'm not 100% sure..." then describe what I see, then weigh the evidence. End with "hard to say for sure" to keep it uncertain. Avoid words like "definitely" or "clearly."
+
+Gotta make sure I don't accidentally use the label. The user said "imagine you don't see the description," so I'll pretend I'm just watching a clip of someone talking. The description was just for me to verify later, but my response must not reference it.
+
+Also noting the absence of classic lies signs: no smiling, no frowning, no awkward pauses. That's interesting - the person seems calm but maybe over-communicating with gestures. But calmness could mean they're practiced at lying.
+
+Counterargument: Maybe they're just naturally expressive. Some people have those gestures when they're being thoughtful, not deceptive. The gaze shifts might just be how they process information.
+
+Final thought: I'll lean slightly toward "not lying" because of the open posture, but emphasize it's a weak lean. The head movement backward is the only strong red flag, but it's ambiguous. And I'll mention that without hearing the content, it's impossible to be sure.
+</think>

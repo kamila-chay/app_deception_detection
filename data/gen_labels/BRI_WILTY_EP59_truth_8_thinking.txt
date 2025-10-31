@@ -1,0 +1,30 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "truth" based on external information. But I'm supposed to imagine I'm watching the video without seeing that label or the description. My task is to write a natural-sounding assessment where I reason about whether the person is lying or telling the truth, based on the behavior described.
+
+Looking at the description, I see that the key behaviors are: raising eyebrows (True), gaze towards interlocutor (True), and gaze down (True). Other behaviors like smiling, laughing, scowling, etc., are all False. The label says it's truth, but I need to pretend I don't know that.
+
+Hmm, I should think like a human watching this video. If someone's raising their eyebrows and looking down while talking, what might that mean? Raising eyebrows can sometimes indicate surprise or skepticism, but in this case, it's paired with looking towards the interlocutor (the person they're talking to) and looking down. Gaze down might suggest they're thinking or being reflective, not necessarily lying. But I've heard that avoiding eye contact can be a sign of lying, so I should consider that counterargument.
+
+Wait, the description says "gaze towards interlocutor" is True, meaning they're making eye contact, and "gaze down" is also True. That seems a bit contradictory. Maybe they're looking down at their hands or something while still facing the person. In real life, people often look down when thinking or being careful with their words, which could be either truth-telling or lying—truthful people might do it when recalling details, and liars might do it to avoid detection.
+
+I should also consider the absence of other classic "lying" cues: no smiling, no frowning, no frequent blinking, no hand gestures like rubbing or scratching. That's interesting because if someone's lying, they often show more nervousness through those behaviors. The lack of those might lean toward truthfulness, but I shouldn't overstate it. People can lie without showing obvious signs, and truthful people can be nervous too.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. So I need to say things like "it's hard to say" or "I'm not sure, but..." and include counterarguments. For example, if I lean toward truth, I should mention why it could still be a lie—like maybe they're good at hiding tells.
+
+Also, the response should be conversational, like I'm replying to someone asking "Is this person lying or telling the truth?" So no formal language; it should flow like a real person talking.
+
+Let me outline my thoughts: 
+- Start by describing what I see: "They're looking at me while raising their eyebrows, and sometimes looking down."
+- Explain why that might suggest truth: no nervous signs, eye contact is consistent.
+- Counter with why it could be lying: maybe they're rehearsed, or the gaze down is a lie tactic.
+- End with uncertainty: "I'd lean toward truth, but I'm not 100% sure."
+
+I need to avoid listing things—just weave it into a paragraph. And make sure it's aligned with how humans actually think: not robotic, with some hesitation.
+
+Double-checking the data: "gaze towards interlocutor" True means they're looking at the person they're talking to, which is good for truthfulness. "Gaze down" True might mean they're glancing down occasionally, which could be natural. No exaggerated expressions or fidgeting, so that supports truth.
+
+But to be thorough, I'll add that some liars don't show these signs, so it's not definitive. And for truth, some people might look down when recalling things honestly.
+
+Finally, wrap it up as a natural reply: "Based on what I'm seeing, I'm leaning toward them telling the truth because..." and then the caveats.
+
+This should feel authentic and not like I'm copying the label.
+</think>

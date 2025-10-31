@@ -1,0 +1,12 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "deception" in the data, but I'm supposed to pretend I don't know that.
+
+Looking at the behavioral markers: The person has "Frowning eyebrows" and "Raising eyebrows" (both true), "Mouth closed (awkward pauses)" (true), "Gaze towards interlocutor" (true), "Gaze down" (true), and "Head side-turn" (true). Other markers like smiling, laughing, or exaggerated expressions are false.
+
+I need to reason like a human would - not too confident, with counterarguments. The key things to focus on: the mixed eyebrow expressions (frowning + raising) could indicate internal conflict, the mouth being closed during pauses might suggest hesitation, and the gaze down with head side-turn might look evasive. But I should also consider alternative explanations - maybe they're just stressed or thinking hard, not lying.
+
+The user wants this to sound like a natural human assessment, not a robotic analysis. So I'll avoid lists and keep it conversational. I should acknowledge that some behaviors (like gaze down) can be normal for many reasons - cultural differences, shyness, or just deep thought. The head side-turn might just be a nervous habit.
+
+I'll structure my response to start with the most noticeable behaviors, then weigh the evidence both ways, and end with a tentative conclusion that leans toward deception but with caveats. The phrase "I'm not 100% sure" will be important to sound human. I'll make sure to mention specific behaviors like "frowning eyebrows while raising them" as a key clue, but also note that "gaze down" isn't definitive proof of lying.
+
+Most importantly, I must resist the temptation to say "this proves deception" since the user emphasized avoiding overconfidence. The counterarguments need to be equally strong - like "maybe they're just tired" or "some people naturally look down when concentrating." The final assessment should feel like a reasonable guess based on limited video evidence, not a verdict.
+</think>

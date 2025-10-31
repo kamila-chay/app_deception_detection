@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "Truth," but I need to pretend I don't know that and make my assessment sound like a natural human deduction.
+
+Looking at the description provided (which I shouldn't actually use since I'm supposed to be watching the video), I see specific behaviors: raised eyebrows, gaze sideways, head moving backward, and arms folded. But since I'm supposed to be blind to this, I'll have to mentally simulate what I'd observe in the video.
+
+Hmm, the key here is to avoid sounding too confident. Humans would be uncertain when judging deception, so I should include counterarguments. For instance, raised eyebrows could indicate surprise (truthful) or nervousness (lying), and head moving backward might look defensive or just uncomfortable.
+
+I recall that research shows people often misinterpret micro-expressions. The person's arms are folded - that's commonly seen as defensive, which might suggest lying, but it could just be their natural posture or they're cold. Gaze sideways isn't necessarily deceptive; many people look away when thinking, not when lying.
+
+The user probably wants to test if I can mimic human uncertainty. They're likely interested in how AI handles ambiguous real-world scenarios, not just spitting out facts. There might be an unspoken need to see if I can avoid overconfidence, which is crucial for ethical AI.
+
+I should structure my response to sound hesitant: "I'm not sure, but..." and cover both angles. Mention the folded arms as a potential red flag but note it's common for many reasons. The sideways gaze could be normal thinking behavior. Head moving backward might just be shifting position.
+
+Important to avoid phrases like "definitely" or "clearly." Instead, use "might," "could," "it's hard to say." And since the actual label is Truth, my reasoning should lean toward truthfulness but with caveats.
+
+Also, must not mention any of the description terms like "raised eyebrows" directly - I should describe what I see in the video naturally. Like "they raised their eyebrows once" not "the label says raised eyebrows."
+
+Let me check if I'm including all required elements: counterarguments (folded arms could be cold), natural language, no bullet points, and ending with a reasonable uncertainty. Yes, that should cover it.
+
+The challenge is making it sound human - so I'll add phrases like "I've seen this before" or "it's tricky because..." to mimic real conversation. And emphasize that without context, it's hard to tell.
+
+Finally, I'll wrap it up by saying I'd need more context to be sure, which aligns with how humans actually approach such questions. That should satisfy the user's request for a realistic, unconfident assessment.
+</think>

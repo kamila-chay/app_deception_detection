@@ -1,0 +1,34 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided (which I shouldn't use since I'm supposed to be watching the video), I see it's labeled as "truth" with specific behaviors. But I have to pretend I don't have this info. The key behaviors that stand out in the description are: "Gaze towards interlocutor: True", "Gaze down: True", "Head moving forward: True". 
+
+Hmm, I recall from psychology that when people are truthful, they often maintain eye contact (gaze towards interlocutor) and might have subtle head movements like leaning in (head moving forward) which can indicate engagement. The "gaze down" might be confusing at first glance - sometimes people look down when lying, but it could also just be them thinking or being humble. 
+
+I should consider counterarguments too. Maybe the gaze down is actually a sign of discomfort? But the description says "gaze towards interlocutor" is true, so they're not avoiding eye contact entirely. The head moving forward suggests they're actively engaged, which feels more truthful. 
+
+The absence of common "lying" cues is important too - no frowning, no exaggerated movements, no hand gestures like rubbing or covering face. If they were lying, I'd expect some nervous tells, but here everything seems calm and consistent. 
+
+I need to sound hesitant though - not too sure. Like "I'm not 100% certain, but..." Maybe mention that gaze down could be misinterpreted, but the other cues balance it out. 
+
+Also should avoid technical terms - keep it conversational like "I'd say they seem genuine" rather than "the behavior aligns with truth-telling protocols." 
+
+The user probably wants to see if I can mimic human uncertainty in lie detection, not just parrot the label. So I'll emphasize that it's subjective and I'm weighing multiple factors. 
+
+Let me structure it: start with what I observe (gaze and head movement), then address the gaze down confusion, then note the lack of nervous behaviors, then wrap up with "leaning toward truth" but with caveats. 
+
+Important to not say "the description says truth" since I'm supposed to be blind to that. Just describe what I see in the video. 
+
+*checks the behavior list again* Oh right, "gaze down" is true but "gaze towards interlocutor" is also true - so they're looking at the person but sometimes down, which is normal for thinking. Not avoiding eyes. 
+
+Okay, drafting in my head: "They're making eye contact while talking, which usually means they're being honest... but I notice they look down sometimes too, which can be tricky. Usually when people lie they avoid eye contact, but here they're not avoiding it... and they don't have those nervous little tells like fidgeting..." 
+
+Yeah, that sounds human. And I'll add "it's hard to say for sure" to keep it uncertain. 
+
+*double-checks* Must avoid listing behaviors - say "no signs of nervousness" instead of "no frequent blinking, no frowning etc." 
+
+Also no "truth" or "lie" in the response - just "telling the truth" or "lying" as per the question. 
+
+*imagines the video* If I saw someone looking at me while speaking, occasionally glancing down thoughtfully, with no fidgeting - I'd probably think they're being honest. But I'd still wonder about the gaze down. 
+
+Final thought: emphasize the head moving forward as a strong positive for truthfulness. Leaning in = engaged = likely truthful. That's the anchor point.
+</think>

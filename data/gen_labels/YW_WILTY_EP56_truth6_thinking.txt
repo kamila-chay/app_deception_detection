@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that. I should write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided: the person has "Gaze towards interlocutor: True" and all other behaviors are False. So they're maintaining steady eye contact without any fidgeting, facial expressions, or other typical "lying" cues. The key points are: no avoidance of eye contact, no nervous gestures, no micro-expressions that might indicate deception.
+
+Hmm, I need to reason both ways. On one hand, steady eye contact is often associated with truth-telling in many cultures (though I should note it's not foolproof). The absence of nervous behaviors like blinking or fidgeting supports this. But I must include counterarguments: some people naturally maintain good eye contact when lying (like trained liars), and some truth-tellers might avoid eye contact due to shyness or cultural reasons. Also, the video might be edited or staged—maybe the person is just calm by nature.
+
+I should make my response sound human: hesitant, using phrases like "I'd lean toward" instead of "I know for sure." Avoid listing points; keep it conversational. The user emphasized avoiding confidence, so I'll use qualifiers like "it's hard to say" and "could be." 
+
+Also, the description says "Gaze towards interlocutor: True" but doesn't specify if it's consistent or occasional. In reality, I'd wonder if the eye contact was too perfect—like if it felt forced. But since the data says no other behaviors, I'll assume it's natural. 
+
+For counterarguments: I'll mention that some cultures view direct eye contact as rude, so the person might be avoiding it for politeness, not deception. And truth-tellers can get nervous too—maybe they're just stressed about the video being recorded. 
+
+The user's deeper need seems to be understanding how humans assess deception without tools. They want realism, not textbook answers. So I'll focus on the ambiguity of human behavior, not just the data. 
+
+Finally, I'll wrap up by saying I'd probably say "truth" based on this, but with caveats. Keep it short and natural, like a quick reply to a friend.
+</think>

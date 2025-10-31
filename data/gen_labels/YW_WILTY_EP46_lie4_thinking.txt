@@ -1,0 +1,30 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment about whether the person is lying. The key is to sound like I'm making an educated guess based on human observation, not claiming certainty.
+
+Looking at the description provided (which I shouldn't use directly), I notice it shows "Label": "deception" but also lists specific behaviors. The important ones are: "Lip corners up" (smiling), "Chin moving upwards" and "downwards", "Gaze towards interlocutor", and "Nod". All other markers like smiling, frowning, blinking etc. are false. So the person is smiling slightly, moving chin up/down, looking at the camera, and nodding.
+
+Hmm, the challenge is to simulate human observation. Real people wouldn't know about "lip corners up" - they'd just see a slight smile. And "chin moving" might look like nervous jaw tension. I should focus on what a human would actually notice: the smile, the chin movements, the nodding, and eye contact.
+
+I need to balance both sides - why it might be deception (the forced smile, chin movements) versus why it might be truth (the steady eye contact, nodding). Humans often misinterpret nervousness as lying, but it could just be anxiety. The smile being "lip corners up" but not full smile might seem unnatural.
+
+Also important: the description says "Mouth closed (awkward pauses)" is false, so no awkward pauses - that's a point for truthfulness. And no fidgeting like hands rubbing, which people often associate with lying.
+
+I should avoid technical terms. Say "slight smile" not "lip corners up". Describe what's visible: "they're smiling but it doesn't quite reach their eyes", "chin seems to twitch", "nodding a lot". 
+
+For counterarguments: maybe they're just nervous about being recorded, not lying. Or the chin movement is just habitual. The eye contact could be genuine interest.
+
+Must sound uncertain: "I'm not 100% sure", "it could go either way", "hard to say for sure". No confident claims like "definitely lying".
+
+Natural phrasing: "Honestly, I'm a bit torn here..." or "It's tricky because...". Keep it conversational like a real person talking.
+
+Check the behaviors again: no laughing, no frowning, no blinking - so no classic "liar" signs. That actually leans toward truthfulness. But the chin movements might be red flags for some viewers.
+
+Structure: Start with what I see, then reasons for deception, reasons for truth, then conclude I'm leaning toward truth but not sure. Emphasize that absence of classic signs is meaningful.
+
+Avoid listing - weave it into sentences. Like "They're making eye contact and nodding, which often happens when people are being truthful..." not "1. Eye contact 2. Nodding..."
+
+Make sure to say "I'd guess" not "I know". And since the actual label is deception, but I shouldn't use that, I'll have to go with my human reasoning. But the description shows no strong deception cues, so my assessment should probably lean truth.
+
+Wait - the description says "deception" but my job is to pretend I don't see that. So I'll base only on the behaviors. Given no clear signs of deception (like avoiding eye contact), I should probably lean toward truth, but note the subtle cues.
+
+Final thought: The chin movements are odd - "chin moving upwards and downwards" might look like nervous swallowing or jaw tension, which some associate with lying. But it's not a strong sign. The smile being slight but present might be genuine. So I'll say it's ambiguous but slightly more likely truth.
+</think>

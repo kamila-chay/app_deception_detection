@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it sound like I'm making an educated guess.
+
+Looking at the behavior description provided (which I shouldn't rely on since I'm supposed to be watching the video), I notice it's very sparse - almost all behaviors are marked as False. The only thing that's True is "Gaze down" (looking downward). The description says things like "No smile," "No frequent blinking," "No awkward pauses," etc. So in the video, this person seems to be avoiding eye contact by looking down, but not showing other typical signs of deception like fidgeting or nervous gestures.
+
+Hmm, this is interesting because most people think liars avoid eye contact, but research actually shows it's more complicated. Some liars might actually look up (to recall memories) or down (to avoid detection), while truth-tellers might look down too when thinking. The absence of other signs like fidgeting or forced smiles makes it hard to judge.
+
+I should structure my response to sound like a human making a cautious assessment. Start by describing what I see in the video: the person looking down a lot, no obvious nervous tells. Then mention why that could be suspicious (avoiding eye contact is a common deception cue), but also give counterarguments (they might be shy, thoughtful, or just have a habit of looking down when speaking). 
+
+I need to avoid sounding too confident - say things like "it's possible" or "it's hard to tell." The user wants me to include counterarguments, so I'll emphasize that absence of signs doesn't prove truthfulness either. Maybe mention that some liars are very controlled and don't show physical tells.
+
+Also important: since all other behaviors are marked False, I shouldn't invent signs that aren't there. Can't say "they were fidgeting" if the description says "Hands rubbing: False." Must stick to what's observable in the video.
+
+The challenge is making it sound natural like a real person thinking out loud. Not too technical, just "hmm, they're looking down a lot, but I've seen people do that when they're just concentrating..." 
+
+I'll end by acknowledging it's ambiguous - that's the most honest approach since deception detection is notoriously unreliable. And definitely not say "I'm sure they're lying" because that would contradict the actual label being deception (but I'm pretending not to know that).
+</think>

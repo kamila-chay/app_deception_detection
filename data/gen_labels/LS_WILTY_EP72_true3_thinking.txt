@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and make my assessment sound like a natural human deduction.
+
+Looking at the behavior description provided (which I shouldn't use since I'm pretending not to see it), I see that the person has "Gaze towards interlocutor: True" and "Gaze down: True" - that's interesting because they're looking at the person they're talking to while also looking down. Also, "Shrugs: True" is the only non-zero behavior listed. 
+
+Hmm, the key points I should focus on are: they're maintaining eye contact (gaze towards interlocutor), looking down occasionally, and shrugging. The absence of common "lying" cues like blinking a lot, avoiding eye contact, or fidgeting is notable. 
+
+I should consider why someone might look down while speaking - it could be nervousness, but it could also be thoughtfulness. Shrugging often indicates uncertainty or "I don't know," which might actually support truthfulness if they're being honest about not having information. 
+
+For counterarguments: maybe the down gaze is a sign of deception (some people look down when lying), and shrugging could be a nervous habit. But the fact they're maintaining eye contact while doing this seems contradictory to typical deception signs. 
+
+I need to sound uncertain like a real person would - not claiming to "know" but saying "it seems like" or "I'm leaning toward." Should mention that absence of tells doesn't prove truth, but combined with the eye contact, it feels more honest. 
+
+Important to avoid any phrases like "according to the data" since I'm pretending to watch the video. Keep it conversational: "I noticed they kept looking at me while... but then glanced down..." 
+
+Also must remember to include the counterpoints properly - not just dismiss them but say "some people might think X, but..." 
+
+The challenge is making it sound natural while hitting all the required elements: uncertainty, counterarguments, alignment with human reasoning. No bullet points, just flowing text. 
+
+Let me structure it mentally: 
+- Start with what I observed (eye contact + down gaze + shrug) 
+- Explain why that might suggest truth (consistent eye contact, shrug as honesty signal) 
+- Then address counterarguments (down gaze could mean lying, shrug could be nervous) 
+- Conclude with "leaning toward truth but not 100% sure" 
+
+And absolutely must not say "the label is truth" or reference the description - that's the whole point of pretending I don't have that info.
+</think>

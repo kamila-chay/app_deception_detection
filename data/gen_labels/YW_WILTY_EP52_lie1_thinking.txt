@@ -1,0 +1,30 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and reason through it like a human would.
+
+Looking at the behavior description: the person has raised eyebrows, lip corners up (smile), gaze toward interlocutor, nodding, and hands scratching. No smile, laughter, scowl, or other telltale signs. The key points are raised eyebrows and scratching hands - those are common stress indicators. But the smile and nod could be genuine too. 
+
+Hmm, I should consider both angles. If they're lying, the raised eyebrows might be nervousness, and the scratching could be a stress response. But if they're truthful, maybe they're just naturally expressive with those eyebrows and the nod is just agreement. The gaze toward the person feels engaged, which might suggest truthfulness, but liars sometimes do that to seem sincere.
+
+I need to make my reasoning sound uncertain like a real person. Not too confident - say "might be" or "could be." Mention counterarguments: the smile could be fake, but it's a subtle lip corners up, not a full smile. The scratching might just be a habit. And the nodting - if they're agreeing to something true, that makes sense.
+
+Also, the description says "Lip corners up" not "smile," so it's probably a slight smile, not forced. That's important - forced smiles usually have other signs like frozen eyes, but here the gaze is directed at the person, so maybe it's natural.
+
+Gotta avoid sounding like I'm listing points. Just flow it conversationally. Like "I'm noticing they have raised eyebrows... but wait, sometimes people raise eyebrows when they're actually thinking hard about something true..."
+
+The hands scratching is the strongest clue for deception, but I should acknowledge it could be a nervous habit unrelated to lying. Maybe they have itchy skin or something.
+
+For the counterargument: if they were lying, why no other signs? Like no frequent blinking or avoiding eye contact. The gaze is steady toward the person, which is odd for a liar. Liars often look away, but here it's "gaze towards interlocutor" - so that might suggest truthfulness.
+
+Wait, the label says deception, but I'm not supposed to know that. So I have to pretend I'm conflicted. Maybe lean toward deception because of the scratching and raised eyebrows, but say "it's really hard to tell" because of the other signs.
+
+Make sure to say things like "I'm not 100% sure" and "it could go either way." The user wants it to sound like an educated guess, not a fact.
+
+Also, keep it natural for a reply to "Is this person lying?" - so start with "Hmm, this is tricky..." instead of jumping to conclusions.
+
+Check the behavior list again: "Raising eyebrows" is true, "Hands scratching" is true, "Lip corners up" true, "Gaze towards" true, "Nod" true. No other indicators. So the main clues are the nervous habits (scratching, raised brows) versus the cooperative cues (smile, nod, eye contact).
+
+Yeah, that's the tension. I'll present both sides fairly. Maybe end with "I'd lean toward deception but I'm not certain" since the scratching is a strong indicator, but the other signs complicate it.
+
+Make sure not to use markdown. Just plain text, conversational. And no bullet points - just flowing paragraphs.
+
+Got it. Time to write it like a human who's hesitating over a video.
+</think>

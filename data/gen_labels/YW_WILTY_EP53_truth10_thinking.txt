@@ -1,0 +1,34 @@
+Okay, the user wants me to assess whether a person in a video is lying based solely on the video, without seeing the provided description or label. They've given me a detailed behavioral description that's labeled as "truth," but I need to pretend I'm watching the video and making my own judgment.
+
+Hmm, looking at the behavioral cues: the person has "Raising eyebrows" and "Frequent blinking" which are often associated with deception, but also "Gaze towards interlocutor" and "Head moving forward" which are more indicative of truthfulness. The eyebrows going up could be surprise or confusion rather than lying, and frequent blinking might just mean they're nervous about being recorded. 
+
+I should consider both angles carefully. If they were lying, I'd expect more classic signs like avoiding eye contact or fidgeting, but here they're actually making eye contact and leaning in. The head moving forward suggests engagement, which feels like they're trying to connect, not hide something. 
+
+But wait—maybe the frequent blinking is a stress response? Some people blink more when they're lying. And raising eyebrows could be a micro-expression of deception. However, the description says "Gaze sideways" too, which might mean they're not fully focused, but that could just be natural eye movement. 
+
+I need to balance this without sounding overconfident. The user wants me to sound like a human making an educated guess, not a robot. So I'll acknowledge both possibilities: "It's tricky because..." and "On one hand... on the other hand..." 
+
+Also, the label says "truth," but I shouldn't reference that. The user emphasized pretending I don't see it. So I'll base everything only on the behavioral cues provided in the description, even though I'm not supposed to see it—I'll mentally use those details as if they're what I observed. 
+
+*checks the cues again* 
+- No smiling or laughter (which might be suspicious if they're lying and trying to seem friendly) 
+- No frowning (which would be odd for a liar) 
+- Gaze towards interlocutor is strong for truthfulness 
+- Head moving forward is a good sign 
+
+The counterargument: maybe the frequent blinking is deceptive. But I think the eye contact and leaning in outweigh that. I'll mention that in my response to show I considered it. 
+
+For naturalness, I'll start with "Honestly, it's a bit hard to say" to sound hesitant. Avoid words like "definitely" or "clearly." End with "I'd lean toward truth" but soften it with "but I'm not 100% sure." 
+
+*double-checking* 
+User said "make it seem like you deduced the correct label" but also "don't sound too confident." Tricky. I'll imply I'm close to the "truth" label without claiming it. 
+
+*structuring the thought* 
+- Open with uncertainty 
+- Note the truth-telling signs (gaze, head movement) 
+- Address the potential deception signs (eyebrows, blinking) 
+- Explain why the truth signs feel stronger 
+- Conclude with a balanced guess 
+
+And absolutely no bullet points. Keep it flowing like a human conversation. "The way they kept looking at me while leaning in..." yeah, that's natural.
+</think>

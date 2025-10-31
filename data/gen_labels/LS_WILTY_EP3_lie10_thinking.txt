@@ -1,0 +1,29 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description with labels, but I'm supposed to pretend I'm just watching the video.
+
+Looking at the behavioral data: The person has "Frequent blinking" (True), "Lip corners down" (True), "Gaze towards interlocutor" (True), "Head moving backward" (True), "Head shaking" (True). Other things like smiling, laughter, scowling are all False.
+
+Hmm... frequent blinking is often associated with deception in common perceptions, but I know from psychology that it's not a reliable indicator. People blink more when stressed, but stress can come from many sources - maybe they're just nervous about being filmed. The "lip corners down" suggests a neutral or slightly negative expression, but that could just be their natural face. 
+
+The head shaking (which I'd interpret as a "no" motion) combined with "head moving backward" feels interesting. If they're shaking their head while leaning back, that might indicate resistance or disagreement, but could also just be a nervous habit. The gaze toward the interlocutor seems like they're trying to maintain eye contact, which is actually more typical of truth-tellers than liars (since liars often avoid eye contact).
+
+Wait - the description says "gaze towards interlocutor" is True, but I should be careful here. In deception detection, avoiding eye contact is often cited as a sign, but research shows it's not consistent. Some people maintain eye contact when lying to seem credible. So this might actually suggest they're being truthful.
+
+The head movements are tricky. Head moving backward could be a sign of discomfort, but head shaking is usually a clear "no" gesture. If they're shaking their head while leaning back, it might feel like they're dismissing something, which could imply deception. But it's also possible they're just emphasizing a point.
+
+I should consider counterarguments too. Maybe the frequent blinking is because they're tired, or the lip corners down is just how they look when concentrating. The head shaking might be a cultural thing - in some cultures, head shaking means "yes"! But since I don't know the context, I shouldn't assume that.
+
+The user wants me to sound uncertain, like a human making an educated guess. I shouldn't say "this proves deception" because that's not how real people assess this. I'll mention the blinking as a possible red flag but emphasize it's weak evidence, and note that the eye contact might actually suggest truthfulness.
+
+Also important: the description says "no smile" and "no laughter" - that's normal for serious conversations, not necessarily deceptive. People don't always smile when they're being truthful.
+
+I'll structure my response to start with the behaviors I observed, then present both sides: "On one hand... but on the other hand..." and end with uncertainty. Need to avoid sounding like I'm quoting the description - I should describe what I see in the video naturally.
+
+Key things to include:
+- Mention the frequent blinking as a common deception indicator (but note it's unreliable)
+- Note the head movements (shaking + leaning back) as potentially defensive
+- Point out the maintained eye contact as counter to typical deception signs
+- Acknowledge that without context, it's hard to tell
+- Use phrases like "might suggest," "could be," "I'm not sure"
+
+And absolutely avoid saying "the label is deception" since I'm supposed to be deducing it from video alone. The whole point is to simulate a human watching and hesitating.
+</think>

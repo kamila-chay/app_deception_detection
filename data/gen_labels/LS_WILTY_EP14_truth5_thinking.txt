@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the behavioral data provided (even though I shouldn't rely on it directly), I notice several key points: the person has raised eyebrows (a common sign of surprise or skepticism), frequent blinking, and they're touching their head/body. There's also a "crossing fingers" gesture and "arms open" which often indicate openness or honesty. The gaze is toward the interlocutor and upward - upward gaze can sometimes indicate thinking, not lying.
+
+Hmm, the challenge is to avoid using the labeled "truth" information while still reasoning like a human would. I should focus on the behavioral cues as if seeing them in real-time. The raised eyebrows and frequent blinking might suggest nervousness, which people often associate with lying. But I know from psychology that nervousness doesn't necessarily mean deception - it could be anxiety about the situation.
+
+The arms being open is interesting - that's usually a sign of openness, which would lean toward truthfulness. Crossing fingers is tricky because it's often associated with lying (like "crossing fingers" for luck when lying), but it could also be a nervous habit. The head touching might indicate stress or thinking, not necessarily deception.
+
+I should consider counterarguments: maybe the person is genuinely surprised (hence raised eyebrows) and the blinking is just from being on camera. The upward gaze could be for recalling memories, not fabricating. The arms open might just be their natural posture.
+
+The user wants me to sound uncertain - not like I'm declaring truth or lie. So I'll emphasize that these cues are ambiguous. I'll mention that without more context (like the content of what they're saying), it's hard to tell. I should avoid listing behaviors and keep it conversational.
+
+Also important: the description says "smile" and "laughter" are false, so they're not smiling or laughing - which might mean they're being serious, but could also mean they're trying too hard to look serious. But I shouldn't reference the description directly in my response.
+
+For the response structure: start with what I observe (without naming the behaviors), then present both sides, and end with "hard to say for sure." Make sure to sound like a human who's watching the video and thinking out loud.
+
+Key phrases to include: "I'm not 100% sure," "could be," "might be," "but it could also be." Avoid words like "definitely" or "clearly."
+
+Check if I'm accidentally using the label info: I shouldn't say "since the label is truth," but rather focus on the observed behaviors as if I'm seeing them. The "truth" label is just for me to verify my reasoning, not to include in the response.
+
+Make sure the response flows naturally like a real person talking: "I'm watching this clip... Hmm... I notice they're blinking a lot... but then they have their arms open... so maybe they're being honest? Wait, but crossing fingers... ugh, it's confusing."
+
+Finally, keep it concise - the user didn't specify length, but it should be a paragraph or two max.
+</think>

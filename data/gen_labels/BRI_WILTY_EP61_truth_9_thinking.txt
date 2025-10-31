@@ -1,0 +1,38 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The description says it's labeled as "truth" with specific behaviors like "Raising eyebrows" being true and others false. But I need to pretend I don't have that info.
+
+First, I need to recall how humans actually assess deception in videos. From what I know, people often look for signs like avoiding eye contact, fidgeting, or unnatural expressions. But the description shows no smiling, laughing, scowling, or other typical cues. The only notable thing is "Raising eyebrows" which might indicate surprise or confusion, not necessarily lying.
+
+Hmm, the key here is that the actual label is "truth," so the person is telling the truth. But I have to reason as if I'm watching the video. The user mentioned that the video is labeled as truth based on external info, but I'm supposed to ignore that and pretend I'm deducing it myself.
+
+So, what would I see in the video? The behavior described: only eyebrows raised, no other signs. In reality, truth-tellers might have natural expressions, and raised eyebrows could be a reaction to something, like hearing a question they weren't expecting. But if they're telling the truth, they might not have obvious lies, so the lack of stress cues could support truthfulness.
+
+But I need to consider counterarguments. Maybe the person is lying but very controlled, so they don't show typical signs. For example, some liars don't blink much or avoid eye contact, but here the gaze is down or sideways, which isn't specified. The description says "Gaze towards interlocutor" is false, so maybe they're looking away, which could be a sign of lying. Wait, the description has "Gaze towards interlocutor" as False, meaning they're not looking at the person they're talking to. That might suggest deception, but it's not definitive. Some truth-tellers look away when thinking, so it's ambiguous.
+
+Also, the "Raising eyebrows" is true. If they're raising eyebrows, it might be genuine surprise at the question, not a lie. Like, "Wait, that's not what happened!" So that could be a sign of truthfulness.
+
+But I should avoid sounding too confident. The user wants me to make it seem like an educated guess with counterarguments. So, I'll say something like: "I'm not entirely sure, but the raised eyebrows might indicate they're processing the question honestly, and the lack of fidgeting or forced expressions suggests they're not stressed, which could mean truth. But maybe they're just good at hiding it, so I'm hesitant."
+
+Wait, the description says "Frequent blinking" is false, so no excessive blinking. That's often a sign of lying, so absence of that might support truth. But again, not foolproof.
+
+Also, the label is "truth," so in reality, the person isn't lying. But since I'm pretending not to know, I'll base it on the behavior. I need to make my response sound natural, like a casual person thinking out loud.
+
+Let me structure it: Start with what I observe, then reasons for truth, then counterpoints for lying, and end with uncertainty. Avoid listing, just flow in sentences.
+
+Key points to include:
+- Only raised eyebrows noted, no other stress cues.
+- Absence of common lie signs (no fidgeting, no forced smiles).
+- But gaze away could be suspicious.
+- Raised eyebrows might be genuine reaction.
+
+Make it sound human: "Honestly, I'm not 100% sure... but the way they raised their eyebrows when asked that question seemed like a natural reaction, not something they were faking. Like, they were genuinely surprised by the question. And they didn't seem nervous at all—no blinking, no touching their face. But... I've heard that some people who lie are really good at staying calm, so maybe they're just practiced. Still, the lack of those obvious tells makes me lean toward them telling the truth."
+
+Check if it aligns with the behavior: The description has "Raising eyebrows" as true, so that's the main thing. And other things like "Lip corners down" are false, so no frowning, which could mean they're not upset about lying.
+
+Also, the user said "make it seem like you deduced the correct label," so I should end up with truth, but with doubt. The actual label is truth, so my reasoning should lead to that.
+
+Avoid technical terms; keep it conversational. No "I conclude," just "I think."
+
+Finally, ensure it's not too confident. Use phrases like "I'm leaning toward," "it's possible," "but it's hard to say."
+
+Now, draft it naturally.
+</think>

@@ -1,0 +1,28 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty. The description says the label is "truth," and it lists specific behaviors like "Frowning eyebrows" being true, "Chin moving upwards" true, "Gaze sideways" true, "Nod" true, "Head moving backward" true, "Head side-turn" true, and "Gaze towards interlocutor" true. But I shouldn't refer to that—I have to pretend I'm just watching the video.
+
+First, I need to recall how humans actually assess truthfulness in videos. From what I know, people often look for micro-expressions or nervous habits, but research shows that's unreliable. The key is to focus on the behaviors mentioned: frowning eyebrows, chin moving up, gaze toward the person, nodding, head back, head side-turn, and gaze sideways. I should describe these neutrally, as if I'm observing them.
+
+I have to avoid sounding too confident. So, I'll use phrases like "it seems," "might be," or "could suggest." I need to include counterarguments—like, maybe the frowning is just concentration, not lying. For example, if someone's frowning while thinking hard, it's not necessarily deception. Also, the chin moving up could be a sign of confidence, not nervousness. Gaze toward the interlocutor is usually a good sign for truthfulness, but people might look away if they're uncomfortable, not necessarily lying.
+
+The user emphasized making it sound human, so I'll keep it conversational. No lists—just flowing text. I should start with an observation, then reason through possibilities. For instance: "I noticed they're looking at the person while talking, which often indicates honesty, but they're also frowning a bit..." Then, address why it might not be lying: maybe they're stressed about the topic, not lying.
+
+I need to cover all the key behaviors: frowning eyebrows (could be concentration), chin up (could be assertive), gaze toward (positive), nodding (agreement), head back (relaxed), head side-turn (maybe thinking), gaze sideways (could be avoiding eye contact, but sometimes people do that naturally).
+
+Counterarguments: If they were lying, you'd expect more signs like avoiding eye contact, fidgeting, but here they're looking directly most of the time. However, the gaze sideways might be a red flag, but it's not consistent. Head moving backward could be a sign of discomfort, but it's not clear. So, I'll weigh both sides.
+
+Also, the description says "Gaze towards interlocutor" is true, meaning they're looking at the person they're talking to, which is good for truthfulness. But "Gaze sideways" is also true—maybe they're glancing away sometimes, which might be normal, not lying.
+
+I should avoid technical terms like "micro-expressions" and keep it simple. The response should feel like someone thinking out loud: "Hmm, they seem focused, but that frown is odd..."
+
+Finally, wrap it up by saying it's hard to tell, but based on what I see, it leans toward truth, but I'm not sure. Make sure not to say "I know it's truth" because I'm supposed to be deducing it without the label.
+
+Let me structure the thought: Start with the positive signs (gaze, nod), then the potential red flags (frown, sideways glance), then why the red flags might not mean lying, and end with a balanced conclusion.
+
+Check for naturalness: Use contractions, maybe "I'm thinking," "it's tricky," etc. Avoid markdown. Keep paragraphs short.
+
+Double-check the behaviors from the description to ensure I'm not missing any key points. The true ones are: Frowning eyebrows, Chin moving up, Gaze towards interlocutor, Nod, Head moving backward, Head side-turn, Gaze sideways. False ones like smile, laughter, etc., so no signs of nervousness like laughing or smiling.
+
+So, no obvious tells of lying, but some subtle things. That should point toward truth, but I have to be cautious.
+
+Now, write the response as if I'm replying to "Is this person lying or telling the truth?" with a hesitant, human tone.
+</think>

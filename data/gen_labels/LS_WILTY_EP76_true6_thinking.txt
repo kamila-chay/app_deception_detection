@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "truth," but I have to pretend I'm figuring this out from the video alone.
+
+Looking at the behavior description: The person has "Gaze towards interlocutor: True" and "Gaze down: True." That's interesting because they're maintaining eye contact while also looking down occasionally. I recall that in truth-telling, people often maintain steady eye contact, but looking down can sometimes indicate thinking or discomfort. However, the description says "Gaze down: True" which might mean they're looking down at certain points, not continuously. 
+
+I should consider what normal truth-telling looks like. Truthful people might have natural eye movements—sometimes looking away while thinking, but not avoiding eye contact entirely. The absence of other cues like fidgeting, exaggerated expressions, or nervous gestures (like frequent blinking or hands rubbing) is notable. The description shows all those "False" for stress indicators, which aligns with truthful behavior. 
+
+But I need to be careful not to sound too confident. The user emphasized making it seem like an educated guess. So I'll acknowledge that eye contact alone isn't foolproof. Maybe the person is comfortable, but could they be rehearsing? Or perhaps they're just naturally expressive. The "Gaze down" could be a sign of modesty or deep thought, not deception. 
+
+Counterarguments: Some might say that avoiding eye contact is a lie sign, but here they're maintaining it most of the time. The description doesn't show any "Gaze up" or "Gaze sideways," which could be typical for liars (like looking up for fabricated memories), but since it's false, they're not doing that. So that actually supports truthfulness. 
+
+Also, the lack of physical tells—no lip biting, no fidgeting—suggests they're calm. Liars often have more micro-movements, but here everything's "False" for those. That's a strong point for truth. 
+
+But I should mention that absence of signs doesn't prove truth; it's just consistent with it. Maybe they're good at hiding lies, but the description says it's labeled "truth," so I'll stick to that. 
+
+For the response, I'll keep it conversational: "Hmm, they're looking at the person they're talking to most of the time, which feels natural for someone being honest..." Then add the "but" about gaze down possibly being nervous, but counter that with the lack of other signs. 
+
+Make sure not to list anything—just flow like a human thought. And end with uncertainty: "Hard to say for sure, but the calmness points to truth." 
+
+Check if I'm missing anything: All the "False" for stress cues are key. No lip movements, no head shakes, no hand gestures. That's unusual for a liar, who might fidget. So overall, it leans truthful, but I'll hedge with "seems" and "might." 
+
+Finally, align with human reasoning: People often overestimate eye contact as a lie indicator, but here it's not avoiding it, so that's good. Gaze down could be neutral. Yeah, that makes sense.
+</think>

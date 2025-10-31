@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making an educated guess from the video alone.
+
+Looking at the behavior description provided: the person has chin movements up and down (True), gaze down and sideways (True), head moving forward and backward (True), head side-turn and shaking (True). All other behaviors like smiling, laughing, frowning, etc., are False. 
+
+Hmm, I should focus on the key behaviors that might indicate deception. Chin movements up and down could be nervous gestures, like a subtle "yes" or "no" motion. Head shaking is a classic sign of disagreement, but here it's listed as "head shaking" (True), which might mean they're shaking their head while speaking. Head side-turning could indicate discomfort or avoiding eye contact. Gaze down and sideways often happens when people are thinking or hiding something, rather than looking directly at the person they're talking to. Head moving forward and backward might be an unconscious nodding motion or tension.
+
+But I need to consider counterarguments. Maybe the person is just naturally expressive or has a habit of moving their head. Some people gesture with their head when they're engaged in conversation. Gaze down could be due to shyness or cultural norms, not deception. Head shaking might be part of their speech rhythm, not necessarily lying. The absence of other classic deception cues like fidgeting or avoiding eye contact entirely makes it less clear.
+
+I should make my response sound like a human making a cautious assessment. Start by describing what I'm seeing: the head movements, gaze patterns. Then present the possible deception signs but also the plausible innocent explanations. Emphasize that it's not definitive—maybe they're just nervous about the interview. Avoid being too sure; say "it's a bit concerning" rather than "they're definitely lying." 
+
+Also, the user wants it to feel natural for a reply, so no bullet points. Keep it conversational. Mention specific behaviors: "they kept glancing down and to the side," "head was moving back and forth." Then balance it with "could be they're just shy" or "maybe they're thinking hard." 
+
+Check if the description matches common deception indicators. From what I know, gaze avoidance and head movements can be red flags, but they're not foolproof. The chin movements up/down are interesting—they might be trying to suppress a reaction. But without more context, it's hard to say. 
+
+Make sure to not mention the label "deception" since I'm supposed to be guessing. Just describe the behavior and my interpretation. End with uncertainty: "hard to say for sure, but the combination of movements makes me lean toward deception." 
+
+Double-check the behavior list: no smiling, no frowning, so no clear emotional cues. That means the deception might be more about body language than facial expressions. The head shaking and side-turning are key. 
+
+Also, the user said "don't sound too confident," so use phrases like "I'm leaning toward" or "it's possible." Avoid absolute terms. 
+
+Finally, structure the response: start with observation, then reasoning for deception, then counterarguments, and a cautious conclusion. Keep it flowing like a natural thought process.
+</think>

@@ -1,0 +1,26 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided: the person has "Lip corners up" (smiling), "Lip corners down" (frowning), "Chin moving upwards," "Gaze towards interlocutor," "Gaze down," "Head moving forward," "Head side-turn," "Head up," "Hands scratching," and "Hands touching head/body/etc." They don't have typical deception signs like frequent blinking or avoiding eye contact.
+
+Hmm, the key points here are the conflicting facial expressions—smiling and frowning at the same time. That's unusual. People often don't do that when being truthful; it might indicate internal conflict. Also, the head moving forward and gaze down could suggest they're trying to appear engaged but are distracted. The hands scratching and touching the head are classic signs of discomfort or stress, which might mean they're lying.
+
+But I should consider counterarguments too. Maybe they're just nervous about the situation, not lying. The smile could be polite, and the frown might be from concentration. The gaze down might be cultural—some people avoid direct eye contact when thinking. Head moving forward could be natural engagement, not deception. And hands touching the head might just be a habit, like adjusting hair.
+
+I need to sound uncertain, like a human would. Not say "they're definitely lying," but "it's possible." Emphasize that without context, it's hard to tell. Mention that deception cues are messy—some people fidget when stressed, not just when lying. Also, the description says "lip corners up" and "down" both true, which is weird. That's probably a red flag, but I should note it might be a misinterpretation.
+
+The user probably wants to see if I can avoid overconfidence and show balanced reasoning. They might be testing for critical thinking in AI responses. I should make sure my reply doesn't sound robotic—use phrases like "I'm not sure," "it's tricky," "could be," to keep it human.
+
+Also, avoid listing points. Write it as a flowing paragraph. Start with the main observations, then the doubts, then wrap up with a tentative conclusion. Keep it concise but thoughtful.
+
+Let me structure it: 
+- First, describe what I see (smiling/frowning, head movements, hand gestures). 
+- Then, why it might indicate lying (conflicting expressions, stress signs). 
+- Counter with why it might not (nervousness, cultural habits). 
+- End with "I'd lean toward deception but it's not certain."
+
+Make sure to tie in the specific behaviors from the description without listing them. Say "they're smiling while frowning" instead of "lip corners up and down." And mention the hands scratching as a key detail.
+
+Check the actual labels: "Lip corners up" and "down" both true—so they're doing both, which is odd. That's a strong point for deception. But I'll say "it's hard to see both at once" to sound natural.
+
+Finally, no markdown, just plain text. Keep it under a few paragraphs. Aim for conversational, like I'm chatting with a friend.
+</think>

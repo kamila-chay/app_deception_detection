@@ -1,0 +1,30 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth" but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided (which I shouldn't use since I'm pretending to watch the video), I see key points: the person has "Gaze towards interlocutor: True" and "Palms up: True" - both non-verbal cues associated with honesty. But I have to ignore that data since I'm supposed to be watching the video.
+
+Hmm, the user wants me to reason like a human would. So I should focus on what I'd actually observe in a video: someone maintaining steady eye contact while showing palms up (which often indicates openness), with no obvious nervous ticks like fidgeting or avoiding gaze. But I shouldn't overstate this - humans often misinterpret these cues.
+
+I should include counterarguments too. Like, maybe the person is trained to look calm when lying, or maybe they're just naturally expressive. The palms-up gesture could be a cultural thing too. And eye contact isn't always honest - some liars actually stare too much.
+
+The response needs to sound hesitant. Phrases like "I'm not 100% sure" or "it's hard to say" would help. I'll avoid technical terms like "microexpressions" since real people don't talk like that.
+
+Also important: the user emphasized avoiding lists. So I'll weave everything into flowing paragraphs. Maybe start with what I see, then the pros/cons of the honesty interpretation, then wrap with "I lean toward truth but can't be sure."
+
+Let me structure it mentally: 
+- First describe the observable behavior neutrally (steady eye contact, palms up)
+- Note why this suggests truth (no nervousness, open posture)
+- Then counter with why it might not mean truth (liars can mimic this)
+- End with "I'd probably say truth but it's not definitive"
+
+Gotta make sure it doesn't sound like I'm using the given data. Like, I shouldn't say "the description says palms up" - I'll just say "I noticed their palms were open and facing up." Natural human observation.
+
+Also important: the user said "make it seem like you deducted the correct label" but I have to pretend I don't know it's truth. So I'll say "I'm leaning toward truth" which happens to match the actual label, but without claiming to know.
+
+*checks the behavior list again* Wait, all the negative lie indicators are false - no blinking, no frowning etc. But since I'm not supposed to see that, I'll just say "I didn't notice any obvious signs of nervousness" instead of listing the absence of those things.
+
+*double-checks* Yeah, the key is to describe what I'd visually perceive: "They kept looking at me directly while keeping their hands open" not "the label shows gaze toward interlocutor is true." Gotta stay in the video-only perspective.
+
+Final tone check: not too academic, not too casual. Like a friend debating with you over coffee. "Honestly, I'm a bit torn..." works better than "Based on the evidence..."
+
+*starts drafting mentally* "When I watched the clip, the person was looking right at the camera with their hands open... but then I thought, maybe they're just used to being on camera..." Yeah, that's the natural hesitation they want.
+</think>

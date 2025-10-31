@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I'm making this assessment from scratch.
+
+Looking at the behavioral description provided (which I shouldn't use since I'm supposed to be watching the video), I see it's labeled as truth with specific behaviors: gaze towards interlocutor (true), head moving forward (true), head moving backward (true), head shaking (true), palms up (true), and others false. But I'll ignore this since the task is to pretend I'm watching the video.
+
+I need to craft a natural-sounding human assessment that's uncertain, with counterarguments. The key is to sound like I'm genuinely trying to figure it out, not stating facts. 
+
+Hmm, the important behaviors from the description that I'd observe in the video would be: maintaining eye contact (gaze towards interlocutor), head movements (forward/backward and shaking), and palms up. I should focus on those since they're the only ones marked true.
+
+For the assessment, I'll describe what I see: the person looks directly at the camera (since gaze towards interlocutor), nods slightly with head movements (head shaking could be a subtle nod), and has open palms. I should mention that palms up often signals honesty in some contexts, but I'll note it's not definitive. 
+
+I need to include counterarguments too - like how head shaking could be agreement (not lying), and how some people naturally keep palms up without lying. Also, I should address why I'm not sure: maybe the person is nervous but truthful, or maybe they're good at hiding lies.
+
+The user wants it to sound natural like a real person's thought process, so I'll avoid technical terms. Phrases like "I'm not 100% sure" and "it's tricky" will help. I'll make it conversational with "you know?" and "kinda" to sound human.
+
+Important to emphasize that absence of classic "lying signs" (like avoiding eye contact or fidgeting) makes me lean toward truth, but I won't say "definitely." I'll mention that some people lie without obvious tells, so I can't be certain.
+
+Also need to balance the head shaking - in some cultures it's agreement, not denial, so I'll question that interpretation. And the head moving forward/backward might just be natural conversation gestures.
+
+Finally, I'll wrap up by saying it feels truthful based on what I see, but I'm not ruling out lying entirely. That keeps it uncertain like a human would be.
+</think>

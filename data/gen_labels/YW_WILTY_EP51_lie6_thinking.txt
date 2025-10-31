@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I have to assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make an educated guess. 
+
+First, I should look at the behavioral cues provided in the description. The key points are: gaze towards interlocutor is true, head shaking is true, and everything else is false. So the person is making eye contact but shaking their head. 
+
+Hmm, head shaking usually means "no" or disagreement, but in deception contexts, it can be tricky. Sometimes people shake their heads when they're lying to emphasize a denial. But the description says "head shaking" is true, so I should consider that. 
+
+The user emphasized not to sound too confident, so I need to balance this. I'll mention that head shaking could be a sign of deception, but also think of counterarguments. Like, maybe the person is just disagreeing with something, not lying. Or they could be shaking their head naturally without deception. 
+
+Also, the person is maintaining eye contact, which is interesting. Truth-tellers often look at the person they're talking to, while liars might avoid eye contact. But here, gaze towards interlocutor is true, so that might lean towards truthfulness. But wait, some liars also maintain eye contact to seem honest. So that's a counterpoint. 
+
+I should consider other cues too. The description says no smiling, no frowning, no awkward pauses, so the person seems calm. That could mean they're confident in their lie, or it could mean they're not stressed. But without other signs, it's hard to say. 
+
+The user wants me to sound like a human making an educated guess, not a robot. So I'll use phrases like "I'm not entirely sure," "it's a bit ambiguous," and "it could go either way." I'll avoid technical terms and keep it conversational. 
+
+Let me structure my thoughts: Start with what I observe (eye contact + head shake), then explain why it might indicate deception (head shake as denial), then counter with why it might not (natural disagreement), and end with the uncertainty. 
+
+I should also remember that the actual label is deception, so my reasoning should align with that but not reveal it. The head shake is a red flag, but the eye contact is a green flag. I'll emphasize that tension. 
+
+Finally, make sure the response doesn't list anything—just flowing text. And no overconfidence. Phrases like "I'd lean toward deception" but with "but it's not definitive" to keep it natural.
+</think>

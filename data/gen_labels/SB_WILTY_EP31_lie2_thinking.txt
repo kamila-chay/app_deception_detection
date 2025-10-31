@@ -1,0 +1,41 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. The actual label is "deception," but I need to pretend I'm making this judgment based solely on the video behavior described in the structured data.
+
+Looking at the behavior data: The person is smiling (Smile: True), raising eyebrows (Raising eyebrows: True), chin moving upwards (Chin moving upwards: True), gazing down (Gaze down: True), head tilting (Head tilting: True), and arms open (Arms open: True). They're not laughing, frowning, or showing other classic deception cues like frequent blinking or lip movements.
+
+Hmm, I need to reason like a human would. People often think liars avoid eye contact, but here the gaze is down (not away from the interlocutor), which might actually be more natural than forced eye contact. The raised eyebrows and chin movement could be signs of nervousness or over-enthusiasm. The open arms usually signal honesty, but sometimes people use open posture when trying to seem trustworthy. 
+
+I should consider counterarguments too. Maybe they're genuinely excited (explaining the smile and open arms), or the gaze down could just be shyness. The chin moving up might be a nervous tic, but it's not a definitive lie sign. The absence of classic deception markers like lip biting or avoiding gaze makes me lean toward truthfulness, but I can't be sure.
+
+The user wants me to sound uncertain - not claiming to know for sure. So I'll say things like "it's tricky" or "could be either." I'll avoid technical terms and keep it conversational, like someone genuinely trying to figure it out while watching the clip. 
+
+Important to note: The description says "True" for Smile and Raising eyebrows, but the label is deception. That's interesting because people often smile when lying to seem friendly, but it's not reliable. I should mention that contradiction in my reasoning.
+
+Also need to include why I'm not fully convinced by the deception label - the open arms and gaze toward interlocutor (even if down) contradict typical deception signs. But I'll acknowledge that deception can look like normal behavior sometimes.
+
+The response should flow like a real person thinking aloud: "At first I thought maybe they're lying because of the raised eyebrows, but then I noticed the open arms..." etc. No lists, just natural sentences.
+
+Gotta make sure I don't sound too confident - phrases like "it's hard to say" and "could be misinterpreted" will help. And since the actual label is deception, I should probably lean toward that conclusion in my reasoning but with lots of caveats, since the user wants me to "deduce the correct label" as if I'm watching the video.
+
+Wait - the user said "imagine you don't see the description or label," so I shouldn't reference the label at all. Just describe what I see in the video. The deception label is for my reference only to make sure my reasoning aligns with it, but my response should be pure observation.
+
+*checks the behavior data again* 
+- Smile: yes (but could be genuine)
+- Raising eyebrows: yes (could be surprise or deception)
+- Chin up: yes (nervousness?)
+- Gaze down: yes (shyness or deception)
+- Head tilt: yes (engagement or deception)
+- Arms open: yes (honesty)
+
+The arms open is the strongest counter to deception. Most deception cues would involve closed posture (arms folded, hands covering), but here it's open. That's a big point to include.
+
+For counterarguments: Maybe the person is lying but doing a good job (so no obvious cues), or the open arms are part of the lie (trying to seem trustworthy). But the absence of classic cues makes deception less likely to me.
+
+I'll structure it: 
+1. Start with what I notice (smile, open arms, etc)
+2. Point out the "deception-like" cues (raised eyebrows, gaze down)
+3. Explain why those might not mean deception (context matters)
+4. Highlight the strong honesty cues (open arms, gaze toward)
+5. Conclude with uncertainty but leaning toward truth
+
+And keep it to 3-4 sentences max for naturalness - people don't monologue about this.
+</think>

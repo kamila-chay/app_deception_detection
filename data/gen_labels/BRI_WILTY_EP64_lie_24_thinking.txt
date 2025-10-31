@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "Deception," but I need to pretend I don't know that. The description shows specific behaviors: raised eyebrows, exaggerated eye opening, and no other signs like smiling or frowning.
+
+Hmm, I should focus on the behaviors mentioned. Raised eyebrows and exaggerated eye opening are key here. From what I know about deception cues, raised eyebrows can sometimes indicate surprise or stress, but not always lying. Exaggerated eye opening might be a sign of trying to appear honest, like "looking innocent." But I've read that people often misinterpret these as lies when they're not. 
+
+Wait, the description says no other cues like blinking, frowning, or gestures. That's interesting because some people think liars avoid eye contact, but here the gaze is down or sideways? The data says "Gaze towards interlocutor" is False, so maybe they're not looking directly. But the label says "Deception," so maybe they're avoiding eye contact. But I need to be careful—avoiding eye contact isn't a solid indicator; it could be cultural or nervous.
+
+I should consider counterarguments. Maybe the person is just naturally expressive. Some people have big eyes or raise eyebrows a lot, even when telling the truth. Or they could be stressed about something unrelated, like the video being recorded. The exaggerated eye opening might be a habit, not deception. Also, no other signs like lip biting or fidgeting—those are often associated with lying, but their absence might suggest they're calm, which could mean truthfulness.
+
+The user wants me to sound uncertain, like a human making an educated guess. So I shouldn't say "definitely lying" but say "it's possible" or "could be." I need to balance the cues: the raised eyebrows and big eyes might point to deception, but the lack of other signs weakens that. Also, in real life, experts say that no single cue is reliable—context matters a lot. Maybe the person is in a high-pressure situation, so they're acting differently.
+
+I'll structure my response to start with the observed behaviors, then discuss why they might indicate lying, but also why they might not. Emphasize that without more context, it's hard to tell. Mention that the absence of other cues (like fidgeting) makes it less clear. End by saying it's a close call, leaning slightly toward deception but not sure.
+
+Check if I'm using natural language. Avoid jargon. Say "I noticed" instead of "The data shows." Make it sound like I'm thinking out loud. Also, the user said not to sound too confident, so phrases like "might be," "could be," "it's tricky" are good.
+
+Finally, align with human reasoning: people often overestimate deception cues, so I should acknowledge that. For example, "I've heard that raised eyebrows can be a sign, but I've also seen people do that when they're just surprised, not lying." That makes it feel real.
+</think>

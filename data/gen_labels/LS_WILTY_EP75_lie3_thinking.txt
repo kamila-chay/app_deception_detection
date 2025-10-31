@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed description of the behavior with a "lie" label, but I need to pretend I don't see that.
+
+Looking at the behavior description: the person has frequent blinking (True), gaze towards interlocutor (True), and head side-turn (True). Other things like smiling, laughing, scowling, or exaggerated expressions are all False. Interesting that they're making eye contact but turning their head sideways while blinking a lot.
+
+Hmm, frequent blinking can be a sign of nervousness - that's something I've heard about in lie detection. But I know that's not foolproof; people blink more when they're stressed, but it could also be from dry eyes or just being tired. The head side-turning makes me think they might be avoiding direct eye contact, but wait - the description says gaze towards interlocutor is True. That's confusing. If they're looking at the person but turning their head sideways, that might be a subtle avoidance tactic.
+
+The fact that they're not doing any other classic "lying" gestures is notable. No frowning, no lip biting, no hand movements that might indicate stress. They seem relatively still otherwise. That makes me wonder if the frequent blinking is the main clue here.
+
+I should consider counterarguments too. Maybe they're just naturally a fast-blinker. Or perhaps they're telling the truth but the situation is stressful - like if they're being interviewed about something uncomfortable. The head turning might just be a habitual gesture, not related to lying.
+
+The gaze being towards the interlocutor is important. If they were lying, I'd expect them to look away more often, but here they're maintaining eye contact while blinking and turning their head. That actually feels a bit contradictory to what I'd expect from a liar. 
+
+I should also remember that the "lie" label is from external sources, but I'm supposed to pretend I don't know that. So I need to be careful not to let that influence my assessment. The user wants me to sound uncertain, like a human making an educated guess.
+
+The key points to weigh are: the frequent blinking as potential nervousness, the maintained eye contact (which might contradict lying), and the head side-turn (which could be avoidance). But since they're still looking at the person, the avoidance might be minimal.
+
+I think I'll go with "probably telling the truth" but with reservations because the blinking is unusual. The lack of other stress cues makes me lean away from "lying" even with the blinking. But I should emphasize that I'm not sure - it's a weak signal at best.
+
+I'll structure my response to sound like I'm hesitating, mentioning the blinking but then questioning it, then noting the eye contact, and finally saying it doesn't feel like a strong lie indicator. Need to keep it conversational, like I'm talking to a friend about the video.
+</think>

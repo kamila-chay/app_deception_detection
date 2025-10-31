@@ -1,0 +1,24 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "truth," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+First, I need to recall the behavioral cues from the description: the person has "Raising eyebrows" (True), "Exaggerated eye opening" (True), "Lip corners up" (True), "Gaze down" (True), "Gaze sideways" (True), and "Arms open" (True). Other cues like smiling, laughing, scowling are all false.
+
+Hmm, the user wants me to avoid sounding too confident. I should present both sides—why they might be truthful and why they might be lying. Humans often look for inconsistencies, so I'll focus on the key behaviors.
+
+Looking at the cues: "Arms open" is a sign of openness, which usually suggests honesty. But "gaze down" and "gaze sideways" could be signs of deception—people sometimes avoid eye contact when lying. However, I remember that avoiding eye contact isn't a reliable indicator; it could just be shyness or cultural differences. "Raising eyebrows" and "exaggerated eye opening" might indicate surprise or emphasis, which could be genuine if they're recounting something vivid.
+
+"Lip corners up" is interesting—it's a subtle smile, not a full smile. That might mean they're trying to seem pleasant but not overdoing it, which could be natural. But if they're lying, they might force a smile, so this could be a red flag. Wait, the description says "Lip corners up" is true, but "Smile" is false, so it's not a full smile, just the corners lifting. That feels neutral.
+
+The "exaggerated eye opening" stands out. If they're telling the truth, they might be emphasizing a point, like "I really saw that!" But if lying, they might exaggerate to make it sound more convincing. I should consider both angles.
+
+Counterarguments: Maybe they're just nervous or excited, not lying. Gaze down could be from thinking or being modest, not deception. Arms open is generally positive, so that leans toward truth. But I shouldn't dismiss the gaze avoidance too quickly—some people do look away when lying.
+
+I need to balance it. Start with the positive cues (arms open, subtle smile), then the potential red flags (gaze down/sideways), and explain why they might not mean deception. Emphasize that behavior alone isn't foolproof; context matters. Like, if they're describing something traumatic, looking down might be natural.
+
+Also, avoid technical terms. Keep it conversational: "I'm not 100% sure, but..." Make it sound like I'm thinking out loud. The user said to sound like a human, so no jargon.
+
+Check if I'm missing anything. The description has "Gaze towards interlocutor" as false, so they're not looking at the person they're talking to, which could support deception, but again, not definitive. "Frequent blinking" is false, so no extra blinking, which is good—excessive blinking can be a lie sign, but absence doesn't prove truth.
+
+Finally, wrap it up by saying it's hard to tell, but the openness cues make me lean toward truth. But I have to acknowledge the uncertainty.
+
+Now, structure the response: Start with the main observation, discuss pros and cons, and end with a cautious conclusion. Keep it flowing like a real person talking.
+</think>

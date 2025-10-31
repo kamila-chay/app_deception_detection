@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "Deception," but I'm supposed to pretend I don't know that and make an educated guess based on the behavior described in the structured data.
+
+Looking at the description: the person has "Raising eyebrows" and "Nod" as true, and "Palms up" as true. Other behaviors like smiling, laughing, frowning are all false. The key points here are the raised eyebrows, nodding, and palms up. I need to think about what these might mean in a deception context.
+
+First, raised eyebrows can sometimes indicate surprise or confusion, but in deception contexts, they might be a sign of trying to seem sincere or nervous. Nodding is usually a sign of agreement or understanding, but if someone is lying, they might over-nod to seem convincing. Palms up is often associated with openness or honesty in some cultures, but it's not a definitive sign—sometimes people do it naturally.
+
+I should consider counterarguments too. Maybe the person is just naturally expressive with their eyebrows, or they're genuinely agreeing with something, not lying. Palms up could just be a habitual gesture. The absence of other classic deception cues like fidgeting, avoiding eye contact, or excessive blinking makes it less clear. The description says "Gaze towards interlocutor" is false, so they might not be making eye contact, which could be suspicious, but the data doesn't specify where they're looking.
+
+The user wants me to sound uncertain, like a human making a guess. So I shouldn't say "definitely lying" but rather "I'm leaning towards deception because of X, but it could be Y." I need to avoid sounding too confident. Also, I have to include why it's not clear-cut—like the palms up being ambiguous.
+
+Let me structure my thoughts: start by describing what I see, then list the behaviors that stand out (raised eyebrows, nod, palms up), explain why they might suggest deception, but then counter with possible innocent explanations. End with a balanced conclusion that it's a close call.
+
+Check the data again: "Raising eyebrows" true, "Nod" true, "Palms up" true. No other behaviors noted. So in the response, I'll mention those three. For counterarguments: maybe they're just excited or being emphatic, not lying. Or the palms up is just a natural gesture during conversation.
+
+Make sure the response flows naturally, like someone talking casually. Avoid technical terms. Say things like "I noticed..." or "It's a bit tricky because..." to sound human.
+
+Also, the user emphasized not to use lists, so I'll write it in paragraph form. Keep it conversational. And since the actual label is deception, my reasoning should align with that but not state it outright—I'm supposed to deduce it myself.
+
+Finally, wrap it up with a tentative conclusion: "I'm leaning toward deception, but I'm not 100% sure because..." That fits the "educated guess" requirement.
+</think>

@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm making this assessment from scratch.
+
+Looking at the behavior description provided: the person has raised eyebrows (True), gaze towards interlocutor (True), nodding (True), and several hand movements like hands scratching (True), hands touching head/body (True), and hands covering face/mouth (True). Other cues like smiling, laughing, or frowning are all False.
+
+Hmm, I need to reason like a human would. Raised eyebrows can indicate surprise or skepticism, but in deception contexts, it might signal nervousness. The gaze towards the interlocutor is interesting - people often avoid eye contact when lying, but here they're maintaining it, which could be a sign of confidence or maybe they're trying too hard to seem honest. Nodding while speaking might suggest agreement or engagement, but could also be an unconscious habit.
+
+The hand behaviors stand out a lot: scratching, touching head/body, and covering face/mouth. These are classic signs of discomfort or stress. Covering the mouth specifically is often associated with trying to hold back words or feeling deceptive. But I should consider counterarguments too - maybe they're just nervous about being filmed, or have an itch, or the covering could be for a different reason like adjusting glasses.
+
+I should be careful not to sound too certain. Humans would hesitate when assessing deception because it's not foolproof. I'll mention that some cues are ambiguous - like the gaze direction could mean either honesty or overcompensation. The nodding might just be natural conversation rhythm. And the hand movements could be habitual or due to physical discomfort rather than deception.
+
+I'll structure my response to sound like a thoughtful human assessment: starting with observations, then weighing the evidence, acknowledging uncertainties, and ending with a tentative conclusion. Need to avoid listing points and keep it conversational. Phrases like "I'm not 100% sure" and "could be" will help show it's an educated guess.
+
+The key is balancing the deceptive cues (hand movements, raised eyebrows) against the non-deceptive ones (direct gaze, nodding). I'll emphasize that no single cue is definitive, which is how real humans would approach this. And I'll make sure to include that counterargument about possible alternative explanations for the behaviors.
+</think>

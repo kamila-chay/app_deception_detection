@@ -1,0 +1,44 @@
+Okay, the user wants me to assess whether someone is lying based on a video clip, but I'm supposed to pretend I'm only seeing the video without the description or label. The description says it's labeled as "truth," but I have to ignore that and make my own educated guess.
+
+Looking at the behavioral cues provided in the description: Frowning eyebrows (True), Chin moving upwards (True), Chin moving downwards (True), Gaze towards interlocutor (True), Gaze down (True), Head moving backward (True), Head tilting (True), Head side-turn (True), Head shaking (True), Hands touching head/body (True), and Hands covering face/mouth (True). 
+
+Hmm, the key thing here is that they're showing signs that often correlate with lying - like covering mouth, frowning, head movements. But I know from psychology that these aren't definitive. The person is looking at the interlocutor (which might suggest honesty), but also looking down and covering their mouth (which could indicate discomfort). 
+
+I should be careful not to sound too confident. Humans would hesitate when interpreting body language. The head shaking is interesting - it's usually a "no" gesture, but they're doing it while speaking, which might mean they're trying to emphasize something. 
+
+The chin movements (up and down) are unusual - that might be nervous habit rather than deception. And the hands touching head/body could just be a natural gesture. I recall studies showing that liars often have more self-touching, but it's not reliable. 
+
+For counterarguments: Maybe they're just stressed about the topic, not lying. Or perhaps the video is about something emotionally difficult, so the frowning makes sense. The gaze toward the interlocutor is actually a good sign for truthfulness. 
+
+I need to make my response sound like a human thinking out loud - using phrases like "I'm not sure" and "it's hard to tell." Should mention that without context, it's tricky. The cover mouth gesture could be accidental too. 
+
+The challenge is balancing the "lying indicators" with the "truth indicators" without leaning too hard either way. The head shaking and gaze down might be more about nervousness than deception. 
+
+Also important to avoid technical terms - say "frowning" instead of "frowning eyebrows" to sound natural. And emphasize that I'm going by what I see in the video, not the label. 
+
+*checks the description again* Wait, the label says "truth" but I have to pretend I don't know that. So my assessment should stand alone. 
+
+*mental note* Must include: 
+- The covering mouth (could be lie) 
+- But also eye contact (could be truth) 
+- And explain why head movements are ambiguous 
+- Stress that without context, it's hard 
+
+*double-checking* The description says "Gaze towards interlocutor: True" so they're looking at the person they're talking to, which is typically associated with truth-telling. That's a strong counterpoint to the mouth-covering. 
+
+*refining* I'll start with "I'm watching this clip..." to set the scene, then describe what I see, then weigh the pros and cons. End with "it's really hard to say" to show uncertainty. 
+
+*avoiding pitfalls* 
+- Don't say "the label says truth" (since I'm pretending not to see it) 
+- Don't use bullet points 
+- Keep sentences conversational like "I'd guess..." not "the evidence suggests..." 
+
+*last check* The chin moving up/down is odd - might be a tic, not deception. Should mention that as a possible alternative explanation. 
+
+Okay, structuring the response: 
+1. Describe key behaviors neutrally 
+2. Note the conflicting signals 
+3. Explain why each might or might not indicate lying 
+4. Conclude with uncertainty 
+5. Add that context would help (like "if this was about a car accident, it'd look different")
+</think>

@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior data provided (which I shouldn't use directly since I'm supposed to be watching the video), I see the person has "Gaze towards interlocutor" and "Head tilting" as true, with most other behaviors false. But since I'm pretending not to have this data, I'll have to describe what I'd actually observe in the video.
+
+Hmm... the key points from the data would translate to: the person is making consistent eye contact while tilting their head slightly, with arms open and no nervous gestures. That's actually quite calm and engaged behavior - which is interesting because people often think liars avoid eye contact, but research shows truth-tellers can do it too.
+
+I should emphasize how humans actually interpret these cues. Like, head tilting often shows interest or empathy, not deception. And open arms suggest receptiveness. The lack of fidgeting (no hands rubbing, no blinking) also points to comfort. But I must include counterarguments - maybe someone could be lying while being very calm, or the head tilt could be fake.
+
+The user wants me to sound uncertain, so phrases like "it's hard to say" or "could be" would work better than "definitely." I'll avoid listing anything - just weave it into natural sentences. 
+
+Also important: the label says "truth" but I can't reference that. The whole point is to pretend I'm deducing it from the video alone. I should mention how the behavior contradicts the common "liar tells" myth - like how people think liars avoid eye contact, but here they're making direct eye contact.
+
+For the counterargument, I'll note that some skilled liars might mimic these calm behaviors. But the combination of open posture, head tilt, and no nervous tics feels more like genuine engagement than deception. 
+
+I'll structure it like a real person thinking aloud: "At first I thought... but then I noticed... though it could be..." That feels human. And end with "hard to say for sure" to keep that uncertainty.
+
+Gotta make sure I don't accidentally use the label "truth" in my response - the user was clear I shouldn't reference that. Just describe what I see.
+</think>

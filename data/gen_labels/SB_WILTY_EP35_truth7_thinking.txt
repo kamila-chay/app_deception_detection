@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and make it seem like I'm deducing it from the video alone.
+
+Looking at the behavior description provided, I see key indicators: "Frowning eyebrows" (True), "Chin moving downwards" (True), "Gaze down" (True), "Nod" (True), and "Gaze towards interlocutor" (True). The absence of typical "lie cues" like smiling, laughing, or excessive blinking is notable. 
+
+Hmm, I should approach this like a human would - noticing subtle things while doubting my own judgment. The person's downcast gaze and chin movement suggest discomfort or thoughtfulness, not deception. But I shouldn't overstate it. Maybe they're just nervous about the topic? 
+
+I recall research showing people often look down when recalling memories truthfully, not when lying. That's a counterargument to consider - if they were lying, they might avoid eye contact, but "gaze towards interlocutor" is also True, meaning they're making eye contact when not looking down. That's interesting - they're not avoiding gaze entirely, which contradicts some lie myths.
+
+The nod is a strong point - people tend to nod more when they're being truthful. But I should mention that nervous people might over-nod too. And that chin movement downward... is that a sign of stress or just a natural gesture? I should present both angles.
+
+I need to sound uncertain like a real person. Instead of "definitely truthful," I'll say "seems truthful" and emphasize the lack of classic lie signs. The key is balancing the evidence without claiming certainty. 
+
+Also important: the user wants natural language, no bullet points. So I'll weave it into a conversational response. "I'm not 100% sure, but..." type phrasing. And I must include why I'm not convinced it's a lie - the absence of stress behaviors like fidgeting or forced smiles.
+
+Wait - the description says "frowning eyebrows" but not "scowl" or "frowning." That's a subtle difference. A slight frown could just mean concentration, not deception. I should clarify that in my reasoning.
+
+For counterarguments: what if they're lying but very practiced? But the lack of any micro-expressions or nervous habits makes that less likely. And the consistent eye contact during nods feels genuine. 
+
+I'll structure it as: 1) note the observed behaviors, 2) explain why they suggest truthfulness, 3) acknowledge possible alternative interpretations, 4) conclude with moderate confidence. Keeping it to 3-4 sentences max for naturalness.
+
+Most importantly: never say "the label is truth" or reference the description. Just describe what I see in the video. The user's "imagine you don't see the description" is crucial here.
+</think>

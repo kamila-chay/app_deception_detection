@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not claiming certainty.
+
+Looking at the behavior description provided: the person has "Chin moving upwards" (True), "Gaze towards interlocutor" (True), "Nod" (True), and "Arms open" (True). Other things like smiling, laughing, frowning, or blinking are all False. So they're not showing typical "liar" signs like avoiding eye contact or fidgeting. Instead, they're making direct eye contact, nodding, and keeping arms open—behaviors often associated with honesty.
+
+But I should consider counterarguments too. Maybe the chin movement upward is a nervous habit, or the open arms could be forced to seem sincere. The fact that they're not showing any micro-expressions (like smirking or frowning) might actually be suspicious because liars sometimes suppress natural reactions. Also, the description says "Mouth closed (awkward pauses)" is False, so they're not pausing awkwardly, which could mean they're rehearsed.
+
+I need to sound hesitant, like a human who's second-guessing. Start by noting the positive signs (eye contact, nodding), then question why those might be deceptive. Mention that absence of "liar cues" isn't proof of truth, but it's unusual. Avoid listing points—keep it conversational. 
+
+The user probably wants to see if I can balance evidence without overconfidence. They might be testing critical thinking or how I handle ambiguous data. Deeper need: understanding that deception detection isn't foolproof, and humans often misjudge based on stereotypes. 
+
+I'll structure it like: "Hmm, they seem engaged with eye contact and nodding... but wait, maybe that's too perfect? Let me think..." Then weigh pros and cons naturally. End with "I'm leaning toward truth but not sure" to mirror human uncertainty. 
+
+Check the description again to avoid missing details—e.g., "Chin moving upwards" isn't a standard cue, so I should clarify it's not a classic sign. Also, "arms open" is positive, but could be theatrical. 
+
+Make sure not to say "the label is deception" since I'm pretending not to know. Just focus on the behavior. Keep sentences flowing like real speech: "I'd say... but on the flip side..." 
+
+Finally, ensure it doesn't sound robotic. Use phrases like "I'm not 100% sure" and "it's tricky" to sound human.
+</think>

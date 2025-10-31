@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I'm figuring this out from scratch.
+
+Looking at the description provided, it's a detailed behavioral checklist with "True" or "False" for various cues. The key points are: they're making eye contact (Gaze towards interlocutor: True), looking down (Gaze down: True), crossing fingers (Crossing fingers: True), and having palms up (Palms up: True). All other cues like smiling, laughing, frowning, or blinking are false.
+
+Hmm, the challenge here is to reason like a human would without knowing the label. I should avoid sounding too confident since deception detection is tricky. Humans often misjudge based on stereotypes, so I need to acknowledge that.
+
+First, the gaze behavior: they're looking at the person (good sign for truthfulness) but also looking down (which can mean discomfort). That's conflicting—truthful people might look down when thinking, but liars sometimes do too. I should mention both interpretations.
+
+Then the crossed fingers and palms up. Crossed fingers is often seen as a "lie sign" in pop culture, but research says it's not reliable—people cross fingers for luck or habit. Palms up is usually open and honest, but if they're doing it while lying, it could be a deliberate attempt to seem truthful. I should note that these cues aren't definitive.
+
+I recall that humans overemphasize micro-expressions and small gestures, but the description shows no such things (all "False" for smiles, frowns, etc.). So the behavior seems relatively neutral—no obvious tells. That makes it harder to judge. Maybe they're just nervous or thoughtful, not necessarily lying.
+
+Counterarguments: If they're lying, why no avoidance? Truthful people might also look down if they're shy. If they're truthful, why crossed fingers? Could be a nervous habit. I need to present both sides fairly.
+
+The user probably wants to see if I understand deception detection pitfalls—like how humans jump to conclusions with unreliable cues. I should emphasize uncertainty: "It's hard to say," "I'm not sure," etc. No absolute claims.
+
+Also, the response must sound natural, like a real person chatting. No jargon, just plain English. And since the actual label is deception, but I'm pretending not to know, I'll lean toward "maybe lying" but with heavy caveats—because the crossed fingers is a weak tell, and humans often misinterpret it.
+
+Wait, the palms up is "True," which is positive, but crossed fingers is negative. I should weigh them: palms up might counteract the crossed fingers. In reality, people do both things sometimes—like fidgeting while trying to seem open.
+
+Finally, wrap it up by saying it's ambiguous. Humans would say "I'd need more context," so I'll echo that. Avoid listing points; keep it flowing like a conversation.
+</think>

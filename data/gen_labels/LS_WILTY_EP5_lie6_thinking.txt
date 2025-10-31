@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess whether the person is lying based on their behavior. They've provided a detailed description of the behavior that's labeled as deception, but I need to pretend I don't see that label.
+
+Looking at the behavior description, I notice the person has "Gaze towards interlocutor" (True) and "Nod" (True), but also "Head shaking" (True). That's interesting because head shaking is often associated with disagreement or denial, which could be a sign of lying, but it's not definitive. The description also says "Smile" is False, "Laughter" is False, and all other facial expressions like scowling or frowning are False. That suggests they're maintaining a neutral expression, which might be a sign of deception since liars sometimes try to appear calm.
+
+I should consider counterarguments too. Maybe they're just being polite or focused on the conversation. Head shaking could mean they're disagreeing with something, not necessarily lying. The fact that they're making eye contact and nodding might indicate they're being truthful, as liars sometimes avoid eye contact. But the head shaking is confusing—it's a gesture that could mean "no" or disagreement, which might be relevant to the context of the conversation.
+
+The user wants me to sound like I'm making an educated guess, not too confident. So I shouldn't say "they're definitely lying" but rather "it's possible they're lying, but I'm not sure." I need to include why it could be deception (head shaking, neutral expression) and why it might not be (eye contact, nodding).
+
+Also, the description says "Mouth closed (awkward pauses)" is False, so no awkward pauses. That might mean their speech is smooth, which could be a sign of truthfulness since liars might hesitate. But the head shaking is a red flag. I should mention that.
+
+I need to make it sound natural, like a human reasoning out loud. Avoid lists, just write in a flowing paragraph. Start with what I observe, then weigh the possibilities, include counterpoints, and end with a cautious conclusion.
+
+Let me structure my thought process: First, describe the key behaviors I see—eye contact, nodding, head shaking. Then discuss why head shaking might indicate deception (it's a common sign of denial). But counter with: maybe they're just disagreeing with a point, not lying. Also, the neutral expression could be natural for them, not forced. Finally, conclude that it's ambiguous but leans toward deception based on the head shaking.
+
+Make sure not to use any markdown, just plain text. Keep it conversational. And remember, I shouldn't claim to know for sure—I'm just making an educated guess based on what I see.
+</think>

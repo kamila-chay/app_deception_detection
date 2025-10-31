@@ -1,0 +1,23 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess whether the person is lying based on their behavior. The actual label is "Deception," but I'm supposed to pretend I don't know that. The description says "Hands scratching" is the only behavior that occurred, and everything else is false.
+
+Hmm, I need to write a natural-sounding response as if I'm making an educated guess. I shouldn't be too confident—I should show some uncertainty and consider counterarguments. The key point here is that the person is scratching their hands, which is the only behavior mentioned. I recall from psychology that fidgeting or scratching can sometimes indicate stress or nervousness, which people might associate with lying. But I also know that scratching can happen for many other reasons, like an itch, discomfort, or just a nervous habit.
+
+I should start by describing what I see: the person is scratching their hands occasionally. Then I'll weigh the possibilities. On one hand, if they're lying, the scratching might be a sign of anxiety. On the other hand, maybe they're just itchy or the room is dry. I need to mention that absence of other classic "lying cues" like avoiding eye contact or fidgeting with objects makes it less clear. 
+
+The user emphasized avoiding lists, so I'll keep it conversational. I'll say something like, "I notice they're scratching their hands a few times..." and then explore both angles. For counterarguments, I'll point out that scratching isn't a reliable indicator—it could be anything. Maybe they have a rash or are just restless. 
+
+Also, the description says no other behaviors like blinking or facial expressions, so I shouldn't invent those. I'll stick to what's given. I need to sound like a human who's not an expert, just observing. Phrases like "I'm not sure" or "it's hard to say" will help with that. 
+
+The user's deeper need here is probably to see if I can mimic human uncertainty in deception detection, not just parrot the label. They want realism, so I'll avoid sounding like a machine. I'll end with a balanced thought: "I'd lean toward truth, but it's not definitive." That feels natural. 
+
+Wait, the label is deception, but my reasoning should lead me to doubt it because of the lack of strong cues. So in my response, I shouldn't say "they're lying"—I should say it's ambiguous. That aligns with the counterargument approach. 
+
+Let me structure it: 
+- Describe the scratching. 
+- Suggest possible reasons for lying (nervousness). 
+- Give strong counterexamples (itch, habit). 
+- Note the absence of other tells. 
+- Conclude with uncertainty. 
+
+And keep it all in a flowing paragraph. No markdown, just plain English like a real person chatting. Got it.
+</think>

@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. I need to reason through both possibilities without sounding too confident, include counterarguments, and make it sound like a human making an educated guess.
+
+Looking at the provided behavior data labeled as "truth" (meaning the description accurately reflects what happened in the video), I notice key points: the person has a "Lip corners up" (smile) and "Gaze towards interlocutor" (looking at the person they're speaking to), but also "Frequent blinking" and "Lip corners up" (smile) - wait, "Lip corners up" is listed as True, which is a smile. The "Frequent blinking" is also True, which is often associated with stress or lying, but not always.
+
+I should consider that frequent blinking can be normal for some people - maybe they have dry eyes or are just nervous in general. The smile is a bit ambiguous too; people smile when they're happy, but they can also smile when they're lying to seem friendly. The gaze being directed at the interlocutor is good because liars often avoid eye contact, but not always - some liars might overcompensate by staring too much.
+
+Hmm, the description says "Smile" is False in the label, but "Lip corners up" is True. That's a bit confusing - "Lip corners up" is a technical term for a smile, so the label might be inconsistent. But since the label says "truth," I'll take it as the person did have a slight smile. The key is that they're maintaining eye contact, which is positive for truthfulness.
+
+For counterarguments: if they were lying, why would they have a smile and maintain eye contact? But maybe they're a skilled liar who practices eye contact. Or maybe the frequent blinking is a sign of stress from the situation, not necessarily lying. The smile could be genuine if they're happy to be talking about something positive.
+
+I need to make my response sound like a human who's not 100% sure. Start with what I see: "I noticed they're looking right at the person they're talking to, which usually means they're being honest..." Then mention the blinking: "But they're blinking a lot, which sometimes happens when people are nervous..." Then weigh both sides: "Though, some people blink a lot naturally, and the smile they have seems relaxed, not forced."
+
+Avoid listing points - just weave it into a natural paragraph. End with uncertainty: "Honestly, it's hard to say for sure, but the eye contact and natural smile make me lean toward them telling the truth." Make sure to say "I'd guess" or "it seems" to show it's an estimate.
+
+Check the behavior list again: no frowning, no awkward pauses, no hand movements that suggest deception. All the nonverbal cues are neutral or positive. The frequent blinking is the only red flag, but it's not strong evidence on its own. In real life, humans would probably focus more on the eye contact and smile since those are stronger indicators.
+
+Also, the user emphasized avoiding confidence, so phrases like "it's tricky," "I'm not sure," "could be" are good. And since the actual label is "truth," my reasoning should align with that but without stating it outright.
+
+Finally, structure the response as a casual reply: start with the observation, discuss the cues, present counterpoints, and conclude with a tentative conclusion. Keep it conversational like someone explaining to a friend.
+</think>

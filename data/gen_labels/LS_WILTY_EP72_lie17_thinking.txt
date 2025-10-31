@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. They've provided a detailed behavioral description that's labeled as "lie" but I'm supposed to pretend I don't see that.
+
+Looking at the behavior details: the person has raised eyebrows (True), frequent blinking (True), and gaze patterns including looking up, sideways, and at the interlocutor. There's no smiling, laughing, frowning, or other obvious tells. The key things I notice are the raised eyebrows and frequent blinking - these can be signs of stress or deception, but they're also common in nervousness or when someone's thinking hard.
+
+Hmm, I should be careful not to sound too confident. The user wants me to make it seem like I'm making an educated guess. I recall from psychology studies that micro-expressions and eye movements can be indicators, but they're not foolproof. For example, raised eyebrows might just mean surprise or confusion, not necessarily lying. Frequent blinking could be from dry eyes or just being uncomfortable in the situation.
+
+I should consider counterarguments too. Maybe the person is genuinely trying to remember something, which would explain the gaze shifts and blinking. Looking up is often associated with recalling memories, which might be why they're doing it. The sideways glance could be natural eye movement rather than avoidance.
+
+The challenge is balancing the possible deception signs with plausible innocent explanations. I'll structure my response to show I'm weighing both sides - noting the potential red flags but acknowledging they're not definitive. I'll avoid technical terms and keep it conversational like a real person thinking out loud.
+
+I need to make sure I don't mention any of the "False" behaviors since they're not happening, and focus only on the "True" ones. The gaze patterns seem particularly important here - looking at the interlocutor while also shifting gaze up/sideways suggests they're trying to maintain connection while processing thoughts.
+
+For the natural tone, I'll use phrases like "I'm not sure" and "could be" instead of "definitely." I'll end with a tentative conclusion that leans toward deception but leaves room for doubt, since that's how humans actually reason about these things. The key is making it sound like I'm genuinely debating it, not just reciting facts.
+</think>

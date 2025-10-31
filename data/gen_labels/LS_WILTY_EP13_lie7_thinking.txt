@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying. They've provided a detailed behavioral description that's labeled as deception, but I need to pretend I don't see that and reason as if I'm analyzing the video myself.
+
+Looking at the behavioral data: the person is smiling (lip corners up), has frequent blinking, maintains gaze toward the interlocutor, nods, moves head forward, and turns head sideways. They're not laughing, frowning, or showing other typical deception cues like lip biting or avoiding eye contact. 
+
+Hmm, interesting - the classic "deception cues" like avoiding eye contact aren't present here. In fact, they're making consistent eye contact (gaze towards interlocutor) and nodding, which usually suggest engagement rather than deception. The frequent blinking is a bit tricky - it could be nervousness, but it's not uncommon when people are speaking. 
+
+I should consider counterarguments carefully. Maybe the smile is forced? But the description says "lip corners up" which could be genuine. The head tilting sideways might indicate listening, not deception. And the head moving forward suggests they're leaning in to connect, which feels authentic. 
+
+Wait - the user specifically said not to sound too confident. I need to emphasize uncertainty. Like "I'm not sure because..." rather than "they're lying because..." The frequent blinking is the only real red flag, but that alone isn't conclusive. 
+
+Also important: humans often misinterpret nervousness as lying, but people get nervous when they're just excited or anxious about the conversation, not necessarily lying. The nodding and eye contact seem too consistent for deception. 
+
+I'll structure my response to show the reasoning process: first note the non-deceptive cues (eye contact, nodding), then mention the blinking as a possible concern but downplay it, then address why it might not be deception (smile seems natural, head movements show engagement). Should end with "I'm leaning toward truth but not certain" to match the requested uncertainty.
+
+Gotta avoid academic language - this should sound like a real person hesitating while watching a video. Phrases like "I keep thinking..." or "it's hard to say" will help. And absolutely no bullet points - just flowing sentences.
+</think>

@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavior log that's labeled as "truth," but I need to pretend I don't see that and make my own educated guess.
+
+Looking at the behavior log, the key points are: the person has "Lip corners up" (smiling) and "Nod" (nodding), but also "Gaze down" (looking downward). The other behaviors like smiling, laughing, scowling, etc., are all marked as false. So the person is smiling slightly, nodding, but looking down while speaking.
+
+Hmm, I need to think like a human would interpret this. When people lie, they often avoid eye contact, which matches the "gaze down" here. But they also have a slight smile ("lip corners up") and are nodding. Nodding can be a sign of agreement or confirmation, which might indicate truthfulness. However, the downward gaze is more commonly associated with deception in many contexts. 
+
+But I should consider counterarguments. Maybe the person is just shy or nervous, not lying. People sometimes look down when they're concentrating or being thoughtful, especially if they're recalling details. The slight smile could be genuine, like they're remembering something pleasant, not a forced lie. The nod might just be a natural gesture while speaking, not necessarily related to truthfulness.
+
+I should also think about cultural differences. In some cultures, avoiding direct eye contact is a sign of respect, not deception. So the downward gaze might not mean they're lying—it could just be their normal behavior. The smile might be a reflexive response to the situation, not a tell.
+
+The user wants me to sound uncertain, like I'm making an educated guess. I shouldn't say "definitely lying" or "definitely truthful." Instead, I'll present the evidence for both sides: the downward gaze as a potential lie indicator, but also the nod and smile as possible signs of truth. I'll mention that without more context, it's hard to be sure.
+
+I need to avoid sounding too confident. Phrases like "it's a bit ambiguous," "could go either way," or "I'd be hesitant to say for sure" would work well. Also, I should tie it back to how humans actually think—people often rely on gut feelings but admit uncertainty when evidence is mixed.
+
+Let me structure my response naturally: start with the observations, then weigh the pros and cons, and end with a cautious conclusion. Keep it conversational, like I'm talking to a friend. No lists, just flowing sentences.
+
+Finally, make sure I'm not using any markdown or formatting—just plain text. And remember, the label is "truth," but I'm pretending I don't know that, so my assessment should be neutral, not biased toward the label.
+</think>

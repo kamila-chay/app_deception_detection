@@ -1,0 +1,25 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and make it seem like I'm deducing it from the video alone.
+
+Looking at the behavior description provided (which I shouldn't reference directly), I notice key details: the person has "Gaze towards interlocutor" as True, and all other behaviors like smiling, laughing, frowning, blinking, etc. are False. So they're maintaining steady eye contact without any nervous ticks.
+
+Hmm, as a human watching this, I'd notice they're looking directly at the camera (or whoever they're speaking to) without shifting eyes, which often indicates honesty. But I should be careful not to sound too confident. People sometimes maintain eye contact when lying too, especially if they're practiced. That's a good counterargument to include.
+
+I should also consider what's missing - no fidgeting, no awkward pauses (since "Mouth closed (awkward pauses)" is False), no micro-expressions like scowling. That's actually pretty calm behavior for someone who might be nervous about lying. If they were lying, I'd expect more signs like frequent blinking or looking away.
+
+Wait, but the user said "make it seem like you're making an educated guess" so I shouldn't say "definitely truth." I'll phrase it as "seems truthful" with caveats. The gaze direction is the strongest clue, but I'll mention that some liars can maintain eye contact too.
+
+For naturalness, I'll avoid listing points and keep it conversational. Maybe start with "From what I can see..." to sound like I'm describing what I'm actually observing. Should mention the lack of nervous habits as a positive sign, but balance it with "though some people do this when lying."
+
+Also need to address why I'm not seeing the common lying signs: no lip biting, no hand movements, no avoiding eye contact. That consistency makes it feel genuine. But I'll add that if I were suspicious, I'd look for other context clues I can't see in the clip.
+
+The user's probably testing if I can mimic human uncertainty in deception detection. They want to avoid robotic certainty. So phrases like "I'm not 100% sure" and "could be" will help. And I'll end by saying "seems truthful" rather than "is truthful" to keep it tentative.
+
+Let me structure it: 
+- Start with observation (steady eye contact, no nervous ticks)
+- Explain why that suggests truthfulness 
+- Then counter with "but liars can do this too"
+- Weigh the evidence as a human would
+- Conclude with "leaning toward truthful" not "definitely"
+
+Gotta make sure I don't accidentally reference the label. The description says "Gaze towards interlocutor: True" so I'll just say "they're looking directly at the camera" without quoting the data. And absolutely no "based on the description" - that's cheating since I'm supposed to be blind to it.
+</think>

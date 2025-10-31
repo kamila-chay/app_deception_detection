@@ -1,0 +1,28 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I'm just watching the video and making my own judgment.
+
+Hmm, looking at the behavioral cues: the person has "frowning eyebrows" (True), "frequent blinking" (True), "lip corners up" (True), "chin moving upwards" (True), "gaze towards interlocutor" (True), "gaze down" (True), "gaze sideways" (True), and "head side-turn" (True). But no smile, laughter, scowl, or other signs of deception.
+
+I should consider how humans actually interpret these cues. Frequent blinking can indicate stress, which might suggest lying, but it's also common when people are nervous or thinking. The frowning eyebrows and chin movement upward could be signs of concentration or discomfort, not necessarily deception. The lip corners up might look like a forced smile, but the label says no actual smile, so it's probably just a slight tension. 
+
+The gaze patterns are interesting—they're looking at the person they're talking to (good for truthfulness), but also looking down and sideways, which some might interpret as avoiding eye contact. But I know from psychology that avoiding eye contact isn't a reliable lie indicator; it could just be cultural or habitual. The head side-turn might be a natural gesture, not a sign of deception.
+
+I need to be careful not to overinterpret. The user emphasized avoiding overconfidence, so I should present this as a tentative assessment. Counterarguments are crucial: maybe the blinking is just from tiredness, or the gaze down is normal for thinking. The fact that they're maintaining eye contact sometimes actually supports truthfulness. 
+
+The user probably wants to see if I understand that micro-expressions alone don't prove lying, and that context matters. They might be testing for bias against "lying" assumptions. I'll make sure my response sounds like a human hesitating, not a bot stating facts. 
+
+Also, the description says "lip corners up" but not a full smile—so it's subtle. I should mention that. And "chin moving upwards" could be a sign of asserting something, not lying. 
+
+I'll structure it as: "Hmm, I'm not sure... some cues like frequent blinking make me think they might be stressed, but... wait, they're looking at the person, which usually means truth... but maybe they're just nervous... and the head turn isn't a classic lie sign..." 
+
+Gotta avoid listing points—keep it conversational. And definitely no "I know they're lying" language. The key is balancing the ambiguous cues without taking sides. 
+
+*checks the behavior list again* Wait, "gaze down" and "gaze sideways" together—could that mean they're recalling something, which is common for truth-tellers too? Yeah, that's a good counter. 
+
+Also, the absence of classic deception signs (like avoiding eyes, faking smiles) actually leans toward truth, but I shouldn't say "proves" it. "Makes me lean toward truth" is safer. 
+
+*mental note* Don't forget the "lip corners up" isn't a smile—important distinction. And "chin moving upwards" is vague; could be anything from nodding to frustration. 
+
+Alright, drafting in my head: Start with uncertainty, mention the blinking/stress angle, then pivot to the eye contact/gaze patterns supporting truth, then acknowledge the counterpoints. End with "hard to say for sure but I'm leaning toward truth." 
+
+User's probably looking for realism—not a textbook answer. Gotta sound like a person who's not an expert but is trying their best.
+</think>

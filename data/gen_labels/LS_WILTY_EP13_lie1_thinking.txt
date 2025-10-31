@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I need to pretend I don't know that and make it sound like I'm making an educated guess.
+
+Looking at the behavior description provided: the person has "Lip corners down" (which is a frown), "Chin moving upwards" and "downwards," "Gaze towards interlocutor," "Gaze down," "Gaze sideways," "Head moving backward," "Head tilting," and "Head side-turn." They don't have any smiles, laughter, or other typical deception cues like frequent blinking or lip biting.
+
+Hmm, I should think about how humans actually interpret these cues. The frown (lip corners down) could indicate discomfort, but it's not a sure sign of lying—people frown when they're concentrating or upset. The chin movements are interesting; chin moving up and down might be nervousness, but I've seen people do that naturally when thinking. The gaze patterns are mixed: looking at the person (which might seem honest) but also looking down and sideways (which sometimes correlates with lying, though not always). The head movements—tilting, side-turning, and moving backward—could be signs of discomfort or evasion.
+
+I recall that in real life, people often misinterpret these cues. For example, looking down might mean they're recalling memories (which is honest), not lying. And head tilting is usually just a natural gesture. The absence of classic deception signs like avoiding eye contact or fidgeting makes me think it's not a clear case. 
+
+Wait, the user emphasized not to sound too confident. So I should present both sides: maybe they're lying because of the frown and gaze shifts, but maybe they're just stressed or tired. I should mention that context matters—like if this is a high-stakes situation, but since I don't know, it's hard to say. 
+
+Also, the description says "Gaze towards interlocutor" is true, which means they're looking at the person they're talking to, which usually suggests honesty. But then "Gaze down" and "Gaze sideways" are also true, so it's inconsistent. That might mean they're not fully engaged, but again, not definitive. 
+
+I need to avoid listing points. Instead, I'll write it conversationally, like I'm chatting with someone. Start with "Hmm, this is tricky..." to show hesitation. Point out the frown and head movements as possible red flags, but counter with why those could be innocent. Emphasize that without more context, it's hard to tell. 
+
+Make sure to say things like "I'm not sure" or "it could go either way" to keep it humble. And definitely not say "I know they're lying" because that'd be against the instructions. The user wants it to feel like a human's uncertain guess, not an AI with perfect knowledge. 
+
+Also, check if I'm using the right terms—like "lip corners down" is a frown, not a smile, so that's correctly noted. And the chin movements: moving up and down might be like "chewing" on thoughts, which isn't necessarily deceptive. 
+
+Finally, wrap it up by saying it's probably not a clear deception case, but I can't be certain. That aligns with how real people would think: "I'd lean toward truth, but I'm not 100% sure." 
+
+Got it. Now to write it naturally, like a reply to "Is this person lying?"
+</think>

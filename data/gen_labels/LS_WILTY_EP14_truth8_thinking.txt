@@ -1,0 +1,18 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "truth," but I need to pretend I don't know that and reason as if I'm making an educated guess.
+
+First, I need to look at the behavioral cues provided in the description. The key points are that the person has "Gaze towards interlocutor: True" and "Gaze down: True," which means they're looking at the person they're talking to but also occasionally looking down. There's "Head tilting: True" and "Gaze down" together. Also, no signs of typical lying indicators like frowning, blinking, or avoiding eye contact. 
+
+Hmm, the absence of nervous behaviors is important. People often think liars avoid eye contact, but actually, truth-tellers can look away too, especially when thinking. The person is maintaining eye contact (gaze towards interlocutor) but also looking down—maybe they're being thoughtful rather than deceptive. Head tilting is usually a sign of engagement or curiosity, not deception. 
+
+But I should consider counterarguments. Maybe they're looking down because they're uncomfortable, which could indicate lying. Or the head tilting might be a nervous habit. However, the description says no other signs like fidgeting or lip movements, which are common in liars. So the lack of those might suggest truthfulness. 
+
+I need to make my response sound like a human making a cautious guess. Avoid being too confident. Mention that eye contact is mixed—looking at the person but also down—and that head tilting is positive. But note that looking down isn't always a lie; it could be deep thought. Also, emphasize that absence of signs doesn't prove truth, just makes it less likely. 
+
+Check if the user might have deeper needs. They're probably testing if I understand that lying cues are ambiguous. They want a realistic, not textbook, analysis. So I should highlight that humans often misjudge based on stereotypes, like assuming looking away means lying. 
+
+Make sure the response flows naturally in a reply format. Start with observations, then weigh possibilities, acknowledge uncertainty. Avoid lists. Use phrases like "it's hard to say" or "could be." 
+
+Double-check the data: no smile, laughter, scowls, etc. All neutral or positive cues. Gaze down might be a red herring since truth-tellers do that too. Head tilting is good. So overall, lean towards truth but with caveats. 
+
+Finally, structure the thought: observe behaviors, explain why they might indicate truth (engagement, no nervousness), then counter with possible lies (down gaze as discomfort), but conclude that the lack of classic lies makes truth more plausible. Keep it conversational.
+</think>

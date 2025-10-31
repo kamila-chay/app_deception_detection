@@ -1,0 +1,22 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I have to assess if the person is lying based on their behavior. The actual label is "truth," but I shouldn't know that. I need to write a natural-sounding response as if I'm making an educated guess, not being too confident.
+
+First, I need to recall the behavior descriptors from the description. The key points are: Raising eyebrows (True), Gaze up (True), Head tilting (True). Other things like smile, laughter, scowl are all False. So the person isn't smiling or frowning, but they are raising eyebrows, looking up, and tilting their head.
+
+Now, I have to think about how humans interpret these cues. Raising eyebrows can indicate surprise or skepticism, but in truth-telling, it might show they're trying to recall something. Gazing upward is often associated with memory retrieval—people look up when they're thinking or remembering details. Head tilting can be a sign of engagement or curiosity, not necessarily deception.
+
+But I should also consider counterarguments. Sometimes, raised eyebrows and looking up can be signs of lying, especially if someone is fabricating a story. For example, liars might use these gestures to appear thoughtful while they're making up details. However, in this case, the person isn't showing other classic signs of deception like frowning, frequent blinking, or avoiding eye contact. The gaze is up, not away from the interlocutor, which might suggest they're focused on recalling, not hiding.
+
+I need to balance both sides. The absence of deceptive cues (like frowning or avoiding gaze) supports truthfulness, while the presence of memory-related cues (gaze up, head tilt) might align with truthful recall. But I shouldn't overstate it. Humans often get confused about micro-expressions, so I should acknowledge that these cues aren't foolproof.
+
+The user emphasized making it sound natural, like a human reply. So I'll avoid technical terms and keep it conversational. Phrases like "I'm not 100% sure" or "it's a bit tricky" would help. Also, since the label is "truth," my reasoning should lean that way but with caveats.
+
+Wait, the description says "Gaze towards interlocutor" is False, but "Gaze up" is True. That means they're looking up, not directly at the person. In some contexts, avoiding direct eye contact can signal lying, but looking up specifically might be neutral. I should clarify that in my response without getting too detailed.
+
+Also, head tilting—commonly a sign of interest or confusion, not deception. If they were lying, they might be more rigid, but here they're tilting their head, which feels relaxed.
+
+Counterarguments: Maybe they're lying and using these gestures to seem sincere? But the lack of other signs makes that less likely. Or perhaps they're nervous but not lying, which is different. I should mention that nervousness doesn't equal lying.
+
+Finally, wrap it up by saying it seems truthful based on the cues, but it's not definitive. Keep it humble: "I'd lean towards truthful, but it's hard to say for sure."
+
+Make sure the response flows like a real person talking—no lists, just paragraphs. And no markdown, just plain text. Alright, time to draft that.
+</think>

@@ -1,0 +1,28 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "truth," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess.
+
+First, I need to recall the behavioral cues from the description. The key points are: raising eyebrows (True), mouth closed with awkward pauses (True), and gaze towards interlocutor (True). Other cues like smile, laughter, frowning, etc., are all False. So the person isn't showing typical signs of deception like avoiding eye contact or nervous gestures.
+
+I should think like a human watching this. People often assume liars avoid eye contact, but here the person is maintaining eye contact. That's a counter to the common lie-detector myth. Raising eyebrows could be surprise or emphasis, not necessarily deception. The awkward pauses with mouth closed might indicate they're thinking carefully, which could be honest or nervous. But since they're looking at the person, it might show engagement rather than lying.
+
+I need to consider both sides. If they were lying, why would they maintain eye contact? Usually, liars might look away, so that's suspicious for lying. But the description says "gaze towards interlocutor" is True, so that's consistent with truth-telling. Also, no fidgeting or other nervous signs. The awkward pauses could be because they're recalling details truthfully, not because they're making it up.
+
+Counterarguments: Maybe the awkward pauses are a sign of fabrication. Some people pause when lying to construct a story. But the lack of other cues like blinking or avoiding gaze weakens that. Also, raising eyebrows might be natural, not deceptive. I should mention that.
+
+I have to sound uncertain, not confident. Phrases like "it's hard to say," "could go either way," "I'm not sure." Avoid absolute terms. Make it conversational, like someone thinking out loud.
+
+Check the description again: "Mouth closed (awkward pauses)" is True. So they're not talking, just pausing with mouth shut. That might mean they're hesitating, which could be for truth or lie. But in truth-telling, people hesitate when recalling facts. For lies, they might hesitate to invent details. So it's ambiguous.
+
+Also, no other stress cues: no hands rubbing, no frowning, etc. That's more aligned with truth-telling because liars often show more micro-expressions or fidgeting. But I shouldn't overstate that—some people are good at hiding it.
+
+Structure the response: Start with observations, then weigh the evidence, discuss why it might be truth, why it might be lie, and conclude with uncertainty. Keep it flowing naturally, no lists.
+
+Make sure to tie back to the cues: eye contact, eyebrows, pauses. Emphasize that the absence of typical deception signs is notable, but absence doesn't prove truth.
+
+Finally, the user wants it to seem like I'm deducing the label myself, so I should end with a tentative conclusion that leans towards truth, but with caveats, matching the actual label.
+
+Avoid jargon. Use simple terms: "they're looking right at the person," "seems like they're thinking carefully," etc.
+
+Double-check the description to not miss any cues. All others are False, so focus on the True ones: raising eyebrows, mouth closed with pauses, eye contact.
+
+Now, craft the response to sound human: hesitant, thoughtful, not robotic.
+</think>

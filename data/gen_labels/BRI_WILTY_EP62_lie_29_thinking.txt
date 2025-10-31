@@ -1,0 +1,14 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description that's labeled as "Deception," but I need to pretend I don't see that and reason as if I'm watching the video myself.
+
+Looking at the behavioral data, I notice several key points: the person has frowning eyebrows (True), maintains gaze toward the interlocutor (True), and looks upward (True). But they don't smile, laugh, scowl, or show other typical deception markers like frequent blinking or lip movements. The absence of nervous gestures is interesting - no hand rubbing, no fidgeting, no gaze aversion.
+
+Hmm, this is tricky because most people associate lying with classic signs like avoiding eye contact or fidgeting. But here the person is making consistent eye contact while looking up - which actually might indicate they're trying to appear truthful. The frowning eyebrows could be misinterpreted as nervousness, but it might just be concentration or skepticism about the question.
+
+I should consider counterarguments carefully. Maybe the upward gaze suggests they're constructing a story (which some theories link to deception), but other research says upward gaze can indicate thinking or recalling memories. And that frown... could be genuine concern about the topic, not deception. The lack of other nervous behaviors actually makes deception less likely - if they were lying, they'd probably show more signs.
+
+The user wants me to sound uncertain, like a human making an educated guess. I shouldn't say "definitely lying" or "definitely truthful." I'll mention how common misconceptions about lying cues might mislead me, and how the absence of expected signs makes me question the deception label. I'll emphasize that behavior alone isn't foolproof - maybe they're just naturally calm under pressure.
+
+I need to avoid sounding like I'm listing points. Just weave it into a natural thought process: "At first I thought the frown meant nervousness, but then I noticed they're making steady eye contact..." Yeah, that feels human. And I'll end by acknowledging it's hard to tell without context - that's honest and matches how real people would respond.
+
+Most importantly, I must resist the urge to say "this proves deception" since the data shows no classic signs. The real insight is that deception doesn't always look like what people expect. That's probably what the user wants to demonstrate - the gap between pop psychology and actual behavior analysis.
+</think>

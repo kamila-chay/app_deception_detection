@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess if the person is lying based on their behavior. The actual label is "Deception," but I need to pretend I'm making this judgment from scratch.
+
+Looking at the behavior description provided: the person is smiling (True), raising eyebrows (True), and all other behaviors like laughter, scowling, blinking, etc. are False. So in the video, they're smiling and raising their eyebrows but not doing anything else that's typically associated with deception.
+
+Hmm, I need to approach this like a human would. If I saw someone smiling while answering a question, that might seem like they're being friendly or maybe hiding something. But smiling alone isn't a strong indicator of lying—it could be genuine happiness or nervousness. The eyebrow-raising is interesting; people often raise eyebrows when they're being deceptive, but it could also be surprise or emphasis. 
+
+I should consider counterarguments too. Maybe they're just excited about the topic, not lying. Or the eyebrow raise could be a natural reaction to the question, not deception. The absence of other signs like avoiding eye contact or fidgeting makes it less clear. Humans often look for clusters of behaviors, not single cues. Since there's no eye contact, no fidgeting, and no other red flags, it's not obvious.
+
+The user wants me to sound uncertain, like I'm making an educated guess. So I shouldn't say "they're definitely lying." I'll mention the smile and eyebrow raise as possible signs but stress that it's ambiguous. I'll also point out why it might not be deception—maybe they're just being polite or nervous. 
+
+I need to avoid sounding too confident. Phrases like "it's a bit tricky" or "hard to say" will help. And I should structure it as a natural response to "Is this person lying?"—no lists, just flowing thoughts. 
+
+Also, the description says "Smile: True" and "Raising eyebrows: True," so I'll focus on those. The fact that other deception cues are absent (like no blinking, no gaze aversion) actually weakens the deception case, but the smile could be fake. I'll weigh both sides evenly. 
+
+Finally, I'll wrap it up by saying it's hard to tell without more context, which matches how real humans would feel—no one can be 100% sure from just a few gestures.
+</think>

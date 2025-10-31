@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then write a natural-sounding assessment of whether the person is lying based on their behavior. The actual label is "deception" but I'm supposed to pretend I don't know that.
+
+Looking at the behavior description: the person has frequent blinking (True), gaze towards interlocutor (True), and gaze sideways (True). All other behaviors like smiling, laughing, frowning, etc. are False. So they're blinking a lot, looking at the person they're talking to, and also glancing sideways.
+
+Hmm... I need to reason like a human would. Frequent blinking can be a sign of stress or lying, but it's not definitive - people blink more when they're nervous about many things, not just lying. The sideways gaze is interesting because some people think looking away means lying, but research shows it's not reliable. Actually, looking sideways might just mean they're thinking or distracted, not necessarily deceptive.
+
+The person is maintaining eye contact with the interlocutor (gaze towards interlocutor is True), which is actually a sign people use when they're being truthful - liars often avoid eye contact. But they're also glancing sideways, which might be confusing. Maybe they're trying to look engaged while actually thinking about what to say.
+
+I should consider counterarguments too. Maybe they're just naturally a fast blinker, or maybe they have dry eyes. The sideways glance could be because they're looking at something in the room, not because they're lying. The fact that they're not showing any other classic "lie signs" like fidgeting or avoiding eye contact makes me think it might not be deception.
+
+I need to sound uncertain - not too confident. Like "I'm not sure, but here's what I'm noticing." The user wants it to feel like a real human deduction, not a robot. So I'll say things like "it's hard to tell," "could be," "maybe," etc.
+
+Also avoiding lists - just flowing text. And making sure to mention both sides: the blinking could indicate lying, but it could be nervousness about something else. The eye contact is actually against the lying hypothesis.
+
+I'll structure it as a natural reply to "Is this person lying or telling the truth?" with phrases like "I'm trying to figure this out" to keep it human. And I'll end up leaning slightly toward truth-telling because of the eye contact, but with caveats.
+
+Let me check the behavior list again to be thorough. No smiling, no frowning, no hand movements - just blinking and gaze shifts. That's actually pretty neutral behavior. The frequent blinking is the only red flag, but it's weak.
+
+Okay, I think I've got it. I'll write it like someone who's watching the video and thinking out loud about what they see, with reasonable uncertainty.
+</think>

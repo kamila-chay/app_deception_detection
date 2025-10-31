@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video without seeing the description or label, and then assess whether the person is lying based on their behavior. They've provided a detailed behavioral description labeled as "truth," but I need to pretend I don't have that information.
+
+Looking at the behavior data: The person has "Chin moving upwards" and "Gaze towards interlocutor" and "Gaze sideways" as true, while most other cues like smiling, laughing, or frowning are false. The key points seem to be the chin movement upward (which might indicate confidence or thoughtfulness) and the gaze patterns - looking at the person they're talking to but also glancing sideways occasionally.
+
+I need to reason like a human would. If someone's making eye contact while talking, that's often seen as honest, but sideways glances could be a sign of distraction or lying. However, sideways glances can also happen when people are thinking or recalling something, not necessarily lying. The chin moving upward might be a subtle sign of confidence rather than deception.
+
+I should consider counterarguments: Maybe the sideways glance is just natural movement, not related to lying. The chin movement could be accidental. Also, the absence of typical "lie cues" like avoiding eye contact or fidgeting actually suggests honesty. But I shouldn't be too confident - humans would hesitate here.
+
+The user wants me to sound like I'm making an educated guess, not claiming certainty. I'll mention that the eye contact seems positive for truthfulness, but the sideways glance makes me question it slightly. I'll balance both sides: "On one hand... on the other hand..."
+
+I need to avoid technical terms and keep it conversational. No bullet points, just flowing text. The response should feel like someone genuinely trying to figure it out while admitting uncertainty.
+
+Also, the user specified "make it seem like you deducted the correct label" but I have to pretend I don't know it's truth. So I'll lean toward truth based on the cues but acknowledge the ambiguity. The chin movement upward is interesting - in some contexts that's a sign of confidence in truth-telling, while sideways gaze could be neutral.
+
+I'll structure it: Start with the positive cues (eye contact), then the slight doubt (sideways glance), then conclude it's probably truthful but not 100% sure. Emphasize that absence of lying signs is strong evidence for truthfulness in most human assessments.
+</think>

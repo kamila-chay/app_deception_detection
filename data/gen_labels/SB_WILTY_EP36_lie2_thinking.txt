@@ -1,0 +1,33 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and then assess whether the person is lying based on their behavior. The actual label is "deception," but I have to pretend I don't know that. I need to write a natural-sounding response that shows I'm making an educated guess, not a certainty.
+
+Looking at the description provided: it says the person has "Frowning eyebrows" (True), "Chin moving upwards" (True), "Chin moving downwards" (True), "Gaze towards interlocutor" (True), "Head moving forward" (True), and "Head moving backward" (True). Other behaviors like smiling, laughing, or frequent blinking are all False. 
+
+Hmm, this is interesting. The person is making direct eye contact (gaze towards interlocutor) which is often associated with truth-telling, but they're also frowning and moving their chin up and down - that could be nervousness. The head movements (forward and backward) might indicate internal conflict or trying to process something. 
+
+I should consider both sides. On one hand, direct eye contact usually suggests honesty, so maybe they're telling the truth. But the frowning and chin movements could be signs of stress or deception. I recall from psychology that when people lie, they might avoid eye contact, but some liars actually stare too much to appear truthful. So that direct gaze could be a red herring.
+
+The chin movements are tricky - moving up and down might be nervous habits, but it's not a classic "tell" like lip biting or fidgeting. The head moving forward and back could be expressive, like emphasizing points, which might be natural in conversation. 
+
+I should mention that without context, it's hard to tell. Maybe they're just stressed about the situation, not lying. Or maybe they're rehearsing their story. The description says no other signs like hand movements or awkward pauses, so it's not super obvious. 
+
+I need to sound uncertain - phrases like "it's hard to say," "could be," "might be." Avoid absolute statements. Also, I should include counterarguments: "Some might think the direct gaze means truth, but others could argue it's an attempt to seem convincing." 
+
+Make it sound human - like I'm watching the video and thinking out loud. Not too technical. Maybe start with "I'm not 100% sure..." and end with "it's really ambiguous." 
+
+Check if I'm missing anything: no smiling, no laughter, no lip movements - so no classic deception signs there. But frowning is present. The chin and head movements are the main things. 
+
+Okay, structuring the response: 
+- Start with the direct gaze observation 
+- Note the frowning as a possible red flag 
+- Explain the chin/head movements as ambiguous 
+- Weigh both sides (truth vs lie) 
+- Conclude it's unclear but leaning toward deception because of the frowning? Wait no, I shouldn't lean too much - the user said to avoid sounding confident. So maybe say "it's hard to say" and emphasize the ambiguity. 
+
+Wait, the actual label is deception, but I'm not supposed to know that. So I shouldn't imply I know. Just describe what I see and why it's confusing. 
+
+Also, the user wants it to seem like I'm deducing it myself, so no "as per the description" - just "in the video I see..." 
+
+Double-checking the behaviors: "Chin moving upwards" and "downwards" - that's unusual. Normally we'd expect one or the other, but both true? Might be a sign of anxiety. 
+
+Final thought: I'll write it as a hesitant, thoughtful response that acknowledges the complexity, without claiming certainty. That matches how real people would react to ambiguous video evidence.
+</think>

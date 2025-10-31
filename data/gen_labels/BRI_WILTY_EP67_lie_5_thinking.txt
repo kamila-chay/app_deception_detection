@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the label or description, and then assess whether the person is lying based on their behavior. I need to write a natural-sounding response as if I'm making an educated guess, not claiming certainty.
+
+Looking at the description provided, I see the label is "Deception" but I'm supposed to ignore that. The key behaviors listed are: raised eyebrows (True), gaze down (True), gaze sideways (True), and all other behaviors are False. So the person is raising eyebrows and looking down/sideways, but no smiling, laughing, frowning, or other typical deception cues.
+
+Hmm, I recall that raised eyebrows can sometimes indicate surprise or confusion rather than deception. In deception research, raised eyebrows aren't a strong indicator - it's more about micro-expressions or inconsistent cues. The gaze patterns are interesting: looking down and sideways could mean many things. Some people look down when thinking or being sincere, while others look away when lying. But the description says "gaze down" and "gaze sideways" both true, which might suggest they're avoiding eye contact, but I shouldn't jump to conclusions.
+
+I should consider counterarguments too. Maybe they're just nervous about the situation, not lying. Or perhaps they're uncomfortable with the question, not deceptive. The absence of other cues like blinking or mouth movements makes me think it's not a classic deception pattern. People who lie often have more physical tells, but this seems minimal.
+
+The user wants me to sound uncertain, like a human making a guess. I'll avoid saying "definitely lying" or "clearly truthful." Instead, I'll say things like "it's possible" or "could be" and mention why it might not be deception. I should also acknowledge that without context, it's hard to tell - like, maybe they're just tired or distracted.
+
+For the response structure, I'll start with the observations: raised eyebrows, avoiding eye contact. Then explain why it might be deception (gaze avoidance), then why it might not be (nervousness, thinking). End with "hard to say" to keep it uncertain. Need to make sure it flows naturally like a real person talking, not a robot listing points.
+
+Also, the user emphasized avoiding bullet points, so I'll write it in smooth paragraphs. And since it's a reply to "is this person lying," I'll address that directly but cautiously. 
+
+Let me check if I'm missing anything: the description says "gaze down" and "gaze sideways" both true, so they're not looking at the camera or interlocutor. That's consistent with deception theories where liars avoid eye contact. But I know from psychology that it's not foolproof - some cultures or individuals naturally avoid eye contact. 
+
+I'll make sure my reasoning covers both sides: "It could be deception because... but it could also be...". And emphasize that behavior alone isn't enough without context. 
+
+Finally, I'll keep the tone humble - "I'm not sure, but here's what I'm noticing." That feels human.
+</think>

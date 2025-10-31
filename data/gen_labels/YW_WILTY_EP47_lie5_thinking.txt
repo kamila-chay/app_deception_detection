@@ -1,0 +1,20 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response that shows I'm making an educated guess, not being too confident.
+
+Looking at the behavior description provided (which I shouldn't reference directly in my response), I need to infer what I'd see in the video. The key behaviors are: raising eyebrows, chin moving upwards, gaze towards interlocutor, gaze sideways, head side-turn, head shaking, and no smile/laughter. 
+
+Hmm, the user wants me to avoid sounding certain. So I should present both sides - why it might be lying and why it might not. For deception, raised eyebrows and head shaking could be signs, but they're not definitive. I recall from psychology that raised eyebrows often indicate surprise or skepticism, not necessarily lying. Head shaking is common in disagreement, not always deception. 
+
+The gaze behavior is interesting - looking at the interlocutor (the person they're talking to) and also sideways. That might suggest they're trying to appear engaged but are actually distracted. But sideways gaze can also be normal when thinking, not necessarily lying. 
+
+I should mention the chin movement - moving upwards might look like a slight chin lift, which could be confidence or defensiveness. But without context, it's ambiguous. 
+
+Important to include counterarguments: maybe they're just nervous, or this is a natural reaction to the question. The absence of other classic "lie signs" like frequent blinking or mouth movements makes it less clear. 
+
+I'll structure my response to sound like a real person thinking through it: "I'm not sure, but..." and use phrases like "could be" and "might be" to show uncertainty. Need to avoid listing behaviors since the user said no bullet points. 
+
+Also must remember not to reference the actual label - so no "since the label says deception..." Instead, focus on visual cues only. The challenge is making it sound human while staying accurate to the behaviors described. 
+
+The user seems knowledgeable about deception cues (they provided a detailed behavior list), so my response should show I understand these nuances - like how head shaking alone isn't conclusive, or how gaze direction varies by culture. 
+
+I'll end with "hard to say for sure" to emphasize the uncertainty they want. And keep it conversational - "I'd be hesitant to say they're lying" not "I conclude deception."
+</think>

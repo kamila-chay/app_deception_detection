@@ -1,0 +1,16 @@
+Okay, the user wants me to imagine I'm watching a video clip without seeing the description or label, and I need to assess if the person is lying based on their behavior. The actual label is "deception," but I shouldn't know that. I have to write a natural-sounding response as if I'm making an educated guess, not being too confident.
+
+Looking at the description provided, I see that the behavior includes: raising eyebrows (True), gaze towards interlocutor (True), nodding (True), head tilting (True), head shaking (True), and arms open (True). Other actions like smiling, laughing, frowning, etc., are all False. 
+
+Hmm, I need to think about what these cues might mean in real life. Raising eyebrows often happens when someone is trying to seem sincere or is processing information, but it can also be a sign of deception because liars might overdo it to appear open. Gazing directly at the person they're talking to could be a sign of honesty, but it's not foolproof—some liars practice maintaining eye contact. Nodding and head tilting might indicate engagement or agreement, which could be genuine or feigned. Head shaking is interesting—it's often used to deny something, which might align with lying if they're denying a false statement. Arms open is typically a sign of openness, which people might do when trying to appear truthful.
+
+But I should consider counterarguments too. For example, raising eyebrows could just be a natural reaction to a question, not necessarily deception. Head shaking might be a habitual gesture unrelated to lying. The person could be genuinely nervous about the topic, causing these behaviors, not because they're lying. Also, the absence of classic deception cues like avoiding eye contact, fidgeting, or forced smiles makes it less obvious. 
+
+I need to make sure my response sounds human—hesitant, with phrases like "I'm not entirely sure" or "it's tricky." I shouldn't list points; instead, I'll weave it into a flowing paragraph. The user emphasized avoiding confidence, so I'll use words like "might," "could," "possibly." 
+
+Also, the arms open and gaze towards interlocutor suggest they're trying to appear approachable, which could be a sign of lying (as they're consciously trying to seem honest), but it could also just be their natural posture. Head shaking while denying something might be a red flag, but it's common in conversations to shake head when saying "no," so it might not be deceptive. 
+
+I should balance both sides: the behaviors could indicate deception (raised eyebrows, head shake), but they could also be normal reactions (nods, open arms). The lack of nervous tells like blinking or fidgeting makes it less clear-cut. 
+
+Finally, I'll wrap it up by saying I lean toward deception but acknowledge it's not certain, to keep it realistic. That way, it aligns with how a human would think—uncertain but informed.
+</think>

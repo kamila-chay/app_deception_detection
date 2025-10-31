@@ -1,0 +1,26 @@
+Okay, the user has given me a structured description of someone's behavior in a video, labeled as "truth" based on external information. But I'm supposed to pretend I'm watching the video without seeing that label or description. My task is to write a natural-sounding assessment of whether the person is lying or telling the truth, based on the behavioral cues, and make it seem like I'm making an educated guess with some uncertainty.
+
+Looking at the behavior description provided: The person has raised eyebrows (True), frequent blinking (True), lips protruded (True), gaze towards interlocutor (True), gaze sideways (True), nod (True), head moving backward (True), head tilting (True), head side-turn (True), head shaking (True), arms folded (True). And no smile, laughter, scowl, frowning eyebrows, etc.
+
+I need to interpret these behaviors as a human would when watching a video. Let me think about what these cues might mean. Raised eyebrows and frequent blinking can sometimes indicate stress or deception, but they can also just be nervousness or surprise. Lips protruded often shows skepticism or disagreement. Arms folded is a defensive posture. Head shaking and tilting might indicate disagreement or confusion. Gaze towards interlocutor could mean they're engaged, but gaze sideways might suggest distraction or discomfort. Nodding could be agreement, but combined with head shaking, it's confusing.
+
+I should consider counterarguments too. For example, raised eyebrows and frequent blinking might just be the person's natural way of speaking, not necessarily deception. Arms folded could mean they're just comfortable or thoughtful. Head shaking might be a cultural gesture or just a habit.
+
+The user wants me to sound uncertain, like I'm deducing this from the video without the label. So I'll avoid absolute statements. I'll say things like "it's possible" or "could be interpreted as" instead of "definitely." I need to make it sound like a real person thinking through this.
+
+I recall that in deception detection, there's no single "tell" that proves lying. People have individual differences, and context matters. The fact that they're maintaining eye contact (gaze towards interlocutor) might suggest honesty, but the sideways gaze complicates that. The head shaking while nodding is particularly confusing—it could be a sign of mixed signals.
+
+Also, the arms folded and lips protruded together might indicate they're not fully buying what they're saying, but again, that's not definitive. Maybe they're just tired or distracted.
+
+I should structure my response to start with observations, then weigh the possibilities, mention the counterarguments, and end with a tentative conclusion. Keep it conversational, like I'm talking to a friend.
+
+Let me check the key behaviors again: raised eyebrows (could be surprise or stress), frequent blinking (nervousness), lips protruded (skepticism), arms folded (defensive), head shaking (disagreement), head tilting (confusion), and gaze sideways (distraction). But they're nodding, which is confusing because nodding usually means agreement.
+
+The contradiction between nodding and head shaking is interesting. Maybe they're nodding to be polite while shaking their head to disagree internally. That could be a sign of deception, but it's not clear-cut.
+
+I'll craft a response that acknowledges the confusion, presents both sides, and leans slightly toward truth because the gaze towards interlocutor and nodting might indicate engagement, but I'll emphasize the uncertainty.
+
+Make sure not to use any markdown, just plain text. And keep it natural, like a human reply. Avoid phrases like "according to the data" since I'm supposed to be watching the video, not reading a report.
+
+Finally, I'll wrap it up by saying it's hard to tell for sure, but based on the mix of cues, I'm leaning toward truth because the defensive postures might just be nervousness rather than deception. But I'll stress that it's not definitive.
+</think>
