@@ -56,10 +56,6 @@ traits_dict_example = {
 }
 
 for i, row in df.iterrows():
-    if i < 72:
-        continue
-    if i == 500:
-        break
     print(f"Row {i}")
     traits_dict = copy.deepcopy(traits_dict_example)
     for key in traits_dict:
