@@ -11,7 +11,7 @@ logging.set_verbosity_error()
 from peft import PeftModel
 import os
 
-DEFAULT_BATCH_SIZE = 36
+DEFAULT_BATCH_SIZE = 8
 
 timestamp = "2025-11-01_01-36"
 dir_path = Path(f"out/{timestamp}")
@@ -41,7 +41,7 @@ for split_id in range(1, 2):
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
         model = PeftModel.from_pretrained(base, f"out/{timestamp}/model_split{split_id}_epoch{epoch}")
-        model.to("cuda:0").eval()
+        model = model.to("cuda:0").eval()
         all_scores = []
         with torch.inference_mode():
             for X, Y in val_dataloader:
