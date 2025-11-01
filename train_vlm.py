@@ -19,7 +19,7 @@ from math import ceil
 from peft import PeftModel
 import os
 
-DEFAULT_BATCH_SIZE = 48
+DEFAULT_BATCH_SIZE = 36
 GRAD_ACCU_STEPS = 12 ## change here depending on the devices available
 
 DS_CONFIG = {
@@ -75,7 +75,7 @@ for split_id in range(1, 4):
             param.requires_grad = False
 
     
-    train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("data/video"))
+    train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
     train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size(), rank=get_rank())
     train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
                                   sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
