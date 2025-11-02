@@ -66,8 +66,6 @@ for split_id in range(1, 4):
                                                             ignore_mismatched_sizes=True)
     
     train_dataset = DolosClassificationDataset(f"data/train_fold{split_id}.csv", "data/video", processor)
-    train_sampler = DistributedSampler(train_dataset, get_world_size(), get_rank())
-    train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE // get_world_size() // GRAD_ACCU_STEPS, sampler=train_sampler)
 
     lora_model = get_peft_model(model, lora_config)
     lora_model.base_model.model.classifier.weight.requires_grad = True
@@ -88,6 +86,9 @@ for split_id in range(1, 4):
         scheduler=scheduler,
         config=ds_config
     )
+    
+    train_sampler = DistributedSampler(train_dataset, get_world_size(), get_rank())
+    train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE // get_world_size() // GRAD_ACCU_STEPS, sampler=train_sampler)
 
     model_engine.train()
 
