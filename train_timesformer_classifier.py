@@ -83,10 +83,10 @@ for split_id in range(1, 4):
     model_engine, optimizer, _, _ = deepspeed.initialize(
         model=lora_model,
         optimizer=optimizer,
-        scheduler=scheduler,
+        lr_scheduler=scheduler,
         config=ds_config
     )
-    
+
     train_sampler = DistributedSampler(train_dataset, get_world_size(), get_rank())
     train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE // get_world_size() // GRAD_ACCU_STEPS, sampler=train_sampler)
 
