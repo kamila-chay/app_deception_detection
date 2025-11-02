@@ -20,7 +20,7 @@ EPOCHS = 30
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 out_dir = Path(f"out/{timestamp}")
-out_dir.mkdir()
+out_dir.mkdir(parents=True, exist_ok=True)
 
 lora_config = LoraConfig(
     r=8,
