@@ -8,12 +8,19 @@ from peft import get_peft_model, LoraConfig, TaskType
 from dataset_dolos import DolosClassificationDataset
 from utils import set_seed
 from torch.distributed import get_world_size, get_rank
+from math import ceil
+from datetime import datetime
+from pathlib import Path
 
 set_seed(42)
 
-BATCH_SIZE = 64
+BATCH_SIZE = 72
 GRAD_ACCU_STEPS = 4
 EPOCHS = 30
+
+timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
+out_dir = Path(f"out/{timestamp}")
+out_dir.mkdir()
 
 lora_config = LoraConfig(
     r=8,
@@ -26,7 +33,7 @@ lora_config = LoraConfig(
 
 ds_config = {
     "train_batch_size": BATCH_SIZE,
-    "gradient_accumulation_steps": 2,
+    "gradient_accumulation_steps": GRAD_ACCU_STEPS,
     "zero_optimization": {
         "stage": 3,
         "offload_optimizer": {
@@ -41,31 +48,26 @@ ds_config = {
     "fp16": {
         "enabled": False
     },
+    "bf16": {
+        "enabled": True
+    },
     "activation_checkpointing": {
         "partition_activations": True,
         "contiguous_memory_optimization": True
-    },
-    "optimizer": {
-        "type": "DeepSpeedCPUAdam",
-        "params": {
-            "lr": 5e-5
-        }
     }
 }
 
-
-
 for split_id in range(1, 4):
-
+    print(f"Split {split_id}")
     processor = AutoImageProcessor.from_pretrained("facebook/timesformer-base-finetuned-k600")
     config = TimesformerConfig()
     config.num_labels = 2
     model = TimesformerForVideoClassification.from_pretrained("facebook/timesformer-base-finetuned-k600", config=config, 
                                                             ignore_mismatched_sizes=True)
     
-    train_dolos_dataset = DolosClassificationDataset(f"data/train_fold{split_id}.csv", "data/video", processor)
-    train_sampler = DistributedSampler(train_dolos_dataset, get_world_size(), get_rank())
-    train_dataloader = DataLoader(train_dolos_dataset, batch_size=BATCH_SIZE // get_world_size() // GRAD_ACCU_STEPS, sampler=train_sampler)
+    train_dataset = DolosClassificationDataset(f"data/train_fold{split_id}.csv", "data/video", processor)
+    train_sampler = DistributedSampler(train_dataset, get_world_size(), get_rank())
+    train_dataloader = DataLoader(train_dataset, batch_size=BATCH_SIZE // get_world_size() // GRAD_ACCU_STEPS, sampler=train_sampler)
 
     lora_model = get_peft_model(model, lora_config)
     lora_model.base_model.model.classifier.weight.requires_grad = True
@@ -75,14 +77,15 @@ for split_id in range(1, 4):
         if param.requires_grad:
             print(name)
 
-    total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
+    total_steps = ceil(len(train_dataset) / BATCH_SIZE) * EPOCHS
     warmup_steps = int(0.1 * total_steps)
-    optimizer = DeepSpeedCPUAdam(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4)
+    optimizer = DeepSpeedCPUAdam(filter(lambda p: p.requires_grad, lora_model.parameters()), lr=2e-4)
     scheduler = WarmupCosineLR(optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps)
 
     model_engine, optimizer, _, _ = deepspeed.initialize(
         model=lora_model,
         optimizer=optimizer,
+        scheduler=scheduler,
         config=ds_config
     )
 
@@ -90,16 +93,16 @@ for split_id in range(1, 4):
 
     for epoch in range(EPOCHS):
         print(f"Epoch {epoch + 1}")
-        with torch.enable_grad():
-            for batch_x, batch_y in train_dataloader:
-                batch_x = batch_x.to(model_engine.device)
-                batch_y = batch_y.to(model_engine.device)
-                output = model_engine(pixel_values=batch_x, labels=batch_y)
-                model_engine.backward(output.loss)
+        train_sampler.set_epoch(epoch)
+        for batch_x, batch_y in train_dataloader:
+            batch_x = batch_x.to(model_engine.device)
+            batch_y = batch_y.to(model_engine.device)
 
-                model_engine.step()
+            output = model_engine(pixel_values=batch_x, labels=batch_y)
+            model_engine.backward(output.loss)
+            model_engine.step()
 
-        save_path_lora = f"./lora_timesformer_split{split_id}_epoch{epoch}"
-        save_path = f"./timesformer_split{split_id}_epoch{epoch}"
+        save_path_lora = f"out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
+        save_path = f"out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
         lora_model.save_pretrained(save_path_lora) 
         torch.save(lora_model.base_model.model.classifier.state_dict(), save_path)
