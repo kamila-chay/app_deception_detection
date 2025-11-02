@@ -76,7 +76,7 @@ class DolosClassificationDataset(Dataset):
         video = sample_frames_uniformly(os.path.join(self.directory, name + ".mp4"))
         video = self.transform(video, return_tensors="pt")
         def map_label(label):
-            label = label.lower.strip()
+            label = label.lower().strip()
             if label == "deception" or label == "lie":
                 return 0
             elif label == "truth":
