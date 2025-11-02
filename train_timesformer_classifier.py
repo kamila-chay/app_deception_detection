@@ -96,7 +96,7 @@ for split_id in range(1, 4):
         print(f"Epoch {epoch + 1}")
         train_sampler.set_epoch(epoch)
         for batch_x, batch_y in train_dataloader:
-            batch_x = batch_x.to(model_engine.device).to(model_engine.dtype)
+            batch_x = batch_x.to(model_engine.device).to(torch.bfloat16)
             batch_y = batch_y.to(model_engine.device)
 
             output = model_engine(pixel_values=batch_x, labels=batch_y)
