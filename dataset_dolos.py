@@ -3,6 +3,7 @@ import pandas as pd
 from utils import sample_frames_uniformly
 import os
 from torch.distributed import get_rank
+import torch
 
 def create_conv_template(video_path, completion=""):
     return [
@@ -78,9 +79,9 @@ class DolosClassificationDataset(Dataset):
         def map_label(label):
             label = label.lower().strip()
             if label == "deception" or label == "lie":
-                return 0
+                return torch.tensor(0, dtype=torch.long)
             elif label == "truth":
-                return 1
+                return torch.tensor(1, dtype=torch.long)
             else:
                 raise ValueError(f"Invalid label: {label}")
         return video["pixel_values"][0], map_label(label)
