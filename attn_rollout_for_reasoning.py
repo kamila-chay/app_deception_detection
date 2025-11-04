@@ -41,6 +41,8 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
 
     for (pixel_values, labels), name in test_dataset:
         pixel_values = pixel_values.to(lora_model.device).to(torch.bfloat16)
+        if pixel_values.ndim == 4:
+            pixel_values = pixel_values.unsqueeze(0)
         labels = labels.to(lora_model.device)
 
         with torch.inference_mode():
@@ -68,7 +70,7 @@ Certain regions are highlighted in **yellow**, **red**, and **black**, represent
 - **Red** – somewhat important  
 - **Black** – unimportant  
 
-Focus **only** on patches located on the **face and body** of the person.  
+Focus **only** on patches located on the **face and body** of the person. Don't focus on ears or hair/clothing.
 
 Write a **short, objective summary** describing **where and when** the model focused its attention across the frames.
 - Compare different timestamps (e.g., “At the beginning… later… toward the end…”. Don't number frames. ).  
