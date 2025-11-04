@@ -64,6 +64,7 @@ class DolosClassificationDataset(Dataset):
         self.data = pd.read_csv(csv_file)
         self.directory = directory
         self.transform = transform
+        self.curr_iter_idx = -1
 
     def __len__(self):
         return len(self.data)
@@ -83,3 +84,13 @@ class DolosClassificationDataset(Dataset):
             else:
                 raise ValueError(f"Invalid label: {label}")
         return video["pixel_values"][0], map_label(label)
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.curr_iter_idx == len(self) - 1:
+            self.curr_iter_idx = -1
+            raise StopIteration
+        self.curr_iter_idx += 1
+        return self[self.curr_iter_idx], self.data.iloc[self.curr_iter_idx, 0]

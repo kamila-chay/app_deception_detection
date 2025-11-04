@@ -39,7 +39,7 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
     lora_model = lora_model.to("cuda").to(torch.bfloat16)
     lora_model.eval()
 
-    for pixel_values, labels, name in test_dataset:
+    for (pixel_values, labels), name in test_dataset:
         pixel_values = pixel_values.to(lora_model.device).to(torch.bfloat16)
         labels = labels.to(lora_model.device)
 
