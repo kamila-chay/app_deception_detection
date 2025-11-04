@@ -7,11 +7,14 @@ from utils import set_seed
 import matplotlib.pyplot as plt
 from utils import overlay_attention, roll_out_attn_map
 from transformers import pipeline
+from pathlib import Path
 
 set_seed(42)
 
 BATCH_SIZE = 1
 EPOCHS = 20
+
+Path("data/attn_rollout_based_reasoning").mkdir(parents=True, exist_ok=True)
 
 timestamp = "2025-11-03_00-45"
 
@@ -36,7 +39,7 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
     lora_model = lora_model.to("cuda").to(torch.bfloat16)
     lora_model.eval()
 
-    for pixel_values, labels in test_dataloader:
+    for pixel_values, labels, name in test_dataset:
         pixel_values = pixel_values.to(lora_model.device).to(torch.bfloat16)
         labels = labels.to(lora_model.device)
 
@@ -68,9 +71,8 @@ Certain regions are highlighted in **yellow**, **red**, and **black**, represent
 Focus **only** on patches located on the **face and body** of the person.  
 
 Write a **short, objective summary** describing **where and when** the model focused its attention across the frames.
-- Compare different timestamps (e.g., “At the beginning… later… toward the end…”).  
-- Use **specific cues** (e.g., “around the mouth,” “on the right cheek,” “near the hands”) rather than generic terms like “facial area” or “body region.”  
-- Don’t explain why — just describe what you see.  
+- Compare different timestamps (e.g., “At the beginning… later… toward the end…”. Don't number frames. ).  
+- Use **specific cues** rather than generic terms like “facial area” or “body region.”  
 - Output **only** the summary, no extra text.  
 
 **Example summary:**  
@@ -80,9 +82,10 @@ Write a **short, objective summary** describing **where and when** the model foc
                 },
             ]
 
-            out = pipe(text=messages, max_new_tokens=100)
-            print(out[0]["generated_text"][1]["content"])
+            out = pipe(text=messages, max_new_tokens=100)[0]["generated_text"][1]["content"]
+            print(out)
             print("==================")
-
+            with open(f"data/attn_rollout_based_reasoning/{name}.txt", "w") as f:
+                f.write(out)
         else:
             print("NONE===========")
