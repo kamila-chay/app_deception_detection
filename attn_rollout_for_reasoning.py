@@ -65,7 +65,7 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
             ]
 
             out = pipe(text=messages, max_new_tokens=50)
-            print(out.split("classfication model in the output.")[1])
+            print(out[0]["generated_text"][1]["content"].split("classfication model in the output.")[1])
             print("==================")
 
         else:
