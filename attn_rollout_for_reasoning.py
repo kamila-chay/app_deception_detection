@@ -14,7 +14,7 @@ set_seed(42)
 BATCH_SIZE = 1
 EPOCHS = 20
 
-Path("data/attn_rollout_based_reasoning").mkdir(parents=True, exist_ok=True)
+Path("data/attn_rollout_based_reasoning/heatmaps").mkdir(parents=True, exist_ok=True)
 
 timestamp = "2025-11-03_00-45"
 
@@ -54,7 +54,7 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
         for i, ax in enumerate(axes.flat):
             ax.imshow(overlay_attention(attn_map, pixel_values[:, 1::2], processor, i))
             ax.axis('off')
-        plt.savefig("last_overlays.png")
+        plt.savefig(f"data/attn_rollout_based_reasoning/heatmaps/{name}.png")
 
         pred = torch.argmax(output.logits, dim=-1)
         del output, attn_map
@@ -63,14 +63,14 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
                 {
                 "role": "user",
                 "content": [
-                    {"type": "image", "url": "./last_overlays.png"},
+                    {"type": "image", "url": f"data/attn_rollout_based_reasoning/heatmaps/{name}.png"},
                     {"type": "text", "text": """You are given consecutive frames from a video.  
 Certain regions are highlighted in **yellow**, **red**, and **black**, representing:
 - **Yellow** – very important for the model’s decision  
 - **Red** – somewhat important  
 - **Black** – unimportant  
 
-Focus **only** on patches located on the **face and body** of the person. Don't focus on ears or hair/clothing.
+Focus **only** on patches located on the **face and body** of the person. Avoid focusing on ears or hair/clothing.
 
 Write a **short, objective summary** describing **where and when** the model focused its attention across the frames.
 - Compare different timestamps (e.g., “At the beginning… later… toward the end…”. Don't number frames. ).  
