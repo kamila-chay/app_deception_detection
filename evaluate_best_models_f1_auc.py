@@ -54,7 +54,7 @@ for split_id, epoch in ((1, 16), (2, 12), (3, 12)):
         all_labels.append(labels)
     
     all_preds = torch.cat(all_preds, 0).cpu().numpy()
-    all_probs = torch.cat(all_probs, 0).cpu().numpy()
+    all_probs = torch.cat(all_probs, 0).to(torch.float32).cpu().numpy()
     all_labels = torch.cat(all_labels, 0).cpu().numpy()
 
     fpr, tpr, thresholds = roc_curve(all_labels, all_probs)
