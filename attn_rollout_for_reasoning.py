@@ -59,13 +59,14 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
                 "role": "user",
                 "content": [
                     {"type": "image", "url": "./last_overlays.png"},
-                    {"type": "text", "text": "In the image you can see consecutive frames from a video. Patches marked in yellow indicate that a machine learning model deemed them very important for a classification task. Red means they're somewhat important, black means not important. We know that the classification task pertained to human behavioral analysis so we can safely ignore any patches that are marked as important but located in the background etc. Please write a short summary about possible cues the classification model used. Those can differ between frames, e.g can be the same at the beginning and in the middle but differ at the end. An example summary would be \"At the begining some possible cues are visible around the right eybrow. In the middle and at the end of the recording there are some signs around the mouth and nose of the subject.\" Output the summary only, stick to what you see."},
+                    {"type": "text", "text": "In the image you can see consecutive frames from a video. Patches marked in yellow indicate that a machine learning model deemed them very important for a classification task. Red means they're somewhat important, black means not important. We know that the classification task pertained to human behavioral analysis so we can safely ignore any patches that are marked as important but located in the background etc. Please write a short summary about possible cues the classification model used. Those can differ between frames, e.g can be the same at the beginning and in the middle but differ at the end. An example summary would be \"At the begining some possible cues are visible around the right eybrow. In the middle and at the end of the recording there are some signs around the mouth and nose of the subject.\" Output the summary only, stick to what you see. Make the cues as specific as you can by looking at the images, avoid generic explanations like \"there are some cues on the face\" - instead talk about the nose or the mouth or a specific eye etc. Don't mention the classfication model in the output."},
                     ],
                 },
             ]
 
             out = pipe(text=messages, max_new_tokens=50)
-            print(out)
+            print(out.split("classfication model in the output.")[1])
+            print("==================")
 
         else:
-            print("NONE ========")
+            print("NONE===========")
