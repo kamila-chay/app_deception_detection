@@ -59,12 +59,28 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
                 "role": "user",
                 "content": [
                     {"type": "image", "url": "./last_overlays.png"},
-                    {"type": "text", "text": "In the image you can see consecutive frames from a video. Patches marked in yellow indicate that a machine learning model deemed them very important for a classification task. Red means they're somewhat important, black means not important. We know that the classification task pertained to human behavioral analysis so we can safely ignore any patches that are marked as important but located in the background etc. Please write a short summary about possible cues the classification model used. Those can differ between frames, e.g can be the same at the beginning and in the middle but differ at the end. An example summary would be \"At the begining some possible cues are visible around the right eybrow. In the middle and at the end of the recording there are some signs around the mouth and nose of the subject.\" Output the summary only, stick to what you see. Make the cues as specific as you can by looking at the images, avoid generic explanations."},
+                    {"type": "text", "text": """You are given consecutive frames from a video.  
+Certain regions are highlighted in **yellow**, **red**, and **black**, representing:
+- **Yellow** – very important for the model’s decision  
+- **Red** – somewhat important  
+- **Black** – unimportant  
+
+Focus **only** on patches located on the **face and body** of the person.  
+
+Write a **short, objective summary** describing **where and when** the model focused its attention across the frames.
+- Compare different timestamps (e.g., “At the beginning… later… toward the end…”).  
+- Use **specific cues** (e.g., “around the mouth,” “on the right cheek,” “near the hands”) rather than generic terms like “facial area” or “body region.”  
+- Don’t explain why — just describe what you see.  
+- Output **only** the summary, no extra text.  
+
+**Example summary:**  
+“At the beginning, attention is concentrated around the right eyebrow. In the middle and later frames, the model focuses more on the mouth and nose area.”"""
+                        },
                     ],
                 },
             ]
 
-            out = pipe(text=messages, max_new_tokens=50)
+            out = pipe(text=messages, max_new_tokens=100)
             print(out[0]["generated_text"][1]["content"])
             print("==================")
 
