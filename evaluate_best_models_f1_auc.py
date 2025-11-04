@@ -47,7 +47,7 @@ for split_id, epoch in ((1, 16), (2, 12), (3, 12)):
             output = lora_model(pixel_values=pixel_values)
             
         preds = torch.argmax(output.logits, dim=-1)
-        probs = torch.softmax(output.logits, dim=-1)[labels]
+        probs = torch.softmax(output.logits, dim=-1)[:, 1]
 
         all_preds.append(preds)
         all_probs.append(probs)
