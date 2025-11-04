@@ -69,7 +69,6 @@ class DolosClassificationDataset(Dataset):
         return len(self.data)
 
     def __getitem__(self, idx):
-        print(f"[Rank {get_rank}]: {idx}")
         row = self.data.iloc[idx]
         name = row[0]
         label = row[1]
