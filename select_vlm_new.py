@@ -79,7 +79,7 @@ for split_id in range(1, 2):
             )
         
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                full_prompt = prompt_1 + pred[0] + prompt_2 + ref[0]
+                full_prompt = prompt_1 + pred + prompt_2 + ref
                 print(full_prompt)
                 print("--------------")
                 response = client.responses.create(
