@@ -47,8 +47,8 @@ for split_id in range(1, 2):
         all_label_scores_per_epoch = []
         all_cue_scores_per_epoch = []
         for i, (X, Y) in enumerate(train_dataloader):
-            if i == 10:
-                break
+            if i % 10 != 0:
+                continue
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
