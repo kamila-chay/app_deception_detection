@@ -59,7 +59,7 @@ for split_id, epoch in ((1, 16), (2, 12), (3, 12)):
 
     fpr, tpr, thresholds = roc_curve(all_labels, all_probs)
     roc_auc = auc(fpr, tpr)
-    f1 = f1_score(all_labels, all_preds)
+    f1 = f1_score(all_labels, all_preds, pos_label=0)
 
     print(f"F1: {f1}")
     print(f"AUC: {roc_auc}")
