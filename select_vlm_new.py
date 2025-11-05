@@ -7,8 +7,11 @@ import json
 from transformers import logging
 logging.set_verbosity_error()
 from peft import PeftModel
+from rouge_score import rouge_scorer
+import numpy as np
+from openai import OpenAI
 
-DEFAULT_BATCH_SIZE = 8
+DEFAULT_BATCH_SIZE = 2
 
 timestamp = "2025-11-05_13-36"
 
@@ -18,18 +21,31 @@ NUM_EPOCHS = 10
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 base = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16)
 
-for split_id in range(1, 4):
+scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
+client = OpenAI()
+
+prompt_1 = "Please read 2 texts describing human behavior. Output two scores based on them. The first one should be 1 if the texts agree on whether the person is lying or telling the truth. Please consider the main conclusion of each text, they will include various counterarguments but focus only on the final/dominating direction. Otherwise, if the texts disagree, output 0. Then rate how different behavioral cues are described and reasoned about. Check how much semantic overlap there is between those 2 texts in the context of those cues. The result should be in range 0.0(no overlap) through 0.1, 0.2 etc. to 1.0 (perfect overlap). Be strict. Only output those two numbers, starting from 0 or 1 and then a number in the range 0.0-1.0.\n\nText 1:\n"
+
+prompt_2 = "\n\nText 2:\n"
+
+for split_id in range(1, 2):
     print(f"Split id: {split_id}")
     
     val_dataset = DolosDataset(f"data/val_fold{split_id}.csv", Path("./data"))
     val_dataloader = DataLoader(val_dataset, DEFAULT_BATCH_SIZE, shuffle=False, 
                                 collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
     
+    all_rouge_scores = []
+    all_label_scores = []
+    all_cue_scores = []
+    
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
         model = PeftModel.from_pretrained(base, f"out/{timestamp}/model_split{split_id}_epoch{epoch}")
         model = model.to("cuda:0").eval()
-        all_scores = []
+        all_rouge_scores_per_epoch = []
+        all_label_scores_per_epoch = []
+        all_cue_scores_per_epoch = []
         for X, Y in val_dataloader:
             X = processor.apply_chat_template(
                 X,
@@ -61,16 +77,35 @@ for split_id in range(1, 4):
             expected_text_trimmed = processor.batch_decode(
                 expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
             )
-
-            print(generated_text_trimmed)
-            print("------------------------------Now expected: ")
-            print(expected_text_trimmed)
-            print("------------------------")
         
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                
-                all_scores.append(1)
-        with open(f"out/{timestamp}/model_split{split_id}_info.json", "w") as f:
-            json.dump({"best_epoch": epoch, 
-                    "val_score": all_scores}, # to change 
-                    f)
+                full_prompt = prompt_1 + pred[0] + prompt_2 + ref[0]
+                print(full_prompt)
+                print("--------------")
+                response = client.responses.create(
+                    model="gpt-4.1-mini",
+                    input=full_prompt
+                ).output_text
+                print(response)
+                print("---------------")
+                try:
+                    label_score, cue_score = map(float, response.split())
+                except:
+                    label_score = 0
+                    cue_score = 0
+                    print(f"WARNING: incorrect response formatting: {response}")
+                all_label_scores_per_epoch.append(label_score)
+                all_cue_scores_per_epoch.append(cue_score)
+
+                rouge_score = scorer.score(ref, pred)
+                all_rouge_scores_per_epoch.append(np.mean([rouge_score["rouge1"].fmeasure, rouge_score["rouge2"].fmeasure, 
+                                                           rouge_score["rougeL"].fmeasure]))
+
+        all_rouge_scores.append(np.mean(all_rouge_scores_per_epoch))
+        all_label_scores.append(np.mean(all_label_scores_per_epoch))
+        all_cue_scores.append(np.mean(all_cue_scores_per_epoch))
+
+    with open(f"out/{timestamp}/model_split{split_id}_validation_only_info.json", "w") as f:
+        json.dump({"rouge_scores": all_rouge_scores,
+                   "label_scores": all_label_scores,
+                   "cue_scores": all_cue_scores}, f)
