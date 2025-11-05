@@ -19,6 +19,7 @@ from math import ceil
 from peft import PeftModel
 import os
 import matplotlib.pyplot as plt
+# finetuning only the language model + checking training loss + picking the best model using OpenAI API instead of ROUGE (in another script)
 
 DEFAULT_BATCH_SIZE = 24
 GRAD_ACCU_STEPS = 12 ## change here depending on the devices available
