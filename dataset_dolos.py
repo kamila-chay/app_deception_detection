@@ -2,7 +2,6 @@ from torch.utils.data import Dataset
 import pandas as pd
 from utils import sample_frames_uniformly
 import os
-from torch.distributed import get_rank
 import torch
 
 def create_conv_template(video_path, completion=""):
