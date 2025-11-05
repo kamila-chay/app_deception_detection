@@ -80,14 +80,10 @@ for split_id in range(1, 2):
         
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
                 full_prompt = prompt_1 + pred + prompt_2 + ref
-                print(full_prompt)
-                print("--------------")
                 response = client.responses.create(
                     model="gpt-4.1-mini",
                     input=full_prompt
                 ).output_text
-                print(response)
-                print("---------------")
                 try:
                     label_score, cue_score = map(float, response.split())
                 except:
@@ -104,6 +100,9 @@ for split_id in range(1, 2):
         all_rouge_scores.append(np.mean(all_rouge_scores_per_epoch))
         all_label_scores.append(np.mean(all_label_scores_per_epoch))
         all_cue_scores.append(np.mean(all_cue_scores_per_epoch))
+        print(all_rouge_scores)
+        print(all_label_scores)
+        print(all_cue_scores)
 
     with open(f"out/{timestamp}/model_split{split_id}_validation_only_info.json", "w") as f:
         json.dump({"rouge_scores": all_rouge_scores,
