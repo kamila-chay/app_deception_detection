@@ -71,8 +71,7 @@ for split_id in range(1, 4):
 
     for name, param in model.named_parameters():
         if "lora" not in name:
-            param.requires_grad_ = False
-            param.requires_grad = False
+            param.requires_grad_(False)
         else:
             print(name) ## check if only the language model is trained
 
