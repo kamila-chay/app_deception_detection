@@ -125,6 +125,8 @@ for split_id in range(1, 2): # change!
                 return_tensors="pt",
                 padding=True
             )
+
+            print(X.keys())
             generated_ids = model_engine.module.generate(
                                          **X, 
                                          max_new_tokens=1000, 
@@ -133,7 +135,7 @@ for split_id in range(1, 2): # change!
                                          num_return_sequences=8)
             
             print(f"[Rank {get_rank()}]: generated ids are of shape {generated_ids.shape}")
-            print(f"Size of input_ids: {X["input_ids"].size(1)}")
+            print(f"Size of input_ids: {X['input_ids'].size(1)}")
 
             generated_ids_trimmed = generated_ids[:, X["input_ids"].size(1):]
             generated_text_trimmed = processor.batch_decode(
@@ -142,6 +144,8 @@ for split_id in range(1, 2): # change!
             
             print(f"[Rank {get_rank()}: {repr(generated_ids_trimmed)}")
             print(f"[Rank {get_rank()}: {repr(generated_text_trimmed)}")
+
+
             
             logits = model_engine(input_ids=generated_ids, pixel_values=X["pixel_values"]).logits[:, X["input_ids"].size(1)-1:-1, :] 
             print(f"[Rank {get_rank()}]: trimmed logits' shape = {logits.shape}")
