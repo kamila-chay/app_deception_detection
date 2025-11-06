@@ -23,7 +23,7 @@ import torch.functional as F
 # finetuning only the language model + checking training loss + using MRT from epoch 5
 
 DEFAULT_BATCH_SIZE = 2 # cus we have 8 outputs per input
-GRAD_ACCU_STEPS = 1
+GRAD_ACCU_STEPS = 2
 
 DS_CONFIG = {
     "train_batch_size": DEFAULT_BATCH_SIZE, # (samples in microbatch) x (acc steps) x (devices)
@@ -65,7 +65,7 @@ prompt_2 = "\n\nText 2:\n"
 for split_id in range(1, 2): # change!
     print(f"Split id: {split_id}")
     model = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, dtype=torch.bfloat16).to("cuda")
-    # model = PeftModel.from_pretrained(model, f"out/{prev_timestamp}/model_split{split_id}_epoch4")
+    model = PeftModel.from_pretrained(model, f"out/{prev_timestamp}/model_split{split_id}_epoch4")
 
     for name, param in model.named_parameters():
         if "lora" not in name:
