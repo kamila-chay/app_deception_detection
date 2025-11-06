@@ -108,7 +108,7 @@ for split_id in range(1, 2): # change!
             print(f"[Rank: {repr(generated_ids_trimmed)}")
             print(f"[Rank: {repr(generated_text_trimmed)}")
 
-            attention_mask = (generated_ids == processor.tokenizer.padding_token_id).to(torch.long).to("cuda")
+            attention_mask = (generated_ids == processor.tokenizer.pad_token_id).to(torch.long).to("cuda")
             print(attention_mask)
             with torch.enable_grad():
                 output = model(input_ids=generated_ids, pixel_values_videos=X["pixel_values_videos"], attention_mask=attention_mask)
