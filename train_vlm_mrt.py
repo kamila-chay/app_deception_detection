@@ -16,7 +16,7 @@ from math import ceil
 from peft import PeftModel
 import os
 import matplotlib.pyplot as plt
-import torch.functional as F
+import torch.nn.functional as F
 # finetuning only the language model + checking training loss + using MRT from epoch 5
 
 DEFAULT_BATCH_SIZE = 2 # cus we have 8 outputs per input
@@ -119,9 +119,12 @@ for split_id in range(1, 2): # change!
             # how should it be shifted? we should probably pass in pixel values, also probably a mask
 
             log_probs = F.log_softmax(logits, dim=-1)
-            # token_log_probs = log_probs.gather(
-            #     -1, generated_ids[:, 1:].unsqueeze(-1)
-            # ).squeeze(-1)
+            token_log_probs = log_probs.gather(
+                -1, generated_ids_trimmed.unsqueeze(-1)
+            ).squeeze(-1) # what is happening to padding here?
+
+            print(token_log_probs)
+            print(token_log_probs.shape)
 
             # probs_alpha = token_log_probs.exp() ** 0.1
             # q = probs_alpha / probs_alpha.sum()
