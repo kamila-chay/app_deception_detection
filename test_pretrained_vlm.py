@@ -4,7 +4,7 @@ from dataset_dolos import DolosDataset
 from pathlib import Path
 from torch.utils.data import DataLoader
 
-MODEL_PATH = "llava-hf/llava-1.5-7b-hf"
+MODEL_PATH = "facebook/Perception-LM-1B"
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 model = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, dtype=torch.bfloat16).to("cuda")
 
@@ -25,7 +25,13 @@ for x, y in train_dataloader:
     )
 
     inputs = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) for k, v in inputs.items()}
-    generated_ids = model.generate(**inputs, max_new_tokens=1000, do_sample=False)
+    with torch.inference_mode():
+        generated_ids = model.generate(**inputs, 
+                                       max_new_tokens=1000, 
+                                       do_sample=True, 
+                                       top_k=10,
+                                       num_return_sequences=10)
+        
     generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1]:]
     generated_text_trimmed = processor.batch_decode(
         generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
@@ -33,3 +39,4 @@ for x, y in train_dataloader:
 
     for text in generated_text_trimmed:
         print(text)
+    break
