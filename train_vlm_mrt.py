@@ -9,12 +9,9 @@ import numpy as np
 import json
 from transformers import logging
 logging.set_verbosity_error()
-import deepspeed
-from deepspeed.ops.adam import DeepSpeedCPUAdam
-from deepspeed.runtime.lr_schedules import WarmupCosineLR
-from torch.distributed import get_rank, barrier
+from torch.optim import AdamW
+from torch.optim.lr_scheduler import CosineAnnealingLR
 from datetime import datetime
-import torch.distributed as dist
 from math import ceil
 from peft import PeftModel
 import os
@@ -25,33 +22,11 @@ import torch.functional as F
 DEFAULT_BATCH_SIZE = 2 # cus we have 8 outputs per input
 GRAD_ACCU_STEPS = 2
 
-DS_CONFIG = {
-    "train_batch_size": DEFAULT_BATCH_SIZE, # (samples in microbatch) x (acc steps) x (devices)
-    "gradient_accumulation_steps": GRAD_ACCU_STEPS, 
-    "zero_optimization": {
-        "stage": 3,
-        "offload_optimizer": {
-            "device": "cpu",
-            "pin_memory": True
-        }
-    },
-    "bf16": {
-        "enabled": True
-    },
-    "activation_checkpointing": {
-        "partition_activations": True,
-        "contiguous_memory_optimization": True
-    },
-}
-
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
 prev_timestamp = "2025-11-05_13-36_perception_lm_v2_language_only__better_eval__train_loss"
-
-deepspeed.init_distributed()
-# try using generate() with deepspeed
 
 MODEL_PATH = "facebook/Perception-LM-1B" # kept, for fair comparison, more capacity and better video understanding abilities
 NUM_EPOCHS = 1 # change!
@@ -65,43 +40,26 @@ prompt_2 = "\n\nText 2:\n"
 for split_id in range(1, 2): # change!
     print(f"Split id: {split_id}")
     model = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, dtype=torch.bfloat16).to("cuda")
-    model = PeftModel.from_pretrained(model, f"out/{prev_timestamp}/model_split{split_id}_epoch4")
+    model = PeftModel.from_pretrained(model, f"out/{prev_timestamp}/model_split{split_id}_epoch4").to("cuda")
+    model.train()
 
     for name, param in model.named_parameters():
         if "lora" not in name:
             param.requires_grad_(False)
         else:
             param.requires_grad_(True)
-
-    print("Step 1")
     
     train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
-    train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size(), rank=get_rank())
-    train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
-                                  sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    train_dataloader = DataLoader(train_dataset, DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS, 
+                                  shuffle=True, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
 
-    total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
-    warmup_steps = int(0.1 * total_steps)
-    optimizer = DeepSpeedCPUAdam(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4)
-    scheduler = WarmupCosineLR(optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps)
-
-    print("Step 2")  
-
-    model_engine, optimizer, _, _ = deepspeed.initialize(
-        model=model,
-        optimizer=optimizer,
-        lr_scheduler=scheduler,
-        config=DS_CONFIG
-    )
+    total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS # check if makes sense!
+    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4)
+    scheduler = CosineAnnealingLR(optimizer, T_max=total_steps, eta_min=1e-6)
 
     all_total_losses = []
 
-    print("Step 3")   
-
     for epoch in range(NUM_EPOCHS):
-        model_engine.module.train()
-        train_sampler.set_epoch(epoch)
-        print("Step 4")  
         print(f"Epoch: {epoch}")
         total_loss = 0
         for i, (X, Y) in enumerate(train_dataloader):
@@ -125,20 +83,20 @@ for split_id in range(1, 2): # change!
                 return_tensors="pt",
                 padding=True
             )
-            X = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) 
+            X = {k: v.to(model.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model.device) 
                  for k, v in X.items()}
             
             print(X["input_ids"].shape)
             print(X["pixel_values_videos"].shape)
             print(X["attention_mask"].shape)
-            generated_ids = model_engine.module.generate(
+            generated_ids = model.module.generate(
                                          **X, 
                                          max_new_tokens=1000, 
                                          do_sample=True, 
                                          top_k=10,
                                          num_return_sequences=8)
             
-            print(f"[Rank {get_rank()}]: generated ids are of shape {generated_ids.shape}")
+            print(f"[Rank]: generated ids are of shape {generated_ids.shape}")
             print(f"Size of input_ids: {X['input_ids'].size(1)}")
 
             generated_ids_trimmed = generated_ids[:, X["input_ids"].size(1):]
@@ -146,13 +104,13 @@ for split_id in range(1, 2): # change!
                     generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
                 )
             
-            print(f"[Rank {get_rank()}: {repr(generated_ids_trimmed)}")
-            print(f"[Rank {get_rank()}: {repr(generated_text_trimmed)}")
+            print(f"[Rank: {repr(generated_ids_trimmed)}")
+            print(f"[Rank: {repr(generated_text_trimmed)}")
 
             # attention_mask
             
-            logits = model_engine(input_ids=generated_ids, pixel_values=X["pixel_values_videos"]).logits[:, X["input_ids"].size(1)-1:-1, :] 
-            print(f"[Rank {get_rank()}]: trimmed logits' shape = {logits.shape}")
+            logits = model(input_ids=generated_ids, pixel_values=X["pixel_values_videos"]).logits[:, X["input_ids"].size(1)-1:-1, :] 
+            print(f"[Rank]: trimmed logits' shape = {logits.shape}")
 
             # how should it be shifted? we should probably pass in pixel values, also probably a mask
 
@@ -179,8 +137,8 @@ for split_id in range(1, 2): # change!
 
             # loss = ...
             # total_loss += loss.item() * labels.size(0)
-            # model_engine.backward(loss)
-            # model_engine.step()
+            # model.backward(loss)
+            # model.step()
 
     #     total_loss = torch.tensor(total_loss).to("cuda")
     #     dist.all_reduce(total_loss, op=dist.ReduceOp.SUM)
@@ -191,7 +149,7 @@ for split_id in range(1, 2): # change!
     #         all_total_losses.append(total_loss.cpu().item())
     #     barrier()
         
-    #     model_engine.save_pretrained(f"out/{timestamp}/model_split{split_id}_epoch{epoch}")  
+    #     model.save_pretrained(f"out/{timestamp}/model_split{split_id}_epoch{epoch}")  
 
     # if get_rank() == 0:
     #     plt.plot(all_total_losses, marker='o')
