@@ -3,10 +3,13 @@ import torch
 from dataset_dolos import DolosDataset
 from pathlib import Path
 from torch.utils.data import DataLoader
+from peft import PeftModel
 
 MODEL_PATH = "facebook/Perception-LM-1B"
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 model = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, dtype=torch.bfloat16).to("cuda")
+model = PeftModel.from_pretrained(model, f"out/2025-11-05_13-36_perception_lm_v2_language_only__better_eval__train_loss/model_split1_epoch2")
+model = model.to("cuda").eval()
 
 train_dataset = DolosDataset(f"data/train_fold1.csv", Path("./data"))
 train_dataloader = DataLoader(train_dataset, 1, shuffle=False, 
