@@ -72,6 +72,8 @@ for split_id in range(1, 2): # change!
             param.requires_grad_(False)
         else:
             param.requires_grad_(True)
+
+    print("Step 1")
     
     train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
     train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size(), rank=get_rank())
@@ -83,6 +85,8 @@ for split_id in range(1, 2): # change!
     optimizer = DeepSpeedCPUAdam(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4)
     scheduler = WarmupCosineLR(optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps)
 
+    print("Step 2")  
+
     model_engine, optimizer, _, _ = deepspeed.initialize(
         model=model,
         optimizer=optimizer,
@@ -92,9 +96,12 @@ for split_id in range(1, 2): # change!
 
     all_total_losses = []
 
+    print("Step 3")   
+
     for epoch in range(NUM_EPOCHS):
         model_engine.module.train()
         train_sampler.set_epoch(epoch)
+        print("Step 4")  
         print(f"Epoch: {epoch}")
         total_loss = 0
         for i, (X, Y) in enumerate(train_dataloader):
@@ -125,7 +132,8 @@ for split_id in range(1, 2): # change!
                                          top_k=10,
                                          num_return_sequences=8)
             
-            # print(get_rgenerated_ids)
+            print(f"[Rank {get_rank()}]: generated ids are of shape {generated_ids.shape}")
+            print(f"Size of input_ids: {X["input_ids"].size(1)}")
 
             generated_ids_trimmed = generated_ids[:, X["input_ids"].size(1):]
             generated_text_trimmed = processor.batch_decode(
@@ -135,7 +143,11 @@ for split_id in range(1, 2): # change!
             print(f"[Rank {get_rank()}: {repr(generated_ids_trimmed)}")
             print(f"[Rank {get_rank()}: {repr(generated_text_trimmed)}")
             
-            # logits = model_engine(generated_ids[:, :-1]).logits[:, X["input_ids"].size(1) - 1: ,:] # how is it shifted?
+            logits = model_engine(input_ids=generated_ids, pixel_values=X["pixel_values"]).logits[:, X["input_ids"].size(1)-1:-1, :] 
+            print(f"[Rank {get_rank()}]: trimmed logits' shape = {logits.shape}")
+
+            # how should it be shifted? we should probably pass in pixel values, also probably a mask
+
             # log_probs = F.log_softmax(logits, dim=-1)
             # token_log_probs = log_probs.gather(
             #     -1, generated_ids[:, 1:].unsqueeze(-1)
