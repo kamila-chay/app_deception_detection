@@ -130,21 +130,20 @@ for split_id in range(1, 2): # change!
 
             print(token_log_probs)
 
-            # probs_alpha = token_log_probs.exp() ** 0.1
-            # q = probs_alpha / probs_alpha.sum()
+            sequence_log_probs = token_log_probs.sum(dim=-1)
+            print(sequence_log_probs)
+
+
+            sequence_log_probs = sequence_log_probs.exp() ** 0.1
+            q = sequence_log_probs / sequence_log_probs.sum() # what to do with this?
             
-            # generated_ids_trimmed = generated_ids[:, X["input_ids"].size(1):]
-            # generated_text_trimmed = processor.batch_decode(
-            #         generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-            #     )
             
-            # expected_ids_trimmed = Y["input_ids"][:, X["input_ids"].size(1):]
-            # expected_text_trimmed = processor.batch_decode(
-            #         expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-            #     )
+            expected_ids_trimmed = Y["input_ids"][:, X["input_ids"].size(1):]
+            expected_text_trimmed = processor.batch_decode(
+                    expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+                )
             
-            # print(expected_text_trimmed)
-            # print(generated_text_trimmed)
+            print(expected_text_trimmed) # calculate risk using OpenAI
 
             # loss = ...
             # total_loss += loss.item() * labels.size(0)
