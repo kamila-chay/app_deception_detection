@@ -102,6 +102,7 @@ for split_id in range(1, 2): # change!
             print(f"Size of input_ids: {X['input_ids'].size(1)}")
 
             generated_ids_trimmed = generated_ids[:, X["input_ids"].size(1):]
+            generated_ids_trimmed = generated_ids_trimmed.clone()
             generated_text_trimmed = processor.batch_decode(
                     generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
                 )
@@ -112,11 +113,10 @@ for split_id in range(1, 2): # change!
             attention_mask = (generated_ids != processor.tokenizer.pad_token_id).to(torch.long).to("cuda")
             print(attention_mask)
             with torch.enable_grad():
-                output = model(input_ids=generated_ids, pixel_values_videos=X["pixel_values_videos"].repeat(RET_SEQUENCES, 1, 1, 1, 1), attention_mask=attention_mask)
+                output = model(input_ids=generated_ids, pixel_values_videos=X["pixel_values_videos"].repeat(RET_SEQUENCES, 1, 1, 1, 1), 
+                               attention_mask=attention_mask)
             logits = output.logits[:, X["input_ids"].size(1)-1:-1, :] 
             print(f"[Rank]: trimmed logits' shape = {logits.shape}")
-
-            # how should it be shifted? we should probably pass in pixel values, also probably a mask
 
             log_probs = F.log_softmax(logits, dim=-1)
             token_log_probs = log_probs.gather(
@@ -125,6 +125,10 @@ for split_id in range(1, 2): # change!
 
             print(token_log_probs)
             print(token_log_probs.shape)
+
+            token_log_probs = token_log_probs * attention_mask[:, -token_log_probs.shape[1]:]
+
+            print(token_log_probs)
 
             # probs_alpha = token_log_probs.exp() ** 0.1
             # q = probs_alpha / probs_alpha.sum()
