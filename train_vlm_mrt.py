@@ -127,6 +127,10 @@ for split_id in range(1, 2): # change!
             )
             X = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) 
                  for k, v in X.items()}
+            
+            print(X["input_ids"].shape)
+            print(X["pixel_values_videos"].shape)
+            print(X["attention_mask"].shape)
             generated_ids = model_engine.module.generate(
                                          **X, 
                                          max_new_tokens=1000, 
