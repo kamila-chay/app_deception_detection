@@ -136,6 +136,8 @@ for split_id in range(1, 2): # change!
 
             sequence_log_probs = sequence_log_probs.exp() ** 0.1
             q = sequence_log_probs / sequence_log_probs.sum() # what to do with this?
+
+            print(q)
             
             
             expected_ids_trimmed = Y["input_ids"][:, X["input_ids"].size(1):]
@@ -144,6 +146,8 @@ for split_id in range(1, 2): # change!
                 )
             
             print(expected_text_trimmed) # calculate risk using OpenAI
+
+            # just q times risk and calculate mean -> this will be your loss, we wanna minimize it, so risk should be higher the worse the output  is (the opposite of evalution so far) -> then just backward and we should calculate the reinforce gradient
 
             # loss = ...
             # total_loss += loss.item() * labels.size(0)
