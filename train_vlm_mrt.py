@@ -50,7 +50,7 @@ dir_path.mkdir(parents=True, exist_ok=True)
 
 prev_timestamp = "2025-11-05_13-36_perception_lm_v2_language_only__better_eval__train_loss"
 
-deepspeed.init_distributed()
+# deepspeed.init_distributed()
 # try using generate() with deepspeed
 
 MODEL_PATH = "facebook/Perception-LM-1B" # kept, for fair comparison, more capacity and better video understanding abilities
