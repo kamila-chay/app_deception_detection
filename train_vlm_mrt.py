@@ -89,12 +89,13 @@ for split_id in range(1, 2): # change!
             print(X["input_ids"].shape)
             print(X["pixel_values_videos"].shape)
             print(X["attention_mask"].shape)
-            generated_ids = model.generate(
-                                         **X, 
-                                         max_new_tokens=1000, 
-                                         do_sample=True, 
-                                         top_k=10,
-                                         num_return_sequences=8)
+            with torch.inference_mode():
+                generated_ids = model.generate(
+                                            **X, 
+                                            max_new_tokens=1000, 
+                                            do_sample=True, 
+                                            top_k=10,
+                                            num_return_sequences=8)
             
             print(f"[Rank]: generated ids are of shape {generated_ids.shape}")
             print(f"Size of input_ids: {X['input_ids'].size(1)}")
@@ -107,9 +108,11 @@ for split_id in range(1, 2): # change!
             print(f"[Rank: {repr(generated_ids_trimmed)}")
             print(f"[Rank: {repr(generated_text_trimmed)}")
 
-            # attention_mask
-            
-            logits = model(input_ids=generated_ids, pixel_values=X["pixel_values_videos"]).logits[:, X["input_ids"].size(1)-1:-1, :] 
+            attention_mask = (generated_ids == processor.tokenizer.padding_token_id).to(torch.long).to("cuda")
+            print(attention_mask)
+            with torch.enable_grad():
+                output = model(input_ids=generated_ids, pixel_values_videos=X["pixel_values_videos"], attention_mask=attention_mask)
+            logits = output.logits[:, X["input_ids"].size(1)-1:-1, :] 
             print(f"[Rank]: trimmed logits' shape = {logits.shape}")
 
             # how should it be shifted? we should probably pass in pixel values, also probably a mask
