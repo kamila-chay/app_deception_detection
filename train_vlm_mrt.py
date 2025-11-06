@@ -125,8 +125,8 @@ for split_id in range(1, 2): # change!
                 return_tensors="pt",
                 padding=True
             )
-
-            print(X.keys())
+            X = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) 
+                 for k, v in X.items()}
             generated_ids = model_engine.module.generate(
                                          **X, 
                                          max_new_tokens=1000, 
@@ -145,9 +145,9 @@ for split_id in range(1, 2): # change!
             print(f"[Rank {get_rank()}: {repr(generated_ids_trimmed)}")
             print(f"[Rank {get_rank()}: {repr(generated_text_trimmed)}")
 
-
+            # attention_mask
             
-            logits = model_engine(input_ids=generated_ids, pixel_values=X["pixel_values"]).logits[:, X["input_ids"].size(1)-1:-1, :] 
+            logits = model_engine(input_ids=generated_ids, pixel_values=X["pixel_values_videos"]).logits[:, X["input_ids"].size(1)-1:-1, :] 
             print(f"[Rank {get_rank()}]: trimmed logits' shape = {logits.shape}")
 
             # how should it be shifted? we should probably pass in pixel values, also probably a mask
