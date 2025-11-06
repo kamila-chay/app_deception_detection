@@ -89,7 +89,7 @@ for split_id in range(1, 2): # change!
             print(X["input_ids"].shape)
             print(X["pixel_values_videos"].shape)
             print(X["attention_mask"].shape)
-            generated_ids = model.module.generate(
+            generated_ids = model.generate(
                                          **X, 
                                          max_new_tokens=1000, 
                                          do_sample=True, 
