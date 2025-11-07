@@ -17,6 +17,9 @@ from peft import PeftModel
 import os
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
+from openai import OpenAI
+
+client = OpenAI()
 # finetuning only the language model + checking training loss + using MRT from epoch 5
 
 DEFAULT_BATCH_SIZE = 2 # cus we have 8 outputs per input
@@ -150,22 +153,43 @@ for split_id in range(1, 2): # change!
             
             print(expected_text_trimmed) # calculate risk using OpenAI
 
-            # just q times risk and calculate mean -> this will be your loss, we wanna minimize it, so risk should be higher the worse the output  is (the opposite of evalution so far) -> then just backward and we should calculate the reinforce gradient, sometimes we can make the risk negative to encourage the model to produce certain outputs~
+            risk_values = []
 
-            # loss = ...
-            # total_loss += loss.item() * labels.size(0)
-            # model.backward(loss)
-            # model.step()
+            for text in generated_text_trimmed:
+                full_prompt = prompt_1 + text + prompt_2 + expected_text_trimmed
 
-    #     total_loss = torch.tensor(total_loss).to("cuda")
-    #     dist.all_reduce(total_loss, op=dist.ReduceOp.SUM)
-    #     total_loss /= len(train_dataset)
+                print("Full prompt:::::::")
+                print(full_prompt)
 
-    #     if get_rank() == 0:
-    #         print(f"Train loss: {total_loss}")
-    #         all_total_losses.append(total_loss.cpu().item())
-    #     barrier()
-        
+                response = client.responses.create(
+                    model="gpt-4.1-mini",
+                    input=full_prompt
+                )
+
+                label_score = 0
+                cues_score = 0
+
+                try:
+                    label_score, cues_score = map(float, response.output_text.split())
+                    print(label_score)
+                    print(cues_score)
+                except:
+                    print("WARNING: Incorrect answer from OpenAI")
+
+                total_score = 0.6 * label_score + 0.6 * cues_score
+                risk_values.append(1 - total_score)
+
+            print(f"Risk values={risk_values}")
+
+            loss = (q * risk_values).mean()
+
+            print(loss)
+
+            loss.backward()
+            # change this to include grad accumulation
+            optimizer.step()
+            optimizer.no_grad()
+
     #     model.save_pretrained(f"out/{timestamp}/model_split{split_id}_epoch{epoch}")  
 
     # if get_rank() == 0:
