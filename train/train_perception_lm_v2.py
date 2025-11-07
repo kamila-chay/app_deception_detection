@@ -69,7 +69,7 @@ for split_id in range(1, 4):
         else:
             print(name)  ## check if only the language model is trained
 
-    train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
+    train_dataset = DolosDataset(f"thesis/data/train_fold{split_id}.csv", Path("./data"))
     train_sampler = DistributedSampler(
         train_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
     )

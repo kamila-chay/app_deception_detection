@@ -6,9 +6,10 @@ from transformers import (
     TimesformerConfig,
     TimesformerForVideoClassification,
 )
+print(__package__)
+from thesis.utils.dataset_dolos import DolosClassificationDataset
+from thesis.utils.utils import set_seed
 
-from utils.dataset_dolos import DolosClassificationDataset
-from utils.utils import set_seed
 
 set_seed(42)
 
@@ -28,10 +29,10 @@ with torch.inference_mode():
         print(f"Split {split_id}")
 
         val_dataset = DolosClassificationDataset(
-            f"data/val_fold{split_id}.csv", "data/video", processor
+            f"thesis/data/val_fold{split_id}.csv", "thesis/data/video", processor
         )
         test_dataset = DolosClassificationDataset(
-            f"data/test_fold{split_id}.csv", "data/video", processor
+            f"thesis/data/test_fold{split_id}.csv", "thesis/data/video", processor
         )
         val_dataloader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
         test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)

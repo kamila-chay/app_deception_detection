@@ -67,7 +67,7 @@ for split_id in range(1, 4):
     )
 
     train_dataset = DolosClassificationDataset(
-        f"data/train_fold{split_id}.csv", "data/video", processor
+        f"thesis/data/train_fold{split_id}.csv", "thesis/data/video", processor
     )
 
     lora_model = get_peft_model(model, lora_config)

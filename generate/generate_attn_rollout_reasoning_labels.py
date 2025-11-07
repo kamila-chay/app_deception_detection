@@ -19,7 +19,7 @@ set_seed(42)
 BATCH_SIZE = 1
 EPOCHS = 20
 
-Path("data/attn_rollout_reasoning_labels/heatmaps").mkdir(parents=True, exist_ok=True)
+Path("thesis/data/attn_rollout_reasoning_labels/heatmaps").mkdir(parents=True, exist_ok=True)
 
 timestamp = "2025-11-03_00-45"
 
@@ -33,7 +33,7 @@ pipe = pipeline("image-text-to-text", model="llava-hf/llava-1.5-7b-hf")
 
 for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
     test_dataset = DolosClassificationDataset(
-        f"data/test_fold{split_id}.csv", "data/video", processor
+        f"thesis/data/test_fold{split_id}.csv", "thesis/data/video", processor
     )
     test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
@@ -68,7 +68,7 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
         for i, ax in enumerate(axes.flat):
             ax.imshow(overlay_attention(attn_map, pixel_values[:, 1::2], processor, i))
             ax.axis("off")
-        plt.savefig(f"data/attn_rollout_reasoning_labels/heatmaps/{name}.png")
+        plt.savefig(f"thesis/data/attn_rollout_reasoning_labels/heatmaps/{name}.png")
 
         pred = torch.argmax(output.logits, dim=-1)
         del output, attn_map
@@ -79,7 +79,7 @@ for split_id, epoch in ((2, 12), (1, 16), (3, 12)):
                     "content": [
                         {
                             "type": "image",
-                            "url": f"data/attn_rollout_reasoning_labels/heatmaps/{name}.png",
+                            "url": f"thesis/data/attn_rollout_reasoning_labels/heatmaps/{name}.png",
                         },
                         {
                             "type": "text",
@@ -108,7 +108,7 @@ Write a **short, objective summary** describing **where and when** the model foc
             ]
             print(out)
             print("==================")
-            with open(f"data/attn_rollout_reasoning_labels/{name}.txt", "w") as f:
+            with open(f"thesis/data/attn_rollout_reasoning_labels/{name}.txt", "w") as f:
                 f.write(out)
         else:
             print("NONE===========")

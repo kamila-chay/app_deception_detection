@@ -13,7 +13,7 @@ from utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 
-DEFAULT_BATCH_SIZE = 8
+DEFAULT_BATCH_SIZE = 2
 
 timestamp = "2025-11-05_13-36"
 
@@ -35,9 +35,9 @@ prompt_2 = "\n\nText 2:\n"
 for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
-    train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
-    train_dataloader = DataLoader(
-        train_dataset,
+    val_dataset = DolosDataset(f"thesis/data/val_fold{split_id}.csv", Path("./data"))
+    val_dataloader = DataLoader(
+        val_dataset,
         DEFAULT_BATCH_SIZE,
         shuffle=False,
         collate_fn=lambda batch: (
@@ -59,9 +59,7 @@ for split_id in range(1, 2):
         all_rouge_scores_per_epoch = []
         all_label_scores_per_epoch = []
         all_cue_scores_per_epoch = []
-        for i, (X, Y) in enumerate(train_dataloader):
-            if i % 10 != 0:
-                continue
+        for X, Y in val_dataloader:
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -136,7 +134,9 @@ for split_id in range(1, 2):
         print(all_label_scores)
         print(all_cue_scores)
 
-    with open(f"out/{timestamp}/model_split{split_id}_train_only_info.json", "w") as f:
+    with open(
+        f"out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
+    ) as f:
         json.dump(
             {
                 "rouge_scores": all_rouge_scores,

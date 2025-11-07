@@ -31,7 +31,7 @@ for split_id, epoch in ((1, 16), (2, 12), (3, 12)):
     print(f"Epoch {epoch + 1}")
 
     test_dataset = DolosClassificationDataset(
-        f"data/test_fold{split_id}.csv", "data/video", processor
+        f"thesis/data/test_fold{split_id}.csv", "thesis/data/video", processor
     )
     test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 

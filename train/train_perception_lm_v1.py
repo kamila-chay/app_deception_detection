@@ -68,7 +68,7 @@ for split_id in range(1, 4):
             param.requires_grad_ = False
             param.requires_grad = False
 
-    train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
+    train_dataset = DolosDataset(f"thesis/data/train_fold{split_id}.csv", Path("./data"))
     train_sampler = DistributedSampler(
         train_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
     )

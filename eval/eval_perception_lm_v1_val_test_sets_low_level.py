@@ -30,7 +30,7 @@ base = AutoModelForImageTextToText.from_pretrained(
 for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
-    val_dataset = DolosDataset(f"data/val_fold{split_id}.csv", Path("./data"))
+    val_dataset = DolosDataset(f"thesis/data/val_fold{split_id}.csv", Path("./data"))
     val_dataloader = DataLoader(
         val_dataset,
         DEFAULT_BATCH_SIZE,
@@ -41,7 +41,7 @@ for split_id in range(1, 2):
         ),
     )
 
-    test_dataset = DolosDataset(f"data/test_fold{split_id}.csv", Path("./data"))
+    test_dataset = DolosDataset(f"thesis/data/test_fold{split_id}.csv", Path("./data"))
     test_dataloader = DataLoader(
         test_dataset,
         DEFAULT_BATCH_SIZE,

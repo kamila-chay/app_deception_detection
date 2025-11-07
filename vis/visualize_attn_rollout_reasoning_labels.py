@@ -3,7 +3,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from PIL import Image
 
-root = Path("data/attn_rollout_reasoning_labels")
+root = Path("thesis/data/attn_rollout_reasoning_labels")
 
 for item in root.iterdir():
     if item.is_file():
