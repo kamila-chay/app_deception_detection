@@ -118,6 +118,8 @@ for split_id in range(1, 2): # change!
             logits = output.logits[:, X["input_ids"].size(1)-1:-1, :] 
             print(f"[Rank]: trimmed logits' shape = {logits.shape}")
 
+            logits = logits.to(torch.float32)
+
             log_probs = F.log_softmax(logits, dim=-1)
             token_log_probs = log_probs.gather(
                 -1, generated_ids_trimmed.unsqueeze(-1)
@@ -133,14 +135,13 @@ for split_id in range(1, 2): # change!
             sequence_log_probs = token_log_probs.sum(dim=-1)
             print(sequence_log_probs)
 
-            sequence_log_probs *= 0.1
+            sequence_log_probs *= 0.05
             sequence_log_probs = sequence_log_probs - torch.max(sequence_log_probs)
 
             sequence_probs = sequence_log_probs.exp()
             q = sequence_probs / sequence_probs.sum()
 
-            print(q) # nans here so fix it!
-            
+            print(q)
             
             expected_ids_trimmed = Y["input_ids"][:, X["input_ids"].size(1):]
             expected_text_trimmed = processor.batch_decode(
