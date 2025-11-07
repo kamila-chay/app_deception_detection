@@ -189,10 +189,9 @@ for split_id in range(1, 2):  # change!
                 total_score = 0.6 * label_score + 0.6 * cues_score
                 risk_values.append(1 - total_score)
 
-            risk_values = torch.tensor(risk_values)
+            risk_values = torch.tensor(risk_values).to(q.device)
 
             loss = (q * risk_values).mean()  # maybe sum? maybe log q?
-
             print(loss)
 
             loss.backward()
