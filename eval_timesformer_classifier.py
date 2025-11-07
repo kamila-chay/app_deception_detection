@@ -7,8 +7,8 @@ from transformers import (
     TimesformerForVideoClassification,
 )
 
-from dataset_dolos import DolosClassificationDataset
-from utils import set_seed
+from utils.dataset_dolos import DolosClassificationDataset
+from utils.utils import set_seed
 
 set_seed(42)
 

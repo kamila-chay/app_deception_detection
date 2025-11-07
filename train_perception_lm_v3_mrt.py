@@ -11,7 +11,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from dataset_dolos import DolosDataset
+from utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 

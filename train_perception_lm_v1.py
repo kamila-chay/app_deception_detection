@@ -12,7 +12,7 @@ from torch.distributed import get_rank
 from torch.utils.data import DataLoader, DistributedSampler
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from dataset_dolos import DolosDataset
+from utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 

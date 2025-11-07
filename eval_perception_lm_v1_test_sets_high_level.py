@@ -5,13 +5,13 @@ from openai import OpenAI
 from peft import PeftModel
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from dataset_dolos import DolosDataset
+from utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 
 client = OpenAI()
 
-out_dir = Path("data/high_level_eval")
+out_dir = Path("out/perception_lm_v1_test_sets_high_level_eval")
 out_dir.mkdir(parents=True, exist_ok=True)
 
 timestamps = ["2025-11-01_01-36", "2025-11-01_01-36", "2025-11-02_00-44"]

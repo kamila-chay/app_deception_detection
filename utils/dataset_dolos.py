@@ -4,7 +4,7 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset
 
-from utils import sample_frames_uniformly
+from utils.utils import sample_frames_uniformly
 
 
 def create_conv_template(video_path, completion=""):

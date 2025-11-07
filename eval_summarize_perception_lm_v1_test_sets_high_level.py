@@ -1,6 +1,6 @@
 from pathlib import Path
 
-root = Path("data/high_level_eval")
+root = Path("out/perception_lm_v1_test_sets_high_level_eval")
 scores_labels = []
 scores_cues = []
 

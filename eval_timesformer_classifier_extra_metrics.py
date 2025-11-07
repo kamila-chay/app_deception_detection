@@ -8,13 +8,15 @@ from transformers import (
     TimesformerForVideoClassification,
 )
 
-from dataset_dolos import DolosClassificationDataset
-from utils import set_seed
+from utils.dataset_dolos import DolosClassificationDataset
+from utils.utils import set_seed
 
 set_seed(42)
 
 BATCH_SIZE = 72
 EPOCHS = 20
+
+# should be merged with the main file
 
 timestamp = "2025-11-03_00-45"
 

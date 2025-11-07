@@ -13,7 +13,7 @@ from torch.distributed import barrier, get_rank
 from torch.utils.data import DataLoader, DistributedSampler
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from dataset_dolos import DolosDataset
+from utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 # finetuning only the language model + checking training loss + picking the best model using OpenAI API instead of ROUGE (in another script)

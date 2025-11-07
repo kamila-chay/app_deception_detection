@@ -11,8 +11,8 @@ from transformers import (
     pipeline,
 )
 
-from dataset_dolos import DolosClassificationDataset
-from utils import overlay_attention, roll_out_attn_map, set_seed
+from utils.dataset_dolos import DolosClassificationDataset
+from utils.utils import overlay_attention, roll_out_attn_map, set_seed
 
 set_seed(42)
 
