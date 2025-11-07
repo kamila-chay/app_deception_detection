@@ -54,7 +54,7 @@ for split_id in range(1, 2):  # change!
             param.requires_grad_(True)
 
     train_dataset = DolosDataset(
-        f"thesis/data/train_fold{split_id}.csv", Path("./data")
+        f"thesis/data/train_fold{split_id}.csv", Path("thesis/data")
     )
     train_dataloader = DataLoader(
         train_dataset,

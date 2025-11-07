@@ -36,7 +36,7 @@ for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
     train_dataset = DolosDataset(
-        f"thesis/data/train_fold{split_id}.csv", Path("./data")
+        f"thesis/data/train_fold{split_id}.csv", Path("thesis/data")
     )
     train_dataloader = DataLoader(
         train_dataset,
