@@ -4,17 +4,18 @@ from pathlib import Path
 
 import pandas as pd
 from openai import OpenAI
+from scipy import stats
+import numpy as np
 
 client = OpenAI()
 
-out = Path("./data/gen_labels")
-eval_out = Path("./data/results_eval/cues")
-eval_out.mkdir(parents=True, exist_ok=True)
+LABEL_DIR = Path("./data/mumin_reasoning_labels")
+EVAL_DIR = Path("./out/mumin_reasoning_labels_eval/cues")
+EVAL_DIR.mkdir(parents=True, exist_ok=True)
 
 df = pd.read_excel("./data/traits.xlsx")
 
 traits_dict_example = {
-    # 'Label': None,
     "Smile": None,
     "Laughter": None,
     "Scowl": None,
@@ -57,7 +58,7 @@ query = "Look at this text describing someone's behavior and the list of behavio
 
 for i, row in df.iterrows():
     if random.randint(1, 10) == 6:
-        curr = out / f"{row['Filename']}.txt"
+        curr = LABEL_DIR / f"{row['Filename']}.txt"
         traits_dict = copy.deepcopy(traits_dict_example)
 
         for key in traits_dict:
@@ -70,5 +71,24 @@ for i, row in df.iterrows():
 
         response = client.responses.create(model="gpt-4.1-mini", input=total_string)
 
-        with open(eval_out / f"{row['Filename']}.txt", "w") as f:
+        with open(EVAL_DIR / f"{row['Filename']}.txt", "w") as f:
             f.write(response.output_text)
+
+
+# make it switchable so that you can start from here easily
+all_scores = []
+
+for file in EVAL_DIR.iterdir():
+    with open(file, "r") as f:
+        text = f.read()
+        try:
+            all_scores.append(float(text))
+        except ValueError:
+            print(file.stem)
+
+data = np.array(all_scores)
+
+mu0 = 0.92
+
+t_stat, p_val = stats.ttest_1samp(data, mu0)
+print(f"t = {t_stat:.3f}, p = {p_val:.4f}")

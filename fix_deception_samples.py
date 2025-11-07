@@ -6,7 +6,7 @@ from openai import OpenAI
 
 client = OpenAI()
 
-out = Path("./data/gen_labels")
+out = Path("./data/mumin_reasoning_labels")
 out_new = Path("./data/gen_new_labels")  # should be fixed
 
 out_new.mkdir(parents=True, exist_ok=True)

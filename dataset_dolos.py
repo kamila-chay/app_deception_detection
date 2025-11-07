@@ -55,7 +55,7 @@ class DolosDataset(Dataset):
     def __getitem__(self, index):
         filename = self.info.iloc[index, 0]
         filepath = self.folder / "video" / f"{filename}.mp4"
-        labelpath = self.folder / "gen_labels" / f"{filename}.txt"
+        labelpath = self.folder / "mumin_reasoning_labels" / f"{filename}.txt"
         with open(labelpath, "r") as f:
             label = f.read()
         return create_conv_template(filepath), create_conv_template(
