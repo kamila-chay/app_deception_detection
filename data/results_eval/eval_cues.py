@@ -1,6 +1,7 @@
 from pathlib import Path
-from scipy import stats
+
 import numpy as np
+from scipy import stats
 
 source = Path("./cues")
 
@@ -11,7 +12,7 @@ for file in source.iterdir():
         text = f.read()
         try:
             all_scores.append(float(text))
-        except:
+        except ValueError:
             print(file.stem)
 
 data = np.array(all_scores)

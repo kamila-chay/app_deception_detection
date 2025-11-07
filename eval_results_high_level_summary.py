@@ -24,10 +24,10 @@ for file in root.iterdir():
                     true_pos += 1
                 else:
                     true_neg += 1
-        except:
+        except ValueError:
             print(f"Error with {file.stem}")
 
-print("Accuracy of labels:")
+print("Accuracy for labels:")
 print(sum(scores_labels) / len(scores_labels))
 print("Quality of cues:")
 print(sum(scores_cues) / len(scores_cues))

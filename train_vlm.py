@@ -1,43 +1,35 @@
-from transformers import AutoProcessor, AutoModelForImageTextToText
-import torch
-from dataset_dolos import DolosDataset
+from datetime import datetime
+from math import ceil
 from pathlib import Path
-from torch.utils.data import DataLoader, DistributedSampler
-from peft import LoraConfig, get_peft_model
-from rouge_score import rouge_scorer
-import numpy as np
-import json
-from transformers import logging
-logging.set_verbosity_error()
+
 import deepspeed
+import torch
+import torch.distributed as dist
 from deepspeed.ops.adam import DeepSpeedCPUAdam
 from deepspeed.runtime.lr_schedules import WarmupCosineLR
-from torch.distributed import get_rank, barrier
-from datetime import datetime
-import torch.distributed as dist
-from math import ceil
-from peft import PeftModel
-import os
+from peft import LoraConfig, get_peft_model
+from torch.distributed import get_rank
+from torch.utils.data import DataLoader, DistributedSampler
+from transformers import AutoModelForImageTextToText, AutoProcessor, logging
+
+from dataset_dolos import DolosDataset
+
+logging.set_verbosity_error()
 
 DEFAULT_BATCH_SIZE = 36
-GRAD_ACCU_STEPS = 12 ## change here depending on the devices available
+GRAD_ACCU_STEPS = 12  ## change here depending on the devices available
 
 DS_CONFIG = {
-    "train_batch_size": DEFAULT_BATCH_SIZE, # 1(samples in microbatch) x 12(acc steps) x 4(devices)
-    "gradient_accumulation_steps": GRAD_ACCU_STEPS, 
+    "train_batch_size": DEFAULT_BATCH_SIZE,  # 1(samples in microbatch) x 12(acc steps) x 4(devices)
+    "gradient_accumulation_steps": GRAD_ACCU_STEPS,
     "zero_optimization": {
         "stage": 3,
-        "offload_optimizer": {
-            "device": "cpu",
-            "pin_memory": True
-        }
+        "offload_optimizer": {"device": "cpu", "pin_memory": True},
     },
-    "bf16": {
-        "enabled": True
-    },
+    "bf16": {"enabled": True},
     "activation_checkpointing": {
         "partition_activations": True,
-        "contiguous_memory_optimization": True
+        "contiguous_memory_optimization": True,
     },
 }
 
@@ -56,7 +48,9 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
 for split_id in range(1, 4):
     print(f"Split id: {split_id}")
-    model = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, dtype=torch.bfloat16).to("cuda")
+    model = AutoModelForImageTextToText.from_pretrained(
+        MODEL_PATH, dtype=torch.bfloat16
+    ).to("cuda")
 
     lora_config = LoraConfig(
         r=8,
@@ -74,22 +68,31 @@ for split_id in range(1, 4):
             param.requires_grad_ = False
             param.requires_grad = False
 
-    
     train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
-    train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size(), rank=get_rank())
-    train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
-                                  sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    train_sampler = DistributedSampler(
+        train_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
+    )
+    train_dataloader = DataLoader(
+        train_dataset,
+        (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(),
+        sampler=train_sampler,
+        collate_fn=lambda batch: (
+            [sample[0] for sample in batch],
+            [sample[1] for sample in batch],
+        ),
+    )
 
     total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     warmup_steps = int(0.1 * total_steps)
-    optimizer = DeepSpeedCPUAdam(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-4)
-    scheduler = WarmupCosineLR(optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps)
+    optimizer = DeepSpeedCPUAdam(
+        filter(lambda p: p.requires_grad, model.parameters()), lr=1e-4
+    )
+    scheduler = WarmupCosineLR(
+        optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps
+    )
 
     model_engine, optimizer, _, _ = deepspeed.initialize(
-        model=model,
-        optimizer=optimizer,
-        lr_scheduler=scheduler,
-        config=DS_CONFIG
+        model=model, optimizer=optimizer, lr_scheduler=scheduler, config=DS_CONFIG
     )
 
     with torch.enable_grad():
@@ -105,7 +108,7 @@ for split_id in range(1, 4):
                     tokenize=True,
                     return_dict=True,
                     return_tensors="pt",
-                    padding=True
+                    padding=True,
                 )
                 Y = processor.apply_chat_template(
                     Y,
@@ -114,22 +117,31 @@ for split_id in range(1, 4):
                     tokenize=True,
                     return_dict=True,
                     return_tensors="pt",
-                    padding=True
+                    padding=True,
                 )
                 inputs = Y
                 labels = inputs["input_ids"].clone()
                 labels[:, : X["input_ids"].shape[1]] = -100
                 labels[labels == processor.tokenizer.pad_token_id] = -100
                 inputs["labels"] = labels
-                inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in inputs.items()}
+                inputs = {
+                    k: (
+                        v.to(model_engine.device, dtype=torch.bfloat16)
+                        if torch.is_floating_point(v)
+                        else v.to(model_engine.device)
+                    )
+                    for k, v in inputs.items()
+                }
                 output = model_engine(**inputs)
 
                 loss = output.loss
                 model_engine.backward(loss)
                 model_engine.step()
-            
-            model_engine.save_pretrained(f"out/{timestamp}/model_split{split_id}_epoch{epoch}")
-                
+
+            model_engine.save_pretrained(
+                f"out/{timestamp}/model_split{split_id}_epoch{epoch}"
+            )
+
             # if get_rank() == 0:
             #     t0 = time.time()
             #     print(f"Eval started at {t0:.2f}")
@@ -170,7 +182,7 @@ for split_id in range(1, 4):
             #             expected_text_trimmed = processor.batch_decode(
             #                 expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
             #             )
-                    
+
             #             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
             #                 score = scorer.score(ref, pred)
             #                 all_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
@@ -210,16 +222,16 @@ for split_id in range(1, 4):
             #                 expected_text_trimmed = processor.batch_decode(
             #                     expected_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
             #                 )
-                        
+
             #                 for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
             #                     score = scorer.score(ref, pred)
             #                     all_test_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
             #             best_rouge_test_score = np.mean(all_test_scores) # from the top validation score, we don't get to choose based on the test split!
             #             print(f"  Top val score for this subject, the corresponding test score is {best_rouge_test_score}")
             #             with open(f"out/{timestamp}/model_subject{subject_id}_info.json", "w") as f:
-            #                 json.dump({"best_epoch": epoch, 
-            #                            "val_rouge_score": best_rouge_val_score, 
-            #                            "test_rouge_score": best_rouge_test_score}, 
+            #                 json.dump({"best_epoch": epoch,
+            #                            "val_rouge_score": best_rouge_val_score,
+            #                            "test_rouge_score": best_rouge_test_score},
             #                            f)
 
             # barrier()

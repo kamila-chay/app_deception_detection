@@ -1,8 +1,7 @@
-from pathlib import Path
-import pandas as pd
 import random
-import copy
-import time
+from pathlib import Path
+
+import pandas as pd
 from openai import OpenAI
 
 client = OpenAI()
@@ -28,11 +27,7 @@ for i, row in df.iterrows():
 
         total_string = instruction_1 + generated + instruction_2 + label + instruction_3
 
-        response = client.responses.create(
-            model="gpt-4.1-mini",
-            input=total_string
-        )
+        response = client.responses.create(model="gpt-4.1-mini", input=total_string)
 
         with open(eval_out / f"{row['Filename']}.txt", "w") as f:
             f.write(response.output_text)
-        

@@ -1,13 +1,13 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
-import pandas as pd
 from pathlib import Path
+
+import pandas as pd
 import torch
 from openai import OpenAI
 
 client = OpenAI()
 
 out = Path("./data/gen_labels")
-out_new = Path("./data/gen_new_labels")
+out_new = Path("./data/gen_new_labels")  # should be fixed
 
 out_new.mkdir(parents=True, exist_ok=True)
 
@@ -37,19 +37,15 @@ with torch.inference_mode():
         with open(prev_text_file, "r") as f:
             prev_text = f.read()
 
-        prompt = f"Read the following text. Rewrite it so that it reaches the conclusion that the person is probably lying - it shouldn't be too confident but also it should be stated that you lean towards deception. Use the exising cues only and make it reasonable. Only output the rewritten text. No bullet points etc. Sometimes the input text might already lean towards deception. In this case, simply output \"SAME\". TEXT: \n {prev_text}"
+        prompt = f'Read the following text. Rewrite it so that it reaches the conclusion that the person is probably lying - it shouldn\'t be too confident but also it should be stated that you lean towards deception. Use the exising cues only and make it reasonable. Only output the rewritten text. No bullet points etc. Sometimes the input text might already lean towards deception. In this case, simply output "SAME". TEXT: \n {prev_text}'
 
-        response = client.responses.create(
-            model="gpt-4.1-mini",
-            input=prompt
-        )
+        response = client.responses.create(model="gpt-4.1-mini", input=prompt)
 
         print(response.output_text)
 
         new_file = out_new / f"{row['Filename']}.txt"
         with open(new_file, "w") as f:
             f.write(response.output_text)
-
 
         # count += 1
         # row_batch.append(row["Filename"])

@@ -1,4 +1,5 @@
 from pathlib import Path
+
 import pandas as pd
 
 data_folder = Path("./data/video")
@@ -32,10 +33,9 @@ vidoes_data_folder = set(vidoes_data_folder)
 # print(len(videos_traits_file))
 
 
-
 for video in vidoes_data_folder:
     if video not in videos_traits_file:
-        print(video) # nothing here
+        print(video)  # nothing here
 
 invalid_videos_in_traits = list()
 

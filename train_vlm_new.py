@@ -1,45 +1,37 @@
-from transformers import AutoProcessor, AutoModelForImageTextToText
-import torch
-from dataset_dolos import DolosDataset
+from datetime import datetime
+from math import ceil
 from pathlib import Path
-from torch.utils.data import DataLoader, DistributedSampler
-from peft import LoraConfig, get_peft_model
-from rouge_score import rouge_scorer
-import numpy as np
-import json
-from transformers import logging
-logging.set_verbosity_error()
+
 import deepspeed
+import matplotlib.pyplot as plt
+import torch
+import torch.distributed as dist
 from deepspeed.ops.adam import DeepSpeedCPUAdam
 from deepspeed.runtime.lr_schedules import WarmupCosineLR
-from torch.distributed import get_rank, barrier
-from datetime import datetime
-import torch.distributed as dist
-from math import ceil
-from peft import PeftModel
-import os
-import matplotlib.pyplot as plt
+from peft import LoraConfig, get_peft_model
+from torch.distributed import barrier, get_rank
+from torch.utils.data import DataLoader, DistributedSampler
+from transformers import AutoModelForImageTextToText, AutoProcessor, logging
+
+from dataset_dolos import DolosDataset
+
+logging.set_verbosity_error()
 # finetuning only the language model + checking training loss + picking the best model using OpenAI API instead of ROUGE (in another script)
 
 DEFAULT_BATCH_SIZE = 24
-GRAD_ACCU_STEPS = 12 ## change here depending on the devices available
+GRAD_ACCU_STEPS = 12  ## change here depending on the devices available
 
 DS_CONFIG = {
-    "train_batch_size": DEFAULT_BATCH_SIZE, # 1(samples in microbatch) x 12(acc steps) x 4(devices)
-    "gradient_accumulation_steps": GRAD_ACCU_STEPS, 
+    "train_batch_size": DEFAULT_BATCH_SIZE,  # 1(samples in microbatch) x 12(acc steps) x 4(devices)
+    "gradient_accumulation_steps": GRAD_ACCU_STEPS,
     "zero_optimization": {
         "stage": 3,
-        "offload_optimizer": {
-            "device": "cpu",
-            "pin_memory": True
-        }
+        "offload_optimizer": {"device": "cpu", "pin_memory": True},
     },
-    "bf16": {
-        "enabled": True
-    },
+    "bf16": {"enabled": True},
     "activation_checkpointing": {
         "partition_activations": True,
-        "contiguous_memory_optimization": True
+        "contiguous_memory_optimization": True,
     },
 }
 
@@ -56,7 +48,9 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
 for split_id in range(1, 4):
     print(f"Split id: {split_id}")
-    model = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, dtype=torch.bfloat16).to("cuda")
+    model = AutoModelForImageTextToText.from_pretrained(
+        MODEL_PATH, dtype=torch.bfloat16
+    ).to("cuda")
 
     lora_config = LoraConfig(
         r=8,
@@ -73,24 +67,33 @@ for split_id in range(1, 4):
         if "lora" not in name:
             param.requires_grad_(False)
         else:
-            print(name) ## check if only the language model is trained
+            print(name)  ## check if only the language model is trained
 
-    
     train_dataset = DolosDataset(f"data/train_fold{split_id}.csv", Path("./data"))
-    train_sampler = DistributedSampler(train_dataset, num_replicas=dist.get_world_size(), rank=get_rank())
-    train_dataloader = DataLoader(train_dataset, (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(), 
-                                  sampler=train_sampler, collate_fn=lambda batch: ([sample[0] for sample in batch], [sample[1] for sample in batch]))
+    train_sampler = DistributedSampler(
+        train_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
+    )
+    train_dataloader = DataLoader(
+        train_dataset,
+        (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(),
+        sampler=train_sampler,
+        collate_fn=lambda batch: (
+            [sample[0] for sample in batch],
+            [sample[1] for sample in batch],
+        ),
+    )
 
     total_steps = ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     warmup_steps = int(0.1 * total_steps)
-    optimizer = DeepSpeedCPUAdam(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4)
-    scheduler = WarmupCosineLR(optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps)
+    optimizer = DeepSpeedCPUAdam(
+        filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4
+    )
+    scheduler = WarmupCosineLR(
+        optimizer, total_num_steps=total_steps, warmup_num_steps=warmup_steps
+    )
 
     model_engine, optimizer, _, _ = deepspeed.initialize(
-        model=model,
-        optimizer=optimizer,
-        lr_scheduler=scheduler,
-        config=DS_CONFIG
+        model=model, optimizer=optimizer, lr_scheduler=scheduler, config=DS_CONFIG
     )
 
     all_total_losses = []
@@ -109,7 +112,7 @@ for split_id in range(1, 4):
                     tokenize=True,
                     return_dict=True,
                     return_tensors="pt",
-                    padding=True
+                    padding=True,
                 )
                 Y = processor.apply_chat_template(
                     Y,
@@ -118,14 +121,21 @@ for split_id in range(1, 4):
                     tokenize=True,
                     return_dict=True,
                     return_tensors="pt",
-                    padding=True
+                    padding=True,
                 )
                 inputs = Y
                 labels = inputs["input_ids"].clone()
                 labels[:, : X["input_ids"].shape[1]] = -100
                 labels[labels == processor.tokenizer.pad_token_id] = -100
                 inputs["labels"] = labels
-                inputs = {k: v.to(model_engine.device, dtype=torch.bfloat16) if torch.is_floating_point(v) else v.to(model_engine.device) for k, v in inputs.items()}
+                inputs = {
+                    k: (
+                        v.to(model_engine.device, dtype=torch.bfloat16)
+                        if torch.is_floating_point(v)
+                        else v.to(model_engine.device)
+                    )
+                    for k, v in inputs.items()
+                }
                 output = model_engine(**inputs)
 
                 loss = output.loss
@@ -141,11 +151,13 @@ for split_id in range(1, 4):
                 print(f"Train loss: {total_loss}")
                 all_total_losses.append(total_loss.cpu().item())
             barrier()
-            
-            model_engine.save_pretrained(f"out/{timestamp}/model_split{split_id}_epoch{epoch}")  
+
+            model_engine.save_pretrained(
+                f"out/{timestamp}/model_split{split_id}_epoch{epoch}"
+            )
 
         if get_rank() == 0:
-            plt.plot(all_total_losses, marker='o')
+            plt.plot(all_total_losses, marker="o")
             plt.title("Train Loss Plot")
             plt.xlabel("Epoch")
             plt.ylabel("Loss")
@@ -153,5 +165,7 @@ for split_id in range(1, 4):
             plt.grid(True)
             plt.tight_layout()
 
-            plt.savefig(f"out/{timestamp}/model_split{split_id}_train_losses.png") ## check if underfitting
+            plt.savefig(
+                f"out/{timestamp}/model_split{split_id}_train_losses.png"
+            )  ## check if underfitting
         barrier()
