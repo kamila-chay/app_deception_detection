@@ -128,7 +128,7 @@ for split_id in range(1, 4):
                 inputs["labels"] = labels
                 inputs = {
                     k: (
-                        v.to(model_engine.device, dtype=torch.bfloat16)
+                        v.to(device=model_engine.device, dtype=torch.bfloat16)
                         if torch.is_floating_point(v)
                         else v.to(model_engine.device)
                     )
