@@ -9,7 +9,7 @@ from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from utils.dataset_dolos import DolosDataset
+from thesis.utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 
@@ -35,7 +35,9 @@ prompt_2 = "\n\nText 2:\n"
 for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
-    train_dataset = DolosDataset(f"thesis/data/train_fold{split_id}.csv", Path("./data"))
+    train_dataset = DolosDataset(
+        f"thesis/data/train_fold{split_id}.csv", Path("./data")
+    )
     train_dataloader = DataLoader(
         train_dataset,
         DEFAULT_BATCH_SIZE,

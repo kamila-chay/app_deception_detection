@@ -11,15 +11,17 @@ from transformers import (
     pipeline,
 )
 
-from utils.dataset_dolos import DolosClassificationDataset
-from utils.utils import overlay_attention, roll_out_attn_map, set_seed
+from thesis.utils.dataset_dolos import DolosClassificationDataset
+from thesis.utils.utils import overlay_attention, roll_out_attn_map, set_seed
 
 set_seed(42)
 
 BATCH_SIZE = 1
 EPOCHS = 20
 
-Path("thesis/data/attn_rollout_reasoning_labels/heatmaps").mkdir(parents=True, exist_ok=True)
+Path("thesis/data/attn_rollout_reasoning_labels/heatmaps").mkdir(
+    parents=True, exist_ok=True
+)
 
 timestamp = "2025-11-03_00-45"
 
@@ -108,7 +110,9 @@ Write a **short, objective summary** describing **where and when** the model foc
             ]
             print(out)
             print("==================")
-            with open(f"thesis/data/attn_rollout_reasoning_labels/{name}.txt", "w") as f:
+            with open(
+                f"thesis/data/attn_rollout_reasoning_labels/{name}.txt", "w"
+            ) as f:
                 f.write(out)
         else:
             print("NONE===========")

@@ -5,7 +5,7 @@ from openai import OpenAI
 from peft import PeftModel
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from utils.dataset_dolos import DolosDataset
+from thesis.utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 

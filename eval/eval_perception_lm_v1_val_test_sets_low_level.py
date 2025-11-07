@@ -8,7 +8,7 @@ from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from utils.dataset_dolos import DolosDataset
+from thesis.utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 

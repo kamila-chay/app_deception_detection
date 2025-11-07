@@ -13,7 +13,7 @@ from torch.distributed import barrier, get_rank
 from torch.utils.data import DataLoader, DistributedSampler
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from utils.dataset_dolos import DolosDataset
+from thesis.utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 # finetuning only the language model + checking training loss + picking the best model using OpenAI API instead of ROUGE (in another script)
@@ -69,7 +69,9 @@ for split_id in range(1, 4):
         else:
             print(name)  ## check if only the language model is trained
 
-    train_dataset = DolosDataset(f"thesis/data/train_fold{split_id}.csv", Path("./data"))
+    train_dataset = DolosDataset(
+        f"thesis/data/train_fold{split_id}.csv", Path("./data")
+    )
     train_sampler = DistributedSampler(
         train_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
     )

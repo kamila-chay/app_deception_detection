@@ -12,7 +12,7 @@ from torch.distributed import get_rank
 from torch.utils.data import DataLoader, DistributedSampler
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from utils.dataset_dolos import DolosDataset
+from thesis.utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 
@@ -68,7 +68,9 @@ for split_id in range(1, 4):
             param.requires_grad_ = False
             param.requires_grad = False
 
-    train_dataset = DolosDataset(f"thesis/data/train_fold{split_id}.csv", Path("./data"))
+    train_dataset = DolosDataset(
+        f"thesis/data/train_fold{split_id}.csv", Path("./data")
+    )
     train_sampler = DistributedSampler(
         train_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
     )

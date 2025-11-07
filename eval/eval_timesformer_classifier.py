@@ -6,10 +6,9 @@ from transformers import (
     TimesformerConfig,
     TimesformerForVideoClassification,
 )
-print(__package__)
+
 from thesis.utils.dataset_dolos import DolosClassificationDataset
 from thesis.utils.utils import set_seed
-
 
 set_seed(42)
 
