@@ -23,7 +23,7 @@ GRAD_ACCU_STEPS = 2
 RET_SEQUENCES = 4
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-dir_path = Path(f"out/{timestamp}")
+dir_path = Path(f"thesis/out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
 prev_timestamp = (
@@ -45,7 +45,7 @@ for split_id in range(1, 2):  # change!
         MODEL_PATH, dtype=torch.bfloat16
     ).to("cuda")
     model = PeftModel.from_pretrained(
-        model, f"out/{prev_timestamp}/model_split{split_id}_epoch4"
+        model, f"thesis/out/{prev_timestamp}/model_split{split_id}_epoch4"
     ).to("cuda")
     model.train()
 
@@ -200,7 +200,7 @@ for split_id in range(1, 2):  # change!
             optimizer.step()
             optimizer.no_grad()
 
-    #     model.save_pretrained(f"out/{timestamp}/model_split{split_id}_epoch{epoch}")
+    #     model.save_pretrained(f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}")
 
     # if get_rank() == 0:
     #     plt.plot(all_total_losses, marker='o')
@@ -211,5 +211,5 @@ for split_id in range(1, 2):  # change!
     #     plt.grid(True)
     #     plt.tight_layout()
 
-    #     plt.savefig(f"out/{timestamp}/model_split{split_id}_train_losses.png") ## check if underfitting
+    #     plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png") ## check if underfitting
     # barrier()

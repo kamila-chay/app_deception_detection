@@ -34,7 +34,7 @@ DS_CONFIG = {
 }
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-dir_path = Path(f"out/{timestamp}")
+dir_path = Path(f"thesis/out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
 deepspeed.init_distributed()
@@ -141,14 +141,14 @@ for split_id in range(1, 4):
                 model_engine.step()
 
             model_engine.save_pretrained(
-                f"out/{timestamp}/model_split{split_id}_epoch{epoch}"
+                f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
             )
 
             # if get_rank() == 0:
             #     t0 = time.time()
             #     print(f"Eval started at {t0:.2f}")
             #     base = AutoModelForImageTextToText.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16)
-            #     model_single = PeftModel.from_pretrained(base, f"out/{timestamp}/model_subject{subject_id}_epoch{epoch}")
+            #     model_single = PeftModel.from_pretrained(base, f"thesis/out/{timestamp}/model_subject{subject_id}_epoch{epoch}")
             #     model_single.to("cuda:0").eval()
             #     with torch.inference_mode():
             #         print("Evaluation")
@@ -230,7 +230,7 @@ for split_id in range(1, 4):
             #                     all_test_scores.append(np.mean([score["rouge1"].fmeasure, score["rouge2"].fmeasure, score["rougeL"].fmeasure]))
             #             best_rouge_test_score = np.mean(all_test_scores) # from the top validation score, we don't get to choose based on the test split!
             #             print(f"  Top val score for this subject, the corresponding test score is {best_rouge_test_score}")
-            #             with open(f"out/{timestamp}/model_subject{subject_id}_info.json", "w") as f:
+            #             with open(f"thesis/out/{timestamp}/model_subject{subject_id}_info.json", "w") as f:
             #                 json.dump({"best_epoch": epoch,
             #                            "val_rouge_score": best_rouge_val_score,
             #                            "test_rouge_score": best_rouge_test_score},
@@ -245,6 +245,6 @@ for split_id in range(1, 4):
 #     barrier()
 
 # if get_rank() == 0:
-#     with open(f"out/{timestamp}/test_scores_per_subject.json", "w") as f:
+#     with open(f"thesis/out/{timestamp}/test_scores_per_subject.json", "w") as f:
 #         json.dump(best_test_scores_per_subject, f)
 # barrier()

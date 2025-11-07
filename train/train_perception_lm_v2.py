@@ -36,7 +36,7 @@ DS_CONFIG = {
 }
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-dir_path = Path(f"out/{timestamp}")
+dir_path = Path(f"thesis/out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
 deepspeed.init_distributed()
@@ -155,7 +155,7 @@ for split_id in range(1, 4):
             barrier()
 
             model_engine.save_pretrained(
-                f"out/{timestamp}/model_split{split_id}_epoch{epoch}"
+                f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
             )
 
         if get_rank() == 0:
@@ -168,6 +168,6 @@ for split_id in range(1, 4):
             plt.tight_layout()
 
             plt.savefig(
-                f"out/{timestamp}/model_split{split_id}_train_losses.png"
+                f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png"
             )  ## check if underfitting
         barrier()

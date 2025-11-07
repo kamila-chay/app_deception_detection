@@ -15,7 +15,7 @@ logging.set_verbosity_error()
 DEFAULT_BATCH_SIZE = 8
 
 timestamp = "2025-11-01_01-36"
-dir_path = Path(f"out/{timestamp}")
+dir_path = Path(f"thesis/out/{timestamp}")
 
 MODEL_PATH = "facebook/Perception-LM-1B"
 NUM_EPOCHS = 10
@@ -58,7 +58,7 @@ for split_id in range(1, 2):
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
         model = PeftModel.from_pretrained(
-            base, f"out/{timestamp}/model_split{split_id}_epoch{epoch}"
+            base, f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
         )
         model = model.to("cuda:0").eval()
         all_scores = []
@@ -182,7 +182,7 @@ for split_id in range(1, 2):
                 print(
                     f"  Top val score for this split, the corresponding test score is {best_rouge_test_score}"
                 )
-                with open(f"out/{timestamp}/model_split{split_id}_info.json", "w") as f:
+                with open(f"thesis/out/{timestamp}/model_split{split_id}_info.json", "w") as f:
                     json.dump(
                         {
                             "best_epoch": epoch,

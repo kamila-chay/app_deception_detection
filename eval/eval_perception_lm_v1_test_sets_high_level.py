@@ -11,14 +11,14 @@ logging.set_verbosity_error()
 
 client = OpenAI()
 
-out_dir = Path("out/perception_lm_v1_test_sets_high_level_eval")
+out_dir = Path("thesis/out/perception_lm_v1_test_sets_high_level_eval")
 out_dir.mkdir(parents=True, exist_ok=True)
 
-timestamps = ["2025-11-01_01-36", "2025-11-01_01-36", "2025-11-02_00-44"]
+timestamp = "2025-11-01_01-36"
 models = [
-    f"out/{timestamps[0]}/model_split1_epoch3",
-    f"out/{timestamps[1]}/model_split2_epoch4",
-    f"out/{timestamps[2]}/model_split3_epoch2",
+    f"thesis/out/{timestamp}/model_split1_epoch3",
+    f"thesis/out/{timestamp}/model_split2_epoch4",
+    f"thesis/out/{timestamp}/model_split3_epoch2",
 ]
 
 MODEL_PATH = "facebook/Perception-LM-1B"

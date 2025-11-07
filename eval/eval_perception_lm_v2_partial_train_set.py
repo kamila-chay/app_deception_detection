@@ -55,7 +55,7 @@ for split_id in range(1, 2):
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
         model = PeftModel.from_pretrained(
-            base, f"out/{timestamp}/model_split{split_id}_epoch{epoch}"
+            base, f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
         )
         model = model.to("cuda:0").eval()
         all_rouge_scores_per_epoch = []
@@ -138,7 +138,7 @@ for split_id in range(1, 2):
         print(all_label_scores)
         print(all_cue_scores)
 
-    with open(f"out/{timestamp}/model_split{split_id}_train_only_info.json", "w") as f:
+    with open(f"thesis/out/{timestamp}/model_split{split_id}_train_only_info.json", "w") as f:
         json.dump(
             {
                 "rouge_scores": all_rouge_scores,

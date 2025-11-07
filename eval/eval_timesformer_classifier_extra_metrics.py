@@ -35,8 +35,8 @@ for split_id, epoch in ((1, 16), (2, 12), (3, 12)):
     )
     test_dataloader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-    save_path_lora = f"out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
-    save_path = f"out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
+    save_path_lora = f"thesis/out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
+    save_path = f"thesis/out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
 
     model = TimesformerForVideoClassification.from_pretrained(
         "facebook/timesformer-base-finetuned-k600",

@@ -25,7 +25,7 @@ GRAD_ACCU_STEPS = 4
 EPOCHS = 20
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-out_dir = Path(f"out/{timestamp}")
+out_dir = Path(f"thesis/out/{timestamp}")
 out_dir.mkdir(parents=True, exist_ok=True)
 
 lora_config = LoraConfig(
@@ -112,8 +112,8 @@ for split_id in range(1, 4):
             model_engine.step()
 
         save_path_lora = (
-            f"out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
+            f"thesis/out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
         )
-        save_path = f"out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
+        save_path = f"thesis/out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
         lora_model.save_pretrained(save_path_lora)
         torch.save(lora_model.base_model.model.classifier.state_dict(), save_path)
