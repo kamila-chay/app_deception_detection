@@ -2,10 +2,10 @@ import copy
 import random
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 from openai import OpenAI
 from scipy import stats
-import numpy as np
 
 client = OpenAI()
 
