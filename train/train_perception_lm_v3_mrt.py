@@ -10,17 +10,21 @@ from torch.optim import AdamW
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
+import matplotlib.pyplot as plt
 
 from thesis.utils.dataset_dolos import DolosDataset
+from thesis.utils.utils import set_seed
 
 logging.set_verbosity_error()
+
+set_seed(42)
 
 client = OpenAI()
 # finetuning only the language model + checking training loss + using MRT from epoch 5
 
-DEFAULT_BATCH_SIZE = 2  # cus we have 8 outputs per input
+DEFAULT_BATCH_SIZE = 2
 GRAD_ACCU_STEPS = 2
-RET_SEQUENCES = 4
+RET_SEQUENCES = 8
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
@@ -29,7 +33,7 @@ dir_path.mkdir(parents=True, exist_ok=True)
 prev_timestamp = "2025-11-05_13-36"
 
 MODEL_PATH = "facebook/Perception-LM-1B"  # kept, for fair comparison, more capacity and better video understanding abilities
-NUM_EPOCHS = 1  # change!
+NUM_EPOCHS = 3
 
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
@@ -67,7 +71,7 @@ for split_id in range(1, 2):  # change!
     )
 
     total_steps = (
-        ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
+        ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS * 2
     )  # check if makes sense!
     optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4)
     scheduler = CosineAnnealingLR(optimizer, T_max=total_steps, eta_min=1e-6)
@@ -78,8 +82,6 @@ for split_id in range(1, 2):  # change!
         print(f"Epoch: {epoch}")
         total_loss = 0
         for i, (input, input_completed) in enumerate(train_dataloader):
-            if i == 1:
-                break
             input = processor.apply_chat_template(
                 input,
                 num_frames=16,
@@ -191,24 +193,32 @@ for split_id in range(1, 2):  # change!
 
             risk_values = torch.tensor(risk_values).to(q.device)
 
-            loss = (q * risk_values).mean()  # maybe sum? maybe log q?
+            loss = (q * risk_values).sum() / GRAD_ACCU_STEPS # maybe mean? maybe log q?
+            total_loss += loss
             print(loss)
 
             loss.backward()
-            # change this to include grad accumulation
-            optimizer.step()
-            optimizer.no_grad()
+            if i % GRAD_ACCU_STEPS == GRAD_ACCU_STEPS - 1:
+                optimizer.step()
+                scheduler.step()
+                optimizer.zero_grad()
+        
+        optimizer.step()
+        scheduler.step()
+        optimizer.zero_grad()
 
-    #     model.save_pretrained(f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}")
+        total_loss /= len(train_dataset)
+        all_total_losses.append(total_loss)
+        print(all_total_losses)
 
-    # if get_rank() == 0:
-    #     plt.plot(all_total_losses, marker='o')
-    #     plt.title("Train Loss Plot")
-    #     plt.xlabel("Epoch")
-    #     plt.ylabel("Loss")
+        model.save_pretrained(f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}")
 
-    #     plt.grid(True)
-    #     plt.tight_layout()
+    plt.plot(all_total_losses, marker='o')
+    plt.title("Train Loss Plot")
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
 
-    #     plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png") ## check if underfitting
-    # barrier()
+    plt.grid(True)
+    plt.tight_layout()
+
+    plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png") ## check if underfitting
