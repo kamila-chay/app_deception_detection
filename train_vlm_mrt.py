@@ -121,7 +121,7 @@ for split_id in range(1, 2): # change!
             log_probs = F.log_softmax(logits, dim=-1)
             token_log_probs = log_probs.gather(
                 -1, generated_ids_trimmed.unsqueeze(-1)
-            ).squeeze(-1) # what is happening to padding here?
+            ).squeeze(-1)
 
             print(token_log_probs)
             print(token_log_probs.shape)
@@ -133,11 +133,13 @@ for split_id in range(1, 2): # change!
             sequence_log_probs = token_log_probs.sum(dim=-1)
             print(sequence_log_probs)
 
+            sequence_log_probs *= 0.1
+            sequence_log_probs = sequence_log_probs - torch.max(sequence_log_probs)
 
-            sequence_log_probs = sequence_log_probs.exp() ** 0.1
-            q = sequence_log_probs / sequence_log_probs.sum() # what to do with this?
+            sequence_probs = sequence_log_probs.exp()
+            q = sequence_probs / sequence_probs.sum()
 
-            print(q)
+            print(q) # nans here so fix it!
             
             
             expected_ids_trimmed = Y["input_ids"][:, X["input_ids"].size(1):]
@@ -147,7 +149,7 @@ for split_id in range(1, 2): # change!
             
             print(expected_text_trimmed) # calculate risk using OpenAI
 
-            # just q times risk and calculate mean -> this will be your loss, we wanna minimize it, so risk should be higher the worse the output  is (the opposite of evalution so far) -> then just backward and we should calculate the reinforce gradient
+            # just q times risk and calculate mean -> this will be your loss, we wanna minimize it, so risk should be higher the worse the output  is (the opposite of evalution so far) -> then just backward and we should calculate the reinforce gradient, sometimes we can make the risk negative to encourage the model to produce certain outputs~
 
             # loss = ...
             # total_loss += loss.item() * labels.size(0)
