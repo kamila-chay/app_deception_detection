@@ -26,9 +26,7 @@ timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
-prev_timestamp = (
-    "2025-11-05_13-36_perception_lm_v2_language_only__better_eval__train_loss"
-)
+prev_timestamp = "2025-11-05_13-36"
 
 MODEL_PATH = "facebook/Perception-LM-1B"  # kept, for fair comparison, more capacity and better video understanding abilities
 NUM_EPOCHS = 1  # change!
