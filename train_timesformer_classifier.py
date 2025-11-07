@@ -22,7 +22,7 @@ set_seed(42)
 
 BATCH_SIZE = 72
 GRAD_ACCU_STEPS = 4
-EPOCHS = 30
+EPOCHS = 20
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 out_dir = Path(f"out/{timestamp}")

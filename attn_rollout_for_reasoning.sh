@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH -p ampere
 #SBATCH -t 4-00:00:00
-#SBATCH -o out_attn_rollout_for_reasoning.txt
-#SBATCH -e error_attn_rollout_for_reasoning.txt
+#SBATCH -o out/logs/out_attn_rollout_for_reasoning.txt
+#SBATCH -o out/logs/error_attn_rollout_for_reasoning.txt
 
 source /home/kamila14/timesformer_experiment/bin/activate
 export CPLUS_INCLUDE_PATH=/home/kamila14/miniconda3/envs/myenv/include/python3.10
