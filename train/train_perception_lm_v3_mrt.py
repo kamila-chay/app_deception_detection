@@ -22,9 +22,12 @@ set_seed(42)
 client = OpenAI()
 # finetuning only the language model + checking training loss + using MRT from epoch 5
 
+NUM_DEVICES = 1 # fixed here
 DEFAULT_BATCH_SIZE = 2
 GRAD_ACCU_STEPS = 2
-RET_SEQUENCES = 8
+MICRO_BATCH = 1
+
+RET_SEQUENCES = 4
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
@@ -62,7 +65,7 @@ for split_id in range(1, 2):  # change!
     )
     train_dataloader = DataLoader(
         train_dataset,
-        DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS,
+        MICRO_BATCH,
         shuffle=True,
         collate_fn=lambda batch: (
             [sample[0] for sample in batch],
@@ -71,8 +74,8 @@ for split_id in range(1, 2):  # change!
     )
 
     total_steps = (
-        ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS * 2
-    )  # check if makes sense!
+        ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS * 2 # so that we stop in the middle!
+    )
     optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-4)
     scheduler = CosineAnnealingLR(optimizer, T_max=total_steps, eta_min=1e-6)
 
@@ -199,6 +202,14 @@ for split_id in range(1, 2):  # change!
 
             loss.backward()
             if i % GRAD_ACCU_STEPS == GRAD_ACCU_STEPS - 1:
+                total_norm = torch.norm(
+                    torch.stack([
+                        torch.norm(p.grad.detach(), 2)
+                        for p in model.parameters() if p.grad is not None
+                    ]),
+                    2
+                ).item()
+                print(f"Total grad norm: {total_norm}")
                 optimizer.step()
                 scheduler.step()
                 optimizer.zero_grad()
@@ -208,10 +219,16 @@ for split_id in range(1, 2):  # change!
         optimizer.zero_grad()
 
         total_loss /= len(train_dataset)
-        all_total_losses.append(total_loss)
+        all_total_losses.append(total_loss.cpu().item())
         print(all_total_losses)
 
-        model.save_pretrained(f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}")
+        save_dir = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
+        model.save_pretrained(save_dir)
+
+        torch.save({
+            'optimizer_state_dict': optimizer.state_dict(),
+            'scheduler_state_dict': scheduler.state_dict(),
+        }, Path(save_dir) / "training_state.pt")
 
     plt.plot(all_total_losses, marker='o')
     plt.title("Train Loss Plot")
@@ -221,4 +238,4 @@ for split_id in range(1, 2):  # change!
     plt.grid(True)
     plt.tight_layout()
 
-    plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png") ## check if underfitting
+    plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png")
