@@ -45,7 +45,9 @@ with torch.inference_mode():
             save_path_lora = (
                 f"thesis/out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
             )
-            save_path = f"thesis/out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
+            save_path = (
+                f"thesis/out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
+            )
 
             model = TimesformerForVideoClassification.from_pretrained(
                 "facebook/timesformer-base-finetuned-k600",

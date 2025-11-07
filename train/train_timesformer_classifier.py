@@ -114,6 +114,8 @@ for split_id in range(1, 4):
         save_path_lora = (
             f"thesis/out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
         )
-        save_path = f"thesis/out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
+        save_path = (
+            f"thesis/out/{timestamp}/timesformer_split{split_id}_epoch{epoch}.pt"
+        )
         lora_model.save_pretrained(save_path_lora)
         torch.save(lora_model.base_model.model.classifier.state_dict(), save_path)

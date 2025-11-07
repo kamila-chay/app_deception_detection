@@ -35,7 +35,9 @@ for i in range(3):
     model = PeftModel.from_pretrained(base, models[i]).to("cuda")
     model = model.eval()
 
-    test_dataset = DolosDataset(Path(f"thesis/data/test_fold{i + 1}.csv"), Path("thesis/data"))
+    test_dataset = DolosDataset(
+        Path(f"thesis/data/test_fold{i + 1}.csv"), Path("thesis/data")
+    )
 
     for i in range(len(test_dataset)):
         output_text_file = (

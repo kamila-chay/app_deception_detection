@@ -138,7 +138,9 @@ for split_id in range(1, 2):
         print(all_label_scores)
         print(all_cue_scores)
 
-    with open(f"thesis/out/{timestamp}/model_split{split_id}_train_only_info.json", "w") as f:
+    with open(
+        f"thesis/out/{timestamp}/model_split{split_id}_train_only_info.json", "w"
+    ) as f:
         json.dump(
             {
                 "rouge_scores": all_rouge_scores,

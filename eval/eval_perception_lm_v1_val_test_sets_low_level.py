@@ -30,7 +30,9 @@ base = AutoModelForImageTextToText.from_pretrained(
 for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
-    val_dataset = DolosDataset(f"thesis/data/val_fold{split_id}.csv", Path("thesis/data"))
+    val_dataset = DolosDataset(
+        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data")
+    )
     val_dataloader = DataLoader(
         val_dataset,
         DEFAULT_BATCH_SIZE,
@@ -41,7 +43,9 @@ for split_id in range(1, 2):
         ),
     )
 
-    test_dataset = DolosDataset(f"thesis/data/test_fold{split_id}.csv", Path("thesis/data"))
+    test_dataset = DolosDataset(
+        f"thesis/data/test_fold{split_id}.csv", Path("thesis/data")
+    )
     test_dataloader = DataLoader(
         test_dataset,
         DEFAULT_BATCH_SIZE,
@@ -182,7 +186,9 @@ for split_id in range(1, 2):
                 print(
                     f"  Top val score for this split, the corresponding test score is {best_rouge_test_score}"
                 )
-                with open(f"thesis/out/{timestamp}/model_split{split_id}_info.json", "w") as f:
+                with open(
+                    f"thesis/out/{timestamp}/model_split{split_id}_info.json", "w"
+                ) as f:
                     json.dump(
                         {
                             "best_epoch": epoch,

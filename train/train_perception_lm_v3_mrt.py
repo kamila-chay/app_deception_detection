@@ -125,8 +125,10 @@ for split_id in range(1, 2):  # change!
                 clean_up_tokenization_spaces=False,
             )
 
-            attention_mask = (generated_ids != processor.tokenizer.pad_token_id).to(
-                torch.long, "cuda"
+            attention_mask = (
+                (generated_ids != processor.tokenizer.pad_token_id)
+                .to("cuda")
+                .to(torch.long)
             )
             with torch.enable_grad():
                 output = model(
