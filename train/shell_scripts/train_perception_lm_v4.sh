@@ -7,4 +7,4 @@
 source /home/kamila14/timesformer_experiment/bin/activate
 export CPLUS_INCLUDE_PATH=/home/kamila14/miniconda3/envs/myenv/include/python3.10
 
-CUDA_VISIBLE_DEVICES=0,1 python -m deepspeed.launcher.launch thesis/train/train_perception_lm_v4.py --num_gpus=2
+CUDA_VISIBLE_DEVICES=0,1 PYTHONPATH=./thesis:$PYTHONPATH deepspeed thesis/train/train_perception_lm_v4.py --num_gpus=2

@@ -19,7 +19,7 @@ logging.set_verbosity_error()
 # 3 epochs only, LoRA rank 24
 
 DEFAULT_BATCH_SIZE = 24
-GRAD_ACCU_STEPS = 1  ## change here depending on the devices available
+GRAD_ACCU_STEPS = 4  ## change here depending on the devices available
 
 DS_CONFIG = {
     "train_batch_size": DEFAULT_BATCH_SIZE,  # 1(samples in microbatch) x 12(acc steps) x 4(devices)
