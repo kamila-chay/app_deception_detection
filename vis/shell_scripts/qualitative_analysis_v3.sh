@@ -7,4 +7,4 @@
 source /home/kamila14/timesformer_experiment/bin/activate
 export CPLUS_INCLUDE_PATH=/home/kamila14/miniconda3/envs/myenv/include/python3.10
 
-CUDA_VISIBLE_DEVICES=3 python3 -u -m thesis.eval.qualitative_analysis_v3
+CUDA_VISIBLE_DEVICES=3 python3 -u -m thesis.vis.qualitative_analysis_v3

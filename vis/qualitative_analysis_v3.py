@@ -87,7 +87,10 @@ for split_id in range(1, 2):
                 for k, v in X.items()
             }
             with torch.inference_mode():
-                generated_ids = model.generate(**inputs, max_new_tokens=1000)
+                generated_ids = model.generate(**inputs, 
+                                               max_new_tokens=1000, 
+                                               do_sample=True,
+                                               top_k=10)
             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
             expected_ids = Y["input_ids"]
             expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
@@ -140,7 +143,10 @@ for split_id in range(1, 2):
                 for k, v in X.items()
             }
             with torch.inference_mode():
-                generated_ids = model.generate(**inputs, max_new_tokens=1000)
+                generated_ids = model.generate(**inputs, 
+                                               max_new_tokens=1000,
+                                               do_sample=True,
+                                               top_k=10)
             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
             expected_ids = Y["input_ids"]
             expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
