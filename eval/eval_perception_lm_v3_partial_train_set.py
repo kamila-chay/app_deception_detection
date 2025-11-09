@@ -52,7 +52,7 @@ for split_id in range(1, 2):
     all_label_scores = []
     all_cue_scores = []
 
-    for epoch in range(2):
+    for epoch in range(1):
         print(f"Epoch: {epoch}")
         model = PeftModel.from_pretrained(
             base, f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"

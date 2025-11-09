@@ -1,4 +1,5 @@
 import random
+import os
 
 import cv2
 import numpy as np
@@ -39,6 +40,7 @@ def sample_frames_uniformly(video_path, num_samples=8):
 
 
 def set_seed(seed):
+    os.environ["PYTHONHASHSEED"] = str(seed)
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
