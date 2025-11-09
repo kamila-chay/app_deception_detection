@@ -103,7 +103,7 @@ for split_id in range(1, 2):  # change!
 
     optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-3)
     total_steps = (
-        ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS * 2 # so that we stop in the middle!
+        ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     )
     warmup_steps = int(0.1 * total_steps)
     scheduler = get_cosine_schedule_with_warmup(
@@ -236,7 +236,7 @@ for split_id in range(1, 2):  # change!
 
             risk_values = torch.tensor(risk_values).to(q.device)
 
-            loss = (q * risk_values).sum() / GRAD_ACCU_STEPS # maybe mean? maybe log q?
+            loss = (q * risk_values).sum() # maybe mean? maybe log q? maybe / GRAD_ACCU_STEPS
             total_loss += loss
             print(loss)
 
@@ -251,11 +251,8 @@ for split_id in range(1, 2):  # change!
                     2
                 ).item()
 
-                per_layer_norm_named = {name: torch.norm(p.grad.detach(), 2)
-                    for name, p in model.named_parameters() if p.grad is not None
-                }
                 print(f"Total grad norm: {total_norm}")
-                print(f"Per-layer grad norm: {per_layer_norm_named}")
+                print(f"Per-layer grad norm: {per_layer_norm[0::3]}")
                 torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, model.parameters()), max_norm=1.0)
                 optimizer.step()
                 scheduler.step()
