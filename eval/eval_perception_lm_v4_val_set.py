@@ -13,14 +13,11 @@ from thesis.utils.dataset_dolos import DolosDataset
 
 logging.set_verbosity_error()
 
-# so here train set's metrics didn't improve and that's why we didn't even bother using the test set
+DEFAULT_BATCH_SIZE = 2
 
-DEFAULT_BATCH_SIZE = 8
-
-timestamp = "2025-11-05_13-36"
+timestamp = "2025-11-08_18-52"
 
 MODEL_PATH = "facebook/Perception-LM-1B"
-NUM_EPOCHS = 10
 
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 base = AutoModelForImageTextToText.from_pretrained(
@@ -37,11 +34,11 @@ prompt_2 = "\n\nText 2:\n"
 for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
-    train_dataset = DolosDataset(
-        f"thesis/data/train_fold{split_id}.csv", Path("thesis/data")
+    val_dataset = DolosDataset(
+        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data")
     )
-    train_dataloader = DataLoader(
-        train_dataset,
+    val_dataloader = DataLoader(
+        val_dataset,
         DEFAULT_BATCH_SIZE,
         shuffle=False,
         collate_fn=lambda batch: (
@@ -54,7 +51,7 @@ for split_id in range(1, 2):
     all_label_scores = []
     all_cue_scores = []
 
-    for epoch in range(NUM_EPOCHS):
+    for epoch in range(3):
         print(f"Epoch: {epoch}")
         model = PeftModel.from_pretrained(
             base, f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
@@ -63,9 +60,7 @@ for split_id in range(1, 2):
         all_rouge_scores_per_epoch = []
         all_label_scores_per_epoch = []
         all_cue_scores_per_epoch = []
-        for i, (X, Y) in enumerate(train_dataloader):
-            if i % 10 != 0:
-                continue
+        for X, Y in val_dataloader:
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -93,7 +88,12 @@ for split_id in range(1, 2):
                 for k, v in X.items()
             }
             with torch.inference_mode():
-                generated_ids = model.generate(**inputs, max_new_tokens=1000)
+                generated_ids = model.generate(**inputs, 
+                                               max_new_tokens=1000,
+                                               do_sample=True,
+                                               top_k=6, 
+                                               repetition_penalty=1.2,
+                                               no_repeat_ngram_size=3)
             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
             expected_ids = Y["input_ids"]
             expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
@@ -141,7 +141,7 @@ for split_id in range(1, 2):
         print(all_cue_scores)
 
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_train_only_info.json", "w"
+        f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
     ) as f:
         json.dump(
             {
