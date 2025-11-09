@@ -34,7 +34,7 @@ client = OpenAI()
 
 NUM_DEVICES = 1 # fixed here
 DEFAULT_BATCH_SIZE = 2
-GRAD_ACCU_STEPS = 2
+GRAD_ACCU_STEPS = 8
 MICRO_BATCH = 1
 VAL_BATCH = 16
 VAL_RUN_FREQ = 20
@@ -333,11 +333,13 @@ for split_id in range(1, 2):  # change!
                             )
                             print(f"*******Rouge score********")
                             print(rouge_score)
-        
-        if any(p.grad is not None and p.grad.abs().sum()>0 for p in optimizer.param_groups[0]['params']):
-            optimizer.step()
-            scheduler.step()
-            optimizer.zero_grad()
+        try:
+            if any(p.grad is not None and p.grad.abs().sum()>0 for p in optimizer.param_groups[0]['params']):
+                optimizer.step()
+                scheduler.step()
+                optimizer.zero_grad()
+        except:
+            print("Error in leftovers")
 
         total_loss /= len(train_dataset)
         all_total_losses.append(total_loss.cpu().item())
