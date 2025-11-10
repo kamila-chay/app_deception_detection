@@ -245,7 +245,7 @@ for split_id in range(1, 2):  # change!
 
                 print(f"Total grad norm: {total_norm}")
                 print(f"Per-layer grad norm: {per_layer_norm[0::3]}")
-                torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, model.parameters()), max_norm=1.0)
+                torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, model.parameters()), max_norm=3.0)
                 optimizer.step()
                 scheduler.step()
                 optimizer.zero_grad()
@@ -258,7 +258,7 @@ for split_id in range(1, 2):  # change!
                     'optimizer_state_dict': optimizer.state_dict(),
                     'scheduler_state_dict': scheduler.state_dict(),
                 }, Path(save_dir) / "training_state.pt")
-                
+
                 with open("validation_output.txt", "a") as f:
                     print(f"From minibatch {i} ====>", file=f)
                     for j, (input, input_completed) in enumerate(val_dataloader):
