@@ -34,11 +34,12 @@ TEMP = 0.1
 
 RET_SEQUENCES = 4
 
-timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-dir_path = Path(f"thesis/out/{timestamp}")
-dir_path.mkdir(parents=True, exist_ok=True)
+timestamp = "2025-11-10_15-50"
+# dir_path = Path(f"thesis/out/{timestamp}")
+# dir_path.mkdir(parents=True, exist_ok=True)
 
-token_level_timestamp = "2025-11-05_13-36"
+token_level_timestamp = "2025-11-10_15-50"
+# "2025-11-05_13-36"
 
 MODEL_PATH = "facebook/Perception-LM-1B"
 NUM_EPOCHS = 3
@@ -57,7 +58,7 @@ for split_id in range(1, 2):  # change!
         MODEL_PATH, dtype=torch.bfloat16
     ).to("cuda")
     model = PeftModel.from_pretrained(
-        model, f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch4"
+        model, f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch0_minibatch239"
     ).to("cuda")
     model.train()
 
@@ -104,12 +105,20 @@ for split_id in range(1, 2):  # change!
         num_training_steps=total_steps,
     )
 
+    optim_checkpoint = torch.load(f"thesis/out/{token_level_timestamp}/"
+                                  "model_split{split_id}_epoch0_minibatch239/training_state.pt")
+    
+    optimizer.load_state_dict(optim_checkpoint["optimizer_state_dict"])
+    scheduler.load_state_dict(optim_checkpoint["scheduler_state_dict"])
+
     all_total_losses = []
 
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
-        total_loss = 0
+        total_loss = 0 # CAREFUL: it will be skewed in epoch 0!
         for i, (input, input_completed) in enumerate(train_dataloader):
+            if epoch == 0 and i <= 239:
+                continue
             input = processor.apply_chat_template(
                 input,
                 num_frames=16,
@@ -199,17 +208,21 @@ for split_id in range(1, 2):  # change!
 
             for text in generated_text_trimmed:
                 full_prompt = prompt_1 + text + prompt_2 + expected_text_trimmed
-
-                response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt
-                )
+                
+                try:
+                    response = client.responses.create(
+                        model="gpt-4.1-mini", input=full_prompt
+                    )
+                except:
+                    response = None
+                    print("WARNING: Error getting a response from OpenAI")
 
                 label_score = 0
                 cues_score = 0
 
                 try:
                     label_score, cues_score = map(float, response.output_text.split())
-                except ValueError:
+                except:
                     print(
                         f"WARNING: Incorrect answer from OpenAI: {response.output_text}"
                     )
