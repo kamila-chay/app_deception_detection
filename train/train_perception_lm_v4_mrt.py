@@ -15,7 +15,6 @@ import torch.nn.functional as F
 from openai import OpenAI
 from peft import PeftModel
 from torch.optim import AdamW
-from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 import matplotlib.pyplot as plt
@@ -331,7 +330,7 @@ for split_id in range(1, 2):  # change!
                                     rouge_score["rougeL"].fmeasure,
                                 ]
                             )
-                            print(f"*******Rouge score********", file=f)
+                            print("*******Rouge score********", file=f)
                             print(rouge_score, file=f)
         try:
             if any(p.grad is not None and p.grad.abs().sum()>0 for p in optimizer.param_groups[0]['params']):

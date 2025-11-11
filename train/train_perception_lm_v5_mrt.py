@@ -1,4 +1,3 @@
-from datetime import datetime
 from math import ceil
 from pathlib import Path
 
@@ -7,7 +6,6 @@ import torch.nn.functional as F
 from openai import OpenAI
 from peft import PeftModel
 from torch.optim import AdamW
-from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 import matplotlib.pyplot as plt
@@ -105,8 +103,7 @@ for split_id in range(1, 2):  # change!
         num_training_steps=total_steps,
     )
 
-    optim_checkpoint = torch.load(f"thesis/out/{token_level_timestamp}/"
-                                  "model_split{split_id}_epoch0_minibatch239/training_state.pt")
+    optim_checkpoint = torch.load(f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch0_minibatch239/training_state.pt")
     
     optimizer.load_state_dict(optim_checkpoint["optimizer_state_dict"])
     scheduler.load_state_dict(optim_checkpoint["scheduler_state_dict"])
@@ -344,7 +341,7 @@ for split_id in range(1, 2):  # change!
                                     rouge_score["rougeL"].fmeasure,
                                 ]
                             )
-                            print(f"*******Rouge score********", file=f)
+                            print("*******Rouge score********", file=f)
                             print(rouge_score, file=f)
         try:
             if any(p.grad is not None and p.grad.abs().sum()>0 for p in optimizer.param_groups[0]['params']):
