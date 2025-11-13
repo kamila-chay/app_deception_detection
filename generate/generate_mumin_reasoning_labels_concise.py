@@ -1,11 +1,9 @@
-import copy
 import logging
 from pathlib import Path
 from typing import List
 
 import pandas as pd
 from openai import OpenAI
-from time import sleep
 
 # ============================ CONFIGURATION ============================
 
