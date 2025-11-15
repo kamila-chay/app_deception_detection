@@ -155,8 +155,7 @@ for split_id in range(1, 4):
                 for k, v in inputs.items()
             }
 
-            with torch.enable_grad():
-                output = model_engine(**inputs)
+            output = model_engine(**inputs)
 
             loss = output.loss
             total_loss += loss.item() * labels.size(0)
@@ -211,7 +210,7 @@ for split_id in range(1, 4):
                 for k, v in inputs.items()
             }
 
-            with torch.inference_mode():
+            with torch.no_grad():
                 output = model_engine(**inputs)
 
             loss = output.loss
