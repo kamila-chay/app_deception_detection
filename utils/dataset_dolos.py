@@ -45,9 +45,10 @@ def create_conv_template(video_path, completion=""):
 
 
 class DolosDataset(Dataset):
-    def __init__(self, info, folder):
+    def __init__(self, info, folder, label_folder="mumin_reasoning_labels"):
         self.info = pd.read_csv(info, header=None)
         self.folder = folder
+        self.label_folder = label_folder
 
     def __len__(self):
         return len(self.info)
@@ -55,7 +56,7 @@ class DolosDataset(Dataset):
     def __getitem__(self, index):
         filename = self.info.iloc[index, 0]
         filepath = self.folder / "video" / f"{filename}.mp4"
-        labelpath = self.folder / "mumin_reasoning_labels" / f"{filename}.txt"
+        labelpath = self.folder / self.label_folder / f"{filename}.txt"
         with open(labelpath, "r") as f:
             label = f.read()
         return create_conv_template(filepath), create_conv_template(
