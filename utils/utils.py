@@ -88,3 +88,20 @@ def roll_out_attn_map(attentions, num_attn_maps, patch_num_height, patch_num_wid
         - attn_map.min(axis=(1, 2), keepdims=True)
     )
     return attn_map
+
+def concatenate_token_ids(token_ids1, token_ids2, pad_token_id):
+    if token_ids1.size(1) == token_ids2.size(1):
+        return torch.concat([token_ids1, token_ids2], dim=0)
+    pad_token_id = torch.tensor([[pad_token_id]])
+    if token_ids1.size(1) > token_ids2.size(1):
+        extra_padding = pad_token_id.repeat(token_ids2.size(0), token_ids1.size(1) - token_ids2.size(1))
+        token_ids2 = torch.concat([token_ids2, extra_padding], dim=1)
+    else:
+        extra_padding = pad_token_id.repeat(token_ids1.size(0), token_ids2.size(1) - token_ids1.size(1))
+        token_ids1 = torch.concat([token_ids1, extra_padding], dim=1)
+     
+    return torch.concat([token_ids1, token_ids2], dim=0)
+
+
+class DeceptionRougeScorer():
+    pass
