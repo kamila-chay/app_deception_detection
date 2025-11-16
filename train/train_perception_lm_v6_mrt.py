@@ -69,6 +69,8 @@ for split_id in range(1, 2):  # change!
     train_dataset = DolosDataset(
         f"thesis/data/train_fold{split_id}.csv", Path("thesis/data"), "mumin_reasoning_labels_concise"
     )
+
+    train_dataset.include_raw_clues_(True)
     train_dataloader = DataLoader(
         train_dataset,
         MICRO_BATCH,
@@ -76,12 +78,15 @@ for split_id in range(1, 2):  # change!
         collate_fn=lambda batch: (
             [sample[0] for sample in batch],
             [sample[1] for sample in batch],
+            [sample[2] for sample in batch],
         ),
     )
 
     val_dataset = DolosDataset(
         f"thesis/data/val_fold{split_id}.csv", Path("thesis/data"), "mumin_reasoning_labels_concise"
     )
+
+    val_dataset.include_raw_clues_(True)
     val_dataloader = DataLoader(
         val_dataset,
         VAL_BATCH,
@@ -89,6 +94,7 @@ for split_id in range(1, 2):  # change!
         collate_fn=lambda batch: (
             [sample[0] for sample in batch],
             [sample[1] for sample in batch],
+            [sample[2] for sample in batch],
         ),
     )
 
@@ -108,7 +114,7 @@ for split_id in range(1, 2):  # change!
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
         total_loss = 0
-        for i, (input, input_completed) in enumerate(train_dataloader):
+        for i, (input, input_completed, raw_clues) in enumerate(train_dataloader):
             input = processor.apply_chat_template(
                 input,
                 num_frames=16,
@@ -272,7 +278,7 @@ for split_id in range(1, 2):  # change!
 
                 with open(f"{timestamp}_validation_output.txt", "a") as f:
                     print(f"From minibatch {i} ====>", file=f)
-                    for j, (input, input_completed) in enumerate(val_dataloader):
+                    for j, (input, input_completed, raw_clues) in enumerate(val_dataloader):
                         if j == 2:
                             break
                         input = processor.apply_chat_template(

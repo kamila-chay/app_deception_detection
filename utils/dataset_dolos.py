@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import torch
 from torch.utils.data import Dataset
+import json
 
 from thesis.utils.utils import sample_frames_uniformly
 
@@ -49,9 +50,13 @@ class DolosDataset(Dataset):
         self.info = pd.read_csv(info, header=None)
         self.folder = folder
         self.label_folder = label_folder
+        self.include_raw_clues = False
 
     def __len__(self):
         return len(self.info)
+    
+    def include_raw_clues_(self, value):
+        self.include_raw_clues = value
 
     def __getitem__(self, index):
         filename = self.info.iloc[index, 0]
@@ -59,9 +64,16 @@ class DolosDataset(Dataset):
         labelpath = self.folder / self.label_folder / f"{filename}.txt"
         with open(labelpath, "r") as f:
             label = f.read()
-        return create_conv_template(filepath), create_conv_template(
+        ret_value =  (create_conv_template(filepath), create_conv_template(
             filepath, completion=label
-        )
+        ))
+
+        if self.include_raw_clues:
+            with open(self.folder / self.label_folder / f"{filename}_raw_cues.json", "r"):
+                raw_cues = json.load(f)
+            return (*ret_value, raw_cues)
+        return ret_value
+        
 
 
 class DolosClassificationDataset(Dataset):
