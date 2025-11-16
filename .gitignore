@@ -3,3 +3,4 @@ __pycache__/
 data/*
 
 !data/mumin_reasoning_labels/
+!data/mumin_reasoning_labels_concise/

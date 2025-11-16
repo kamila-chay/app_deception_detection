@@ -49,7 +49,6 @@ prompt_1 = "Please read 2 texts assessing whether or not a person is lying. Outp
 prompt_2 = "\n\nText 2:\n"
 
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
-deception_clue_scorer = DeceptionRougeScorer() # use 1 and 2, also a stemmer
 
 for split_id in range(1, 2):  # change!
     print(f"Split id: {split_id}")
@@ -231,9 +230,7 @@ for split_id in range(1, 2):  # change!
                         ]
                     )
 
-                    task_specific_rouge_score = deception_clue_scorer.score(expected_text_trimmed, text)
-
-                    total_score = 0.4 * label_score + 0.2 * rouge_score + 0.4 * task_specific_rouge_score
+                    total_score = 0.4 * label_score + 0.2 * rouge_score + 0.4 * cue_score
                 risk_values.append(1 - total_score)
 
             risk_values = torch.tensor(risk_values).to(q.device)

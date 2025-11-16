@@ -90,7 +90,7 @@ def make_prompt(traits: List[str]) -> str:
         "they are lying. Reason about both possibilities and make it seem like you arrived at the correct "
         f"conclusion (that they are {traits[0]}). Don't sound overly confident—instead make it seem like " 
         "you're making an educated guess with counterarguments. Avoid lists or bullet points. "
-        f"Output the text only. Use only clues given here, nothing else. The output should sound professional "
+        f"Output the text only. Use only the clues given here, nothing else. The output should sound professional "
         "but not too formal. "
         f"List: {repr(traits[1:])}" )
 

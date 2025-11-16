@@ -101,7 +101,3 @@ def concatenate_token_ids(token_ids1, token_ids2, pad_token_id):
         token_ids1 = torch.concat([token_ids1, extra_padding], dim=1)
      
     return torch.concat([token_ids1, token_ids2], dim=0)
-
-
-class DeceptionRougeScorer():
-    pass
