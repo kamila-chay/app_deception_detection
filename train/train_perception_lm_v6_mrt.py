@@ -262,7 +262,7 @@ for split_id in range(1, 2):  # change!
                         clue_score = 2 * precision * recall / (precision + recall) if precision + recall > 0.0 else 0.0
                     except:
                         print(
-                            f"WARNING: Incorrect answer from OpenAI: {response.output_text}"
+                            f"WARNING: Incorrect answer from OpenAI: {response}"
                         )
                     
                     rouge_score = scorer.score(expected_text_trimmed, generated_text_trimmed)
