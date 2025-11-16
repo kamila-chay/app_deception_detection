@@ -248,16 +248,16 @@ for split_id in range(1, 2):  # change!
                         response = list(map(lambda z: z.strip(), filter(lambda x: len(x) >= 1, response.output_text.split("\n"))))
                         for clue in response:
                             if clue not in ALL_RELEVANT_TRAITS:
-                                raise ValueError("What the helly")
+                                raise ValueError(f"What the helly: {clue}")
                         clues_in_generated = set(response)
                         clues_in_gt = set(raw_clues)
                         intersection = clues_in_generated & clues_in_gt
                         precision = len(intersection) / len(clues_in_generated) if len(clues_in_generated) > 0 else 0.0
                         recall = len(intersection) / len(clues_in_gt) if len(clues_in_gt) > 0 else 0.0
                         clue_score = 2 * precision * recall / (precision + recall) if precision + recall > 0.0 else 0.0
-                    except:
+                    except ValueError as e:
                         print(
-                            f"WARNING: Incorrect answer from OpenAI: {response}"
+                            f"WARNING: Incorrect answer from OpenAI: {response}: {e}"
                         )
                     
                     rouge_score = scorer.score(expected_text_trimmed, generated_text_trimmed)
