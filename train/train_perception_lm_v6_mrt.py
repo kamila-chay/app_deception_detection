@@ -30,7 +30,7 @@ MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
 VAL_BATCH = 16
 VAL_RUN_FREQ = 24
-TEMP = 0.1 # could be adjusted
+TEMP = 0.005 * 0.1 * 0.1 # offset for a) longer sequences b) fewer samples (also since we have longer sequences, our sampling space is larger naturally)
 
 RET_SEQUENCES = 4
 
@@ -61,7 +61,7 @@ for split_id in range(1, 2):  # change!
         MODEL_PATH, dtype=torch.bfloat16
     ).to("cuda")
     model = PeftModel.from_pretrained(
-        model, f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch4"
+        model, f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch6"
     ).to("cuda")
     model.train()
 
@@ -209,8 +209,8 @@ for split_id in range(1, 2):  # change!
 
             risk_values = []
 
-            for i, generated_text_trimmed in enumerate(generated_texts_trimmed):
-                if i == 0:
+            for idx, generated_text_trimmed in enumerate(generated_texts_trimmed):
+                if idx == 0:
                     total_score = 1.0
                 else:
                     prompt_yes_no = prompt_yes_no_part1 + generated_text_trimmed + prompt_yes_no_part2 + expected_text_trimmed
@@ -272,7 +272,7 @@ for split_id in range(1, 2):  # change!
                     total_score = 0.4 * label_score + 0.2 * rouge_score + 0.4 * clue_score
                 risk_values.append(1 - total_score)
 
-            risk_values = torch.tensor(risk_values).to(q.device)
+            risk_values = torch.tensor(risk_values, device=q.device, dtype=q.dtype)
 
             print(f"Q: {q}")
             print(f"Risk: {risk_values}")
@@ -311,7 +311,7 @@ for split_id in range(1, 2):  # change!
 
                 with open(f"{timestamp}_validation_output.txt", "a") as f:
                     print(f"From minibatch {i} ====>", file=f)
-                    for j, (input, input_completed, raw_clues) in enumerate(val_dataloader):
+                    for j, (input, input_completed, _) in enumerate(val_dataloader):
                         if j == 2:
                             break
                         input = processor.apply_chat_template(
@@ -368,12 +368,12 @@ for split_id in range(1, 2):  # change!
                             clean_up_tokenization_spaces=False,
                         )
 
-                        for ref, pred in zip(expected_texts_trimmed, generated_texts_trimmed):    
+                        for expected, generated in zip(expected_texts_trimmed, generated_texts_trimmed):    
                             print("*******Gold********", file=f)
-                            print(ref, file=f)
+                            print(expected, file=f)
                             print("*******Generated********", file=f)
-                            print(pred, file=f)
-                            rouge_score = scorer.score(ref, pred)
+                            print(generated, file=f)
+                            rouge_score = scorer.score(expected, generated)
                             rouge_score = np.mean(
                                 [
                                     rouge_score["rouge1"].fmeasure,
@@ -383,7 +383,7 @@ for split_id in range(1, 2):  # change!
                             )
                             print("*******Rouge score********", file=f)
                             print(rouge_score, file=f)
-        if any(p.grad is not None and p.grad.abs().sum()>0 for p in optimizer.param_groups[0]['params']):
+        if any(p.grad is not None and p.grad.abs().sum().item() > 0 for p in optimizer.param_groups[0]['params']):
             optimizer.step()
             scheduler.step()
             optimizer.zero_grad()
