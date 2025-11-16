@@ -99,8 +99,5 @@ def concatenate_token_ids(token_ids1, token_ids2, pad_token_id):
     else:
         extra_padding = pad_token_id.repeat(token_ids1.size(0), token_ids2.size(1) - token_ids1.size(1))
         token_ids1 = torch.concat([token_ids1, extra_padding], dim=1)
-
-    print(token_ids1.device)
-    print(token_ids2.device)
      
     return torch.concat([token_ids1, token_ids2], dim=0)

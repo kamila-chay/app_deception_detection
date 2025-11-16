@@ -207,11 +207,6 @@ for split_id in range(1, 2):  # change!
                 clean_up_tokenization_spaces=False,
             )[0]
 
-            print("expected_text_trimmed")
-            print(expected_text_trimmed)
-            print("generated_texts_trimmed")
-            print(generated_texts_trimmed)
-
             risk_values = []
 
             for idx, generated_text_trimmed in enumerate(generated_texts_trimmed):
@@ -250,7 +245,7 @@ for split_id in range(1, 2):  # change!
                     clue_score = 0.5
 
                     try:
-                        response = list(filter(lambda x: len(x) >= 1, response.output_text.split()))
+                        response = list(filter(lambda x: len(x) >= 1, response.output_text.split("\n")))
                         for clue in response:
                             if clue not in ALL_RELEVANT_TRAITS:
                                 raise ValueError("What the helly")
