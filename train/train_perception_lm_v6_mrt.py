@@ -250,7 +250,7 @@ for split_id in range(1, 2):  # change!
                             if clue not in ALL_RELEVANT_TRAITS:
                                 raise ValueError(f"What the helly: {clue}")
                         clues_in_generated = set(response)
-                        clues_in_gt = set(raw_clues)
+                        clues_in_gt = set(raw_clues[0])
                         intersection = clues_in_generated & clues_in_gt
                         precision = len(intersection) / len(clues_in_generated) if len(clues_in_generated) > 0 else 0.0
                         recall = len(intersection) / len(clues_in_gt) if len(clues_in_gt) > 0 else 0.0
