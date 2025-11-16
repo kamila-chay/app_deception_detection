@@ -246,9 +246,10 @@ for split_id in range(1, 2):  # change!
 
                     try:
                         response = list(map(lambda z: z.strip(), filter(lambda x: len(x) >= 1, response.output_text.split("\n"))))
-                        for clue in response:
-                            if clue not in ALL_RELEVANT_TRAITS:
-                                raise ValueError(f"What the helly: {clue}")
+                        init_len = len(response)
+                        response = [clue for clue in response if clue in ALL_RELEVANT_TRAITS]
+                        if diff := len(response) > init_len:
+                            print(f"OOPS: {diff} wrong clues from OpenAI")
                         clues_in_generated = set(response)
                         clues_in_gt = set(raw_clues[0])
                         intersection = clues_in_generated & clues_in_gt
