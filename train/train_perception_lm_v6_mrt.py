@@ -30,7 +30,7 @@ MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
 VAL_BATCH = 16
 VAL_RUN_FREQ = 24
-TEMP = 0.005 * 0.1 * 0.1 # offset for a) longer sequences b) fewer samples (also since we have longer sequences, our sampling space is larger naturally)
+TEMP = 0.005 * 0.1
 
 RET_SEQUENCES = 4
 
@@ -245,7 +245,7 @@ for split_id in range(1, 2):  # change!
                     clue_score = 0.5
 
                     try:
-                        response = list(filter(lambda x: len(x) >= 1, response.output_text.split("\n")))
+                        response = list(map(lambda z: z.strip(), filter(lambda x: len(x) >= 1, response.output_text.split("\n"))))
                         for clue in response:
                             if clue not in ALL_RELEVANT_TRAITS:
                                 raise ValueError("What the helly")
