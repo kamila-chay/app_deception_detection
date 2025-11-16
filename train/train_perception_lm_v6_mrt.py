@@ -158,7 +158,7 @@ for split_id in range(1, 2):  # change!
                     no_repeat_ngram_size=3
                 )
 
-            generated_ids = concatenate_token_ids(input_completed["input_ids"], generated_ids, processor.tokenizer.pad_token_id)
+            generated_ids = concatenate_token_ids(input_completed["input_ids"].to(generated_ids.device), generated_ids, processor.tokenizer.pad_token_id)
 
             generated_ids_trimmed = generated_ids[
                 :, input["input_ids"].size(1) :
