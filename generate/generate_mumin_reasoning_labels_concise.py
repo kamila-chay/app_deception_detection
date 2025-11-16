@@ -5,6 +5,8 @@ from typing import List
 import pandas as pd
 from openai import OpenAI
 
+from thesis.utils.constants import ALL_RELEVANT_TRAITS
+
 # ============================ CONFIGURATION ============================
 
 DATA_PATH = Path("thesis/data/traits.xlsx")
@@ -24,46 +26,6 @@ client = OpenAI()
 
 logging.info(f"Loading data from {DATA_PATH}")
 df = pd.read_excel(DATA_PATH)
-
-ALL_RELEVANT_TRAITS : List[str] = [
-    "Smile",
-    "Laughter",
-    "Scowl",
-    "Frowning eyebrows",
-    "Raising eyebrows",
-    "Frequent blinking",
-    "Exaggerated eye opening",
-    "Exaggerated eye closing",
-    "Exaggerated mouth opening",
-    "Mouth closed (awkward pauses)",
-    "Lip corners up",
-    "Lip corners down",
-    "Lips protruded",
-    "Lips retracted",
-    "Chin moving upwards",
-    "Chin moving downwards",
-    "Gaze towards interlocutor",
-    "Gaze up",
-    "Gaze down",
-    "Gaze sideways",
-    "Nod",
-    "Head moving forward",
-    "Head moving backward",
-    "Head tilting",
-    "Head side-turn",
-    "Head shaking",
-    "Head up",
-    "Hands rubbing",
-    "Hands scratching",
-    "Hands touching head/body/etc",
-    "Hands covering face/mouth/etc",
-    "Crossing fingers",
-    "Palms up",
-    "Arms open",
-    "Arms folded",
-    "Shrugs",
-]
-
 
 # ============================ HELPER FUNCTIONS ============================
 

@@ -15,7 +15,8 @@ from transformers import get_cosine_schedule_with_warmup
 from datetime import datetime
 
 from thesis.utils.dataset_dolos import DolosDataset
-from thesis.utils.utils import set_seed, concatenate_token_ids, DeceptionRougeScorer
+from thesis.utils.utils import set_seed, concatenate_token_ids
+from thesis.utils.constants import ALL_RELEVANT_TRAITS
 
 logging.set_verbosity_error()
 
@@ -28,8 +29,8 @@ GRAD_ACCU_STEPS = 8
 MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
 VAL_BATCH = 16
-VAL_RUN_FREQ = 20
-TEMP = 0.1
+VAL_RUN_FREQ = 24
+TEMP = 0.1 # could be adjusted
 
 RET_SEQUENCES = 4
 
@@ -37,16 +38,20 @@ timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
-token_level_timestamp = "2025-11-10_15-50" ## change here!!!!
+token_level_timestamp = "2025-11-15_20-01"
 
 MODEL_PATH = "facebook/Perception-LM-1B"
 NUM_EPOCHS = 3
 
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
-prompt_1 = "Please read 2 texts assessing whether or not a person is lying. Output 1 if the texts lead to the same conclusion (for example both think the person is lying or both think the person is telling the truth). Please consider the main conclusion of each text, they will include various counterarguments but focus only on the final/dominating direction. If the texts don't agree or one of them doesn't lean in any direction whatsoever, output 0. Only output the number.\n\nText 1:\n"
+prompt_yes_no_part1 = "Please read 2 texts assessing whether or not a person is lying. Output 1 if the texts lead to the same conclusion (for example both think the person is lying or both think the person is telling the truth). Please consider the main conclusion of each text, they will include various counterarguments but focus only on the final/dominating direction. If the texts don't agree or one of them doesn't lean in any direction whatsoever, output 0. Only output the number.\n\nText 1:\n"
 
-prompt_2 = "\n\nText 2:\n"
+prompt_yes_no_part2 = "\n\nText 2:\n"
+
+prompt_clues_part1 = "Read the following text assessing whether a person is lying based on certain clues. Output what clues were used in the assessment, the clues you can output are limited to the list given below. One clue per line, exactly in the same form as given.\n\nText:\n"
+
+prompt_clues_part2 = "\n\nList:\n"
 
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 
@@ -158,7 +163,7 @@ for split_id in range(1, 2):  # change!
             generated_ids_trimmed = generated_ids[
                 :, input["input_ids"].size(1) :
             ].clone()
-            generated_text_trimmed = processor.batch_decode(
+            generated_texts_trimmed = processor.batch_decode(
                 generated_ids_trimmed,
                 skip_special_tokens=True,
                 clean_up_tokenization_spaces=False,
@@ -204,21 +209,21 @@ for split_id in range(1, 2):  # change!
 
             risk_values = []
 
-            for i, text in enumerate(generated_text_trimmed):
+            for i, generated_text_trimmed in enumerate(generated_texts_trimmed):
                 if i == 0:
                     total_score = 1.0
                 else:
-                    full_prompt = prompt_1 + text + prompt_2 + expected_text_trimmed
+                    prompt_yes_no = prompt_yes_no_part1 + generated_text_trimmed + prompt_yes_no_part2 + expected_text_trimmed
                     
                     try:
                         response = client.responses.create(
-                            model="gpt-4.1-mini", input=full_prompt
+                            model="gpt-4.1-mini", input=prompt_yes_no
                         )
                     except:
                         response = None
                         print("WARNING: Error getting a response from OpenAI")
 
-                    label_score = 0
+                    label_score = 0.5
 
                     try:
                         label_score = float(response.output_text)
@@ -226,8 +231,36 @@ for split_id in range(1, 2):  # change!
                         print(
                             f"WARNING: Incorrect answer from OpenAI: {response.output_text}"
                         )
+
+                    prompt_clues = prompt_clues_part1 + generated_text_trimmed + prompt_clues_part2 + repr(ALL_RELEVANT_TRAITS)
+
+                    try:
+                        response = client.responses.create(
+                            model="gpt-4.1-mini", input=prompt_clues
+                        )
+                    except:
+                        response = None
+                        print("WARNING: Error getting a response from OpenAI")
+
+                    clue_score = 0.5
+
+                    try:
+                        response = list(filter(lambda x: len(x) >= 1, response.output_text.split()))
+                        for clue in response:
+                            if clue not in ALL_RELEVANT_TRAITS:
+                                raise ValueError("What the helly")
+                        clues_in_generated = set(response)
+                        clues_in_gt = set(raw_clues)
+                        intersection = clues_in_generated & clues_in_gt
+                        precision = len(intersection) / len(clues_in_generated) if len(clues_in_generated) > 0 else 0.0
+                        recall = len(intersection) / len(clues_in_gt) if len(clues_in_gt) > 0 else 0.0
+                        clue_score = 2 * precision * recall / (precision + recall) if precision + recall > 0.0 else 0.0
+                    except:
+                        print(
+                            f"WARNING: Incorrect answer from OpenAI: {response.output_text}"
+                        )
                     
-                    rouge_score = scorer.score(expected_text_trimmed, text)
+                    rouge_score = scorer.score(expected_text_trimmed, generated_text_trimmed)
                     rouge_score = np.mean(
                         [
                             rouge_score["rouge1"].fmeasure,
@@ -236,7 +269,7 @@ for split_id in range(1, 2):  # change!
                         ]
                     )
 
-                    total_score = 0.4 * label_score + 0.2 * rouge_score + 0.4 * cue_score
+                    total_score = 0.4 * label_score + 0.2 * rouge_score + 0.4 * clue_score
                 risk_values.append(1 - total_score)
 
             risk_values = torch.tensor(risk_values).to(q.device)
@@ -321,7 +354,7 @@ for split_id in range(1, 2):  # change!
                         generated_ids_trimmed = generated_ids[
                             :, input["input_ids"].size(1) :
                         ]
-                        generated_text_trimmed = processor.batch_decode(
+                        generated_texts_trimmed = processor.batch_decode(
                             generated_ids_trimmed,
                             skip_special_tokens=True,
                             clean_up_tokenization_spaces=False,
@@ -329,13 +362,13 @@ for split_id in range(1, 2):  # change!
                         expected_ids_trimmed = input_completed["input_ids"][
                             :, input["input_ids"].size(1) :
                         ]
-                        expected_text_trimmed = processor.batch_decode(
+                        expected_texts_trimmed = processor.batch_decode(
                             expected_ids_trimmed,
                             skip_special_tokens=True,
                             clean_up_tokenization_spaces=False,
                         )
 
-                        for ref, pred in zip(expected_text_trimmed, generated_text_trimmed):    
+                        for ref, pred in zip(expected_texts_trimmed, generated_texts_trimmed):    
                             print("*******Gold********", file=f)
                             print(ref, file=f)
                             print("*******Generated********", file=f)
