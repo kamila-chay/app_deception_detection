@@ -207,6 +207,11 @@ for split_id in range(1, 2):  # change!
                 clean_up_tokenization_spaces=False,
             )[0]
 
+            print("expected_text_trimmed")
+            print(expected_text_trimmed)
+            print("generated_texts_trimmed")
+            print(generated_texts_trimmed)
+
             risk_values = []
 
             for idx, generated_text_trimmed in enumerate(generated_texts_trimmed):

@@ -69,7 +69,7 @@ class DolosDataset(Dataset):
         ))
 
         if self.include_raw_clues:
-            with open(self.folder / self.label_folder / f"{filename}_raw_cues.json", "r"):
+            with open(self.folder / self.label_folder / f"{filename}_raw_cues.json", "r") as f:
                 raw_cues = json.load(f)
             return (*ret_value, raw_cues)
         return ret_value
