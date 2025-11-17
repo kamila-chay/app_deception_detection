@@ -30,7 +30,7 @@ MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
 VAL_BATCH = 16
 VAL_RUN_FREQ = 24
-TEMP = 0.005 * 0.1
+TEMP = 0.001
 
 RET_SEQUENCES = 4
 
@@ -103,7 +103,7 @@ for split_id in range(1, 2):  # change!
         ),
     )
 
-    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=2e-5)
+    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=5e-7)
     total_steps = (
         ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     )
