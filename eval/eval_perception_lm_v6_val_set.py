@@ -152,7 +152,7 @@ for split_id in range(1, 3):
        
         all_label_gt_per_epoch = np.array(all_label_gt_per_epoch)
         all_label_pred_per_epoch = np.array(all_label_pred_per_epoch)
-        label_acc = (all_label_gt_per_epoch == all_label_pred_per_epoch).sum() / all_label_gt_per_epoch.size(0)
+        label_acc = (all_label_gt_per_epoch == all_label_pred_per_epoch).sum() / all_label_gt_per_epoch.size
         tp = ((all_label_gt_per_epoch == 1) & (all_label_pred_per_epoch == 1)).sum()
         fp = ((all_label_gt_per_epoch == 0) & (all_label_pred_per_epoch == 1)).sum()
         fn = ((all_label_gt_per_epoch == 1) & (all_label_pred_per_epoch == 0)).sum()
