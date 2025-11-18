@@ -125,7 +125,6 @@ for split_id in range(1, 4):
         total_loss = 0
         for i, (X, Y) in enumerate(train_dataloader):
             print(f"X: {X}\n")
-            print(f"Y: {Y}")
             print("\n********\n")
             X = processor.apply_chat_template(
                 X,
@@ -147,7 +146,7 @@ for split_id in range(1, 4):
             )
             inputs = Y
             labels = inputs["input_ids"].clone()
-            labels[:, : X["input_ids"].shape[1]] = -100
+            labels[:, : X["input_ids"].shape[1] - 1] = -100 # because add_generation_prompt=False
             labels[labels == processor.tokenizer.pad_token_id] = -100
             inputs["labels"] = labels
             inputs = {
@@ -202,7 +201,7 @@ for split_id in range(1, 4):
             )
             inputs = Y
             labels = inputs["input_ids"].clone()
-            labels[:, : X["input_ids"].shape[1]] = -100
+            labels[:, : X["input_ids"].shape[1] - 1] = -100
             labels[labels == processor.tokenizer.pad_token_id] = -100
             inputs["labels"] = labels
             inputs = {
