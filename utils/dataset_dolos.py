@@ -67,11 +67,11 @@ class DolosDataset(Dataset):
         one_hot_label = 0 if self.info.iloc[index, 0].lower().strip() == "truth" else 1
 
         percentages = [0, 0]
-        percentages[one_hot_label] = 100
         offset = min(max(random.gauss(mu=20, sigma=10), 0), 100)
         offset = round(offset)
 
-        percentages = [percentages[one_hot_label] - offset, percentages[1 - one_hot_label] + offset]
+        percentages[one_hot_label] = 100 - offset
+        percentages[one_hot_label - 1] = offset
 
         with open(labelpath, "r") as f:
             label = f.read()

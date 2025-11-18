@@ -20,7 +20,7 @@ set_seed(42)
 logging.set_verbosity_error()
 
 DEFAULT_BATCH_SIZE = 24
-GRAD_ACCU_STEPS = 12  ## change here depending on the devices available
+GRAD_ACCU_STEPS = 6  ## change here depending on the devices available
 
 DS_CONFIG = {
     "train_batch_size": DEFAULT_BATCH_SIZE,
@@ -124,8 +124,9 @@ for split_id in range(1, 4):
         print(f"Epoch: {epoch}")
         total_loss = 0
         for i, (X, Y) in enumerate(train_dataloader):
-            print(f"X: {X}")
+            print(f"X: {X}\n")
             print(f"Y: {Y}")
+            print("\n********\n")
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
