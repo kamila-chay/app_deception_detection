@@ -102,7 +102,7 @@ def concatenate_token_ids(token_ids1, token_ids2, pad_token_id):
      
     return torch.concat([token_ids1, token_ids2], dim=0)
 
-def make_conv_for_classification_cond(video_path, percentages, completion):
+def make_conv_for_classification_cond(video_path, percentages, completion=None):
     return (
         [
             {
