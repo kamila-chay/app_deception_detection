@@ -64,7 +64,7 @@ class DolosDataset(Dataset):
         filename = self.info.iloc[index, 0]
         filepath = self.folder / "video" / f"{filename}.mp4"
         labelpath = self.folder / self.label_folder / f"{filename}.txt"
-        one_hot_label = 0 if self.info.iloc[index]["Label"].lower().strip() == "truth" else 1
+        one_hot_label = 0 if self.info.iloc[index, 0].lower().strip() == "truth" else 1
 
         percentages = [0, 0]
         percentages[one_hot_label] = 100
