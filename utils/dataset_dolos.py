@@ -1,4 +1,5 @@
 import os
+import random
 
 import pandas as pd
 import torch
@@ -8,7 +9,7 @@ import json
 from thesis.utils.utils import sample_frames_uniformly
 
 
-def create_conv_template(video_path, completion=""):
+def create_conv_template(video_path, *, completion=""):
     return (
         [
             {
@@ -46,11 +47,12 @@ def create_conv_template(video_path, completion=""):
 
 
 class DolosDataset(Dataset):
-    def __init__(self, info, folder, label_folder="mumin_reasoning_labels"):
+    def __init__(self, info, folder, label_folder="mumin_reasoning_labels", conv_making_func=create_conv_template):
         self.info = pd.read_csv(info, header=None)
         self.folder = folder
         self.label_folder = label_folder
         self.include_raw_clues = False
+        self.conv_making_func = conv_making_func
 
     def __len__(self):
         return len(self.info)
@@ -62,10 +64,19 @@ class DolosDataset(Dataset):
         filename = self.info.iloc[index, 0]
         filepath = self.folder / "video" / f"{filename}.mp4"
         labelpath = self.folder / self.label_folder / f"{filename}.txt"
+        one_hot_label = 0 if self.info.loc[index, "Label"].lower().strip() == "truth" else 1
+
+        percentages = [0, 0]
+        percentages[one_hot_label] = 100
+        offset = min(max(random.gauss(mu=20, sigma=10), 0), 100)
+        offset = round(offset)
+
+        percentages = [percentages[one_hot_label] - offset, percentages[1 - one_hot_label] + offset]
+
         with open(labelpath, "r") as f:
             label = f.read()
-        ret_value =  (create_conv_template(filepath), create_conv_template(
-            filepath, completion=label
+        ret_value =  (self.conv_making_func(filepath, percentages), self.conv_making_func(
+            filepath, percentages, completion=label
         ))
 
         if self.include_raw_clues:

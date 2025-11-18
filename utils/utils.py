@@ -101,3 +101,54 @@ def concatenate_token_ids(token_ids1, token_ids2, pad_token_id):
         token_ids1 = torch.concat([token_ids1, extra_padding], dim=1)
      
     return torch.concat([token_ids1, token_ids2], dim=0)
+
+def make_conv_for_classification_cond(video_path, percentages, completion):
+    return (
+        [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "video",
+                        "url": str(video_path),
+                    },
+                    {
+                        "type": "text",
+                        "text": "Would you say that the person in the video is lying or telling the truth? Explain your reasoning",
+                    },
+                ],
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": f"It's not definitive, but I would say the person is {percentages[0]}% likely to be telling the truth and {percentages[1]}% likely to be lying."
+                    }
+                ]
+            }
+        ]
+        if not completion
+        else [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "video",
+                        "url": str(video_path),
+                    },
+                    {
+                        "type": "text",
+                        "text": "Would you say that the person in the video is lying or telling the truth? Explain your reasoning ",
+                    },
+                ],
+            },
+            {"role": "assistant", 
+             "content": [
+                 {
+                    "type": "text", 
+                    "text": f"It's not definitive, but I would say the person is {percentages[0]}% likely to be telling the truth and {percentages[1]}% likely to be lying. {completion}"}
+                ]
+            },
+        ]
+    )
