@@ -71,7 +71,7 @@ class DolosDataset(Dataset):
         offset = round(offset)
 
         percentages[one_hot_label] = 100 - offset
-        percentages[one_hot_label - 1] = offset
+        percentages[1 - one_hot_label] = offset
 
         with open(labelpath, "r") as f:
             label = f.read()
