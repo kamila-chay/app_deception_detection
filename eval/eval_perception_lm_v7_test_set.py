@@ -40,7 +40,7 @@ for split_id in range(1, 4):
 
     test_dataset = DolosDataset(
         f"thesis/data/test_fold{split_id}.csv", Path("thesis/data"), label_folder="thesis/data/mumin_reasoning_labels_balanced",
-        create_conv_template=make_conv_for_classification_cond
+        conv_making_func=make_conv_for_classification_cond
     )
 
     test_dataset.include_raw_clues_(True)
