@@ -53,7 +53,7 @@ for split_id in range(1, 2):
     all_label_recall = []
     all_label_f1 = []
 
-    for epoch, minibatch in [(0, 95), (0, 287), (0, 599), (0, -1), (1, 287)]:
+    for epoch, minibatch in [(0, 95), (0, 287), (0, 599), (0, -1), (1, 287), (1, 599)]:
         print(f"Epoch: {epoch}")
         print(f"Minibatch: {minibatch}")
         base = AutoModelForImageTextToText.from_pretrained(
@@ -102,12 +102,9 @@ for split_id in range(1, 2):
                 for k, v in X.items()
             }
             with torch.inference_mode():
-                generated_ids = model.generate(**inputs, 
+                generated_ids = model.generate(**inputs,
                                                max_new_tokens=1000,
-                                               do_sample=True,
-                                               top_k=3, 
-                                               repetition_penalty=1.2,
-                                               no_repeat_ngram_size=3)
+                                               do_sample=False)
             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
             expected_ids = Y["input_ids"]
             expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
@@ -125,7 +122,7 @@ for split_id in range(1, 2):
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
                 full_prompt = prompt_1 + pred + prompt_2 + ref
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt
+                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
                 ).output_text
                 try:
                     predicted, gt = response.split(",")
