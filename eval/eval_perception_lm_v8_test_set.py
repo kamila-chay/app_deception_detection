@@ -31,7 +31,7 @@ client = OpenAI()
 
 prompt_cue_f1 = f"Please read the text below. Look for behaviors that are mentioned in the text from the following list: {repr(ALL_RELEVANT_TRAITS)}. Output those using the same exact wording as in the list, one per line. Don't ouput anything else. \n\nText:\n" 
 
-prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of the same person and how it can be interpreted as a clue to deception/truthfulness. Score the logical overlap between those texts, you should pay attention to both the clues themselves and how they are interpreted and reasoned about. Thse score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
+prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of the same person and how it can be interpreted as a clue to deception/truthfulness. Score the logical overlap between those texts, you should pay attention to both the clues themselves and how they are interpreted and reasoned about. The score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
 
 prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
 
@@ -105,10 +105,7 @@ for split_id in range(1, 4):
             with torch.inference_mode():
                 generated_ids = model.generate(**inputs, 
                                                max_new_tokens=1000,
-                                               do_sample=True,
-                                               top_k=3, 
-                                               repetition_penalty=1.2,
-                                               no_repeat_ngram_size=3)
+                                               do_sample=False)
             generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
             expected_ids = Y["input_ids"]
             expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
