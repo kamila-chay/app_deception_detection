@@ -103,13 +103,13 @@ for split_id in range(1, 4):
             }
 
             print("Before trimming:")
-            print(inputs)
+            print(inputs["input_ids"])
 
             inputs["input_ids"] = inputs["input_ids"][:, :-1]
-            inputs["attention_mask"] = inputs["attention_mask"][:, :-1]
+            inputs["attention_mask"] = inputs["attention_mask"][:, :-1] # what about PAD???
 
             print("After trimming:")
-            print(inputs)
+            print(inputs["input_ids"])
             with torch.inference_mode():
                 generated_ids = model.generate(**inputs, 
                                                max_new_tokens=1000,
