@@ -15,6 +15,8 @@ from thesis.utils.constants import ALL_RELEVANT_TRAITS
 
 # if we include -oracle classification scores -real classification scores does anything change in the metrcis?
 
+# should run this script a few times due to some indeterminism  in open AI calls - also this thing here could be done without any classifier probably
+
 set_seed(42)
 logging.set_verbosity_error()
 
@@ -127,11 +129,6 @@ for split_id in range(1, 4):
             )
 
             for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
-                print(pred)
-                print("*********")
-                print(ref)
-
-                print("^^^^^^^^")
                 full_prompt = prompt_cue_f1 + pred
                 try:
                     response = client.responses.create(
@@ -145,12 +142,8 @@ for split_id in range(1, 4):
                         print(f"WARNING: {diff} cues were output that don't match ALL_RELEVANT_TRAITS")
                     
                     pred_cues = set(pred_cues)
-                    print(f"Pred cues: {pred_cues}")
                     raw_clues_per_sample = set(raw_clues_per_sample)
-                    print(f"GT clues: {raw_clues_per_sample}")
                     intersection = pred_cues & raw_clues_per_sample
-                    print(f"Intersection: {intersection}")
-
                     precision = len(intersection) / len(pred_cues) if len(pred_cues) > 0 else 0.0
                     recall = len(intersection) / len(raw_clues_per_sample) if len(raw_clues_per_sample) > 0 else 0.0
 
@@ -183,9 +176,6 @@ for split_id in range(1, 4):
                         ]
                     )
                 )
-
-            print(all_cue_overlap_scores_per_epoch) # should be the same between runs
-            print(all_f1_cue_scores_per_epoch)
 
         all_rouge_scores.append(np.mean(all_rouge_scores_per_epoch))
         all_f1_cue_scores.append(np.mean(all_f1_cue_scores_per_epoch))

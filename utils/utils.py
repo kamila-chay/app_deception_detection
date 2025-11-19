@@ -152,3 +152,48 @@ def make_conv_for_classification_cond(video_path, percentages, completion=None):
             },
         ]
     )
+
+def make_conv_for_reasoning_balanced(video_path, *args, completion=None):
+    return (
+        [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "video",
+                        "url": str(video_path),
+                    },
+                    {
+                        "type": "text",
+                        "text": "Explain different clues to deception/truthfulness in this video and how they could be interpreted.",
+                    },
+                ],
+            }
+        ]
+        if not completion
+        else [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "video",
+                        "url": str(video_path),
+                    },
+                    {
+                        "type": "text",
+                        "text": "Explain different clues to deception/truthfulness in this video and how they could be interpreted.",
+                    },
+                ],
+            },
+            {
+                "role": "assistant", 
+                "content": [
+                    {
+                        "type": "text", 
+                        "text": completion
+                    }
+                ]
+            },
+        ]
+    )
+
