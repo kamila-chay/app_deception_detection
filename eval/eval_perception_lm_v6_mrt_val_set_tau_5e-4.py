@@ -34,7 +34,7 @@ for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
     val_dataset = DolosDataset(
-        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data")
+        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data"), "mumin_reasoning_labels_concise"
     )
     val_dataloader = DataLoader(
         val_dataset,
@@ -52,7 +52,7 @@ for split_id in range(1, 2):
     all_label_recall = []
     all_label_f1 = []
 
-    for epoch, minibatch in [(0, 95), (0, 287), (0, 599), (0, -1), (1, 287)]:
+    for epoch, minibatch in [(0, 95), (0, 287), (0, 599), (0, -1), (1, 287), (1, 599)]:
         print(f"Epoch: {epoch}")
         print(f"Minibatch: {minibatch}")
         base = AutoModelForImageTextToText.from_pretrained(

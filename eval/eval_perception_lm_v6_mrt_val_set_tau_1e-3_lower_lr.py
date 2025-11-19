@@ -35,7 +35,7 @@ for split_id in range(1, 2):
     print(f"Split id: {split_id}")
 
     val_dataset = DolosDataset(
-        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data")
+        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data"), "mumin_reasoning_labels_concise"
     )
     val_dataloader = DataLoader(
         val_dataset,
@@ -61,14 +61,9 @@ for split_id in range(1, 2):
         )
         checkpoint = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}_minibatch{minibatch}" if minibatch != -1 else \
             f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
-        while True:
-            try:
-                model = PeftModel.from_pretrained(
-                    base, checkpoint
-                )
-                break
-            except ValueError:
-                sleep(3600)
+        model = PeftModel.from_pretrained(
+            base, checkpoint
+        )
 
         model = model.to("cuda:0").eval()
         all_rouge_scores_per_epoch = []

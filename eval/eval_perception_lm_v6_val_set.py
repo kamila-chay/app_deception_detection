@@ -34,7 +34,7 @@ for split_id in range(1, 4):
     print(f"Split id: {split_id}")
 
     val_dataset = DolosDataset(
-        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data")
+        f"thesis/data/val_fold{split_id}.csv", Path("thesis/data"), "mumin_reasoning_labels_concise"
     )
     val_dataloader = DataLoader(
         val_dataset,
@@ -109,15 +109,6 @@ for split_id in range(1, 4):
                 skip_special_tokens=True,
                 clean_up_tokenization_spaces=False,
             )
-
-            if i == 0 or i == 4:
-                print(generated_text_trimmed[0])
-                print(generated_text_trimmed[1])
-                print("^^ generated ^^")
-                print(expected_text_trimmed[0])
-                print(expected_text_trimmed[1])
-                print("^^ GT ^^")
-
 
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
                 full_prompt = prompt_1 + pred + prompt_2 + ref
