@@ -9,7 +9,7 @@ import json
 from thesis.utils.utils import sample_frames_uniformly
 
 
-def create_conv_template(video_path, *, completion=""):
+def create_conv_template(video_path, *args, completion=""):
     return (
         [
             {
