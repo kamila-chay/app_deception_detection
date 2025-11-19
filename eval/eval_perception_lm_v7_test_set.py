@@ -39,7 +39,7 @@ for split_id in range(1, 4):
     print(f"Split id: {split_id}")
 
     test_dataset = DolosDataset(
-        f"thesis/data/test_fold{split_id}.csv", Path("thesis/data"), label_folder="thesis/data/mumin_reasoning_labels_balanced",
+        f"thesis/data/test_fold{split_id}.csv", Path("thesis/data"), label_folder="mumin_reasoning_labels_balanced",
         conv_making_func=make_conv_for_classification_cond
     )
 
