@@ -102,14 +102,9 @@ for split_id in range(1, 4):
                 for k, v in X.items()
             }
 
-            print("Before trimming:")
-            print(inputs["input_ids"])
-
             inputs["input_ids"] = inputs["input_ids"][:, :-1]
-            inputs["attention_mask"] = inputs["attention_mask"][:, :-1] # what about PAD???
+            inputs["attention_mask"] = inputs["attention_mask"][:, :-1]
 
-            print("After trimming:")
-            print(inputs["input_ids"])
             with torch.inference_mode():
                 generated_ids = model.generate(**inputs, 
                                                max_new_tokens=1000,
@@ -131,8 +126,6 @@ for split_id in range(1, 4):
                 clean_up_tokenization_spaces=False,
             )
 
-            print(f"!!!The length of raw_cues is {len(raw_cues)}")
-
             for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
                 print(pred)
                 print("*********")
@@ -152,8 +145,11 @@ for split_id in range(1, 4):
                         print(f"WARNING: {diff} cues were output that don't match ALL_RELEVANT_TRAITS")
                     
                     pred_cues = set(pred_cues)
+                    print(f"Pred cues: {pred_cues}")
                     raw_clues_per_sample = set(raw_clues_per_sample)
+                    print(f"GT clues: {raw_clues_per_sample}")
                     intersection = pred_cues & raw_clues_per_sample
+                    print(f"Intersection: {intersection}")
 
                     precision = len(intersection) / len(pred_cues) if len(pred_cues) > 0 else 0.0
                     recall = len(intersection) / len(raw_clues_per_sample) if len(raw_clues_per_sample) > 0 else 0.0
