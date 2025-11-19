@@ -13,14 +13,14 @@ from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed, make_conv_for_classification_cond
 from thesis.utils.constants import ALL_RELEVANT_TRAITS
 
-# if we include -oracle classification scores -real classification scores -no classification scores, does anything change in the metrcis?
+# if we include -oracle classification scores -real classification scores does anything change in the metrcis?
 
 set_seed(42)
 logging.set_verbosity_error()
 
 DEFAULT_BATCH_SIZE = 8
 
-timestamp = "2025-11-18_22-39" ## change only if sth changes
+timestamp = "2025-11-18_22-39"
 
 MODEL_PATH = "facebook/Perception-LM-1B"
 
@@ -31,11 +31,11 @@ client = OpenAI()
 
 prompt_cue_f1 = f"Please read the text below. Look for behaviors that are mentioned in the text from the following list: {repr(ALL_RELEVANT_TRAITS)}. Output those using the same exact wording as in the list, one per line. Don't ouput anything else. \n\nText:\n" 
 
-prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of the same person and how it can be interpreted as a clue to deception or truthfulness. Score the logical overlap between those texts, you should pay attention to both the clues themselves and how they are interpreted and reasoned about. Thse score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
+prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of the same person and how it can be interpreted as a clue to deception/truthfulness. Score the logical overlap between those texts, you should pay attention to both the clues themselves and how they are interpreted and reasoned about. Thse score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
 
 prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
 
-for split_id in range(1, 3):
+for split_id in range(1, 4):
     print(f"Split id: {split_id}")
 
     test_dataset = DolosDataset(
@@ -57,8 +57,10 @@ for split_id in range(1, 3):
     )
 
     all_rouge_scores = []
+    all_f1_cue_scores = []
+    all_cue_overlap_scores = []
 
-    for epoch in range(7): # here for specific epochs based on validation, see if should be flattened
+    for epoch in [8]:
         print(f"Epoch: {epoch}")
         base = AutoModelForImageTextToText.from_pretrained(
             MODEL_PATH, torch_dtype=torch.bfloat16
@@ -100,8 +102,14 @@ for split_id in range(1, 3):
                 for k, v in X.items()
             }
 
+            print("Before trimming:")
+            print(inputs)
+
             inputs["input_ids"] = inputs["input_ids"][:, :-1]
             inputs["attention_mask"] = inputs["attention_mask"][:, :-1]
+
+            print("After trimming:")
+            print(inputs)
             with torch.inference_mode():
                 generated_ids = model.generate(**inputs, 
                                                max_new_tokens=1000,
@@ -126,6 +134,11 @@ for split_id in range(1, 3):
             print(f"!!!The length of raw_cues is {len(raw_cues)}")
 
             for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
+                print(pred)
+                print("*********")
+                print(ref)
+
+                print("^^^^^^^^")
                 full_prompt = prompt_cue_f1 + pred
                 try:
                     response = client.responses.create(
@@ -148,7 +161,7 @@ for split_id in range(1, 3):
                     f1_for_cues = 2 * precision * recall / (precision + recall) if (precision + recall) > 0.0 else 0.0
                     all_f1_cue_scores_per_epoch.append(f1_for_cues)
                 except Exception as e:
-                    print(f"ERROR: Didn't process OpenAI API ouput properly: {e}")
+                    print(f"ERROR: Didn't process OpenAI API cue F1 ouput properly: {e}")
 
                 full_prompt = prompt_reasoning_overlap_p1 + pred + prompt_reasoning_overlap_p2 + ref
 
@@ -161,7 +174,7 @@ for split_id in range(1, 3):
                     all_cue_overlap_scores_per_epoch.append(score)
 
                 except Exception as e:
-                    print(f"ERROR: Didn't process OpenAI API ouput properly: {e}")
+                    print(f"ERROR: Didn't process OpenAI API clue overlap ouput properly: {e}")
 
                 
                 rouge_score = scorer.score(ref, pred)
@@ -175,8 +188,12 @@ for split_id in range(1, 3):
                     )
                 )
 
+            print(all_cue_overlap_scores_per_epoch) # should be the same between runs
+            print(all_f1_cue_scores_per_epoch)
+
         all_rouge_scores.append(np.mean(all_rouge_scores_per_epoch))
-        ## here you could append if even needed at all....
+        all_f1_cue_scores.append(np.mean(all_f1_cue_scores_per_epoch))
+        all_cue_overlap_scores.append(np.mean(all_cue_overlap_scores_per_epoch))
 
     with open(
         f"thesis/out/{timestamp}/model_split{split_id}_test_only_info.json", "w"
@@ -184,6 +201,8 @@ for split_id in range(1, 3):
         json.dump(
             {
                 "rouge_scores": all_rouge_scores,
+                "f1_cue_scores": all_f1_cue_scores,
+                "cue_overlap_scores": all_cue_overlap_scores 
             },
             f,
         )
