@@ -33,7 +33,7 @@ df = pd.read_excel(DATA_PATH)
 
 def make_prompt(old_text: str) -> str:
     """Make a chat prompt for the LLM."""
-    message = f"Rewrite the following textual assessment so that the opposite conclusion is reached (e.g someone is truthful instead of lying). Try to keep the generated text as close to the original one, also layout-wise, but at the same time make sure that the new text is coherent. Ouput the new text only. Old text: {old_text}"
+    message = f"Rewrite the following textual assessment so that the opposite conclusion is reached (e.g someone is truthful instead of lying). Try to keep the generated text as close to the original one, also layout-wise, but at the same time make sure that the new text is coherent. Both the old and new texts should contain the same behavioral cues, don't change them semantically, change only the final conclusion. Ouput the new text only. Old text: {old_text}"
     return message
 
 # ============================ MAIN LOOP ============================
