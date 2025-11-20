@@ -113,9 +113,6 @@ for split_id in range(1, 2):
             )
 
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                if i == 2 or i == 5:
-                    print(pred)
-                    print("*****")
                 full_prompt = prompt_1 + pred + prompt_2 + ref
                 response = client.responses.create(
                     model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
@@ -173,17 +170,17 @@ for split_id in range(1, 2):
         print(all_label_recall)
         print(all_label_f1)
 
-    with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
-    ) as f:
-        json.dump(
-            {
-                "rouge_scores": all_rouge_scores,
-                "label_precision": all_label_precision,
-                "label_recall": all_label_recall,
-                "label_f1": all_label_f1,
-                "label_acc": all_label_acc,
-                "important": "results from different minibatches, not epochs"
-            },
-            f,
-        )
+        with open(
+            f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
+        ) as f:
+            json.dump(
+                {
+                    "rouge_scores": all_rouge_scores,
+                    "label_precision": all_label_precision,
+                    "label_recall": all_label_recall,
+                    "label_f1": all_label_f1,
+                    "label_acc": all_label_acc,
+                    "important": "results from different minibatches, not epochs"
+                },
+                f,
+            )

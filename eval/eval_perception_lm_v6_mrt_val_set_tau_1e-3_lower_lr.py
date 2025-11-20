@@ -8,7 +8,6 @@ from peft import PeftModel
 from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
-from time import sleep
 
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed
@@ -172,17 +171,17 @@ for split_id in range(1, 2):
         print(all_label_recall)
         print(all_label_f1)
 
-    with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
-    ) as f:
-        json.dump(
-            {
-                "rouge_scores": all_rouge_scores,
-                "label_precision": all_label_precision,
-                "label_recall": all_label_recall,
-                "label_f1": all_label_f1,
-                "label_acc": all_label_acc,
-                "important": "results from different minibatches, not epochs"
-            },
-            f,
-        )
+        with open(
+            f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
+        ) as f:
+            json.dump(
+                {
+                    "rouge_scores": all_rouge_scores,
+                    "label_precision": all_label_precision,
+                    "label_recall": all_label_recall,
+                    "label_f1": all_label_f1,
+                    "label_acc": all_label_acc,
+                    "important": "results from different minibatches, not epochs"
+                },
+                f,
+            )
