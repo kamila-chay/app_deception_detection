@@ -52,6 +52,7 @@ class DolosDataset(Dataset):
         self.folder = folder
         self.label_folder = label_folder
         self.include_raw_clues = False
+        self.include_opposing = False
         self.conv_making_func = conv_making_func
 
     def __len__(self):
@@ -59,6 +60,9 @@ class DolosDataset(Dataset):
     
     def include_raw_clues_(self, value):
         self.include_raw_clues = value
+
+    def include_opposing_(self, value):
+        self.include_opposing = value
 
     def __getitem__(self, index):
         filename = self.info.iloc[index, 0]
@@ -75,15 +79,20 @@ class DolosDataset(Dataset):
 
         with open(labelpath, "r") as f:
             label = f.read()
-        ret_value =  (self.conv_making_func(filepath, percentages), self.conv_making_func(
+        ret_values =  (self.conv_making_func(filepath, percentages), self.conv_making_func(
             filepath, percentages, completion=label
         ))
 
         if self.include_raw_clues:
             with open(self.folder / self.label_folder / f"{filename}_raw_cues.json", "r") as f:
                 raw_cues = json.load(f)
-            return (*ret_value, raw_cues)
-        return ret_value
+            ret_values = (*ret_values, raw_cues)
+        
+        if self.include_opposing:
+            with open(self.folder / self.label_folder / f"{filename}_opposing.txt", "r") as f:
+                opposing = f.read()
+            ret_values = (*ret_values, opposing)
+        return ret_values
         
 
 
