@@ -109,7 +109,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             print("Input completed opposing =>>>")
             print(input_completed_opposing)
             input_completed_two_way = processor.apply_chat_template(
-                [input_completed, input_completed_opposing],
+                [input_completed[0], input_completed_opposing[0]],
                 num_frames=16,
                 add_generation_prompt=False,
                 tokenize=True,
