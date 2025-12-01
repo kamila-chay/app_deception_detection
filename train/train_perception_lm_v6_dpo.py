@@ -118,8 +118,6 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
                 padding=True,
             )
 
-            input_completed_two_way_ids_trimmed = input_completed_two_way["input_ids"][:, input["input_ids"].size(1):]
-
             input_completed_two_way = {
                 k: (
                     v.to(model.device, dtype=torch.bfloat16)
@@ -128,6 +126,8 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
                 )
                 for k, v in input_completed_two_way.items()
             }
+
+            input_completed_two_way_ids_trimmed = input_completed_two_way["input_ids"][:, input["input_ids"].size(1):]
 
             output = model(
                 **input_completed_two_way
