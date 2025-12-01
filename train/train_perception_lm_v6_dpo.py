@@ -22,7 +22,7 @@ NUM_DEVICES = 1
 GRAD_ACCU_STEPS = 16
 MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
-BETA = 0.5
+BETA = 0.05
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
@@ -43,7 +43,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
     model = PeftModel.from_pretrained(
         model, f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch{relevant_epoch}"
     ).to("cuda")
-    model.eval()
+    model.train()
 
     model_ref = AutoModelForImageTextToText.from_pretrained(
         MODEL_PATH, dtype=torch.bfloat16
@@ -78,7 +78,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
         ),
     )
 
-    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=5e-7)
+    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=5e-3)
     total_steps = (
         ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     )
@@ -167,7 +167,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             r_minus = sequence_log_probs[1] - sequence_log_probs_ref[1]
 
 
-            loss = -torch.log(torch.sigmoid(BETA * (r_plus - r_minus)))
+            loss = -torch.log(torch.sigmoid(BETA * (r_plus - r_minus))) / GRAD_ACCU_STEPS
             total_loss += loss
             print(loss)
 
