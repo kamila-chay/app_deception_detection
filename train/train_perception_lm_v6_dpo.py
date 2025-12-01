@@ -162,8 +162,9 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             )
 
             sequence_log_probs_ref = token_log_probs_ref.sum(dim=-1)
-            print(sequence_log_probs_ref.shape)
-            print(sequence_log_probs.shape)
+
+            print(sequence_log_probs)
+            print(sequence_log_probs_ref)
 
             r_plus = sequence_log_probs[0] - sequence_log_probs_ref[0]
             r_minus = sequence_log_probs[1] - sequence_log_probs_ref[1]
