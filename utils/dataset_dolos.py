@@ -90,8 +90,8 @@ class DolosDataset(Dataset):
         
         if self.include_opposing:
             with open(self.folder / self.label_folder / f"{filename}_opposing.txt", "r") as f:
-                opposing = f.read()
-            ret_values = (*ret_values, opposing)
+                opposing_label = f.read()
+            ret_values = (*ret_values, self.conv_making_func(filepath, percentages, completion=opposing_label))
         return ret_values
         
 
