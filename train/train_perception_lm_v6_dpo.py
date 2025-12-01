@@ -78,7 +78,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
         ),
     )
 
-    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=5e-3)
+    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-5)
     total_steps = (
         ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     )
@@ -185,7 +185,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
 
                 print(f"Total grad norm: {total_norm}")
                 print(f"Per-layer grad norm: {per_layer_norm[0::3]}")
-                torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, model.parameters()), max_norm=3.0)
+                torch.nn.utils.clip_grad_norm_(filter(lambda p: p.requires_grad, model.parameters()), max_norm=10.0)
                 optimizer.step()
                 scheduler.step()
                 optimizer.zero_grad()
