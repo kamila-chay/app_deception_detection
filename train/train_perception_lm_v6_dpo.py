@@ -151,7 +151,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             logits_ref = output_ref.logits[:, input["input_ids"].size(1) - 1 : -1, :].to(
                 torch.float32
             )
-            log_probs_ref = F.log_softmax(logits, dim=-1)
+            log_probs_ref = F.log_softmax(logits_ref, dim=-1)
 
             token_log_probs_ref = log_probs_ref.gather(
                 -1, input_completed_two_way_ids_trimmed.unsqueeze(-1)
