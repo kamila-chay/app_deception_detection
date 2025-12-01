@@ -43,7 +43,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
     model = PeftModel.from_pretrained(
         model, f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch{relevant_epoch}"
     ).to("cuda")
-    model.train()
+    model.eval()
 
     model_ref = AutoModelForImageTextToText.from_pretrained(
         MODEL_PATH, dtype=torch.bfloat16
