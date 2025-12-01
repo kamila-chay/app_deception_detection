@@ -22,7 +22,7 @@ NUM_DEVICES = 1
 GRAD_ACCU_STEPS = 16
 MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
-BETA = 1.0
+BETA = 0.01
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
@@ -78,7 +78,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
         ),
     )
 
-    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-5)
+    optimizer = AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=7e-6)
     total_steps = (
         ceil(len(train_dataset) / DEFAULT_BATCH_SIZE) * NUM_EPOCHS
     )
@@ -165,7 +165,6 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
 
             r_plus = sequence_log_probs[0] - sequence_log_probs_ref[0]
             r_minus = sequence_log_probs[1] - sequence_log_probs_ref[1]
-
 
             loss = -torch.log(torch.sigmoid(BETA * (r_plus - r_minus))) / GRAD_ACCU_STEPS
             total_loss += loss
