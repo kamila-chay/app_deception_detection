@@ -11,6 +11,7 @@ from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed
+from time import sleep
 
 set_seed(42)
 logging.set_verbosity_error()
@@ -58,9 +59,15 @@ for split_id in range(1, 4):
             MODEL_PATH, torch_dtype=torch.bfloat16
         )
         checkpoint = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
-        model = PeftModel.from_pretrained(
-            base, checkpoint
-        )
+        while True:
+            try:
+                model = PeftModel.from_pretrained(
+                    base, checkpoint
+                )
+                break
+            except:
+                sleep(60 * 5)
+
         model = model.to("cuda:0").eval()
         all_rouge_scores_per_epoch = []
         all_label_gt_per_epoch = []
