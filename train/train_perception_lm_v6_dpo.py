@@ -142,7 +142,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
                 -1, input_completed_two_way_ids_trimmed.unsqueeze(-1)
             ).squeeze(-1)
             token_log_probs = (
-                token_log_probs * input_completed_two_way.attention_mask[:, -token_log_probs.shape[1] :]
+                token_log_probs * input_completed_two_way["attention_mask"][:, -token_log_probs.shape[1] :]
             )
 
             sequence_log_probs = token_log_probs.sum(dim=-1)
@@ -162,7 +162,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             ).squeeze(-1)
 
             token_log_probs_ref = (
-                token_log_probs_ref * input_completed_two_way.attention_mask[:, -token_log_probs_ref.shape[1] :]
+                token_log_probs_ref * input_completed_two_way["attention_mask"][:, -token_log_probs_ref.shape[1] :]
             )
 
             sequence_log_probs_ref = token_log_probs_ref.sum(dim=-1)
