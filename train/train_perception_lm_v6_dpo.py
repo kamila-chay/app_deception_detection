@@ -22,7 +22,7 @@ NUM_DEVICES = 1
 GRAD_ACCU_STEPS = 16
 MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
-BETA = 0.05
+BETA = 1.0
 
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
