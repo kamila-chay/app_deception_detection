@@ -163,17 +163,11 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
 
             sequence_log_probs_ref = token_log_probs_ref.sum(dim=-1)
 
-            print(sequence_log_probs)
-            print(sequence_log_probs_ref)
-
             r_plus = sequence_log_probs[0] - sequence_log_probs_ref[0]
             r_minus = sequence_log_probs[1] - sequence_log_probs_ref[1]
 
-            print(torch.sigmoid(BETA * (r_plus - r_minus)))
 
             loss = -torch.log(torch.sigmoid(BETA * (r_plus - r_minus)))
-            print(loss)
-            loss = loss / GRAD_ACCU_STEPS
             total_loss += loss
             print(loss)
 
