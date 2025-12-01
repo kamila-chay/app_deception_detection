@@ -104,10 +104,6 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
                 return_tensors="pt",
                 padding=True,
             )
-            print("Input completed =>>>")
-            print(input_completed)
-            print("Input completed opposing =>>>")
-            print(input_completed_opposing)
             input_completed_two_way = processor.apply_chat_template(
                 [input_completed[0], input_completed_opposing[0]],
                 num_frames=16,
@@ -166,6 +162,8 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             )
 
             sequence_log_probs_ref = token_log_probs_ref.sum(dim=-1)
+            print(sequence_log_probs_ref.shape)
+            print(sequence_log_probs.shape)
 
             r_plus = sequence_log_probs[0] - sequence_log_probs_ref[0]
             r_minus = sequence_log_probs[1] - sequence_log_probs_ref[1]
