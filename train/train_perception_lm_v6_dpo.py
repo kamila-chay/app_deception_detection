@@ -104,6 +104,10 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
                 return_tensors="pt",
                 padding=True,
             )
+            print("Input completed =>>>")
+            print(input_completed)
+            print("Input completed opposing =>>>")
+            print(input_completed_opposing)
             input_completed_two_way = processor.apply_chat_template(
                 [input_completed, input_completed_opposing],
                 num_frames=16,
