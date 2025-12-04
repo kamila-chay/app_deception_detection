@@ -135,7 +135,7 @@ for split_id, timestamp, epoch in [(1, timestamp_token_level, 8), (2, timestamp_
             try:
                 response = None
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0, seed=42
+                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
                 ).output_text
 
                 pred_cues = list(map(lambda z: z.strip(), filter(lambda x: len(x) > 0, response.split("\n"))))
@@ -159,7 +159,7 @@ for split_id, timestamp, epoch in [(1, timestamp_token_level, 8), (2, timestamp_
             try:
                 response = None
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0, seed=42
+                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
                 ).output_text
 
                 score = float(response)
@@ -172,7 +172,7 @@ for split_id, timestamp, epoch in [(1, timestamp_token_level, 8), (2, timestamp_
             try:
                 response = None
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, temperature=0.0, top_p=1, seed=42
+                    model="gpt-4.1-mini", input=full_prompt, temperature=0, top_p=1
                 ).output_text
                 predicted, gt = response.split(",")
                 if predicted.replace("Text 1: ", "").lower().strip() == "deception":
