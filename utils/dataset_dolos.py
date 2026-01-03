@@ -21,7 +21,7 @@ def create_conv_template(video_path, *args, completion=""):
                     },
                     {
                         "type": "text",
-                        "text": "Would you say that the person in the video is lying or telling the truth? Explain your reasoning.",
+                        "text": "Would you say that the person in the video is lying or telling the truth? Reason and arrive at a tentatve conclusion.", # this needs to be added for the baseline!
                     },
                 ],
             }
@@ -79,6 +79,7 @@ class DolosDataset(Dataset):
 
         with open(labelpath, "r") as f:
             label = f.read()
+
         ret_values =  (self.conv_making_func(filepath, percentages), self.conv_making_func(
             filepath, percentages, completion=label
         ))
