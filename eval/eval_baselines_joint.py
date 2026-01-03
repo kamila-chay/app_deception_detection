@@ -121,9 +121,11 @@ for split_id in range(1, 4):
 
         for pred, ref, raw_clues_per_sample in zip(generated_text, expected_text, raw_cues):
             print("********start*********")
+            print(pred)
             pred = pred.split("ASSISTANT:")[1]
             print(pred)
             print("==============")
+            print(ref)
             ref = ref.split("ASSISTANT:")[1]
             print(ref)
             print("*********")
