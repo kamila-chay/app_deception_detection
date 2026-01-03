@@ -119,13 +119,12 @@ for split_id in range(1, 4):
             clean_up_tokenization_spaces=False,
         )
 
-        generated_text_trimmed = generated_text.split("ASSISTANT:")[1]
-        expected_text_trimmed = expected_text.split("ASSISTANT:")[1]
-
-        for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
+        for pred, ref, raw_clues_per_sample in zip(generated_text, expected_text, raw_cues):
             print("********start*********")
+            pred = pred.split("ASSISTANT:")[1]
             print(pred)
             print("==============")
+            ref = ref.split("ASSISTANT:")[1]
             print(ref)
             print("*********")
             print(raw_clues_per_sample)
