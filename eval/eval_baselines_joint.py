@@ -30,7 +30,7 @@ model = LlavaNextVideoForConditionalGeneration.from_pretrained("llava-hf/LLaVA-N
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
 
-prompt_1 = "Please read the 2 texts below. Each of them contains an assesment of whether or not a person is lying. Each one of them contains arguments for and against both deception and truth. At the same time they both lead to a specific, more likely conclusion. Read them and output the final conclusions only. Do it in the following, example format: \"Text 1: truth, Text 2: deception\". The output values should be aligned with those texts: \n\nText 1:\n"
+prompt_1 = "Please read the 2 texts below. Each of them contains an assesment of whether or not a person is lying. Each one of them contains arguments for and against both deception and truth. At the same time they both lead to a specific, more likely conclusion. Read them and output the final conclusions only. Do it in the following, example format: \"Text 1: truth, Text 2: deception\". The output values should be aligned with the following texts. The results should be limited to \"truth\" and \"false\". Dont output \"inconclusive\" unless absolutely no hints are made. \n\nText 1:\n"
 
 prompt_2 = "\n\nText 2:\n"
 
