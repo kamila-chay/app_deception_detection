@@ -107,19 +107,20 @@ for split_id in range(1, 4):
             generated_ids = model.generate(**inputs, 
                                             max_new_tokens=1000,
                                             do_sample=False)
-        generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
         expected_ids = Y["input_ids"]
-        expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
-        generated_text_trimmed = processor.batch_decode(
-            generated_ids_trimmed,
+        generated_text = processor.batch_decode(
+            generated_ids,
             skip_special_tokens=True,
             clean_up_tokenization_spaces=False,
         )
-        expected_text_trimmed = processor.batch_decode(
-            expected_ids_trimmed,
+        expected_text = processor.batch_decode(
+            expected_ids,
             skip_special_tokens=True,
             clean_up_tokenization_spaces=False,
         )
+
+        generated_text_trimmed = generated_text.split("ASSISTANT:")[1]
+        expected_text_trimmed = expected_text.split("ASSISTANT:")[1]
 
         for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
             print("********start*********")
