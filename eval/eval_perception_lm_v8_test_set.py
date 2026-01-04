@@ -35,7 +35,7 @@ prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of th
 
 prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
 
-for split_id in range(1, 4):
+for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
     print(f"Split id: {split_id}")
 
     test_dataset = DolosDataset(
@@ -60,7 +60,7 @@ for split_id in range(1, 4):
     all_f1_cue_scores = []
     all_cue_overlap_scores = []
 
-    for epoch in [8]: # make sure 8 is the best in validation...
+    for epoch in epochs:
         print(f"Epoch: {epoch}")
         base = AutoModelForImageTextToText.from_pretrained(
             MODEL_PATH, torch_dtype=torch.bfloat16
