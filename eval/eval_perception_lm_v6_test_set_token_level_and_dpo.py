@@ -38,7 +38,7 @@ prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of th
 
 prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
 
-for split_id, timestamp, epoch in [(1, timestamp_token_level, 8), (2, timestamp_dpo, 0), (3, timestamp_token_level, 3)]:
+for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
     print(f"Split id: {split_id}")
 
     test_dataset = DolosDataset(
