@@ -8,7 +8,7 @@ from openai import OpenAI
 from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import logging
-from transformers import LlavaNextVideoProcessor, LlavaNextVideoForConditionalGeneration
+from transformers import AutoProcessor, AutoModelForImageTextToText
 
 
 from thesis.utils.dataset_dolos import DolosDataset
@@ -24,8 +24,8 @@ timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
-processor = LlavaNextVideoProcessor.from_pretrained("llava-hf/LLaVA-NeXT-Video-7B-hf")
-model = LlavaNextVideoForConditionalGeneration.from_pretrained("llava-hf/LLaVA-NeXT-Video-7B-hf", dtype=torch.bfloat16, device_map="cuda")
+processor = AutoProcessor.from_pretrained("facebook/Perception-LM-1B")
+model = AutoModelForImageTextToText.from_pretrained("facebook/Perception-LM-1B", dtype=torch.bfloat16, device_map="cuda")
 
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
@@ -121,11 +121,9 @@ for split_id in range(1, 4):
 
         for pred, ref, raw_clues_per_sample in zip(generated_text, expected_text, raw_cues):
             print("********start*********")
-            print(pred)
             pred = pred.split("ASSISTANT:")[1]
             print(pred)
             print("==============")
-            print(ref)
             ref = ref.split("ASSISTANT:")[1]
             print(ref)
             print("*********")
