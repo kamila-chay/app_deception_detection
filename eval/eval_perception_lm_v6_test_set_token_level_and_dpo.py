@@ -127,10 +127,9 @@ for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
         )
 
         for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
-            print("********start*********")
-            print(pred)
-            print("==============")
-            print(ref)
+            print("**************************")
+            print(pred + "\n\n\n")
+            print(ref + "\n\n\n")
             full_prompt = prompt_cue_f1 + pred
             try:
                 response = None
@@ -152,6 +151,7 @@ for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
 
                 f1_for_cues = 2 * precision * recall / (precision + recall) if (precision + recall) > 0.0 else 0.0
                 all_f1_cue_scores_per_epoch.append(f1_for_cues)
+                print(f"Cue-F1: {f1_for_cues}")
             except Exception as e:
                 print(f"ERROR: Incorrect response formatting: {response}")
 
@@ -164,7 +164,7 @@ for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
 
                 score = float(response)
                 all_cue_overlap_scores_per_epoch.append(score)
-
+                print(f"SO: {score}")
             except Exception as e:
                 print(f"ERROR: Incorrect response formatting: {response}")
 
@@ -189,6 +189,8 @@ for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
                     raise ValueError()
                 all_label_pred_per_epoch.append(predicted)
                 all_label_gt_per_epoch.append(gt)
+                print(f"Predicted: {predicted}")
+                print(f"GT: {gt}")
             except ValueError:
                 print(f"ERROR: Incorrect response formatting: {response}")
 
