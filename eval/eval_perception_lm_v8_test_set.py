@@ -74,7 +74,8 @@ for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
         all_rouge_scores_per_epoch = []
         all_f1_cue_scores_per_epoch = []
         all_cue_overlap_scores_per_epoch = []
-        for X, Y, raw_cues in test_dataloader:
+        for dataloader_i, (X, Y, raw_cues) in enumerate(test_dataloader):
+            print(f"Dataloader id: {dataloader_i}")
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -120,8 +121,9 @@ for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
                 clean_up_tokenization_spaces=False,
             )
 
-            for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
+            for inner_i, (pred, ref, raw_clues_per_sample) in enumerate(zip(generated_text_trimmed, expected_text_trimmed, raw_cues)):
                 print("*****************************************************")
+                print(f"Inner id: {inner_i}")
                 print(pred + "\n\n\n")
                 print(ref + "\n\n\n")
                 full_prompt = prompt_cue_f1 + pred
