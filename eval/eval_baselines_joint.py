@@ -24,8 +24,8 @@ timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
 dir_path = Path(f"thesis/out/{timestamp}")
 dir_path.mkdir(parents=True, exist_ok=True)
 
-processor = AutoProcessor.from_pretrained("facebook/Perception-LM-1B")
-model = AutoModelForImageTextToText.from_pretrained("facebook/Perception-LM-1B", dtype=torch.bfloat16, device_map="cuda")
+processor = AutoProcessor.from_pretrained("llava-hf/LLaVA-NeXT-Video-7B-hf")
+model = AutoModelForImageTextToText.from_pretrained("llava-hf/LLaVA-NeXT-Video-7B-hf", dtype=torch.bfloat16, device_map="cuda")
 
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
@@ -40,7 +40,7 @@ prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of th
 
 prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
 
-for split_id in range(1, 4):
+for split_id in [3]:
     print(f"Split id: {split_id}")
 
     test_dataset = DolosDataset(
@@ -69,6 +69,7 @@ for split_id in range(1, 4):
     all_label_pred_per_epoch = []
 
     for i, (X, Y, raw_cues) in enumerate(test_dataloader):
+        print(f"Dataloader id: {i}")
         X = processor.apply_chat_template(
             X,
             num_frames=16,
@@ -119,15 +120,14 @@ for split_id in range(1, 4):
             clean_up_tokenization_spaces=False,
         )
 
-        for pred, ref, raw_clues_per_sample in zip(generated_text, expected_text, raw_cues):
-            print("********start*********")
-            pred = pred.split("assistant\n")[1]
-            print(pred)
-            print("==============")
-            ref = ref.split("assistant\n")[1]
-            print(ref)
-            print("*********")
-            print(raw_clues_per_sample)
+        for inner_idx, (pred, ref, raw_clues_per_sample) in enumerate(zip(generated_text, expected_text, raw_cues)):
+            print("***************************")
+            print(f"Inner id: {inner_idx}")
+            pred = pred.split("ASSISTANT:")[1]
+            print(pred + "\n\n\n")
+            ref = ref.split("ASSISTANT:")[1]
+            print(ref + "\n\n\n")
+            # print(raw_clues_per_sample)
             full_prompt = prompt_cue_f1 + pred
             try:
                 response = None
@@ -149,6 +149,7 @@ for split_id in range(1, 4):
 
                 f1_for_cues = 2 * precision * recall / (precision + recall) if (precision + recall) > 0.0 else 0.0
                 all_f1_cue_scores_per_epoch.append(f1_for_cues)
+                print(f"Cue-f1: {f1_for_cues}")
             except Exception as e:
                 print(f"ERROR: Incorrect response formatting: {response}")
 
@@ -161,6 +162,7 @@ for split_id in range(1, 4):
 
                 score = float(response)
                 all_cue_overlap_scores_per_epoch.append(score)
+                print(f"SO: {score}")
 
             except Exception as e:
                 print(f"ERROR: Incorrect response formatting: {response}")
@@ -186,6 +188,8 @@ for split_id in range(1, 4):
                     raise ValueError()
                 all_label_pred_per_epoch.append(predicted)
                 all_label_gt_per_epoch.append(gt)
+                print(f"Predicted: {predicted}")
+                print(f"GT: {gt}")
             except ValueError:
                 print(f"ERROR: Incorrect response formatting: {response}")
 

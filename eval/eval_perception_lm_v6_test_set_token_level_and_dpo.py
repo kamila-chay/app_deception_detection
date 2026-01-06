@@ -38,7 +38,7 @@ prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of th
 
 prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
 
-for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
+for split_id, timestamp, epoch in [(3, timestamp_token_level, 3)]:
     print(f"Split id: {split_id}")
 
     test_dataset = DolosDataset(
@@ -74,6 +74,7 @@ for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
     all_label_pred_per_epoch = []
 
     for i, (X, Y, raw_cues) in enumerate(test_dataloader):
+        print(f"Dataloader index: {i}")
         X = processor.apply_chat_template(
             X,
             num_frames=16,
@@ -126,8 +127,9 @@ for split_id, timestamp, epoch in [(2, timestamp_token_level, 1)]:
             clean_up_tokenization_spaces=False,
         )
 
-        for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
+        for inner_idx, (pred, ref, raw_clues_per_sample) in enumerate(zip(generated_text_trimmed, expected_text_trimmed, raw_cues)):
             print("**************************")
+            print(f"Inner id: {inner_idx}")
             print(pred + "\n\n\n")
             print(ref + "\n\n\n")
             full_prompt = prompt_cue_f1 + pred
