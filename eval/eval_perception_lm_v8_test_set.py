@@ -121,6 +121,9 @@ for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
             )
 
             for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
+                print("*****************************************************")
+                print(pred + "\n\n\n")
+                print(ref + "\n\n\n")
                 full_prompt = prompt_cue_f1 + pred
                 try:
                     response = client.responses.create(
@@ -141,6 +144,7 @@ for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
 
                     f1_for_cues = 2 * precision * recall / (precision + recall) if (precision + recall) > 0.0 else 0.0
                     all_f1_cue_scores_per_epoch.append(f1_for_cues)
+                    print(f"Cue-F1: {f1_for_cues}")
                 except Exception as e:
                     print(f"ERROR: Didn't process OpenAI API cue F1 ouput properly: {e}")
 
@@ -153,6 +157,7 @@ for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
 
                     score = float(response)
                     all_cue_overlap_scores_per_epoch.append(score)
+                    print(f"SO: {score}")
 
                 except Exception as e:
                     print(f"ERROR: Didn't process OpenAI API clue overlap ouput properly: {e}")
