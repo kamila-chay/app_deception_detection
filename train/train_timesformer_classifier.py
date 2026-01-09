@@ -132,7 +132,7 @@ for split_id in range(1, 4):
 
         total_loss /= len(train_dataset)
 
-        train_losses_for_this_split.append(total_loss)
+        train_losses_for_this_split.append(total_loss.item())
 
         save_path_lora = (
             f"thesis/out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
@@ -145,7 +145,7 @@ for split_id in range(1, 4):
 
         total_loss = 0
 
-        with torch.inference_mode():
+        with torch.no_grad():
             for batch_x, batch_y in val_dataloader:
                 batch_x = batch_x.to(model_engine.device).to(torch.bfloat16)
                 batch_y = batch_y.to(model_engine.device)
@@ -155,7 +155,7 @@ for split_id in range(1, 4):
 
             total_loss /= len(val_dataset)
 
-            val_losses_for_this_split.append(total_loss)
+            val_losses_for_this_split.append(total_loss.item())
         
         print(train_losses_for_this_split)
         print(val_losses_for_this_split)
