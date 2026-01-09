@@ -5,12 +5,12 @@ import numpy as np
 import torch
 from openai import OpenAI
 from peft import PeftModel
-from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed
+from thesis.utils.constants import ALL_RELEVANT_TRAITS
 
 set_seed(42)
 logging.set_verbosity_error()
@@ -23,12 +23,13 @@ MODEL_PATH = "facebook/Perception-LM-1B"
 
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
-scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
 
-prompt_1 = "Please read the 2 texts below. Each of them contains an assesment of whether or not a person is lying. Each one of them contains arguments for and against both deception and truth. At the same time they both lead to a specific, more likely conclusion. Read them and output the final conclusions only. Do it in the following, example format: \"Text 1: truth, Text 2: deception\". The output values should be aligned with those texts...\n\nText 1:\n"
+prompt_cue_f1 = f"Please read the text below. Look for behaviors that are mentioned in the text from the following list: {repr(ALL_RELEVANT_TRAITS)}. Output those using the same exact wording as in the list, one per line. Don't ouput anything else. \n\nText:\n" 
 
-prompt_2 = "\n\nText 2:\n"
+prompt_reasoning_overlap_p1 = f"Read those 2 texts describing the behavior of the same person and how it can be interpreted as a clue to deception/truthfulness. Score the logical overlap between those texts, you should pay attention to both the clues themselves and how they are interpreted and reasoned about. The score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
+
+prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
 
 for split_id in range(1, 4):
     print(f"Split id: {split_id}")
@@ -36,6 +37,8 @@ for split_id in range(1, 4):
     val_dataset = DolosDataset(
         f"thesis/data/val_fold{split_id}.csv", Path("thesis/data"), "mumin_reasoning_labels_concise"
     )
+
+    val_dataset.include_raw_clues_(True)
     val_dataloader = DataLoader(
         val_dataset,
         DEFAULT_BATCH_SIZE,
@@ -43,14 +46,13 @@ for split_id in range(1, 4):
         collate_fn=lambda batch: (
             [sample[0] for sample in batch],
             [sample[1] for sample in batch],
+            [sample[2] for sample in batch],
         ),
     )
 
-    all_rouge_scores = []
-    all_label_acc = []
-    all_label_precision = []
-    all_label_recall = []
-    all_label_f1 = []
+    all_SoftOverlap_scores = []
+    all_Cue_F1_scores = []
+    all_mean_reasoning_scores = []
 
     for epoch in range(10):
         print(f"Epoch: {epoch}")
@@ -62,10 +64,10 @@ for split_id in range(1, 4):
             base, checkpoint
         )
         model = model.to("cuda:0").eval()
-        all_rouge_scores_per_epoch = []
-        all_label_gt_per_epoch = []
-        all_label_pred_per_epoch = []
-        for i, (X, Y) in enumerate(val_dataloader):
+
+        all_SoftOverlap_scores_per_epoch = []
+        all_Cue_F1_scores_per_epoch = []
+        for i, (X, Y, raw_cues) in enumerate(val_dataloader):
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -110,74 +112,58 @@ for split_id in range(1, 4):
                 clean_up_tokenization_spaces=False,
             )
 
-            for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                full_prompt = prompt_1 + pred + prompt_2 + ref
-                response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, temperature=0.0, top_p=1
-                ).output_text
+            for pred, ref, raw_cues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
+                full_prompt = prompt_cue_f1 + pred
                 try:
-                    predicted, gt = response.split(",")
-                    if predicted.replace("Text 1: ", "").lower().strip() == "deception":
-                        predicted = 1
-                    elif predicted.replace("Text 1: ", "").lower().strip() == "truth":
-                        predicted = 0
-                    else:
-                        raise ValueError()
-                    if gt.replace("Text 2: ", "").lower().strip() == "deception":
-                        gt = 1
-                    elif gt.replace("Text 2: ", "").lower().strip() == "truth":
-                        gt = 0
-                    else:
-                        raise ValueError()
-                    all_label_pred_per_epoch.append(predicted)
-                    all_label_gt_per_epoch.append(gt)
-                except ValueError:
-                    print(f"WARNING: incorrect response formatting: {response}")
+                    response = None
+                    response = client.responses.create(
+                        model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
+                    ).output_text
 
-                rouge_score = scorer.score(ref, pred)
-                all_rouge_scores_per_epoch.append(
-                    np.mean(
-                        [
-                            rouge_score["rouge1"].fmeasure,
-                            rouge_score["rouge2"].fmeasure,
-                            rouge_score["rougeL"].fmeasure,
-                        ]
-                    )
-                )
+                    pred_cues = list(map(lambda z: z.strip(), filter(lambda x: len(x) > 0, response.split("\n"))))
+                    init_len = len(pred_cues)
+                    pred_cues = [cue for cue in pred_cues if cue in ALL_RELEVANT_TRAITS]
+                    if diff:= init_len - len(pred_cues):
+                        print(f"WARNING: {diff} cues were output that don't match ALL_RELEVANT_TRAITS")
+                    
+                    pred_cues = set(pred_cues)
+                    raw_clues_per_sample = set(raw_clues_per_sample)
+                    intersection = pred_cues & raw_clues_per_sample
+                    precision = len(intersection) / len(pred_cues) if len(pred_cues) > 0 else 0.0
+                    recall = len(intersection) / len(raw_clues_per_sample) if len(raw_clues_per_sample) > 0 else 0.0
 
-        all_rouge_scores.append(np.mean(all_rouge_scores_per_epoch))
-       
-        all_label_gt_per_epoch = np.array(all_label_gt_per_epoch)
-        all_label_pred_per_epoch = np.array(all_label_pred_per_epoch)
-        label_acc = (all_label_gt_per_epoch == all_label_pred_per_epoch).sum() / all_label_gt_per_epoch.size
-        tp = ((all_label_gt_per_epoch == 1) & (all_label_pred_per_epoch == 1)).sum()
-        fp = ((all_label_gt_per_epoch == 0) & (all_label_pred_per_epoch == 1)).sum()
-        fn = ((all_label_gt_per_epoch == 1) & (all_label_pred_per_epoch == 0)).sum()
+                    f1_for_cues = 2 * precision * recall / (precision + recall) if (precision + recall) > 0.0 else 0.0
+                    all_Cue_F1_scores_per_epoch.append(f1_for_cues)
+                except Exception as e:
+                    print(f"ERROR: Incorrect response formatting: {response}")
 
-        precision = tp / (tp + fp) if (tp + fp) > 0.0 else 0.0
-        recall = tp / (tp + fn) if (tp + fn) > 0.0 else 0.0
-        f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0.0 else 0.0
+                full_prompt = prompt_reasoning_overlap_p1 + pred + prompt_reasoning_overlap_p2 + ref
+                try:
+                    response = None
+                    response = client.responses.create(
+                        model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
+                    ).output_text
 
-        all_label_acc.append(label_acc)
-        all_label_precision.append(precision)
-        all_label_recall.append(recall)
-        all_label_f1.append(f1)
-        print(all_rouge_scores)
-        print(all_label_acc)
-        print(all_label_precision)
-        print(all_label_recall)
-        print(all_label_f1)
+                    score = float(response)
+                    all_SoftOverlap_scores_per_epoch.append(score)
+                except Exception as e:
+                    print(f"ERROR: Incorrect response formatting: {response}")
+
+
+        all_Cue_F1_scores.append(np.mean(all_Cue_F1_scores_per_epoch))
+        all_SoftOverlap_scores.append(np.mean(all_SoftOverlap_scores_per_epoch))
+        all_mean_reasoning_scores.append((all_Cue_F1_scores[-1] + all_SoftOverlap_scores[-1]) / 2)
+
+        print(all_mean_reasoning_scores)
 
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
+        f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info_reasoning_only.json", "w"
     ) as f:
         json.dump(
             {
-                "rouge_scores": all_rouge_scores,
-                "label_precision": all_label_precision,
-                "label_recall": all_label_recall,
-                "label_f1": all_label_f1,
-                "label_acc": all_label_acc,
+                "cue-f1": all_Cue_F1_scores,
+                "SO": all_SoftOverlap_scores,
+                "mean_reasoning": all_mean_reasoning_scores
             },
             f,
         )
