@@ -112,7 +112,7 @@ for split_id in range(1, 4):
                 clean_up_tokenization_spaces=False,
             )
 
-            for pred, ref, raw_cues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
+            for pred, ref, raw_clues_per_sample in zip(generated_text_trimmed, expected_text_trimmed, raw_cues):
                 full_prompt = prompt_cue_f1 + pred
                 try:
                     response = None
