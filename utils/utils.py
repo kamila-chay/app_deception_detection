@@ -1,20 +1,12 @@
-import random
+# Developed as part of a BSc thesis at the Faculty of Computer Science, Bialystok Univesity of Technology
+
 import os
+import random
 
 import cv2
 import numpy as np
 import torch
 from PIL import Image
-
-
-def rem_duplicates(orig):
-    res = []
-    res_set = set()
-    for item in orig:
-        if item not in res_set:
-            res.append(item)
-            res_set.add(item)
-    return
 
 
 def sample_frames_uniformly(video_path, num_samples=8):
@@ -49,111 +41,27 @@ def set_seed(seed):
     torch.backends.cudnn.benchmark = False
 
 
-def overlay_attention(attn_map, pixel_values, processor, index):
-    mean = torch.tensor(processor.image_mean).reshape(3, 1, 1)
-    std = torch.tensor(processor.image_std).reshape(3, 1, 1)
-    attn_resized = cv2.resize(attn_map[index], (224, 224))
-    heatmap = cv2.applyColorMap(np.uint8(255 * attn_resized), cv2.COLORMAP_HOT)
-    heatmap = cv2.cvtColor(heatmap, cv2.COLOR_BGR2RGB) / 255.0
-    img = pixel_values[0, index].cpu() * std + mean
-    img = torch.clamp(img, 0, 1)
-    img = img.permute(1, 2, 0).numpy()
-    img_gray = np.dot(img, [0.2989, 0.5870, 0.1140])
-    img_gray = np.stack([img_gray] * 3, axis=-1)
-    overlay = 0.5 * img_gray + 0.5 * heatmap
-    overlay = np.clip(overlay, 0, 1)
-
-    return overlay
-
-
-def roll_out_attn_map(attentions, num_attn_maps, patch_num_height, patch_num_width):
-    R = (
-        torch.eye(patch_num_height * patch_num_width + 1, device=attentions[0].device)
-        .unsqueeze(0)
-        .repeat(num_attn_maps, 1, 1)
-    )
-    for i in range(11, -1, -1):
-        A = attentions[i].mean(1)
-        A = A + torch.eye(A.size(1), device=A.device).unsqueeze(0).repeat(
-            num_attn_maps, 1, 1
-        )
-        A = A / A.sum(dim=-1, keepdim=True)
-        R = R @ A
-    attn_map = R[:, 0, 1:]
-
-    attn_map = attn_map.cpu().numpy()
-    attn_map = attn_map.reshape(num_attn_maps, patch_num_height, patch_num_width)
-    attn_map = (attn_map - attn_map.min(axis=(1, 2), keepdims=True)) / (
-        attn_map.max(axis=(1, 2), keepdims=True)
-        - attn_map.min(axis=(1, 2), keepdims=True)
-    )
-    return attn_map
-
 def concatenate_token_ids(token_ids1, token_ids2, pad_token_id):
     if token_ids1.size(1) == token_ids2.size(1):
         return torch.concat([token_ids1, token_ids2], dim=0)
     pad_token_id = torch.tensor([[pad_token_id]], device=token_ids1.device)
     if token_ids1.size(1) > token_ids2.size(1):
-        extra_padding = pad_token_id.repeat(token_ids2.size(0), token_ids1.size(1) - token_ids2.size(1))
+        extra_padding = pad_token_id.repeat(
+            token_ids2.size(0), token_ids1.size(1) - token_ids2.size(1)
+        )
         token_ids2 = torch.concat([token_ids2, extra_padding], dim=1)
     else:
-        extra_padding = pad_token_id.repeat(token_ids1.size(0), token_ids2.size(1) - token_ids1.size(1))
+        extra_padding = pad_token_id.repeat(
+            token_ids1.size(0), token_ids2.size(1) - token_ids1.size(1)
+        )
         token_ids1 = torch.concat([token_ids1, extra_padding], dim=1)
-     
+
     return torch.concat([token_ids1, token_ids2], dim=0)
 
-def make_conv_for_classification_cond(video_path, percentages, completion=None):
-    return (
-        [
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "video",
-                        "url": str(video_path),
-                    },
-                    {
-                        "type": "text",
-                        "text": "Would you say that the person in the video is lying or telling the truth? Explain your reasoning",
-                    },
-                ],
-            },
-            {
-                "role": "assistant",
-                "content": [
-                    {
-                        "type": "text",
-                        "text": f"It's not definitive, but I would say the person is {percentages[0]}% likely to be telling the truth and {percentages[1]}% likely to be lying."
-                    }
-                ]
-            }
-        ]
-        if not completion
-        else [
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "video",
-                        "url": str(video_path),
-                    },
-                    {
-                        "type": "text",
-                        "text": "Would you say that the person in the video is lying or telling the truth? Explain your reasoning ",
-                    },
-                ],
-            },
-            {"role": "assistant", 
-             "content": [
-                 {
-                    "type": "text", 
-                    "text": f"It's not definitive, but I would say the person is {percentages[0]}% likely to be telling the truth and {percentages[1]}% likely to be lying. {completion}"}
-                ]
-            },
-        ]
-    )
 
-def make_conv_for_reasoning_balanced(video_path, *args, completion=None):
+def make_conversation_for_separate_configuration(
+    video_path, *args, completion=None
+):  ### change to "conversation"
     return (
         [
             {
@@ -165,7 +73,7 @@ def make_conv_for_reasoning_balanced(video_path, *args, completion=None):
                     },
                     {
                         "type": "text",
-                        "text": "Explain different clues to deception/truthfulness in this video and how they could be interpreted.",
+                        "text": "Explain different cues to deception/truthfulness in this video and how they could be interpreted.",
                     },
                 ],
             }
@@ -181,19 +89,10 @@ def make_conv_for_reasoning_balanced(video_path, *args, completion=None):
                     },
                     {
                         "type": "text",
-                        "text": "Explain different clues to deception/truthfulness in this video and how they could be interpreted.",
+                        "text": "Explain different cues to deception/truthfulness in this video and how they could be interpreted.",
                     },
                 ],
             },
-            {
-                "role": "assistant", 
-                "content": [
-                    {
-                        "type": "text", 
-                        "text": completion
-                    }
-                ]
-            },
+            {"role": "assistant", "content": [{"type": "text", "text": completion}]},
         ]
     )
-

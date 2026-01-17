@@ -1,15 +1,17 @@
+# Developed as part of a BSc thesis at the Faculty of Computer Science, Bialystok Univesity of Technology
+
+import json
 import os
 import random
 
 import pandas as pd
 import torch
 from torch.utils.data import Dataset
-import json
 
 from thesis.utils.utils import sample_frames_uniformly
 
 
-def create_conv_template(video_path, *args, completion=""):
+def make_conversation_for_joint_configuration(video_path, *args, completion=""):
     return (
         [
             {
@@ -21,7 +23,7 @@ def create_conv_template(video_path, *args, completion=""):
                     },
                     {
                         "type": "text",
-                        "text": "Would you say that the person in the video is lying or telling the truth? Reason and arrive at a tentatve conclusion even if it's not conclusive.", # this needs to be added for the baseline!
+                        "text": "Would you say that the person in the video is lying or telling the truth? Reason and arrive at a tentatve conclusion even if it's not conclusive.",  # this needs to be added for the baseline!
                     },
                 ],
             }
@@ -47,7 +49,13 @@ def create_conv_template(video_path, *args, completion=""):
 
 
 class DolosDataset(Dataset):
-    def __init__(self, info, folder, label_folder="mumin_reasoning_labels", conv_making_func=create_conv_template):
+    def __init__(
+        self,
+        info,
+        folder,
+        label_folder="joint_configuration_reasoning_labels",
+        conv_making_func=make_conversation_for_joint_configuration,
+    ):
         self.info = pd.read_csv(info, header=None)
         self.folder = folder
         self.label_folder = label_folder
@@ -57,7 +65,7 @@ class DolosDataset(Dataset):
 
     def __len__(self):
         return len(self.info)
-    
+
     def include_raw_clues_(self, value):
         self.include_raw_clues = value
 
@@ -80,21 +88,28 @@ class DolosDataset(Dataset):
         with open(labelpath, "r") as f:
             label = f.read()
 
-        ret_values =  (self.conv_making_func(filepath, percentages), self.conv_making_func(
-            filepath, percentages, completion=label
-        ))
+        ret_values = (
+            self.conv_making_func(filepath, percentages),
+            self.conv_making_func(filepath, percentages, completion=label),
+        )
 
         if self.include_raw_clues:
-            with open(self.folder / self.label_folder / f"{filename}_raw_cues.json", "r") as f:
+            with open(
+                self.folder / self.label_folder / f"{filename}_raw_cues.json", "r"
+            ) as f:
                 raw_cues = json.load(f)
             ret_values = (*ret_values, raw_cues)
-        
+
         if self.include_opposing:
-            with open(self.folder / self.label_folder / f"{filename}_opposing.txt", "r") as f:
+            with open(
+                self.folder / self.label_folder / f"{filename}_opposing.txt", "r"
+            ) as f:
                 opposing_label = f.read()
-            ret_values = (*ret_values, self.conv_making_func(filepath, percentages, completion=opposing_label))
+            ret_values = (
+                *ret_values,
+                self.conv_making_func(filepath, percentages, completion=opposing_label),
+            )
         return ret_values
-        
 
 
 class DolosClassificationDataset(Dataset):

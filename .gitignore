@@ -2,5 +2,6 @@ out/
 __pycache__/
 data/*
 
-!data/mumin_reasoning_labels/
-!data/mumin_reasoning_labels_concise/
+!data/joint_configuration_reasoning_labels/
+!data/separate_configuration_reasoning_labels/
+!data/scripts/

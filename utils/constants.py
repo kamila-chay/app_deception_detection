@@ -1,6 +1,8 @@
+# Developed as part of a BSc thesis at the Faculty of Computer Science, Bialystok Univesity of Technology
+
 from typing import List
 
-ALL_RELEVANT_TRAITS : List[str] = [
+ALL_RELEVANT_TRAITS: List[str] = [
     "Smile",
     "Laughter",
     "Scowl",
