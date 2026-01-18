@@ -11,7 +11,7 @@ from torch.utils.data import Dataset
 from thesis.utils.utils import sample_frames_uniformly
 
 
-def make_conversation_for_joint_configuration(video_path, *args, completion=""):
+def make_conversation_for_joint_configuration(video_path, completion=""):
     return (
         [
             {
@@ -76,21 +76,13 @@ class DolosDataset(Dataset):
         filename = self.info.iloc[index, 0]
         filepath = self.folder / "video" / f"{filename}.mp4"
         labelpath = self.folder / self.label_folder / f"{filename}.txt"
-        one_hot_label = 0 if self.info.iloc[index, 1].lower().strip() == "truth" else 1
-
-        percentages = [0, 0]
-        offset = min(max(random.gauss(mu=20, sigma=10), 0), 100)
-        offset = round(offset)
-
-        percentages[one_hot_label] = 100 - offset
-        percentages[1 - one_hot_label] = offset
 
         with open(labelpath, "r") as f:
             label = f.read()
 
         ret_values = (
-            self.conversation_making_func(filepath, percentages),
-            self.conversation_making_func(filepath, percentages, completion=label),
+            self.conversation_making_func(filepath),
+            self.conversation_making_func(filepath, completion=label),
         )
 
         if self.include_raw_cues:
@@ -108,7 +100,7 @@ class DolosDataset(Dataset):
             ret_values = (
                 *ret_values,
                 self.conversation_making_func(
-                    filepath, percentages, completion=opposing_label
+                    filepath, completion=opposing_label
                 ),
             )
         return ret_values

@@ -156,15 +156,15 @@ for split_id, epoch in ((1, 9), (2, 4), (3, 6)):
             except Exception as e:
                 print(f"ERROR: Didn't process OpenAI API cue F1 ouput properly: {e}")
 
-            prompt_so = so_template_part1 + pred + so_template_part2 + ref
+            so_prompt = so_template_part1 + pred + so_template_part2 + ref
 
             try:
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=prompt_so, top_p=1, temperature=0
+                    model="gpt-4.1-mini", input=so_prompt, top_p=1, temperature=0
                 ).output_text
 
-                score = float(response)
-                soft_overlap_scores.append(score)
+                so_score = float(response)
+                soft_overlap_scores.append(so_score)
 
             except Exception as e:
                 print(

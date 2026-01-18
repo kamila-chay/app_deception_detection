@@ -24,6 +24,7 @@ client = OpenAI()
 logging.info(f"Loading data from {DATA_PATH}")
 df = pd.read_excel(DATA_PATH)
 
+
 def fill_traits(row: pd.Series) -> List[str]:
     """Fill the traits dictionary from a DataFrame row, converting to bools where needed."""
     traits = list()
@@ -55,6 +56,7 @@ def make_prompt(traits: List[str]) -> str:
     )
 
     return message
+
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

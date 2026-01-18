@@ -35,7 +35,7 @@ set_seed(42)
 
 client = OpenAI()
 
-NUM_DEVICES = 1 
+NUM_DEVICES = 1
 GRAD_ACCU_STEPS = 8
 MICRO_BATCH = 1
 DEFAULT_BATCH_SIZE = NUM_DEVICES * GRAD_ACCU_STEPS * MICRO_BATCH
@@ -228,32 +228,36 @@ for split_id in range(1, 4):
                         + classification_template_part2
                         + expected_text_trimmed
                     )
-
+                    response = None
                     try:
                         response = client.responses.create(
-                            model="gpt-4.1-mini", input=prompt_classification
-                        )
+                            model="gpt-4.1-mini",
+                            input=prompt_classification,
+                            top_p=1,
+                            temperature=0,
+                        ).output_text
                     except (APIError, APIConnectionError, Timeout, AuthenticationError):
-                        response = None
                         print("WARNING: Error getting a response from OpenAI")
 
                     label_score = 0.5
 
                     try:
-                        label_score = float(response.output_text)
+                        label_score = float(response)
                     except (ValueError, TypeError):
                         print(
-                            f"WARNING: Incorrect answer from OpenAI: {response.output_text}"
+                            f"WARNING: Incorrect answer from OpenAI: {response}"
                         )
 
                     cue_f1_prompt = cue_f1_template + generated_text_trimmed
-
+                    response = None
                     try:
                         response = client.responses.create(
-                            model="gpt-4.1-mini", input=cue_f1_prompt
-                        )
+                            model="gpt-4.1-mini",
+                            input=cue_f1_prompt,
+                            top_p=1,
+                            temperature=0,
+                        ).output_text
                     except (APIError, APIConnectionError, Timeout, AuthenticationError):
-                        response = None
                         print("WARNING: Error getting a response from OpenAI")
 
                     cue_score = 0.5
@@ -264,7 +268,7 @@ for split_id in range(1, 4):
                                 lambda z: z.strip(),
                                 filter(
                                     lambda x: len(x) >= 1,
-                                    response.output_text.split("\n"),
+                                    response.split("\n"),
                                 ),
                             )
                         )
@@ -272,7 +276,7 @@ for split_id in range(1, 4):
                         response = [
                             cue for cue in response if cue in ALL_RELEVANT_TRAITS
                         ]
-                        if diff := len(response) > init_len:
+                        if diff := len(response) - init_len:
                             print(f"OOPS: {diff} wrong cues from OpenAI")
                         cues_in_generated = set(response)
                         cues_in_gt = set(raw_cues[0])
@@ -461,32 +465,36 @@ for split_id in range(1, 4):
                         + classification_template_part2
                         + expected_text_trimmed
                     )
-
+                    response = None
                     try:
                         response = client.responses.create(
-                            model="gpt-4.1-mini", input=prompt_classification
-                        )
+                            model="gpt-4.1-mini",
+                            input=prompt_classification,
+                            top_p=1,
+                            temperature=0,
+                        ).output_text
                     except (APIError, APIConnectionError, Timeout, AuthenticationError):
-                        response = None
                         print("WARNING: Error getting a response from OpenAI")
 
                     label_score = 0.5
 
                     try:
-                        label_score = float(response.output_text)
+                        label_score = float(response)
                     except (ValueError, TypeError):
                         print(
-                            f"WARNING: Incorrect answer from OpenAI: {response.output_text}"
+                            f"WARNING: Incorrect answer from OpenAI: {response}"
                         )
 
                     cue_f1_prompt = cue_f1_template + generated_text_trimmed
-
+                    response = None
                     try:
                         response = client.responses.create(
-                            model="gpt-4.1-mini", input=cue_f1_prompt
-                        )
+                            model="gpt-4.1-mini",
+                            input=cue_f1_prompt,
+                            top_p=1,
+                            temperature=0,
+                        ).output_text
                     except (APIError, APIConnectionError, Timeout, AuthenticationError):
-                        response = None
                         print("WARNING: Error getting a response from OpenAI")
 
                     cue_score = 0.5
@@ -497,7 +505,7 @@ for split_id in range(1, 4):
                                 lambda z: z.strip(),
                                 filter(
                                     lambda x: len(x) >= 1,
-                                    response.output_text.split("\n"),
+                                    response.split("\n"),
                                 ),
                             )
                         )
@@ -505,7 +513,7 @@ for split_id in range(1, 4):
                         response = [
                             cue for cue in response if cue in ALL_RELEVANT_TRAITS
                         ]
-                        if diff := len(response) > init_len:
+                        if diff := len(response) - init_len:
                             print(f"OOPS: {diff} wrong cues from OpenAI")
                         cues_in_generated = set(response)
                         cues_in_gt = set(raw_cues[0])

@@ -221,8 +221,8 @@ for split_id in range(1, 4):
                         model="gpt-4.1-mini", input=so_prompt, top_p=1, temperature=0
                     ).output_text
 
-                    score = float(response)
-                    so_scores_this_epoch.append(score)
+                    so_score = float(response)
+                    so_scores_this_epoch.append(so_score)
                 except Exception:
                     print(f"ERROR: Incorrect response formatting: {response}")
 
@@ -255,7 +255,7 @@ for split_id in range(1, 4):
         )
 
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_validation_metrics.json", 
+        f"thesis/out/{timestamp}/model_split{split_id}_validation_metrics.json",
         "w",
     ) as f:
         json.dump(

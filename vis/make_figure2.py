@@ -45,9 +45,7 @@ labels = []
 
 for i, ax in list(enumerate(axes.flat))[:3]:
     ax.yaxis.set_major_locator(MultipleLocator(10))
-    (l1,) = ax.plot(
-        x[:9], acc[i], label="A", color=f"C{i}", ls=":"
-    )
+    (l1,) = ax.plot(x[:9], acc[i], label="A", color=f"C{i}", ls=":")
     (l1,) = ax.plot(
         x[8:],
         np.concatenate((acc[i, -1:], mrt_acc[i]), axis=0),

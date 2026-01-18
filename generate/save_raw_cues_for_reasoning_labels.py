@@ -34,6 +34,7 @@ def fill_traits(row: pd.Series) -> List[str]:
             logging.warning(f"Row {row.name}: failed to parse '{trait}' ({e})")
     return traits
 
+
 for i, row in df.iterrows():
     logging.info(f"Row {i}...")
     traits = fill_traits(row)

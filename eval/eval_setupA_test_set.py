@@ -173,8 +173,8 @@ for split_id, epoch in ((1, 8), (2, 1), (3, 3)):
                     model="gpt-4.1-mini", input=so_prompt, top_p=1, temperature=0
                 ).output_text
 
-                score = float(response)
-                soft_overlap_scores.append(score)
+                so_score = float(response)
+                soft_overlap_scores.append(so_score)
             except Exception:
                 print(f"ERROR: Incorrect response formatting: {response}")
 

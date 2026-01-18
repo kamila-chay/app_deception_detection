@@ -59,7 +59,7 @@ def concatenate_token_ids(token_ids1, token_ids2, pad_token_id):
     return torch.concat([token_ids1, token_ids2], dim=0)
 
 
-def make_conversation_for_separate_configuration(video_path, *args, completion=None):
+def make_conversation_for_separate_configuration(video_path, completion=None):
     return (
         [
             {

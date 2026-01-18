@@ -175,8 +175,8 @@ for split_id in range(1, 4):
                         model="gpt-4.1-mini", input=so_prompt, top_p=1, temperature=0
                     ).output_text
 
-                    score = float(response)
-                    so_scores_this_epoch.append(score)
+                    so_score = float(response)
+                    so_scores_this_epoch.append(so_score)
 
                 except Exception as e:
                     print(
