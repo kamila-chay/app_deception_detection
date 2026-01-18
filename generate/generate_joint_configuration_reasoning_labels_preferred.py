@@ -9,13 +9,10 @@ from openai import OpenAI
 
 from thesis.utils.constants import ALL_RELEVANT_TRAITS
 
-# ============================ CONFIGURATION ============================
-
 DATA_PATH = Path("thesis/data/traits.xlsx")
 OUTPUT_DIR = Path("thesis/data/joint_configuration_reasoning_labels")
 MODEL_NAME = "gpt-4.1-mini"
 
-# Setup logging
 logging.basicConfig(
     level=logging.INFO,
     format="[%(asctime)s] %(levelname)s: %(message)s",
@@ -24,13 +21,8 @@ logging.basicConfig(
 
 client = OpenAI()
 
-# ============================ DATA LOADING ============================
-
 logging.info(f"Loading data from {DATA_PATH}")
 df = pd.read_excel(DATA_PATH)
-
-# ============================ HELPER FUNCTIONS ============================
-
 
 def fill_traits(row: pd.Series) -> List[str]:
     """Fill the traits dictionary from a DataFrame row, converting to bools where needed."""
@@ -63,10 +55,6 @@ def make_prompt(traits: List[str]) -> str:
     )
 
     return message
-
-
-# ============================ MAIN LOOP ============================ ### different styles - fix!
-
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 

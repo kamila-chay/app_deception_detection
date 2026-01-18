@@ -95,8 +95,6 @@ acc = [
     ],
 ]
 
-### look like they were made up, fix!
-
 train_losses = [
     [
         0.59375,
@@ -247,7 +245,6 @@ fig, axes = plt.subplots(
 for i, ax in list(enumerate(axes.flat))[:3]:
     ax.xaxis.set_major_locator(MultipleLocator(4))
     ax.xaxis.set_major_locator(MultipleLocator(2))
-    # ax.yaxis.set_major_locator(MultipleLocator(0.03))
     (l1,) = ax.plot(x, acc[i], label=f"Split {i + 1}", color=f"C{i}")
 
     ax.grid(which="major", color="gray", linewidth=0.3, alpha=0.3)

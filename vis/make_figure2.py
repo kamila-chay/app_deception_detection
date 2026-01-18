@@ -44,12 +44,10 @@ lines = []
 labels = []
 
 for i, ax in list(enumerate(axes.flat))[:3]:
-    # ax.xaxis.set_major_locator(MultipleLocator(2))
-    # ax.xaxis.set_major_locator(MultipleLocator(1))
     ax.yaxis.set_major_locator(MultipleLocator(10))
     (l1,) = ax.plot(
         x[:9], acc[i], label="A", color=f"C{i}", ls=":"
-    )  # the black dotted line
+    )
     (l1,) = ax.plot(
         x[8:],
         np.concatenate((acc[i, -1:], mrt_acc[i]), axis=0),
@@ -66,9 +64,7 @@ for i, ax in list(enumerate(axes.flat))[:3]:
     ax.grid(which="major", color="gray", linewidth=0.3, alpha=0.3)
 
 for i, ax in list(enumerate(axes.flat[3:])):
-    # ax.xaxis.set_major_locator(MultipleLocator(2))
     ax.xaxis.set_major_locator(MultipleLocator(1))
-    # ax.yaxis.set_major_locator(MultipleLocator(0.3))
     (l1,) = ax.plot(
         np.arange(1, 4), train_losses[i], label=f"B {i + 1}", color=f"C{i}", ls="--"
     )

@@ -20,8 +20,6 @@ from thesis.utils.constants import (
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import make_conversation_for_separate_configuration, set_seed
 
-# should run this script a few times due to some indeterminism  in open AI calls
-
 set_seed(42)
 logging.set_verbosity_error()
 
@@ -69,7 +67,7 @@ for split_id, epoch in ((1, 9), (2, 4), (3, 6)):
 
     rouge_scores = []
     cue_f1_scores = []
-    so_scores = []
+    soft_overlap_scores = []
     for X, Y, raw_cues in test_dataloader:
         X = processor.apply_chat_template(
             X,
@@ -116,7 +114,7 @@ for split_id, epoch in ((1, 9), (2, 4), (3, 6)):
             clean_up_tokenization_spaces=False,
         )
 
-        for pred, ref, raw_cues_per_sample in zip(
+        for pred, ref, ref_cues in zip(
             generated_text_trimmed, expected_text_trimmed, raw_cues
         ):
             cue_f1_prompt = cue_f1_template + pred
@@ -139,20 +137,18 @@ for split_id, epoch in ((1, 9), (2, 4), (3, 6)):
                     )
 
                 pred_cues = set(pred_cues)
-                raw_cues_per_sample = set(raw_cues_per_sample)
-                intersection = pred_cues & raw_cues_per_sample
+                ref_cues = set(ref_cues)
+                intersection = pred_cues & ref_cues
                 cue_precision = (
                     len(intersection) / len(pred_cues) if len(pred_cues) > 0 else 0.0
                 )
                 cue_recall = (
-                    len(intersection) / len(raw_cues_per_sample)
-                    if len(raw_cues_per_sample) > 0
-                    else 0.0
+                    len(intersection) / len(ref_cues) if len(ref_cues) > 0 else 0.0
                 )
 
                 cue_f1 = (
                     2 * cue_precision * cue_recall / (cue_precision + cue_recall)
-                    if (cue_precision + cue_recall) > 0.0  # look for "f1_for_cue"
+                    if (cue_precision + cue_recall) > 0.0
                     else 0.0
                 )
                 cue_f1_scores.append(cue_f1)
@@ -168,8 +164,7 @@ for split_id, epoch in ((1, 9), (2, 4), (3, 6)):
                 ).output_text
 
                 score = float(response)
-                so_scores.append(score)
-                print(f"SO: {score}")
+                soft_overlap_scores.append(score)
 
             except Exception as e:
                 print(
@@ -192,11 +187,9 @@ for split_id, epoch in ((1, 9), (2, 4), (3, 6)):
     ) as f:
         json.dump(
             {
-                "ROUGE": np.mean(
-                    rouge_scores
-                ),  # why would it be a list if its for test
+                "ROUGE": np.mean(rouge_scores),
                 "Cue-F1": np.mean(cue_f1_scores),
-                "SO": np.mean(so_scores),
+                "SO": np.mean(soft_overlap_scores),
             },
             f,
         )

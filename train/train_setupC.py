@@ -50,7 +50,6 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
         model,
         f"thesis/out/{token_level_timestamp}/model_split{split_id}_epoch{relevant_epoch}",
     ).to("cuda")
-    model.train()
 
     model_ref = AutoModelForImageTextToText.from_pretrained(
         MODEL_PATH, dtype=torch.bfloat16
@@ -76,11 +75,29 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
         "joint_configuration_reasoning_labels",
     )
 
-    train_dataset.include_opposing_(True)
+    train_dataset.include_dispreferred_(True)
     train_dataloader = DataLoader(
         train_dataset,
         MICRO_BATCH,
         shuffle=True,
+        collate_fn=lambda batch: (
+            [sample[0] for sample in batch],
+            [sample[1] for sample in batch],
+            [sample[2] for sample in batch],
+        ),
+    )
+
+    val_dataset = DolosDataset(
+        f"thesis/data/val_fold{split_id}.csv",
+        Path("thesis/data"),
+        "joint_configuration_reasoning_labels",
+    )
+
+    val_dataset.include_dispreferred_(True)
+    val_dataloader = DataLoader(
+        val_dataset,
+        MICRO_BATCH,
+        shuffle=False,
         collate_fn=lambda batch: (
             [sample[0] for sample in batch],
             [sample[1] for sample in batch],
@@ -98,11 +115,13 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
     )
 
     all_train_losses = []
+    all_val_losses = []
 
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
-        train_loss = 0  # validation losses should be added directly to B1-3 and C
-        for i, (input, input_completed, input_completed_opposing) in enumerate(
+        train_loss = 0
+        model.train()
+        for i, (input, input_completed, input_completed_dispreferred) in enumerate(
             train_dataloader
         ):
             input = processor.apply_chat_template(
@@ -115,7 +134,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
                 padding=True,
             )
             input_completed_two_way = processor.apply_chat_template(
-                [input_completed[0], input_completed_opposing[0]],
+                [input_completed[0], input_completed_dispreferred[0]],
                 num_frames=16,
                 add_generation_prompt=False,
                 tokenize=True,
@@ -177,14 +196,14 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
 
             sequence_log_probs_ref = token_log_probs_ref.sum(dim=-1)
 
-            r_plus = sequence_log_probs[0] - sequence_log_probs_ref[0]
-            r_minus = sequence_log_probs[1] - sequence_log_probs_ref[1]
+            preferred = sequence_log_probs[0] - sequence_log_probs_ref[0]
+            dispreferred = sequence_log_probs[1] - sequence_log_probs_ref[1]
 
             loss = (
-                -torch.log(torch.sigmoid(BETA * (r_plus - r_minus))) / GRAD_ACCU_STEPS
+                -torch.log(torch.sigmoid(BETA * (preferred - dispreferred)))
+                / GRAD_ACCU_STEPS
             )
             train_loss += loss
-            print(loss)
 
             loss.backward()
 
@@ -217,7 +236,6 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
 
         train_loss /= len(train_dataset)
         all_train_losses.append(train_loss.cpu().item())
-        print(all_train_losses)
 
         save_dir = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
         model.save_pretrained(save_dir)
@@ -230,6 +248,97 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             Path(save_dir) / "training_state.pt",
         )
 
+        val_loss = 0
+        model.eval()
+        for i, (input, input_completed, input_completed_dispreferred) in enumerate(
+            val_dataloader
+        ):
+            input = processor.apply_chat_template(
+                input,
+                num_frames=16,
+                add_generation_prompt=True,
+                tokenize=True,
+                return_dict=True,
+                return_tensors="pt",
+                padding=True,
+            )
+            input_completed_two_way = processor.apply_chat_template(
+                [input_completed[0], input_completed_dispreferred[0]],
+                num_frames=16,
+                add_generation_prompt=False,
+                tokenize=True,
+                return_dict=True,
+                return_tensors="pt",
+                padding=True,
+            )
+
+            input_completed_two_way = {
+                k: (
+                    v.to(model.device, dtype=torch.bfloat16)
+                    if torch.is_floating_point(v)
+                    else v.to(model.device)
+                )
+                for k, v in input_completed_two_way.items()
+            }
+
+            input_completed_two_way_ids_trimmed = input_completed_two_way["input_ids"][
+                :, input["input_ids"].size(1) :
+            ]
+
+            with torch.no_grad():
+                output = model(**input_completed_two_way)
+
+            logits = output.logits[:, input["input_ids"].size(1) - 1 : -1, :].to(
+                torch.float32
+            )
+            log_probs = F.log_softmax(logits, dim=-1)
+
+            token_log_probs = log_probs.gather(
+                -1, input_completed_two_way_ids_trimmed.unsqueeze(-1)
+            ).squeeze(-1)
+            token_log_probs = (
+                token_log_probs
+                * input_completed_two_way["attention_mask"][
+                    :, -token_log_probs.shape[1] :
+                ]
+            )
+
+            sequence_log_probs = token_log_probs.sum(dim=-1)
+
+            with torch.no_grad():
+                output_ref = model_ref(**input_completed_two_way)
+
+            logits_ref = output_ref.logits[
+                :, input["input_ids"].size(1) - 1 : -1, :
+            ].to(torch.float32)
+            log_probs_ref = F.log_softmax(logits_ref, dim=-1)
+
+            token_log_probs_ref = log_probs_ref.gather(
+                -1, input_completed_two_way_ids_trimmed.unsqueeze(-1)
+            ).squeeze(-1)
+
+            token_log_probs_ref = (
+                token_log_probs_ref
+                * input_completed_two_way["attention_mask"][
+                    :, -token_log_probs_ref.shape[1] :
+                ]
+            )
+
+            sequence_log_probs_ref = token_log_probs_ref.sum(dim=-1)
+
+            preferred = sequence_log_probs[0] - sequence_log_probs_ref[0]
+            dispreferred = sequence_log_probs[1] - sequence_log_probs_ref[1]
+
+            loss = (
+                -torch.log(torch.sigmoid(BETA * (preferred - dispreferred)))
+                / GRAD_ACCU_STEPS
+            )
+            val_loss += loss
+
+        val_loss /= len(val_dataset)
+        all_val_losses.append(val_loss.cpu().item())
+        print(all_val_losses)
+
     plt.plot(all_train_losses, marker="o")
     plt.title("Train Loss Plot")
     plt.xlabel("Epoch")
@@ -239,3 +348,13 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
     plt.tight_layout()
 
     plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png")
+
+    plt.plot(all_val_losses, marker="o")
+    plt.title("Val Loss Plot")
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
+
+    plt.grid(True)
+    plt.tight_layout()
+
+    plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_val_losses.png")

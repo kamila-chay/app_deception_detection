@@ -7,11 +7,14 @@ import numpy as np
 import torch
 from openai import OpenAI
 from peft import PeftModel
+from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
 from thesis.utils.constants import (
     ALL_RELEVANT_TRAITS,
+    classification_template_part1,
+    classification_template_part2,
     cue_f1_template,
     so_template_part1,
     so_template_part2,
@@ -31,6 +34,7 @@ MODEL_PATH = "facebook/Perception-LM-1B"
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
 client = OpenAI()
+scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 
 for split_id in range(1, 4):
     print(f"Split id: {split_id}")
@@ -53,7 +57,12 @@ for split_id in range(1, 4):
         ),
     )
 
-    all_so_scores = []  # add classification back to setupA accuracy
+    all_rouge_scores = []
+    all_acc = []
+    all_precision = []
+    all_recall = []
+    all_f1 = []
+    all_so_scores = []
     all_cue_f1_scores = []
     mean_so_cue_f1 = []
 
@@ -66,8 +75,12 @@ for split_id in range(1, 4):
         model = PeftModel.from_pretrained(base, checkpoint)
         model = model.to("cuda:0").eval()
 
+        rouge_scores_this_epoch = []
+        gt_this_epoch = []
+        pred_this_epoch = []
         so_scores_this_epoch = []
         cue_f1_scores_this_epoch = []
+
         for X, Y, raw_cues in val_dataloader:
             X = processor.apply_chat_template(
                 X,
@@ -113,9 +126,50 @@ for split_id in range(1, 4):
                 clean_up_tokenization_spaces=False,
             )
 
-            for pred, ref, raw_cues_per_sample in zip(
+            for pred, ref, ref_cues in zip(
                 generated_text_trimmed, expected_text_trimmed, raw_cues
             ):
+                classification_prompt = (
+                    classification_template_part1
+                    + pred
+                    + classification_template_part2
+                    + ref
+                )
+                response = client.responses.create(
+                    model="gpt-4.1-mini",
+                    input=classification_prompt,
+                    top_p=1,
+                    temperature=0,
+                ).output_text
+                try:
+                    pred, gt = response.split(",")
+                    if pred.replace("Text 1: ", "").lower().strip() == "deception":
+                        pred = 1
+                    elif pred.replace("Text 1: ", "").lower().strip() == "truth":
+                        pred = 0
+                    else:
+                        raise ValueError()
+                    if gt.replace("Text 2: ", "").lower().strip() == "deception":
+                        gt = 1
+                    elif gt.replace("Text 2: ", "").lower().strip() == "truth":
+                        gt = 0
+                    else:
+                        raise ValueError()
+                    pred_this_epoch.append(pred)
+                    gt_this_epoch.append(gt)
+                except ValueError:
+                    print(f"WARNING: incorrect response formatting: {response}")
+
+                rouge_score = scorer.score(ref, pred)
+                rouge_scores_this_epoch.append(
+                    np.mean(
+                        [
+                            rouge_score["rouge1"].fmeasure,
+                            rouge_score["rouge2"].fmeasure,
+                            rouge_score["rougeL"].fmeasure,
+                        ]
+                    )
+                )
                 cue_f1_prompt = cue_f1_template + pred
                 try:
                     response = None
@@ -140,17 +194,15 @@ for split_id in range(1, 4):
                         )
 
                     pred_cues = set(pred_cues)
-                    raw_cues_per_sample = set(raw_cues_per_sample)
-                    intersection = pred_cues & raw_cues_per_sample
+                    ref_cues = set(ref_cues)
+                    intersection = pred_cues & ref_cues
                     precision = (
                         len(intersection) / len(pred_cues)
                         if len(pred_cues) > 0
                         else 0.0
                     )
                     recall = (
-                        len(intersection) / len(raw_cues_per_sample)
-                        if len(raw_cues_per_sample) > 0
-                        else 0.0
+                        len(intersection) / len(ref_cues) if len(ref_cues) > 0 else 0.0
                     )
 
                     cue_f1 = (
@@ -174,6 +226,28 @@ for split_id in range(1, 4):
                 except Exception:
                     print(f"ERROR: Incorrect response formatting: {response}")
 
+        all_rouge_scores.append(np.mean(rouge_scores_this_epoch))
+
+        gt_this_epoch = np.array(gt_this_epoch)
+        pred_this_epoch = np.array(pred_this_epoch)
+        acc = (gt_this_epoch == pred_this_epoch).sum() / gt_this_epoch.size
+        tp = ((gt_this_epoch == 1) & (pred_this_epoch == 1)).sum()
+        fp = ((gt_this_epoch == 0) & (pred_this_epoch == 1)).sum()
+        fn = ((gt_this_epoch == 1) & (pred_this_epoch == 0)).sum()
+
+        precision = tp / (tp + fp) if (tp + fp) > 0.0 else 0.0
+        recall = tp / (tp + fn) if (tp + fn) > 0.0 else 0.0
+        f1 = (
+            2 * precision * recall / (precision + recall)
+            if (precision + recall) > 0.0
+            else 0.0
+        )
+
+        all_acc.append(acc)
+        all_precision.append(precision)
+        all_recall.append(recall)
+        all_f1.append(f1)
+
         all_cue_f1_scores.append(np.mean(cue_f1_scores_this_epoch))
         all_so_scores.append(np.mean(so_scores_this_epoch))
         mean_so_cue_f1.append(
@@ -181,11 +255,16 @@ for split_id in range(1, 4):
         )
 
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_validation_metrics.json",  ### here it should be classification too
+        f"thesis/out/{timestamp}/model_split{split_id}_validation_metrics.json", 
         "w",
     ) as f:
         json.dump(
             {
+                "ROUGE": all_rouge_scores,
+                "Accuracy": all_acc,
+                "Precision": all_precision,
+                "Recall": all_recall,
+                "F1": all_f1,
                 "Cue-F1": all_cue_f1_scores,
                 "SO": all_so_scores,
                 "Mean of SO and Cue-F1": mean_so_cue_f1,

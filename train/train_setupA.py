@@ -18,13 +18,11 @@ from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed
 
-# using the new labels
-
 set_seed(42)
 logging.set_verbosity_error()
 
 DEFAULT_BATCH_SIZE = 24
-GRAD_ACCU_STEPS = 6  ## change here depending on the devices available
+GRAD_ACCU_STEPS = 6
 
 DS_CONFIG = {
     "train_batch_size": DEFAULT_BATCH_SIZE,

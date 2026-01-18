@@ -22,9 +22,6 @@ redundant_columns = [
     "Participants name",
 ]
 
-# -----------------------------
-# 1. Load data
-# -----------------------------
 df = pd.read_excel("thesis/data/traits.xlsx")
 df = df.set_index(df.columns[0])
 
@@ -42,19 +39,14 @@ for split_id in range(1, 4):
     val_df = df.loc[val_ids]
     test_df = df.loc[test_ids]
 
-    # Features
     X_train = train_df.drop(columns=[target_column] + redundant_columns).to_numpy()
     X_val = val_df.drop(columns=[target_column] + redundant_columns).to_numpy()
     X_test = test_df.drop(columns=[target_column] + redundant_columns).to_numpy()
 
-    # Target (convert string labels to 0/1)
     y_train = (train_df[target_column] == "deception").astype(float).to_numpy()
     y_val = (val_df[target_column] == "deception").astype(float).to_numpy()
     y_test = (test_df[target_column] == "deception").astype(float).to_numpy()
 
-    # -----------------------------
-    # 4. Convert to tensors
-    # -----------------------------
     X_train = torch.tensor(X_train, dtype=torch.float32)
     y_train = torch.tensor(y_train, dtype=torch.float32).unsqueeze(1)
     X_val = torch.tensor(X_val, dtype=torch.float32)
@@ -62,9 +54,6 @@ for split_id in range(1, 4):
     X_test = torch.tensor(X_test, dtype=torch.float32)
     y_test = torch.tensor(y_test, dtype=torch.float32).unsqueeze(1)
 
-    # -----------------------------
-    # 5. Create DataLoaders
-    # -----------------------------
     train_dataset = TensorDataset(X_train, y_train)
     val_dataset = TensorDataset(X_val, y_val)
     test_dataset = TensorDataset(X_test, y_test)
@@ -73,9 +62,6 @@ for split_id in range(1, 4):
     val_loader = DataLoader(val_dataset, batch_size=32)
     test_loader = DataLoader(test_dataset, batch_size=32)
 
-    # -----------------------------
-    # 6. Define MLP model
-    # -----------------------------
     input_size = X_train.shape[1]
     hidden_size = 256
     dropout_rate = 0.3
@@ -96,12 +82,8 @@ for split_id in range(1, 4):
     criterion = nn.BCEWithLogitsLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
-    # -----------------------------
-    # 7. Training loop with validation
-    # -----------------------------
     epochs = 30
     for epoch in range(epochs):
-        # --- Training ---
         model.train()
         for X_batch, y_batch in train_loader:
             optimizer.zero_grad()
@@ -110,20 +92,16 @@ for split_id in range(1, 4):
             loss.backward()
             optimizer.step()
 
-        # --- Evaluation ---
         model.eval()
         with torch.no_grad():
-            # Training accuracy
             y_train_logits = model(X_train)
             y_train_pred = torch.sigmoid(y_train_logits).round()
             train_acc = accuracy_score(y_train.numpy(), y_train_pred.numpy())
 
-            # Validation accuracy
             y_val_logits = model(X_val)
             y_val_pred = torch.sigmoid(y_val_logits).round()
             val_acc = accuracy_score(y_val.numpy(), y_val_pred.numpy())
 
-            # Test accuracy
             y_test_logits = model(X_test)
             y_test_pred = torch.sigmoid(y_test_logits).round()
             test_acc = accuracy_score(y_test.numpy(), y_test_pred.numpy())

@@ -65,9 +65,9 @@ for split_id in range(1, 2):
             base, f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
         )
         model = model.to("cuda:0").eval()
-        all_rouge_scores_this_epoch = []
-        all_gt_this_epoch = []
-        all_pred_this_epoch = []
+        rouge_scores_this_epoch = []
+        gt_this_epoch = []
+        pred_this_epoch = []
         for X, Y in val_dataloader:
             X = processor.apply_chat_template(
                 X,
@@ -140,13 +140,13 @@ for split_id in range(1, 2):
                         gt = 0
                     else:
                         raise ValueError()
-                    all_pred_this_epoch.append(predicted)
-                    all_gt_this_epoch.append(gt)
+                    pred_this_epoch.append(predicted)
+                    gt_this_epoch.append(gt)
                 except ValueError:
                     print(f"WARNING: incorrect response formatting: {response}")
 
                 rouge_score = scorer.score(ref, pred)
-                all_rouge_scores_this_epoch.append(
+                rouge_scores_this_epoch.append(
                     np.mean(
                         [
                             rouge_score["rouge1"].fmeasure,
@@ -156,14 +156,14 @@ for split_id in range(1, 2):
                     )
                 )
 
-        all_rouge_scores.append(np.mean(all_rouge_scores_this_epoch))
+        all_rouge_scores.append(np.mean(rouge_scores_this_epoch))
 
-        all_gt_this_epoch = np.array(all_gt_this_epoch)
-        all_pred_this_epoch = np.array(all_pred_this_epoch)
-        acc = (all_gt_this_epoch == all_pred_this_epoch).sum() / all_gt_this_epoch.size
-        tp = ((all_gt_this_epoch == 1) & (all_pred_this_epoch == 1)).sum()
-        fp = ((all_gt_this_epoch == 0) & (all_pred_this_epoch == 1)).sum()
-        fn = ((all_gt_this_epoch == 1) & (all_pred_this_epoch == 0)).sum()
+        gt_this_epoch = np.array(gt_this_epoch)
+        pred_this_epoch = np.array(pred_this_epoch)
+        acc = (gt_this_epoch == pred_this_epoch).sum() / gt_this_epoch.size
+        tp = ((gt_this_epoch == 1) & (pred_this_epoch == 1)).sum()
+        fp = ((gt_this_epoch == 0) & (pred_this_epoch == 1)).sum()
+        fn = ((gt_this_epoch == 1) & (pred_this_epoch == 0)).sum()
 
         precision = tp / (tp + fp) if (tp + fp) > 0.0 else 0.0
         recall = tp / (tp + fn) if (tp + fn) > 0.0 else 0.0
@@ -192,4 +192,3 @@ for split_id in range(1, 2):
             },
             f,
         )
-### add loss calculations???

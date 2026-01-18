@@ -23,7 +23,7 @@ def make_conversation_for_joint_configuration(video_path, *args, completion=""):
                     },
                     {
                         "type": "text",
-                        "text": "Would you say that the person in the video is lying or telling the truth? Reason and arrive at a tentatve conclusion even if it's not conclusive.",  # this needs to be added for the baseline!
+                        "text": "Would you say that the person in the video is lying or telling the truth? Explain your reasoning.",
                     },
                 ],
             }
@@ -69,7 +69,7 @@ class DolosDataset(Dataset):
     def include_raw_cues_(self, value):
         self.include_raw_cues = value
 
-    def include_opposing_(self, value):
+    def include_dispreferred_(self, value):
         self.include_opposing = value
 
     def __getitem__(self, index):

@@ -26,6 +26,7 @@ split3_data = json.load(split3_file)
 
 x = np.arange(1, 11)
 acc = [split1_data["label_acc"], split2_data["label_acc"], split3_data["label_acc"]]
+
 mean = [
     [
         0.4090129567402294,
@@ -109,8 +110,6 @@ for i, ax in list(enumerate(axes.flat[3:6])):
     ax.yaxis.set_major_locator(MultipleLocator(3))
     (l1,) = ax.plot(x, mean[i], label=f"Split {i + 1}", color=f"C{i}")
     ax.grid(which="major", color="gray", linewidth=0.3, alpha=0.3)
-    # lines.append(l1)
-    # labels.append(f"Split {i + 1}")
 
 for i, ax in list(enumerate(axes.flat[6:])):
     ax.xaxis.set_major_locator(MultipleLocator(2))

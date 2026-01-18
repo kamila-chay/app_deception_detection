@@ -33,7 +33,7 @@ acc = 100 * acc
 
 train_losses = [
     [2.3, 1.7, 1.52, 1.41, 1.37, 1.31, 1.27, 1.25, 1.24, 1.23],
-    [2.29, 1.7, 1.53, 1.41, 1.35, 1.31, 1.28, 1.26, 1.25, 1.25],  # change...
+    [2.29, 1.7, 1.53, 1.41, 1.35, 1.31, 1.28, 1.26, 1.25, 1.25],
     [2.3, 1.71, 1.52, 1.41, 1.37, 1.32, 1.27, 1.26, 1.25, 1.24],
 ]
 
@@ -53,8 +53,6 @@ fig, axes = plt.subplots(
 )
 
 for i, ax in list(enumerate(axes.flat))[:3]:
-    # ax.xaxis.set_major_locator(MultipleLocator(2))
-    # ax.xaxis.set_major_locator(MultipleLocator(1))
     ax.yaxis.set_major_locator(MultipleLocator(3))
     (l1,) = ax.plot(x, acc[i], label=f"Split {i + 1}", color=f"C{i}")
 

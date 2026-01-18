@@ -20,8 +20,6 @@ from thesis.utils.constants import (
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import make_conversation_for_separate_configuration, set_seed
 
-# should run this script a few times due to some indeterminism  in open AI calls
-
 set_seed(42)
 logging.set_verbosity_error()
 
@@ -122,7 +120,7 @@ for split_id in range(1, 4):
                 clean_up_tokenization_spaces=False,
             )
 
-            for pred, ref, raw_cues_per_sample in zip(
+            for pred, ref, ref_cues in zip(
                 generated_text_trimmed, expected_text_trimmed, raw_cues
             ):
                 cue_f1_prompt = cue_f1_template + pred
@@ -148,17 +146,15 @@ for split_id in range(1, 4):
                         )
 
                     pred_cues = set(pred_cues)
-                    raw_cues_per_sample = set(raw_cues_per_sample)
-                    intersection = pred_cues & raw_cues_per_sample
+                    ref_cues = set(ref_cues)
+                    intersection = pred_cues & ref_cues
                     precision = (
                         len(intersection) / len(pred_cues)
                         if len(pred_cues) > 0
                         else 0.0
                     )
                     recall = (
-                        len(intersection) / len(raw_cues_per_sample)
-                        if len(raw_cues_per_sample) > 0
-                        else 0.0
+                        len(intersection) / len(ref_cues) if len(ref_cues) > 0 else 0.0
                     )
 
                     cue_f1 = (

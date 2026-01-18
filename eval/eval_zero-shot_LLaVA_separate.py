@@ -117,9 +117,7 @@ for split_id in range(1, 4):
             clean_up_tokenization_spaces=False,
         )
 
-        for pred, ref, raw_cues_per_sample in zip(
-            generated_text, expected_text, raw_cues
-        ):
+        for pred, ref, ref_cues in zip(generated_text, expected_text, raw_cues):
             pred = pred.split("ASSISTANT:")[1]
             ref = ref.split("ASSISTANT:")[1]
             cue_f1_prompt = cue_f1_template + pred
@@ -143,15 +141,13 @@ for split_id in range(1, 4):
                     )
 
                 pred_cues = set(pred_cues)
-                raw_cues_per_sample = set(raw_cues_per_sample)
-                intersection = pred_cues & raw_cues_per_sample
+                ref_cues = set(ref_cues)
+                intersection = pred_cues & ref_cues
                 cue_precision = (
                     len(intersection) / len(pred_cues) if len(pred_cues) > 0 else 0.0
                 )
                 cue_recall = (
-                    len(intersection) / len(raw_cues_per_sample)
-                    if len(raw_cues_per_sample) > 0
-                    else 0.0
+                    len(intersection) / len(ref_cues) if len(ref_cues) > 0 else 0.0
                 )
 
                 cue_f1 = (
@@ -172,7 +168,6 @@ for split_id in range(1, 4):
 
                 score = float(response)
                 soft_overlap_scores.append(score)
-                print(f"SO: {score}")
 
             except Exception:
                 print(f"ERROR: Incorrect response formatting: {response}")
@@ -188,18 +183,14 @@ for split_id in range(1, 4):
                 )
             )
 
-    rouge_score = np.mean(rouge_scores)
-    cue_f1 = np.mean(cue_f1_scores)
-    soft_overlap = np.mean(soft_overlap_scores)
-
     with open(
         f"thesis/out/{timestamp}/model_split{split_id}_test_metrics.json", "w"
     ) as f:
         json.dump(
             {
-                "ROUGE": rouge_score,
-                "Cue-F1": cue_f1,
-                "SO": soft_overlap,
+                "ROUGE": np.mean(rouge_scores),
+                "Cue-F1": np.mean(cue_f1_scores),
+                "SO": np.mean(soft_overlap_scores),
             },
             f,
         )

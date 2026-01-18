@@ -52,7 +52,7 @@ ds_config = {
     "bf16": {"enabled": True},
     "activation_checkpointing": {
         "partition_activations": True,
-        "contiguous_memory_optimization": True,  # could make this script truly compatible with DS
+        "contiguous_memory_optimization": True,
     },
 }
 
