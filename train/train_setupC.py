@@ -97,11 +97,11 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
         num_training_steps=total_steps,
     )
 
-    all_total_losses = []
+    all_train_losses = []
 
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
-        total_loss = 0
+        train_loss = 0  # validation losses should be added directly to B1-3 and C
         for i, (input, input_completed, input_completed_opposing) in enumerate(
             train_dataloader
         ):
@@ -183,7 +183,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             loss = (
                 -torch.log(torch.sigmoid(BETA * (r_plus - r_minus))) / GRAD_ACCU_STEPS
             )
-            total_loss += loss
+            train_loss += loss
             print(loss)
 
             loss.backward()
@@ -215,9 +215,9 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             scheduler.step()
             optimizer.zero_grad()
 
-        total_loss /= len(train_dataset)
-        all_total_losses.append(total_loss.cpu().item())
-        print(all_total_losses)
+        train_loss /= len(train_dataset)
+        all_train_losses.append(train_loss.cpu().item())
+        print(all_train_losses)
 
         save_dir = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
         model.save_pretrained(save_dir)
@@ -230,7 +230,7 @@ for split_id, relevant_epoch in ((1, 8), (2, 1), (3, 3)):
             Path(save_dir) / "training_state.pt",
         )
 
-    plt.plot(all_total_losses, marker="o")
+    plt.plot(all_train_losses, marker="o")
     plt.title("Train Loss Plot")
     plt.xlabel("Epoch")
     plt.ylabel("Loss")

@@ -20,7 +20,12 @@ from transformers import (
     logging,
 )
 
-from thesis.utils.constants import ALL_RELEVANT_TRAITS
+from thesis.utils.constants import (
+    ALL_RELEVANT_TRAITS,
+    classification_template_part1,
+    classification_template_part2,
+    cue_f1_template,
+)
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import concatenate_token_ids, set_seed
 
@@ -51,14 +56,6 @@ NUM_EPOCHS = 3
 
 processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
-prompt_yes_no_part1 = "Please read 2 texts assessing whether or not a person is lying. Output 1 if the texts lead to the same conclusion (for example both think the person is lying or both think the person is telling the truth). Please consider the main conclusion of each text, they will include various counterarguments but focus only on the final/dominating direction. If the texts don't agree or one of them doesn't lean in any direction whatsoever, output 0. Only output the number.\n\nText 1:\n"
-
-prompt_yes_no_part2 = "\n\nText 2:\n"
-
-prompt_clues_part1 = "Read the following text assessing whether a person is lying based on certain cues. Output what cues were used in the assessment, the cues you can output are limited to the list given below. One cue per line, exactly in the same form as given.\n\nText:\n"
-
-prompt_clues_part2 = "\n\nList:\n"
-
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 
 for split_id in range(1, 4):
@@ -83,7 +80,7 @@ for split_id in range(1, 4):
         "joint_configuration_reasoning_labels",
     )
 
-    train_dataset.include_raw_clues_(True)
+    train_dataset.include_raw_cues_(True)
     train_dataloader = DataLoader(
         train_dataset,
         MICRO_BATCH,
@@ -101,7 +98,7 @@ for split_id in range(1, 4):
         "joint_configuration_reasoning_labels",
     )
 
-    val_dataset.include_raw_clues_(True)
+    val_dataset.include_raw_cues_(True)
     val_dataloader = DataLoader(
         val_dataset,
         VAL_BATCH,
@@ -122,12 +119,12 @@ for split_id in range(1, 4):
         num_training_steps=total_steps,
     )
 
-    all_total_losses = []
+    all_train_losses = []
 
     for epoch in range(NUM_EPOCHS):
         print(f"Epoch: {epoch}")
-        total_loss = 0
-        for i, (input, input_completed, raw_clues) in enumerate(train_dataloader):
+        train_loss = 0
+        for i, (input, input_completed, raw_cues) in enumerate(train_dataloader):
             input = processor.apply_chat_template(
                 input,
                 num_frames=16,
@@ -155,7 +152,7 @@ for split_id in range(1, 4):
                 for k, v in input.items()
             }
 
-            with torch.inference_mode():
+            with torch.no_grad():
                 generated_ids = model.generate(
                     **input,
                     max_new_tokens=1000,
@@ -225,16 +222,16 @@ for split_id in range(1, 4):
                 if idx == 0:
                     total_score = 1.0
                 else:
-                    prompt_yes_no = (
-                        prompt_yes_no_part1
+                    prompt_classification = (
+                        classification_template_part1
                         + generated_text_trimmed
-                        + prompt_yes_no_part2
+                        + classification_template_part2
                         + expected_text_trimmed
                     )
 
                     try:
                         response = client.responses.create(
-                            model="gpt-4.1-mini", input=prompt_yes_no
+                            model="gpt-4.1-mini", input=prompt_classification
                         )
                     except (APIError, APIConnectionError, Timeout, AuthenticationError):
                         response = None
@@ -249,22 +246,17 @@ for split_id in range(1, 4):
                             f"WARNING: Incorrect answer from OpenAI: {response.output_text}"
                         )
 
-                    prompt_clues = (
-                        prompt_clues_part1
-                        + generated_text_trimmed
-                        + prompt_clues_part2
-                        + repr(ALL_RELEVANT_TRAITS)
-                    )
+                    cue_f1_prompt = cue_f1_template + generated_text_trimmed
 
                     try:
                         response = client.responses.create(
-                            model="gpt-4.1-mini", input=prompt_clues
+                            model="gpt-4.1-mini", input=cue_f1_prompt
                         )
                     except (APIError, APIConnectionError, Timeout, AuthenticationError):
                         response = None
                         print("WARNING: Error getting a response from OpenAI")
 
-                    clue_score = 0.5
+                    cue_score = 0.5
 
                     try:
                         response = list(
@@ -282,20 +274,20 @@ for split_id in range(1, 4):
                         ]
                         if diff := len(response) > init_len:
                             print(f"OOPS: {diff} wrong cues from OpenAI")
-                        clues_in_generated = set(response)
-                        clues_in_gt = set(raw_clues[0])
-                        intersection = clues_in_generated & clues_in_gt
+                        cues_in_generated = set(response)
+                        cues_in_gt = set(raw_cues[0])
+                        intersection = cues_in_generated & cues_in_gt
                         precision = (
-                            len(intersection) / len(clues_in_generated)
-                            if len(clues_in_generated) > 0
+                            len(intersection) / len(cues_in_generated)
+                            if len(cues_in_generated) > 0
                             else 0.0
                         )
                         recall = (
-                            len(intersection) / len(clues_in_gt)
-                            if len(clues_in_gt) > 0
+                            len(intersection) / len(cues_in_gt)
+                            if len(cues_in_gt) > 0
                             else 0.0
                         )
-                        clue_score = (
+                        cue_score = (
                             2 * precision * recall / (precision + recall)
                             if precision + recall > 0.0
                             else 0.0
@@ -315,7 +307,7 @@ for split_id in range(1, 4):
                     )
 
                     total_score = (
-                        0.4 * label_score + 0.2 * rouge_score + 0.4 * clue_score
+                        0.4 * label_score + 0.2 * rouge_score + 0.4 * cue_score
                     )
                 risk_values.append(1 - total_score)
 
@@ -325,7 +317,7 @@ for split_id in range(1, 4):
             print(f"Risk: {risk_values}")
 
             loss = (q * risk_values).sum() / GRAD_ACCU_STEPS
-            total_loss += loss
+            train_loss += loss
             print(loss)
 
             loss.backward()
@@ -348,95 +340,6 @@ for split_id in range(1, 4):
                 optimizer.step()
                 scheduler.step()
                 optimizer.zero_grad()
-
-            if i % VAL_RUN_FREQ == VAL_RUN_FREQ - 1:
-                save_dir = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}_minibatch{i}"
-                model.save_pretrained(save_dir)
-
-                torch.save(
-                    {
-                        "optimizer_state_dict": optimizer.state_dict(),
-                        "scheduler_state_dict": scheduler.state_dict(),
-                    },
-                    Path(save_dir) / "training_state.pt",
-                )
-
-                with open(f"{timestamp}_validation_output.txt", "a") as f:
-                    print(f"From minibatch {i} ====>", file=f)
-                    for j, (input, input_completed, _) in enumerate(val_dataloader):
-                        if j == 2:
-                            break
-                        input = processor.apply_chat_template(
-                            input,
-                            num_frames=16,
-                            add_generation_prompt=True,
-                            tokenize=True,
-                            return_dict=True,
-                            return_tensors="pt",
-                            padding=True,
-                        )
-                        input_completed = processor.apply_chat_template(
-                            input_completed,
-                            num_frames=16,
-                            add_generation_prompt=False,
-                            tokenize=True,
-                            return_dict=True,
-                            return_tensors="pt",
-                            padding=True,
-                        )
-                        input = {
-                            k: (
-                                v.to(model.device, dtype=torch.bfloat16)
-                                if torch.is_floating_point(v)
-                                else v.to(model.device)
-                            )
-                            for k, v in input.items()
-                        }
-                        with torch.inference_mode():
-                            generated_ids = model.generate(
-                                **input,
-                                max_new_tokens=1000,
-                                do_sample=True,
-                                top_k=4,
-                                num_return_sequences=RET_SEQUENCES,
-                                repetition_penalty=1.2,
-                                no_repeat_ngram_size=3,
-                            )
-
-                        generated_ids_trimmed = generated_ids[
-                            :, input["input_ids"].size(1) :
-                        ]
-                        generated_texts_trimmed = processor.batch_decode(
-                            generated_ids_trimmed,
-                            skip_special_tokens=True,
-                            clean_up_tokenization_spaces=False,
-                        )
-                        expected_ids_trimmed = input_completed["input_ids"][
-                            :, input["input_ids"].size(1) :
-                        ]
-                        expected_texts_trimmed = processor.batch_decode(
-                            expected_ids_trimmed,
-                            skip_special_tokens=True,
-                            clean_up_tokenization_spaces=False,
-                        )
-
-                        for expected, generated in zip(
-                            expected_texts_trimmed, generated_texts_trimmed
-                        ):
-                            print("*******Gold********", file=f)
-                            print(expected, file=f)
-                            print("*******Generated********", file=f)
-                            print(generated, file=f)
-                            rouge_score = scorer.score(expected, generated)
-                            rouge_score = np.mean(
-                                [
-                                    rouge_score["rouge1"].fmeasure,
-                                    rouge_score["rouge2"].fmeasure,
-                                    rouge_score["rougeL"].fmeasure,
-                                ]
-                            )
-                            print("*******Rouge score********", file=f)
-                            print(rouge_score, file=f)
         if any(
             p.grad is not None and p.grad.abs().sum().item() > 0
             for p in optimizer.param_groups[0]["params"]
@@ -445,9 +348,9 @@ for split_id in range(1, 4):
             scheduler.step()
             optimizer.zero_grad()
 
-        total_loss /= len(train_dataset)
-        all_total_losses.append(total_loss.cpu().item())
-        print(all_total_losses)
+        train_loss /= len(train_dataset)
+        all_train_losses.append(train_loss.cpu().item())
+        print(all_train_losses)
 
         save_dir = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
         model.save_pretrained(save_dir)
@@ -460,7 +363,7 @@ for split_id in range(1, 4):
             Path(save_dir) / "training_state.pt",
         )
 
-    plt.plot(all_total_losses, marker="o")
+    plt.plot(all_train_losses, marker="o")
     plt.title("Train Loss Plot")
     plt.xlabel("Epoch")
     plt.ylabel("Loss")

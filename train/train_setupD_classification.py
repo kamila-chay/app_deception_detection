@@ -52,7 +52,7 @@ ds_config = {
     "bf16": {"enabled": True},
     "activation_checkpointing": {
         "partition_activations": True,
-        "contiguous_memory_optimization": True,
+        "contiguous_memory_optimization": True,  # could make this script truly compatible with DS
     },
 }
 
@@ -81,11 +81,7 @@ for split_id in range(1, 4):
     lora_model.base_model.model.classifier.weight.requires_grad = True
     lora_model.base_model.model.classifier.bias.requires_grad = True
 
-    # lora_model.print_trainable_parameters()
-
-    # for name, param in lora_model.named_parameters():
-    #     if param.requires_grad:
-    #         print(name)
+    lora_model.print_trainable_parameters()
 
     total_steps = ceil(len(train_dataset) / BATCH_SIZE) * EPOCHS
     warmup_steps = int(0.1 * total_steps)
@@ -116,25 +112,25 @@ for split_id in range(1, 4):
 
     model_engine.train()
 
-    train_losses_for_this_split = []
-    val_losses_for_this_split = []
+    all_train_losses = []
+    all_val_losses = []
 
     for epoch in range(EPOCHS):
         print(f"Epoch {epoch + 1}")
         train_sampler.set_epoch(epoch)
-        total_loss = 0.0
+        train_loss = 0.0
         for batch_x, batch_y in train_dataloader:
             batch_x = batch_x.to(model_engine.device).to(torch.bfloat16)
             batch_y = batch_y.to(model_engine.device)
 
             output = model_engine(pixel_values=batch_x, labels=batch_y)
             model_engine.backward(output.loss)
-            total_loss += output.loss * batch_x.shape[0]
+            train_loss += output.loss * batch_x.shape[0]
             model_engine.step()
 
-        total_loss /= len(train_dataset)
+        train_loss /= len(train_dataset)
 
-        train_losses_for_this_split.append(total_loss.item())
+        all_train_losses.append(train_loss.item())
 
         save_path_lora = (
             f"thesis/out/{timestamp}/lora_timesformer_split{split_id}_epoch{epoch}"
@@ -145,7 +141,7 @@ for split_id in range(1, 4):
         lora_model.save_pretrained(save_path_lora)
         torch.save(lora_model.base_model.model.classifier.state_dict(), save_path)
 
-        total_loss = 0
+        val_loss = 0.0
 
         with torch.no_grad():
             for batch_x, batch_y in val_dataloader:
@@ -153,20 +149,17 @@ for split_id in range(1, 4):
                 batch_y = batch_y.to(model_engine.device)
 
                 output = model_engine(pixel_values=batch_x, labels=batch_y)
-                total_loss += output.loss * batch_x.shape[0]
+                val_loss += output.loss * batch_x.shape[0]
 
-            total_loss /= len(val_dataset)
+            val_loss /= len(val_dataset)
 
-            val_losses_for_this_split.append(total_loss.item())
-
-        print(train_losses_for_this_split)
-        print(val_losses_for_this_split)
+            all_val_losses.append(val_loss.item())
 
     with open(f"thesis/out/{timestamp}/model_split{split_id}_losses.json", "w") as f:
         json.dump(
             {
-                "train_losses": train_losses_for_this_split,
-                "val_losses": val_losses_for_this_split,
+                "train_losses": all_train_losses,
+                "val_losses": all_val_losses,
             },
             f,
         )

@@ -12,7 +12,7 @@ plt.rcParams["font.family"] = "serif"
 plt.rcParams["font.size"] = 14
 
 split1_file = open(
-    "thesis/out/2025-11-15_20-01/model_split1_validation_only_info.json", "r"
+    "thesis/out/2025-11-15_20-01/model_split1_validation_metrics.json", "r"
 )
 split1_data = json.load(split1_file)
 

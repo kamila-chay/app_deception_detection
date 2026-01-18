@@ -74,7 +74,7 @@ for split_id in range(1, 4):
         f"thesis/data/train_fold{split_id}.csv",
         Path("thesis/data"),
         "separate_configuration_reasoning_labels",
-        conv_making_func=make_conversation_for_separate_configuration,
+        conversation_making_func=make_conversation_for_separate_configuration,
     )
     train_sampler = DistributedSampler(
         train_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
@@ -93,7 +93,7 @@ for split_id in range(1, 4):
         f"thesis/data/val_fold{split_id}.csv",
         Path("thesis/data"),
         "separate_configuration_reasoning_labels",
-        conv_making_func=make_conversation_for_separate_configuration,
+        conversation_making_func=make_conversation_for_separate_configuration,
     )
     val_sampler = DistributedSampler(
         val_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
@@ -129,7 +129,7 @@ for split_id in range(1, 4):
         train_sampler.set_epoch(epoch)
         print(f"Epoch: {epoch}")
         total_loss = 0
-        for i, (X, Y) in enumerate(train_dataloader):
+        for X, Y in train_dataloader:
             print(f"X: {X}\n")
             print("\n********\n")
             X = processor.apply_chat_template(
@@ -186,7 +186,7 @@ for split_id in range(1, 4):
 
         total_val_loss = 0
         model_engine.module.eval()
-        for i, (X, Y) in enumerate(val_dataloader):
+        for X, Y in val_dataloader:
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,

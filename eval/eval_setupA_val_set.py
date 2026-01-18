@@ -10,7 +10,12 @@ from peft import PeftModel
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from thesis.utils.constants import ALL_RELEVANT_TRAITS
+from thesis.utils.constants import (
+    ALL_RELEVANT_TRAITS,
+    cue_f1_template,
+    so_template_part1,
+    so_template_part2,
+)
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed
 
@@ -27,12 +32,6 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
 client = OpenAI()
 
-prompt_cue_f1 = f"Please read the text below. Look for behaviors that are mentioned in the text from the following list: {repr(ALL_RELEVANT_TRAITS)}. Output those using the same exact wording as in the list, one per line. Don't ouput anything else. \n\nText:\n"
-
-prompt_reasoning_overlap_p1 = "Read those 2 texts describing the behavior of the same person and how it can be interpreted as a cue to deception/truthfulness. Score the logical overlap between those texts, you should pay attention to both the cues themselves and how they are interpreted and reasoned about. The score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
-
-prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
-
 for split_id in range(1, 4):
     print(f"Split id: {split_id}")
 
@@ -42,7 +41,7 @@ for split_id in range(1, 4):
         "joint_configuration_reasoning_labels",
     )
 
-    val_dataset.include_raw_clues_(True)
+    val_dataset.include_raw_cues_(True)
     val_dataloader = DataLoader(
         val_dataset,
         DEFAULT_BATCH_SIZE,
@@ -54,9 +53,9 @@ for split_id in range(1, 4):
         ),
     )
 
-    all_SoftOverlap_scores = []
-    all_Cue_F1_scores = []
-    all_mean_reasoning_scores = []
+    all_so_scores = []  # add classification back to setupA accuracy
+    all_cue_f1_scores = []
+    mean_so_cue_f1 = []
 
     for epoch in range(10):
         print(f"Epoch: {epoch}")
@@ -67,9 +66,9 @@ for split_id in range(1, 4):
         model = PeftModel.from_pretrained(base, checkpoint)
         model = model.to("cuda:0").eval()
 
-        all_SoftOverlap_scores_per_epoch = []
-        all_Cue_F1_scores_per_epoch = []
-        for i, (X, Y, raw_cues) in enumerate(val_dataloader):
+        so_scores_this_epoch = []
+        cue_f1_scores_this_epoch = []
+        for X, Y, raw_cues in val_dataloader:
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -96,7 +95,7 @@ for split_id in range(1, 4):
                 )
                 for k, v in X.items()
             }
-            with torch.inference_mode():
+            with torch.no_grad():
                 generated_ids = model.generate(
                     **inputs, max_new_tokens=1000, do_sample=False
                 )
@@ -114,14 +113,17 @@ for split_id in range(1, 4):
                 clean_up_tokenization_spaces=False,
             )
 
-            for pred, ref, raw_clues_per_sample in zip(
+            for pred, ref, raw_cues_per_sample in zip(
                 generated_text_trimmed, expected_text_trimmed, raw_cues
             ):
-                full_prompt = prompt_cue_f1 + pred
+                cue_f1_prompt = cue_f1_template + pred
                 try:
                     response = None
                     response = client.responses.create(
-                        model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
+                        model="gpt-4.1-mini",
+                        input=cue_f1_prompt,
+                        top_p=1,
+                        temperature=0,
                     ).output_text
 
                     pred_cues = list(
@@ -138,62 +140,55 @@ for split_id in range(1, 4):
                         )
 
                     pred_cues = set(pred_cues)
-                    raw_clues_per_sample = set(raw_clues_per_sample)
-                    intersection = pred_cues & raw_clues_per_sample
+                    raw_cues_per_sample = set(raw_cues_per_sample)
+                    intersection = pred_cues & raw_cues_per_sample
                     precision = (
                         len(intersection) / len(pred_cues)
                         if len(pred_cues) > 0
                         else 0.0
                     )
                     recall = (
-                        len(intersection) / len(raw_clues_per_sample)
-                        if len(raw_clues_per_sample) > 0
+                        len(intersection) / len(raw_cues_per_sample)
+                        if len(raw_cues_per_sample) > 0
                         else 0.0
                     )
 
-                    f1_for_cues = (
+                    cue_f1 = (
                         2 * precision * recall / (precision + recall)
                         if (precision + recall) > 0.0
                         else 0.0
                     )
-                    all_Cue_F1_scores_per_epoch.append(f1_for_cues)
+                    cue_f1_scores_this_epoch.append(cue_f1)
                 except Exception:
                     print(f"ERROR: Incorrect response formatting: {response}")
 
-                full_prompt = (
-                    prompt_reasoning_overlap_p1
-                    + pred
-                    + prompt_reasoning_overlap_p2
-                    + ref
-                )
+                so_prompt = so_template_part1 + pred + so_template_part2 + ref
                 try:
                     response = None
                     response = client.responses.create(
-                        model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
+                        model="gpt-4.1-mini", input=so_prompt, top_p=1, temperature=0
                     ).output_text
 
                     score = float(response)
-                    all_SoftOverlap_scores_per_epoch.append(score)
+                    so_scores_this_epoch.append(score)
                 except Exception:
                     print(f"ERROR: Incorrect response formatting: {response}")
 
-        all_Cue_F1_scores.append(np.mean(all_Cue_F1_scores_per_epoch))
-        all_SoftOverlap_scores.append(np.mean(all_SoftOverlap_scores_per_epoch))
-        all_mean_reasoning_scores.append(
-            (all_Cue_F1_scores[-1] + all_SoftOverlap_scores[-1]) / 2
+        all_cue_f1_scores.append(np.mean(cue_f1_scores_this_epoch))
+        all_so_scores.append(np.mean(so_scores_this_epoch))
+        mean_so_cue_f1.append(
+            (np.mean(cue_f1_scores_this_epoch) + np.mean(so_scores_this_epoch)) / 2
         )
 
-        print(all_mean_reasoning_scores)
-
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info_reasoning_only.json",
+        f"thesis/out/{timestamp}/model_split{split_id}_validation_metrics.json",  ### here it should be classification too
         "w",
     ) as f:
         json.dump(
             {
-                "cue-f1": all_Cue_F1_scores,
-                "SO": all_SoftOverlap_scores,
-                "mean_reasoning": all_mean_reasoning_scores,
+                "Cue-F1": all_cue_f1_scores,
+                "SO": all_so_scores,
+                "Mean of SO and Cue-F1": mean_so_cue_f1,
             },
             f,
         )

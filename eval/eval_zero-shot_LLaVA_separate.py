@@ -11,7 +11,12 @@ from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from thesis.utils.constants import ALL_RELEVANT_TRAITS
+from thesis.utils.constants import (
+    ALL_RELEVANT_TRAITS,
+    cue_f1_template,
+    so_template_part1,
+    so_template_part2,
+)
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import make_conversation_for_separate_configuration, set_seed
 
@@ -32,12 +37,6 @@ model = AutoModelForImageTextToText.from_pretrained(
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
 
-prompt_cue_f1 = f"Please read the text below. Look for behaviors that are mentioned in the text from the following list: {repr(ALL_RELEVANT_TRAITS)}. Output those using the same exact wording as in the list, one per line. Don't ouput anything else. \n\nText:\n"
-
-prompt_reasoning_overlap_p1 = "Read those 2 texts describing the behavior of the same person and how it can be interpreted as a cue to deception/truthfulness. Score the logical overlap between those texts, you should pay attention to both the cues themselves and how they are interpreted and reasoned about. The score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
-
-prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
-
 for split_id in range(1, 4):
     print(f"Split id: {split_id}")
 
@@ -45,10 +44,10 @@ for split_id in range(1, 4):
         f"thesis/data/test_fold{split_id}.csv",
         Path("thesis/data"),
         "separate_configuration_reasoning_labels",
-        conv_making_func=make_conversation_for_separate_configuration,
+        conversation_making_func=make_conversation_for_separate_configuration,
     )
 
-    test_dataset.include_raw_clues_(True)
+    test_dataset.include_raw_cues_(True)
 
     test_dataloader = DataLoader(
         test_dataset,
@@ -63,12 +62,11 @@ for split_id in range(1, 4):
 
     model = model.eval()
 
-    all_cue_overlap_scores_per_epoch = []
-    all_f1_cue_scores_per_epoch = []
-    all_rouge_scores_per_epoch = []
+    soft_overlap_scores = []
+    cue_f1_scores = []
+    rouge_scores = []
 
-    for i, (X, Y, raw_cues) in enumerate(test_dataloader):
-        print(f"Dataloader id: {i}")
+    for X, Y, raw_cues in test_dataloader:
         X = processor.apply_chat_template(
             X,
             num_frames=16,
@@ -103,7 +101,7 @@ for split_id in range(1, 4):
             )
             for k, v in Y.items()
         }
-        with torch.inference_mode():
+        with torch.no_grad():
             generated_ids = model.generate(
                 **inputs, max_new_tokens=1000, do_sample=False
             )
@@ -119,21 +117,16 @@ for split_id in range(1, 4):
             clean_up_tokenization_spaces=False,
         )
 
-        for inner_idx, (pred, ref, raw_clues_per_sample) in enumerate(
-            zip(generated_text, expected_text, raw_cues)
+        for pred, ref, raw_cues_per_sample in zip(
+            generated_text, expected_text, raw_cues
         ):
-            print("********************************")
-            print(f"Inner id: {inner_idx}")
             pred = pred.split("ASSISTANT:")[1]
-            print(pred + "\n\n\n")
             ref = ref.split("ASSISTANT:")[1]
-            print(ref + "\n\n\n")
-            # print(raw_clues_per_sample)
-            full_prompt = prompt_cue_f1 + pred
+            cue_f1_prompt = cue_f1_template + pred
             try:
                 response = None
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
+                    model="gpt-4.1-mini", input=cue_f1_prompt, top_p=1, temperature=0
                 ).output_text
 
                 pred_cues = list(
@@ -150,45 +143,42 @@ for split_id in range(1, 4):
                     )
 
                 pred_cues = set(pred_cues)
-                raw_clues_per_sample = set(raw_clues_per_sample)
-                intersection = pred_cues & raw_clues_per_sample
-                precision = (
+                raw_cues_per_sample = set(raw_cues_per_sample)
+                intersection = pred_cues & raw_cues_per_sample
+                cue_precision = (
                     len(intersection) / len(pred_cues) if len(pred_cues) > 0 else 0.0
                 )
-                recall = (
-                    len(intersection) / len(raw_clues_per_sample)
-                    if len(raw_clues_per_sample) > 0
+                cue_recall = (
+                    len(intersection) / len(raw_cues_per_sample)
+                    if len(raw_cues_per_sample) > 0
                     else 0.0
                 )
 
-                f1_for_cues = (
-                    2 * precision * recall / (precision + recall)
-                    if (precision + recall) > 0.0
+                cue_f1 = (
+                    2 * cue_precision * cue_recall / (cue_precision + cue_recall)
+                    if (cue_precision + cue_recall) > 0.0
                     else 0.0
                 )
-                all_f1_cue_scores_per_epoch.append(f1_for_cues)
-                print(f"Cue-F1: {f1_for_cues}")
+                cue_f1_scores.append(cue_f1)
             except Exception:
                 print(f"ERROR: Incorrect response formatting: {response}")
 
-            full_prompt = (
-                prompt_reasoning_overlap_p1 + pred + prompt_reasoning_overlap_p2 + ref
-            )
+            so_prompt = so_template_part1 + pred + so_template_part2 + ref
             try:
                 response = None
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
+                    model="gpt-4.1-mini", input=so_prompt, top_p=1, temperature=0
                 ).output_text
 
                 score = float(response)
-                all_cue_overlap_scores_per_epoch.append(score)
+                soft_overlap_scores.append(score)
                 print(f"SO: {score}")
 
             except Exception:
                 print(f"ERROR: Incorrect response formatting: {response}")
 
             rouge_score = scorer.score(ref, pred)
-            all_rouge_scores_per_epoch.append(
+            rouge_scores.append(
                 np.mean(
                     [
                         rouge_score["rouge1"].fmeasure,
@@ -198,18 +188,18 @@ for split_id in range(1, 4):
                 )
             )
 
-    rouge_score = np.mean(all_rouge_scores_per_epoch)
-    cue_f1 = np.mean(all_f1_cue_scores_per_epoch)
-    cue_soft_overlap = np.mean(all_cue_overlap_scores_per_epoch)
+    rouge_score = np.mean(rouge_scores)
+    cue_f1 = np.mean(cue_f1_scores)
+    soft_overlap = np.mean(soft_overlap_scores)
 
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_test_only_info.json", "w"
+        f"thesis/out/{timestamp}/model_split{split_id}_test_metrics.json", "w"
     ) as f:
         json.dump(
             {
-                "rouge_scores": rouge_score,
-                "cue-f1": cue_f1,
-                "SoftOverlap": cue_soft_overlap,
+                "ROUGE": rouge_score,
+                "Cue-F1": cue_f1,
+                "SO": soft_overlap,
             },
             f,
         )

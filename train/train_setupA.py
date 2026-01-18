@@ -92,18 +92,18 @@ for split_id in range(1, 4):
         ),
     )
 
-    test_dataset = DolosDataset(
-        f"thesis/data/test_fold{split_id}.csv",
+    val_dataset = DolosDataset(
+        f"thesis/data/val_fold{split_id}.csv",
         Path("thesis/data"),
         "joint_configuration_reasoning_labels",
     )
-    test_sampler = DistributedSampler(
-        test_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
+    val_sampler = DistributedSampler(
+        val_dataset, num_replicas=dist.get_world_size(), rank=get_rank()
     )
-    test_dataloader = DataLoader(
-        test_dataset,
+    val_dataloader = DataLoader(
+        val_dataset,
         (DEFAULT_BATCH_SIZE // GRAD_ACCU_STEPS) // dist.get_world_size(),
-        sampler=test_sampler,
+        sampler=val_sampler,
         collate_fn=lambda batch: (
             [sample[0] for sample in batch],
             [sample[1] for sample in batch],
@@ -124,14 +124,14 @@ for split_id in range(1, 4):
     )
 
     all_total_losses = []
-    all_total_test_losses = []
+    all_total_val_losses = []
 
     for epoch in range(NUM_EPOCHS):
         model_engine.module.train()
         train_sampler.set_epoch(epoch)
         print(f"Epoch: {epoch}")
         total_loss = 0
-        for i, (X, Y) in enumerate(train_dataloader):
+        for X, Y in train_dataloader:
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -184,9 +184,9 @@ for split_id in range(1, 4):
             f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
         )
 
-        total_test_loss = 0
+        total_val_loss = 0
         model_engine.module.eval()
-        for i, (X, Y) in enumerate(test_dataloader):
+        for X, Y in val_dataloader:
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -223,15 +223,15 @@ for split_id in range(1, 4):
                 output = model_engine(**inputs)
 
             loss = output.loss
-            total_test_loss += loss.item() * labels.size(0)
+            total_val_loss += loss.item() * labels.size(0)
 
-        total_test_loss = torch.tensor(total_test_loss).to("cuda")
-        dist.all_reduce(total_test_loss, op=dist.ReduceOp.SUM)
-        total_test_loss /= len(test_dataset)
+        total_val_loss = torch.tensor(total_val_loss).to("cuda")
+        dist.all_reduce(total_val_loss, op=dist.ReduceOp.SUM)
+        total_val_loss /= len(val_dataset)
 
         if get_rank() == 0:
-            print(f"Test loss: {total_test_loss}")
-            all_total_test_losses.append(total_test_loss.cpu().item())
+            print(f"Val loss: {total_val_loss}")
+            all_total_val_losses.append(total_val_loss.cpu().item())
         barrier()
 
     if get_rank() == 0:
@@ -247,13 +247,13 @@ for split_id in range(1, 4):
         plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_train_losses.png")
 
         plt.figure()
-        plt.plot(all_total_test_losses, marker="o")
-        plt.title("Test Loss Plot")
+        plt.plot(all_total_val_losses, marker="o")
+        plt.title("Val Loss Plot")
         plt.xlabel("Epoch")
         plt.ylabel("Loss")
 
         plt.grid(True)
         plt.tight_layout()
 
-        plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_test_losses.png")
+        plt.savefig(f"thesis/out/{timestamp}/model_split{split_id}_val_losses.png")
     barrier()

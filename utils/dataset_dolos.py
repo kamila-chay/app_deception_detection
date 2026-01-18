@@ -54,20 +54,20 @@ class DolosDataset(Dataset):
         info,
         folder,
         label_folder="joint_configuration_reasoning_labels",
-        conv_making_func=make_conversation_for_joint_configuration,
+        conversation_making_func=make_conversation_for_joint_configuration,
     ):
         self.info = pd.read_csv(info, header=None)
         self.folder = folder
         self.label_folder = label_folder
-        self.include_raw_clues = False
+        self.include_raw_cues = False
         self.include_opposing = False
-        self.conv_making_func = conv_making_func
+        self.conversation_making_func = conversation_making_func
 
     def __len__(self):
         return len(self.info)
 
-    def include_raw_clues_(self, value):
-        self.include_raw_clues = value
+    def include_raw_cues_(self, value):
+        self.include_raw_cues = value
 
     def include_opposing_(self, value):
         self.include_opposing = value
@@ -89,11 +89,11 @@ class DolosDataset(Dataset):
             label = f.read()
 
         ret_values = (
-            self.conv_making_func(filepath, percentages),
-            self.conv_making_func(filepath, percentages, completion=label),
+            self.conversation_making_func(filepath, percentages),
+            self.conversation_making_func(filepath, percentages, completion=label),
         )
 
-        if self.include_raw_clues:
+        if self.include_raw_cues:
             with open(
                 self.folder / self.label_folder / f"{filename}_raw_cues.json", "r"
             ) as f:
@@ -107,7 +107,9 @@ class DolosDataset(Dataset):
                 opposing_label = f.read()
             ret_values = (
                 *ret_values,
-                self.conv_making_func(filepath, percentages, completion=opposing_label),
+                self.conversation_making_func(
+                    filepath, percentages, completion=opposing_label
+                ),
             )
         return ret_values
 

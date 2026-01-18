@@ -11,7 +11,12 @@ from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
-from thesis.utils.constants import ALL_RELEVANT_TRAITS
+from thesis.utils.constants import (
+    ALL_RELEVANT_TRAITS,
+    cue_f1_template,
+    so_template_part1,
+    so_template_part2,
+)
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import make_conversation_for_separate_configuration, set_seed
 
@@ -31,23 +36,18 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
 
-prompt_cue_f1 = f"Please read the text below. Look for behaviors that are mentioned in the text from the following list: {repr(ALL_RELEVANT_TRAITS)}. Output those using the same exact wording as in the list, one per line. Don't ouput anything else. \n\nText:\n"
-
-prompt_reasoning_overlap_p1 = "Read those 2 texts describing the behavior of the same person and how it can be interpreted as a cue to deception/truthfulness. Score the logical overlap between those texts, you should pay attention to both the cues themselves and how they are interpreted and reasoned about. The score should be lower if e.g one of the texts focuses just on one interpretation of a specific cue etc. The score should be anywhere between 0.0 and 1.0 (both inclusive). Output the score only, nothing else. \n\nTEXT 1:\n"
-
-prompt_reasoning_overlap_p2 = "\n\nTEXT 2:\n"
-
-for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
+for split_id, epoch in ((1, 9), (2, 4), (3, 6)):
     print(f"Split id: {split_id}")
+    print(f"Epoch: {epoch}")
 
     test_dataset = DolosDataset(
         f"thesis/data/test_fold{split_id}.csv",
         Path("thesis/data"),
         label_folder="separate_configuration_reasoning_labels",
-        conv_making_func=make_conversation_for_separate_configuration,
+        conversation_making_func=make_conversation_for_separate_configuration,
     )
 
-    test_dataset.include_raw_clues_(True)
+    test_dataset.include_raw_cues_(True)
 
     test_dataloader = DataLoader(
         test_dataset,
@@ -60,165 +60,143 @@ for split_id, epochs in ((1, [9]), (2, [4]), (3, [6])):
         ),
     )
 
-    all_rouge_scores = []
-    all_f1_cue_scores = []
-    all_cue_overlap_scores = []
+    base = AutoModelForImageTextToText.from_pretrained(
+        MODEL_PATH, torch_dtype=torch.bfloat16
+    )
+    checkpoint = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
+    model = PeftModel.from_pretrained(base, checkpoint)
+    model = model.to("cuda:0").eval()
 
-    for epoch in epochs:
-        print(f"Epoch: {epoch}")
-        base = AutoModelForImageTextToText.from_pretrained(
-            MODEL_PATH, torch_dtype=torch.bfloat16
+    rouge_scores = []
+    cue_f1_scores = []
+    so_scores = []
+    for X, Y, raw_cues in test_dataloader:
+        X = processor.apply_chat_template(
+            X,
+            num_frames=16,
+            add_generation_prompt=True,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt",
+            padding=True,
         )
-        checkpoint = f"thesis/out/{timestamp}/model_split{split_id}_epoch{epoch}"
-        model = PeftModel.from_pretrained(base, checkpoint)
-        model = model.to("cuda:0").eval()
+        Y = processor.apply_chat_template(
+            Y,
+            num_frames=16,
+            add_generation_prompt=False,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt",
+            padding=True,
+        )
+        inputs = {
+            k: (
+                v.to("cuda:0", dtype=torch.bfloat16)
+                if torch.is_floating_point(v)
+                else v.to("cuda:0")
+            )
+            for k, v in X.items()
+        }
 
-        all_rouge_scores_per_epoch = []
-        all_f1_cue_scores_per_epoch = []
-        all_cue_overlap_scores_per_epoch = []
-        for dataloader_i, (X, Y, raw_cues) in enumerate(test_dataloader):
-            print(f"Dataloader id: {dataloader_i}")
-            X = processor.apply_chat_template(
-                X,
-                num_frames=16,
-                add_generation_prompt=True,
-                tokenize=True,
-                return_dict=True,
-                return_tensors="pt",
-                padding=True,
+        with torch.no_grad():
+            generated_ids = model.generate(
+                **inputs, max_new_tokens=1000, do_sample=False
             )
-            Y = processor.apply_chat_template(
-                Y,
-                num_frames=16,
-                add_generation_prompt=False,
-                tokenize=True,
-                return_dict=True,
-                return_tensors="pt",
-                padding=True,
-            )
-            inputs = {
-                k: (
-                    v.to("cuda:0", dtype=torch.bfloat16)
-                    if torch.is_floating_point(v)
-                    else v.to("cuda:0")
+        generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
+        expected_ids = Y["input_ids"]
+        expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
+        generated_text_trimmed = processor.batch_decode(
+            generated_ids_trimmed,
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=False,
+        )
+        expected_text_trimmed = processor.batch_decode(
+            expected_ids_trimmed,
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=False,
+        )
+
+        for pred, ref, raw_cues_per_sample in zip(
+            generated_text_trimmed, expected_text_trimmed, raw_cues
+        ):
+            cue_f1_prompt = cue_f1_template + pred
+            try:
+                response = client.responses.create(
+                    model="gpt-4.1-mini", input=cue_f1_prompt, top_p=1, temperature=0
+                ).output_text
+
+                pred_cues = list(
+                    map(
+                        lambda z: z.strip(),
+                        filter(lambda x: len(x) > 0, response.split("\n")),
+                    )
                 )
-                for k, v in X.items()
-            }
-
-            with torch.inference_mode():
-                generated_ids = model.generate(
-                    **inputs, max_new_tokens=1000, do_sample=False
-                )
-            generated_ids_trimmed = generated_ids[:, inputs["input_ids"].shape[1] :]
-            expected_ids = Y["input_ids"]
-            expected_ids_trimmed = expected_ids[:, inputs["input_ids"].shape[1] :]
-            generated_text_trimmed = processor.batch_decode(
-                generated_ids_trimmed,
-                skip_special_tokens=True,
-                clean_up_tokenization_spaces=False,
-            )
-            expected_text_trimmed = processor.batch_decode(
-                expected_ids_trimmed,
-                skip_special_tokens=True,
-                clean_up_tokenization_spaces=False,
-            )
-
-            for inner_i, (pred, ref, raw_clues_per_sample) in enumerate(
-                zip(generated_text_trimmed, expected_text_trimmed, raw_cues)
-            ):
-                print("*****************************************************")
-                print(f"Inner id: {inner_i}")
-                print(pred + "\n\n\n")
-                print(ref + "\n\n\n")
-                full_prompt = prompt_cue_f1 + pred
-                try:
-                    response = client.responses.create(
-                        model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
-                    ).output_text
-
-                    pred_cues = list(
-                        map(
-                            lambda z: z.strip(),
-                            filter(lambda x: len(x) > 0, response.split("\n")),
-                        )
-                    )
-                    init_len = len(pred_cues)
-                    pred_cues = [cue for cue in pred_cues if cue in ALL_RELEVANT_TRAITS]
-                    if diff := init_len - len(pred_cues):
-                        print(
-                            f"WARNING: {diff} cues were output that don't match ALL_RELEVANT_TRAITS"
-                        )
-
-                    pred_cues = set(pred_cues)
-                    raw_clues_per_sample = set(raw_clues_per_sample)
-                    intersection = pred_cues & raw_clues_per_sample
-                    precision = (
-                        len(intersection) / len(pred_cues)
-                        if len(pred_cues) > 0
-                        else 0.0
-                    )
-                    recall = (
-                        len(intersection) / len(raw_clues_per_sample)
-                        if len(raw_clues_per_sample) > 0
-                        else 0.0
-                    )
-
-                    f1_for_cues = (
-                        2 * precision * recall / (precision + recall)
-                        if (precision + recall) > 0.0
-                        else 0.0
-                    )
-                    all_f1_cue_scores_per_epoch.append(f1_for_cues)
-                    print(f"Cue-F1: {f1_for_cues}")
-                except Exception as e:
+                init_len = len(pred_cues)
+                pred_cues = [cue for cue in pred_cues if cue in ALL_RELEVANT_TRAITS]
+                if diff := init_len - len(pred_cues):
                     print(
-                        f"ERROR: Didn't process OpenAI API cue F1 ouput properly: {e}"
+                        f"WARNING: {diff} cues were output that don't match ALL_RELEVANT_TRAITS"
                     )
 
-                full_prompt = (
-                    prompt_reasoning_overlap_p1
-                    + pred
-                    + prompt_reasoning_overlap_p2
-                    + ref
+                pred_cues = set(pred_cues)
+                raw_cues_per_sample = set(raw_cues_per_sample)
+                intersection = pred_cues & raw_cues_per_sample
+                cue_precision = (
+                    len(intersection) / len(pred_cues) if len(pred_cues) > 0 else 0.0
+                )
+                cue_recall = (
+                    len(intersection) / len(raw_cues_per_sample)
+                    if len(raw_cues_per_sample) > 0
+                    else 0.0
                 )
 
-                try:
-                    response = client.responses.create(
-                        model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
-                    ).output_text
+                cue_f1 = (
+                    2 * cue_precision * cue_recall / (cue_precision + cue_recall)
+                    if (cue_precision + cue_recall) > 0.0  # look for "f1_for_cue"
+                    else 0.0
+                )
+                cue_f1_scores.append(cue_f1)
+                print(f"Cue-F1: {cue_f1}")
+            except Exception as e:
+                print(f"ERROR: Didn't process OpenAI API cue F1 ouput properly: {e}")
 
-                    score = float(response)
-                    all_cue_overlap_scores_per_epoch.append(score)
-                    print(f"SO: {score}")
+            prompt_so = so_template_part1 + pred + so_template_part2 + ref
 
-                except Exception as e:
-                    print(
-                        f"ERROR: Didn't process OpenAI API cue overlap ouput properly: {e}"
-                    )
+            try:
+                response = client.responses.create(
+                    model="gpt-4.1-mini", input=prompt_so, top_p=1, temperature=0
+                ).output_text
 
-                rouge_score = scorer.score(ref, pred)
-                all_rouge_scores_per_epoch.append(
-                    np.mean(
-                        [
-                            rouge_score["rouge1"].fmeasure,
-                            rouge_score["rouge2"].fmeasure,
-                            rouge_score["rougeL"].fmeasure,
-                        ]
-                    )
+                score = float(response)
+                so_scores.append(score)
+                print(f"SO: {score}")
+
+            except Exception as e:
+                print(
+                    f"ERROR: Didn't process OpenAI API cue overlap ouput properly: {e}"
                 )
 
-        all_rouge_scores.append(np.mean(all_rouge_scores_per_epoch))
-        all_f1_cue_scores.append(np.mean(all_f1_cue_scores_per_epoch))
-        all_cue_overlap_scores.append(np.mean(all_cue_overlap_scores_per_epoch))
+            rouge_score = scorer.score(ref, pred)
+            rouge_scores.append(
+                np.mean(
+                    [
+                        rouge_score["rouge1"].fmeasure,
+                        rouge_score["rouge2"].fmeasure,
+                        rouge_score["rougeL"].fmeasure,
+                    ]
+                )
+            )
 
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_test_only_info.json", "w"
+        f"thesis/out/{timestamp}/model_split{split_id}_test_metrics.json", "w"
     ) as f:
         json.dump(
             {
-                "rouge_scores": all_rouge_scores,
-                "f1_cue_scores": all_f1_cue_scores,
-                "cue_overlap_scores": all_cue_overlap_scores,
+                "ROUGE": np.mean(
+                    rouge_scores
+                ),  # why would it be a list if its for test
+                "Cue-F1": np.mean(cue_f1_scores),
+                "SO": np.mean(so_scores),
             },
             f,
         )

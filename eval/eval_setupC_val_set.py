@@ -11,6 +11,10 @@ from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
+from thesis.utils.constants import (
+    classification_template_part1,
+    classification_template_part2,
+)
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed
 
@@ -27,10 +31,6 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
-
-prompt_1 = 'Please read the 2 texts below. Each of them contains an assesment of whether or not a person is lying. Each one of them contains arguments for and against both deception and truth. At the same time they both lead to a specific, more likely conclusion. Read them and output the final conclusions only. Do it in the following, example format: "Text 1: truth, Text 2: deception". The output values should be aligned with those texts...\n\nText 1:\n'
-
-prompt_2 = "\n\nText 2:\n"
 
 for split_id in range(1, 4):
     print(f"Split id: {split_id}")
@@ -51,10 +51,10 @@ for split_id in range(1, 4):
     )
 
     all_rouge_scores = []
-    all_label_acc = []
-    all_label_precision = []
-    all_label_recall = []
-    all_label_f1 = []
+    all_acc = []
+    all_precision = []
+    all_recall = []
+    all_f1 = []
 
     for epoch in range(3):
         print(f"Epoch: {epoch}")
@@ -65,10 +65,10 @@ for split_id in range(1, 4):
         model = PeftModel.from_pretrained(base, checkpoint)
 
         model = model.to("cuda:0").eval()
-        all_rouge_scores_per_epoch = []
-        all_label_gt_per_epoch = []
-        all_label_pred_per_epoch = []
-        for i, (X, Y) in enumerate(val_dataloader):
+        all_rouge_scores_this_epoch = []
+        all_gt_this_epoch = []
+        all_pred_this_epoch = []
+        for X, Y in val_dataloader:
             X = processor.apply_chat_template(
                 X,
                 num_frames=16,
@@ -95,7 +95,7 @@ for split_id in range(1, 4):
                 )
                 for k, v in X.items()
             }
-            with torch.inference_mode():
+            with torch.no_grad():
                 generated_ids = model.generate(
                     **inputs, max_new_tokens=1000, do_sample=False
                 )
@@ -114,17 +114,24 @@ for split_id in range(1, 4):
             )
 
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                print(pred)
-                full_prompt = prompt_1 + pred + prompt_2 + ref
+                classification_prompt = (
+                    classification_template_part1
+                    + pred
+                    + classification_template_part2
+                    + ref
+                )
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, temperature=0.0, top_p=1
+                    model="gpt-4.1-mini",
+                    input=classification_prompt,
+                    temperature=0.0,
+                    top_p=1,
                 ).output_text
                 try:
-                    predicted, gt = response.split(",")
-                    if predicted.replace("Text 1: ", "").lower().strip() == "deception":
-                        predicted = 1
-                    elif predicted.replace("Text 1: ", "").lower().strip() == "truth":
-                        predicted = 0
+                    pred, gt = response.split(",")
+                    if pred.replace("Text 1: ", "").lower().strip() == "deception":
+                        pred = 1
+                    elif pred.replace("Text 1: ", "").lower().strip() == "truth":
+                        pred = 0
                     else:
                         raise ValueError()
                     if gt.replace("Text 2: ", "").lower().strip() == "deception":
@@ -133,13 +140,13 @@ for split_id in range(1, 4):
                         gt = 0
                     else:
                         raise ValueError()
-                    all_label_pred_per_epoch.append(predicted)
-                    all_label_gt_per_epoch.append(gt)
+                    all_pred_this_epoch.append(pred)
+                    all_gt_this_epoch.append(gt)
                 except ValueError:
                     print(f"WARNING: incorrect response formatting: {response}")
 
                 rouge_score = scorer.score(ref, pred)
-                all_rouge_scores_per_epoch.append(
+                all_rouge_scores_this_epoch.append(
                     np.mean(
                         [
                             rouge_score["rouge1"].fmeasure,
@@ -149,16 +156,14 @@ for split_id in range(1, 4):
                     )
                 )
 
-        all_rouge_scores.append(np.mean(all_rouge_scores_per_epoch))
+        all_rouge_scores.append(np.mean(all_rouge_scores_this_epoch))
 
-        all_label_gt_per_epoch = np.array(all_label_gt_per_epoch)
-        all_label_pred_per_epoch = np.array(all_label_pred_per_epoch)
-        label_acc = (
-            all_label_gt_per_epoch == all_label_pred_per_epoch
-        ).sum() / all_label_gt_per_epoch.size
-        tp = ((all_label_gt_per_epoch == 1) & (all_label_pred_per_epoch == 1)).sum()
-        fp = ((all_label_gt_per_epoch == 0) & (all_label_pred_per_epoch == 1)).sum()
-        fn = ((all_label_gt_per_epoch == 1) & (all_label_pred_per_epoch == 0)).sum()
+        all_gt_this_epoch = np.array(all_gt_this_epoch)
+        all_pred_this_epoch = np.array(all_pred_this_epoch)
+        acc = (all_gt_this_epoch == all_pred_this_epoch).sum() / all_gt_this_epoch.size
+        tp = ((all_gt_this_epoch == 1) & (all_pred_this_epoch == 1)).sum()
+        fp = ((all_gt_this_epoch == 0) & (all_pred_this_epoch == 1)).sum()
+        fn = ((all_gt_this_epoch == 1) & (all_pred_this_epoch == 0)).sum()
 
         precision = tp / (tp + fp) if (tp + fp) > 0.0 else 0.0
         recall = tp / (tp + fn) if (tp + fn) > 0.0 else 0.0
@@ -168,26 +173,21 @@ for split_id in range(1, 4):
             else 0.0
         )
 
-        all_label_acc.append(label_acc)
-        all_label_precision.append(precision)
-        all_label_recall.append(recall)
-        all_label_f1.append(f1)
-        print(all_rouge_scores)
-        print(all_label_acc)
-        print(all_label_precision)
-        print(all_label_recall)
-        print(all_label_f1)
+        all_acc.append(acc)
+        all_precision.append(precision)
+        all_recall.append(recall)
+        all_f1.append(f1)
 
     with open(
-        f"thesis/out/{timestamp}/model_split{split_id}_validation_only_info.json", "w"
+        f"thesis/out/{timestamp}/model_split{split_id}_validation_metrics.json", "w"
     ) as f:
         json.dump(
             {
-                "rouge_scores": all_rouge_scores,
-                "label_acc": all_label_acc,
-                "label_precision": all_label_precision,
-                "label_recall": all_label_recall,
-                "label_f1": all_label_f1,
+                "ROUGE": all_rouge_scores,
+                "Accuracy": all_acc,
+                "Precision": all_precision,
+                "Recall": all_recall,
+                "F1": all_f1,
             },
             f,
         )

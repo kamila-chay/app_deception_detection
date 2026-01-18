@@ -72,9 +72,7 @@ for split_id, reference_token_level_epoch in ((1, 8), (2, 1), (3, 3)):
         model.eval()
 
         total_loss = 0
-        for i, (input, input_completed, input_completed_opposing) in enumerate(
-            val_dataloader
-        ):
+        for input, input_completed, input_completed_opposing in val_dataloader:
             input = processor.apply_chat_template(
                 input,
                 num_frames=16,

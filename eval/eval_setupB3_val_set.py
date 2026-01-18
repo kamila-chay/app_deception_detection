@@ -11,6 +11,10 @@ from rouge_score import rouge_scorer
 from torch.utils.data import DataLoader
 from transformers import AutoModelForImageTextToText, AutoProcessor, logging
 
+from thesis.utils.constants import (
+    classification_template_part1,
+    classification_template_part2,
+)
 from thesis.utils.dataset_dolos import DolosDataset
 from thesis.utils.utils import set_seed
 
@@ -27,10 +31,6 @@ processor = AutoProcessor.from_pretrained(MODEL_PATH, use_fast=True)
 
 scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
 client = OpenAI()
-
-prompt_1 = 'Please read the 2 texts below. Each of them contains an assesment of whether or not a person is lying. Each one of them contains arguments for and against both deception and truth. At the same time they both lead to a specific, more likely conclusion. Read them and output the final conclusions only. Do it in the following, example format: "Text 1: truth, Text 2: deception". The output values should be aligned with those texts:\n\nText 1:\n'
-
-prompt_2 = "\n\nText 2:\n"
 
 for split_id in range(1, 2):
     print(f"Split id: {split_id}")
@@ -96,7 +96,7 @@ for split_id in range(1, 2):
                 )
                 for k, v in X.items()
             }
-            with torch.inference_mode():
+            with torch.no_grad():
                 generated_ids = model.generate(
                     **inputs, max_new_tokens=1000, do_sample=False
                 )
@@ -115,16 +115,24 @@ for split_id in range(1, 2):
             )
 
             for pred, ref in zip(generated_text_trimmed, expected_text_trimmed):
-                full_prompt = prompt_1 + pred + prompt_2 + ref
+                classification_prompt = (
+                    classification_template_part1
+                    + pred
+                    + classification_template_part2
+                    + ref
+                )
                 response = client.responses.create(
-                    model="gpt-4.1-mini", input=full_prompt, top_p=1, temperature=0
+                    model="gpt-4.1-mini",
+                    input=classification_prompt,
+                    top_p=1,
+                    temperature=0,
                 ).output_text
                 try:
-                    predicted, gt = response.split(",")
-                    if predicted.replace("Text 1: ", "").lower().strip() == "deception":
-                        predicted = 1
-                    elif predicted.replace("Text 1: ", "").lower().strip() == "truth":
-                        predicted = 0
+                    pred, gt = response.split(",")
+                    if pred.replace("Text 1: ", "").lower().strip() == "deception":
+                        pred = 1
+                    elif pred.replace("Text 1: ", "").lower().strip() == "truth":
+                        pred = 0
                     else:
                         raise ValueError()
                     if gt.replace("Text 2: ", "").lower().strip() == "deception":
@@ -133,7 +141,7 @@ for split_id in range(1, 2):
                         gt = 0
                     else:
                         raise ValueError()
-                    all_pred_this_epoch.append(predicted)
+                    all_pred_this_epoch.append(pred)
                     all_gt_this_epoch.append(gt)
                 except ValueError:
                     print(f"WARNING: incorrect response formatting: {response}")
@@ -166,15 +174,10 @@ for split_id in range(1, 2):
             else 0.0
         )
 
-        all_acc.append(acc)
+        all_acc.append(acc)  # should add "scores"?
         all_precision.append(precision)
         all_recall.append(recall)
-        all_f1.append(f1)
-        print(all_rouge_scores)
-        print(all_acc)
-        print(all_precision)
-        print(all_recall)
-        print(all_f1)
+        all_f1.append(f1)  # should add val loss calculation
 
         with open(
             f"thesis/out/{timestamp}/model_split{split_id}_validation_metrics.json",
@@ -182,11 +185,11 @@ for split_id in range(1, 2):
         ) as f:
             json.dump(
                 {
-                    "rouge_scores": all_rouge_scores,
-                    "precision": all_precision,
-                    "recall": all_recall,
-                    "f1": all_f1,
-                    "acc": all_acc,
+                    "ROUGE": all_rouge_scores,
+                    "Precision": all_precision,
+                    "Recall": all_recall,
+                    "F1": all_f1,
+                    "Accuracy": all_acc,
                 },
                 f,
             )
